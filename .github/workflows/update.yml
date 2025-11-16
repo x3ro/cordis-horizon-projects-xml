@@ -13,5 +13,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+
+      - name: Install xmllint
+        run: sudo apt install -y libxml2-utils
+
       - name: Update dataset
         run: scripts/update.sh
