@@ -1,0 +1,17 @@
+name: Update dataset
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Every day at midnight UTC
+
+  # Allows us to run the workflow manually
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: Update dataset
+        run: scripts/update.sh
