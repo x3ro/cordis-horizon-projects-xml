@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages>en</availableLanguages>
+  <rcn>272651</rcn>
+  <id>101206668</id>
+  <acronym>VALIDATE</acronym>
+  <teaser>The emergence of memory-safe programming languages like Rust, Go, and Swift has significantly enhanced security by mitigating common memory-related vulnerabilities with minimal performance loss. Traditionally, memory safety was enforced through run-time support (e.g., Java)...</teaser>
+  <objective>The emergence of memory-safe programming languages like Rust, Go, and Swift has significantly enhanced security by mitigating common memory-related vulnerabilities with minimal performance loss. Traditionally, memory safety was enforced through run-time support (e.g., Java), which executes bytecode but incurs significant performance overhead. In contrast, Rust, Go, Swift, and similar languages provide memory safety without heavy run-time support, delivering fast, secure machine code instead of virtual bytecode assessed at run-time. The core idea is to let the compiler vet about the security of a program by rejecting insecure code and by injecting certain checks in the produced machine code.  However, the lack of run-time protection introduces a new attack vector. Specifically, developers themselves can become attackers by subtly manipulating binaries compiled with memory-safe languages, introducing deliberate vulnerabilities. These compromised binaries, disguised as secure, can bypass app store screening processes and become malicious post-installation through remote exploitation. This underscores the need for a robust validation mechanism to complement existing screening processes. To address this, we introduce VALIDATE (VALIDATing SEcurity Safeguards in Binaries Compiled with Memory-Safe Languages Pre-Execution), a validation mechanism ensuring that binaries compiled with memory-safe languages retain their intended security properties before execution. VALIDATE operates at the final executable level, where no further code alterations can occur, providing accurate end-to-end security guarantees. By advancing static and dynamic analysis techniques beyond the state-of-the-art, VALIDATE ensures that security guarantees enforced at compile-time remain intact at load-time. Integrating VALIDATE with app store screening processes enhances cybersecurity and maintains user trust by ensuring that memory-safe advertised software is indeed safe before execution.</objective>
+  <title>VALIDATing SEcurity Safeguards in Binaries Compiled with Memory-Safe Languages Pre-Execution</title>
+  <totalCost>0</totalCost>
+  <ecMaxContribution>217076.16</ecMaxContribution>
+  <startDate>2025-09-01</startDate>
+  <endDate>2027-08-31</endDate>
+  <ecSignatureDate>2025-05-21</ecSignatureDate>
+  <duration>24</duration>
+  <status>SIGNED</status>
+  <keywords>Computer security, Systems security, Binary Analysis</keywords>
+  <identifiers>
+    <grantDoi>10.3030/101206668</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>false</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2025-07-08 11:41:50</sourceUpdateDate>
+  <contentCreationDate>2025-05-26 17:39:45</contentCreationDate>
+  <contentUpdateDate>2025-08-18 13:49:02</contentUpdateDate>
+  <lastUpdateDate>2025-09-19 14:48:39</lastUpdateDate>
+  <relations>
+    <associations>
+      <article source="editorial" type="relatedArticle">
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <rcn>459074</rcn>
+        <id>459074-ensuring-security-in-memory-safe-binaries</id>
+        <title>Ensuring security in memory-safe binaries</title>
+        <contentUpdateDate>2025-09-17 15:06:01</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="applicationDomain" type="isApplicableIn">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/society</code>
+              <title>Society</title>
+              <displayCode>/Society</displayCode>
+            </category>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/projectDescription</code>
+              <title>Project description</title>
+              <description>Article: description of linked project written by editorial team</description>
+              <displayCode>/Project description</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/editorial</code>
+              <title>CORDIS Editorial</title>
+              <description>Written by CORDIS</description>
+              <displayCode>/CORDIS Editorial</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </article>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>56116</rcn>
+        <title>HORIZON-MSCA-2024-PF-01</title>
+        <identifier>HORIZON-MSCA-2024-PF-01</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>56116</rcn>
+        <title>HORIZON-MSCA-2024-PF-01</title>
+        <identifier>HORIZON-MSCA-2024-PF-01</identifier>
+      </call>
+      <organization netEcContribution="0" totalCost="0" source="corda" order="2" terminated="false" sme="false" type="associatedPartner">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1924976</rcn>
+        <id>998520426</id>
+        <vatNumber>ESG84908987</vatNumber>
+        <legalName>FUNDACION IMDEA SOFTWARE</legalName>
+        <address>
+          <street>CAMPUS DE MONTEGANCEDO SN</street>
+          <city>Pozuelo De Alarcon</city>
+          <postalCode>28223</postalCode>
+          <country>ES</country>
+          <url>http://www.software.imdea.org</url>
+          <geolocation>40.4167047,-3.7035824</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/REC</code>
+              <title>Research Organisations</title>
+              <displayCode>/Research Organisations</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Madrid</name>
+              <rcn>242233344</rcn>
+              <nutsCode>ES300</nutsCode>
+              <parents>
+                <region>
+                  <name>Comunidad de Madrid</name>
+                  <rcn>242233384</rcn>
+                  <nutsCode>ES30</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Comunidad de Madrid</name>
+                      <rcn>242235944</rcn>
+                      <nutsCode>ES3</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Spain</name>
+                          <rcn>242387496</rcn>
+                          <nutsCode>ES</nutsCode>
+                          <euCode>ES</euCode>
+                          <isoCode>ES</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Spain</name>
+              <rcn>242387496</rcn>
+              <nutsCode>ES</nutsCode>
+              <euCode>ES</euCode>
+              <isoCode>ES</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="217076.16" totalCost="0" source="corda" order="1" ecContribution="217076.16" terminated="false" sme="false" type="coordinator">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1905872</rcn>
+        <id>999977366</id>
+        <vatNumber>NL001569569B01</vatNumber>
+        <legalName>TECHNISCHE UNIVERSITEIT DELFT</legalName>
+        <shortName>TU Delft</shortName>
+        <address>
+          <street>STEVINWEG 1</street>
+          <city>DELFT</city>
+          <postalCode>2628 CN</postalCode>
+          <country>NL</country>
+          <postBox>5</postBox>
+          <url>http://www.tudelft.nl</url>
+          <geolocation>51.9986667,4.3757142</geolocation>
+        </address>
+        <departmentName>Contract Manager</departmentName>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <rcn>1471672</rcn>
+              <nutsCode>NL362</nutsCode>
+            </region>
+            <region type="relatedRegion">
+              <name>Netherlands</name>
+              <rcn>391547432</rcn>
+              <nutsCode>NL</nutsCode>
+              <euCode>NL</euCode>
+              <isoCode>NL</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme type="relatedLegalBasis" source="corda" uniqueProgrammePart="true">
+        <availableLanguages>en</availableLanguages>
+        <rcn>705729</rcn>
+        <id>HORIZON.1.2</id>
+        <code>HORIZON.1.2</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.1.2</pga>
+        <title>Marie Skłodowska-Curie Actions (MSCA)</title>
+        <parent>
+          <programme>
+            <rcn>705726</rcn>
+            <code>HORIZON.1</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode>/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme type="relatedTopic" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>708088</rcn>
+        <id>HORIZON_HORIZON-MSCA-2024-PF-01-01</id>
+        <code>HORIZON-MSCA-2024-PF-01-01</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>MSCA Postdoctoral Fellowships 2024</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode>/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode>/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/47/307</code>
+        <title>software</title>
+        <displayCode>/natural sciences/computer and information sciences/software</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/47/295</code>
+        <title>computer security</title>
+        <displayCode>/natural sciences/computer and information sciences/computer security</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="100">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode>/Digital agenda</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="40">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode>/Clean air</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="100">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode>/Artificial intelligence</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="40">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode>/Climate action</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode>/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages>en</availableLanguages>
+        <code>/HORIZON-TMA-MSCA-PF-EF</code>
+        <title>HORIZON TMA MSCA Postdoctoral Fellowships - European Fellowships</title>
+        <description>HORIZON TMA MSCA Postdoctoral Fellowships - European Fellowships</description>
+        <displayCode>/HORIZON TMA MSCA Postdoctoral Fellowships - European Fellowships</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode>/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

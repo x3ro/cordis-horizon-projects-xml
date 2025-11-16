@@ -1,0 +1,1990 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages>en</availableLanguages>
+  <rcn>243297</rcn>
+  <id>101092582</id>
+  <acronym>DECICE</acronym>
+  <teaser>The cloud computing industry has grown massively over the last decade and with that new areas of application have arisen. Some areas require specialized hardware, which needs to be placed in locations close to the user. User requirements such as ultra-low latency, security and...</teaser>
+  <objective>The cloud computing industry has grown massively over the last decade and with that new areas of application have arisen. Some areas require specialized hardware, which needs to be placed in locations close to the user. User requirements such as ultra-low latency, security and location awareness are becoming more and more common, for example, in Smart Cities, industrial automation and data analytics. Modern cloud applications have also become more complex as they usually run on a distributed computer system, split up into components that must run with high availability. 
+
+Unifying such diverse systems into centrally controlled compute clusters and providing sophisticated scheduling decisions across them are two major challenges in this field. Scheduling decisions for a cluster consisting of cloud and edge nodes must consider unique characteristics such as variability in node and network capacity. The common solution for orchestrating large clusters is Kubernetes, however, it is designed for reliable homogeneous clusters. Many applications and extensions are available for Kubernetes. Unfortunately, none of them accounts for optimization of both performance and energy or addresses data and job locality.
+
+In DECICE, we develop an open and portable cloud management framework for automatic and adaptive optimization of applications by mapping jobs to the most suitable resources in a heterogeneous system landscape. By utilizing holistic monitoring, we construct a digital twin of the system that reflects on the original system. An AI-scheduler makes decisions on placement of job and data as well as conducting job rescheduling to adjust to system changes. A virtual training environment is provided that generates test data for training of ML-models and the exploration of what-if scenarios. The portable framework is integrated into the Kubernetes ecosystem and validated using relevant use cases on real-world heterogeneous systems.</objective>
+  <title>Device-Edge-Cloud Intelligent Collaboration framEwork</title>
+  <totalCost>5627250</totalCost>
+  <ecMaxContribution>5627249.5</ecMaxContribution>
+  <startDate>2022-12-01</startDate>
+  <endDate>2025-11-30</endDate>
+  <ecSignatureDate>2022-11-23</ecSignatureDate>
+  <duration>36</duration>
+  <status>SIGNED</status>
+  <keywords>AI-scheduling, digital twin, system monitoring, machine learning, heterogeneous systems, data centers, edge computing, Kubernetes</keywords>
+  <identifiers>
+    <grantDoi>10.3030/101092582</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>false</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2025-03-18 10:07:24</sourceUpdateDate>
+  <contentCreationDate>2022-11-28 13:29:40</contentCreationDate>
+  <contentUpdateDate>2022-11-28 13:29:07</contentUpdateDate>
+  <lastUpdateDate>2025-09-19 14:48:56</lastUpdateDate>
+  <relations>
+    <associations>
+      <article source="editorial" type="relatedArticle">
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <rcn>439717</rcn>
+        <id>439717-an-open-and-portable-cloud-management-framework-with-smart-scheduling</id>
+        <title>An open and portable cloud management framework with smart scheduling</title>
+        <contentUpdateDate>2023-04-28 16:16:02</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/projectDescription</code>
+              <title>Project description</title>
+              <description>Article: description of linked project written by editorial team</description>
+              <displayCode>/Project description</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/editorial</code>
+              <title>CORDIS Editorial</title>
+              <description>Written by CORDIS</description>
+              <displayCode>/CORDIS Editorial</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </article>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>55532</rcn>
+        <title>HORIZON-CL4-2022-DATA-01</title>
+        <identifier>HORIZON-CL4-2022-DATA-01</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>55532</rcn>
+        <title>HORIZON-CL4-2022-DATA-01</title>
+        <identifier>HORIZON-CL4-2022-DATA-01</identifier>
+      </call>
+      <organization netEcContribution="66788.59" totalCost="66788.59" source="corda" order="7" ecContribution="66788.59" terminated="true" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>3099897</rcn>
+        <id>939220834</id>
+        <legalName>FORSCHUNG BURGENLAND GMBH</legalName>
+        <address>
+          <street>CAMPUS 1</street>
+          <city>Eisenstadt</city>
+          <postalCode>7000</postalCode>
+          <country>AT</country>
+          <geolocation>47.8297128,16.5351516</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/REC</code>
+              <title>Research Organisations</title>
+              <displayCode>/Research Organisations</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Nordburgenland</name>
+              <rcn>175378498</rcn>
+              <nutsCode>AT112</nutsCode>
+              <parents>
+                <region>
+                  <name>Burgenland</name>
+                  <rcn>175378536</rcn>
+                  <nutsCode>AT11</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Ostösterreich</name>
+                      <rcn>1465444</rcn>
+                      <nutsCode>AT1</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Austria</name>
+                          <rcn>175540776</rcn>
+                          <nutsCode>AT</nutsCode>
+                          <euCode>AT</euCode>
+                          <isoCode>AT</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Austria</name>
+              <rcn>175540776</rcn>
+              <nutsCode>AT</nutsCode>
+              <euCode>AT</euCode>
+              <isoCode>AT</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="434545" totalCost="434545" source="corda" order="4" ecContribution="434545" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1906237</rcn>
+        <id>999990946</id>
+        <vatNumber>SE202100305401</vatNumber>
+        <legalName>KUNGLIGA TEKNISKA HOEGSKOLAN</legalName>
+        <shortName>KTH</shortName>
+        <address>
+          <street>BRINELLVAGEN 8</street>
+          <city>STOCKHOLM</city>
+          <postalCode>100 44</postalCode>
+          <country>SE</country>
+          <postBox>N/A</postBox>
+          <url>http://www.kth.se</url>
+          <geolocation>59.3498183,18.0707826</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Stockholms län</name>
+              <rcn>473436224</rcn>
+              <nutsCode>SE110</nutsCode>
+              <parents>
+                <region>
+                  <name>Stockholm</name>
+                  <rcn>473436264</rcn>
+                  <nutsCode>SE11</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Östra Sverige</name>
+                      <rcn>473438760</rcn>
+                      <nutsCode>SE1</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Sweden</name>
+                          <rcn>473598504</rcn>
+                          <nutsCode>SE</nutsCode>
+                          <euCode>SE</euCode>
+                          <isoCode>SE</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Sweden</name>
+              <rcn>473598504</rcn>
+              <nutsCode>SE</nutsCode>
+              <euCode>SE</euCode>
+              <isoCode>SE</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="250000" totalCost="250000" source="corda" order="8" ecContribution="250000" terminated="false" sme="true" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1920907</rcn>
+        <id>969470478</id>
+        <vatNumber>ATU67376635</vatNumber>
+        <legalName>SYNYO GmbH</legalName>
+        <shortName>SYNYO</shortName>
+        <address>
+          <street>Otto-Bauer-Gasse 5/14</street>
+          <city>Wien</city>
+          <postalCode>1060</postalCode>
+          <country>AT</country>
+          <postBox>000</postBox>
+          <url>https://www.synyo.com</url>
+          <geolocation>48.19606415,16.348824229156328</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PRC</code>
+              <title>Private for-profit entities (excluding Higher or Secondary Education Establishments)</title>
+              <displayCode>/Private for-profit entities (excluding Higher or Secondary Education Establishments)</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Wien</name>
+              <rcn>175378624</rcn>
+              <nutsCode>AT130</nutsCode>
+              <parents>
+                <region>
+                  <name>Wien</name>
+                  <rcn>175378664</rcn>
+                  <nutsCode>AT13</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Ostösterreich</name>
+                      <rcn>1465444</rcn>
+                      <nutsCode>AT1</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Austria</name>
+                          <rcn>175540776</rcn>
+                          <nutsCode>AT</nutsCode>
+                          <euCode>AT</euCode>
+                          <isoCode>AT</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Austria</name>
+              <rcn>175540776</rcn>
+              <nutsCode>AT</nutsCode>
+              <euCode>AT</euCode>
+              <isoCode>AT</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="475416" totalCost="475416.25" source="corda" order="6" ecContribution="475416" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1920594</rcn>
+        <id>996543275</id>
+        <vatNumber>DE254327327</vatNumber>
+        <legalName>HUAWEI TECHNOLOGIES DUESSELDORF GMBH</legalName>
+        <shortName>HWDU</shortName>
+        <address>
+          <street>HANSAALLEE 205</street>
+          <city>DUSSELDORF</city>
+          <postalCode>40549</postalCode>
+          <country>DE</country>
+          <geolocation>51.2418336,6.7221219</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PRC</code>
+              <title>Private for-profit entities (excluding Higher or Secondary Education Establishments)</title>
+              <displayCode>/Private for-profit entities (excluding Higher or Secondary Education Establishments)</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Düsseldorf, Kreisfreie Stadt</name>
+              <rcn>221814849</rcn>
+              <nutsCode>DEA11</nutsCode>
+              <parents>
+                <region>
+                  <name>Düsseldorf</name>
+                  <rcn>221814888</rcn>
+                  <nutsCode>DEA1</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Nordrhein-Westfalen</name>
+                      <rcn>221817384</rcn>
+                      <nutsCode>DEA</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Germany</name>
+                          <rcn>221940264</rcn>
+                          <nutsCode>DE</nutsCode>
+                          <euCode>DE</euCode>
+                          <isoCode>DE</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Germany</name>
+              <rcn>221940264</rcn>
+              <nutsCode>DE</nutsCode>
+              <euCode>DE</euCode>
+              <isoCode>DE</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="961311.41" totalCost="961311.41" source="corda" order="1" ecContribution="961311.41" terminated="false" sme="false" type="coordinator">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1908293</rcn>
+        <id>999845640</id>
+        <vatNumber>DE286005408</vatNumber>
+        <legalName>GEORG-AUGUST-UNIVERSITAT GOTTINGEN STIFTUNG OFFENTLICHEN RECHTS</legalName>
+        <shortName>UGOE</shortName>
+        <address>
+          <street>WILHELMSPLATZ 1</street>
+          <city>Gottingen</city>
+          <postalCode>37073</postalCode>
+          <country>DE</country>
+          <postBox>000</postBox>
+          <url>http://www.uni-goettingen.de</url>
+          <geolocation>51.53410245,9.937839941393724</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Göttingen</name>
+              <rcn>1465407</rcn>
+              <nutsCode>DE91C</nutsCode>
+              <parents>
+                <region>
+                  <name>Braunschweig</name>
+                  <rcn>221810792</rcn>
+                  <nutsCode>DE91</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Niedersachsen</name>
+                      <rcn>221813288</rcn>
+                      <nutsCode>DE9</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Germany</name>
+                          <rcn>221940264</rcn>
+                          <nutsCode>DE</nutsCode>
+                          <euCode>DE</euCode>
+                          <isoCode>DE</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Germany</name>
+              <rcn>221940264</rcn>
+              <nutsCode>DE</nutsCode>
+              <euCode>DE</euCode>
+              <isoCode>DE</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="228541" totalCost="228541.25" source="corda" order="9" ecContribution="228541" terminated="false" sme="true" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>2562213</rcn>
+        <id>965164260</id>
+        <vatNumber>IT08445410015</vatNumber>
+        <legalName>CONSORZIO TOP-IX - TORINO E PIEMONTE EXCHANGE POINT</legalName>
+        <shortName>Top-ix</shortName>
+        <address>
+          <street>VIA MARIA VITTORIA 38</street>
+          <city>Torino</city>
+          <postalCode>10123</postalCode>
+          <country>IT</country>
+          <geolocation>45.065207,7.6917515</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/OTH</code>
+              <title>Other</title>
+              <displayCode>/Other</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Torino</name>
+              <rcn>309641281</rcn>
+              <nutsCode>ITC11</nutsCode>
+              <parents>
+                <region>
+                  <name>Piemonte</name>
+                  <rcn>309641320</rcn>
+                  <nutsCode>ITC1</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Nord-Ovest</name>
+                      <rcn>309643816</rcn>
+                      <nutsCode>ITC</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Italy</name>
+                          <rcn>309758504</rcn>
+                          <nutsCode>IT</nutsCode>
+                          <euCode>IT</euCode>
+                          <isoCode>IT</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Italy</name>
+              <rcn>309758504</rcn>
+              <nutsCode>IT</nutsCode>
+              <euCode>IT</euCode>
+              <isoCode>IT</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="422500" totalCost="422500" source="corda" order="12" ecContribution="422500" terminated="false" sme="true" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1979447</rcn>
+        <id>895400405</id>
+        <vatNumber>TR1700622131</vatNumber>
+        <legalName>BIGTRI BILISIM ANONIM SIRKETI</legalName>
+        <address>
+          <street>EGITIM MAH.FAHRETTIN KERIM GOKAY CAD MARMARA UNI 151 A KADIKOY</street>
+          <city>Istanbul</city>
+          <postalCode>34722</postalCode>
+          <country>TR</country>
+          <geolocation>41.1130783,29.008671206401882</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PRC</code>
+              <title>Private for-profit entities (excluding Higher or Secondary Education Establishments)</title>
+              <displayCode>/Private for-profit entities (excluding Higher or Secondary Education Establishments)</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>İstanbul</name>
+              <rcn>1464100</rcn>
+              <nutsCode>TR100</nutsCode>
+              <parents>
+                <region>
+                  <name>İstanbul</name>
+                  <rcn>1465101</rcn>
+                  <nutsCode>TR10</nutsCode>
+                  <parents>
+                    <region>
+                      <name>İstanbul</name>
+                      <rcn>1465100</rcn>
+                      <nutsCode>TR1</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Türkiye</name>
+                          <rcn>493783592</rcn>
+                          <nutsCode>TR</nutsCode>
+                          <euCode>TR</euCode>
+                          <isoCode>TR</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Türkiye</name>
+              <rcn>493783592</rcn>
+              <nutsCode>TR</nutsCode>
+              <euCode>TR</euCode>
+              <isoCode>TR</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="627070" totalCost="627070" source="corda" order="3" ecContribution="627070" terminated="false" sme="true" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>2562299</rcn>
+        <id>968741911</id>
+        <vatNumber>IT02005300351</vatNumber>
+        <legalName>E 4 COMPUTER ENGINEERING SPA</legalName>
+        <shortName>E4</shortName>
+        <address>
+          <street>VIA MARTIRI DELLA LIBERTA 66</street>
+          <city>SCANDIANO</city>
+          <postalCode>42019</postalCode>
+          <country>IT</country>
+          <geolocation>44.6034765,10.695885230504079</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PRC</code>
+              <title>Private for-profit entities (excluding Higher or Secondary Education Establishments)</title>
+              <displayCode>/Private for-profit entities (excluding Higher or Secondary Education Establishments)</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Reggio nell’Emilia</name>
+              <rcn>1465419</rcn>
+              <nutsCode>ITH53</nutsCode>
+              <parents>
+                <region>
+                  <name>Emilia-Romagna</name>
+                  <rcn>1465007</rcn>
+                  <nutsCode>ITH5</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Nord-Est</name>
+                      <rcn>1465001</rcn>
+                      <nutsCode>ITH</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Italy</name>
+                          <rcn>309758504</rcn>
+                          <nutsCode>IT</nutsCode>
+                          <euCode>IT</euCode>
+                          <isoCode>IT</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Italy</name>
+              <rcn>309758504</rcn>
+              <nutsCode>IT</nutsCode>
+              <euCode>IT</euCode>
+              <isoCode>IT</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="0" totalCost="0" source="corda" order="13" terminated="false" sme="true" type="associatedPartner">
+        <availableLanguages>en</availableLanguages>
+        <rcn>2562219</rcn>
+        <id>988881924</id>
+        <vatNumber>GB195907811</vatNumber>
+        <legalName>THE NUMERICAL ALGORITHMS GROUP LIMITED</legalName>
+        <address>
+          <street>30 ST GILES</street>
+          <city>Oxford Oxfordshire</city>
+          <postalCode>OX1 3LE</postalCode>
+          <country>UK</country>
+          <geolocation>52.4627428,-1.5011331</geolocation>
+        </address>
+        <departmentName>-</departmentName>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/OTH</code>
+              <title>Other</title>
+              <displayCode>/Other</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>United Kingdom</name>
+              <rcn>508725800</rcn>
+              <nutsCode>UK</nutsCode>
+              <euCode>UK</euCode>
+              <isoCode>GB</isoCode>
+            </region>
+            <region type="relatedRegion">
+              <name>United Kingdom</name>
+              <rcn>508725800</rcn>
+              <nutsCode>UK</nutsCode>
+              <euCode>UK</euCode>
+              <isoCode>GB</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="403750" totalCost="403750" source="corda" order="10" ecContribution="403750" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1905805</rcn>
+        <id>999993953</id>
+        <vatNumber>IT01131710376</vatNumber>
+        <legalName>ALMA MATER STUDIORUM - UNIVERSITA DI BOLOGNA</legalName>
+        <shortName>UNIBO</shortName>
+        <address>
+          <street>VIA ZAMBONI 33</street>
+          <city>Bologna</city>
+          <postalCode>40126</postalCode>
+          <country>IT</country>
+          <url>http://www.unibo.it</url>
+          <geolocation>44.4968718,11.3524529</geolocation>
+        </address>
+        <departmentName>ARCES Research Center</departmentName>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Bologna</name>
+              <rcn>1465366</rcn>
+              <nutsCode>ITH55</nutsCode>
+              <parents>
+                <region>
+                  <name>Emilia-Romagna</name>
+                  <rcn>1465007</rcn>
+                  <nutsCode>ITH5</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Nord-Est</name>
+                      <rcn>1465001</rcn>
+                      <nutsCode>ITH</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Italy</name>
+                          <rcn>309758504</rcn>
+                          <nutsCode>IT</nutsCode>
+                          <euCode>IT</euCode>
+                          <isoCode>IT</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Italy</name>
+              <rcn>309758504</rcn>
+              <nutsCode>IT</nutsCode>
+              <euCode>IT</euCode>
+              <isoCode>IT</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="666937.5" totalCost="666937.5" source="corda" order="5" ecContribution="666937.5" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1905614</rcn>
+        <id>999974747</id>
+        <vatNumber>DE147794196</vatNumber>
+        <legalName>UNIVERSITY OF STUTTGART</legalName>
+        <shortName>USTUTT</shortName>
+        <address>
+          <street>KEPLERSTRASSE 7</street>
+          <city>Stuttgart</city>
+          <postalCode>70174</postalCode>
+          <country>DE</country>
+          <postBox>N/A</postBox>
+          <url>http://www.uni-stuttgart.de</url>
+          <geolocation>48.7831165,9.174964</geolocation>
+        </address>
+        <departmentName>High Performance Computing Centre Stuttgart</departmentName>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Stuttgart, Stadtkreis</name>
+              <rcn>221777985</rcn>
+              <nutsCode>DE111</nutsCode>
+              <parents>
+                <region>
+                  <name>Stuttgart</name>
+                  <rcn>221778024</rcn>
+                  <nutsCode>DE11</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Baden-Württemberg</name>
+                      <rcn>221780520</rcn>
+                      <nutsCode>DE1</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Germany</name>
+                          <rcn>221940264</rcn>
+                          <nutsCode>DE</nutsCode>
+                          <euCode>DE</euCode>
+                          <isoCode>DE</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Germany</name>
+              <rcn>221940264</rcn>
+              <nutsCode>DE</nutsCode>
+              <euCode>DE</euCode>
+              <isoCode>DE</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="782890" totalCost="782890" source="corda" order="2" ecContribution="782890" terminated="false" sme="true" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1966665</rcn>
+        <id>958202473</id>
+        <legalName>GESELLSCHAFT FUR WISSENSCHAFTLICHE DATENVERARBEITUNG MBH GOTTINGEN</legalName>
+        <address>
+          <street>BURCKHARDTWEG 4</street>
+          <city>GOTTINGEN</city>
+          <postalCode>37077</postalCode>
+          <country>DE</country>
+          <url>http://www.gwdg.de</url>
+          <geolocation>51.5611,9.9668845</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/OTH</code>
+              <title>Other</title>
+              <displayCode>/Other</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Göttingen</name>
+              <rcn>1465407</rcn>
+              <nutsCode>DE91C</nutsCode>
+              <parents>
+                <region>
+                  <name>Braunschweig</name>
+                  <rcn>221810792</rcn>
+                  <nutsCode>DE91</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Niedersachsen</name>
+                      <rcn>221813288</rcn>
+                      <nutsCode>DE9</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Germany</name>
+                          <rcn>221940264</rcn>
+                          <nutsCode>DE</nutsCode>
+                          <euCode>DE</euCode>
+                          <isoCode>DE</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Germany</name>
+              <rcn>221940264</rcn>
+              <nutsCode>DE</nutsCode>
+              <euCode>DE</euCode>
+              <isoCode>DE</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="307500" totalCost="307500" source="corda" order="11" ecContribution="307500" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1909662</rcn>
+        <id>998796682</id>
+        <legalName>MARMARA UNIVERSITY</legalName>
+        <shortName>MarUn</shortName>
+        <address>
+          <street>GOZTEPE KAMPUSU KUYUBASI</street>
+          <city>Istanbul</city>
+          <postalCode>81040</postalCode>
+          <country>TR</country>
+          <url>http://www.marmara.edu.tr</url>
+          <geolocation>41.0096334,28.9651646</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>İstanbul</name>
+              <rcn>1464100</rcn>
+              <nutsCode>TR100</nutsCode>
+              <parents>
+                <region>
+                  <name>İstanbul</name>
+                  <rcn>1465101</rcn>
+                  <nutsCode>TR10</nutsCode>
+                  <parents>
+                    <region>
+                      <name>İstanbul</name>
+                      <rcn>1465100</rcn>
+                      <nutsCode>TR1</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Türkiye</name>
+                          <rcn>493783592</rcn>
+                          <nutsCode>TR</nutsCode>
+                          <euCode>TR</euCode>
+                          <isoCode>TR</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Türkiye</name>
+              <rcn>493783592</rcn>
+              <nutsCode>TR</nutsCode>
+              <euCode>TR</euCode>
+              <isoCode>TR</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme type="relatedLegalBasis" source="corda" uniqueProgrammePart="true">
+        <availableLanguages>en</availableLanguages>
+        <rcn>705756</rcn>
+        <id>HORIZON.2.4</id>
+        <code>HORIZON.2.4</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.2.4</pga>
+        <title>Digital, Industry and Space</title>
+        <parent>
+          <programme>
+            <rcn>705740</rcn>
+            <code>HORIZON.2</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode>/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme type="relatedLegalBasis" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>705763</rcn>
+        <id>HORIZON.2.4.7</id>
+        <code>HORIZON.2.4.7</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.2.4.7</pga>
+        <title>Advanced Computing and Big Data</title>
+        <parent>
+          <programme>
+            <rcn>705756</rcn>
+            <code>HORIZON.2.4</code>
+            <parent>
+              <programme>
+                <rcn>705740</rcn>
+                <code>HORIZON.2</code>
+                <parent>
+                  <programme>
+                    <rcn>705725</rcn>
+                    <code>HORIZON</code>
+                  </programme>
+                </parent>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode>/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme type="relatedTopic" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>706666</rcn>
+        <id>HORIZON_HORIZON-CL4-2022-DATA-01-02</id>
+        <code>HORIZON-CL4-2022-DATA-01-02</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>Cognitive Cloud: AI-enabled computing continuum from Cloud to Edge (RIA)</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode>/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+            <category classification="topicKeyword" type="isAbout">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <code>/43450581</code>
+              <title>Computer architecture, pervasive computing, ubiquitous computing</title>
+              <displayCode>/Computer architecture, pervasive computing, ubiquitous computing</displayCode>
+            </category>
+            <category classification="topicKeyword" type="isAbout">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <code>/43453780</code>
+              <title>Internet of Things</title>
+              <displayCode>/Internet of Things</displayCode>
+            </category>
+            <category classification="topicKeyword" type="isAbout">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <code>/43450788</code>
+              <title>Cryptology, security, privacy, quantum crypto</title>
+              <displayCode>/Cryptology, security, privacy, quantum crypto</displayCode>
+            </category>
+            <category classification="topicKeyword" type="isAbout">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <code>/43457173</code>
+              <title>Semantic web technologies</title>
+              <displayCode>/Semantic web technologies</displayCode>
+            </category>
+            <category classification="topicKeyword" type="isAbout">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <code>/43450347</code>
+              <title>Cloud Computing models</title>
+              <displayCode>/Cloud Computing models</displayCode>
+            </category>
+            <category classification="topicKeyword" type="isAbout">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <code>/43455013</code>
+              <title>Network technologies / Internetworking</title>
+            </category>
+            <category classification="topicKeyword" type="isAbout">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <code>/43455019</code>
+              <title>Networks (communication networks, sensor networks, networks of robots, etc.)</title>
+              <displayCode>/Networks (communication networks, sensor networks, networks of robots, etc.)</displayCode>
+            </category>
+            <category classification="topicKeyword" type="isAbout">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <code>/43456177</code>
+              <title>Privacy</title>
+              <displayCode>/Privacy</displayCode>
+            </category>
+            <category classification="topicKeyword" type="isAbout">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <code>/43458508</code>
+              <title>Trustworthy ICT</title>
+              <displayCode>/Trustworthy ICT</displayCode>
+            </category>
+            <category classification="topicKeyword" type="isAbout">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <code>/43456999</code>
+              <title>Scalability</title>
+              <displayCode>/Scalability</displayCode>
+            </category>
+            <category classification="topicKeyword" type="isAbout">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <code>/43450350</code>
+              <title>Cloud Infrastructures</title>
+              <displayCode>/Cloud Infrastructures</displayCode>
+            </category>
+            <category classification="topicKeyword" type="isAbout">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <code>/43454065</code>
+              <title>Linked (open) data</title>
+              <displayCode>/Linked (open) data</displayCode>
+            </category>
+            <category classification="topicKeyword" type="isAbout">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <code>/43456549</code>
+              <title>Real time data analytics</title>
+              <displayCode>/Real time data analytics</displayCode>
+            </category>
+            <category classification="topicKeyword" type="isAbout">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <code>/43449327</code>
+              <title>Anonymity</title>
+              <displayCode>/Anonymity</displayCode>
+            </category>
+            <category classification="topicKeyword" type="isAbout">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <code>/42849203</code>
+              <title>Managerial, procedural and technical aspects of network security</title>
+              <displayCode>/Managerial, procedural and technical aspects of network security</displayCode>
+            </category>
+            <category classification="topicKeyword" type="isAbout">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <code>/43450602</code>
+              <title>Computing for servers, data centres</title>
+              <displayCode>/Computing for servers, data centres</displayCode>
+            </category>
+            <category classification="topicKeyword" type="isAbout">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <code>/43459012</code>
+              <title>Internet and semantic web, database systems and libraries</title>
+              <displayCode>/Internet and semantic web, database systems and libraries</displayCode>
+            </category>
+            <category classification="topicKeyword" type="isAbout">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <code>/43449165</code>
+              <title>Algorithms, distributed, parallel and network algorithms, algorithmic game theory</title>
+              <displayCode>/Algorithms, distributed, parallel and network algorithms, algorithmic game theory</displayCode>
+            </category>
+            <category classification="topicKeyword" type="isAbout">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <code>/43457482</code>
+              <title>Software Design &amp; Development</title>
+              <displayCode>/Software Design &amp; Development</displayCode>
+            </category>
+            <category classification="topicKeyword" type="isAbout">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <code>/43450356</code>
+              <title>Cloud trust &amp; security</title>
+              <displayCode>/Cloud trust &amp; security</displayCode>
+            </category>
+            <category classification="topicKeyword" type="isAbout">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <code>/43458091</code>
+              <title>System Software</title>
+              <displayCode>/System Software</displayCode>
+            </category>
+            <category classification="topicKeyword" type="isAbout">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <code>/43450341</code>
+              <title>Cloud Architectures</title>
+              <displayCode>/Cloud Architectures</displayCode>
+            </category>
+            <category classification="topicKeyword" type="isAbout">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <code>/43453540</code>
+              <title>Information Security</title>
+              <displayCode>/Information Security</displayCode>
+            </category>
+            <category classification="topicKeyword" type="isAbout">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <code>/43450353</code>
+              <title>Cloud Services</title>
+              <displayCode>/Cloud Services</displayCode>
+            </category>
+            <category classification="topicKeyword" type="isAbout">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <code>/43455370</code>
+              <title>Open Source Software</title>
+              <displayCode>/Open Source Software</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1215049</rcn>
+        <id>101092582_12_DELIVHORIZON</id>
+        <title>Implementation Report of CI/CD Environment</title>
+        <description>Technical description of the selected CI/CD environment including the chosen code quality and security tools. This further includes the description of the configuration of quality gates preventing poor quality or insecure code from being built.</description>
+        <sourceUpdateDate>2024-11-25 04:23:04</sourceUpdateDate>
+        <contentUpdateDate>2024-12-02 16:50:59</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>9df4a10eaad2381f56923e5b13d15f99</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5fc7bb1b8&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1215054</rcn>
+        <id>101092582_16_DELIVHORIZON</id>
+        <title>Use Case Requirements</title>
+        <description>A list of the selected use cases and a detailed inventory of requirements for each application use case of the DECICE framework that covers hardware specifications (e.g. networking, storage, computinge) and performance demands.</description>
+        <sourceUpdateDate>2024-11-25 04:23:04</sourceUpdateDate>
+        <contentUpdateDate>2024-12-02 16:51:00</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>0b8768bd36df4ec2693aa19462e46e5e</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e500c61f36&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1215062</rcn>
+        <id>101092582_18_DELIVHORIZON</id>
+        <title>Project Development Environment Deployed for Phase 1 and 2</title>
+        <description>A project development environment is deployed for Phase 1 (one site) and Phase 2 (2 sites) with access for all project members to enable performance evaluations.</description>
+        <sourceUpdateDate>2024-11-25 04:23:04</sourceUpdateDate>
+        <contentUpdateDate>2024-12-02 16:51:01</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>8e0b10dcaeb662c3feb20ef0283bef96</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e50d362d22&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/D</code>
+              <title>Demonstrators, pilots, prototypes</title>
+              <displayCode>/Demonstrators, pilots, prototypes</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1211781</rcn>
+        <id>101092582_46096_PUBLIHORIZON</id>
+        <title>DECICE</title>
+        <details>
+          <authors>Julian Martin Kunkel; Christian Boehme; Jonathan Decker; Fabrizio Magugliani; Dirk Pleiter; Bastian Koller; Karthee Sivalingam; Sabri Pllana; Alexander Nikolov; Mujdat Soyturk; Christian Racca; Andrea Bartolini; Adrian Tate; Berkay Yaman</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Crossref</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>Association for Computing Machinery</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arxiv.2305.02697</doi>
+          <isbn>9798400701405</isbn>
+        </identifiers>
+        <sourceUpdateDate>2024-08-03 03:49:06</sourceUpdateDate>
+        <contentUpdateDate>2024-11-26 11:12:08</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1215045</rcn>
+        <id>101092582_3_DELIVHORIZON</id>
+        <title>Specification of the Optimization Scope</title>
+        <description>A detailed technical description of the system characteristics and metrics necessary for the scheduler and the supported user-requirements for job/workload.</description>
+        <sourceUpdateDate>2024-11-25 04:23:04</sourceUpdateDate>
+        <contentUpdateDate>2024-12-02 16:50:59</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>b8dac621470e3d85b6e3be74c9ab3d07</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e500c709f8&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1215061</rcn>
+        <id>101092582_5_DELIVHORIZON</id>
+        <title>AI-Scheduler Prototypes for Storage and Compute</title>
+        <description>Individual prototypes of the two AI-schedulers for storage and compute are implemented and are ready for use in the synthetic training environment.</description>
+        <sourceUpdateDate>2024-11-25 04:23:04</sourceUpdateDate>
+        <contentUpdateDate>2024-12-02 16:51:01</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>889873d84ec66b13cb50f3affb369095</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e505238047&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1215059</rcn>
+        <id>101092582_21_DELIVHORIZON</id>
+        <title>Dissemination &amp; Communication Plan</title>
+        <description>This deliverable will be focused on informing the broad audience on the project’s goals and activities, and raising awareness on its results. To achieve this, DECICE will lay out the target stakeholders as well as the means to reach them.  This will be updated in M18 for adjusting the plan to the requirements of the project and new opportunities and challenges. The plan will lay out the various activities which will seek to encourage stakeholders to use and uptake the AI-techniques and models developed by the project for further research or commercial activities.</description>
+        <sourceUpdateDate>2024-11-25 04:23:04</sourceUpdateDate>
+        <contentUpdateDate>2024-12-02 16:51:00</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>8fc9da7dabb58f2860654ec8aeb72b00</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5fc7b875d&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1215056</rcn>
+        <id>101092582_13_DELIVHORIZON</id>
+        <title>Integration of Monitoring Framework</title>
+        <description>This deliverable contains the software components, technical descriptions and documentation for the monitoring framework.</description>
+        <sourceUpdateDate>2024-11-25 04:23:04</sourceUpdateDate>
+        <contentUpdateDate>2024-12-02 16:51:00</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>2bc1e6721d52bbe1e12458b6b6c71a8f</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e505238434&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1215051</rcn>
+        <id>101092582_1_DELIVHORIZON</id>
+        <title>Project Handbook</title>
+        <description>This document provides an overview of management and administrative procedures that are in place to guarantee the quality of project results and efficient teamwork. Key aspects of these procedures and standards are discussed and agreed upon during the kick-off general assembly. This includes a description of the collaborative environment, how to organize material, a FAQ for typical questions of project partners, and plans for quality assurance, technical integration, risk management, communication and dissemination. For example, the QA and risk management plan defines guidelines, procedures, and checklists to be followed for project specific documentation, criteria for the reviews, communication, innovation potential, progress and impact indicators, and contingency plans. The plan also includes assigned deliverable and milestone review teams and documents the potential and emerged risks. Throughout the project, the project handbook will be constantly updated.</description>
+        <sourceUpdateDate>2024-11-25 04:23:04</sourceUpdateDate>
+        <contentUpdateDate>2024-12-02 16:51:00</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>064e83e85bc67cf63edf155edae330aa</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5f98e630c&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1236039</rcn>
+        <id>101092582_PSHORIZON</id>
+        <title>Periodic Reporting for period 1 - DECICE (Device-Edge-Cloud Intelligent Collaboration framEwork)</title>
+        <description>periodic</description>
+        <teaser>The cloud computing industry has grown massively over the last decade and with that new areas of application have arisen. Some areas require specialized hardware, which needs to be placed in locations close to the user. User requirements such as ultra-low latency, security and...</teaser>
+        <sourceUpdateDate>2024-12-31 11:18:55</sourceUpdateDate>
+        <contentUpdateDate>2024-12-31 11:18:55</contentUpdateDate>
+        <relations>
+          <associations>
+            <webItem type="relatedResultAttachment" source="corda">
+              <language>en</language>
+              <availableLanguages>en,any</availableLanguages>
+              <uri>/docs/results/horizon/101092/101092582_PS/decice-leaflet-back-side.png</uri>
+              <alternativeText>DECICE Leaflet Back side</alternativeText>
+              <mimetype>image/png</mimetype>
+              <size>221184</size>
+            </webItem>
+            <webItem type="relatedResultAttachment" source="corda">
+              <language>en</language>
+              <availableLanguages>en,any</availableLanguages>
+              <uri>/docs/results/horizon/101092/101092582_PS/decice-leaflet-front-side.png</uri>
+              <alternativeText>DECICE Leaflet Front side</alternativeText>
+              <mimetype>image/png</mimetype>
+              <size>207872</size>
+            </webItem>
+            <webItem type="relatedResultAttachment" source="corda">
+              <language>en</language>
+              <availableLanguages>en,any</availableLanguages>
+              <uri>/docs/results/horizon/101092/101092582_PS/decice-poster.png</uri>
+              <alternativeText>DECICE Poster</alternativeText>
+              <mimetype>image/png</mimetype>
+              <size>292864</size>
+            </webItem>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/pubsum</code>
+              <title>Report Summary</title>
+              <description>Result: Publishable summary (FP7 SESAM) and Summary for publication (H2020 SyGMa)</description>
+              <displayCode>/Report Summary</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1215044</rcn>
+        <id>101092582_8_DELIVHORIZON</id>
+        <title>Synthetic Test Environment</title>
+        <description>This deliverable contains the code and documentation for the synthetic test environment as defined in T3.5 that allows the training of the ML-models from WP2. Slight adaptations may be necessary after the initial version while the overall system architecture is not yet finalized. It also contains a description of the architecture.</description>
+        <sourceUpdateDate>2024-11-25 04:23:04</sourceUpdateDate>
+        <contentUpdateDate>2024-12-02 16:50:59</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>0743d9a4804a4c1527a7b563b49bc41b</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e505238132&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/O</code>
+              <title>Other</title>
+              <displayCode>/Other</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1215046</rcn>
+        <id>101092582_17_DELIVHORIZON</id>
+        <title>Development Environment Specification</title>
+        <description>A detailed technical specification of the necessary hardware and software to create a development environment for the DECICE framework as well as the definition of performance metrics for evaluation.</description>
+        <sourceUpdateDate>2024-11-25 04:23:04</sourceUpdateDate>
+        <contentUpdateDate>2024-12-02 16:50:59</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>0df14c3109248844cc96f9b709f73f45</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e509cfe788&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1212018</rcn>
+        <id>101092582_46316_PUBLIHORIZON</id>
+        <title>M100 ExaData: a data collection campaign on the CINECA’s Marconi100 Tier-0 supercomputer</title>
+        <details>
+          <authors>Borghesi, Andrea; Di Santi, Carmine; Molan, Martin; Seyedkazemi Ardebili, Mohsen; Mauri, Alessio; Guarrasi, Massimiliano; Galetti, Daniela; Cestari, Mirko; Barchi, Francesco; BENINI, LUCA; Beneventi, Francesco; Bartolini, Andrea</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Scientific Data, Vol 10, Iss 1, Pp 1-10 (2023)</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>Nature</publisher>
+        </details>
+        <identifiers>
+          <issn>2052-4463</issn>
+          <doi>10.3929/ethz-b-000614369</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-08-05 20:31:24</sourceUpdateDate>
+        <contentUpdateDate>2024-11-26 11:18:24</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1215058</rcn>
+        <id>101092582_23_DELIVHORIZON</id>
+        <title>Online and Media Presence</title>
+        <description>This deliverable will present information on the development of the project website, the utilized social media channels and project newsletter.</description>
+        <sourceUpdateDate>2024-11-25 04:23:04</sourceUpdateDate>
+        <contentUpdateDate>2024-12-02 16:51:00</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>eeb21963f13d7fda8b855076f3f69cad</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5fc7b997c&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1215055</rcn>
+        <id>101092582_2_DELIVHORIZON</id>
+        <title>Data Management Plan</title>
+        <description>The first version of the DMP is based on the Horizon Europe guidelines. It ensures that created data and research results are findable, accessible, interoperable and reusable (FAIR). It covers the handling of data during and after the project: the generated, collected and processed data, the procedures and standards applied, the restrictions on data, and the data curation and preservation. The DMP will be periodically updated similarly to the project handbook.</description>
+        <sourceUpdateDate>2024-11-25 04:23:04</sourceUpdateDate>
+        <contentUpdateDate>2024-12-02 16:51:00</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>97ee6df2ca4c10ccf36b64ecbd403054</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5fc7b9816&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1215052</rcn>
+        <id>101092582_4_DELIVHORIZON</id>
+        <title>Digital Twin</title>
+        <description>Core of this deliverable is the implementation of the digital twin and the corresponding interfaces, including the integration of the Telemetry API and the interface to the AI-schedulers.</description>
+        <sourceUpdateDate>2024-11-25 04:23:04</sourceUpdateDate>
+        <contentUpdateDate>2024-12-02 16:51:00</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>cf994c22c19703a2eb878ff98c85a962</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e505237a0a&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/O</code>
+              <title>Other</title>
+              <displayCode>/Other</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode>/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/29/101/555/1359</code>
+        <title>automation</title>
+        <displayCode>/social sciences/sociology/industrial relations/automation</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/49/335/1009</code>
+        <title>ecosystems</title>
+        <displayCode>/natural sciences/biological sciences/ecology/ecosystems</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="100">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode>/Digital agenda</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode>/Clean air</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="40">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode>/Artificial intelligence</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="40">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode>/Climate action</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode>/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages>en</availableLanguages>
+        <code>/HORIZON-RIA</code>
+        <title>HORIZON  Research and Innovation Actions</title>
+        <description>HORIZON  Research and Innovation Actions</description>
+        <displayCode>/HORIZON  Research and Innovation Actions</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode>/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

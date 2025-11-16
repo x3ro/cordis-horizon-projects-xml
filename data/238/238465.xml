@@ -1,0 +1,876 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages>en</availableLanguages>
+  <rcn>238465</rcn>
+  <id>101045114</id>
+  <acronym>DNAStorage</acronym>
+  <teaser>DNA-based storage has attracted significant attention due to recent demonstrations of the viability of storing information in macromolecules. Unlike classical optical and magnetic storage technologies, DNA-based storage does not require electrical supply to maintain data...</teaser>
+  <objective>DNA-based storage has attracted significant attention due to recent demonstrations of the viability of storing information in macromolecules. Unlike classical optical and magnetic storage technologies, DNA-based storage does not require electrical supply to maintain data integrity, and given the trends in cost decreases of DNA synthesis and sequencing, it is estimated that within the next decade DNA storage may become a highly competitive archiving technology. However, existing coding solutions to address various problems associated with implementations of DNA-based storage systems are very limited in their development.
+The goal of this research is to develop coding methods and techniques by designing novel and advanced solutions that are specifically targeted for the unique structure and error behavior of DNA-based storage systems. The proposed analytical framework will allow to address coding-theoretic challenges arising in the context of synthesis, storage, and sequencing of DNA strands. To achieve these goals, we aim to design codes for clustering, trace-reconstruction techniques, error-correction codes, and constrained codes. These codes are applicable for long-term storage and recovery of data recorded in DNA, while overcoming the unique challenges associated with the DNA storage channel.
+We expect that knowledge, techniques, and qualitative insights gained in our investigation will advance DNA storage technologies capable of accommodating the massive amounts of data. Furthermore, solving the proposed coding problems will require new methods and ideas that will also impact adjacent scientific disciplines such as bioinformatics, combinatorics, and theoretical computer science. Thus, the proposed investigation is likely to lead to the development of new paradigms and directions of research that may have far-reaching societal and economic impact. Lastly, the accompanying experimental testing will allow for practical as assessments of system performance and cost.</objective>
+  <title>Coding for DNA Storage</title>
+  <totalCost>1999096</totalCost>
+  <ecMaxContribution>1999096</ecMaxContribution>
+  <startDate>2022-06-01</startDate>
+  <endDate>2027-05-31</endDate>
+  <ecSignatureDate>2022-05-10</ecSignatureDate>
+  <duration>60</duration>
+  <status>SIGNED</status>
+  <keywords>Coding theory, error-correcting codes, constrained codes</keywords>
+  <identifiers>
+    <grantDoi>10.3030/101045114</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>true</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2025-01-03 10:47:16</sourceUpdateDate>
+  <contentCreationDate>2022-07-26 20:01:51</contentCreationDate>
+  <contentUpdateDate>2022-07-26 20:01:46</contentUpdateDate>
+  <lastUpdateDate>2025-09-19 14:49:09</lastUpdateDate>
+  <relations>
+    <associations>
+      <article source="editorial" type="relatedArticle">
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <rcn>434695</rcn>
+        <id>434695-an-advanced-analytical-framework-seeks-to-overcome-dna-data-coding-and-storage-challenges</id>
+        <title>An advanced analytical framework seeks to overcome DNA data coding and storage challenges</title>
+        <contentUpdateDate>2022-10-17 18:07:31</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/projectDescription</code>
+              <title>Project description</title>
+              <description>Article: description of linked project written by editorial team</description>
+              <displayCode>/Project description</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/editorial</code>
+              <title>CORDIS Editorial</title>
+              <description>Written by CORDIS</description>
+              <displayCode>/CORDIS Editorial</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </article>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>55314</rcn>
+        <title>ERC-2021-COG</title>
+        <identifier>ERC-2021-COG</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>55314</rcn>
+        <title>ERC-2021-COG</title>
+        <identifier>ERC-2021-COG</identifier>
+      </call>
+      <organization netEcContribution="1999096" totalCost="1999096" source="corda" order="1" ecContribution="1999096" terminated="false" sme="false" type="coordinator">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1906564</rcn>
+        <id>999907720</id>
+        <vatNumber>IL557585585</vatNumber>
+        <legalName>TECHNION - ISRAEL INSTITUTE OF TECHNOLOGY</legalName>
+        <address>
+          <street>SENATE BUILDING TECHNION CITY</street>
+          <city>Haifa</city>
+          <postalCode>32000</postalCode>
+          <country>IL</country>
+          <postBox>000</postBox>
+          <url>http://www.technion.ac.il</url>
+          <geolocation>32.8191218,34.9983856</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Israel</name>
+              <rcn>307661352</rcn>
+              <nutsCode>IL</nutsCode>
+              <euCode>IL</euCode>
+              <isoCode>IL</isoCode>
+            </region>
+            <region type="relatedRegion">
+              <name>Israel</name>
+              <rcn>307661352</rcn>
+              <nutsCode>IL</nutsCode>
+              <euCode>IL</euCode>
+              <isoCode>IL</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme type="relatedTopic" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>705886</rcn>
+        <id>HORIZON_ERC-2021-COG</id>
+        <code>ERC-2021-COG</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>ERC CONSOLIDATOR GRANTS</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode>/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme type="relatedLegalBasis" source="corda" uniqueProgrammePart="true">
+        <availableLanguages>en</availableLanguages>
+        <rcn>705727</rcn>
+        <id>HORIZON.1.1</id>
+        <code>HORIZON.1.1</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.1.1</pga>
+        <title>European Research Council (ERC)</title>
+        <parent>
+          <programme>
+            <rcn>705726</rcn>
+            <code>HORIZON.1</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode>/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1169378</rcn>
+        <id>101045114_46120_PUBLIHORIZON</id>
+        <title>Error-Correcting Codes for Nanopore Sequencing</title>
+        <details>
+          <authors>Anisha Banerjee; Yonatan Yehezkeally; Antonia Wachter-Zeh; Eitan Yaakobi</authors>
+          <journalTitle>IEEE Transactions on Information Theory</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <issn>1557-9654</issn>
+          <doi>10.1109/TIT.2024.3380615</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-08-05 20:31:24</sourceUpdateDate>
+        <contentUpdateDate>2024-09-24 13:10:29</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1169383</rcn>
+        <id>101045114_46119_PUBLIHORIZON</id>
+        <title>On the Capacity of DNA Labeling</title>
+        <details>
+          <authors>Dganit Hanania; Daniella Bar-Lev; Yevgeni Nogin; Yoav Shechtman; Eitan Yaakobi</authors>
+          <journalTitle>2023 IEEE International Symposium on Information Theory (ISIT)</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>2023 IEEE International Symposium on Information Theory (ISIT)</publisher>
+        </details>
+        <identifiers>
+          <issn>2157-8117</issn>
+          <doi>10.1109/ISIT54713.2023.10206769</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-08-05 20:31:24</sourceUpdateDate>
+        <contentUpdateDate>2024-09-24 13:14:00</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1169369</rcn>
+        <id>101045114_46126_PUBLIHORIZON</id>
+        <title>Scientific Reports</title>
+        <details>
+          <authors>Omer Sabary, Alexander Yucovich, Guy Shapira, Eitan Yaakobi</authors>
+          <journalTitle>Scientific Reports</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Nature</publisher>
+        </details>
+        <identifiers>
+          <issn>2045-2322</issn>
+          <doi>10.1038/s41598-024-51730-3</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-08-05 20:31:24</sourceUpdateDate>
+        <contentUpdateDate>2024-09-24 13:08:00</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1169382</rcn>
+        <id>101045114_46124_PUBLIHORIZON</id>
+        <title>DNA-Correcting Codes: End-to-end Correction in DNA Storage Systems</title>
+        <details>
+          <authors>Avital Boruchovsky; Daniella Bar-Lev; Eitan Yaakobi</authors>
+          <journalTitle>2023 IEEE International Symposium on Information Theory (ISIT)</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <issn>2157-8117</issn>
+          <doi>10.1109/ISIT54713.2023.1020653610.1109/ISIT54713.2023.10206536</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-08-05 20:31:24</sourceUpdateDate>
+        <contentUpdateDate>2024-09-24 13:14:00</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1169371</rcn>
+        <id>101045114_46123_PUBLIHORIZON</id>
+        <title>Sequence Design and Reconstruction Under the Repeat Channel in Enzymatic DNA Synthesis</title>
+        <details>
+          <authors>Roy Shafir; Omer Sabary; Leon Anavy; Eitan Yaakobi; Zohar Yakhini</authors>
+          <journalTitle>IEEE Transactions on Communications</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <issn>1558-0857</issn>
+          <doi>10.1109/TCOMM.2023.3330848</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-08-05 20:31:24</sourceUpdateDate>
+        <contentUpdateDate>2024-09-24 13:08:00</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1169381</rcn>
+        <id>101045114_46127_PUBLIHORIZON</id>
+        <title>Cover Your Bases: How to Minimize the Sequencing Coverage in DNA Storage Systems</title>
+        <details>
+          <authors>Daniella Bar-Lev; Omer Sabary; Ryan Gabrys; Eitan Yaakobi</authors>
+          <journalTitle>2023 IEEE International Symposium on Information Theory (ISIT)</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <issn>2157-8117</issn>
+          <doi>10.1109/ISIT54713.2023.10206882</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-08-05 20:31:24</sourceUpdateDate>
+        <contentUpdateDate>2024-09-24 13:12:56</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1169370</rcn>
+        <id>101045114_46097_PUBLIHORIZON</id>
+        <title>GradHC: highly reliable gradual hash-based clustering for DNA storage systems</title>
+        <details>
+          <authors>Dvir Ben Shabat, Adar Hadad, Avital Boruchovsky, Eitan Yaakobi</authors>
+          <journalTitle>Bioinformatics</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Bioinformatics</publisher>
+        </details>
+        <identifiers>
+          <issn>1367-4811</issn>
+          <doi>10.1093/bioinformatics/btae274</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-08-03 03:49:06</sourceUpdateDate>
+        <contentUpdateDate>2024-09-24 13:08:00</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1307524</rcn>
+        <id>101045114_PSHORIZON</id>
+        <title>Periodic Reporting for period 1 - DNAStorage (Coding for DNA Storage)</title>
+        <description>periodic</description>
+        <teaser>DNA-based storage has attracted significant attention due to recent demonstrations of the viability of storing information in macromolecules. Unlike classical optical and magnetic storage technologies, DNA-based storage does not require electrical supply to maintain data...</teaser>
+        <sourceUpdateDate>2025-05-23 15:22:03</sourceUpdateDate>
+        <contentUpdateDate>2025-05-23 15:22:03</contentUpdateDate>
+        <relations>
+          <associations>
+            <webItem type="relatedResultAttachment" source="corda">
+              <language>en</language>
+              <availableLanguages>en,any</availableLanguages>
+              <uri>/docs/results/horizon/101045/101045114_PS/picture1.jpg</uri>
+              <alternativeText>A DNA-based Storage System</alternativeText>
+              <mimetype>image/jpeg</mimetype>
+              <size>397312</size>
+            </webItem>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/pubsum</code>
+              <title>Report Summary</title>
+              <description>Result: Publishable summary (FP7 SESAM) and Summary for publication (H2020 SyGMa)</description>
+              <displayCode>/Report Summary</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1169377</rcn>
+        <id>101045114_46128_PUBLIHORIZON</id>
+        <title>DNA Synthesis Using Shortmers</title>
+        <details>
+          <authors>Maria Abu-Sini; Andreas Lenz; Eitan Yaakobi</authors>
+          <journalTitle>2023 IEEE International Symposium on Information Theory (ISIT)</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <issn>2157-8117</issn>
+          <doi>10.1109/ISIT54713.2023.10206609</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-08-05 20:31:24</sourceUpdateDate>
+        <contentUpdateDate>2024-09-24 13:10:15</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1169375</rcn>
+        <id>101045114_46121_PUBLIHORIZON</id>
+        <title>Coding for IBLTs with Listing Guarantees</title>
+        <details>
+          <authors>Daniella Bar-Lev; Avi Mizrahi; Tuvi Etzion; Ori Rottenstreich; Eitan Yaakobi</authors>
+          <journalTitle>2023 IEEE International Symposium on Information Theory (ISIT)</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <issn>2157-8117</issn>
+          <doi>10.1109/ISIT54713.2023.10206563</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-08-05 20:31:24</sourceUpdateDate>
+        <contentUpdateDate>2024-09-24 13:09:43</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1169380</rcn>
+        <id>101045114_46122_PUBLIHORIZON</id>
+        <title>On the Intersection of Multiple Insertion (or Deletion) Balls and its Application to List Decoding Under the Reconstruction Model</title>
+        <details>
+          <authors>Maria Abu-Sini; Eitan Yaakobi</authors>
+          <journalTitle>IEEE Transactions on Information Theory</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <issn>1557-9654</issn>
+          <doi>10.1109/TIT.2023.3319608</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-08-05 20:31:24</sourceUpdateDate>
+        <contentUpdateDate>2024-09-24 13:12:37</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1169374</rcn>
+        <id>101045114_46125_PUBLIHORIZON</id>
+        <title>Data-Driven Bee Identification for DNA Strands</title>
+        <details>
+          <authors>Shubhransh Singhvi; Avital Boruchovsky; Han Mao Kiah; Eitan Yaakobi</authors>
+          <journalTitle>2023 IEEE International Symposium on Information Theory (ISIT)</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>2023 IEEE International Symposium on Information Theory (ISIT)</publisher>
+        </details>
+        <identifiers>
+          <issn>2157-8117</issn>
+          <doi>10.1109/ISIT54713.2023.10206637</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-08-05 20:31:24</sourceUpdateDate>
+        <contentUpdateDate>2024-09-24 13:08:00</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1169379</rcn>
+        <id>101045114_46098_PUBLIHORIZON</id>
+        <title>Bee Identification Problem for DNA Strands</title>
+        <details>
+          <authors>Johan Chrisnata, Han Mao Kiah, Alexander Vardy , and Eitan Yaakobi</authors>
+          <journalTitle>IEEE Journal on Selected Areas in Information Theory</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>IEEE Journal on Selected Areas in Information Theory</publisher>
+        </details>
+        <identifiers>
+          <issn>2641-8770</issn>
+          <doi>10.1109/JSAIT.2023.3294423</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-08-03 03:49:06</sourceUpdateDate>
+        <contentUpdateDate>2024-09-24 13:10:46</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode>/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/47/299</code>
+        <title>data science</title>
+        <displayCode>/natural sciences/computer and information sciences/data science</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/49/337/1015</code>
+        <title>DNA</title>
+        <displayCode>/natural sciences/biological sciences/genetics/DNA</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/47/301</code>
+        <title>computational science</title>
+        <displayCode>/natural sciences/computer and information sciences/computational science</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/51/359/1063/82355983</code>
+        <title>combinatorics</title>
+        <displayCode>/natural sciences/mathematics/pure mathematics/discrete mathematics/combinatorics</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode>/Digital agenda</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode>/Clean air</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode>/Artificial intelligence</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="40">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode>/Climate action</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode>/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages>en</availableLanguages>
+        <code>/HORIZON-ERC</code>
+        <title>HORIZON ERC Grants</title>
+        <description>HORIZON ERC Grants</description>
+        <displayCode>/HORIZON ERC Grants</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode>/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

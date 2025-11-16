@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages>en</availableLanguages>
+  <rcn>239344</rcn>
+  <id>101067199</id>
+  <acronym>ProSVED</acronym>
+  <teaser>ProSVED stands for Projection of Security Vulnerabilities caused by Exploits in Dependencies, and targets the prognosis of software vulnerabilities via security exploits in third-party libraries. The code controlled by developers, e.g. to add security patches, is a small...</teaser>
+  <objective>ProSVED stands for Projection of Security Vulnerabilities caused by Exploits in Dependencies, and targets the prognosis of software vulnerabilities via security exploits in third-party libraries. The code controlled by developers, e.g. to add security patches, is a small fraction of the whole codebase that supports any software project today. Most lines of code reside in external dependencies whose security vulnerabilities pose threats to the entire project. This can be mitigated via strategic update policies. However, measuring the risks to find optimal policies constitutes a tremendous prognosis problem, to find the needle of offending lines that hide in a haystack of third-party libraries. ProSVED proposes a novel rare-event approach to the challenge, to estimate the most promising update policies in order to reduce the security risks inherited from external code. Working with experts from the University of Trento, ProSVED will thus push the frontiers of software security analysis, taking it beyond its classical empirical approach, and into the horizon of formal risk modelling for prediction and mitigation.</objective>
+  <title>Projection of Security Vulnerabilities caused by Exploits in Dependencies</title>
+  <totalCost>0</totalCost>
+  <ecMaxContribution>172750.08</ecMaxContribution>
+  <startDate>2022-06-21</startDate>
+  <endDate>2024-06-20</endDate>
+  <ecSignatureDate>2022-06-07</ecSignatureDate>
+  <duration>24</duration>
+  <status>CLOSED</status>
+  <keywords>Rare event simulation, risk prognosis, cybersecurity, library dependencies</keywords>
+  <identifiers>
+    <grantDoi>10.3030/101067199</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>false</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2022-06-17 10:31:42</sourceUpdateDate>
+  <contentCreationDate>2022-08-05 19:16:13</contentCreationDate>
+  <contentUpdateDate>2022-09-04 00:46:42</contentUpdateDate>
+  <lastUpdateDate>2025-09-19 14:48:51</lastUpdateDate>
+  <relations>
+    <associations>
+      <article source="editorial" type="relatedArticle">
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <rcn>434751</rcn>
+        <id>434751-rare-event-approach-revolutionising-software-security</id>
+        <title>Rare-event approach revolutionising software security</title>
+        <contentUpdateDate>2022-10-17 18:20:04</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/projectDescription</code>
+              <title>Project description</title>
+              <description>Article: description of linked project written by editorial team</description>
+              <displayCode>/Project description</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/editorial</code>
+              <title>CORDIS Editorial</title>
+              <description>Written by CORDIS</description>
+              <displayCode>/CORDIS Editorial</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </article>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>55376</rcn>
+        <title>HORIZON-MSCA-2021-PF-01</title>
+        <identifier>HORIZON-MSCA-2021-PF-01</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>55376</rcn>
+        <title>HORIZON-MSCA-2021-PF-01</title>
+        <identifier>HORIZON-MSCA-2021-PF-01</identifier>
+      </call>
+      <organization netEcContribution="172750.08" totalCost="0" source="corda" order="1" ecContribution="172750.08" terminated="false" sme="false" type="coordinator">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1908359</rcn>
+        <id>999841954</id>
+        <vatNumber>IT00340520220</vatNumber>
+        <legalName>UNIVERSITA DEGLI STUDI DI TRENTO</legalName>
+        <shortName>UNITN</shortName>
+        <address>
+          <street>VIA CALEPINA 14</street>
+          <city>TRENTO</city>
+          <postalCode>38122</postalCode>
+          <country>IT</country>
+          <postBox>000</postBox>
+          <url>http://www.unitn.it</url>
+          <geolocation>46.0668476,11.123057</geolocation>
+        </address>
+        <departmentName>Department of Industrial Engineering</departmentName>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Trento</name>
+              <rcn>1465409</rcn>
+              <nutsCode>ITH20</nutsCode>
+              <parents>
+                <region>
+                  <name>Provincia Autonoma di Trento</name>
+                  <rcn>1465003</rcn>
+                  <nutsCode>ITH2</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Nord-Est</name>
+                      <rcn>1465001</rcn>
+                      <nutsCode>ITH</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Italy</name>
+                          <rcn>309758504</rcn>
+                          <nutsCode>IT</nutsCode>
+                          <euCode>IT</euCode>
+                          <isoCode>IT</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Italy</name>
+              <rcn>309758504</rcn>
+              <nutsCode>IT</nutsCode>
+              <euCode>IT</euCode>
+              <isoCode>IT</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme type="relatedTopic" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>706003</rcn>
+        <id>HORIZON_HORIZON-MSCA-2021-PF-01-01</id>
+        <code>HORIZON-MSCA-2021-PF-01-01</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>MSCA Postdoctoral Fellowships 2021</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode>/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme type="relatedLegalBasis" source="corda" uniqueProgrammePart="true">
+        <availableLanguages>en</availableLanguages>
+        <rcn>705729</rcn>
+        <id>HORIZON.1.2</id>
+        <code>HORIZON.1.2</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.1.2</pga>
+        <title>Marie Skłodowska-Curie Actions (MSCA)</title>
+        <parent>
+          <programme>
+            <rcn>705726</rcn>
+            <code>HORIZON.1</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode>/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1316790</rcn>
+        <id>101067199_28254_PUBLIHORIZON</id>
+        <title>Analysis of non-Markovian repairable fault trees through rare event simulation</title>
+        <details>
+          <authors>Carlos E. Budde; Pedro R. D’Argenio; Raúl E. Monti; Mariëlle Stoelinga</authors>
+          <journalNumber>24</journalNumber>
+          <journalTitle>International Journal on Software Tools for Technology Transfer</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2022</publishedYear>
+          <publisher>Springer</publisher>
+        </details>
+        <identifiers>
+          <issn>1433-2779</issn>
+          <doi>10.1007/S10009-022-00675-X</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-04-15 01:27:45</sourceUpdateDate>
+        <contentUpdateDate>2025-07-01 15:02:05</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>976504</rcn>
+        <id>101067199_1_DELIVHORIZON</id>
+        <title>Data Management Plan</title>
+        <description>The Data Management Plan describes the data management life cycle for all data sets that will be collected processed or generated by the action It is a document describing what data will be collected processed or generated and following what methodology and standards whether and how this data will be shared andor made open and how it will be curated and preserved</description>
+        <sourceUpdateDate>2023-03-13 19:00:41</sourceUpdateDate>
+        <contentUpdateDate>2023-09-29 11:32:55</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable" represents="project">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>14c2efed9a2b8c0cadf2ce5a379b0259</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5f43d4487&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/DMP</code>
+              <title>Data Management Plan</title>
+              <displayCode>/Data Management Plan</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1110871</rcn>
+        <id>101067199_3_DELIVHORIZON</id>
+        <title>Communication, Dissemination &amp; Outreach Plan</title>
+        <description>The plan describes the planned measures to maximize the impact of the project, including the dissemination and exploitation measures that are planned, and the target group(s) addressed. Regarding communication measures and public engagement strategy, the aim is to inform and reach out to society and show the activities performed, and the use and the benefits the project will have for citizens.</description>
+        <sourceUpdateDate>2024-05-27 15:02:50</sourceUpdateDate>
+        <contentUpdateDate>2024-06-17 16:21:10</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>d91db52514c7d35f9aa4e6388b71449a</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e50cb4fe91&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1316782</rcn>
+        <id>101067199_28255_PUBLIHORIZON</id>
+        <title>CSEC+ framework assessment dataset: Expert evaluations of cybersecurity skills for job profiles in Europe</title>
+        <details>
+          <authors>Carlos E. Budde; Anni Karinsalo; Silvia Vidor; Jarno Salonen; Fabio Massacci</authors>
+          <journalNumber>48</journalNumber>
+          <journalTitle>Data in Brief</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>Elsevier BV</publisher>
+        </details>
+        <identifiers>
+          <issn>2352-3409</issn>
+          <doi>10.1016/J.DIB.2023.109285</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-07-17 10:14:56</sourceUpdateDate>
+        <contentUpdateDate>2025-07-01 15:02:03</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1354512</rcn>
+        <id>101067199_43929_PUBLIHORIZON</id>
+        <title>Transient Evaluation of Non-Markovian Models by Stochastic State Classes and Simulation</title>
+        <details>
+          <authors>Gabriel Dengler; Laura Carnevali; Carlos E. Budde; Enrico Vicario</authors>
+          <journalNumber>in press</journalNumber>
+          <journalTitle>QEST+FORMATS</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Springer</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/ARXIV.2406.16447</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-07-22 01:57:04</sourceUpdateDate>
+        <contentUpdateDate>2025-09-03 14:30:46</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1316781</rcn>
+        <id>101067199_28253_PUBLIHORIZON</id>
+        <title>Efficient and Generic Algorithms for Quantitative Attack Tree Analysis</title>
+        <details>
+          <authors>Milan Lopuhaä-Zwakenberg; Carlos E. Budde; Mariëlle Stoelinga</authors>
+          <journalNumber>5</journalNumber>
+          <journalTitle>IEEE Transactions on Dependable and Secure Computing</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2022</publishedYear>
+          <publisher>IEEE Computer Society</publisher>
+        </details>
+        <identifiers>
+          <issn>1545-5971</issn>
+          <doi>10.1109/TDSC.2022.3215752</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-04-15 01:27:45</sourceUpdateDate>
+        <contentUpdateDate>2025-07-01 15:02:03</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1316778</rcn>
+        <id>101067199_28256_PUBLIHORIZON</id>
+        <title>Consolidating cybersecurity in Europe: A case study on job profiles assessment</title>
+        <details>
+          <authors>Carlos E. Budde; Anni Karinsalo; Silvia Vidor; Jarno Salonen; Fabio Massacci</authors>
+          <journalNumber>127</journalNumber>
+          <journalTitle>Computers &amp; Security</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>Elsevier</publisher>
+        </details>
+        <identifiers>
+          <issn>0167-4048</issn>
+          <doi>10.1016/J.COSE.2022.103082</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-07-17 10:14:56</sourceUpdateDate>
+        <contentUpdateDate>2025-07-01 15:02:03</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1168810</rcn>
+        <id>101067199_PSHORIZON</id>
+        <title>Periodic Reporting for period 1 - ProSVED (Projection of Security Vulnerabilities caused by Exploits in Dependencies)</title>
+        <description>periodic</description>
+        <teaser>ProSVED (Projection of Security Vulnerabilities caused by Exploits in Dependencies) aims to forecast software vulnerabilities originating from security exploits in third-party libraries. In modern software projects, the code directly managed by developers, such as for security...</teaser>
+        <sourceUpdateDate>2024-09-18 04:15:14</sourceUpdateDate>
+        <contentUpdateDate>2024-09-24 14:20:05</contentUpdateDate>
+        <relations>
+          <associations>
+            <webItem type="relatedResultAttachment" source="corda">
+              <language>en</language>
+              <availableLanguages>en,any</availableLanguages>
+              <uri>/docs/results/horizon/101067/101067199_PS/time-dependency-tree-2.png</uri>
+              <alternativeText>Time Dependency Tree example from the Maven library jira-core</alternativeText>
+              <mimetype>image/png</mimetype>
+              <size>208896</size>
+            </webItem>
+            <webItem type="relatedResultAttachment" source="corda">
+              <language>en</language>
+              <availableLanguages>en,any</availableLanguages>
+              <uri>/docs/results/horizon/101067/101067199_PS/probability-density-function-3.png</uri>
+              <alternativeText>Probability of vulnerabilities in functions with high exposure to the Internet</alternativeText>
+              <mimetype>image/png</mimetype>
+              <size>52224</size>
+            </webItem>
+            <webItem type="relatedResultAttachment" source="corda">
+              <language>en</language>
+              <availableLanguages>en,any</availableLanguages>
+              <uri>/docs/results/horizon/101067/101067199_PS/probability-density-function-1.png</uri>
+              <alternativeText>Probability of vulnerability as a function of time</alternativeText>
+              <mimetype>image/png</mimetype>
+              <size>36864</size>
+            </webItem>
+            <webItem type="relatedResultAttachment" source="corda">
+              <language>en</language>
+              <availableLanguages>en,any</availableLanguages>
+              <uri>/docs/results/horizon/101067/101067199_PS/probability-density-function-2.png</uri>
+              <alternativeText>Probability of vulnerabilities in libraries with little exposure to the Internet</alternativeText>
+              <mimetype>image/png</mimetype>
+              <size>80896</size>
+            </webItem>
+            <webItem type="relatedResultAttachment" source="corda">
+              <language>en</language>
+              <availableLanguages>en,any</availableLanguages>
+              <uri>/docs/results/horizon/101067/101067199_PS/logo.png</uri>
+              <alternativeText>Logo of the project</alternativeText>
+              <mimetype>image/png</mimetype>
+              <size>65536</size>
+            </webItem>
+            <webItem type="relatedResultAttachment" source="corda">
+              <language>en</language>
+              <availableLanguages>en,any</availableLanguages>
+              <uri>/docs/results/horizon/101067/101067199_PS/from-tdt-to-attack-tree.png</uri>
+              <alternativeText>From Time Dependency Tree to Attack Tree</alternativeText>
+              <mimetype>image/png</mimetype>
+              <size>36864</size>
+            </webItem>
+            <webItem type="relatedResultAttachment" source="corda">
+              <language>en</language>
+              <availableLanguages>en,any</availableLanguages>
+              <uri>/docs/results/horizon/101067/101067199_PS/time-dependency-tree-1.png</uri>
+              <alternativeText>Time Dependency Trees (TDTs) are directed acyclic graphs that mode</alternativeText>
+              <mimetype>image/png</mimetype>
+              <size>17408</size>
+            </webItem>
+            <webItem type="relatedResultAttachment" source="corda">
+              <language>en</language>
+              <availableLanguages>en,any</availableLanguages>
+              <uri>/docs/results/horizon/101067/101067199_PS/code-evolution-vulnerability-timeline.png</uri>
+              <alternativeText>Developers' view and hindsight of vulnerabilities in code development chains</alternativeText>
+              <mimetype>image/png</mimetype>
+              <size>55296</size>
+            </webItem>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/pubsum</code>
+              <title>Report Summary</title>
+              <description>Result: Publishable summary (FP7 SESAM) and Summary for publication (H2020 SyGMa)</description>
+              <displayCode>/Report Summary</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>970535</rcn>
+        <id>101067199_81_PUBLIHORIZON</id>
+        <title>Automated Fault Tree Learning from Continuous-valued Sensor Data: A Case Study on Domestic Heaters</title>
+        <details>
+          <authors>Bart Verkuil; Carlos E. Budde; Doina Bucur</authors>
+          <journalNumber>2</journalNumber>
+          <journalTitle>International Journal of Prognostics and Health Management, volume 13</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2022</publishedYear>
+          <publisher>PHM Society</publisher>
+        </details>
+        <identifiers>
+          <issn>2153-2648</issn>
+          <doi>10.36001/ijphm.2022.v13i2.3160</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-07-17 10:14:56</sourceUpdateDate>
+        <contentUpdateDate>2023-08-10 18:22:30</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode>/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/47/307</code>
+        <title>software</title>
+        <displayCode>/natural sciences/computer and information sciences/software</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode>/Digital agenda</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode>/Clean air</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode>/Artificial intelligence</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode>/Climate action</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode>/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages>en</availableLanguages>
+        <code>/HORIZON-TMA-MSCA-PF-EF</code>
+        <title>HORIZON TMA MSCA Postdoctoral Fellowships - European Fellowships</title>
+        <description>HORIZON TMA MSCA Postdoctoral Fellowships - European Fellowships</description>
+        <displayCode>/HORIZON TMA MSCA Postdoctoral Fellowships - European Fellowships</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode>/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

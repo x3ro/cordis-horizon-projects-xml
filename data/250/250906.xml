@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages>en</availableLanguages>
+  <rcn>250906</rcn>
+  <id>101111457</id>
+  <acronym>Metagenome binning</acronym>
+  <teaser>Metagenome-assembled genomes (MAGs) obtained from metagenomics are of fundamental value to understanding diverse ecological niches of microbes such as the human gut, with applications in medicine, biotechnology, and climate science. However, the quality of MAGs constructed...</teaser>
+  <objective>Metagenome-assembled genomes (MAGs) obtained from metagenomics are of fundamental value to understanding diverse ecological niches of microbes such as the human gut, with applications in medicine, biotechnology, and climate science. However, the quality of MAGs constructed with state-of-the-art tools is often unsatisfactory and worse than the self-reported quality. The main source of error is binning, a computational step that groups sequences assembled from short sequencing reads (contigs) into species-wise bins. The two chief challenges are accurately binning (1) genomes with low abundance and (2) highly conserved regions. Due to cross-mapping of reads, the contigs from conserved regions appear to have abundances equal to the sum of the abundances of the related species or strains. As conventional binning tools all rely on clustering contigs according to their abundances across samples, conserved regions end up forming separate bins. Besides, most existing methods optimise quality measures (purity and completeness based on conserved marker genes) and assess the final quality on these very measures, leading to highly optimistic results. I aim to solve these problems by developing a binning algorithm that applies
+ i) linear mixture models using non-negative matrix factorization to account for cross-mapping,
+ii) Poisson statistics to accurately model low abundance, and 
+iii) Bayesian statistics-based multinomial clustering to calculate bin numbers. Importantly, it does not require marker gene-based quality measures for binning.
+By improving the binning of low-abundance and highly conserved contigs, this approach should yield more high-quality MAGs, thereby enhancing a multitude of downstream metagenomic analyses for all areas of microbiome research.</objective>
+  <title>Accurate reconstruction of microbial genomes from the environment</title>
+  <totalCost>0</totalCost>
+  <ecMaxContribution>189687.36</ecMaxContribution>
+  <startDate>2023-08-01</startDate>
+  <endDate>2025-07-31</endDate>
+  <ecSignatureDate>2023-06-19</ecSignatureDate>
+  <duration>24</duration>
+  <status>SIGNED</status>
+  <keywords>Metagenomics, binning tool, bioinformatics</keywords>
+  <identifiers>
+    <grantDoi>10.3030/101111457</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>true</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2025-05-21 17:08:40</sourceUpdateDate>
+  <contentCreationDate>2023-06-28 15:19:29</contentCreationDate>
+  <contentUpdateDate>2025-07-02 12:53:30</contentUpdateDate>
+  <lastUpdateDate>2025-10-27 16:44:44</lastUpdateDate>
+  <relations>
+    <associations>
+      <article source="editorial" type="relatedArticle">
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <rcn>445423</rcn>
+        <id>445423-improved-binning-improves-the-quality-of-metagenome-assembled-genomes</id>
+        <title>Improved binning improves the quality of metagenome-assembled genomes</title>
+        <contentUpdateDate>2023-12-25 11:26:34</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/projectDescription</code>
+              <title>Project description</title>
+              <description>Article: description of linked project written by editorial team</description>
+              <displayCode>/Project description</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/editorial</code>
+              <title>CORDIS Editorial</title>
+              <description>Written by CORDIS</description>
+              <displayCode>/CORDIS Editorial</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </article>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>55393</rcn>
+        <title>HORIZON-MSCA-2022-PF-01</title>
+        <identifier>HORIZON-MSCA-2022-PF-01</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>55393</rcn>
+        <title>HORIZON-MSCA-2022-PF-01</title>
+        <identifier>HORIZON-MSCA-2022-PF-01</identifier>
+      </call>
+      <organization netEcContribution="189687.36" totalCost="0" source="corda" order="1" ecContribution="189687.36" terminated="false" sme="false" type="coordinator">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1949732</rcn>
+        <id>999990267</id>
+        <vatNumber>DE129517720</vatNumber>
+        <legalName>MAX-PLANCK-GESELLSCHAFT ZUR FORDERUNG DER WISSENSCHAFTEN EV</legalName>
+        <shortName>MPG</shortName>
+        <address>
+          <street>HOFGARTENSTRASSE 8</street>
+          <city>MUNCHEN</city>
+          <postalCode>80539</postalCode>
+          <country>DE</country>
+          <postBox>000</postBox>
+          <url>http://www.mpg.de</url>
+          <geolocation>48.1411687,11.5822929</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/REC</code>
+              <title>Research Organisations</title>
+              <displayCode>/Research Organisations</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>München, Kreisfreie Stadt</name>
+              <rcn>221782082</rcn>
+              <nutsCode>DE212</nutsCode>
+              <parents>
+                <region>
+                  <name>Oberbayern</name>
+                  <rcn>221782120</rcn>
+                  <nutsCode>DE21</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Bayern</name>
+                      <rcn>221784616</rcn>
+                      <nutsCode>DE2</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Germany</name>
+                          <rcn>221940264</rcn>
+                          <nutsCode>DE</nutsCode>
+                          <euCode>DE</euCode>
+                          <isoCode>DE</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Germany</name>
+              <rcn>221940264</rcn>
+              <nutsCode>DE</nutsCode>
+              <euCode>DE</euCode>
+              <isoCode>DE</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme type="relatedLegalBasis" source="corda" uniqueProgrammePart="true">
+        <availableLanguages>en</availableLanguages>
+        <rcn>705729</rcn>
+        <id>HORIZON.1.2</id>
+        <code>HORIZON.1.2</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.1.2</pga>
+        <title>Marie Skłodowska-Curie Actions (MSCA)</title>
+        <parent>
+          <programme>
+            <rcn>705726</rcn>
+            <code>HORIZON.1</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode>/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme type="relatedTopic" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>706018</rcn>
+        <id>HORIZON_HORIZON-MSCA-2022-PF-01-01</id>
+        <code>HORIZON-MSCA-2022-PF-01-01</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>MSCA Postdoctoral Fellowships 2022</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode>/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1129136</rcn>
+        <id>101111457_1_DELIVHORIZON</id>
+        <title>Data Management Plan</title>
+        <description>The Data Management Plan describes the data management life cyclefor all data sets that will be collected, processed or generated by the action. It is adocument describing what data will be collected, processed or generated andfollowing what methodology and standards, whether and how this data will beshared and/or made open, and how it will be curated and preserved.</description>
+        <sourceUpdateDate>2024-07-09 08:47:57</sourceUpdateDate>
+        <contentUpdateDate>2024-07-16 16:24:34</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>6ad7fb128668cb966559b9d3e8b8b02e</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e507c5bd42&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/DMP</code>
+              <title>Data Management Plan</title>
+              <displayCode>/Data Management Plan</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1355081</rcn>
+        <id>101111457_3_DELIVHORIZON</id>
+        <title>Communication, Dissemination &amp; Exploitation Plan</title>
+        <description>The plan describes the planned measures to maximize the impact ofthe project, including the dissemination and exploitation measures that are planned,and the target group(s) addressed. Regarding communication measures and publicengagement strategy, the aim is to inform and reach out to society and show theactivities performed, and the use and the benefits the project will have for citizens.</description>
+        <sourceUpdateDate>2025-09-03 17:46:52</sourceUpdateDate>
+        <contentUpdateDate>2025-09-03 17:46:52</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>55adc0c38715866f513aa1203d8ebfba</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e51e66b241&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1361049</rcn>
+        <id>101111457_209775_PUBLIHORIZON</id>
+        <title>TransAnnot—a fast transcriptome annotation pipeline</title>
+        <details>
+          <authors>Zelenskaia, Mariia; Arangasamy, Yazhini; Mirdita, Milot; Söding, Johannes; Raghavan, Venket; Fiston-Lavier, Anna-Sophie</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Bioinformatics Advances</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Oxford University Press : International Society for Computational Biology</publisher>
+        </details>
+        <identifiers>
+          <issn>2635-0041</issn>
+          <doi>10.1093/BIOADV/VBAE152</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-08-14 02:04:01</sourceUpdateDate>
+        <contentUpdateDate>2025-09-16 11:29:01</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1366609</rcn>
+        <id>101111457_PSHORIZON</id>
+        <title>Periodic Reporting for period 1 - Metagenome binning (Accurate reconstruction of microbial genomes from the environment)</title>
+        <description>periodic</description>
+        <teaser>The primary goal of the proposed project is to improve metagenome binning. It is a computational process in which metagenomic contigs are grouped together based on their presumed genomic origin. State-of-the-art tools perform binning in two stages: (i) computing the distance...</teaser>
+        <sourceUpdateDate>2025-10-20 17:42:54</sourceUpdateDate>
+        <contentUpdateDate>2025-10-27 16:44:40</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/pubsum</code>
+              <title>Report Summary</title>
+              <description>Result: Publishable summary (FP7 SESAM) and Summary for publication (H2020 SyGMa)</description>
+              <displayCode>/Report Summary</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode>/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/47/307/30031</code>
+        <title>software development</title>
+        <displayCode>/natural sciences/computer and information sciences/software/software development</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/47/297/933</code>
+        <title>machine learning</title>
+        <displayCode>/natural sciences/computer and information sciences/artificial intelligence/machine learning</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/49/337/1025</code>
+        <title>genomes</title>
+        <displayCode>/natural sciences/biological sciences/genetics/genomes</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/49/341</code>
+        <title>microbiology</title>
+        <displayCode>/natural sciences/biological sciences/microbiology</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="40">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode>/Digital agenda</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="40">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode>/Clean air</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="40">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode>/Artificial intelligence</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="40">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode>/Climate action</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode>/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages>en</availableLanguages>
+        <code>/HORIZON-TMA-MSCA-PF-EF</code>
+        <title>HORIZON TMA MSCA Postdoctoral Fellowships - European Fellowships</title>
+        <description>HORIZON TMA MSCA Postdoctoral Fellowships - European Fellowships</description>
+        <displayCode>/HORIZON TMA MSCA Postdoctoral Fellowships - European Fellowships</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode>/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

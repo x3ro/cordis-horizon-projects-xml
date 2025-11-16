@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages>en</availableLanguages>
+  <rcn>238236</rcn>
+  <id>101041545</id>
+  <acronym>ReSCALE</acronym>
+  <teaser>"Symmetric cryptography is finding new uses because of the emergence of novel and more complex (e.g. distributed) computing environments.These are based on sophisticated zero-knowledge and Multi-Party Computation (MPC) protocols, and they aim to provide strong security...</teaser>
+  <objective>"Symmetric cryptography is finding new uses because of the emergence of novel and more complex (e.g. distributed) computing environments.
+
+These are based on sophisticated zero-knowledge and Multi-Party Computation (MPC) protocols, and they aim to provide strong security guarantees of types that were unthinkable before. In particular, they make it theoretically possible to prove that a computation was done as claimed by those performing it without revealing its inputs or outputs. This would make it possible e.g. for e-governance algorithms to prove that they are run honestly; and overall would increase the trust we can have in various automated processes.
+
+The security techniques providing these guarantees are sequences of operations in a large finite field GF(q), where typically q&gt;2^64. However, these procedures also rely on hash functions and other ""symmetric"" cryptographic algorithms that are defined over GF(2}={0,1}. But encoding GF(2) operations using GF(q) operations is very costly: relying on standard hash functions leads to significant performance overhead, to the point were the protocols mentioned before are unusable in practice.
+
+In order to alleviate this bottleneck, it is necessary to devise symmetric algorithms that are natively described in GF(q). This change requires great care: some hash functions described in GF(q) have already been presented, and subsequently exhibited significant flaws. The inherent structural differences between GF(2) and GF(q) are the cause behind these problems: our understanding of the construction of symmetric primitives in GF(2) does not carry over to GF(q).
+
+With this project, I will bring symmetric cryptography into GF(q) in a safe and efficient way. To this end, I will rebuild the analysis tools and methods that are used both by designers and attackers. This project will naturally lead to the design of new algorithms whose adoption will be simplified by the efficient and easy-to-use software libraries we will provide."</objective>
+  <title>Reinventing Symmetric Cryptography for Arithmetization over Large fiElds</title>
+  <totalCost>1488988</totalCost>
+  <ecMaxContribution>1488988</ecMaxContribution>
+  <startDate>2022-09-01</startDate>
+  <endDate>2027-08-31</endDate>
+  <ecSignatureDate>2022-06-10</ecSignatureDate>
+  <duration>60</duration>
+  <status>SIGNED</status>
+  <keywords>Symmetric cryptography, Zero-knowledge protocols, arithmetization-friendly, hash function, cryptanalysis</keywords>
+  <identifiers>
+    <grantDoi>10.3030/101041545</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>false</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2025-01-03 10:47:16</sourceUpdateDate>
+  <contentCreationDate>2022-07-25 17:46:26</contentCreationDate>
+  <contentUpdateDate>2022-07-25 17:46:24</contentUpdateDate>
+  <lastUpdateDate>2025-09-19 14:48:53</lastUpdateDate>
+  <relations>
+    <associations>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>55317</rcn>
+        <title>ERC-2021-STG</title>
+        <identifier>ERC-2021-STG</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>55317</rcn>
+        <title>ERC-2021-STG</title>
+        <identifier>ERC-2021-STG</identifier>
+      </call>
+      <organization netEcContribution="1488988" totalCost="1488988" source="corda" order="1" ecContribution="1488988" terminated="false" sme="false" type="coordinator">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1906120</rcn>
+        <id>999547074</id>
+        <vatNumber>FR45180089047</vatNumber>
+        <legalName>INSTITUT NATIONAL DE RECHERCHE EN INFORMATIQUE ET AUTOMATIQUE</legalName>
+        <shortName>INRIA</shortName>
+        <address>
+          <street>DOMAINE DE VOLUCEAU ROCQUENCOURT</street>
+          <city>Le Chesnay Cedex</city>
+          <postalCode>78153</postalCode>
+          <country>FR</country>
+          <postBox>N/A</postBox>
+          <url>http://www.inria.fr</url>
+          <geolocation>48.8278506,2.1319603</geolocation>
+        </address>
+        <departmentName>Inria</departmentName>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/REC</code>
+              <title>Research Organisations</title>
+              <displayCode>/Research Organisations</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>France</name>
+              <rcn>258902568</rcn>
+              <nutsCode>FR</nutsCode>
+              <euCode>FR</euCode>
+              <isoCode>FR</isoCode>
+            </region>
+            <region type="relatedRegion">
+              <name>France</name>
+              <rcn>258902568</rcn>
+              <nutsCode>FR</nutsCode>
+              <euCode>FR</euCode>
+              <isoCode>FR</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme type="relatedTopic" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>705885</rcn>
+        <id>HORIZON_ERC-2021-STG</id>
+        <code>ERC-2021-STG</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>ERC STARTING GRANTS</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode>/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme type="relatedLegalBasis" source="corda" uniqueProgrammePart="true">
+        <availableLanguages>en</availableLanguages>
+        <rcn>705727</rcn>
+        <id>HORIZON.1.1</id>
+        <code>HORIZON.1.1</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.1.1</pga>
+        <title>European Research Council (ERC)</title>
+        <parent>
+          <programme>
+            <rcn>705726</rcn>
+            <code>HORIZON.1</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode>/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1281220</rcn>
+        <id>101041545_140454_PUBLIHORIZON</id>
+        <title>Fast AES-Based Universal Hash Functions and MACs</title>
+        <details>
+          <authors>Augustin Bariant, Jules Baudrin, Gaëtan Leurent, Clara Pernot, Léo Perrin, Thomas Peyrin</authors>
+          <journalNumber>2024</journalNumber>
+          <journalTitle>IACR Transactions on Symmetric Cryptology</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Universitatsbibliothek der Ruhr-Universitat Bochum</publisher>
+        </details>
+        <identifiers>
+          <issn>2519-173X</issn>
+          <doi>10.46586/tosc.v2024.i2.35-67</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-04-15 01:27:45</sourceUpdateDate>
+        <contentUpdateDate>2025-04-15 08:09:39</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1220677</rcn>
+        <id>101041545_81165_PUBLIHORIZON</id>
+        <title>The Algebraic FreeLunch: Efficient Gröbner Basis Attacks Against Arithmetization-Oriented Primitives</title>
+        <details>
+          <authors>Augustin Bariant, Aurélien Boeuf, Axel Lemoine, Irati Manterola Ayala, Morten Øygarden, Léo Perrin, Håvard Raddum</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Lecture Notes in Computer Science, Advances in Cryptology – CRYPTO 2024</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Springer Nature Switzerland</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1007/978-3-031-68385-5_5</doi>
+          <isbn>978-3-031-68384-8</isbn>
+        </identifiers>
+        <sourceUpdateDate>2025-03-31 14:59:57</sourceUpdateDate>
+        <contentUpdateDate>2024-12-04 10:51:14</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1220681</rcn>
+        <id>101041545_81162_PUBLIHORIZON</id>
+        <title>Propagation of Subspaces in Primitives with Monomial Sboxes: Applications to Rescue and Variants of the AES</title>
+        <details>
+          <authors>Boeuf, Aurélien; Canteaut, Anne; Perrin, Léo</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>IACR Transactions on Symmetric Cryptology, In press</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>IACR</publisher>
+        </details>
+        <identifiers>
+          <issn>2519-173X</issn>
+          <doi>10.46586/TOSC.V2023.I4.270-298</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-11-04 08:50:14</sourceUpdateDate>
+        <contentUpdateDate>2025-05-14 16:12:48</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1220667</rcn>
+        <id>101041545_81164_PUBLIHORIZON</id>
+        <title>New Design Techniques for Efficient Arithmetization-Oriented Hash Functions: Anemoi Permutations and Jive Compression Mode</title>
+        <details>
+          <authors>Bouvier, Clémence; Briaud, Pierre; Chaidos, Pyrros; Perrin, Léo; Salen, Robin; Velichkov, Vesselin; Willems, Danny</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Advances in Cryptology – CRYPTO 2023</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>Springer, Cham</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1007/978-3-031-38548-3_17</doi>
+          <isbn>978-3-031-38547-6</isbn>
+        </identifiers>
+        <sourceUpdateDate>2025-03-31 14:59:57</sourceUpdateDate>
+        <contentUpdateDate>2024-12-04 10:51:13</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1220673</rcn>
+        <id>101041545_81166_PUBLIHORIZON</id>
+        <title>Commutative Cryptanalysis Made Practical</title>
+        <details>
+          <authors>Baudrin, Jules; Felke, Patrick; Leander, Gregor; Neumann, Patrick; Perrin, Léo; Stennes, Lukas</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>IACR Transactions on Symmetric Cryptology, In press</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>IACR</publisher>
+        </details>
+        <identifiers>
+          <issn>2519-173X</issn>
+          <doi>10.46586/tosc.v2023.i4.299-329</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-03-31 14:59:57</sourceUpdateDate>
+        <contentUpdateDate>2024-12-04 10:51:13</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1220666</rcn>
+        <id>101041545_81163_PUBLIHORIZON</id>
+        <title>Practical Cube Attack against Nonce-Misused Ascon</title>
+        <details>
+          <authors>Baudrin, Jules; Canteaut, Anne; Perrin, Léo</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>IACR Transactions on Symmetric Cryptology</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2022</publishedYear>
+          <publisher>IACR</publisher>
+        </details>
+        <identifiers>
+          <issn>2519-173X</issn>
+          <doi>10.46586/tosc.v2022.i4.120-144</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-03-31 14:59:57</sourceUpdateDate>
+        <contentUpdateDate>2024-12-04 10:51:13</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1302746</rcn>
+        <id>101041545_PSHORIZON</id>
+        <title>Periodic Reporting for period 1 - ReSCALE (Reinventing Symmetric Cryptography for Arithmetization over Large fiElds)</title>
+        <description>periodic</description>
+        <teaser>Cryptography is the science of secrecy. It corresponds to the techniques ensuring that information can be exchanged securely, even in the presence of an adversary capable of listening to it. All electronic communications need to be secured, and the amount of data that needs to...</teaser>
+        <sourceUpdateDate>2025-05-19 07:30:45</sourceUpdateDate>
+        <contentUpdateDate>2025-05-19 07:30:45</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/pubsum</code>
+              <title>Report Summary</title>
+              <description>Result: Publishable summary (FP7 SESAM) and Summary for publication (H2020 SyGMa)</description>
+              <displayCode>/Report Summary</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode>/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/47/307</code>
+        <title>software</title>
+        <displayCode>/natural sciences/computer and information sciences/software</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/47/295/917</code>
+        <title>cryptography</title>
+        <displayCode>/natural sciences/computer and information sciences/computer security/cryptography</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/29/97/543/1333</code>
+        <title>e-governance</title>
+        <displayCode>/social sciences/political sciences/government systems/e-governance</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode>/Digital agenda</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode>/Clean air</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode>/Artificial intelligence</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode>/Climate action</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode>/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages>en</availableLanguages>
+        <code>/HORIZON-ERC</code>
+        <title>HORIZON ERC Grants</title>
+        <description>HORIZON ERC Grants</description>
+        <displayCode>/HORIZON ERC Grants</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode>/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages>en</availableLanguages>
+  <rcn>268925</rcn>
+  <id>101171415</id>
+  <acronym>UMCMC</acronym>
+  <teaser>This project develops a statistical toolbox for the approximation of probability distributions that commonly arise in data analysis. The problem of approximating probabilities arise in many tasks of data science: in Bayesian statistics and its many variants, in classical...</teaser>
+  <objective>This project develops a statistical toolbox for the approximation of probability distributions that commonly arise in data analysis. The problem of approximating probabilities arise in many tasks of data science: in Bayesian statistics and its many variants, in classical hypothesis testing with p-values, in likelihood-based methods when the model involves latent variables, in models with intractable likelihoods, in the construction of knockoffs for principled variable selection, for example. State-of-the-art methods for such approximations include Markov chain Monte Carlo (MCMC), where a Markov chain is generated in such a way that it converges to the probability of interest as the length of the sequence goes to infinity. This stands at odds with modern developments in computing hardware, which provide an increasing number of parallel processors, but where each process has a stagnating clock speed. Methods that are amenable to parallel computing must emerge to help scientists in all fields to make the most of their data.  The project builds upon a framework called Unbiased Markov chain Monte Carlo (UMCMC), in which accuracy improves arbitrarily with the number of parallel runs. Each run involves the generation of coupled Markov chains for a random time horizon.
+
+Part 1 develops UMCMC to realize its potential as a comprehensive basis for probabilistic computation on modern hardware. The project includes theoretical analyses of cost and measures of efficiency, and methodological innovations towards adaptive, efficient, robust and convenient computation.
+
+Part 2 contributes to the applicability of UMCMC, by conceptualizing the design of coupled Markov transitions, and considering a number of challenging settings: distributions supported on submanifolds and their application in economics, distributions on graphs and their applications in the fight against malaria, and Bayesian nonparametric models for cell type deconvolution from transcriptomics data.</objective>
+  <title>Markov Chain Monte Carlo using couplings toward scalable statistical inference</title>
+  <totalCost>2000000</totalCost>
+  <ecMaxContribution>2000000</ecMaxContribution>
+  <startDate>2025-09-01</startDate>
+  <endDate>2030-08-31</endDate>
+  <ecSignatureDate>2025-02-12</ecSignatureDate>
+  <duration>60</duration>
+  <status>SIGNED</status>
+  <keywords>Monte Carlo,  numerical integration,  probability coupling,  parallel computing</keywords>
+  <identifiers>
+    <grantDoi>10.3030/101171415</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>true</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2025-02-17 19:59:56</sourceUpdateDate>
+  <contentCreationDate>2025-02-21 10:28:41</contentCreationDate>
+  <contentUpdateDate>2025-02-17 19:59:56</contentUpdateDate>
+  <lastUpdateDate>2025-09-19 14:48:45</lastUpdateDate>
+  <relations>
+    <associations>
+      <article source="editorial" type="relatedArticle">
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <rcn>456946</rcn>
+        <id>456946-mcmc-efficiency-and-accuracy-using-modern-computing-hardware</id>
+        <title>MCMC efficiency and accuracy using modern computing hardware</title>
+        <contentUpdateDate>2025-05-21 16:31:56</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="applicationDomain" type="isApplicableIn">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/ener</code>
+              <title>Energy</title>
+              <displayCode>/Energy</displayCode>
+            </category>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/projectDescription</code>
+              <title>Project description</title>
+              <description>Article: description of linked project written by editorial team</description>
+              <displayCode>/Project description</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/editorial</code>
+              <title>CORDIS Editorial</title>
+              <description>Written by CORDIS</description>
+              <displayCode>/CORDIS Editorial</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </article>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>56533</rcn>
+        <title>ERC-2024-COG</title>
+        <identifier>ERC-2024-COG</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>56533</rcn>
+        <title>ERC-2024-COG</title>
+        <identifier>ERC-2024-COG</identifier>
+      </call>
+      <organization netEcContribution="2000000" totalCost="2000000" source="corda" order="1" ecContribution="2000000" terminated="false" sme="false" type="coordinator">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1948272</rcn>
+        <id>986293091</id>
+        <legalName>ASSOCIATION GROUPE ESSEC</legalName>
+        <address>
+          <street>AVENUE BERNARD HIRSCH</street>
+          <city>Cergy Pontoise Cedex</city>
+          <postalCode>95021</postalCode>
+          <country>FR</country>
+          <postBox>105</postBox>
+          <url>http://www.essec.fr/accueil</url>
+          <geolocation>49.0321782,2.0793658</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>France</name>
+              <rcn>258902568</rcn>
+              <nutsCode>FR</nutsCode>
+              <euCode>FR</euCode>
+              <isoCode>FR</isoCode>
+            </region>
+            <region type="relatedRegion">
+              <name>France</name>
+              <rcn>258902568</rcn>
+              <nutsCode>FR</nutsCode>
+              <euCode>FR</euCode>
+              <isoCode>FR</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme type="relatedLegalBasis" source="corda" uniqueProgrammePart="true">
+        <availableLanguages>en</availableLanguages>
+        <rcn>705727</rcn>
+        <id>HORIZON.1.1</id>
+        <code>HORIZON.1.1</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.1.1</pga>
+        <title>European Research Council (ERC)</title>
+        <parent>
+          <programme>
+            <rcn>705726</rcn>
+            <code>HORIZON.1</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode>/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme type="relatedTopic" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>708619</rcn>
+        <id>HORIZON_ERC-2024-COG</id>
+        <code>ERC-2024-COG</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>ERC CONSOLIDATOR GRANTS</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode>/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode>/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/51/355/357</code>
+        <title>statistics and probability</title>
+        <displayCode>/natural sciences/mathematics/applied mathematics/statistics and probability</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="40">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode>/Digital agenda</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode>/Clean air</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="40">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode>/Artificial intelligence</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode>/Climate action</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode>/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages>en</availableLanguages>
+        <code>/HORIZON-ERC</code>
+        <title>HORIZON ERC Grants</title>
+        <description>HORIZON ERC Grants</description>
+        <displayCode>/HORIZON ERC Grants</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode>/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

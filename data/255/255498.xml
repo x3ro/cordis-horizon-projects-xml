@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages>en</availableLanguages>
+  <rcn>255498</rcn>
+  <id>101088553</id>
+  <acronym>CompSURG</acronym>
+  <teaser>The operating room is the most frequent location for hospital-related errors. However, intra-operative adverse events (IAEs) are underreported, which impedes their large-scale analysis, the definition of appropriate safety measures and the development of intra-operative...</teaser>
+  <objective>The operating room is the most frequent location for hospital-related errors. However, intra-operative adverse events (IAEs) are underreported, which impedes their large-scale analysis, the definition of appropriate safety measures and the development of intra-operative support systems to reduce their occurrence. Recent manual video-based assessments of surgical procedures have shown that not only are IAEs frequent, but also that near miss intra-operative events, previously thought to be inconsequential, are in fact predictors of major errors and correlate with complications and poor surgical outcomes.
+
+We leverage these recent findings to propose a radically new, computational approach to improve intra-operative surgical safety. We propose to focus on automatically detecting and analyzing IAEs in endoscopic videos via novel computer vision methods that model the detailed semantics of tool-tissue interactions, as needed to study the activity patterns leading to these critical events. We will first generate a multi-centric, multi-procedure dataset annotated with tool-tissue interaction semantics and IAEs. We will then develop a new fully differentiable neural network model of surgical videos relying on an intermediate graph representation to disentangle the surgical semantics. Finally, we will introduce new training methods for scaling these approaches to different types of surgeries and centers using a limited set of annotations.
+
+These computational methods will allow the automated reporting and analysis of IAEs at a scale unfeasible with manual methods. We will use them to analyze patterns of IAEs and to identify the activities and phases of the surgical procedures that would benefit from new safety measures. We will also design a prototype for intra-operative support. We believe that this project will help to improve surgical safety and hence greatly benefit patient care.</objective>
+  <title>Computational Methods to Analyse Intra-operative Adverse Events in Surgery at Scale</title>
+  <totalCost>1951931</totalCost>
+  <ecMaxContribution>1951931</ecMaxContribution>
+  <startDate>2023-11-01</startDate>
+  <endDate>2028-10-31</endDate>
+  <ecSignatureDate>2023-07-31</ecSignatureDate>
+  <duration>60</duration>
+  <status>SIGNED</status>
+  <keywords>surgical video analysis,  deep learning,  semi-supervised learning,  laparoscopic surgery,  intra-operative adverse events,  safety in surgery</keywords>
+  <identifiers>
+    <grantDoi>10.3030/101088553</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>false</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2025-01-03 10:47:16</sourceUpdateDate>
+  <contentCreationDate>2023-08-09 11:18:56</contentCreationDate>
+  <contentUpdateDate>2023-08-09 11:18:44</contentUpdateDate>
+  <lastUpdateDate>2025-09-19 14:48:57</lastUpdateDate>
+  <relations>
+    <associations>
+      <article source="editorial" type="relatedArticle">
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <rcn>447724</rcn>
+        <id>447724-automated-detection-of-intra-operative-adverse-events</id>
+        <title>Automated detection of intra-operative adverse events</title>
+        <contentUpdateDate>2024-03-14 18:10:47</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/projectDescription</code>
+              <title>Project description</title>
+              <description>Article: description of linked project written by editorial team</description>
+              <displayCode>/Project description</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/editorial</code>
+              <title>CORDIS Editorial</title>
+              <description>Written by CORDIS</description>
+              <displayCode>/CORDIS Editorial</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </article>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>55605</rcn>
+        <title>ERC-2022-COG</title>
+        <identifier>ERC-2022-COG</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>55605</rcn>
+        <title>ERC-2022-COG</title>
+        <identifier>ERC-2022-COG</identifier>
+      </call>
+      <organization netEcContribution="1951931" totalCost="1951931" source="corda" order="1" ecContribution="1951931" terminated="false" sme="false" type="coordinator">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1905977</rcn>
+        <id>996569950</id>
+        <vatNumber>FR44130005457</vatNumber>
+        <legalName>UNIVERSITE DE STRASBOURG</legalName>
+        <shortName>UNISTRA</shortName>
+        <address>
+          <street>RUE BLAISE PASCAL 4</street>
+          <city>STRASBOURG</city>
+          <postalCode>67081</postalCode>
+          <country>FR</country>
+          <postBox>000</postBox>
+          <url>http://www.unistra.fr</url>
+          <geolocation>48.58033535,7.76581404770855</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>France</name>
+              <rcn>258902568</rcn>
+              <nutsCode>FR</nutsCode>
+              <euCode>FR</euCode>
+              <isoCode>FR</isoCode>
+            </region>
+            <region type="relatedRegion">
+              <name>France</name>
+              <rcn>258902568</rcn>
+              <nutsCode>FR</nutsCode>
+              <euCode>FR</euCode>
+              <isoCode>FR</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme type="relatedLegalBasis" source="corda" uniqueProgrammePart="true">
+        <availableLanguages>en</availableLanguages>
+        <rcn>705727</rcn>
+        <id>HORIZON.1.1</id>
+        <code>HORIZON.1.1</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.1.1</pga>
+        <title>European Research Council (ERC)</title>
+        <parent>
+          <programme>
+            <rcn>705726</rcn>
+            <code>HORIZON.1</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode>/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme type="relatedTopic" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>706731</rcn>
+        <id>HORIZON_ERC-2022-COG</id>
+        <code>ERC-2022-COG</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>ERC CONSOLIDATOR GRANTS</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode>/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1361003</rcn>
+        <id>101088553_209830_PUBLIHORIZON</id>
+        <title>HecVL: Hierarchical Video-Language Pretraining for Zero-Shot Surgical Phase Recognition</title>
+        <details>
+          <authors>Kun Yuan, Vinkle Srivastav, Nassir Navab, Nicolas Padoy</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Lecture Notes in Computer Science, Medical Image Computing and Computer Assisted Intervention – MICCAI 2024</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Springer Nature Switzerland</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1007/978-3-031-72089-5_29</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-08-14 02:04:01</sourceUpdateDate>
+        <contentUpdateDate>2025-09-16 11:28:41</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1361009</rcn>
+        <id>101088553_209829_PUBLIHORIZON</id>
+        <title>Learning multi-modal representations by watching hundreds of surgical video lectures</title>
+        <details>
+          <authors>Kun Yuan, Vinkle Srivastav, Tong Yu, Joël L. Lavanchy, Jacques Marescaux, Pietro Mascagni, Nassir Navab, Nicolas Padoy</authors>
+          <journalNumber>105</journalNumber>
+          <journalTitle>Medical Image Analysis</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2025</publishedYear>
+          <publisher>Elsevier BV</publisher>
+        </details>
+        <identifiers>
+          <issn>1361-8415</issn>
+          <doi>10.1016/J.MEDIA.2025.103644</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-08-14 02:04:01</sourceUpdateDate>
+        <contentUpdateDate>2025-09-16 11:28:42</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1361010</rcn>
+        <id>101088553_209828_PUBLIHORIZON</id>
+        <title>Critical view of safety assessment in sentinel node dissection for endometrial and cervical cancer: artificial intelligence to enhance surgical safety and lymph node detection (LYSE study)</title>
+        <details>
+          <authors>Matteo Pavone, Britty Baby, Emma Carles, Chiara Innocenzi, Alessandro Baroni, Lorenzo Arboit, Aditya Murali, Andrea Rosati, Valentina Iacobelli, Anna Fagotti, Francesco Fanfani, Cherif Akladios, Denis Querleu, Nicolò Bizzarri, Lise Lecointre, Pietro Mascagni, Nicolas Padoy, Giovanni Scambia</authors>
+          <journalNumber>35</journalNumber>
+          <journalTitle>International Journal of Gynecological Cancer</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2025</publishedYear>
+          <publisher>Elsevier BV</publisher>
+        </details>
+        <identifiers>
+          <issn>1048-891X</issn>
+          <doi>10.1016/J.IJGC.2025.101789</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-08-14 02:04:01</sourceUpdateDate>
+        <contentUpdateDate>2025-09-16 11:28:42</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1360994</rcn>
+        <id>101088553_209833_PUBLIHORIZON</id>
+        <title>Analyzing the impact of surgical technique on intraoperative adverse events in laparoscopic Roux-en-Y gastric bypass surgery by video-based assessment</title>
+        <details>
+          <authors>Joël L. Lavanchy, Deepak Alapatt, Luca Sestini, Marko Kraljević, Philipp C. Nett, Didier Mutter, Beat P. Müller-Stich, Nicolas Padoy</authors>
+          <journalNumber>39</journalNumber>
+          <journalTitle>Surgical Endoscopy</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2025</publishedYear>
+          <publisher>Springer Science and Business Media LLC</publisher>
+        </details>
+        <identifiers>
+          <issn>0930-2794</issn>
+          <doi>10.1007/S00464-025-11557-Z</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-08-14 02:04:01</sourceUpdateDate>
+        <contentUpdateDate>2025-09-16 11:28:33</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1361002</rcn>
+        <id>101088553_209831_PUBLIHORIZON</id>
+        <title>Procedure-Aware Surgical Video-language Pretraining with Hierarchical Knowledge Augmentation</title>
+        <details>
+          <authors>Kun Yuan, Vinkle Srivastav,, Nassir Navab, Nicolas Padoy</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Proceedings of Advances in Neural Information Processing Systems (NeurIPS)</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>NeurIPS</publisher>
+        </details>
+        <identifiers>
+          <doi>10.5555/3737916.3741823</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-08-14 02:04:01</sourceUpdateDate>
+        <contentUpdateDate>2025-09-16 11:28:40</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1360997</rcn>
+        <id>101088553_209827_PUBLIHORIZON</id>
+        <title>Advancing surgical VQA with scene graph knowledge</title>
+        <details>
+          <authors>Kun Yuan, Manasi Kattel, Joël L. Lavanchy, Nassir Navab, Vinkle Srivastav, Nicolas Padoy</authors>
+          <journalNumber>19</journalNumber>
+          <journalTitle>International Journal of Computer Assisted Radiology and Surgery</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Springer Science and Business Media LLC</publisher>
+        </details>
+        <identifiers>
+          <issn>1861-6429</issn>
+          <doi>10.1007/S11548-024-03141-Y</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-08-14 02:04:01</sourceUpdateDate>
+        <contentUpdateDate>2025-09-16 11:28:35</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1361006</rcn>
+        <id>101088553_209832_PUBLIHORIZON</id>
+        <title>Text-driven adaptation of foundation models for few-shot surgical workflow analysis</title>
+        <details>
+          <authors>Tingxuan Chen, Kun Yuan, Vinkle Srivastav, Nassir Navab, Nicolas Padoy</authors>
+          <journalNumber>20</journalNumber>
+          <journalTitle>International Journal of Computer Assisted Radiology and Surgery</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2025</publishedYear>
+          <publisher>Springer Science and Business Media LLC</publisher>
+        </details>
+        <identifiers>
+          <issn>1861-6429</issn>
+          <doi>10.1007/S11548-025-03341-0</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-08-14 02:04:01</sourceUpdateDate>
+        <contentUpdateDate>2025-09-16 11:28:41</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode>/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/21/39/223</code>
+        <title>surgery</title>
+        <displayCode>/medical and health sciences/clinical medicine/surgery</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="100">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode>/Digital agenda</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode>/Clean air</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="100">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode>/Artificial intelligence</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode>/Climate action</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode>/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages>en</availableLanguages>
+        <code>/HORIZON-ERC</code>
+        <title>HORIZON ERC Grants</title>
+        <description>HORIZON ERC Grants</description>
+        <displayCode>/HORIZON ERC Grants</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode>/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

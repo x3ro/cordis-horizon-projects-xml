@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages>en</availableLanguages>
+  <rcn>240999</rcn>
+  <id>101045253</id>
+  <acronym>DEEPRETINA</acronym>
+  <teaser>A major goal of sensory neuroscience is to understand how sensory neurons process natural scenes. Models built from the responses of sensory neurons to simple stimuli do not generalize to predict how complex, natural scene are processed. Even as early as in the retina, this...</teaser>
+  <objective>A major goal of sensory neuroscience is to understand how sensory neurons process natural scenes. Models built from the responses of sensory neurons to simple stimuli do not generalize to predict how complex, natural scene are processed. Even as early as in the retina, this issue is not solved. Deep network models have been proposed to predict the responses of visual neurons to natural stimuli. However, they are still far from being a realistic model of the visual system. First, the sensitivity to perturbations of the stimulus can thus be very different for a deep network model and for our visual system. Second, it is not clear how the model components can be related to actual mechanisms in the brain. Our purpose is to understand how the retina processes natural scenes. We will follow an interdisciplinary approach where we will build realistic deep network models of retinal processing and test them in experiments. We will develop deep network models that can predict ganglion cell responses to natural stimuli, and map the components of these models to specific cell types in the retinal network.  Our project is original because it will use two novel methods, that will be key to achieve our goal. The first one is a novel approach to characterize retinal function, where we will probe the selectivity of the retina to perturbations of natural stimuli. The second one is a novel tool based on 2-photon holographic stimulation to decompose the retinal circuit. They are tailored to address the specific issues of deep networks. Each ganglion cell has a receptive field center, the region of visual space whose stimulation evokes the strongest responses. Our project is divided in three parts. We will first understand how natural images are integrated inside the receptive field center. We will then ask how stimulation outside the receptive field center affects ganglion cell processing of natural images. Finally, we will focus on motion processing during natural scene stimulation.</objective>
+  <title>A perturbative approach to model retinal processing of natural scenes</title>
+  <totalCost>1998280</totalCost>
+  <ecMaxContribution>1998280</ecMaxContribution>
+  <startDate>2022-10-01</startDate>
+  <endDate>2027-09-30</endDate>
+  <ecSignatureDate>2022-07-22</ecSignatureDate>
+  <duration>60</duration>
+  <status>SIGNED</status>
+  <keywords>retina, deep network, vision, neurophysiology</keywords>
+  <identifiers>
+    <grantDoi>10.3030/101045253</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>false</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2025-01-03 10:47:16</sourceUpdateDate>
+  <contentCreationDate>2022-09-04 12:53:13</contentCreationDate>
+  <contentUpdateDate>2022-09-04 12:53:10</contentUpdateDate>
+  <lastUpdateDate>2025-10-20 14:54:26</lastUpdateDate>
+  <relations>
+    <associations>
+      <article source="editorial" type="relatedArticle">
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <rcn>438059</rcn>
+        <id>438059-modelling-our-visual-system</id>
+        <title>Modelling our visual system</title>
+        <contentUpdateDate>2023-01-16 15:44:01</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/projectDescription</code>
+              <title>Project description</title>
+              <description>Article: description of linked project written by editorial team</description>
+              <displayCode>/Project description</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/editorial</code>
+              <title>CORDIS Editorial</title>
+              <description>Written by CORDIS</description>
+              <displayCode>/CORDIS Editorial</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </article>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>55314</rcn>
+        <title>ERC-2021-COG</title>
+        <identifier>ERC-2021-COG</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>55314</rcn>
+        <title>ERC-2021-COG</title>
+        <identifier>ERC-2021-COG</identifier>
+      </call>
+      <organization netEcContribution="1998280" totalCost="1998280" source="corda" order="1" ecContribution="1998280" terminated="false" sme="false" type="coordinator">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1906210</rcn>
+        <id>999997833</id>
+        <vatNumber>FR31180036048</vatNumber>
+        <legalName>INSTITUT NATIONAL DE LA SANTE ET DE LA RECHERCHE MEDICALE</legalName>
+        <shortName>INSERM</shortName>
+        <address>
+          <street>RUE DE TOLBIAC 101</street>
+          <city>PARIS</city>
+          <postalCode>75654</postalCode>
+          <country>FR</country>
+          <postBox>N/A</postBox>
+          <url>http://www.inserm.fr</url>
+          <geolocation>48.8266111,2.3652703</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/REC</code>
+              <title>Research Organisations</title>
+              <displayCode>/Research Organisations</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>France</name>
+              <rcn>258902568</rcn>
+              <nutsCode>FR</nutsCode>
+              <euCode>FR</euCode>
+              <isoCode>FR</isoCode>
+            </region>
+            <region type="relatedRegion">
+              <name>France</name>
+              <rcn>258902568</rcn>
+              <nutsCode>FR</nutsCode>
+              <euCode>FR</euCode>
+              <isoCode>FR</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme type="relatedTopic" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>705886</rcn>
+        <id>HORIZON_ERC-2021-COG</id>
+        <code>ERC-2021-COG</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>ERC CONSOLIDATOR GRANTS</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode>/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme type="relatedLegalBasis" source="corda" uniqueProgrammePart="true">
+        <availableLanguages>en</availableLanguages>
+        <rcn>705727</rcn>
+        <id>HORIZON.1.1</id>
+        <code>HORIZON.1.1</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.1.1</pga>
+        <title>European Research Council (ERC)</title>
+        <parent>
+          <programme>
+            <rcn>705726</rcn>
+            <code>HORIZON.1</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode>/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1229479</rcn>
+        <id>101045253_100236_PUBLIHORIZON</id>
+        <title>Optogenetic targeting of AII amacrine cells restores retinal computations performed by the inner retina</title>
+        <details>
+          <authors>Hanen Khabou, Elaine Orendorff, Francesco Trapani, Marco Rucli, Melissa Desrosiers, Pierre Yger, Deniz Dalkara, Olivier Marre</authors>
+          <journalNumber>31</journalNumber>
+          <journalTitle>Molecular Therapy - Methods &amp;amp; Clinical Development</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Elsevier BV</publisher>
+        </details>
+        <identifiers>
+          <issn>2329-0501</issn>
+          <doi>10.1016/j.omtm.2023.09.003</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-12-15 01:52:25</sourceUpdateDate>
+        <contentUpdateDate>2024-12-16 16:53:46</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1304706</rcn>
+        <id>101045253_156553_PUBLIHORIZON</id>
+        <title>Temporal pattern recognition in retinal ganglion cells is mediated by dynamical inhibitory synapses</title>
+        <details>
+          <authors>Simone Ebert, Thomas Buffet, B.Semihcan Sermet, Olivier Marre, Bruno Cessac</authors>
+          <journalNumber>15</journalNumber>
+          <journalTitle>Nature Communications</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Springer Science and Business Media LLC</publisher>
+        </details>
+        <identifiers>
+          <issn>2041-1723</issn>
+          <doi>10.1038/S41467-024-50506-7</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-05-26 15:13:42</sourceUpdateDate>
+        <contentUpdateDate>2025-06-03 14:16:57</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1304715</rcn>
+        <id>101045253_156571_PUBLIHORIZON</id>
+        <title>Stimulus-invariant aspects of the retinal code drive discriminability of natural scenes</title>
+        <details>
+          <authors>Benjamin D. Hoshal, Caroline M. Holmes, Kyle Bojanek, Jared M. Salisbury, Michael J. Berry, Olivier Marre, Stephanie E. Palmer</authors>
+          <journalNumber>121</journalNumber>
+          <journalTitle>Proceedings of the National Academy of Sciences</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Proceedings of the National Academy of Sciences</publisher>
+        </details>
+        <identifiers>
+          <issn>0027-8424</issn>
+          <doi>10.1073/PNAS.2313676121</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-05-26 15:13:42</sourceUpdateDate>
+        <contentUpdateDate>2025-06-03 14:17:03</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1371958</rcn>
+        <id>101045253_PSHORIZON</id>
+        <title>Periodic Reporting for period 1 - DEEPRETINA (A perturbative approach to model retinal processing of natural scenes)</title>
+        <description>periodic</description>
+        <teaser>A major goal of sensory neuroscience is to understand how sensory neurons process natural scenes. Models built from the responses of sensory neurons to simple stimuli do not generalize to predict how complex, natural scene are processed. Even as early as in the retina, this...</teaser>
+        <sourceUpdateDate>2025-10-13 09:04:16</sourceUpdateDate>
+        <contentUpdateDate>2025-10-20 14:54:23</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/pubsum</code>
+              <title>Report Summary</title>
+              <description>Result: Publishable summary (FP7 SESAM) and Summary for publication (H2020 SyGMa)</description>
+              <displayCode>/Report Summary</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1229480</rcn>
+        <id>101045253_100235_PUBLIHORIZON</id>
+        <title>Encoding surprise by retinal ganglion cells</title>
+        <details>
+          <authors>Danica Despotović, Corentin Joffrois, Olivier Marre, Matthew Chalk</authors>
+          <journalNumber>20</journalNumber>
+          <journalTitle>PLOS Computational Biology</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Public Library of Science (PLoS)</publisher>
+        </details>
+        <identifiers>
+          <issn>1553-7358</issn>
+          <doi>10.1371/journal.pcbi.1011965</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-12-15 01:52:25</sourceUpdateDate>
+        <contentUpdateDate>2024-12-16 16:53:46</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1304716</rcn>
+        <id>101045253_156573_PUBLIHORIZON</id>
+        <title>Altered Functional Responses of the Retina in B6 Albino &lt;i&gt;Tyr&lt;sup&gt;c/c&lt;/sup&gt;&lt;/i&gt; Mice</title>
+        <details>
+          <authors>Virginie Chotard, Francesco Trapani, Guilhem Glaziou, Berat Semihcan Sermet, Pierre Yger, Olivier Marre, Alexandra Rebsam</authors>
+          <journalNumber>65</journalNumber>
+          <journalTitle>Investigative Ophthalmology &amp;amp; Visual Science</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Association for Research in Vision and Ophthalmology (ARVO)</publisher>
+        </details>
+        <identifiers>
+          <issn>1552-5783</issn>
+          <doi>10.1167/IOVS.65.10.39</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-05-26 15:13:42</sourceUpdateDate>
+        <contentUpdateDate>2025-06-03 14:17:04</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1304707</rcn>
+        <id>101045253_156572_PUBLIHORIZON</id>
+        <title>The mysterious middlemen making your vision pop: understanding the function of amacrine cells</title>
+        <details>
+          <authors>Victor Calbiague‐Garcia, Deborah Varro, Thomas Buffet, Olivier Marre</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>The Journal of Physiology</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2025</publishedYear>
+          <publisher>Wiley</publisher>
+        </details>
+        <identifiers>
+          <issn>0022-3751</issn>
+          <doi>10.1113/JP287958</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-05-26 15:13:42</sourceUpdateDate>
+        <contentUpdateDate>2025-06-03 14:16:59</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1229463</rcn>
+        <id>101045253_100237_PUBLIHORIZON</id>
+        <title>Nonlinear spatial integration allows the retina to detect the sign of defocus in natural scenes</title>
+        <details>
+          <authors>Sarah Goethals, Awen Louboutin, Samy Hamlaoui, Tom Quetu, Samuele Virgili, Matias A. Goldin, Konogan Baranton, Olivier Marre</authors>
+          <journalNumber></journalNumber>
+          <journalTitle></journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Cold Spring Harbor Laboratory</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1101/2024.06.03.596421</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-12-15 01:52:25</sourceUpdateDate>
+        <contentUpdateDate>2024-12-16 16:53:44</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/OTHER</code>
+              <title>Other</title>
+              <displayCode>/Other</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1229475</rcn>
+        <id>101045253_99955_PUBLIHORIZON</id>
+        <title>Nature Communications</title>
+        <details>
+          <authors>Ebert, Simone; Buffet, Thomas; Sermet, B.Semihcan; Marre, Olivier; Cessac, Bruno</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>https://hal.science/hal-04160883</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>Nature Publishing Group</publisher>
+        </details>
+        <identifiers>
+          <issn>2041-1723</issn>
+          <doi>10.1101/2023.01.12.523643</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-12-15 01:52:25</sourceUpdateDate>
+        <contentUpdateDate>2024-12-16 16:53:44</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode>/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/49/327</code>
+        <title>neurobiology</title>
+        <displayCode>/natural sciences/biological sciences/neurobiology</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/21/39/213</code>
+        <title>ophthalmology</title>
+        <displayCode>/medical and health sciences/clinical medicine/ophthalmology</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode>/Digital agenda</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode>/Clean air</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode>/Artificial intelligence</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode>/Climate action</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode>/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages>en</availableLanguages>
+        <code>/HORIZON-ERC</code>
+        <title>HORIZON ERC Grants</title>
+        <description>HORIZON ERC Grants</description>
+        <displayCode>/HORIZON ERC Grants</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode>/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages>en</availableLanguages>
+  <rcn>240246</rcn>
+  <id>101063294</id>
+  <acronym>MagicBathy</acronym>
+  <teaser>Accurate, detailed and high-frequent bathymetry, coupled with the important visual and semantic information, is crucial for the undermapped shallow coastal areas being affected by intense climatological and anthropogenic pressures. Regular UAV and satellite imagery have the...</teaser>
+  <objective>Accurate, detailed and high-frequent bathymetry, coupled with the important visual and semantic information, is crucial for the undermapped shallow coastal areas being affected by intense climatological and anthropogenic pressures. Regular UAV and satellite imagery have the potential to frequently and consistently map those areas to different extents and detail, providing ground breaking key information. However, optical properties of water severely affect images and refraction is the main factor affecting their geometry. Current Structure from Motion (SfM) based solutions for refraction correction are slow and costly. Satellite Derived Bathymetry (SDB) methods deliver faster results over huge shallow areas albeit in lower spatial resolution, failing to handle non-homogeneous seabeds. Recent methods based on Convolutional Neural Networks (CNNs) deliver either only the bathymetry or the semantics of the scene, tackling those problems separately and in one scale/modality at a time. They are mostly dedicated to satellite images, failing to address the challenges of shallow waters, being also inefficient for UAV images, preventing higher resolution results. MagicBathy will establish an advanced deep learning framework for low-cost shallow water mapping by developing a novel boundary-aware multitask, multiscale and multimodal learning approach for bathymetry and semantics together, exploiting single either UAV or satellite imagery. To overcome the domain gap, generalize and improve performance, self-supervised in-domain representation learning will be performed. To enhance the spatial resolution of low resolution satellite images and hence of the resulting bathymetric/semantic maps, a conditional generative adversarial network (cGAN)-based Super Resolution framework will be developed, dealing with the special challenges of shallow water imagery. Frameworks, models and results will be published in open access, enabling the rapid progress in shallow water mapping worldwide</objective>
+  <title>Multimodal multitAsk learninG for MultIsCale BATHYmetric mapping in shallow waters</title>
+  <totalCost>0</totalCost>
+  <ecMaxContribution>189687.36</ecMaxContribution>
+  <startDate>2023-02-01</startDate>
+  <endDate>2025-08-31</endDate>
+  <ecSignatureDate>2022-07-07</ecSignatureDate>
+  <duration>31</duration>
+  <status>SIGNED</status>
+  <keywords>Remote Sensing, Deep Learning, Seabed mapping, Multitask learning, Semantic Segmentation, UAV and Satellite Image, Bathymetry, Single View Depth estimation, Super Resolution, Representation learning</keywords>
+  <identifiers>
+    <grantDoi>10.3030/101063294</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>false</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2025-07-08 11:41:50</sourceUpdateDate>
+  <contentCreationDate>2022-08-26 15:22:38</contentCreationDate>
+  <contentUpdateDate>2025-08-08 17:32:34</contentUpdateDate>
+  <lastUpdateDate>2025-09-19 14:48:56</lastUpdateDate>
+  <relations>
+    <associations>
+      <article source="editorial" type="relatedArticle">
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <rcn>437384</rcn>
+        <id>437384-improving-coastal-mapping-with-deep-learning</id>
+        <title>Improving coastal mapping with deep learning</title>
+        <contentUpdateDate>2022-11-21 09:49:01</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/projectDescription</code>
+              <title>Project description</title>
+              <description>Article: description of linked project written by editorial team</description>
+              <displayCode>/Project description</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/editorial</code>
+              <title>CORDIS Editorial</title>
+              <description>Written by CORDIS</description>
+              <displayCode>/CORDIS Editorial</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </article>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>55376</rcn>
+        <title>HORIZON-MSCA-2021-PF-01</title>
+        <identifier>HORIZON-MSCA-2021-PF-01</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>55376</rcn>
+        <title>HORIZON-MSCA-2021-PF-01</title>
+        <identifier>HORIZON-MSCA-2021-PF-01</identifier>
+      </call>
+      <organization netEcContribution="189687.36" totalCost="0" source="corda" order="1" ecContribution="189687.36" terminated="false" sme="false" type="coordinator">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1905653</rcn>
+        <id>999986678</id>
+        <vatNumber>DE811231089</vatNumber>
+        <legalName>TECHNISCHE UNIVERSITAT BERLIN</legalName>
+        <shortName>TUB</shortName>
+        <address>
+          <street>STRASSE DES 17 JUNI 135</street>
+          <city>Berlin</city>
+          <postalCode>10623</postalCode>
+          <country>DE</country>
+          <postBox>000</postBox>
+          <url>http://www.tu-berlin.de</url>
+          <geolocation>52.5121106,13.32700630032475</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Berlin</name>
+              <rcn>221786112</rcn>
+              <nutsCode>DE300</nutsCode>
+              <parents>
+                <region>
+                  <name>Berlin</name>
+                  <rcn>221786152</rcn>
+                  <nutsCode>DE30</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Berlin</name>
+                      <rcn>221788712</rcn>
+                      <nutsCode>DE3</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Germany</name>
+                          <rcn>221940264</rcn>
+                          <nutsCode>DE</nutsCode>
+                          <euCode>DE</euCode>
+                          <isoCode>DE</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Germany</name>
+              <rcn>221940264</rcn>
+              <nutsCode>DE</nutsCode>
+              <euCode>DE</euCode>
+              <isoCode>DE</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="0" totalCost="0" source="corda" order="2" terminated="false" sme="false" type="associatedPartner">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1905906</rcn>
+        <id>999848744</id>
+        <vatNumber>CZ68407700</vatNumber>
+        <legalName>CESKE VYSOKE UCENI TECHNICKE V PRAZE</legalName>
+        <shortName>CVUT</shortName>
+        <address>
+          <street>JUGOSLAVSKYCH PARTYZANU 1580/3</street>
+          <city>PRAHA</city>
+          <postalCode>160 00</postalCode>
+          <country>CZ</country>
+          <postBox>000</postBox>
+          <url>http://www.cvut.cz</url>
+          <geolocation>50.102175,14.3884697</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Hlavní město Praha</name>
+              <rcn>1465479</rcn>
+              <nutsCode>CZ010</nutsCode>
+              <parents>
+                <region>
+                  <name>Praha</name>
+                  <rcn>210501736</rcn>
+                  <nutsCode>CZ01</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Česko</name>
+                      <rcn>1465445</rcn>
+                      <nutsCode>CZ0</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Czechia</name>
+                          <rcn>210668072</rcn>
+                          <nutsCode>CZ</nutsCode>
+                          <euCode>CZ</euCode>
+                          <isoCode>CZ</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Czechia</name>
+              <rcn>210668072</rcn>
+              <nutsCode>CZ</nutsCode>
+              <euCode>CZ</euCode>
+              <isoCode>CZ</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme type="relatedTopic" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>706003</rcn>
+        <id>HORIZON_HORIZON-MSCA-2021-PF-01-01</id>
+        <code>HORIZON-MSCA-2021-PF-01-01</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>MSCA Postdoctoral Fellowships 2021</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode>/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme type="relatedLegalBasis" source="corda" uniqueProgrammePart="true">
+        <availableLanguages>en</availableLanguages>
+        <rcn>705729</rcn>
+        <id>HORIZON.1.2</id>
+        <code>HORIZON.1.2</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.1.2</pga>
+        <title>Marie Skłodowska-Curie Actions (MSCA)</title>
+        <parent>
+          <programme>
+            <rcn>705726</rcn>
+            <code>HORIZON.1</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode>/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1353073</rcn>
+        <id>101063294_210548_PUBLIHORIZON</id>
+        <title>Sea-Undistort: A Dataset for Through-Water Image Restoration in High Resolution Airborne Bathymetric Mapping</title>
+        <details>
+          <authors>Maximilian Kromer, Panagiotis Agrafiotis, Begüm Demir</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>IEEE Geoscience and Remote Sensing Letters</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2025</publishedYear>
+          <publisher>Institute of Electrical and Electronics Engineers (IEEE)</publisher>
+        </details>
+        <identifiers>
+          <issn>1545-598X</issn>
+          <doi>10.48550/ARXIV.2508.07760</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-08-26 14:12:51</sourceUpdateDate>
+        <contentUpdateDate>2025-09-01 11:12:36</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1102135</rcn>
+        <id>101063294_28660_PUBLIHORIZON</id>
+        <title>High resolution optical and acoustic remote sensing datasets of the Puck Lagoon</title>
+        <details>
+          <authors>Łukasz Janowski, Dimitrios Skarlatos, Panagiotis Agrafiotis, Paweł Tysiąc, Andrzej Pydyn, Mateusz Popek, Anna M Kotarba-Morley, Gottfried Mandlburger, Łukasz Gajewski, Mateusz Kołakowski, Alexandra Papadaki, Juliusz Gajewski</authors>
+          <journalNumber>360</journalNumber>
+          <journalTitle>Scientific Data (Sci Data)</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Nature</publisher>
+        </details>
+        <identifiers>
+          <issn>2052-4463</issn>
+          <doi>10.48550/ARXIV.2411.08712</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-04-15 01:27:45</sourceUpdateDate>
+        <contentUpdateDate>2025-08-14 15:29:30</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1293165</rcn>
+        <id>101063294_146815_PUBLIHORIZON</id>
+        <title>Deep learning-based bathymetry retrieval without in-situ depths using remote sensing imagery and SfM-MVS DSMs with data gaps</title>
+        <details>
+          <authors>Panagiotis Agrafiotis, Begüm Demir</authors>
+          <journalNumber>225</journalNumber>
+          <journalTitle>ISPRS Journal of Photogrammetry and Remote Sensing</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2025</publishedYear>
+          <publisher>Elsevier BV</publisher>
+        </details>
+        <identifiers>
+          <issn>0924-2716</issn>
+          <doi>10.48550/ARXIV.2504.11416</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-05-15 17:50:43</sourceUpdateDate>
+        <contentUpdateDate>2025-05-19 10:18:33</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1211003</rcn>
+        <id>101063294_31231_PUBLIHORIZON</id>
+        <title>MagicBathyNet: A Multimodal Remote Sensing Dataset for Bathymetry Prediction and Pixel-based Classification in Shallow Waters</title>
+        <details>
+          <authors>Panagiotis Agrafiotis, Łukasz Janowski, Dimitrios Skarlatos, Begüm Demir</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>IGARSS 2024 - 2024 IEEE International Geoscience and Remote Sensing Symposium</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <issn>2153-7003</issn>
+          <doi>10.48550/arXiv.2405.15477</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-09-10 00:16:04</sourceUpdateDate>
+        <contentUpdateDate>2024-11-26 11:10:18</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode>/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/25/75/461/1239/1739</code>
+        <title>satellite technology</title>
+        <displayCode>/engineering and technology/mechanical engineering/vehicle engineering/aerospace engineering/satellite technology</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/51/359/1065</code>
+        <title>geometry</title>
+        <displayCode>/natural sciences/mathematics/pure mathematics/geometry</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode>/Digital agenda</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode>/Clean air</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode>/Artificial intelligence</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="100">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode>/Climate action</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode>/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages>en</availableLanguages>
+        <code>/HORIZON-TMA-MSCA-PF-EF</code>
+        <title>HORIZON TMA MSCA Postdoctoral Fellowships - European Fellowships</title>
+        <description>HORIZON TMA MSCA Postdoctoral Fellowships - European Fellowships</description>
+        <displayCode>/HORIZON TMA MSCA Postdoctoral Fellowships - European Fellowships</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode>/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

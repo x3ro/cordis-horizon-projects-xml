@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages>en</availableLanguages>
+  <rcn>269374</rcn>
+  <id>101167139</id>
+  <acronym>PSINumScat</acronym>
+  <teaser>Designing fast and reliable algorithms to numerically simulate the behaviour of high-frequency acoustic and electromagnetic waves is a longstanding open problem in computational mathematics. Furthermore, these waves underpin a plethora of communication and imaging...</teaser>
+  <objective>Designing fast and reliable algorithms to numerically simulate the behaviour of high-frequency acoustic and electromagnetic waves is a longstanding open problem in computational mathematics. Furthermore, these waves underpin a plethora of communication and imaging technologies; therefore any progress towards solving this problem will have wide impact.
+
+The project aims to design, analyse, and implement in open-source software new methods for the numerical solution of high-frequency acoustic and electromagnetic wave scattering problems. These methods will be faster, more reliable, and more widely applicable than current state-of-the-art methods, with this improvement achieved by exploiting techniques from pure mathematics specifically designed to study high-frequency problems; these techniques are from the area of semiclassical analysis and are based on studying functions in phase space (the combination of physical and frequency space). 
+
+Since both numerical analysis and semiclassical analysis of high-frequency wave scattering problems are mature areas of mathematics, it is surprising that these two fields have operated largely in isolation from each other, with essentially none of the deep insights about high-frequency waves from semiclassical analysis used in the design of numerical methods for these problems. 
+
+This project will exploit this untapped potential and implement the resulting methods in the open-source multiphysics finite-element 
+software FreeFEM (https://freefem.org/) in easy-to-use packages. These packages will be designed for researchers in the applied sciences and industry seeking to simulate the behaviour of high-frequency acoustic and electromagnetic waves.
+
+These goals will be achieved by combining the expertise of the three PIs: JG, an expert in semiclassical analysis, ES, an expert in the numerical analysis of high-frequency scattering, and PT, an expert in scientific computing and the lead developer of FreeFEM.</objective>
+  <title>Phase-space-inspired numerical methods for high-frequency wave scattering: from semiclassical analysis through numerical analysis to open-source software</title>
+  <totalCost>8725537</totalCost>
+  <ecMaxContribution>8725537</ecMaxContribution>
+  <startDate>2025-05-01</startDate>
+  <endDate>2031-04-30</endDate>
+  <ecSignatureDate>2025-03-13</ecSignatureDate>
+  <duration>72</duration>
+  <status>SIGNED</status>
+  <keywords>High frequency, scattering, Helmholtz, Maxwell, finite-element method, boundary-element method, domain decomposition</keywords>
+  <identifiers>
+    <grantDoi>10.3030/101167139</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>false</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2025-03-18 10:07:24</sourceUpdateDate>
+  <contentCreationDate>2025-03-18 17:15:08</contentCreationDate>
+  <contentUpdateDate>2025-03-18 17:15:04</contentUpdateDate>
+  <lastUpdateDate>2025-09-19 14:48:56</lastUpdateDate>
+  <relations>
+    <associations>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>56392</rcn>
+        <title>ERC-2024-SyG</title>
+        <identifier>ERC-2024-SyG</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>56392</rcn>
+        <title>ERC-2024-SyG</title>
+        <identifier>ERC-2024-SyG</identifier>
+      </call>
+      <organization netEcContribution="69300" totalCost="0" source="corda" order="3" ecContribution="0" terminated="false" sme="false" type="thirdParty">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1906120</rcn>
+        <id>999547074</id>
+        <vatNumber>FR45180089047</vatNumber>
+        <legalName>INSTITUT NATIONAL DE RECHERCHE EN INFORMATIQUE ET AUTOMATIQUE</legalName>
+        <shortName>INRIA</shortName>
+        <address>
+          <street>DOMAINE DE VOLUCEAU ROCQUENCOURT</street>
+          <city>Le Chesnay Cedex</city>
+          <postalCode>78153</postalCode>
+          <country>FR</country>
+          <postBox>N/A</postBox>
+          <url>http://www.inria.fr</url>
+          <geolocation>48.8278506,2.1319603</geolocation>
+        </address>
+        <departmentName>Inria</departmentName>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/REC</code>
+              <title>Research Organisations</title>
+              <displayCode>/Research Organisations</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>France</name>
+              <rcn>258902568</rcn>
+              <nutsCode>FR</nutsCode>
+              <euCode>FR</euCode>
+              <isoCode>FR</isoCode>
+            </region>
+            <region type="relatedRegion">
+              <name>France</name>
+              <rcn>258902568</rcn>
+              <nutsCode>FR</nutsCode>
+              <euCode>FR</euCode>
+              <isoCode>FR</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="3060223" totalCost="3060223" source="corda" order="1" ecContribution="3060223" terminated="false" sme="false" type="coordinator">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1908879</rcn>
+        <id>999842924</id>
+        <vatNumber>GB639542122</vatNumber>
+        <legalName>UNIVERSITY OF BATH</legalName>
+        <shortName>UBAH</shortName>
+        <address>
+          <street>CLAVERTON DOWN</street>
+          <city>BATH</city>
+          <postalCode>BA2 7AY</postalCode>
+          <country>UK</country>
+          <postBox>000</postBox>
+          <url>http://www.bath.ac.uk/</url>
+          <geolocation>51.3686485,-2.3276286</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Bath and North East Somerset, North Somerset and South Gloucestershire</name>
+              <rcn>508641346</rcn>
+              <nutsCode>UKK12</nutsCode>
+              <parents>
+                <region>
+                  <name>Gloucestershire, Wiltshire and Bristol/Bath area</name>
+                  <rcn>508641384</rcn>
+                  <nutsCode>UKK1</nutsCode>
+                  <parents>
+                    <region>
+                      <name>South West (England)</name>
+                      <rcn>508643880</rcn>
+                      <nutsCode>UKK</nutsCode>
+                      <parents>
+                        <region>
+                          <name>United Kingdom</name>
+                          <rcn>508725800</rcn>
+                          <nutsCode>UK</nutsCode>
+                          <euCode>UK</euCode>
+                          <isoCode>GB</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>United Kingdom</name>
+              <rcn>508725800</rcn>
+              <nutsCode>UK</nutsCode>
+              <euCode>UK</euCode>
+              <isoCode>GB</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="53280" totalCost="0" source="corda" order="3" ecContribution="0" terminated="false" sme="false" type="thirdParty">
+        <availableLanguages>en</availableLanguages>
+        <rcn>2062761</rcn>
+        <id>999489941</id>
+        <vatNumber>FR52199312380</vatNumber>
+        <legalName>UNIVERSITE PARIS 13</legalName>
+        <shortName>USPN</shortName>
+        <address>
+          <street>AVENUE JEAN-BAPTISTE CLEMENT 99</street>
+          <city>VILLETANEUSE</city>
+          <postalCode>93430</postalCode>
+          <country>FR</country>
+          <postBox>000</postBox>
+          <url>https://www.univ-paris13.fr</url>
+          <geolocation>48.9598321,2.3447362</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Seine-Saint-Denis</name>
+              <rcn>258740230</rcn>
+              <nutsCode>FR106</nutsCode>
+              <parents>
+                <region>
+                  <name>Ile-de-France</name>
+                  <rcn>258740264</rcn>
+                  <nutsCode>FR10</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Ile-de-France</name>
+                      <rcn>258742824</rcn>
+                      <nutsCode>FR1</nutsCode>
+                      <parents>
+                        <region>
+                          <name>France</name>
+                          <rcn>258902568</rcn>
+                          <nutsCode>FR</nutsCode>
+                          <euCode>FR</euCode>
+                          <isoCode>FR</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>France</name>
+              <rcn>258902568</rcn>
+              <nutsCode>FR</nutsCode>
+              <euCode>FR</euCode>
+              <isoCode>FR</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="3489915" totalCost="3489915" source="corda" order="2" ecContribution="3489915" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1949570</rcn>
+        <id>999975620</id>
+        <vatNumber>GB524371168</vatNumber>
+        <legalName>UNIVERSITY COLLEGE LONDON</legalName>
+        <address>
+          <street>GOWER STREET</street>
+          <city>LONDON</city>
+          <postalCode>WC1E 6BT</postalCode>
+          <country>UK</country>
+          <postBox>N/A</postBox>
+          <url>http://www.ucl.ac.uk</url>
+          <geolocation>51.5224975,-0.1326874</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Camden and City of London</name>
+              <rcn>1465358</rcn>
+              <nutsCode>UKI31</nutsCode>
+              <parents>
+                <region>
+                  <name>Inner London — West</name>
+                  <rcn>1465192</rcn>
+                  <nutsCode>UKI3</nutsCode>
+                  <parents>
+                    <region>
+                      <name>London</name>
+                      <rcn>508635688</rcn>
+                      <nutsCode>UKI</nutsCode>
+                      <parents>
+                        <region>
+                          <name>United Kingdom</name>
+                          <rcn>508725800</rcn>
+                          <nutsCode>UK</nutsCode>
+                          <euCode>UK</euCode>
+                          <isoCode>GB</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>United Kingdom</name>
+              <rcn>508725800</rcn>
+              <nutsCode>UK</nutsCode>
+              <euCode>UK</euCode>
+              <isoCode>GB</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="2052819" totalCost="2175399" source="corda" order="3" ecContribution="2175399" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1905572</rcn>
+        <id>999997930</id>
+        <vatNumber>FR40180089013</vatNumber>
+        <legalName>CENTRE NATIONAL DE LA RECHERCHE SCIENTIFIQUE CNRS</legalName>
+        <shortName>CNRS</shortName>
+        <address>
+          <street>RUE MICHEL ANGE 3</street>
+          <city>PARIS</city>
+          <postalCode>75794</postalCode>
+          <country>FR</country>
+          <postBox>N/A</postBox>
+          <url>http://www.cnrs.fr</url>
+          <geolocation>48.84755265,2.26404020346787</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/REC</code>
+              <title>Research Organisations</title>
+              <displayCode>/Research Organisations</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>France</name>
+              <rcn>258902568</rcn>
+              <nutsCode>FR</nutsCode>
+              <euCode>FR</euCode>
+              <isoCode>FR</isoCode>
+            </region>
+            <region type="relatedRegion">
+              <name>France</name>
+              <rcn>258902568</rcn>
+              <nutsCode>FR</nutsCode>
+              <euCode>FR</euCode>
+              <isoCode>FR</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme type="relatedLegalBasis" source="corda" uniqueProgrammePart="true">
+        <availableLanguages>en</availableLanguages>
+        <rcn>705727</rcn>
+        <id>HORIZON.1.1</id>
+        <code>HORIZON.1.1</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.1.1</pga>
+        <title>European Research Council (ERC)</title>
+        <parent>
+          <programme>
+            <rcn>705726</rcn>
+            <code>HORIZON.1</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode>/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme type="relatedTopic" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>708446</rcn>
+        <id>HORIZON_ERC-2024-SyG</id>
+        <code>ERC-2024-SyG</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>ERC SYNERGY GRANTS</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode>/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode>/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/47/307</code>
+        <title>software</title>
+        <displayCode>/natural sciences/computer and information sciences/software</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/47/301/953</code>
+        <title>multiphysics</title>
+        <displayCode>/natural sciences/computer and information sciences/computational science/multiphysics</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="100">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode>/Digital agenda</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode>/Clean air</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="40">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode>/Artificial intelligence</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode>/Climate action</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode>/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages>en</availableLanguages>
+        <code>/HORIZON-ERC-SYG</code>
+        <title>HORIZON ERC Synergy Grants</title>
+        <description>HORIZON ERC Synergy Grants</description>
+        <displayCode>/HORIZON ERC Synergy Grants</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode>/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

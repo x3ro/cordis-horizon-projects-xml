@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages>en</availableLanguages>
+  <rcn>239838</rcn>
+  <id>101069207</id>
+  <acronym>DL-MechanoPredictor</acronym>
+  <teaser>In the fight against cancer, it is well recognized that tumors are highly heterogeneous and they might differ considerably not only between tumors types but also among tumors of the same type or even for the same tumor during progression. As a result, the efficacy of standard...</teaser>
+  <objective>In the fight against cancer, it is well recognized that tumors are highly heterogeneous and they might differ considerably not only between tumors types but also among tumors of the same type or even for the same tumor during progression. As a result, the efficacy of standard cancer therapies varies, and while some patients respond to a particular treatment, other patients do not gain any benefit. Consequently, crucial in cancer therapy is the prediction of a patients response to treatment. Failure of standard therapies has led to the introduction of a new era of personalized, patient-specific treatments, which are based on the identification of biomarkers that characterize the state of a particular tumor. Many solid tumors (e.g., breast cancers and sarcomas) stiffen as they grow in a hosts normal tissue. Tumor stiffening is a known factor leading to compromised efficacy of therapeutics. Recently, it has been demonstrated by our team and co-workers that repurposing of common drugs with anti-fibrotic properties, known as mechanotherapeutics, target tumor stiffness and enhance therapy. Here, we aim to harness the power of deep learning (DL) methods in order to develop a robust biomarker based on ultrasound shear wave elastography (SWE). This biomarker will aim to: (i) predict patients response to treatment, separating responders and non-responders and (ii) monitor treatment outcomes, in the case of strategies that target tumor stiffness (i.e., mechanotherapeutics). The DL algorithms will be applied to a large set of existing preclinical data and to additional new data. A proof of concept clinical study on sarcoma patients will accommodate the clinical translation of the biomarker. Furthermore, we propose to develop a software product to be used as a commercial tool for the measurement of the DL-derived, SWE biomarker. A planned market research will highlight the best options for commercialization.</objective>
+  <title>Deep learning derived mechanical biomarkers for cancer therapy prediction</title>
+  <totalCost>0</totalCost>
+  <ecMaxContribution>150000</ecMaxContribution>
+  <startDate>2022-09-01</startDate>
+  <endDate>2024-02-29</endDate>
+  <ecSignatureDate>2022-06-21</ecSignatureDate>
+  <duration>18</duration>
+  <status>CLOSED</status>
+  <identifiers>
+    <grantDoi>10.3030/101069207</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>false</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2022-06-23 23:26:49</sourceUpdateDate>
+  <contentCreationDate>2022-08-16 22:34:21</contentCreationDate>
+  <contentUpdateDate>2022-08-16 22:34:10</contentUpdateDate>
+  <lastUpdateDate>2025-09-19 14:48:51</lastUpdateDate>
+  <relations>
+    <associations>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>55465</rcn>
+        <title>ERC-2022-POC1</title>
+        <identifier>ERC-2022-POC1</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>55465</rcn>
+        <title>ERC-2022-POC1</title>
+        <identifier>ERC-2022-POC1</identifier>
+      </call>
+      <organization netEcContribution="150000" totalCost="0" source="corda" order="1" ecContribution="150000" terminated="false" sme="false" type="coordinator">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1905890</rcn>
+        <id>999835843</id>
+        <vatNumber>CY90001673W</vatNumber>
+        <legalName>UNIVERSITY OF CYPRUS</legalName>
+        <shortName>UCY</shortName>
+        <address>
+          <street>AVENUE PANEPISTIMIOU 2109  AGLANTZI</street>
+          <city>Nicosia</city>
+          <postalCode>1678</postalCode>
+          <country>CY</country>
+          <postBox>20537</postBox>
+          <url>http://www.ucy.ac.cy</url>
+          <geolocation>35.1739302,33.364726</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Κύπρος</name>
+              <rcn>210239488</rcn>
+              <nutsCode>CY000</nutsCode>
+              <parents>
+                <region>
+                  <name>Κύπρος</name>
+                  <rcn>210239528</rcn>
+                  <nutsCode>CY00</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Κύπρος</name>
+                      <rcn>210242088</rcn>
+                      <nutsCode>CY0</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Cyprus</name>
+                          <rcn>210405928</rcn>
+                          <nutsCode>CY</nutsCode>
+                          <euCode>CY</euCode>
+                          <isoCode>CY</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Cyprus</name>
+              <rcn>210405928</rcn>
+              <nutsCode>CY</nutsCode>
+              <euCode>CY</euCode>
+              <isoCode>CY</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme type="relatedTopic" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>706226</rcn>
+        <id>HORIZON_ERC-2022-POC1</id>
+        <code>ERC-2022-POC1</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>ERC PROOF OF CONCEPT GRANTS1</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode>/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme type="relatedLegalBasis" source="corda" uniqueProgrammePart="true">
+        <availableLanguages>en</availableLanguages>
+        <rcn>705727</rcn>
+        <id>HORIZON.1.1</id>
+        <code>HORIZON.1.1</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.1.1</pga>
+        <title>European Research Council (ERC)</title>
+        <parent>
+          <programme>
+            <rcn>705726</rcn>
+            <code>HORIZON.1</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode>/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1127811</rcn>
+        <id>101069207_PSHORIZON</id>
+        <title>Periodic Reporting for period 1 - DL-MechanoPredictor (Deep learning derived mechanical biomarkers for cancer therapy prediction)</title>
+        <description>periodic</description>
+        <teaser>Tumors are highly heterogeneous and differ considerably not only between tumors of different types but also among tumors of the same type. Therefore, therapeutic outcomes vary among patients with cancer separating patients between responders and non-responders to the...</teaser>
+        <sourceUpdateDate>2024-07-01 21:41:21</sourceUpdateDate>
+        <contentUpdateDate>2024-07-08 12:26:41</contentUpdateDate>
+        <relations>
+          <associations>
+            <webItem type="relatedResultAttachment" source="corda">
+              <language>en</language>
+              <availableLanguages>en,any</availableLanguages>
+              <uri>/docs/results/horizon/101069/101069207_PS/picture1.png</uri>
+              <alternativeText>Hypothesis: a biomarker based on shear wave elastography can predict the efficacy of cancer therapy</alternativeText>
+              <mimetype>image/png</mimetype>
+              <size>216064</size>
+            </webItem>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/pubsum</code>
+              <title>Report Summary</title>
+              <description>Result: Publishable summary (FP7 SESAM) and Summary for publication (H2020 SyGMa)</description>
+              <displayCode>/Report Summary</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1189033</rcn>
+        <id>101069207_23261_PUBLIHORIZON</id>
+        <title>Stabilizing tumor resident mast cells restores T cell infiltration and sensitizes sarcomas to PD-L1 inhibition</title>
+        <details>
+          <authors>Myrofora Panagi, Fotios Mpekris, Chrysovalantis Voutouri, Andreas G. Hadjigeorgiou, Chloe Symeonidou, Eleni Porfyriou, Christina Michael, Andreas Stylianou,  John D. Martin  ORCID logo  ; Horacio Cabral, Anastasia Constantinidou, T. Stylianopou</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Clinical CancerResearch</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>AACR</publisher>
+        </details>
+        <identifiers>
+          <issn>1557-3265</issn>
+          <doi>10.1158/1078-0432.CCR-24-0246</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-04-12 20:06:36</sourceUpdateDate>
+        <contentUpdateDate>2024-11-15 09:21:13</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1191003</rcn>
+        <id>101069207_22426_PUBLIHORIZON</id>
+        <title>Immunotherapy in soft tissue and bone sarcoma: unraveling the barriers to effectiveness</title>
+        <details>
+          <authors>Panagi, Myrofora; Pilavaki, Pampina; Constantinidou, Anastasia; Stylianopoulos, Triantafyllos</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Theranostics</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2022</publishedYear>
+          <publisher>IvySpring</publisher>
+        </details>
+        <identifiers>
+          <issn>1838-7640</issn>
+          <doi>10.7150/thno.72800</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-04-07 13:11:41</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 14:08:47</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1191005</rcn>
+        <id>101069207_22427_PUBLIHORIZON</id>
+        <title>Translational Oncology</title>
+        <details>
+          <authors>Englezos D., Voutouri C., Stylianopoulos T.</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Translational Oncology</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Elsevier</publisher>
+        </details>
+        <identifiers>
+          <issn>1936-5233</issn>
+          <doi>10.1016/j.tranon.2024.101944</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-04-07 13:11:41</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 14:08:47</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1191010</rcn>
+        <id>101069207_22424_PUBLIHORIZON</id>
+        <title>Exploring the landscape of immunotherapy approaches in sarcomas.</title>
+        <details>
+          <authors>Pampina Pilavaki; Pampina Pilavaki; Myrofora Panagi; Samia Arifi; Robin L. Jones; Robin L. Jones; Triantafyllos Stylianopoulos; Anastasia Constantinidou; Anastasia Constantinidou; Anastasia Constantinidou</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Frontiers in Oncology</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>Frontiers Media S. A.</publisher>
+        </details>
+        <identifiers>
+          <issn>2234-943X</issn>
+          <doi>10.3389/fonc.2022.1069963</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-04-07 13:11:41</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 14:08:47</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1191014</rcn>
+        <id>101069207_22425_PUBLIHORIZON</id>
+        <title>Towards innovative approaches for exploring the mechanically regulated tumor-immune microenvironment</title>
+        <details>
+          <authors>Maria Kalli; Triantafyllos Stylianopoulos</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>APL Bioengineering</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>AIP Publishing</publisher>
+        </details>
+        <identifiers>
+          <issn>2473-2877</issn>
+          <doi>10.1063/5.0183302</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-04-07 13:11:41</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 14:08:47</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode>/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/47/307</code>
+        <title>software</title>
+        <displayCode>/natural sciences/computer and information sciences/software</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/21/39/225</code>
+        <title>oncology</title>
+        <displayCode>/medical and health sciences/clinical medicine/oncology</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode>/Digital agenda</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode>/Clean air</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode>/Artificial intelligence</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="40">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode>/Climate action</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode>/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages>en</availableLanguages>
+        <code>/HORIZON-ERC-POC</code>
+        <title>HORIZON ERC Proof of Concept Grants</title>
+        <description>HORIZON ERC Proof of Concept Grants</description>
+        <displayCode>/HORIZON ERC Proof of Concept Grants</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode>/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

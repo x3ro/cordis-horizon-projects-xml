@@ -1,0 +1,2167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages>en</availableLanguages>
+  <rcn>240002</rcn>
+  <id>101039913</id>
+  <acronym>PARAPATH</acronym>
+  <teaser>Nowadays, numerous problems are known to be NP-hard, and hence unlikely to admit worst-case efficient algorithms. Fortunately, the field of Parameterized Complexity (PC) shows that the nutshell of hardness often lies in particular properties (called parameters) of the...</teaser>
+  <objective>Nowadays, numerous problems are known to be NP-hard, and hence unlikely to admit worst-case efficient algorithms. Fortunately, the field of Parameterized Complexity (PC) shows that the nutshell of hardness often lies in particular properties (called parameters) of the instances. Here, we answer the fundamental question: What makes an NP-hard problem hard? Specifically, how do different parameters of an NP-hard problem relate to its inherent difficulty? Based on this knowledge, we design efficient algorithms for wide-classes of instances of NP-hard problems. 
+At the heart of PC lies the study of path (or cycle) problems. The inception of PC was inspired by the Graph Minors Theory, where the resolution of DISJOINT PATHS is a cornerstone. Moreover, the study of k-PATH has led to a large number of major breakthroughs in PC over the past three decades. Still, (i) fundamental questions concerning path problems have remained unanswered, and (ii) close to nothing is known about the relations between the different techniques to solve path problems. 
+The overarching goal of this proposal is to build a unified, deep theory to analyze parameterized path problems. 
+As known techniques to solve path problems rely, individually, on Graph Minors Theory, Extremal Combinatorics, Matroid Theory, Exterior Algebra, and more, I will draw new deep connections between these fields (towards unification). 
+Based on the new theory, I believe that I will be able to answer decades-old questions in PC, which will revolutionize the power of this field. This includes the establishment of an Efficient Graph Minors Theory, an optimality program for color-coding-amenable problems, and a machinery to refute the existence of polynomial Turing kernels. Answers to these questions will substantially reshape the future of the design of parameterized algorithms, graph algorithms, and preprocessing procedures. Additionally, they will have high impact applications in practice.</objective>
+  <title>Parameterized Complexity Through the Lens of Path Problems</title>
+  <totalCost>1499821</totalCost>
+  <ecMaxContribution>1499821</ecMaxContribution>
+  <startDate>2022-07-01</startDate>
+  <endDate>2027-06-30</endDate>
+  <ecSignatureDate>2022-06-29</ecSignatureDate>
+  <duration>60</duration>
+  <status>SIGNED</status>
+  <keywords>Path Problems, Parameterized Algorithms, Parameterized Complexity, Graph Minors, Kernelization</keywords>
+  <identifiers>
+    <grantDoi>10.3030/101039913</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>false</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2025-01-03 10:47:16</sourceUpdateDate>
+  <contentCreationDate>2022-08-19 09:24:18</contentCreationDate>
+  <contentUpdateDate>2022-08-19 09:24:12</contentUpdateDate>
+  <lastUpdateDate>2025-09-19 14:48:36</lastUpdateDate>
+  <relations>
+    <associations>
+      <article source="editorial" type="relatedArticle">
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <rcn>436846</rcn>
+        <id>436846-another-way-to-look-at-the-hardest-of-the-hard-problems</id>
+        <title>Another way to look at the hardest of the hard problems</title>
+        <contentUpdateDate>2022-11-07 17:08:47</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/projectDescription</code>
+              <title>Project description</title>
+              <description>Article: description of linked project written by editorial team</description>
+              <displayCode>/Project description</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/editorial</code>
+              <title>CORDIS Editorial</title>
+              <description>Written by CORDIS</description>
+              <displayCode>/CORDIS Editorial</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </article>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>55317</rcn>
+        <title>ERC-2021-STG</title>
+        <identifier>ERC-2021-STG</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>55317</rcn>
+        <title>ERC-2021-STG</title>
+        <identifier>ERC-2021-STG</identifier>
+      </call>
+      <organization netEcContribution="1499821" totalCost="1499821" source="corda" order="1" ecContribution="1499821" terminated="false" sme="false" type="coordinator">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1908847</rcn>
+        <id>999846222</id>
+        <vatNumber>IL500701644</vatNumber>
+        <legalName>BEN-GURION UNIVERSITY OF THE NEGEV</legalName>
+        <shortName>BGU</shortName>
+        <address>
+          <street>.</street>
+          <city>Beer Sheva</city>
+          <postalCode>84105</postalCode>
+          <country>IL</country>
+          <postBox>653</postBox>
+          <url>http://www.bgu.ac.il</url>
+          <geolocation>31.2525238,34.7905787</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Israel</name>
+              <rcn>307661352</rcn>
+              <nutsCode>IL</nutsCode>
+              <euCode>IL</euCode>
+              <isoCode>IL</isoCode>
+            </region>
+            <region type="relatedRegion">
+              <name>Israel</name>
+              <rcn>307661352</rcn>
+              <nutsCode>IL</nutsCode>
+              <euCode>IL</euCode>
+              <isoCode>IL</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme type="relatedTopic" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>705885</rcn>
+        <id>HORIZON_ERC-2021-STG</id>
+        <code>ERC-2021-STG</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>ERC STARTING GRANTS</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode>/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme type="relatedLegalBasis" source="corda" uniqueProgrammePart="true">
+        <availableLanguages>en</availableLanguages>
+        <rcn>705727</rcn>
+        <id>HORIZON.1.1</id>
+        <code>HORIZON.1.1</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.1.1</pga>
+        <title>European Research Council (ERC)</title>
+        <parent>
+          <programme>
+            <rcn>705726</rcn>
+            <code>HORIZON.1</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode>/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1148771</rcn>
+        <id>101039913_42438_PUBLIHORIZON</id>
+        <title>Meta-theorems for Parameterized Streaming Algorithms</title>
+        <details>
+          <authors>Daniel Lokshtanov and Pranabendu Misra and Fahad Panolan and M. S. Ramanujan and Saket Saurabh and Meirav Zehavi</authors>
+          <journalTitle>Proceedings of the 2024 {ACM-SIAM} Symposium on Discrete Algorithms, {SODA} 2024</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>SIAM</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1137/1.9781611977912</doi>
+          <isbn>978-1-61197-791-2</isbn>
+        </identifiers>
+        <sourceUpdateDate>2024-07-17 10:14:56</sourceUpdateDate>
+        <contentUpdateDate>2024-08-12 09:56:17</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1035089</rcn>
+        <id>101039913_7259_PUBLIHORIZON</id>
+        <title>Parameterized Approaches to Orthogonal Compaction</title>
+        <details>
+          <authors>Walter Didimo, Siddharth Gupta, Philipp Kindermann, Giuseppe Liotta, Alexander Wolff and Meirav Zehavi</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>{SOFSEM} 2023: Theory and Practice of Computer Science - 48th International Conference on Current Trends in Theory and Practice of Computer Science</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>Springer</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1007/978-3-031-23101-8\_8</doi>
+          <isbn>978-3-031-23100-1</isbn>
+        </identifiers>
+        <sourceUpdateDate>2024-01-06 00:36:27</sourceUpdateDate>
+        <contentUpdateDate>2024-01-24 16:11:56</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1035094</rcn>
+        <id>101039913_7260_PUBLIHORIZON</id>
+        <title>A Framework for Approximation Schemes on Disk Graphs</title>
+        <details>
+          <authors>Daniel Lokshtanov, Fahad Panolan, Saket Saurabh, Jie Xue and Meirav Zehavi</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Proceedings of the 2023 {ACM-SIAM} Symposium on Discrete Algorithms, {SODA} 2023</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>{SIAM}</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1137/1.9781611977554.ch84</doi>
+          <isbn>978-1-61197-755-4</isbn>
+        </identifiers>
+        <sourceUpdateDate>2024-01-06 00:36:27</sourceUpdateDate>
+        <contentUpdateDate>2024-01-24 16:15:45</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1148773</rcn>
+        <id>101039913_42437_PUBLIHORIZON</id>
+        <title>Drawn Tree Decomposition: New Approach for Graph Drawing Problems</title>
+        <details>
+          <authors>Siddharth Gupta and Guy Sa'ar and Meirav Zehavi</authors>
+          <journalTitle>18th International Symposium on Parameterized and Exact Computation, IPEC 2023</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>18th International Symposium on Parameterized and Exact Computation, IPEC 2023</publisher>
+        </details>
+        <identifiers>
+          <doi>10.4230/LIPICS.IPEC.2023.23</doi>
+          <isbn>978-3-95977-305-8</isbn>
+        </identifiers>
+        <sourceUpdateDate>2024-07-17 10:14:56</sourceUpdateDate>
+        <contentUpdateDate>2024-08-12 09:55:11</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1148768</rcn>
+        <id>101039913_42436_PUBLIHORIZON</id>
+        <title>Sidestepping Barriers for Dominating Set in Parameterized Complexity</title>
+        <details>
+          <authors>Ioannis Koutis and Michal Wlodarczyk and  Meirav Zehavi</authors>
+          <journalTitle>18th International Symposium on Parameterized and Exact Computation, IPEC 2023</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>18th International Symposium on Parameterized and Exact Computation, IPEC 2023</publisher>
+        </details>
+        <identifiers>
+          <doi>10.4230/LIPICS.IPEC.2023.31</doi>
+          <isbn>978-3-95977-305-8</isbn>
+        </identifiers>
+        <sourceUpdateDate>2024-07-17 10:14:56</sourceUpdateDate>
+        <contentUpdateDate>2024-08-12 09:57:27</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1148764</rcn>
+        <id>101039913_42440_PUBLIHORIZON</id>
+        <title>A 1.9999-Approximation Algorithm for Vertex Cover on String Graphs</title>
+        <details>
+          <authors>Daniel Lokshtanov and Fahad Panolan and Saket Saurabh and Jie Xue and  Meirav Zehavi</authors>
+          <journalTitle>40th International Symposium on Computational Geometry, SoCG 2024</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>"Schloss Dagstuhl - Leibniz-Zentrum f{\""{u}}r Informatik"</publisher>
+        </details>
+        <identifiers>
+          <doi>10.4230/LIPICS.SOCG.2024.72</doi>
+          <isbn>978-3-95977-316-4</isbn>
+        </identifiers>
+        <sourceUpdateDate>2024-07-17 10:14:56</sourceUpdateDate>
+        <contentUpdateDate>2024-08-12 09:58:11</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1148769</rcn>
+        <id>101039913_42441_PUBLIHORIZON</id>
+        <title>How to Make Knockout Tournaments More Popular?</title>
+        <details>
+          <authors>Juhi Chaudhary and Hendrik Molter and Meirav Zehavi</authors>
+          <journalTitle>Thirty-Eighth {AAAI} Conference on Artificial Intelligence, {AAAI} 2024</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>{AAAI} Press</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1609/AAAI.V38I9.28814</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-07-17 10:14:56</sourceUpdateDate>
+        <contentUpdateDate>2024-08-12 09:56:52</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1148766</rcn>
+        <id>101039913_42434_PUBLIHORIZON</id>
+        <title>Kernels for the Disjoint Paths Problem on Subclasses of Chordal Graphs</title>
+        <details>
+          <authors>Juhi Chaudhary and Harmender Gahlawat and Michal Wlodarczyk and  Meirav Zehavi</authors>
+          <journalTitle>18th International Symposium on Parameterized and Exact Computation, IPEC 2023</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>18th International Symposium on Parameterized and Exact Computation, IPEC 2023</publisher>
+        </details>
+        <identifiers>
+          <doi>10.4230/LIPICS.IPEC.2023.10</doi>
+          <isbn>978-3-95977-305-8</isbn>
+        </identifiers>
+        <sourceUpdateDate>2024-07-17 10:14:56</sourceUpdateDate>
+        <contentUpdateDate>2024-08-12 09:55:37</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1148772</rcn>
+        <id>101039913_42443_PUBLIHORIZON</id>
+        <title>Kernelization of Counting Problems</title>
+        <details>
+          <authors>Daniel Lokshtanov and  Pranabendu Misra and Saket Saurabh and  Meirav Zehavi</authors>
+          <journalTitle>15th Innovations in Theoretical Computer Science Conference, {ITCS} 2024</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>"Schloss Dagstuhl - Leibniz-Zentrum f{\""{u}}r Informatik"</publisher>
+        </details>
+        <identifiers>
+          <doi>10.4230/LIPICS.ITCS.2024.77</doi>
+          <isbn>978-3-95977-309-6</isbn>
+        </identifiers>
+        <sourceUpdateDate>2024-07-17 10:14:56</sourceUpdateDate>
+        <contentUpdateDate>2024-08-12 09:58:46</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1035085</rcn>
+        <id>101039913_7257_PUBLIHORIZON</id>
+        <title>An ETH-Tight Algorithm for Bidirected Steiner Connectivity</title>
+        <details>
+          <authors>Daniel Lokshtanov, Pranabendu Misra, Fahad Panolan, Saket Saurabh and Meirav Zehavi</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Algorithms and Data Structures - 18th International Symposium, {WADS} 2023</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>Springer</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1007/978-3-031-38906-1</doi>
+          <isbn>978-3-031-38905-4</isbn>
+        </identifiers>
+        <sourceUpdateDate>2024-01-06 00:36:27</sourceUpdateDate>
+        <contentUpdateDate>2024-01-24 16:08:20</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1251115</rcn>
+        <id>101039913_119922_PUBLIHORIZON</id>
+        <title>The Parameterized Complexity of Guarding Almost Convex Polygons</title>
+        <details>
+          <authors>Akanksha Agrawal, Kristine V. K. Knudsen, Daniel Lokshtanov, Saket Saurabh, Meirav Zehavi</authors>
+          <journalNumber>71</journalNumber>
+          <journalTitle>Discrete &amp;amp; Computational Geometry</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Springer Science and Business Media LLC</publisher>
+        </details>
+        <identifiers>
+          <issn>0179-5376</issn>
+          <doi>10.1007/S00454-023-00569-Y</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-02-04 05:57:03</sourceUpdateDate>
+        <contentUpdateDate>2025-02-10 08:22:15</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1148767</rcn>
+        <id>101039913_42439_PUBLIHORIZON</id>
+        <title>Learning Small Decision Trees with Few Outliers: {A} Parameterized Perspective</title>
+        <details>
+          <authors>Harmender Gahlawat and  Meirav Zehavi</authors>
+          <journalTitle>Thirty-Eighth {AAAI} Conference on Artificial Intelligence, {AAAI} 2024</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>{AAAI} Press</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1609/AAAI.V38I11.29098</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-07-17 10:14:56</sourceUpdateDate>
+        <contentUpdateDate>2024-08-12 09:54:53</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1035092</rcn>
+        <id>101039913_7261_PUBLIHORIZON</id>
+        <title>Finding Long Directed Cycles Is Hard Even When {DFVS} Is Small or Girth Is Large</title>
+        <details>
+          <authors>Ashwin Jacob, Michal Wlodarczyk and Meirav Zehavi</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>31st Annual European Symposium on Algorithms, {ESA} 2023</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>"Schloss Dagstuhl - Leibniz-Zentrum f{\""{u}}r Informatik"</publisher>
+        </details>
+        <identifiers>
+          <doi>10.4230/LIPIcs.ESA.2023.65</doi>
+          <isbn>978-3-95977-295-2</isbn>
+        </identifiers>
+        <sourceUpdateDate>2024-01-06 00:36:27</sourceUpdateDate>
+        <contentUpdateDate>2024-01-24 16:14:18</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1148782</rcn>
+        <id>101039913_42445_PUBLIHORIZON</id>
+        <title>Grid recognition: Classical and parameterized computational perspectives</title>
+        <details>
+          <authors>Siddharth Gupta and Guy Sa'ar and  Meirav Zehavi</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Journal of Computer and System Sciences</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>Academic Press</publisher>
+        </details>
+        <identifiers>
+          <issn>0022-0000</issn>
+          <doi>10.1016/J.JCSS.2023.02.008</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-02-04 05:57:03</sourceUpdateDate>
+        <contentUpdateDate>2024-08-12 09:52:27</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1148765</rcn>
+        <id>101039913_42442_PUBLIHORIZON</id>
+        <title>Collective Graph Exploration Parameterized by Vertex Cover</title>
+        <details>
+          <authors>Siddharth Gupta and Guy Sa'ar and Meirav Zehavi</authors>
+          <journalTitle>18th International Symposium on Parameterized and Exact Computation, IPEC 2023</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>18th International Symposium on Parameterized and Exact Computation, IPEC 2023</publisher>
+        </details>
+        <identifiers>
+          <doi>10.4230/LIPICS.IPEC.2023.22</doi>
+          <isbn>978-3-95977-305-8</isbn>
+        </identifiers>
+        <sourceUpdateDate>2024-07-17 10:14:56</sourceUpdateDate>
+        <contentUpdateDate>2024-08-12 09:53:11</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1251125</rcn>
+        <id>101039913_119898_PUBLIHORIZON</id>
+        <title>Hybrid k-Clustering: Blending k-Median and k-Center</title>
+        <details>
+          <authors>Fedor V. Fomin and Saket Saurabh and Meirav Zehavi</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>pproximation, Randomization, and Combinatorial Optimization. Algorithms and Techniques, APPROX/RANDOM</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>LIPIcs</publisher>
+        </details>
+        <identifiers>
+          <doi>10.4230/LIPICS.APPROX/RANDOM.2024.4</doi>
+          <isbn>978-3-95977-305-8</isbn>
+        </identifiers>
+        <sourceUpdateDate>2025-02-04 05:57:03</sourceUpdateDate>
+        <contentUpdateDate>2025-02-10 08:19:50</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1251123</rcn>
+        <id>101039913_119919_PUBLIHORIZON</id>
+        <title>Learning Small Decision Trees with Few Outliers: A Parameterized Perspective</title>
+        <details>
+          <authors>Harmender Gahlawat, Meirav Zehavi</authors>
+          <journalNumber>38</journalNumber>
+          <journalTitle>Proceedings of the AAAI Conference on Artificial Intelligence</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Association for the Advancement of Artificial Intelligence (AAAI)</publisher>
+        </details>
+        <identifiers>
+          <issn>2374-3468</issn>
+          <doi>10.1609/AAAI.V38I11.29098</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-02-04 05:57:03</sourceUpdateDate>
+        <contentUpdateDate>2025-02-10 08:19:49</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1148775</rcn>
+        <id>101039913_42444_PUBLIHORIZON</id>
+        <title>Sub-exponential Time Parameterized Algorithms for Graph Layout Problems on Digraphs with Bounded Independence Number</title>
+        <details>
+          <authors>Pranabendu Misra and Saket Saurabh and  Roohani Sharma and  Meirav Zehavi</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Algorithmica</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>Springer Verlag</publisher>
+        </details>
+        <identifiers>
+          <issn>0178-4617</issn>
+          <doi>10.1007/S00453-022-01093-W</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-02-04 05:57:03</sourceUpdateDate>
+        <contentUpdateDate>2024-08-12 09:53:24</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1148780</rcn>
+        <id>101039913_42447_PUBLIHORIZON</id>
+        <title>Parameterized Study of Steiner Tree on Unit Disk Graphs</title>
+        <details>
+          <authors>Sujoy Bhore and Paz Carmi and Sudeshna Kolay and Meirav Zehavi</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Algorithmica</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>Springer Verlag</publisher>
+        </details>
+        <identifiers>
+          <issn>0178-4617</issn>
+          <doi>10.1007/S00453-022-01020-Z</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-02-04 05:57:03</sourceUpdateDate>
+        <contentUpdateDate>2024-08-12 09:53:00</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1035107</rcn>
+        <id>101039913_7265_PUBLIHORIZON</id>
+        <title>\emph{P}-Matchings Parameterized by Treewidth</title>
+        <details>
+          <authors>Juhi Chaudhary and Meirav Zehavi</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Graph-Theoretic Concepts in Computer Science - 49th International Workshop, {WG} 2023</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>Springer</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1007/978-3-031-43380-1\_16</doi>
+          <isbn>978-3-031-43379-5</isbn>
+        </identifiers>
+        <sourceUpdateDate>2024-01-06 00:36:27</sourceUpdateDate>
+        <contentUpdateDate>2025-04-30 16:13:52</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1335377</rcn>
+        <id>101039913_PSHORIZON</id>
+        <title>Periodic Reporting for period 1 - PARAPATH (Parameterized Complexity Through the Lens of Path Problems)</title>
+        <description>periodic</description>
+        <teaser>Nowadays, numerous problems are known to be NP-hard, and hence unlikely to admit worst-case efficient algorithms. Fortunately, the field of Parameterized Complexity (PC) shows that the nutshell of hardness often lies in particular properties (called parameters) of the...</teaser>
+        <sourceUpdateDate>2025-07-14 16:29:30</sourceUpdateDate>
+        <contentUpdateDate>2025-07-14 16:29:30</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/pubsum</code>
+              <title>Report Summary</title>
+              <description>Result: Publishable summary (FP7 SESAM) and Summary for publication (H2020 SyGMa)</description>
+              <displayCode>/Report Summary</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1035087</rcn>
+        <id>101039913_7249_PUBLIHORIZON</id>
+        <title>Tournament Fixing Parameterized by Feedback Vertex Set Number Is FPT</title>
+        <details>
+          <authors>Meirav Zehavi</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Thirty-Seventh {AAAI} Conference on Artificial Intelligence</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>AAAI Press</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1609/aaai.v37i5.25728</doi>
+          <isbn>978-1-57735-880-0</isbn>
+        </identifiers>
+        <sourceUpdateDate>2024-01-06 00:36:27</sourceUpdateDate>
+        <contentUpdateDate>2024-01-24 16:10:17</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1251114</rcn>
+        <id>101039913_119897_PUBLIHORIZON</id>
+        <title>Exact Algorithms for Clustered Planarity with Linear Saturators</title>
+        <details>
+          <authors>Giordano Da Lozzo, Robert Ganian, Siddharth Gupta, Bojan Mohar, Sebastian Ordyniak, Meirav Zehavi</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>5th ISAAC 2024</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>LIPIcs</publisher>
+        </details>
+        <identifiers>
+          <doi>10.4230/LIPICS.ISAAC.2024.24</doi>
+          <isbn>978-3-95977-354-6</isbn>
+        </identifiers>
+        <sourceUpdateDate>2025-02-04 05:57:03</sourceUpdateDate>
+        <contentUpdateDate>2025-02-10 08:22:15</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1250805</rcn>
+        <id>101039913_119894_PUBLIHORIZON</id>
+        <title>A Polynomial Kernel for Deletion to the Scattered Class of Cliques and Trees</title>
+        <details>
+          <authors>Ashwin Jacob and Diptapriyo Majumdar and  Meirav Zehavi</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>35th International Symposium on Algorithms and Computation, ISAAC</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>LIPIcs</publisher>
+        </details>
+        <identifiers>
+          <doi>10.4230/LIPICS.ISAAC.2024.41</doi>
+          <isbn>978-3-95977-305-8</isbn>
+        </identifiers>
+        <sourceUpdateDate>2025-02-04 05:57:03</sourceUpdateDate>
+        <contentUpdateDate>2025-02-10 08:13:59</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1015221</rcn>
+        <id>101039913_1_DELIVHORIZON</id>
+        <title>Data Management Plan</title>
+        <description>Drafting of Data Management Plan</description>
+        <sourceUpdateDate>2023-12-02 16:40:06</sourceUpdateDate>
+        <contentUpdateDate>2023-12-08 09:52:00</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable" represents="project">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>e094d7aab9c4e0296b0c776a296768ac</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e50351257a&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/DMP</code>
+              <title>Data Management Plan</title>
+              <displayCode>/Data Management Plan</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1035093</rcn>
+        <id>101039913_7247_PUBLIHORIZON</id>
+        <title>Kernelization for Spreading Points</title>
+        <details>
+          <authors>Fedor V. Fomin, Petr A. Golovach, Tanmay Inamdar, Saket Saurabh and Meirav Zehavi</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>31st Annual European Symposium on Algorithms, {ESA} 2023</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>"Schloss Dagstuhl - Leibniz-Zentrum f{\""{u}}r Informatik"</publisher>
+        </details>
+        <identifiers>
+          <doi>10.4230/LIPIcs.ESA.2023.48</doi>
+          <isbn>978-3-95977-295-2</isbn>
+        </identifiers>
+        <sourceUpdateDate>2024-01-06 00:36:27</sourceUpdateDate>
+        <contentUpdateDate>2024-01-24 16:15:08</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1251118</rcn>
+        <id>101039913_119924_PUBLIHORIZON</id>
+        <title>Long directed detours: Reduction to 2-Disjoint Paths</title>
+        <details>
+          <authors>Ashwin Jacob, Michał Włodarczyk, Meirav Zehavi</authors>
+          <journalNumber>186</journalNumber>
+          <journalTitle>Information Processing Letters</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Elsevier BV</publisher>
+        </details>
+        <identifiers>
+          <issn>0020-0190</issn>
+          <doi>10.1016/J.IPL.2024.106491</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-02-04 05:57:03</sourceUpdateDate>
+        <contentUpdateDate>2025-04-30 16:13:56</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1035102</rcn>
+        <id>101039913_7263_PUBLIHORIZON</id>
+        <title>On Computing Homological Hitting Sets</title>
+        <details>
+          <authors>Ulrich Bauer, Abhishek Rathod and Meirav Zehavi</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>14th Innovations in Theoretical Computer Science Conference, {ITCS} 2023</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>"Schloss Dagstuhl - Leibniz-Zentrum f{\""{u}}r Informatik"</publisher>
+        </details>
+        <identifiers>
+          <doi>10.4230/LIPIcs.ITCS.2023.13</doi>
+          <isbn>978-3-95977-263-1</isbn>
+        </identifiers>
+        <sourceUpdateDate>2024-01-06 00:36:27</sourceUpdateDate>
+        <contentUpdateDate>2024-01-24 16:20:00</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1267164</rcn>
+        <id>101039913_119895_PUBLIHORIZON</id>
+        <title>Parameterized Analysis of Bribery in Challenge the Champ Tournaments</title>
+        <details>
+          <authors>Juhi Chaudhary and  Hendrik Molter and Meirav Zehavi</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Proceedings of the Thirty-Third International Joint Conference on  Artificial Intelligence, IJCAI</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>ijcai.org</publisher>
+        </details>
+        <identifiers>
+          <isbn>978-3-031-23100-1</isbn>
+        </identifiers>
+        <sourceUpdateDate>2025-02-04 05:57:03</sourceUpdateDate>
+        <contentUpdateDate>2025-03-13 09:28:15</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1148776</rcn>
+        <id>101039913_42448_PUBLIHORIZON</id>
+        <title>Polynomial Kernel for Interval Vertex Deletion</title>
+        <details>
+          <authors>Akanksha Agrawal and Daniel Lokshtanov and  Pranabendu Misra and Saket Saurabh andMeirav Zehavi</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>{ACM} Trans. Algorithms</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>Association for Computing Machinary, Inc.</publisher>
+        </details>
+        <identifiers>
+          <issn>1549-6325</issn>
+          <doi>10.1145/3571075</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-02-04 05:57:03</sourceUpdateDate>
+        <contentUpdateDate>2024-08-12 09:54:05</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1035099</rcn>
+        <id>101039913_7262_PUBLIHORIZON</id>
+        <title>In Which Graph Structures Can We Efficiently Find Temporally Disjoint Paths and Walks?</title>
+        <details>
+          <authors>Pascal Kunz, Hendrik Molter and Meirav Zehavi</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Proceedings of the Thirty-Second International Joint Conference on Artificial Intelligence, {IJCAI} 2023</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>ijcai.org</publisher>
+        </details>
+        <identifiers>
+          <doi>10.24963/ijcai.2023/21</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-01-06 00:36:27</sourceUpdateDate>
+        <contentUpdateDate>2024-01-24 16:17:50</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1251129</rcn>
+        <id>101039913_119923_PUBLIHORIZON</id>
+        <title>(Re)packing Equal Disks into Rectangle</title>
+        <details>
+          <authors>Fedor V. Fomin, Petr A. Golovach, Tanmay Inamdar, Saket Saurabh, Meirav Zehavi</authors>
+          <journalNumber>72</journalNumber>
+          <journalTitle>Discrete &amp;amp; Computational Geometry</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Springer Science and Business Media LLC</publisher>
+        </details>
+        <identifiers>
+          <issn>0179-5376</issn>
+          <doi>10.1007/S00454-024-00633-1</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-02-04 05:57:03</sourceUpdateDate>
+        <contentUpdateDate>2025-02-10 08:19:51</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1150025</rcn>
+        <id>101039913_42449_PUBLIHORIZON</id>
+        <title>Erd{\H{o}}s-P{\'{o}}sa property of obstructions to interval graphs</title>
+        <details>
+          <authors>Akanksha Agrawal and Daniel Lokshtanov and Pranabendu Misra and  Saket Saurabh and Meirav Zehavi</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Journal of Graph Theory</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>Wiley</publisher>
+        </details>
+        <identifiers>
+          <issn>1097-0118</issn>
+          <doi>10.1002/JGT.22895</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-07-17 10:14:56</sourceUpdateDate>
+        <contentUpdateDate>2025-04-30 16:13:52</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1035098</rcn>
+        <id>101039913_7264_PUBLIHORIZON</id>
+        <title>Parameterized Results on Acyclic Matchings with Implications for Related Problems (Conference Version)</title>
+        <details>
+          <authors>Juhi Chaudhary and Meirav Zehavi</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Graph-Theoretic Concepts in Computer Science - 49th International Workshop, {WG} 2023</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>Springer</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1007/978-3-031-43380-1\_15</doi>
+          <isbn>978-3-031-43379-5</isbn>
+        </identifiers>
+        <sourceUpdateDate>2025-02-04 05:57:03</sourceUpdateDate>
+        <contentUpdateDate>2024-01-24 16:17:12</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1251112</rcn>
+        <id>101039913_119926_PUBLIHORIZON</id>
+        <title>Parameterized results on acyclic matchings with implications for related problems</title>
+        <details>
+          <authors>Juhi Chaudhary, Meirav Zehavi</authors>
+          <journalNumber>148</journalNumber>
+          <journalTitle>Journal of Computer and System Sciences</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Elsevier BV</publisher>
+        </details>
+        <identifiers>
+          <issn>0022-0000</issn>
+          <doi>10.1016/J.JCSS.2024.103599</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-02-04 05:57:03</sourceUpdateDate>
+        <contentUpdateDate>2025-02-10 08:22:15</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1148774</rcn>
+        <id>101039913_42435_PUBLIHORIZON</id>
+        <title>Planar Disjoint Paths, Treewidth, and Kernels</title>
+        <details>
+          <authors>Michal Wlodarczyk and Meirav Zehavi</authors>
+          <journalTitle>64th {IEEE} Annual Symposium on Foundations of Computer Science, {FOCS}  2023</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1109/FOCS57990.2023.00044</doi>
+          <isbn>979-8-3503-1894-4</isbn>
+        </identifiers>
+        <sourceUpdateDate>2024-07-17 10:14:56</sourceUpdateDate>
+        <contentUpdateDate>2024-08-12 09:54:25</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1148783</rcn>
+        <id>101039913_42446_PUBLIHORIZON</id>
+        <title>New Algorithms for Structure Informed Genome Rearrangement</title>
+        <details>
+          <authors>Eden Ozeri and Meirav Zehavi andMichal Ziv-Ukelson</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Algorithms for Molecular Biology</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>BioMed Central</publisher>
+        </details>
+        <identifiers>
+          <issn>1748-7188</issn>
+          <doi>10.1186/S13015-023-00239-X</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-02-04 05:57:03</sourceUpdateDate>
+        <contentUpdateDate>2024-08-12 13:25:03</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1251119</rcn>
+        <id>101039913_119896_PUBLIHORIZON</id>
+        <title>Bipartizing (Pseudo-)Disk Graphs: Approximation with a Ratio Better than 3</title>
+        <details>
+          <authors>Daniel Lokshtanov and Fahad Panolan and                   Saket Saurabh and Jie Xue and Meirav Zehavi</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Approximation, Randomization, and Combinatorial Optimization. Algorithms and Techniques, APPROX/RANDOM</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>"Schloss Dagstuhl - Leibniz-Zentrum f{\""{u}}r Informatik"</publisher>
+        </details>
+        <identifiers>
+          <doi>10.4230/LIPICS.APPROX/RANDOM.2024.6</doi>
+          <isbn>978-3-95977-305-8</isbn>
+        </identifiers>
+        <sourceUpdateDate>2025-02-04 05:57:03</sourceUpdateDate>
+        <contentUpdateDate>2025-02-10 08:19:48</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1035086</rcn>
+        <id>101039913_7248_PUBLIHORIZON</id>
+        <title>Lossy Kernelization for (Implicit) Hitting Set Problems</title>
+        <details>
+          <authors>Fedor V. Fomin, Tien-Nam Le, Daniel Lokshtanov, Saket Saurabh, Stephan Thomasse and Meirav Zehavi</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>31st Annual European Symposium on Algorithms, {ESA} 2023</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>"Schloss Dagstuhl - Leibniz-Zentrum f{\""{u}}r Informatik"</publisher>
+        </details>
+        <identifiers>
+          <doi>10.4230/LIPIcs.ESA.2023.49</doi>
+          <isbn>978-3-95977-295-2</isbn>
+        </identifiers>
+        <sourceUpdateDate>2024-01-06 00:36:27</sourceUpdateDate>
+        <contentUpdateDate>2024-01-24 16:08:59</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1035084</rcn>
+        <id>101039913_7258_PUBLIHORIZON</id>
+        <title>Parameterized Analysis of the Cops and Robber Game</title>
+        <details>
+          <authors>Harmender Gahlawat and Meirav Zehavi</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>48th International Symposium on Mathematical Foundations of Computer Science, {MFCS} 2023</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>"Schloss Dagstuhl - Leibniz-Zentrum f{\""{u}}r Informatik"</publisher>
+        </details>
+        <identifiers>
+          <doi>10.4230/LIPIcs.MFCS.2023.49</doi>
+          <isbn>978-3-95977-292-1</isbn>
+        </identifiers>
+        <sourceUpdateDate>2024-01-06 00:36:27</sourceUpdateDate>
+        <contentUpdateDate>2024-01-24 16:08:00</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1251120</rcn>
+        <id>101039913_119920_PUBLIHORIZON</id>
+        <title>Contraction Decomposition in Unit Disk Graphs and Algorithmic Applications in Parameterized Complexity</title>
+        <details>
+          <authors>Fahad Panolan, Saket Saurabh, Meirav Zehavi</authors>
+          <journalNumber>20</journalNumber>
+          <journalTitle>ACM Transactions on Algorithms</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Association for Computing Machinery (ACM)</publisher>
+        </details>
+        <identifiers>
+          <issn>1549-6325</issn>
+          <doi>10.1145/3648594</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-02-04 05:57:03</sourceUpdateDate>
+        <contentUpdateDate>2025-02-10 08:19:48</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode>/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/51/359/1073</code>
+        <title>algebra</title>
+        <displayCode>/natural sciences/mathematics/pure mathematics/algebra</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/51/359/1063/82355983</code>
+        <title>combinatorics</title>
+        <displayCode>/natural sciences/mathematics/pure mathematics/discrete mathematics/combinatorics</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="100">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode>/Digital agenda</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode>/Clean air</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="40">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode>/Artificial intelligence</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode>/Climate action</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode>/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages>en</availableLanguages>
+        <code>/HORIZON-ERC</code>
+        <title>HORIZON ERC Grants</title>
+        <description>HORIZON ERC Grants</description>
+        <displayCode>/HORIZON ERC Grants</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode>/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

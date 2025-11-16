@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages>en</availableLanguages>
+  <rcn>242021</rcn>
+  <id>101039115</id>
+  <acronym>NextMechMod</acronym>
+  <teaser>Ever since the work Hodgkin and Huxley, models of neurons have been essential for our understanding of neural computations. Such models have been developed at diverse levels of realism, from linear-nonlinear cascade or black-box models to detailed compartmental models. While...</teaser>
+  <objective>Ever since the work Hodgkin and Huxley, models of neurons have been essential for our understanding of neural computations. Such models have been developed at diverse levels of realism, from linear-nonlinear cascade or black-box models to detailed compartmental models. While these approaches are commonly viewed as incompatible, they have attractive strengths from an epistemic point of view. In this project, I propose to develop a new generation of hybrid mechanistic models that reconcile these levels of modelling: they will consist of a compartmental model for the neuron of interest with inputs approximated by black-box models. I will leverage the power of these hybrid models to tackle one of the most challenging questions in visual neuroscience: the staggering diversity of amacrine cells, a major class of inhibitory interneurons in the vertebrate retina. Despite their diversity, they are the least understood class of neurons in the retina, in stark contrast to the remaining circuitry. While in mouse more than 60 types of ACs have been identified by single cell transcriptomics, only a handful has been studied at depth. I will build on the latest advances in machine learning to develop a framework for efficiently inferring the parameters of a hybrid mechanistic model. To constrain the model parameters, we will acquire two-photon calcium and voltage imaging data during natural stimulation. Further, we will extend our framework to incorporate transcriptomic information about gene expression collected via patch-seq into the inference procedure, allowing us to map the amacrine cells to genetically defined types. Thus, in this project, I propose to develop a toolset to systematically uncover the role of retinal amacrine cells during natural visual computations, and link it to its mechanistic basis, providing a path forward to solving one of the key remaining mysteries of visual neuroscience.</objective>
+  <title>Next generation mechanistic models of retinal interneurons</title>
+  <totalCost>1499860</totalCost>
+  <ecMaxContribution>1499860</ecMaxContribution>
+  <startDate>2023-01-01</startDate>
+  <endDate>2027-12-31</endDate>
+  <ecSignatureDate>2022-09-07</ecSignatureDate>
+  <duration>60</duration>
+  <status>SIGNED</status>
+  <keywords>simulation-based inference, amacrine cells, multimodal data, mechanistic models, patch-seq, two-photon imaging, single cell transcriptomics, interneuron</keywords>
+  <identifiers>
+    <grantDoi>10.3030/101039115</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>false</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2025-07-04 19:21:33</sourceUpdateDate>
+  <contentCreationDate>2022-09-16 13:54:25</contentCreationDate>
+  <contentUpdateDate>2025-09-01 23:36:51</contentUpdateDate>
+  <lastUpdateDate>2025-09-30 12:24:01</lastUpdateDate>
+  <relations>
+    <associations>
+      <article source="editorial" type="relatedArticle">
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <rcn>440346</rcn>
+        <id>440346-a-closer-look-at-amacrine-cells-in-natural-visual-computations</id>
+        <title>A closer look at amacrine cells in natural visual computations</title>
+        <contentUpdateDate>2023-06-19 16:02:42</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/projectDescription</code>
+              <title>Project description</title>
+              <description>Article: description of linked project written by editorial team</description>
+              <displayCode>/Project description</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/editorial</code>
+              <title>CORDIS Editorial</title>
+              <description>Written by CORDIS</description>
+              <displayCode>/CORDIS Editorial</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </article>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>55317</rcn>
+        <title>ERC-2021-STG</title>
+        <identifier>ERC-2021-STG</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>55317</rcn>
+        <title>ERC-2021-STG</title>
+        <identifier>ERC-2021-STG</identifier>
+      </call>
+      <organization netEcContribution="1499860" totalCost="1499860" source="corda" order="1" ecContribution="1499860" terminated="false" sme="false" type="coordinator">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1905979</rcn>
+        <id>999991916</id>
+        <vatNumber>DE812383453</vatNumber>
+        <legalName>EBERHARD KARLS UNIVERSITAET TUEBINGEN</legalName>
+        <shortName>UT</shortName>
+        <address>
+          <street>GESCHWISTER-SCHOLL-PLATZ</street>
+          <city>Tuebingen</city>
+          <postalCode>72074</postalCode>
+          <country>DE</country>
+          <postBox>N/A</postBox>
+          <url>http://www.uni-tuebingen.de</url>
+          <geolocation>48.52441205,9.05972173269931</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Tübingen, Landkreis</name>
+              <rcn>221778178</rcn>
+              <nutsCode>DE142</nutsCode>
+              <parents>
+                <region>
+                  <name>Tübingen</name>
+                  <rcn>221778216</rcn>
+                  <nutsCode>DE14</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Baden-Württemberg</name>
+                      <rcn>221780520</rcn>
+                      <nutsCode>DE1</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Germany</name>
+                          <rcn>221940264</rcn>
+                          <nutsCode>DE</nutsCode>
+                          <euCode>DE</euCode>
+                          <isoCode>DE</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Germany</name>
+              <rcn>221940264</rcn>
+              <nutsCode>DE</nutsCode>
+              <euCode>DE</euCode>
+              <isoCode>DE</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme type="relatedTopic" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>705885</rcn>
+        <id>HORIZON_ERC-2021-STG</id>
+        <code>ERC-2021-STG</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>ERC STARTING GRANTS</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode>/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme type="relatedLegalBasis" source="corda" uniqueProgrammePart="true">
+        <availableLanguages>en</availableLanguages>
+        <rcn>705727</rcn>
+        <id>HORIZON.1.1</id>
+        <code>HORIZON.1.1</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.1.1</pga>
+        <title>European Research Council (ERC)</title>
+        <parent>
+          <programme>
+            <rcn>705726</rcn>
+            <code>HORIZON.1</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode>/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1237115</rcn>
+        <id>101039115_111887_PUBLIHORIZON</id>
+        <title>GABAergic amacrine cells balance biased chromatic information in the mouse retina</title>
+        <details>
+          <authors>Maria M. Korympidou, Sarah Strauss, Timm Schubert, Katrin Franke, Philipp Berens, Thomas Euler, Anna L. Vlasits</authors>
+          <journalNumber>43</journalNumber>
+          <journalTitle>Cell Reports</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Elsevier BV</publisher>
+        </details>
+        <identifiers>
+          <issn>2211-1247</issn>
+          <doi>10.1016/J.CELREP.2024.114953</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-04-15 01:27:45</sourceUpdateDate>
+        <contentUpdateDate>2025-05-16 12:44:15</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1237106</rcn>
+        <id>101039115_111885_PUBLIHORIZON</id>
+        <title>PLoS Computational Biology</title>
+        <details>
+          <authors>Jan Lause; Dmitry Kobak; Philipp Berens</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>PLOS Computational Biology</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Public Library of Science</publisher>
+        </details>
+        <identifiers>
+          <issn>1553-734X</issn>
+          <doi>10.1101/2024.03.26.586728</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-01-06 07:56:17</sourceUpdateDate>
+        <contentUpdateDate>2025-01-13 08:12:57</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1250817</rcn>
+        <id>101039115_119975_PUBLIHORIZON</id>
+        <title>Differentiable simulation enables large-scale training of detailed biophysical models of neural dynamics</title>
+        <details>
+          <authors>Michael Deistler, Kyra L. Kadhim, Matthijs Pals, Jonas Beck, Ziwei Huang, Manuel Gloeckler, Janne K. Lappalainen, Cornelius Schröder, Philipp Berens, Pedro J. Gonçalves, Jakob H. Macke</authors>
+          <journalNumber></journalNumber>
+          <journalTitle></journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Cold Spring Harbor Laboratory</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1101/2024.08.21.608979</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-04-15 01:27:45</sourceUpdateDate>
+        <contentUpdateDate>2025-05-16 12:44:15</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/OTHER</code>
+              <title>Other</title>
+              <displayCode>/Other</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1326671</rcn>
+        <id>101039115_198032_PUBLIHORIZON</id>
+        <title>Nature Communications</title>
+        <details>
+          <authors>Marissa A. Weis; Stelios Papadopoulos; Laura Hansel; Timo Lüddecke; Brendan Celii; Paul G. Fahey; Eric Y. Wang; J. Alexander Bae; Agnes L. Bodor; Derrick Brittain; JoAnn Buchanan; Daniel J. Bumbarger; Manuel A. Castro; Forrest Collman; Nuno Maçarico da Costa; Sven Dorkenwald; Leila Elabbady; Akhilesh Halageri; Zhen Jia; Chris Jordan; Dan Kapner; Nico Kemnitz; Sam Kinn; Kisuk Lee; Kai Li; Ran Lu; Thomas Macrina; Gayathri Mahalingam; Eric Mitchell; Shanka Subhra Mondal; Shang Mu; Barak Nehoran; Sergiy Popovych; R. Clay Reid; Casey M. Schneider-Mizell; H. Sebastian Seung; William Silversmith; Marc Takeno; Russel Torres; Nicholas L. Turner; William Wong; Jingpeng Wu; Wenjing Yin; Szi-chieh Yu; Jacob Reimer; Philipp Berens; Andreas S. Tolias; Alexander S. Ecker</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Nature Communications</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2022</publishedYear>
+          <publisher>Springer Nature</publisher>
+        </details>
+        <identifiers>
+          <issn>2041-1723</issn>
+          <doi>10.1038/S41467-025-58763-W</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-07-10 12:33:19</sourceUpdateDate>
+        <contentUpdateDate>2025-07-14 12:08:44</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1326661</rcn>
+        <id>101039115_198031_PUBLIHORIZON</id>
+        <title>Task-specific regional circuit adaptations in distinct mouse retinal ganglion cells</title>
+        <details>
+          <authors>Jonathan Oesterle; Yanli Ran; Paul Stahr; Jason N. D. Kerr; Timm Schubert; Philipp Berens; Thomas Euler</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Science Advances</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2025</publishedYear>
+          <publisher>American Association for the Advancement of Science</publisher>
+        </details>
+        <identifiers>
+          <issn>2375-2548</issn>
+          <doi>10.1126/SCIADV.ADP7075</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-07-10 12:33:19</sourceUpdateDate>
+        <contentUpdateDate>2025-07-14 12:08:40</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1243331</rcn>
+        <id>101039115_113875_PUBLIHORIZON</id>
+        <title>Diffusion Tempering Improves Parameter Estimation with Probabilistic Integrators for Ordinary Differential Equations</title>
+        <details>
+          <authors>Jonas Beck, Nathanael Bosch, Michael Deistler, Kyra L. Kadhim, Jakob H. Macke, Philipp Hennig, Philipp Berens</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>International Conference on Machine Learning (ICML)</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>ML Research Press</publisher>
+        </details>
+        <sourceUpdateDate>2025-04-15 01:27:45</sourceUpdateDate>
+        <contentUpdateDate>2025-05-16 12:44:15</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1237111</rcn>
+        <id>101039115_111884_PUBLIHORIZON</id>
+        <title>Most discriminative stimuli for functional cell type clustering</title>
+        <details>
+          <authors>Burg, Max F.; Zenkel, Thomas; Vystrčilová, Michaela; Oesterle, Jonathan; Höfling, Larissa; Willeke, Konstantin F.; Lause, Jan; Müller, Sarah; Fahey, Paul G.; Ding, Zhiwei; Restivo, Kelli; Sridhar, Shashwat; Gollisch, Tim; Berens, Philipp; Tolias, Andreas S.; Euler, Thomas; Bethge, Matthias; Ecker, Alexander S.</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>International Conference of Learning Representations (ICLR)</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>OpenReview</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arxiv.2401.05342</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-04-15 01:27:45</sourceUpdateDate>
+        <contentUpdateDate>2025-01-13 08:12:57</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1237119</rcn>
+        <id>101039115_111886_PUBLIHORIZON</id>
+        <title>eLife</title>
+        <details>
+          <authors>Katrin Franke; Chenchen Cai; Kayla Ponder; Jiakun Fu; Sacha Sokoloski; Philipp Berens; Andreas S Tolias</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>eLife</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>eLife Sciences Publications</publisher>
+        </details>
+        <identifiers>
+          <issn>2050-084X</issn>
+          <doi>10.7554/elife.89996</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-01-06 07:56:17</sourceUpdateDate>
+        <contentUpdateDate>2025-01-13 08:12:58</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1363185</rcn>
+        <id>101039115_PSHORIZON</id>
+        <title>Periodic Reporting for period 1 - NextMechMod (Next generation mechanistic models of retinal interneurons)</title>
+        <description>periodic</description>
+        <teaser>Ever since the work Hodgkin and Huxley, models of neurons have been essential for our understanding of neural computations. Such models have been developed at diverse levels of “realism”, from linear-nonlinear cascade or black-box models to detailed compartmental models...</teaser>
+        <sourceUpdateDate>2025-09-22 14:12:01</sourceUpdateDate>
+        <contentUpdateDate>2025-09-22 14:12:01</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/pubsum</code>
+              <title>Report Summary</title>
+              <description>Result: Publishable summary (FP7 SESAM) and Summary for publication (H2020 SyGMa)</description>
+              <displayCode>/Report Summary</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1250822</rcn>
+        <id>101039115_119974_PUBLIHORIZON</id>
+        <title>Combined statistical-biophysical modeling links ion channel genes to physiology of cortical neuron types</title>
+        <details>
+          <authors>Yves Bernaerts, Michael Deistler, Pedro J. Gonçalves, Jonas Beck, Marcel Stimberg, Federico Scala, Andreas S. Tolias, Jakob Macke, Dmitry Kobak, Philipp Berens</authors>
+          <journalNumber></journalNumber>
+          <journalTitle></journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2025</publishedYear>
+          <publisher>Cold Spring Harbor Laboratory</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1101/2023.03.02.530774</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-04-15 01:27:45</sourceUpdateDate>
+        <contentUpdateDate>2025-05-16 12:44:16</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/OTHER</code>
+              <title>Other</title>
+              <displayCode>/Other</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode>/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/49/327</code>
+        <title>neurobiology</title>
+        <displayCode>/natural sciences/biological sciences/neurobiology</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/53/365/88826151</code>
+        <title>alkaline earth metals</title>
+        <displayCode>/natural sciences/chemical sciences/inorganic chemistry/alkaline earth metals</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/21/39/213</code>
+        <title>ophthalmology</title>
+        <displayCode>/medical and health sciences/clinical medicine/ophthalmology</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode>/Digital agenda</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode>/Clean air</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode>/Artificial intelligence</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode>/Climate action</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode>/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages>en</availableLanguages>
+        <code>/HORIZON-ERC</code>
+        <title>HORIZON ERC Grants</title>
+        <description>HORIZON ERC Grants</description>
+        <displayCode>/HORIZON ERC Grants</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode>/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages>en</availableLanguages>
+  <rcn>240144</rcn>
+  <id>101061623</id>
+  <acronym>HYDROCOUPLE</acronym>
+  <teaser>HYDROCOUPLE proposes to develop (1) a new coupled finite element (FE) method for environmental flows, (2) goal-oriented adaptive mesh refinement strategies, and (3) to apply the new techniques to physical watersheds for verification of its capabilities as well as to...</teaser>
+  <objective>HYDROCOUPLE proposes to develop (1) a new coupled finite element (FE) method for environmental flows, (2) goal-oriented adaptive mesh refinement strategies, and (3) to apply the new techniques to physical watersheds for verification of its capabilities as well as to demonstrate these. The project is a collaboration between three researchers, the applicant Eirik Valseth (currently at The University of Texas at Austin), Prof. Kent-Andre Mardal (The University of Oslo) and Prof. Ethan Kubatko (The Ohio State University).  Many current approximation techniques for multiphysics phenomena, where two or more models (partial differential equations) govern the physics, focuses on the approximation of these as separate phenomena and prescribe appropriate interface conditions to exchange information between the models. Recent attention has been given to monolithically coupled methods (Kuchta et al. 2021), where all models are approximated simultaneously thanks to careful algorithm design and numerical analysis. HYDROCOUPLE will extend the theory of these monolithic coupling schemes to environmental flow problems and develop a FE framework for their corresponding numerical approximation. This developed framework can subsequently be applied in flood prediction and hydropower production planning as the models in environmental flows govern both overland and riverine flows which are critical in both applications.  HYDROCOUPLE will also develop mesh-adaptive refinement techniques based on goal-oriented error estimation to ensure the high fidelity of its numerical approximations.  Finally, the proposed framework will be verified against available data for existing watersheds to demonstrate its efficiency and accuracy to end users in industry and government.   Working in the Section of Mechanics at the Department of Mathematics with a world renowned scientist will provide a perfect setting to integrate my knowledge and start my research career in Europe.</objective>
+  <title>A Coupled Finite Element Framework for Multi-Physics Environmental Flows</title>
+  <totalCost>0</totalCost>
+  <ecMaxContribution>226751.04</ecMaxContribution>
+  <startDate>2022-09-01</startDate>
+  <endDate>2024-08-31</endDate>
+  <ecSignatureDate>2022-07-01</ecSignatureDate>
+  <duration>24</duration>
+  <status>TERMINATED</status>
+  <keywords>Finite Element methods, Hydraulic flows, Multiphysics, Flood prediction, Hydropower production prediction</keywords>
+  <identifiers>
+    <grantDoi>10.3030/101061623</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>false</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2022-11-23 09:57:01</sourceUpdateDate>
+  <contentCreationDate>2022-08-26 02:24:29</contentCreationDate>
+  <contentUpdateDate>2025-09-01 23:21:35</contentUpdateDate>
+  <lastUpdateDate>2025-09-19 14:48:40</lastUpdateDate>
+  <terminationDate>2022-12-31 00:00:00</terminationDate>
+  <relations>
+    <associations>
+      <article source="editorial" type="relatedArticle">
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <rcn>437246</rcn>
+        <id>437246-improved-modelling-of-environmental-flows-using-a-coupled-finite-element-framework</id>
+        <title>Improved modelling of environmental flows using a coupled finite element framework</title>
+        <contentUpdateDate>2022-11-14 15:25:53</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/projectDescription</code>
+              <title>Project description</title>
+              <description>Article: description of linked project written by editorial team</description>
+              <displayCode>/Project description</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/editorial</code>
+              <title>CORDIS Editorial</title>
+              <description>Written by CORDIS</description>
+              <displayCode>/CORDIS Editorial</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </article>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>55376</rcn>
+        <title>HORIZON-MSCA-2021-PF-01</title>
+        <identifier>HORIZON-MSCA-2021-PF-01</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>55376</rcn>
+        <title>HORIZON-MSCA-2021-PF-01</title>
+        <identifier>HORIZON-MSCA-2021-PF-01</identifier>
+      </call>
+      <organization netEcContribution="0" totalCost="0" source="corda" order="2" terminated="false" sme="false" type="associatedPartner">
+        <availableLanguages>en</availableLanguages>
+        <rcn>2123466</rcn>
+        <id>998813463</id>
+        <legalName>THE OHIO STATE UNIVERSITY</legalName>
+        <shortName>OSU</shortName>
+        <address>
+          <street>2036 NEIL AVENUE - BOLZ HALL 228</street>
+          <city>Columbus</city>
+          <postalCode>43210</postalCode>
+          <country>US</country>
+          <url>http://www.osu.edu</url>
+          <geolocation>39.9622601,-83.0007065</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>United States</name>
+              <rcn>510822952</rcn>
+              <nutsCode>US</nutsCode>
+              <euCode>US</euCode>
+              <isoCode>US</isoCode>
+            </region>
+            <region type="relatedRegion">
+              <name>United States</name>
+              <rcn>510822952</rcn>
+              <nutsCode>US</nutsCode>
+              <euCode>US</euCode>
+              <isoCode>US</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="226751.04" totalCost="0" source="corda" order="1" ecContribution="226751.04" terminated="false" sme="false" type="coordinator">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1906530</rcn>
+        <id>999975814</id>
+        <vatNumber>NO971035854MVA</vatNumber>
+        <legalName>UNIVERSITETET I OSLO</legalName>
+        <shortName>UNIVERSITY OF OSLO</shortName>
+        <address>
+          <street>PROBLEMVEIEN 5-7</street>
+          <city>Oslo</city>
+          <postalCode>0313</postalCode>
+          <country>NO</country>
+          <postBox>1073</postBox>
+          <url>http://www.uio.no</url>
+          <geolocation>60.0518829,10.6799603</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Oslo</name>
+              <rcn>1464783</rcn>
+              <nutsCode>NO081</nutsCode>
+              <parents>
+                <region>
+                  <name>Oslo og Viken</name>
+                  <rcn>1465043</rcn>
+                  <nutsCode>NO08</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Norge</name>
+                      <rcn>1465039</rcn>
+                      <nutsCode>NO0</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Norway</name>
+                          <rcn>392333864</rcn>
+                          <nutsCode>NO</nutsCode>
+                          <euCode>NO</euCode>
+                          <isoCode>NO</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Norway</name>
+              <rcn>392333864</rcn>
+              <nutsCode>NO</nutsCode>
+              <euCode>NO</euCode>
+              <isoCode>NO</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme type="relatedTopic" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>706003</rcn>
+        <id>HORIZON_HORIZON-MSCA-2021-PF-01-01</id>
+        <code>HORIZON-MSCA-2021-PF-01-01</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>MSCA Postdoctoral Fellowships 2021</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode>/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme type="relatedLegalBasis" source="corda" uniqueProgrammePart="true">
+        <availableLanguages>en</availableLanguages>
+        <rcn>705729</rcn>
+        <id>HORIZON.1.2</id>
+        <code>HORIZON.1.2</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.1.2</pga>
+        <title>Marie Skłodowska-Curie Actions (MSCA)</title>
+        <parent>
+          <programme>
+            <rcn>705726</rcn>
+            <code>HORIZON.1</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode>/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>973331</rcn>
+        <id>101061623_1_DELIVHORIZON</id>
+        <title>Data Management Plan</title>
+        <description>The Data Management Plan describes the data management life cycle for all data sets that will be collected processed or generated by the action It is a document describing what data will be collected processed or generated and following what methodology and standards whether and how this data will be shared andor made open and how it will be curated and preserved</description>
+        <sourceUpdateDate>2023-09-22 14:56:55</sourceUpdateDate>
+        <contentUpdateDate>2023-09-26 17:44:04</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable" represents="project">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>e1cc01eafbfeccc183eb5797839cfffd</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e500097510&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/DMP</code>
+              <title>Data Management Plan</title>
+              <displayCode>/Data Management Plan</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1042340</rcn>
+        <id>101061623_PSHORIZON</id>
+        <title>Periodic Reporting for period 1 - HYDROCOUPLE (A Coupled Finite Element Framework for Multi-Physics Environmental Flows)</title>
+        <description>periodic</description>
+        <teaser>The overarching objective in HYDROCOUPLE is the development of new physics-based numerical models and numerical approximation methods to be used in hydrological studies. Our motivation is based on the observation that hydrological models used in Europe, and Norway in...</teaser>
+        <sourceUpdateDate>2024-04-18 19:15:40</sourceUpdateDate>
+        <contentUpdateDate>2024-02-12 18:29:01</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/pubsum</code>
+              <title>Report Summary</title>
+              <description>Result: Publishable summary (FP7 SESAM) and Summary for publication (H2020 SyGMa)</description>
+              <displayCode>/Report Summary</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>972078</rcn>
+        <id>101061623_5010_PUBLIHORIZON</id>
+        <title>Graph-grammar based algorithm for asteroid tsunami simulations</title>
+        <details>
+          <authors>P. Maczuga, A. Oliver-Serra, A. Paszynska, E. Valseth, M. Paszynski</authors>
+          <journalTitle>Journal of Computational Science</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2022</publishedYear>
+          <publisher>Elsevier</publisher>
+        </details>
+        <identifiers>
+          <issn>1877-7503</issn>
+          <doi>10.1016/j.jocs.2022.101856</doi>
+        </identifiers>
+        <sourceUpdateDate>2023-12-23 02:20:47</sourceUpdateDate>
+        <contentUpdateDate>2023-09-11 10:08:48</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>973336</rcn>
+        <id>101061623_3_DELIVHORIZON</id>
+        <title>Communication, Dissemination &amp;Outreach Plan</title>
+        <description>The plan describes the planned measures to maximize the impact of the project including the dissemination and exploitation measures that are planned and the target groups addressed Regarding communication measures and public engagement strategy the aim is to inform and reach out to society and show the activities performed and the use and the benefits the project will have for citizens</description>
+        <sourceUpdateDate>2023-09-22 14:56:55</sourceUpdateDate>
+        <contentUpdateDate>2023-09-26 17:44:04</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable" represents="project">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>c4f1e6b67457dbfe26bbbe045f747378</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e500096a5b&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>972041</rcn>
+        <id>101061623_5011_PUBLIHORIZON</id>
+        <title>Cross-mode stabilized stochastic shallow water systems using stochastic finite element methods</title>
+        <details>
+          <authors>C. Chen, C. Dawson, E. Valseth</authors>
+          <journalTitle>Computer Methods in Applied Mechanics and Engineering</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>Elsevier</publisher>
+        </details>
+        <identifiers>
+          <issn>1879-2138</issn>
+          <doi>10.1016/j.cma.2022.115873</doi>
+        </identifiers>
+        <sourceUpdateDate>2023-12-23 02:20:47</sourceUpdateDate>
+        <contentUpdateDate>2023-09-11 10:08:08</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode>/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/25/67/425/1169/1689</code>
+        <title>hydroelectricity</title>
+        <displayCode>/engineering and technology/environmental engineering/energy and fuels/renewable energy/hydroelectricity</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode>/Digital agenda</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode>/Clean air</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode>/Artificial intelligence</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="100">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode>/Climate action</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode>/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages>en</availableLanguages>
+        <code>/HORIZON-TMA-MSCA-PF-EF</code>
+        <title>HORIZON TMA MSCA Postdoctoral Fellowships - European Fellowships</title>
+        <description>HORIZON TMA MSCA Postdoctoral Fellowships - European Fellowships</description>
+        <displayCode>/HORIZON TMA MSCA Postdoctoral Fellowships - European Fellowships</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode>/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

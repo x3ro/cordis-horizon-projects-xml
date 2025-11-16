@@ -1,0 +1,1370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages>en</availableLanguages>
+  <rcn>251520</rcn>
+  <id>101096090</id>
+  <acronym>CHORDS</acronym>
+  <teaser>Software systems are critical for the infrastructure of modern society and software errors and security breaches pose enormous costs and risks. The traditional method of testing software systems is famously inadequate for guaranteeing the absence of errors and security...</teaser>
+  <objective>Software systems are critical for the infrastructure of modern society and software errors and security breaches pose enormous costs and risks. The traditional method of testing software systems is famously inadequate for guaranteeing the absence of errors and security breaches since not all execution paths are covered by testing. This is espcially true for concurrent and distributed systems, where there are simply too many execution paths to test, and it has motivated research in formal methods for program verification that can offer mathematical proofs that all system behaviors meet some desirable property.
+  To formally analyze and reason about software systems it is important to consider models at many different levels of abstraction. Since many real software errors and security breaches stem from subtle problems in implementations of software systems, we focus on detailed, so-called semantic, models of program execution.
+  While there has been much research on abstract models for reasoning about distributed systems, there has been very little work on compositional verification of implementations of distributed systems. Compositional verification enables specification and verification of individual software modules and their composition, and is key to achieving scalable methods that apply to large programs, but the devel- opment of logics and methods for compositional reasoning is hard.
+  For concurrent, non-distributed, programs there has been tremendous progress in the last decade on program logics for compositional verification, in particular through the development of so-called higher- order concurrent separation logics. Leveraging this progress, CHORDS will research and develop new theories, program logics, and methods for mathematically rigorous compositional reasoning about implementations of distributed systems and thus lay the foundation for tools that will help programmers make more correct and secure distributed systems.</objective>
+  <title>Compositional Higher-Order Reasoning about Distributed Systems</title>
+  <totalCost>2470023</totalCost>
+  <ecMaxContribution>2470023</ecMaxContribution>
+  <startDate>2023-09-01</startDate>
+  <endDate>2028-08-31</endDate>
+  <ecSignatureDate>2023-04-18</ecSignatureDate>
+  <duration>60</duration>
+  <status>SIGNED</status>
+  <keywords>program verification, separation logic, distributed systems</keywords>
+  <identifiers>
+    <grantDoi>10.3030/101096090</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>false</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2025-01-03 10:47:16</sourceUpdateDate>
+  <contentCreationDate>2023-06-29 13:52:59</contentCreationDate>
+  <contentUpdateDate>2025-09-02 00:08:20</contentUpdateDate>
+  <lastUpdateDate>2025-10-16 08:50:37</lastUpdateDate>
+  <relations>
+    <associations>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>55593</rcn>
+        <title>ERC-2022-ADG</title>
+        <identifier>ERC-2022-ADG</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>55593</rcn>
+        <title>ERC-2022-ADG</title>
+        <identifier>ERC-2022-ADG</identifier>
+      </call>
+      <organization netEcContribution="2470023" totalCost="2470023" source="corda" order="1" ecContribution="2470023" terminated="false" sme="false" type="coordinator">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1905956</rcn>
+        <id>999997736</id>
+        <vatNumber>DK31119103</vatNumber>
+        <legalName>AARHUS UNIVERSITET</legalName>
+        <shortName>AU</shortName>
+        <address>
+          <street>NORDRE RINGGADE 1</street>
+          <city>Aarhus C</city>
+          <postalCode>8000</postalCode>
+          <country>DK</country>
+          <postBox>N/A</postBox>
+          <url>http://www.au.dk</url>
+          <geolocation>56.171028,10.199381</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Østjylland</name>
+              <rcn>223346946</rcn>
+              <nutsCode>DK042</nutsCode>
+              <parents>
+                <region>
+                  <name>Midtjylland</name>
+                  <rcn>223346984</rcn>
+                  <nutsCode>DK04</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Danmark</name>
+                      <rcn>223349288</rcn>
+                      <nutsCode>DK0</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Denmark</name>
+                          <rcn>223513128</rcn>
+                          <nutsCode>DK</nutsCode>
+                          <euCode>DK</euCode>
+                          <isoCode>DK</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Denmark</name>
+              <rcn>223513128</rcn>
+              <nutsCode>DK</nutsCode>
+              <euCode>DK</euCode>
+              <isoCode>DK</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme type="relatedTopic" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>706725</rcn>
+        <id>HORIZON_ERC-2022-ADG</id>
+        <code>ERC-2022-ADG</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>ERC ADVANCED GRANTS</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode>/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme type="relatedLegalBasis" source="corda" uniqueProgrammePart="true">
+        <availableLanguages>en</availableLanguages>
+        <rcn>705727</rcn>
+        <id>HORIZON.1.1</id>
+        <code>HORIZON.1.1</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.1.1</pga>
+        <title>European Research Council (ERC)</title>
+        <parent>
+          <programme>
+            <rcn>705726</rcn>
+            <code>HORIZON.1</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode>/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1368819</rcn>
+        <id>101096090_235002_PUBLIHORIZON</id>
+        <title>The Nextgen Modality: A Modality for Non-Frame-Preserving Updates in Separation Logic</title>
+        <details>
+          <authors>Simon Friis Vindum, Aïna Linn Georges, Lars Birkedal</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Proceedings of the 14th ACM SIGPLAN International Conference on Certified Programs and Proofs</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2025</publishedYear>
+          <publisher>ACM</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1145/3703595.3705876</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-10-07 05:06:23</sourceUpdateDate>
+        <contentUpdateDate>2025-10-16 08:50:36</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1368800</rcn>
+        <id>101096090_234936_PUBLIHORIZON</id>
+        <title>Spirea: A Mechanized Concurrent Separation Logic for Weak Persistent Memory</title>
+        <details>
+          <authors>Simon Friis Vindum, Lars Birkedal</authors>
+          <journalNumber>7</journalNumber>
+          <journalTitle>Proceedings of the ACM on Programming Languages</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>Association for Computing Machinery (ACM)</publisher>
+        </details>
+        <identifiers>
+          <issn>2475-1421</issn>
+          <doi>10.1145/3622820</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-10-07 05:06:23</sourceUpdateDate>
+        <contentUpdateDate>2025-10-16 08:50:35</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1368793</rcn>
+        <id>101096090_234909_PUBLIHORIZON</id>
+        <title>Verifying Reliable Network Components in a Distributed Separation Logic with Dependent Separation Protocols</title>
+        <details>
+          <authors>Léon Gondelman, Jonas Kastberg Hinrichsen, Mário Pereira, Amin Timany, Lars Birkedal</authors>
+          <journalNumber>7</journalNumber>
+          <journalTitle>Proceedings of the ACM on Programming Languages</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>Association for Computing Machinery (ACM)</publisher>
+        </details>
+        <identifiers>
+          <issn>2475-1421</issn>
+          <doi>10.1145/3607859</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-10-07 05:06:23</sourceUpdateDate>
+        <contentUpdateDate>2025-10-16 08:50:34</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1368822</rcn>
+        <id>101096090_235006_PUBLIHORIZON</id>
+        <title>Reasoning about Weak Isolation Levels in Separation Logic</title>
+        <details>
+          <authors>Anders Alnor Mathiasen, Léon Gondelman, Léon Ducruet, Amin Timany, Lars Birkedal</authors>
+          <journalNumber>9</journalNumber>
+          <journalTitle>Proceedings of the ACM on Programming Languages</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Association for Computing Machinery (ACM)</publisher>
+        </details>
+        <identifiers>
+          <issn>2475-1421</issn>
+          <doi>10.1145/3747515</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-10-07 05:06:23</sourceUpdateDate>
+        <contentUpdateDate>2025-10-16 08:50:36</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1368799</rcn>
+        <id>101096090_234997_PUBLIHORIZON</id>
+        <title>Error Credits: Resourceful Reasoning about Error Bounds for Higher-Order Probabilistic Programs</title>
+        <details>
+          <authors>Alejandro Aguirre, Philipp G. Haselwarter, Markus de Medeiros, Kwing Hei Li, Simon Oddershede Gregersen, Joseph Tassarotti, Lars Birkedal</authors>
+          <journalNumber>8</journalNumber>
+          <journalTitle>Proceedings of the ACM on Programming Languages</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Association for Computing Machinery (ACM)</publisher>
+        </details>
+        <identifiers>
+          <issn>2475-1421</issn>
+          <doi>10.1145/3674635</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-10-07 05:06:23</sourceUpdateDate>
+        <contentUpdateDate>2025-10-16 08:50:35</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1368805</rcn>
+        <id>101096090_234995_PUBLIHORIZON</id>
+        <title>Almost-Sure Termination by Guarded Refinement</title>
+        <details>
+          <authors>Simon Oddershede Gregersen, Alejandro Aguirre, Philipp G. Haselwarter, Joseph Tassarotti, Lars Birkedal</authors>
+          <journalNumber>8</journalNumber>
+          <journalTitle>Proceedings of the ACM on Programming Languages</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Association for Computing Machinery (ACM)</publisher>
+        </details>
+        <identifiers>
+          <issn>2475-1421</issn>
+          <doi>10.1145/3674632</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-10-07 05:06:23</sourceUpdateDate>
+        <contentUpdateDate>2025-10-16 08:50:35</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1368801</rcn>
+        <id>101096090_234939_PUBLIHORIZON</id>
+        <title>Melocoton: A Program Logic for Verified Interoperability Between OCaml and C</title>
+        <details>
+          <authors>Armaël Guéneau, Johannes Hostert, Simon Spies, Michael Sammler, Lars Birkedal, Derek Dreyer</authors>
+          <journalNumber>7</journalNumber>
+          <journalTitle>Proceedings of the ACM on Programming Languages</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>Association for Computing Machinery (ACM)</publisher>
+        </details>
+        <identifiers>
+          <issn>2475-1421</issn>
+          <doi>10.1145/3622823</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-10-07 05:06:23</sourceUpdateDate>
+        <contentUpdateDate>2025-10-16 08:50:35</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1368812</rcn>
+        <id>101096090_234999_PUBLIHORIZON</id>
+        <title>Iris-MSWasm: Elucidating and Mechanising the Security Invariants of Memory-Safe WebAssembly</title>
+        <details>
+          <authors>Maxime Legoupil, June Rousseau, Aïna Linn Georges, Jean Pichon-Pharabod, Lars Birkedal</authors>
+          <journalNumber>8</journalNumber>
+          <journalTitle>Proceedings of the ACM on Programming Languages</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Association for Computing Machinery (ACM)</publisher>
+        </details>
+        <identifiers>
+          <issn>2475-1421</issn>
+          <doi>10.1145/3689722</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-10-07 05:06:23</sourceUpdateDate>
+        <contentUpdateDate>2025-10-16 08:50:35</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1368789</rcn>
+        <id>101096090_234969_PUBLIHORIZON</id>
+        <title>Trillium: Higher-Order Concurrent and Distributed Separation Logic for Intensional Refinement</title>
+        <details>
+          <authors>Amin Timany, Simon Oddershede Gregersen, Léo Stefanesco, Jonas Kastberg Hinrichsen, Léon Gondelman, Abel Nieto, Lars Birkedal</authors>
+          <journalNumber>8</journalNumber>
+          <journalTitle>Proceedings of the ACM on Programming Languages</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Association for Computing Machinery (ACM)</publisher>
+        </details>
+        <identifiers>
+          <issn>2475-1421</issn>
+          <doi>10.1145/3632851</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-10-07 05:06:23</sourceUpdateDate>
+        <contentUpdateDate>2025-10-16 08:50:34</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1048960</rcn>
+        <id>101096090_1_DELIVHORIZON</id>
+        <title>Data Management Plan</title>
+        <description>Data Management Plan</description>
+        <sourceUpdateDate>2024-02-28 18:17:24</sourceUpdateDate>
+        <contentUpdateDate>2024-03-04 11:02:08</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable" represents="project">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>70096f611335d3dbafbe718280b5525c</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e508385e53&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/DMP</code>
+              <title>Data Management Plan</title>
+              <displayCode>/Data Management Plan</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1368815</rcn>
+        <id>101096090_235005_PUBLIHORIZON</id>
+        <title>Modular Reasoning about Error Bounds for Concurrent Probabilistic Programs</title>
+        <details>
+          <authors>Kwing Hei Li, Alejandro Aguirre, Simon Oddershede Gregersen, Philipp G. Haselwarter, Joseph Tassarotti, Lars Birkedal</authors>
+          <journalNumber>9</journalNumber>
+          <journalTitle>Proceedings of the ACM on Programming Languages</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2025</publishedYear>
+          <publisher>Association for Computing Machinery (ACM)</publisher>
+        </details>
+        <identifiers>
+          <issn>2475-1421</issn>
+          <doi>10.1145/3747514</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-10-07 05:06:23</sourceUpdateDate>
+        <contentUpdateDate>2025-10-16 08:50:35</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1368803</rcn>
+        <id>101096090_234994_PUBLIHORIZON</id>
+        <title>A Logical Approach to Type Soundness</title>
+        <details>
+          <authors>Amin Timany, Robbert Krebbers, Derek Dreyer, Lars Birkedal</authors>
+          <journalNumber>71</journalNumber>
+          <journalTitle>Journal of the ACM</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Association for Computing Machinery (ACM)</publisher>
+        </details>
+        <identifiers>
+          <issn>0004-5411</issn>
+          <doi>10.1145/3676954</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-10-07 05:06:23</sourceUpdateDate>
+        <contentUpdateDate>2025-10-16 08:50:35</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1368798</rcn>
+        <id>101096090_234987_PUBLIHORIZON</id>
+        <title>Unifying cubical and multimodal type theory</title>
+        <details>
+          <authors>Frederik Lerbjerg Aagaard, Magnus Baunsgaard Kristensen, Daniel Gratzer, Lars Birkedal</authors>
+          <journalNumber>Volume 20, Issue 4</journalNumber>
+          <journalTitle>Logical Methods in Computer Science</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Centre pour la Communication Scientifique Directe (CCSD)</publisher>
+        </details>
+        <identifiers>
+          <issn>1860-5974</issn>
+          <doi>10.46298/LMCS-20(4:25)2024</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-10-07 05:06:23</sourceUpdateDate>
+        <contentUpdateDate>2025-10-16 08:50:34</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1368814</rcn>
+        <id>101096090_235000_PUBLIHORIZON</id>
+        <title>Tachis: Higher-Order Separation Logic with Credits for Expected Costs</title>
+        <details>
+          <authors>Philipp G. Haselwarter, Kwing Hei Li, Markus de Medeiros, Simon Oddershede Gregersen, Alejandro Aguirre, Joseph Tassarotti, Lars Birkedal</authors>
+          <journalNumber>8</journalNumber>
+          <journalTitle>Proceedings of the ACM on Programming Languages</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Association for Computing Machinery (ACM)</publisher>
+        </details>
+        <identifiers>
+          <issn>2475-1421</issn>
+          <doi>10.1145/3689753</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-10-07 05:06:23</sourceUpdateDate>
+        <contentUpdateDate>2025-10-16 08:50:35</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1368802</rcn>
+        <id>101096090_234982_PUBLIHORIZON</id>
+        <title>Asynchronous Probabilistic Couplings in Higher-Order Separation Logic</title>
+        <details>
+          <authors>Simon Oddershede Gregersen, Alejandro Aguirre, Philipp G. Haselwarter, Joseph Tassarotti, Lars Birkedal</authors>
+          <journalNumber>8</journalNumber>
+          <journalTitle>Proceedings of the ACM on Programming Languages</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Association for Computing Machinery (ACM)</publisher>
+        </details>
+        <identifiers>
+          <issn>2475-1421</issn>
+          <doi>10.1145/3632868</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-10-07 05:06:23</sourceUpdateDate>
+        <contentUpdateDate>2025-10-16 08:50:35</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1368797</rcn>
+        <id>101096090_234983_PUBLIHORIZON</id>
+        <title>The Essence of Generalized Algebraic Data Types</title>
+        <details>
+          <authors>Filip Sieczkowski, Sergei Stepanenko, Jonathan Sterling, Lars Birkedal</authors>
+          <journalNumber>8</journalNumber>
+          <journalTitle>Proceedings of the ACM on Programming Languages</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Association for Computing Machinery (ACM)</publisher>
+        </details>
+        <identifiers>
+          <issn>2475-1421</issn>
+          <doi>10.1145/3632866</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-10-07 05:06:23</sourceUpdateDate>
+        <contentUpdateDate>2025-10-16 08:50:34</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1368817</rcn>
+        <id>101096090_235007_PUBLIHORIZON</id>
+        <title>Idempotent Resources in Separation Logic</title>
+        <details>
+          <authors>Daniel Gratzer, Mathias Adam Møller, Lars Birkedal</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Lecture Notes in Computer Science, Foundations of Software Science and Computation Structures</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2025</publishedYear>
+          <publisher>Springer Nature Switzerland, Foundations of Software Science and Computation Structures: 28th International Conference, FoSSaCS 2025</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1007/978-3-031-90897-2_3</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-10-07 05:06:23</sourceUpdateDate>
+        <contentUpdateDate>2025-10-16 08:50:36</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1368811</rcn>
+        <id>101096090_234998_PUBLIHORIZON</id>
+        <title>Modelling Recursion and Probabilistic Choice in Guarded Type Theory</title>
+        <details>
+          <authors>Philipp Stassen, Rasmus Ejlers Møgelberg, Maaike Annebet Zwart, Alejandro Aguirre, Lars Birkedal</authors>
+          <journalNumber>9</journalNumber>
+          <journalTitle>Proceedings of the ACM on Programming Languages</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2025</publishedYear>
+          <publisher>Association for Computing Machinery (ACM)</publisher>
+        </details>
+        <identifiers>
+          <issn>2475-1421</issn>
+          <doi>10.1145/3704884</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-10-07 05:06:23</sourceUpdateDate>
+        <contentUpdateDate>2025-10-16 08:50:35</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1368794</rcn>
+        <id>101096090_234968_PUBLIHORIZON</id>
+        <title>The Logical Essence of Well-Bracketed Control Flow</title>
+        <details>
+          <authors>Amin Timany, Armaël Guéneau, Lars Birkedal</authors>
+          <journalNumber>8</journalNumber>
+          <journalTitle>Proceedings of the ACM on Programming Languages</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Association for Computing Machinery (ACM)</publisher>
+        </details>
+        <identifiers>
+          <issn>2475-1421</issn>
+          <doi>10.1145/3632862</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-10-07 05:06:23</sourceUpdateDate>
+        <contentUpdateDate>2025-10-16 08:50:34</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1368806</rcn>
+        <id>101096090_235003_PUBLIHORIZON</id>
+        <title>Context-Dependent Effects in Guarded Interaction Trees</title>
+        <details>
+          <authors>Sergei Stepanenko, Emma Nardino, Dan Frumin, Amin Timany, Lars Birkedal</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Lecture Notes in Computer Science, Programming Languages and Systems</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2025</publishedYear>
+          <publisher>Springer Nature Switzerland, Programming Languages and Systems: 34th European Symposium on Programming, ESOP 2025,</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1007/978-3-031-91121-7_120.1007/978-3-031-91121-7_12</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-10-07 05:06:23</sourceUpdateDate>
+        <contentUpdateDate>2025-10-16 08:50:35</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1368792</rcn>
+        <id>101096090_234967_PUBLIHORIZON</id>
+        <title>Towards Univalent Reference Types: The Impact of Univalence on Denotational Semantics</title>
+        <details>
+          <authors>J. Sterling, D. Gratzer, L. Birkedal</authors>
+          <journalNumber></journalNumber>
+          <journalTitle></journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>32nd EACSL Annual Conference on Computer Science Logic (CSL 2024)</publisher>
+        </details>
+        <identifiers>
+          <doi>10.4230/LIPICS.CSL.2024.47</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-10-07 05:06:23</sourceUpdateDate>
+        <contentUpdateDate>2025-10-16 08:50:34</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1368790</rcn>
+        <id>101096090_234981_PUBLIHORIZON</id>
+        <title>An Axiomatic Basis for Computer Programming on the Relaxed Arm-A Architecture: The AxSL Logic</title>
+        <details>
+          <authors>Hammond, A., Liu, Z., Pérami, T., Sewell, P., Birkedal, L., &amp; Pichon-Pharabod, J.</authors>
+          <journalNumber></journalNumber>
+          <journalTitle></journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Proceedings of the ACM on Programming Languages, Volume 8, Issue POPL</publisher>
+        </details>
+        <sourceUpdateDate>2025-10-07 05:06:23</sourceUpdateDate>
+        <contentUpdateDate>2025-10-16 08:50:34</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1368791</rcn>
+        <id>101096090_234986_PUBLIHORIZON</id>
+        <title>Modular Denotational Semantics for Effects with Guarded Interaction Trees</title>
+        <details>
+          <authors>Dan Frumin, Amin Timany, Lars Birkedal</authors>
+          <journalNumber>8</journalNumber>
+          <journalTitle>Proceedings of the ACM on Programming Languages</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Association for Computing Machinery (ACM)</publisher>
+        </details>
+        <identifiers>
+          <issn>2475-1421</issn>
+          <doi>10.1145/3632854</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-10-07 05:06:23</sourceUpdateDate>
+        <contentUpdateDate>2025-10-16 08:50:34</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1368820</rcn>
+        <id>101096090_235001_PUBLIHORIZON</id>
+        <title>Approximate Relational Reasoning for Higher-Order Probabilistic Programs</title>
+        <details>
+          <authors>Philipp G. Haselwarter, Kwing Hei Li, Alejandro Aguirre, Simon Oddershede Gregersen, Joseph Tassarotti, Lars Birkedal</authors>
+          <journalNumber>9</journalNumber>
+          <journalTitle>Proceedings of the ACM on Programming Languages</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2025</publishedYear>
+          <publisher>Association for Computing Machinery (ACM)</publisher>
+        </details>
+        <identifiers>
+          <issn>2475-1421</issn>
+          <doi>10.1145/3704877</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-10-07 05:06:23</sourceUpdateDate>
+        <contentUpdateDate>2025-10-16 08:50:36</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode>/Project</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="100">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode>/Digital agenda</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode>/Clean air</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="100">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode>/Artificial intelligence</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode>/Climate action</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode>/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages>en</availableLanguages>
+        <code>/HORIZON-ERC</code>
+        <title>HORIZON ERC Grants</title>
+        <description>HORIZON ERC Grants</description>
+        <displayCode>/HORIZON ERC Grants</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode>/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

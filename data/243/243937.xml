@@ -1,0 +1,2960 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages>en</availableLanguages>
+  <rcn>243937</rcn>
+  <id>101093261</id>
+  <acronym>Plasma-PEPSC</acronym>
+  <teaser>Plasma science has been at the forefront of HPC for several decades, driving and at the same time benefiting greatly from innovative hardware and software developments. The overall goal of Plasma-PEPSC is to take this development to the next level, enabling scientific...</teaser>
+  <objective>Plasma science has been at the forefront of HPC for several decades, driving and at the same time benefiting greatly from innovative hardware and software developments. The overall goal of Plasma-PEPSC is to take this development to the next level, enabling scientific breakthroughs in plasma science Grand Challenges through exascale computing and extreme-scale data analytics. Specifically, we aim to enable unprecedented simulations on current pre-exascale and future exascale platforms in Europe to control plasma-material interfaces, optimize magnetically confined fusion plasmas, design next-generation plasma accelerators and predict space plasma dynamics in the Earth’s magnetosphere. We achieve these goals by maximizing the parallel performance and efficiency of four European flagship plasma codes with a large user base: BIT, GENE, PIConGPU, and Vlasiator. Here, we will build on algorithmic advances (regarding load balancing, resilience, and data compression) as well as on programming model and library developments (MPI, accelerator and data movement APIs and runtimes, in-situ data analysis). We ensure an integrated HPC software engineering approach for deploying, verifying, and validating extreme-scale kinetic plasma simulations that can serve as a community standard. We will establish a continuous and integrated co-design methodology to provide/receive direct input to/from the design and development of the EPI Processor and accelerator, will exploit synergies through collaborations with other CoEs, EuroHPC, and Competence Centers for cross-fertilization, adoption and full exploitation of the Plasma-PEPSC codes. Plasma-PEPSC brings together an exceptional, interdisciplinary group of highly-recognized leading scientists from academia, research centres, and HPC centres, with decades of experience in algorithmic and method developments, extreme-scale plasma simulations, and application optimizations with high involvement in strategic EuroHPC projects and initiatives.</objective>
+  <title>Plasma Exascale-Performance Simulations CoE - Pushing flagship plasma simulations codes to tackle exascale-enabled Grand Challenges via performance optimisation and codesign</title>
+  <totalCost>7919658.75</totalCost>
+  <ecMaxContribution>3957329</ecMaxContribution>
+  <startDate>2023-01-01</startDate>
+  <endDate>2026-12-31</endDate>
+  <ecSignatureDate>2022-12-14</ecSignatureDate>
+  <duration>48</duration>
+  <status>SIGNED</status>
+  <keywords>Flagship Plasma Simulations, Exascale, Extreme Scale, Extreme Data, Heterogeneous Systems, Co-design, EPI</keywords>
+  <identifiers>
+    <grantDoi>10.3030/101093261</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>false</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2025-08-11 11:28:36</sourceUpdateDate>
+  <contentCreationDate>2023-01-17 17:56:54</contentCreationDate>
+  <contentUpdateDate>2025-09-16 12:48:05</contentUpdateDate>
+  <lastUpdateDate>2025-09-19 14:49:03</lastUpdateDate>
+  <relations>
+    <associations>
+      <article source="editorial" type="relatedArticle">
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <rcn>440639</rcn>
+        <id>440639-a-new-era-in-high-performance-plasma-simulations</id>
+        <title>A new era in high-performance plasma simulations</title>
+        <contentUpdateDate>2023-07-21 09:10:03</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/projectDescription</code>
+              <title>Project description</title>
+              <description>Article: description of linked project written by editorial team</description>
+              <displayCode>/Project description</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/editorial</code>
+              <title>CORDIS Editorial</title>
+              <description>Written by CORDIS</description>
+              <displayCode>/CORDIS Editorial</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </article>
+      <article source="editorial" type="relatedArticle">
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <rcn>443405</rcn>
+        <id>443405-putting-europe-at-the-forefront-of-the-supercomputing-revolution</id>
+        <title>Putting Europe at the forefront of the supercomputing revolution</title>
+        <contentUpdateDate>2023-05-04 16:43:56</contentUpdateDate>
+        <relations>
+          <associations>
+            <webItem type="relatedImage" source="editorial" represents="article">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl,any</availableLanguages>
+              <uri>/docs/news/images/2023-05/443405.jpg</uri>
+              <mimetype>image/jpeg</mimetype>
+              <size>964936</size>
+              <copyright>© European Union, 2023</copyright>
+            </webItem>
+          </associations>
+          <categories>
+            <category classification="applicationDomain" type="isApplicableIn">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/ict</code>
+              <title>Digital Economy</title>
+              <displayCode>/Digital Economy</displayCode>
+            </category>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/news</code>
+              <title>News</title>
+              <description>Article: news</description>
+              <displayCode>/News</displayCode>
+            </category>
+            <category classification="nature" type="groupedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/scientificAdvances</code>
+              <title>Scientific advances</title>
+              <displayCode>/Scientific advances</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/editorial</code>
+              <title>CORDIS Editorial</title>
+              <description>Written by CORDIS</description>
+              <displayCode>/CORDIS Editorial</displayCode>
+            </category>
+          </categories>
+        </relations>
+        <teaser>The updated Projects Info Pack from CORDIS showcases more groundbreaking research supported by the European High Performance Computing Joint Undertaking (EuroHPC JU) that is helping deliver breakthroughs in climate modelling, personalised medicine, and energy-saving strategies.</teaser>
+      </article>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>55648</rcn>
+        <title>HORIZON-EUROHPC-JU-2021-COE-01</title>
+        <identifier>HORIZON-EUROHPC-JU-2021-COE-01</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>55648</rcn>
+        <title>HORIZON-EUROHPC-JU-2021-COE-01</title>
+        <identifier>HORIZON-EUROHPC-JU-2021-COE-01</identifier>
+      </call>
+      <organization netEcContribution="371704" totalCost="743408.75" source="corda" order="7" ecContribution="371704" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1905568</rcn>
+        <id>999994535</id>
+        <vatNumber>FI03134717</vatNumber>
+        <legalName>HELSINGIN YLIOPISTO</legalName>
+        <address>
+          <street>FABIANINKATU 33</street>
+          <city>HELSINGIN YLIOPISTO</city>
+          <postalCode>00014</postalCode>
+          <country>FI</country>
+          <postBox>N/A</postBox>
+          <url>http://www.helsinki.fi/university/</url>
+          <geolocation>60.1721612,24.947271</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Finland</name>
+              <rcn>256543272</rcn>
+              <nutsCode>FI</nutsCode>
+              <euCode>FI</euCode>
+              <isoCode>FI</isoCode>
+            </region>
+            <region type="relatedRegion">
+              <name>Finland</name>
+              <rcn>256543272</rcn>
+              <nutsCode>FI</nutsCode>
+              <euCode>FI</euCode>
+              <isoCode>FI</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="790875" totalCost="1581750" source="corda" order="1" ecContribution="790875" terminated="false" sme="false" type="coordinator">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1906237</rcn>
+        <id>999990946</id>
+        <vatNumber>SE202100305401</vatNumber>
+        <legalName>KUNGLIGA TEKNISKA HOEGSKOLAN</legalName>
+        <shortName>KTH</shortName>
+        <address>
+          <street>BRINELLVAGEN 8</street>
+          <city>STOCKHOLM</city>
+          <postalCode>100 44</postalCode>
+          <country>SE</country>
+          <postBox>N/A</postBox>
+          <url>http://www.kth.se</url>
+          <geolocation>59.3498183,18.0707826</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Stockholms län</name>
+              <rcn>473436224</rcn>
+              <nutsCode>SE110</nutsCode>
+              <parents>
+                <region>
+                  <name>Stockholm</name>
+                  <rcn>473436264</rcn>
+                  <nutsCode>SE11</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Östra Sverige</name>
+                      <rcn>473438760</rcn>
+                      <nutsCode>SE1</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Sweden</name>
+                          <rcn>473598504</rcn>
+                          <nutsCode>SE</nutsCode>
+                          <euCode>SE</euCode>
+                          <isoCode>SE</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Sweden</name>
+              <rcn>473598504</rcn>
+              <nutsCode>SE</nutsCode>
+              <euCode>SE</euCode>
+              <isoCode>SE</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="319375" totalCost="638750" source="corda" order="10" ecContribution="319375" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1905691</rcn>
+        <id>999977463</id>
+        <vatNumber>DE811193231</vatNumber>
+        <legalName>TECHNISCHE UNIVERSITAET MUENCHEN</legalName>
+        <shortName>TUM</shortName>
+        <address>
+          <street>Arcisstrasse  21</street>
+          <city>Muenchen</city>
+          <postalCode>80333</postalCode>
+          <country>DE</country>
+          <url>http://www.tu-muenchen.de</url>
+          <geolocation>48.1499912,11.567459</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>München, Kreisfreie Stadt</name>
+              <rcn>221782082</rcn>
+              <nutsCode>DE212</nutsCode>
+              <parents>
+                <region>
+                  <name>Oberbayern</name>
+                  <rcn>221782120</rcn>
+                  <nutsCode>DE21</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Bayern</name>
+                      <rcn>221784616</rcn>
+                      <nutsCode>DE2</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Germany</name>
+                          <rcn>221940264</rcn>
+                          <nutsCode>DE</nutsCode>
+                          <euCode>DE</euCode>
+                          <isoCode>DE</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Germany</name>
+              <rcn>221940264</rcn>
+              <nutsCode>DE</nutsCode>
+              <euCode>DE</euCode>
+              <isoCode>DE</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="200000" totalCost="400000" source="corda" order="4" ecContribution="200000" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1906526</rcn>
+        <id>999995893</id>
+        <vatNumber>EL090101655</vatNumber>
+        <legalName>IDRYMA TECHNOLOGIAS KAI EREVNAS</legalName>
+        <shortName>FOUNDATION FOR RESEARCH AND TECHNOLOGYHELLAS</shortName>
+        <address>
+          <street>N PLASTIRA STR 100</street>
+          <city>IRAKLEIO</city>
+          <postalCode>70 013</postalCode>
+          <country>EL</country>
+          <postBox>1385</postBox>
+          <url>http://www.forth.gr</url>
+          <geolocation>35.335976,25.126581</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/REC</code>
+              <title>Research Organisations</title>
+              <displayCode>/Research Organisations</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Ηράκλειο</name>
+              <rcn>1465359</rcn>
+              <nutsCode>EL431</nutsCode>
+              <parents>
+                <region>
+                  <name>Κρήτη</name>
+                  <rcn>1464913</rcn>
+                  <nutsCode>EL43</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Νησιά Αιγαίου</name>
+                      <rcn>1464909</rcn>
+                      <nutsCode>EL4</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Greece</name>
+                          <rcn>240552488</rcn>
+                          <nutsCode>EL</nutsCode>
+                          <euCode>EL</euCode>
+                          <isoCode>EL</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Greece</name>
+              <rcn>240552488</rcn>
+              <nutsCode>EL</nutsCode>
+              <euCode>EL</euCode>
+              <isoCode>EL</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="347000" totalCost="694000" source="corda" order="5" ecContribution="347000" terminated="false" sme="true" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1962702</rcn>
+        <id>899161677</id>
+        <vatNumber>FR70851434365</vatNumber>
+        <legalName>SIPEARL</legalName>
+        <address>
+          <street>38-44 Rue Jean Mermoz</street>
+          <city>MAISONS LAFFITTE</city>
+          <postalCode>78600</postalCode>
+          <country>FR</country>
+          <geolocation>48.9476186,2.1388578</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PRC</code>
+              <title>Private for-profit entities (excluding Higher or Secondary Education Establishments)</title>
+              <displayCode>/Private for-profit entities (excluding Higher or Secondary Education Establishments)</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Yvelines</name>
+              <rcn>258740227</rcn>
+              <nutsCode>FR103</nutsCode>
+              <parents>
+                <region>
+                  <name>Ile-de-France</name>
+                  <rcn>258740264</rcn>
+                  <nutsCode>FR10</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Ile-de-France</name>
+                      <rcn>258742824</rcn>
+                      <nutsCode>FR1</nutsCode>
+                      <parents>
+                        <region>
+                          <name>France</name>
+                          <rcn>258902568</rcn>
+                          <nutsCode>FR</nutsCode>
+                          <euCode>FR</euCode>
+                          <isoCode>FR</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>France</name>
+              <rcn>258902568</rcn>
+              <nutsCode>FR</nutsCode>
+              <euCode>FR</euCode>
+              <isoCode>FR</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="134750" totalCost="269500" source="corda" order="3" ecContribution="134750" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>2116690</rcn>
+        <id>998809001</id>
+        <legalName>USTAV FYZIKY PLAZMATU AV CR V V I</legalName>
+        <shortName>IPP</shortName>
+        <address>
+          <street>U SLOVANKY 2525/1A</street>
+          <city>PRAHA 8</city>
+          <postalCode>182 00</postalCode>
+          <country>CZ</country>
+          <url>http://www.ipp.cas.cz</url>
+          <geolocation>50.12530233890226,14.465414852484104</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/REC</code>
+              <title>Research Organisations</title>
+              <displayCode>/Research Organisations</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Hlavní město Praha</name>
+              <rcn>1465479</rcn>
+              <nutsCode>CZ010</nutsCode>
+              <parents>
+                <region>
+                  <name>Praha</name>
+                  <rcn>210501736</rcn>
+                  <nutsCode>CZ01</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Česko</name>
+                      <rcn>1465445</rcn>
+                      <nutsCode>CZ0</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Czechia</name>
+                          <rcn>210668072</rcn>
+                          <nutsCode>CZ</nutsCode>
+                          <euCode>CZ</euCode>
+                          <isoCode>CZ</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Czechia</name>
+              <rcn>210668072</rcn>
+              <nutsCode>CZ</nutsCode>
+              <euCode>CZ</euCode>
+              <isoCode>CZ</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="750750" totalCost="1501500" source="corda" order="2" ecContribution="750750" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1949732</rcn>
+        <id>999990267</id>
+        <vatNumber>DE129517720</vatNumber>
+        <legalName>MAX-PLANCK-GESELLSCHAFT ZUR FORDERUNG DER WISSENSCHAFTEN EV</legalName>
+        <shortName>MPG</shortName>
+        <address>
+          <street>HOFGARTENSTRASSE 8</street>
+          <city>MUNCHEN</city>
+          <postalCode>80539</postalCode>
+          <country>DE</country>
+          <postBox>000</postBox>
+          <url>http://www.mpg.de</url>
+          <geolocation>48.1411687,11.5822929</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/REC</code>
+              <title>Research Organisations</title>
+              <displayCode>/Research Organisations</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>München, Kreisfreie Stadt</name>
+              <rcn>221782082</rcn>
+              <nutsCode>DE212</nutsCode>
+              <parents>
+                <region>
+                  <name>Oberbayern</name>
+                  <rcn>221782120</rcn>
+                  <nutsCode>DE21</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Bayern</name>
+                      <rcn>221784616</rcn>
+                      <nutsCode>DE2</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Germany</name>
+                          <rcn>221940264</rcn>
+                          <nutsCode>DE</nutsCode>
+                          <euCode>DE</euCode>
+                          <isoCode>DE</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Germany</name>
+              <rcn>221940264</rcn>
+              <nutsCode>DE</nutsCode>
+              <euCode>DE</euCode>
+              <isoCode>DE</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="472875" totalCost="945750" source="corda" order="9" ecContribution="472875" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1909706</rcn>
+        <id>999470541</id>
+        <vatNumber>DE140213784</vatNumber>
+        <legalName>HELMHOLTZ-ZENTRUM DRESDEN-ROSSENDORF EV</legalName>
+        <shortName>HZDR</shortName>
+        <address>
+          <street>BAUTZNER LANDSTRASSE 400</street>
+          <city>Dresden</city>
+          <postalCode>01328</postalCode>
+          <country>DE</country>
+          <postBox>POB 51 01 19</postBox>
+          <url>https://www.hzdr.de</url>
+          <geolocation>51.0630311,13.9506108</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/REC</code>
+              <title>Research Organisations</title>
+              <displayCode>/Research Organisations</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Dresden, Kreisfreie Stadt</name>
+              <rcn>221827201</rcn>
+              <nutsCode>DED21</nutsCode>
+              <parents>
+                <region>
+                  <name>Dresden</name>
+                  <rcn>221827240</rcn>
+                  <nutsCode>DED2</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Sachsen</name>
+                      <rcn>221829672</rcn>
+                      <nutsCode>DED</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Germany</name>
+                          <rcn>221940264</rcn>
+                          <nutsCode>DE</nutsCode>
+                          <euCode>DE</euCode>
+                          <isoCode>DE</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Germany</name>
+              <rcn>221940264</rcn>
+              <nutsCode>DE</nutsCode>
+              <euCode>DE</euCode>
+              <isoCode>DE</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="250250" totalCost="505500" source="corda" order="8" ecContribution="250250" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1905736</rcn>
+        <id>999923240</id>
+        <vatNumber>SI54162513</vatNumber>
+        <legalName>UNIVERZA V LJUBLJANI</legalName>
+        <shortName>UL</shortName>
+        <address>
+          <street>KONGRESNI TRG  12</street>
+          <city>Ljubljana</city>
+          <postalCode>1000</postalCode>
+          <country>SI</country>
+          <postBox>362</postBox>
+          <url>http://www.uni-lj.si</url>
+          <geolocation>46.048973,14.5039794308021</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Osrednjeslovenska</name>
+              <rcn>1464018</rcn>
+              <nutsCode>SI041</nutsCode>
+              <parents>
+                <region>
+                  <name>Zahodna Slovenija</name>
+                  <rcn>1465099</rcn>
+                  <nutsCode>SI04</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Slovenija</name>
+                      <rcn>474483240</rcn>
+                      <nutsCode>SI0</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Slovenia</name>
+                          <rcn>474647080</rcn>
+                          <nutsCode>SI</nutsCode>
+                          <euCode>SI</euCode>
+                          <isoCode>SI</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Slovenia</name>
+              <rcn>474647080</rcn>
+              <nutsCode>SI</nutsCode>
+              <euCode>SI</euCode>
+              <isoCode>SI</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="319750" totalCost="639500" source="corda" order="6" ecContribution="319750" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1912330</rcn>
+        <id>999655520</id>
+        <vatNumber>ESS0800099D</vatNumber>
+        <legalName>BARCELONA SUPERCOMPUTING CENTER CENTRO NACIONAL DE SUPERCOMPUTACION</legalName>
+        <shortName>BSC CNS</shortName>
+        <address>
+          <street>CALLE JORDI GIRONA 31</street>
+          <city>BARCELONA</city>
+          <postalCode>08034</postalCode>
+          <country>ES</country>
+          <url>http://www.bsc.es</url>
+          <geolocation>41.75786995,2.031182036159852</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/REC</code>
+              <title>Research Organisations</title>
+              <displayCode>/Research Organisations</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Barcelona</name>
+              <rcn>242241601</rcn>
+              <nutsCode>ES511</nutsCode>
+              <parents>
+                <region>
+                  <name>Cataluña</name>
+                  <rcn>242241640</rcn>
+                  <nutsCode>ES51</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Este</name>
+                      <rcn>242244136</rcn>
+                      <nutsCode>ES5</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Spain</name>
+                          <rcn>242387496</rcn>
+                          <nutsCode>ES</nutsCode>
+                          <euCode>ES</euCode>
+                          <isoCode>ES</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Spain</name>
+              <rcn>242387496</rcn>
+              <nutsCode>ES</nutsCode>
+              <euCode>ES</euCode>
+              <isoCode>ES</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme type="relatedLegalBasis" source="corda" uniqueProgrammePart="true">
+        <availableLanguages>en</availableLanguages>
+        <rcn>705756</rcn>
+        <id>HORIZON.2.4</id>
+        <code>HORIZON.2.4</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.2.4</pga>
+        <title>Digital, Industry and Space</title>
+        <parent>
+          <programme>
+            <rcn>705740</rcn>
+            <code>HORIZON.2</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode>/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme type="relatedTopic" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>706820</rcn>
+        <id>HORIZON_HORIZON-EUROHPC-JU-2021-COE-01-01</id>
+        <code>HORIZON-EUROHPC-JU-2021-COE-01-01</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>Centres of Excellence preparing applications in the Exascale era</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode>/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+            <category classification="topicKeyword" type="isAbout">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <code>/43455184</code>
+              <title>Numerical analysis, simulation, optimisation, modelling tools</title>
+              <displayCode>/Numerical analysis, simulation, optimisation, modelling tools</displayCode>
+            </category>
+            <category classification="topicKeyword" type="isAbout">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <code>/43457044</code>
+              <title>Scientific computing, simulation and modelling tools</title>
+              <displayCode>/Scientific computing, simulation and modelling tools</displayCode>
+            </category>
+            <category classification="topicKeyword" type="isAbout">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <code>/43450563</code>
+              <title>Computational engineering and computer aided design</title>
+              <displayCode>/Computational engineering and computer aided design</displayCode>
+            </category>
+            <category classification="topicKeyword" type="isAbout">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <code>/43453066</code>
+              <title>High performance computing</title>
+              <displayCode>/High performance computing</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1164599</rcn>
+        <id>101093261_PSHORIZON</id>
+        <title>Periodic Reporting for period 1 - Plasma-PEPSC (Plasma Exascale-Performance Simulations CoE - Pushing flagship plasma simulations codes to tackle exascale-enabled Grand Challenges via performance optimisation and codesign)</title>
+        <description>periodic</description>
+        <teaser>The project's overall vision is to push flagship plasma simulation codes (BIT, GENE, PIConGPU, and Vlasiator) to tackle exascale-enabled grand challenges via performance optimization and co-design.In more detail, the specific goals of the Plasma-PEPSC project are the...</teaser>
+        <sourceUpdateDate>2024-09-03 05:54:21</sourceUpdateDate>
+        <contentUpdateDate>2024-09-06 16:18:17</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/pubsum</code>
+              <title>Report Summary</title>
+              <description>Result: Publishable summary (FP7 SESAM) and Summary for publication (H2020 SyGMa)</description>
+              <displayCode>/Report Summary</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1356284</rcn>
+        <id>101093261_218306_PUBLIHORIZON</id>
+        <title>A Performance Model of In-Situ Techniques</title>
+        <details>
+          <authors>Yi Ju, Nicolas Vidal, Adalberto Perez, Ana Gainaru, Fred Suter, Stefano Markidis, Philipp Schlatter, Scott Klaskyll, Erwin Laure</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>2025 33rd Euromicro International Conference on Parallel, Distributed, and Network-Based Processing (PDP)</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2025</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1109/PDP66500.2025.00036</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-09-06 01:23:00</sourceUpdateDate>
+        <contentUpdateDate>2025-09-08 12:24:03</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1356268</rcn>
+        <id>101093261_218187_PUBLIHORIZON</id>
+        <title>Enabling High- Throughput Parallel I/O in Particle-in-Cell Monte Carlo Simulations with openPMD and Darshan I/O Monitoring</title>
+        <details>
+          <authors>Jeremy J. Williams, Daniel Medeiros, Stefan Costea, David Tskhakaya, Franz Poeschel, René Widera, Axel Huebl, Scott Klasky, Norbert Podhorszki, Leon Kos, Ales Podolnik, Jakub Hromadka, Tapish Narwal, Klaus Steiniger, Michael Bussmann, Erwin Laure, Stefano Markidis</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>2024 IEEE International Conference on Cluster Computing Workshops (CLUSTER Workshops)</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1109/CLUSTERWORKSHOPS61563.2024.00022</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-09-06 01:23:00</sourceUpdateDate>
+        <contentUpdateDate>2025-09-08 12:24:02</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1142369</rcn>
+        <id>101093261_7_DELIVHORIZON</id>
+        <title>Initial assessment of developments and revision of the scientific challenges - Enabling Next-Generation Plasma Accelerators for Real World Applications with PIConGPU</title>
+        <description>Report on performance and update of scientific challenges and performance evaluation plan for PIConGPU.</description>
+        <sourceUpdateDate>2024-07-30 10:32:54</sourceUpdateDate>
+        <contentUpdateDate>2024-08-06 15:04:11</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>acf0762c4c52ee61300f091f766e1407</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e50676dfcb&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1356258</rcn>
+        <id>101093261_218185_PUBLIHORIZON</id>
+        <title>Understanding the Impact of OpenPMD on BIT1, a Particle-in-Cell Monte Carlo Code, Through Instrumentation, Monitoring, and In-Situ Analysis</title>
+        <details>
+          <authors>Jeremy J. Williams, Stefan Costea, Allen D. Malony, David Tskhakaya, Leon Kos, Ales Podolnik, Jakub Hromadka, Kevin Huck, Erwin Laure, Stefano Markidis</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Lecture Notes in Computer Science, Euro-Par 2024: Parallel Processing Workshops</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2025</publishedYear>
+          <publisher>Springer Nature Switzerland</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1007/978-3-031-90200-0_18</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-09-06 01:23:00</sourceUpdateDate>
+        <contentUpdateDate>2025-09-08 12:24:00</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1142351</rcn>
+        <id>101093261_25_DELIVHORIZON</id>
+        <title>Initial report on MPI, load balancing and resilience in plasma codes</title>
+        <description>Initial report on adapting and optimising code using MPI, load balance and resilience in the plasma codes</description>
+        <sourceUpdateDate>2024-07-30 10:32:54</sourceUpdateDate>
+        <contentUpdateDate>2024-08-06 15:04:08</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>ad5d73ad8b700d08be317b1fd7f64e92</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e50676fc87&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1142352</rcn>
+        <id>101093261_28_DELIVHORIZON</id>
+        <title>Initial report on improving parallel I/O, enabling in-situ and compression</title>
+        <description>Report on strategies for parallel I/O, load balance, and resilience in the plasma codes. First I/O measurement data by at least two codes available and reported in a technical note.</description>
+        <sourceUpdateDate>2024-07-30 10:32:54</sourceUpdateDate>
+        <contentUpdateDate>2024-08-06 15:04:08</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>6be455bf15fde2b8b33af5de8ad92fe4</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e50676f889&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1142342</rcn>
+        <id>101093261_34_DELIVHORIZON</id>
+        <title>Collaboration plan with definition of common objectives and activities including milestone</title>
+        <description>This report includes the collaboration plan with associated milestones, the initial communication, and exploitation plans for the project.</description>
+        <sourceUpdateDate>2024-07-30 10:32:54</sourceUpdateDate>
+        <contentUpdateDate>2024-08-06 15:04:07</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>bfcd281d05947f2f79c5dbd3191c636d</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5fdd870a5&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1356251</rcn>
+        <id>101093261_218248_PUBLIHORIZON</id>
+        <title>Physics-motivated cell-octree adaptive mesh refinement in the Vlasiator 5.3 global hybrid-Vlasov code</title>
+        <details>
+          <authors>Leo Kotipalo, Markus Battarbee, Yann Pfau-Kempf, Minna Palmroth</authors>
+          <journalNumber>17</journalNumber>
+          <journalTitle>Geoscientific Model Development</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Copernicus GmbH</publisher>
+        </details>
+        <identifiers>
+          <issn>1991-9603</issn>
+          <doi>10.5194/GMD-17-6401-2024</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-09-06 01:23:00</sourceUpdateDate>
+        <contentUpdateDate>2025-09-08 12:24:00</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1047324</rcn>
+        <id>101093261_17820_PUBLIHORIZON</id>
+        <title>MPI performance analysis in vlasiator: Unraveling communication bottlenecks</title>
+        <details>
+          <authors>Jennifer Faj, Jeremy J. Williams, Ivy B. Peng, Urs Ganse, Markus Battarbee, Yann Pfau-Kempf, Leo Kotipalo, Minna Palmroth and Stefano Markidis</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>SC23: The International Conference for High Performance Computing, Networking, Storage, and Analysis, Denver, CO, USA, November 12-17 2023</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>Supercomputing 2023</publisher>
+        </details>
+        <sourceUpdateDate>2024-02-26 17:48:40</sourceUpdateDate>
+        <contentUpdateDate>2024-03-04 09:39:35</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1356253</rcn>
+        <id>101093261_218247_PUBLIHORIZON</id>
+        <title>The Vlasiator 5.2 ionosphere – coupling a magnetospheric hybrid-Vlasov simulation with a height-integrated ionosphere model</title>
+        <details>
+          <authors>Urs Ganse, Yann Pfau-Kempf, Hongyang Zhou, Liisa Juusola, Abiyot Workayehu, Fasil Kebede, Konstantinos Papadakis, Maxime Grandin, Markku Alho, Markus Battarbee, Maxime Dubart, Leo Kotipalo, Arnaud Lalagüe, Jonas Suni, Konstantinos Horaites, Minna Palmroth</authors>
+          <journalNumber>18</journalNumber>
+          <journalTitle>Geoscientific Model Development</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2025</publishedYear>
+          <publisher>Copernicus GmbH</publisher>
+        </details>
+        <identifiers>
+          <issn>1991-9603</issn>
+          <doi>10.5194/GMD-18-511-2025</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-09-06 01:23:00</sourceUpdateDate>
+        <contentUpdateDate>2025-09-08 12:24:00</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1142373</rcn>
+        <id>101093261_5_DELIVHORIZON</id>
+        <title>Initial assessment of developments and revision of the scientific challenges - Controlling Plasma-Material Interfaces with BIT</title>
+        <description>Report on performance and update of scientific challenges and performance evaluation plan for the BIT codes</description>
+        <sourceUpdateDate>2024-07-30 10:32:54</sourceUpdateDate>
+        <contentUpdateDate>2024-08-06 15:04:12</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>696176ab917aa20612ee6a1fb44ade3f</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e50676c7a6&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1356245</rcn>
+        <id>101093261_218305_PUBLIHORIZON</id>
+        <title>Dynamic Resource Management for In-Situ Techniques Using MPI-Sessions</title>
+        <details>
+          <authors>Yi Ju, Dominik Huber, Adalberto Perez, Philipp Ulbl, Stefano Markidis, Philipp Schlatter, Martin Schulz, Martin Schreiber, Erwin Laure</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Lecture Notes in Computer Science, Recent Advances in the Message Passing Interface</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2025</publishedYear>
+          <publisher>Springer Nature Switzerland</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1007/978-3-031-73370-3_7</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-09-06 01:23:00</sourceUpdateDate>
+        <contentUpdateDate>2025-09-08 12:23:49</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1142366</rcn>
+        <id>101093261_4_DELIVHORIZON</id>
+        <title>Initial definition of the scientific challenges and initial evaluation plan - Predicting Near-Earth Space Dynamics with Vlasiator</title>
+        <description>Report on the identified scientific challenges and performance evaluation of the Vlasiator code.</description>
+        <sourceUpdateDate>2024-07-30 10:32:54</sourceUpdateDate>
+        <contentUpdateDate>2024-08-06 15:04:11</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>b831834784b654699136e5b217098039</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5fdd84a5d&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1356261</rcn>
+        <id>101093261_218250_PUBLIHORIZON</id>
+        <title>Understanding Data Movement in AMD Multi-GPU Systems with Infinity Fabric</title>
+        <details>
+          <authors>Gabin Schieffer, Ruimin Shi, Stefano Markidis, Andreas Herten, Jennifer Faj, Ivy Peng</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>SC24-W: Workshops of the International Conference for High Performance Computing, Networking, Storage and Analysis</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2025</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1109/SCW63240.2024.00079</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-09-06 01:23:00</sourceUpdateDate>
+        <contentUpdateDate>2025-09-08 12:24:00</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1142356</rcn>
+        <id>101093261_1_DELIVHORIZON</id>
+        <title>Initial definition of the scientific challenges and initial evaluation plan - Controlling Plasma-Material Interfaces with BIT</title>
+        <description>Report on the identified scientific challenge and initial performance evaluation for the BIT codes showcase.</description>
+        <sourceUpdateDate>2024-07-30 10:32:54</sourceUpdateDate>
+        <contentUpdateDate>2024-08-06 15:04:09</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>3f39893487ecca2cefd2021297f4b24c</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5fdd0c0f7&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1047259</rcn>
+        <id>101093261_17605_PUBLIHORIZON</id>
+        <title>Programming Quantum Neural Networks on NISQ Systems: An Overview of Technologies and Methodologies</title>
+        <details>
+          <authors>Stefano Markidis</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Entropy</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>Multidisciplinary Digital Publishing Institute (MDPI)</publisher>
+        </details>
+        <identifiers>
+          <issn>1099-4300</issn>
+          <doi>10.3390/e25040694</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-02-24 10:18:44</sourceUpdateDate>
+        <contentUpdateDate>2024-03-04 09:39:30</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1356262</rcn>
+        <id>101093261_218252_PUBLIHORIZON</id>
+        <title>On the Rise of AMD Matrix Cores: Performance, Power Efficiency, and Programmability</title>
+        <details>
+          <authors>Gabin Schieffer, Daniel Araújo De Medeiros, Jennifer Faj, Aniruddha Marathe, Ivy Peng</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>2024 IEEE International Symposium on Performance Analysis of Systems and Software</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1109/ISPASS61541.2024.00022</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-09-06 01:23:00</sourceUpdateDate>
+        <contentUpdateDate>2025-09-08 12:24:00</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1047261</rcn>
+        <id>101093261_17604_PUBLIHORIZON</id>
+        <title>Enabling Quantum Computer Simulations on AMD GPUs: a HIP Backend for Google's qsim</title>
+        <details>
+          <authors>Stefano Markidis</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>SC23 Workshop on Quantum Software</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>ACM</publisher>
+        </details>
+        <identifiers>
+          <issn>2168-135X</issn>
+          <doi>10.1145/3624062.3624223</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-02-24 10:18:44</sourceUpdateDate>
+        <contentUpdateDate>2024-03-04 09:39:30</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1142354</rcn>
+        <id>101093261_31_DELIVHORIZON</id>
+        <title>Initial report on algorithmic changes and memory optimisation for heterogeneous systems in Plasma-PEPSC codes</title>
+        <description>Initial report on algorithmic changes and memory optimisation for heterogeneous systems in Plasma-PEPSC codes.</description>
+        <sourceUpdateDate>2024-07-30 10:32:54</sourceUpdateDate>
+        <contentUpdateDate>2024-08-06 15:04:09</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>82d66dfdc44e18cafe78515bb606042b</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e50676dfe3&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1142359</rcn>
+        <id>101093261_35_DELIVHORIZON</id>
+        <title>Report on dissemination, community building, collaborations, training, and exploitation</title>
+        <description>Report on Plasma-PEPSC achievements in dissemination, community building, collaborations, training, and exploitation. This report also includes an updated collaboration plan.</description>
+        <sourceUpdateDate>2024-07-30 10:32:54</sourceUpdateDate>
+        <contentUpdateDate>2024-08-06 15:04:09</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>5ef1e4710ed9530a7eacfad8ce64bec5</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e506770019&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1356255</rcn>
+        <id>101093261_218188_PUBLIHORIZON</id>
+        <title>A hybrid quantum-classical particle-in-cell method for plasma simulations</title>
+        <details>
+          <authors>Pratibha Raghupati Hegde, Paolo Marcandelli, Yuanchun He, Luca Pennati, Jeremy J. Williams, Ivy Peng, Stefano Markidis</authors>
+          <journalNumber>175</journalNumber>
+          <journalTitle>Future Generation Computer Systems</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2025</publishedYear>
+          <publisher>Elsevier BV</publisher>
+        </details>
+        <identifiers>
+          <issn>0167-739X</issn>
+          <doi>10.1016/J.FUTURE.2025.108087</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-09-06 01:23:00</sourceUpdateDate>
+        <contentUpdateDate>2025-09-08 12:24:00</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1142360</rcn>
+        <id>101093261_39_DELIVHORIZON</id>
+        <title>Data Management Plan</title>
+        <description>DMP Report for data and codes in Plasma-PEPSC</description>
+        <sourceUpdateDate>2024-07-30 10:32:54</sourceUpdateDate>
+        <contentUpdateDate>2024-08-06 15:04:09</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>49076788afe590b9b80c36fada8e2cf6</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5fdd86295&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/DMP</code>
+              <title>Data Management Plan</title>
+              <displayCode>/Data Management Plan</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1356270</rcn>
+        <id>101093261_218251_PUBLIHORIZON</id>
+        <title>Global evolution of flux transfer events along the magnetopause from the dayside to the far tail</title>
+        <details>
+          <authors>Yann Pfau-Kempf, Konstantinos Papadakis, Markku Alho, Markus Battarbee, Giulia Cozzani, Lauri Pänkäläinen, Urs Ganse, Fasil Kebede, Jonas Suni, Konstantinos Horaites, Maxime Grandin, Minna Palmroth</authors>
+          <journalNumber></journalNumber>
+          <journalTitle></journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2025</publishedYear>
+          <publisher>Copernicus GmbH</publisher>
+        </details>
+        <identifiers>
+          <doi>10.5194/ANGEO-2024-26</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-09-06 01:23:00</sourceUpdateDate>
+        <contentUpdateDate>2025-09-08 12:24:02</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1142372</rcn>
+        <id>101093261_3_DELIVHORIZON</id>
+        <title>Initial definition of the scientific challenges and initial evaluation plan - Enabling Next-Generation Plasma Accelerators for Real World Applications with PIConGPU</title>
+        <description>Report on the identified scientific challenges and performance evaluation of the PIConGPU code.</description>
+        <sourceUpdateDate>2024-07-30 10:32:54</sourceUpdateDate>
+        <contentUpdateDate>2024-08-06 15:04:12</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>0baea602a20168cad3afe8cff50889a6</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5fdd8353f&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1142361</rcn>
+        <id>101093261_6_DELIVHORIZON</id>
+        <title>Initial assessment of developments and revision of the scientific challenges - Optimising Magnetically Confined Plasmas with GENE</title>
+        <description>Report on performance and update of scientific challenges and performance evaluation plan for GENE.</description>
+        <sourceUpdateDate>2024-07-30 10:32:54</sourceUpdateDate>
+        <contentUpdateDate>2024-08-06 15:04:10</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>efbb13fda902908c68aec9bba946f918</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e50676df5a&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1356250</rcn>
+        <id>101093261_218265_PUBLIHORIZON</id>
+        <title>Coalescing MPI Communication in 6D Vlasov Simulations: Solving Ghost Domains in Vlasiator</title>
+        <details>
+          <authors>Markus Battarbee, Urs Ganse, Yann Pfau-Kempf, Markku Alho, Konstantinos Papadakis, Minna Palmroth</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Lecture Notes in Computer Science, Euro-Par 2024: Parallel Processing Workshops</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2025</publishedYear>
+          <publisher>Springer Nature Switzerland</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1007/978-3-031-90200-0_17</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-09-06 01:23:00</sourceUpdateDate>
+        <contentUpdateDate>2025-09-08 12:24:00</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1356260</rcn>
+        <id>101093261_218246_PUBLIHORIZON</id>
+        <title>A Parallel and Highly-Portable HPC Poisson Solver: Preconditioned Bi-CGSTAB with alpaka</title>
+        <details>
+          <authors>Luca Pennati, Måns I. Andersson, Klaus Steiniger, René Widera, Tapish Narwal, Michael Bussmann, Stefano Markidis</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>2025 IEEE International Parallel and Distributed Processing Symposium Workshops (IPDPSW)</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2025</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1109/IPDPSW66978.2025.00073</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-09-06 01:23:00</sourceUpdateDate>
+        <contentUpdateDate>2025-09-08 12:24:00</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1047256</rcn>
+        <id>101093261_17817_PUBLIHORIZON</id>
+        <title>Leveraging HPC Profiling &amp; Tracing Tools to Understand the Performance of Particle-in-Cell Monte Carlo Simulations</title>
+        <details>
+          <authors>Jeremy J. Williams, David Tskhakaya, Stefan Costea, Ivy B. Peng, Marta Garcia-Gasulla and Stefano Markidis</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Euro-Par 2023: Parallel Processing Workshops: Euro-Par 2023 International Workshops, Limassol, Cyprus, August 28–September 1, 2023</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>Springer Nature</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arXiv.2306.16512</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-02-24 10:18:44</sourceUpdateDate>
+        <contentUpdateDate>2024-03-04 09:39:30</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1356254</rcn>
+        <id>101093261_218189_PUBLIHORIZON</id>
+        <title>Optimizing BIT1, a Particle-in-Cell Monte Carlo Code, with OpenMP/OpenACC and GPU Acceleration</title>
+        <details>
+          <authors>Jeremy J. Williams, Felix Liu, David Tskhakaya, Stefan Costea, Ales Podolnik, Stefano Markidis</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Lecture Notes in Computer Science, Computational Science – ICCS 2024</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Springer Nature Switzerland</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1007/978-3-031-63749-0_22</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-09-06 01:23:00</sourceUpdateDate>
+        <contentUpdateDate>2025-09-08 12:24:00</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1356252</rcn>
+        <id>101093261_218254_PUBLIHORIZON</id>
+        <title>OpenACC and OpenMP-Accelerated Fortran/C++ Gyrokinetic Fusion Code GENE-X for Heterogeneous Architectures</title>
+        <details>
+          <authors>Jordy Trilaksono, Philipp Ulbl, Jeremy Williams, Carl-Martin Pfeiler, Marion Finkbeiner, Tilman Dannert, Erwin Laure, Stefano Markidis, Frank Jenko</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Proceedings of the Platform for Advanced Scientific Computing Conference</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2025</publishedYear>
+          <publisher>ACM</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1145/3732775.3733587</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-09-06 01:23:00</sourceUpdateDate>
+        <contentUpdateDate>2025-09-08 12:24:00</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1356266</rcn>
+        <id>101093261_218245_PUBLIHORIZON</id>
+        <title>Physics-Aware Compression of Plasma Distribution Functions with GPU-Accelerated Gaussian Mixture Models</title>
+        <details>
+          <authors>Andong Hu, Luca Pennati, Ivy Peng, Stefano Markidis</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Lecture Notes in Computer Science, Computational Science – ICCS 2025</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2025</publishedYear>
+          <publisher>Springer Nature Switzerland</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1007/978-3-031-97632-2_3</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-09-06 01:23:00</sourceUpdateDate>
+        <contentUpdateDate>2025-09-08 12:24:00</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1356263</rcn>
+        <id>101093261_218253_PUBLIHORIZON</id>
+        <title>Beyond the Buzz: Strategic Paths for Enabling Useful NISQ Applications</title>
+        <details>
+          <authors>Pratibha Raghupati Hegde, Oleksandr Kyriienko, Hermanni Heimonen, Panagiotis Tolias, Gilbert Netzer, Panagiotis Barkoutsos, Ricardo Vinuesa, Ivy Peng, Stefano Markidis</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Proceedings of the 21st ACM International Conference on Computing Frontiers</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2025</publishedYear>
+          <publisher>ACM</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1145/3649153.3649182</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-09-06 01:23:00</sourceUpdateDate>
+        <contentUpdateDate>2025-09-08 12:24:00</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1356317</rcn>
+        <id>101093261_218326_PUBLIHORIZON</id>
+        <title>Streaming Data in HPC Workflows Using ADIOS</title>
+        <details>
+          <authors>Greg Eisenhauer, Norbert Podhorszki, Ana Gainaru, Scott Klasky, Philip Davis, Manish Parashar, Matthew Wolf, Eric Suchyta, Erick Fredj, Vicente Bolea, Franz Pöschel, Klaus Steiniger, Michael Bussmann, Richard Pausch, Sunita Chandrasekaran</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Proceedings of the Cray User Group</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2025</publishedYear>
+          <publisher>ACM</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1145/3725789.3725793</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-09-06 01:23:00</sourceUpdateDate>
+        <contentUpdateDate>2025-09-08 12:24:06</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1142353</rcn>
+        <id>101093261_18_DELIVHORIZON</id>
+        <title>Initial Assessment of Future Emerging Technologies and Algorithms for Plasma Simulations</title>
+        <description>Initial review and analysis of post-exascale technologies for plasma simulations</description>
+        <sourceUpdateDate>2024-07-30 10:32:54</sourceUpdateDate>
+        <contentUpdateDate>2024-08-06 15:04:09</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>a9f7364ed93580a844c852965d1e0a27</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e50676df5f&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1356257</rcn>
+        <id>101093261_218191_PUBLIHORIZON</id>
+        <title>Characterizing the Performance of the GENE-X Code for Gyrokinetic Turbulence Simulations</title>
+        <details>
+          <authors>Jordy Trilaksono, Jeremy J Williams, Philipp Ulbl, Tilman Dannert, Erwin Laure, Stefano Markidis, Frank Jenko</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>SC24: The International Conference for High Performance Computing, Networking, Storage, and Analysis</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Supercomputing 2024</publisher>
+        </details>
+        <sourceUpdateDate>2025-09-06 01:23:00</sourceUpdateDate>
+        <contentUpdateDate>2025-09-08 12:24:00</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1356233</rcn>
+        <id>101093261_218256_PUBLIHORIZON</id>
+        <title>Porting the grid-based 3D+3V hybrid-Vlasov kinetic plasma simulation Vlasiator to heterogeneous GPU architectures</title>
+        <details>
+          <authors>Markus Battarbee, Konstantinos Papadakis, Urs Ganse, Jaro Hokkanen, Leo Kotipalo, Yann Pfau-Kempf, Markku Alho, Minna Palmroth</authors>
+          <journalNumber>2997</journalNumber>
+          <journalTitle>Journal of Physics: Conference Series</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2025</publishedYear>
+          <publisher>IOP Publishing</publisher>
+        </details>
+        <identifiers>
+          <issn>1742-6588</issn>
+          <doi>10.1088/1742-6596/2997/1/012010</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-09-06 01:23:00</sourceUpdateDate>
+        <contentUpdateDate>2025-09-08 12:23:36</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1142371</rcn>
+        <id>101093261_8_DELIVHORIZON</id>
+        <title>Initial assessment of developments and revision of the scientific challenges - Predicting Near-Earth Space Dynamics with Vlasiator</title>
+        <description>Report on performance and update of scientific challenges and performance evaluation plan for Vlasiator</description>
+        <sourceUpdateDate>2024-07-30 10:32:54</sourceUpdateDate>
+        <contentUpdateDate>2024-08-06 15:04:11</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>7dd6f60ebe5ea1dea1d64fa8fbbf53b9</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e50676d6fe&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1047308</rcn>
+        <id>101093261_17825_PUBLIHORIZON</id>
+        <title>Non-Blocking GPU-CPU Notifications to Enable More GPU-CPU Parallelism</title>
+        <details>
+          <authors>Bengisu Elis, Olga Pearce, David Boehme, Jason Burmark and Martin Schulz</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>HPCAsia '24: Proceedings of the International Conference on High Performance Computing in Asia-Pacific Region</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>Association for Computing Machinery</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1145/3635035.3635036</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-02-26 17:48:40</sourceUpdateDate>
+        <contentUpdateDate>2024-03-04 09:39:34</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1356248</rcn>
+        <id>101093261_218255_PUBLIHORIZON</id>
+        <title>Harnessing Integrated CPU-GPU System Memory for HPC: a first look into Grace Hopper</title>
+        <details>
+          <authors>Gabin Schieffer, Jacob Wahlgren, Jie Ren, Jennifer Faj, Ivy Peng</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Proceedings of the 53rd International Conference on Parallel Processing</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2025</publishedYear>
+          <publisher>ACM</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1145/3673038.3673110</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-09-06 01:23:00</sourceUpdateDate>
+        <contentUpdateDate>2025-09-08 12:24:00</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1356328</rcn>
+        <id>101093261_218307_PUBLIHORIZON</id>
+        <title>Hashinator: a portable hybrid hashmap designed for heterogeneous high performance computing</title>
+        <details>
+          <authors>Konstantinos Papadakis, Markus Battarbee, Urs Ganse, Yann Pfau-Kempf, Minna Palmroth</authors>
+          <journalNumber>6</journalNumber>
+          <journalTitle>Frontiers in Computer Science</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Frontiers Media SA</publisher>
+        </details>
+        <identifiers>
+          <issn>2624-9898</issn>
+          <doi>10.3389/FCOMP.2024.1407365</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-09-06 01:23:00</sourceUpdateDate>
+        <contentUpdateDate>2025-09-08 12:24:07</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1356265</rcn>
+        <id>101093261_218249_PUBLIHORIZON</id>
+        <title>Integration of Modern HPC Performance Tools in Vlasiator for Exascale Analysis and Optimization</title>
+        <details>
+          <authors>Camille Coti, Yann Pfau-Kempf, Markus Battarbee, Urs Ganse, Sameer Shende, Kevin Huck, Jordi Rodriquez, Leo Kotipalo, Jennifer Faj, Jeremy J. Williams, Ivy Peng, Allen D. Malony, Stefano Markidis, Minna Palmroth</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>2024 IEEE International Parallel and Distributed Processing Symposium Workshops (IPDPSW)</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1109/IPDPSW63119.2024.00170</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-09-06 01:23:00</sourceUpdateDate>
+        <contentUpdateDate>2025-09-08 12:24:00</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1356259</rcn>
+        <id>101093261_218186_PUBLIHORIZON</id>
+        <title>Accelerating Particle-in-Cell Monte Carlo simulations with MPI, OpenMP/OpenACC and Asynchronous Multi-GPU Programming</title>
+        <details>
+          <authors>Jeremy J. Williams, Felix Liu, Jordy Trilaksono, David Tskhakaya, Stefan Costea, Leon Kos, Ales Podolnik, Jakub Hromadka, Pratibha Hegde, Marta Garcia-Gasulla, Valentin Seitz, Frank Jenko, Erwin Laure, Stefano Markidis</authors>
+          <journalNumber>88</journalNumber>
+          <journalTitle>Journal of Computational Science</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2025</publishedYear>
+          <publisher>Elsevier BV</publisher>
+        </details>
+        <identifiers>
+          <issn>1877-7503</issn>
+          <doi>10.1016/J.JOCS.2025.102590</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-09-06 01:23:00</sourceUpdateDate>
+        <contentUpdateDate>2025-09-08 12:24:00</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1142341</rcn>
+        <id>101093261_2_DELIVHORIZON</id>
+        <title>Initial definition of the scientific challenges and initial evaluation plan - Optimising Magnetically Confined Plasmas with GENE</title>
+        <description>Report on the identified scientific challenges and performance evaluation of the GENE code.</description>
+        <sourceUpdateDate>2024-07-30 10:32:54</sourceUpdateDate>
+        <contentUpdateDate>2024-08-06 15:04:07</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>157d328624fad34a4ec3537e366fec33</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5fdd7ea6e&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1047325</rcn>
+        <id>101093261_17824_PUBLIHORIZON</id>
+        <title>Quantum Computer Simulations at Warp Speed: Assessing the Impact of GPU Acceleration</title>
+        <details>
+          <authors>Jennifer Faj, Ivy Peng, Jacob Wahlgren and Stefano Markidis</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>IEEE 19th International Conference on e-Science (e-Science) 2023</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>IEEE 19th International Conference on e-Science (e-Science) 2023</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arXiv.2307.14860</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-02-26 17:48:40</sourceUpdateDate>
+        <contentUpdateDate>2024-03-04 09:39:35</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode>/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/47/307</code>
+        <title>software</title>
+        <displayCode>/natural sciences/computer and information sciences/software</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="100">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode>/Digital agenda</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode>/Clean air</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="40">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode>/Artificial intelligence</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode>/Climate action</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode>/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages>en</availableLanguages>
+        <code>/HORIZON-JU-RIA</code>
+        <title>HORIZON JU Research and Innovation Actions</title>
+        <description>HORIZON JU Research and Innovation Actions</description>
+        <displayCode>/HORIZON JU Research and Innovation Actions</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode>/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

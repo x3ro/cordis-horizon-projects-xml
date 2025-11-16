@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages>en</availableLanguages>
+  <rcn>276330</rcn>
+  <id>101220742</id>
+  <acronym>OptInfinite</acronym>
+  <teaser>Optimization over probability measures has become a powerful approach for solving complex problemsthat involve probabilistic modeling. Advanced by the PI and collaborators, it extends finite-dimensionaloptimization to the infinite-dimensional space of probability measures...</teaser>
+  <objective>Optimization over probability measures has become a powerful approach for solving complex problems
+that involve probabilistic modeling. Advanced by the PI and collaborators, it extends finite-dimensional
+optimization to the infinite-dimensional space of probability measures. This framework provides a princi-
+pled way to address in particular the task of sampling, that refers to the process of drawing samples from
+a complex probability distribution, either to approximate it or generate new data. In Bayesian machine
+learning for instance, we can model uncertainty of the predictions by sampling a model’s parameters.
+Similarly, in generative modeling, sampling is crucial for producing new data such as images or text.
+Existing methods struggle with complex measures, are difficult to evaluate, and are limited to Euclidean
+spaces, making them unsuitable for infinite-dimensional ones like functions or operators. Also, their lack
+of computational efficiency limits their use in sequential sampling tasks. My goal is to create a unified
+framework to design and evaluate efficient methods for sampling measures over general spaces.
+Central to my approach is the use of tools from optimal transport and information geometry, which will
+help compare measures and design optimization dynamics. OptInfinite will advance optimization over
+measures by addressing two key challenges: 1) developing optimization objectives and geometries suited to
+the space of measures over general (possibly-infinite-dimensional) spaces to design tractable schemes and
+metrics, and 2) learning to solve advanced optimization problems, such as sequences of optimization tasks.
+This framework will yield novel sampling methods, whose efficiency can be evaluated using optimization
+tools. It will also enable to compare measures and reveal where and how they are different. Ultimately,
+our work will provide a clear methodology and toolset applicable across multiple domains.</objective>
+  <title>Efficient infinite-dimensional optimization over measures</title>
+  <totalCost>1499632.5</totalCost>
+  <ecMaxContribution>1499632</ecMaxContribution>
+  <startDate>2025-10-01</startDate>
+  <endDate>2030-09-30</endDate>
+  <ecSignatureDate>2025-09-12</ecSignatureDate>
+  <duration>60</duration>
+  <status>SIGNED</status>
+  <keywords>Bayesian inference methods, Generative modeling, Optimal Transport, Particle systems</keywords>
+  <identifiers>
+    <grantDoi>10.3030/101220742</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>false</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2025-09-19 14:23:34</sourceUpdateDate>
+  <contentCreationDate>2025-09-22 15:33:07</contentCreationDate>
+  <contentUpdateDate>2025-09-22 15:33:03</contentUpdateDate>
+  <lastUpdateDate>2025-09-22 15:33:07</lastUpdateDate>
+  <relations>
+    <associations>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>57053</rcn>
+        <title>ERC-2025-STG</title>
+        <identifier>ERC-2025-STG</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>57053</rcn>
+        <title>ERC-2025-STG</title>
+        <identifier>ERC-2025-STG</identifier>
+      </call>
+      <organization netEcContribution="1499632" totalCost="1499632.5" source="corda" order="1" ecContribution="1499632" terminated="false" sme="false" type="coordinator">
+        <availableLanguages>en</availableLanguages>
+        <rcn>2155652</rcn>
+        <id>958266105</id>
+        <legalName>GROUPE DES ECOLES NATIONALES D ECONOMIE ET STATISTIQUE</legalName>
+        <shortName>GENES GPE ECOLES NAT ECONOMIE STATISTIQU</shortName>
+        <address>
+          <street>5 AVENUE HENRY LE CHATELIER</street>
+          <city>Palaiseau</city>
+          <postalCode>91120</postalCode>
+          <country>FR</country>
+          <geolocation>48.8223922,2.3139767</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Essonne</name>
+              <rcn>258740228</rcn>
+              <nutsCode>FR104</nutsCode>
+              <parents>
+                <region>
+                  <name>Ile-de-France</name>
+                  <rcn>258740264</rcn>
+                  <nutsCode>FR10</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Ile-de-France</name>
+                      <rcn>258742824</rcn>
+                      <nutsCode>FR1</nutsCode>
+                      <parents>
+                        <region>
+                          <name>France</name>
+                          <rcn>258902568</rcn>
+                          <nutsCode>FR</nutsCode>
+                          <euCode>FR</euCode>
+                          <isoCode>FR</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>France</name>
+              <rcn>258902568</rcn>
+              <nutsCode>FR</nutsCode>
+              <euCode>FR</euCode>
+              <isoCode>FR</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme type="relatedLegalBasis" source="corda" uniqueProgrammePart="true">
+        <availableLanguages>en</availableLanguages>
+        <rcn>705727</rcn>
+        <id>HORIZON.1.1</id>
+        <code>HORIZON.1.1</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.1.1</pga>
+        <title>European Research Council (ERC)</title>
+        <parent>
+          <programme>
+            <rcn>705726</rcn>
+            <code>HORIZON.1</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode>/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme type="relatedTopic" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>709265</rcn>
+        <id>HORIZON_ERC-2025-STG</id>
+        <code>ERC-2025-STG</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>ERC STARTING GRANTS</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode>/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode>/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/51/359/1065</code>
+        <title>geometry</title>
+        <displayCode>/natural sciences/mathematics/pure mathematics/geometry</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="100">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode>/Digital agenda</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode>/Clean air</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="100">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode>/Artificial intelligence</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode>/Climate action</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode>/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages>en</availableLanguages>
+        <code>/HORIZON-ERC</code>
+        <title>HORIZON ERC Grants</title>
+        <description>HORIZON ERC Grants</description>
+        <displayCode>/HORIZON ERC Grants</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode>/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

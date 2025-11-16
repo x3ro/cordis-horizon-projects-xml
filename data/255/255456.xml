@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages>en</availableLanguages>
+  <rcn>255456</rcn>
+  <id>101111544</id>
+  <acronym>MAGRITTE</acronym>
+  <teaser>Infrared (IR) cameras are key diagnostics to monitor and control plasma-facing components (PFCs) in fusion devices. Nevertheless, the use of all-metallic PFCs with low and variable emissivity (ε ~ 0.1-0.5) makes it difficult to obtain a correct surface temperature...</teaser>
+  <objective>Infrared (IR) cameras are key diagnostics to monitor and control plasma-facing components (PFCs) in fusion devices. Nevertheless, the use of all-metallic PFCs with low and variable emissivity (ε ~ 0.1-0.5) makes it difficult to obtain a correct surface temperature measurement. The radiance collected by the IR camera includes both the thermal radiation emitted by the target and parasitic radiation coming from the target's surroundings. Furthermore, target emissivity changes with the surface temperature and roughness. This causes significant errors in the surface temperature measurement that we need to address for achieving high power and safe plasma operation. Inaccurate interpretation of IR temperature measurement could endanger machine safety (temperature underestimation) or on the contrary, lead to unnecessary pulse interruptions that reduce the overall performance of the machine (temperature overestimation). The current approach is to convert the radiance collected by each pixel in an apparent using a physical relationship between emitted radiance and temperature (Planck’s law). Because a portion of the collected radiance is due to reflection on the target, a systematic error is made. This method is unable to recover the portion of reflected radiance and to deduce the correct temperature of the target using only the emitted radiance. The proposed technique in this project is to use a digital twin of the machine and to make in it assumptions on the temperatures of the different elements of the machine in order to simulate the images that would be measured under these supposed conditions. By comparing to the real image measured by the camera and using optimization techniques, the assumptions on the parameters can be updated until the simulated and measured images are close enough. It is then deduced that the assumptions made on the parameters of the digital twin are correct and that they correspond to the real temperatures in the machine.</objective>
+  <title>Recovering plasma-facing components temperatures in fusion devices from IR camera measurements</title>
+  <totalCost>0</totalCost>
+  <ecMaxContribution>171399.36</ecMaxContribution>
+  <startDate>2024-09-01</startDate>
+  <endDate>2026-08-31</endDate>
+  <ecSignatureDate>2023-08-02</ecSignatureDate>
+  <duration>24</duration>
+  <status>TERMINATED</status>
+  <keywords>Fusion, Plasma-facing components, Infrared camera, Temperature measurement, Inverse methods</keywords>
+  <identifiers>
+    <grantDoi>10.3030/101111544</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>false</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2024-12-02 09:39:53</sourceUpdateDate>
+  <contentCreationDate>2023-08-09 11:18:43</contentCreationDate>
+  <contentUpdateDate>2023-08-09 11:18:37</contentUpdateDate>
+  <lastUpdateDate>2025-09-19 14:49:11</lastUpdateDate>
+  <terminationDate>2024-11-29 00:00:00</terminationDate>
+  <relations>
+    <associations>
+      <article source="editorial" type="relatedArticle">
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <rcn>447533</rcn>
+        <id>447533-improving-the-accuracy-of-temperature-measurements-in-fusion-devices</id>
+        <title>Improving the accuracy of temperature measurements in fusion devices</title>
+        <contentUpdateDate>2024-03-14 18:10:10</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/projectDescription</code>
+              <title>Project description</title>
+              <description>Article: description of linked project written by editorial team</description>
+              <displayCode>/Project description</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/editorial</code>
+              <title>CORDIS Editorial</title>
+              <description>Written by CORDIS</description>
+              <displayCode>/CORDIS Editorial</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </article>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>55393</rcn>
+        <title>HORIZON-MSCA-2022-PF-01</title>
+        <identifier>HORIZON-MSCA-2022-PF-01</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>55393</rcn>
+        <title>HORIZON-MSCA-2022-PF-01</title>
+        <identifier>HORIZON-MSCA-2022-PF-01</identifier>
+      </call>
+      <organization netEcContribution="0" totalCost="0" source="corda" order="2" terminated="false" sme="false" type="associatedPartner">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1905694</rcn>
+        <id>999992401</id>
+        <vatNumber>FR43775685019</vatNumber>
+        <legalName>COMMISSARIAT A L ENERGIE ATOMIQUE ET AUX ENERGIES ALTERNATIVES</legalName>
+        <shortName>CEA</shortName>
+        <address>
+          <street>RUE LEBLANC  25</street>
+          <city>Paris</city>
+          <postalCode>75015</postalCode>
+          <country>FR</country>
+          <postBox>N/A</postBox>
+          <url>https://www.cea.fr</url>
+          <geolocation>48.8397706,2.2739214</geolocation>
+        </address>
+        <departmentName>CEA LIST / DIASI</departmentName>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/REC</code>
+              <title>Research Organisations</title>
+              <displayCode>/Research Organisations</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Paris</name>
+              <rcn>258740225</rcn>
+              <nutsCode>FR101</nutsCode>
+              <parents>
+                <region>
+                  <name>Ile-de-France</name>
+                  <rcn>258740264</rcn>
+                  <nutsCode>FR10</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Ile-de-France</name>
+                      <rcn>258742824</rcn>
+                      <nutsCode>FR1</nutsCode>
+                      <parents>
+                        <region>
+                          <name>France</name>
+                          <rcn>258902568</rcn>
+                          <nutsCode>FR</nutsCode>
+                          <euCode>FR</euCode>
+                          <isoCode>FR</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>France</name>
+              <rcn>258902568</rcn>
+              <nutsCode>FR</nutsCode>
+              <euCode>FR</euCode>
+              <isoCode>FR</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="171399.36" totalCost="0" source="corda" order="1" ecContribution="171399.36" terminated="false" sme="false" type="coordinator">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1905736</rcn>
+        <id>999923240</id>
+        <vatNumber>SI54162513</vatNumber>
+        <legalName>UNIVERZA V LJUBLJANI</legalName>
+        <shortName>UL</shortName>
+        <address>
+          <street>KONGRESNI TRG  12</street>
+          <city>Ljubljana</city>
+          <postalCode>1000</postalCode>
+          <country>SI</country>
+          <postBox>362</postBox>
+          <url>http://www.uni-lj.si</url>
+          <geolocation>46.048973,14.5039794308021</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Osrednjeslovenska</name>
+              <rcn>1464018</rcn>
+              <nutsCode>SI041</nutsCode>
+              <parents>
+                <region>
+                  <name>Zahodna Slovenija</name>
+                  <rcn>1465099</rcn>
+                  <nutsCode>SI04</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Slovenija</name>
+                      <rcn>474483240</rcn>
+                      <nutsCode>SI0</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Slovenia</name>
+                          <rcn>474647080</rcn>
+                          <nutsCode>SI</nutsCode>
+                          <euCode>SI</euCode>
+                          <isoCode>SI</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Slovenia</name>
+              <rcn>474647080</rcn>
+              <nutsCode>SI</nutsCode>
+              <euCode>SI</euCode>
+              <isoCode>SI</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme type="relatedLegalBasis" source="corda" uniqueProgrammePart="true">
+        <availableLanguages>en</availableLanguages>
+        <rcn>705729</rcn>
+        <id>HORIZON.1.2</id>
+        <code>HORIZON.1.2</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.1.2</pga>
+        <title>Marie Skłodowska-Curie Actions (MSCA)</title>
+        <parent>
+          <programme>
+            <rcn>705726</rcn>
+            <code>HORIZON.1</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode>/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme type="relatedTopic" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>706018</rcn>
+        <id>HORIZON_HORIZON-MSCA-2022-PF-01-01</id>
+        <code>HORIZON-MSCA-2022-PF-01-01</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>MSCA Postdoctoral Fellowships 2022</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode>/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1257194</rcn>
+        <id>101111544_PSHORIZON</id>
+        <title>Periodic Reporting for period 1 - MAGRITTE (Recovering plasma-facing components temperatures in fusion devices from IR camera measurements)</title>
+        <description>periodic</description>
+        <teaser>Infrared (IR) cameras are key diagnostics to monitor and control plasma-facing components (PFCs) in fusion devices. Nevertheless, theuse of all-metallic PFCs with low and variable emissivity (ε ~ 0.1-0.5) makes it difficult to obtain a correct surface temperaturemeasurement...</teaser>
+        <sourceUpdateDate>2025-02-24 14:51:33</sourceUpdateDate>
+        <contentUpdateDate>2025-02-24 14:51:33</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/pubsum</code>
+              <title>Report Summary</title>
+              <description>Result: Publishable summary (FP7 SESAM) and Summary for publication (H2020 SyGMa)</description>
+              <displayCode>/Report Summary</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode>/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/25/73/453/58525161/44113014</code>
+        <title>optical sensors</title>
+        <displayCode>/engineering and technology/electrical engineering, electronic engineering, information engineering/electronic engineering/sensors/optical sensors</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/29/89</code>
+        <title>law</title>
+        <displayCode>/social sciences/law</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="100">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode>/Digital agenda</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="40">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode>/Clean air</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="100">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode>/Artificial intelligence</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="40">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode>/Climate action</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode>/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages>en</availableLanguages>
+        <code>/HORIZON-TMA-MSCA-PF-EF</code>
+        <title>HORIZON TMA MSCA Postdoctoral Fellowships - European Fellowships</title>
+        <description>HORIZON TMA MSCA Postdoctoral Fellowships - European Fellowships</description>
+        <displayCode>/HORIZON TMA MSCA Postdoctoral Fellowships - European Fellowships</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode>/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

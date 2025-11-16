@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages>en</availableLanguages>
+  <rcn>239491</rcn>
+  <id>101069446</id>
+  <acronym>CRYSPEN</acronym>
+  <teaser>Modern web applications routinely rely on standardized cryptographic protocols and algorithms to protect sensitive user data. Furthermore, with the advent of blockchains, the imminence of quantum computers, and widespread concerns about privacy in an era of surveillance and...</teaser>
+  <objective>Modern web applications routinely rely on standardized cryptographic protocols and algorithms to protect sensitive user data. Furthermore, with the advent of blockchains, the imminence of quantum computers, and widespread concerns about privacy in an era of surveillance and machine learning algorithms, enterprises are increasingly turning to sophisticated non-standard cryptographic solutions customized for  specific usage scenarios. Unfortunately, cryptographic design and implementation is notoriously error-prone with a long history of design flaws, implementation bugs, and high-profile attacks. This leaves software companies with a difficult choice: every time they deploy a new crypto standard or an innovative cryptographic application that improves the security and privacy of their users, they risk exposing embarrassing flaws in their design or code. 
+
+The research results of ERC Circus offer a way out of this conundrum by advocating the use of formal verification to build cryptographic software with machine-checked proofs of security and correctness.  A landmark output from this project is HACL*, a verified high-performance cryptographic library which is currently used by mainstream software like Mozilla Firefox, Linux Kernel, Tezos Blockchain, and ElectionGuard. We propose to establish a company (called Cryspen) that will transition the research software developed in ERC Circus towards a production-quality ready-to-use verified cryptographic software stack. In addition, Cryspen will offer a developer-friendly verification framework that can be used to build new custom cryptographic solutions in C, Rust, and JavaScript.  The goal of this Proof-of-Concept proposal is to fund the initial technical transfer of research software to Cryspen and the business development of this company. Once this transfer is complete, Cryspen will be able to offer long-term service contracts to existing and new users of HACL*, and offer software contracts to enterprises interested in deploying verified cryptographic software.</objective>
+  <title>Custom Cryptographic Solutions with Formal Security Guarantees</title>
+  <totalCost>0</totalCost>
+  <ecMaxContribution>150000</ecMaxContribution>
+  <startDate>2022-04-01</startDate>
+  <endDate>2023-09-30</endDate>
+  <ecSignatureDate>2022-03-28</ecSignatureDate>
+  <duration>18</duration>
+  <status>CLOSED</status>
+  <identifiers>
+    <grantDoi>10.3030/101069446</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>false</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2022-06-17 10:31:42</sourceUpdateDate>
+  <contentCreationDate>2022-08-05 17:02:26</contentCreationDate>
+  <contentUpdateDate>2023-03-10 21:42:36</contentUpdateDate>
+  <lastUpdateDate>2025-09-19 14:48:41</lastUpdateDate>
+  <relations>
+    <associations>
+      <article source="editorial" type="relatedArticle">
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <rcn>434769</rcn>
+        <id>434769-cryptographic-solutions-with-proven-security</id>
+        <title>Cryptographic solutions with proven security</title>
+        <contentUpdateDate>2022-10-17 18:23:01</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/projectDescription</code>
+              <title>Project description</title>
+              <description>Article: description of linked project written by editorial team</description>
+              <displayCode>/Project description</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/editorial</code>
+              <title>CORDIS Editorial</title>
+              <description>Written by CORDIS</description>
+              <displayCode>/CORDIS Editorial</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </article>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>55465</rcn>
+        <title>ERC-2022-POC1</title>
+        <identifier>ERC-2022-POC1</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>55465</rcn>
+        <title>ERC-2022-POC1</title>
+        <identifier>ERC-2022-POC1</identifier>
+      </call>
+      <organization netEcContribution="150000" totalCost="0" source="corda" order="1" ecContribution="150000" terminated="false" sme="false" type="coordinator">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1906120</rcn>
+        <id>999547074</id>
+        <vatNumber>FR45180089047</vatNumber>
+        <legalName>INSTITUT NATIONAL DE RECHERCHE EN INFORMATIQUE ET AUTOMATIQUE</legalName>
+        <shortName>INRIA</shortName>
+        <address>
+          <street>DOMAINE DE VOLUCEAU ROCQUENCOURT</street>
+          <city>Le Chesnay Cedex</city>
+          <postalCode>78153</postalCode>
+          <country>FR</country>
+          <postBox>N/A</postBox>
+          <url>http://www.inria.fr</url>
+          <geolocation>48.8278506,2.1319603</geolocation>
+        </address>
+        <departmentName>Inria</departmentName>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/REC</code>
+              <title>Research Organisations</title>
+              <displayCode>/Research Organisations</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>France</name>
+              <rcn>258902568</rcn>
+              <nutsCode>FR</nutsCode>
+              <euCode>FR</euCode>
+              <isoCode>FR</isoCode>
+            </region>
+            <region type="relatedRegion">
+              <name>France</name>
+              <rcn>258902568</rcn>
+              <nutsCode>FR</nutsCode>
+              <euCode>FR</euCode>
+              <isoCode>FR</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme type="relatedTopic" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>706226</rcn>
+        <id>HORIZON_ERC-2022-POC1</id>
+        <code>ERC-2022-POC1</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>ERC PROOF OF CONCEPT GRANTS1</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode>/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme type="relatedLegalBasis" source="corda" uniqueProgrammePart="true">
+        <availableLanguages>en</availableLanguages>
+        <rcn>705727</rcn>
+        <id>HORIZON.1.1</id>
+        <code>HORIZON.1.1</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.1.1</pga>
+        <title>European Research Council (ERC)</title>
+        <parent>
+          <programme>
+            <rcn>705726</rcn>
+            <code>HORIZON.1</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode>/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1189539</rcn>
+        <id>101069446_10098_PUBLIHORIZON</id>
+        <title>Noise*: A Library of Verified High-Performance Secure Channel Protocol Implementations</title>
+        <details>
+          <authors>S. Ho, J. Protzenko, A. Bichhawat and K. Bhargavan</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>2022 IEEE Symposium on Security and Privacy (SP)</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2022</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <issn>2375-1207</issn>
+          <doi>10.1109/SP46214.2022.9833621</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-01-06 00:36:27</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 14:06:40</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1001545</rcn>
+        <id>101069446_1_DELIVHORIZON</id>
+        <title>Data Management Plan</title>
+        <description>Data Management Plan</description>
+        <sourceUpdateDate>2023-10-17 15:13:06</sourceUpdateDate>
+        <contentUpdateDate>2023-11-27 12:35:46</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable" represents="project">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>be85d994f5e73cf6abb3c858b84d5990</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5fab63470&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/DMP</code>
+              <title>Data Management Plan</title>
+              <displayCode>/Data Management Plan</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1054187</rcn>
+        <id>101069446_10097_PUBLIHORIZON</id>
+        <title>A Symbolic Analysis of Privacy for TLS 1.3 with Encrypted Client Hello</title>
+        <details>
+          <authors>Karthikeyan Bhargavan, Vincent Cheval and Christopher A. Wood</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Proceedings of the 2022 ACM SIGSAC Conference on Computer and Communications Security (CCS '22)</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2022</publishedYear>
+          <publisher>Association for Computing Machinery</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1145/3548606.3559360</doi>
+          <isbn>9781450394505</isbn>
+        </identifiers>
+        <sourceUpdateDate>2024-01-06 00:36:27</sourceUpdateDate>
+        <contentUpdateDate>2024-03-12 16:06:11</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1054183</rcn>
+        <id>101069446_10115_PUBLIHORIZON</id>
+        <title>From Dragondoom to Dragonstar: Side-channel Attacks and Formally Verified Implementation of WPA3 Dragonfly Handshake</title>
+        <details>
+          <authors>Daniel De Almeida Braga; Natalia Kulatova; Mohamed Sabt; Pierre-Alain Fouque; Karthikeyan Bhargavan</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>2023 IEEE 8th European Symposium on Security and Privacy (EuroS&amp;P)</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1109/EuroSP57164.2023.00048</doi>
+          <isbn>978-1-6654-6512-0</isbn>
+        </identifiers>
+        <sourceUpdateDate>2024-01-06 00:36:27</sourceUpdateDate>
+        <contentUpdateDate>2024-03-12 16:06:11</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1038133</rcn>
+        <id>101069446_PSHORIZON</id>
+        <title>Periodic Reporting for period 1 - CRYSPEN (Custom Cryptographic Solutions with Formal Security Guarantees)</title>
+        <description>periodic</description>
+        <teaser>With the advent of blockchains, the imminence of quantum computers, and widespread concerns about privacy, enterprises are turning to sophisticated cryptographic solutions customized for their specific needs. Unfortunately, cryptographic design and implementation is...</teaser>
+        <sourceUpdateDate>2024-01-19 05:31:38</sourceUpdateDate>
+        <contentUpdateDate>2024-02-06 17:48:54</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/pubsum</code>
+              <title>Report Summary</title>
+              <description>Result: Publishable summary (FP7 SESAM) and Summary for publication (H2020 SyGMa)</description>
+              <displayCode>/Report Summary</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1054175</rcn>
+        <id>101069446_10092_PUBLIHORIZON</id>
+        <title>Comparse: Provably Secure Formats for Cryptographic Protocols</title>
+        <details>
+          <authors>Théophile Wallez, Jonathan Protzenko, and Karthikeyan Bhargavan</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Proceedings of the 2023 ACM SIGSAC Conference on Computer and Communications Security (CCS '23)</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>Association for Computing Machinery</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1145/3576915.3623201</doi>
+          <isbn>9798400700507</isbn>
+        </identifiers>
+        <sourceUpdateDate>2025-04-15 01:27:45</sourceUpdateDate>
+        <contentUpdateDate>2025-04-15 01:27:45</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1054186</rcn>
+        <id>101069446_10093_PUBLIHORIZON</id>
+        <title>TreeSync: Authenticated Group Management for Messaging Layer Security</title>
+        <details>
+          <authors>Théophile Wallez, Jonathan Protzenko, Benjamin Beurdouche, and Karthikeyan Bhargavan</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>roceedings of the 32nd USENIX Conference on Security Symposium (SEC '23)</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>USENIX Association</publisher>
+        </details>
+        <identifiers>
+          <doi>10.5555/3620237.3620306</doi>
+          <isbn>978-1-939133-37-3</isbn>
+        </identifiers>
+        <sourceUpdateDate>2024-01-06 00:36:27</sourceUpdateDate>
+        <contentUpdateDate>2024-03-12 16:06:11</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <webLink source="rtd" type="relatedStory" represents="project">
+        <title>The EU-funded software keeping you safe while you read this</title>
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <id>4c11545058f9452a032fba04e829037d</id>
+        <physUrl>https://projects.research-and-innovation.ec.europa.eu/en/projects/success-stories/all/eu-funded-software-keeping-you-safe-while-you-read</physUrl>
+        <defaultLanguage>en</defaultLanguage>
+      </webLink>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode>/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/47/307</code>
+        <title>software</title>
+        <displayCode>/natural sciences/computer and information sciences/software</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/31/113/613</code>
+        <title>history</title>
+        <displayCode>/humanities/history and archaeology/history</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/47/295/917</code>
+        <title>cryptography</title>
+        <displayCode>/natural sciences/computer and information sciences/computer security/cryptography</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode>/Digital agenda</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode>/Clean air</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode>/Artificial intelligence</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="40">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode>/Climate action</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode>/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages>en</availableLanguages>
+        <code>/HORIZON-ERC-POC</code>
+        <title>HORIZON ERC Proof of Concept Grants</title>
+        <description>HORIZON ERC Proof of Concept Grants</description>
+        <displayCode>/HORIZON ERC Proof of Concept Grants</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode>/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

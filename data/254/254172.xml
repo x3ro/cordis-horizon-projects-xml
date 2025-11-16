@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages>en</availableLanguages>
+  <rcn>254172</rcn>
+  <id>101089288</id>
+  <acronym>DeepCoMechTome</acronym>
+  <teaser>Advances in experimental techniques yield detailed wiring diagrams of neural circuits in model-systems such as the Drosophila melanogaster. How can we leverage these complex connectomes, together with targeted recordings and perturbations of neural activity, to understand how...</teaser>
+  <objective>Advances in experimental techniques yield detailed wiring diagrams of neural circuits in model-systems such as the Drosophila melanogaster. How can we leverage these complex connectomes, together with targeted recordings and perturbations of neural activity, to understand how neuronal populations perform computations underlying behavior? Achieving a mechanistic understanding will require models that are consistent with connectomes and biophysical mechanisms, while also being capable of performing behaviorally relevant computations. Current models fail to address this need: Mechanistic models satisfy anatomical and biophysical constraints by design, but we lack methods for optimizing them to perform tasks. Conversely, deep learning models can be optimized to perform challenging tasks, but fall short on mechanistic interpretability.
+
+To address this challenge, we will provide a machine learning framework that unifies mechanistic modeling and deep learning, and will make it possible to algorithmically identify models that link biophysical mechanisms, neural data, and behavior. We will use our approach to study two key neural computations in D. melanogaster. We will build large-scale mechanistic models of the optic lobe and motor control circuits which are constrained by connectomes and physiological measurements, and optimize them to solve specific computational tasks: Extracting behaviorally relevant information from the visual input, and coordinating leg movements to achieve robust locomotion. Our methodology for building, interpreting and updating these `deep mechanistic models' will be applicable to a wide range of neural circuits and behaviors. It will serve as a powerful hypothesis generator for predicting neural tuning and optimizing experimental perturbations, and will yield unprecedented insights into how connectivity shapes efficient neural computations in biological and artificial networks.</objective>
+  <title>Using deep learning to understand computations in neural circuits with Connectome-constrained Mechanistic Models</title>
+  <totalCost>1997321</totalCost>
+  <ecMaxContribution>1997321</ecMaxContribution>
+  <startDate>2023-07-01</startDate>
+  <endDate>2028-06-30</endDate>
+  <ecSignatureDate>2023-03-15</ecSignatureDate>
+  <duration>60</duration>
+  <status>SIGNED</status>
+  <keywords>computational neuroscience, probabilistic machine learning, model identification, fruit fly, Drosophila melanogaster, visual system, motor control, deep learning, simulation-based inference, Bayesian inference, mechanistic models, connectomics, big data, animal behavior</keywords>
+  <identifiers>
+    <grantDoi>10.3030/101089288</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>false</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2025-07-04 19:21:33</sourceUpdateDate>
+  <contentCreationDate>2023-07-13 18:46:56</contentCreationDate>
+  <contentUpdateDate>2025-08-11 10:20:42</contentUpdateDate>
+  <lastUpdateDate>2025-09-19 14:48:49</lastUpdateDate>
+  <relations>
+    <associations>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>55605</rcn>
+        <title>ERC-2022-COG</title>
+        <identifier>ERC-2022-COG</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>55605</rcn>
+        <title>ERC-2022-COG</title>
+        <identifier>ERC-2022-COG</identifier>
+      </call>
+      <organization netEcContribution="1997321" totalCost="1997321" source="corda" order="1" ecContribution="1997321" terminated="false" sme="false" type="coordinator">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1905979</rcn>
+        <id>999991916</id>
+        <vatNumber>DE812383453</vatNumber>
+        <legalName>EBERHARD KARLS UNIVERSITAET TUEBINGEN</legalName>
+        <shortName>UT</shortName>
+        <address>
+          <street>GESCHWISTER-SCHOLL-PLATZ</street>
+          <city>Tuebingen</city>
+          <postalCode>72074</postalCode>
+          <country>DE</country>
+          <postBox>N/A</postBox>
+          <url>http://www.uni-tuebingen.de</url>
+          <geolocation>48.52441205,9.05972173269931</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Tübingen, Landkreis</name>
+              <rcn>221778178</rcn>
+              <nutsCode>DE142</nutsCode>
+              <parents>
+                <region>
+                  <name>Tübingen</name>
+                  <rcn>221778216</rcn>
+                  <nutsCode>DE14</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Baden-Württemberg</name>
+                      <rcn>221780520</rcn>
+                      <nutsCode>DE1</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Germany</name>
+                          <rcn>221940264</rcn>
+                          <nutsCode>DE</nutsCode>
+                          <euCode>DE</euCode>
+                          <isoCode>DE</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Germany</name>
+              <rcn>221940264</rcn>
+              <nutsCode>DE</nutsCode>
+              <euCode>DE</euCode>
+              <isoCode>DE</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme type="relatedLegalBasis" source="corda" uniqueProgrammePart="true">
+        <availableLanguages>en</availableLanguages>
+        <rcn>705727</rcn>
+        <id>HORIZON.1.1</id>
+        <code>HORIZON.1.1</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.1.1</pga>
+        <title>European Research Council (ERC)</title>
+        <parent>
+          <programme>
+            <rcn>705726</rcn>
+            <code>HORIZON.1</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode>/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme type="relatedTopic" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>706731</rcn>
+        <id>HORIZON_ERC-2022-COG</id>
+        <code>ERC-2022-COG</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>ERC CONSOLIDATOR GRANTS</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode>/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1361456</rcn>
+        <id>101089288_210516_PUBLIHORIZON</id>
+        <title>Inferring stochastic low-rank recurrent neural networks from neural data</title>
+        <details>
+          <authors>Matthijs Pals, A Erdem Sağtekin, Felix Pei, Manuel Gloeckler, Jakob H. Macke</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Conference on Neural Information Processing Systems</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Curran Associates, Inc.</publisher>
+        </details>
+        <identifiers>
+          <isbn>9798331314385</isbn>
+        </identifiers>
+        <sourceUpdateDate>2025-08-19 15:05:36</sourceUpdateDate>
+        <contentUpdateDate>2025-09-16 11:31:49</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1361459</rcn>
+        <id>101089288_210573_PUBLIHORIZON</id>
+        <title>Latent Diffusion for Neural Spiking Data</title>
+        <details>
+          <authors>Jaivardhan Kapoor, Auguste Schulz, Julius Vetter, Felix Pei, Richard Gao, Jakob H. Macke</authors>
+          <journalNumber>38</journalNumber>
+          <journalTitle>Advances in Neural Information Processing Systems</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Curran Associates, Inc.</publisher>
+        </details>
+        <sourceUpdateDate>2025-08-19 15:05:36</sourceUpdateDate>
+        <contentUpdateDate>2025-09-16 11:31:49</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1361458</rcn>
+        <id>101089288_210480_PUBLIHORIZON</id>
+        <title>Simultaneous identification of models and parameters of scientific simulators</title>
+        <details>
+          <authors>Cornelius Schröder, Jakob H. Macke</authors>
+          <journalNumber>235</journalNumber>
+          <journalTitle>PMLR</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>PMLR</publisher>
+        </details>
+        <sourceUpdateDate>2025-08-19 15:05:36</sourceUpdateDate>
+        <contentUpdateDate>2025-09-16 11:31:49</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1361451</rcn>
+        <id>101089288_210492_PUBLIHORIZON</id>
+        <title>sbi reloaded: a toolkit for simulation-based inference workflows</title>
+        <details>
+          <authors>Boelts, Jan; Deistler, Michael; Gloeckler, Manuel; Tejero-Cantero, Álvaro; Lueckmann, Jan-Matthis; Moss, Guy; Steinbach, Peter; Moreau, Thomas; Muratore, Fabio; Linhart, Julia; Durkan, Conor; Vetter, Julius; Miller, Benjamin; Herold, Maternus; Ziaeemehr, Abolfazl; Pals, Matthijs; Gruner, Theo; Bischoff, Sebastian; Krouglova, Nastya; Gao, Richard; Lappalainen, Janne; Mucsányi, Bálint; Pei, Felix; Schulz, Auguste; Stefanidi, Zinovia; Coelho Rodrigues, Pedro Luiz; Schröder, Cornelius; Zaid, Faried; Beck, Jonas; Kapoor, Jaivardhan; Greenberg, David; Gonçalves, Pedro; Macke, Jakob</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Journal of Open Source Software</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2025</publishedYear>
+          <publisher>The Journal of Open Source Software</publisher>
+        </details>
+        <identifiers>
+          <issn>2475-9066</issn>
+          <doi>10.48550/ARXIV.2411.17337</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-08-19 15:05:36</sourceUpdateDate>
+        <contentUpdateDate>2025-09-16 11:31:46</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1361453</rcn>
+        <id>101089288_210546_PUBLIHORIZON</id>
+        <title>Generating realistic neurophysiological time series with denoising diffusion probabilistic models</title>
+        <details>
+          <authors>Julius Vetter; Jakob H. Macke; Richard Gao</authors>
+          <journalNumber>5(9)</journalNumber>
+          <journalTitle>Patterns</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>Cell Press</publisher>
+        </details>
+        <identifiers>
+          <issn>2666-3899</issn>
+          <doi>10.1016/J.PATTER.2024.101047</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-08-19 15:05:36</sourceUpdateDate>
+        <contentUpdateDate>2025-09-16 11:31:48</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1361450</rcn>
+        <id>101089288_210490_PUBLIHORIZON</id>
+        <title>Connectome-constrained networks predict neural activity across the fly visual system</title>
+        <details>
+          <authors>Janne K. Lappalainen; Fabian D. Tschopp; Sridhama Prakhya; Mason McGill; Aljoscha Nern; Kazunori Shinomiya; Shin-ya Takemura; Eyal Gruntman; Jakob H. Macke; Srinivas C. Turaga</authors>
+          <journalNumber>634</journalNumber>
+          <journalTitle>Nature</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Nature</publisher>
+        </details>
+        <identifiers>
+          <issn>1476-4687</issn>
+          <doi>10.15496/PUBLIKATION-102510</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-08-19 15:05:36</sourceUpdateDate>
+        <contentUpdateDate>2025-09-16 11:31:46</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1361457</rcn>
+        <id>101089288_210507_PUBLIHORIZON</id>
+        <title>All-in-one simulation-based inference</title>
+        <details>
+          <authors>Manuel Gloeckler, Michael Deistler, Christian Weilbach, Frank Wood, Jakob H. Macke</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>International Conference on Machine Learning</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>PMLR</publisher>
+        </details>
+        <identifiers>
+          <issn>2640-3498</issn>
+        </identifiers>
+        <sourceUpdateDate>2025-08-19 15:05:36</sourceUpdateDate>
+        <contentUpdateDate>2025-09-16 11:31:49</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode>/Project</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode>/Digital agenda</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode>/Clean air</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode>/Artificial intelligence</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode>/Climate action</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode>/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages>en</availableLanguages>
+        <code>/HORIZON-ERC</code>
+        <title>HORIZON ERC Grants</title>
+        <description>HORIZON ERC Grants</description>
+        <displayCode>/HORIZON ERC Grants</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode>/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

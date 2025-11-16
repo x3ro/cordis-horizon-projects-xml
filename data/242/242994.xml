@@ -1,0 +1,2088 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages>en</availableLanguages>
+  <rcn>242994</rcn>
+  <id>101095530</id>
+  <acronym>SYNTHEMA</acronym>
+  <teaser>Haematological diseases (HDs) are a large group of disorders resulting from quantitative or qualitative abnormalities of blood cells, lymphoid organs and coagulation factors. Despite most of them (~74%) are rare, the overall number of HD affected patients worldwide is...</teaser>
+  <objective>Haematological diseases (HDs) are a large group of disorders resulting from quantitative or qualitative abnormalities of blood cells, lymphoid organs and coagulation factors. Despite most of them (~74%) are rare, the overall number of HD affected patients worldwide is important, placing a considerable economic burden on healthcare systems and societies. Despite the existence of several collaborative research groups at national and EU level, current clinical approaches are often ineffective, particularly for rarest conditions, due to the relatively low number of patients per disease and the high number of unconnected clinical entities. 
+SYNTHEMA aims to establish a cross-border data hub where to develop and validate innovative AI-based techniques for clinical data anonymisation and synthetic data generation (SDG), to tackle the scarcity and fragmentation of data and widen the basis for GDPR-compliant research in RHDs. The project will focus on two representative RHD use cases: sickle-cell disease (SCD) and acute myeloid leukaemia (AML).
+SYNTHEMA will develop a federated learning (FL) infrastructure, equipped with secure multiparty computation (SMPC) and differential privacy (DF) protocols, connecting clinical centres bringing standardised, interoperable multimodal datasets and computing centres from academia and SME. This framework will be utilised to train the developed algorithms and perform SMPC-based global model aggregation in a privacy-preserving fashion. The resulting data will be validated for their clinical value, statistical utility and residual privacy risks. The project will develop legal and ethical frameworks to guarantee privacy by-design in the collection and processing of health-related personal data and attain an ethics-wise algorithm co-creation. Project outcomes, including pipelines, standards and data, will be made openly available to stakeholders in the healthcare, academia and industry field, and contribute to existing rare disease registries</objective>
+  <title>Synthetic generation of hematological data over federated computing frameworks</title>
+  <totalCost>6514560</totalCost>
+  <ecMaxContribution>6514560</ecMaxContribution>
+  <startDate>2022-12-01</startDate>
+  <endDate>2026-11-30</endDate>
+  <ecSignatureDate>2022-11-10</ecSignatureDate>
+  <duration>48</duration>
+  <status>SIGNED</status>
+  <keywords>synthetic data generation, rare hematological diseases, disease management</keywords>
+  <identifiers>
+    <grantDoi>10.3030/101095530</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>false</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2025-07-08 11:41:50</sourceUpdateDate>
+  <contentCreationDate>2022-11-17 17:31:07</contentCreationDate>
+  <contentUpdateDate>2025-08-11 10:05:14</contentUpdateDate>
+  <lastUpdateDate>2025-09-19 14:48:42</lastUpdateDate>
+  <relations>
+    <associations>
+      <article source="editorial" type="relatedArticle">
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <rcn>439570</rcn>
+        <id>439570-ai-data-generation-via-federated-learning-fills-haematological-diseases-data-gaps</id>
+        <title>AI-based synthetic data generation via federated learning fills haematological diseases’ data gaps</title>
+        <contentUpdateDate>2023-04-24 17:03:54</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/projectDescription</code>
+              <title>Project description</title>
+              <description>Article: description of linked project written by editorial team</description>
+              <displayCode>/Project description</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/editorial</code>
+              <title>CORDIS Editorial</title>
+              <description>Written by CORDIS</description>
+              <displayCode>/CORDIS Editorial</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </article>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>55352</rcn>
+        <title>HORIZON-HLTH-2022-IND-13</title>
+        <identifier>HORIZON-HLTH-2022-IND-13</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>55352</rcn>
+        <title>HORIZON-HLTH-2022-IND-13</title>
+        <identifier>HORIZON-HLTH-2022-IND-13</identifier>
+      </call>
+      <organization netEcContribution="311250" totalCost="311250" source="corda" order="11" ecContribution="311250" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1906254</rcn>
+        <id>999645432</id>
+        <vatNumber>FR95267500452</vatNumber>
+        <legalName>ASSISTANCE PUBLIQUE HOPITAUX DE PARIS</legalName>
+        <address>
+          <street>55 BOULEVARD DIDEROT</street>
+          <city>PARIS</city>
+          <postalCode>75012</postalCode>
+          <country>FR</country>
+          <postBox>N/A</postBox>
+          <url>http://www.aphp.fr</url>
+          <geolocation>48.8569282,2.3496281</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/REC</code>
+              <title>Research Organisations</title>
+              <displayCode>/Research Organisations</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Paris</name>
+              <rcn>258740225</rcn>
+              <nutsCode>FR101</nutsCode>
+              <parents>
+                <region>
+                  <name>Ile-de-France</name>
+                  <rcn>258740264</rcn>
+                  <nutsCode>FR10</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Ile-de-France</name>
+                      <rcn>258742824</rcn>
+                      <nutsCode>FR1</nutsCode>
+                      <parents>
+                        <region>
+                          <name>France</name>
+                          <rcn>258902568</rcn>
+                          <nutsCode>FR</nutsCode>
+                          <euCode>FR</euCode>
+                          <isoCode>FR</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>France</name>
+              <rcn>258902568</rcn>
+              <nutsCode>FR</nutsCode>
+              <euCode>FR</euCode>
+              <isoCode>FR</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="342750" totalCost="342750" source="corda" order="14" ecContribution="342750" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1905774</rcn>
+        <id>999995602</id>
+        <vatNumber>IT00742430283</vatNumber>
+        <legalName>UNIVERSITA DEGLI STUDI DI PADOVA</legalName>
+        <shortName>UNIPD</shortName>
+        <address>
+          <street>VIA 8 FEBBRAIO 2</street>
+          <city>PADOVA</city>
+          <postalCode>35122</postalCode>
+          <country>IT</country>
+          <postBox>000</postBox>
+          <url>http://www.unipd.it</url>
+          <geolocation>45.4077172,11.8734455</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Padova</name>
+              <rcn>1465272</rcn>
+              <nutsCode>ITH36</nutsCode>
+              <parents>
+                <region>
+                  <name>Veneto</name>
+                  <rcn>1465004</rcn>
+                  <nutsCode>ITH3</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Nord-Est</name>
+                      <rcn>1465001</rcn>
+                      <nutsCode>ITH</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Italy</name>
+                          <rcn>309758504</rcn>
+                          <nutsCode>IT</nutsCode>
+                          <euCode>IT</euCode>
+                          <isoCode>IT</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Italy</name>
+              <rcn>309758504</rcn>
+              <nutsCode>IT</nutsCode>
+              <euCode>IT</euCode>
+              <isoCode>IT</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="303125" totalCost="303125" source="corda" order="13" ecContribution="303125" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1968886</rcn>
+        <id>910044107</id>
+        <vatNumber>PT513620044</vatNumber>
+        <legalName>GLSMED LEARNING HEALTH SA</legalName>
+        <address>
+          <street>RUA CARLOS ALBERTO DE MOTA PINTO NR</street>
+          <city>Lisboa</city>
+          <postalCode>1070 313</postalCode>
+          <country>PT</country>
+          <geolocation>38.7210789,-9.1624138</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PRC</code>
+              <title>Private for-profit entities (excluding Higher or Secondary Education Establishments)</title>
+              <displayCode>/Private for-profit entities (excluding Higher or Secondary Education Establishments)</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedRegion">
+              <name>Portugal</name>
+              <rcn>427199016</rcn>
+              <nutsCode>PT</nutsCode>
+              <euCode>PT</euCode>
+              <isoCode>PT</isoCode>
+            </region>
+            <region type="relatedNutsCode">
+              <rcn>1471670</rcn>
+              <nutsCode>PT1A0</nutsCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="360000" totalCost="360000" source="corda" order="4" ecContribution="360000" terminated="false" sme="true" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1965166</rcn>
+        <id>895851067</id>
+        <vatNumber>ESB67553677</vatNumber>
+        <legalName>AUSTRALO INTERINNOV MARKETING LAB SL</legalName>
+        <address>
+          <street>CALLE ALGETE 11</street>
+          <city>MADRID</city>
+          <postalCode>28045</postalCode>
+          <country>ES</country>
+          <geolocation>39.3262345,-4.8380649</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PRC</code>
+              <title>Private for-profit entities (excluding Higher or Secondary Education Establishments)</title>
+              <displayCode>/Private for-profit entities (excluding Higher or Secondary Education Establishments)</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Madrid</name>
+              <rcn>242233344</rcn>
+              <nutsCode>ES300</nutsCode>
+              <parents>
+                <region>
+                  <name>Comunidad de Madrid</name>
+                  <rcn>242233384</rcn>
+                  <nutsCode>ES30</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Comunidad de Madrid</name>
+                      <rcn>242235944</rcn>
+                      <nutsCode>ES3</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Spain</name>
+                          <rcn>242387496</rcn>
+                          <nutsCode>ES</nutsCode>
+                          <euCode>ES</euCode>
+                          <isoCode>ES</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Spain</name>
+              <rcn>242387496</rcn>
+              <nutsCode>ES</nutsCode>
+              <euCode>ES</euCode>
+              <isoCode>ES</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="550975" totalCost="550975" source="corda" order="6" ecContribution="550975" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1909376</rcn>
+        <id>955552336</id>
+        <vatNumber>ESG75051912</vatNumber>
+        <legalName>FUNDACION CENTRO DE TECNOLOGIAS DE INTERACCION VISUAL Y COMUNICACIONES VICOMTECH</legalName>
+        <shortName>VICOM</shortName>
+        <address>
+          <street>PASEO MIKELETEGI PARQUE TECNOLOGICO DE MIRAMON 57</street>
+          <city>Donostia San Sebastian</city>
+          <postalCode>20009</postalCode>
+          <country>ES</country>
+          <url>https://www.vicomtech.org</url>
+          <geolocation>43.3224219,-1.9838889</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/REC</code>
+              <title>Research Organisations</title>
+              <displayCode>/Research Organisations</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Gipuzkoa</name>
+              <rcn>242229314</rcn>
+              <nutsCode>ES212</nutsCode>
+              <parents>
+                <region>
+                  <name>País Vasco</name>
+                  <rcn>242229352</rcn>
+                  <nutsCode>ES21</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Noreste</name>
+                      <rcn>242231848</rcn>
+                      <nutsCode>ES2</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Spain</name>
+                          <rcn>242387496</rcn>
+                          <nutsCode>ES</nutsCode>
+                          <euCode>ES</euCode>
+                          <isoCode>ES</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Spain</name>
+              <rcn>242387496</rcn>
+              <nutsCode>ES</nutsCode>
+              <euCode>ES</euCode>
+              <isoCode>ES</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="335350" totalCost="335350" source="corda" order="10" ecContribution="335350" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1906267</rcn>
+        <id>999915189</id>
+        <vatNumber>NL004205315B01</vatNumber>
+        <legalName>UNIVERSITAIR MEDISCH CENTRUM UTRECHT</legalName>
+        <shortName>UMC UTRECHT</shortName>
+        <address>
+          <street>HEIDELBERGLAAN 100</street>
+          <city>Utrecht</city>
+          <postalCode>3584 CX</postalCode>
+          <country>NL</country>
+          <postBox>85500</postBox>
+          <url>http://www.umcutrecht.nl</url>
+          <geolocation>52.0860132,5.1796596</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <rcn>1471669</rcn>
+              <nutsCode>NL350</nutsCode>
+            </region>
+            <region type="relatedRegion">
+              <name>Netherlands</name>
+              <rcn>391547432</rcn>
+              <nutsCode>NL</nutsCode>
+              <euCode>NL</euCode>
+              <isoCode>NL</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="0" totalCost="0" source="corda" order="16" terminated="false" sme="false" type="associatedPartner">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1905627</rcn>
+        <id>999975329</id>
+        <vatNumber>GB568630414</vatNumber>
+        <legalName>UNIVERSITY OF SOUTHAMPTON</legalName>
+        <shortName>SOUTHAMPTON</shortName>
+        <address>
+          <street>Highfield</street>
+          <city>SOUTHAMPTON</city>
+          <postalCode>SO17 1BJ</postalCode>
+          <country>UK</country>
+          <postBox>N/A</postBox>
+          <url>http://www.southampton.ac.uk</url>
+          <geolocation>50.92996995,-1.39643013613604</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Southampton</name>
+              <rcn>508637378</rcn>
+              <nutsCode>UKJ32</nutsCode>
+              <parents>
+                <region>
+                  <name>Hampshire and Isle of Wight</name>
+                  <rcn>508637416</rcn>
+                  <nutsCode>UKJ3</nutsCode>
+                  <parents>
+                    <region>
+                      <name>South East (England)</name>
+                      <rcn>508639784</rcn>
+                      <nutsCode>UKJ</nutsCode>
+                      <parents>
+                        <region>
+                          <name>United Kingdom</name>
+                          <rcn>508725800</rcn>
+                          <nutsCode>UK</nutsCode>
+                          <euCode>UK</euCode>
+                          <isoCode>GB</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>United Kingdom</name>
+              <rcn>508725800</rcn>
+              <nutsCode>UK</nutsCode>
+              <euCode>UK</euCode>
+              <isoCode>GB</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="354287.5" totalCost="354287.5" source="corda" order="12" ecContribution="354287.5" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1906202</rcn>
+        <id>999992692</id>
+        <vatNumber>DE228847810</vatNumber>
+        <legalName>CHARITE - UNIVERSITAETSMEDIZIN BERLIN</legalName>
+        <address>
+          <street>Chariteplatz 1</street>
+          <city>Berlin</city>
+          <postalCode>10117</postalCode>
+          <country>DE</country>
+          <postBox>N/A</postBox>
+          <url>http://www.charite.de</url>
+          <geolocation>52.5234476,13.3782174</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Berlin</name>
+              <rcn>221786112</rcn>
+              <nutsCode>DE300</nutsCode>
+              <parents>
+                <region>
+                  <name>Berlin</name>
+                  <rcn>221786152</rcn>
+                  <nutsCode>DE30</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Berlin</name>
+                      <rcn>221788712</rcn>
+                      <nutsCode>DE3</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Germany</name>
+                          <rcn>221940264</rcn>
+                          <nutsCode>DE</nutsCode>
+                          <euCode>DE</euCode>
+                          <isoCode>DE</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Germany</name>
+              <rcn>221940264</rcn>
+              <nutsCode>DE</nutsCode>
+              <euCode>DE</euCode>
+              <isoCode>DE</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="452500" totalCost="452500" source="corda" order="9" ecContribution="452500" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1922463</rcn>
+        <id>999785015</id>
+        <vatNumber>IT10982360967</vatNumber>
+        <legalName>HUMANITAS MIRASOLE SPA</legalName>
+        <address>
+          <street>VIA MANZONI 56</street>
+          <city>Rozzano (Mi)</city>
+          <postalCode>20100</postalCode>
+          <country>IT</country>
+          <url>https://www.humanitas.it</url>
+          <geolocation>45.3832366,9.1541309</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PRC</code>
+              <title>Private for-profit entities (excluding Higher or Secondary Education Establishments)</title>
+              <displayCode>/Private for-profit entities (excluding Higher or Secondary Education Establishments)</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Milano</name>
+              <rcn>1465361</rcn>
+              <nutsCode>ITC4C</nutsCode>
+              <parents>
+                <region>
+                  <name>Lombardia</name>
+                  <rcn>309641512</rcn>
+                  <nutsCode>ITC4</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Nord-Ovest</name>
+                      <rcn>309643816</rcn>
+                      <nutsCode>ITC</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Italy</name>
+                          <rcn>309758504</rcn>
+                          <nutsCode>IT</nutsCode>
+                          <euCode>IT</euCode>
+                          <isoCode>IT</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Italy</name>
+              <rcn>309758504</rcn>
+              <nutsCode>IT</nutsCode>
+              <euCode>IT</euCode>
+              <isoCode>IT</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="550000" totalCost="550000" source="corda" order="2" ecContribution="550000" terminated="false" sme="true" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>2471079</rcn>
+        <id>934716057</id>
+        <vatNumber>IT12098361004</vatNumber>
+        <legalName>DATAWIZARD SRL</legalName>
+        <shortName>DW</shortName>
+        <address>
+          <street>VIA SALARIA 719</street>
+          <city>Roma</city>
+          <postalCode>00138</postalCode>
+          <country>IT</country>
+          <geolocation>42.112503,12.3711622</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PRC</code>
+              <title>Private for-profit entities (excluding Higher or Secondary Education Establishments)</title>
+              <displayCode>/Private for-profit entities (excluding Higher or Secondary Education Establishments)</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Roma</name>
+              <rcn>1464004</rcn>
+              <nutsCode>ITI43</nutsCode>
+              <parents>
+                <region>
+                  <name>Lazio</name>
+                  <rcn>1465012</rcn>
+                  <nutsCode>ITI4</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Centro (IT)</name>
+                      <rcn>1465008</rcn>
+                      <nutsCode>ITI</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Italy</name>
+                          <rcn>309758504</rcn>
+                          <nutsCode>IT</nutsCode>
+                          <euCode>IT</euCode>
+                          <isoCode>IT</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Italy</name>
+              <rcn>309758504</rcn>
+              <nutsCode>IT</nutsCode>
+              <euCode>IT</euCode>
+              <isoCode>IT</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="466010" totalCost="466010" source="corda" order="5" ecContribution="466010" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1905805</rcn>
+        <id>999993953</id>
+        <vatNumber>IT01131710376</vatNumber>
+        <legalName>ALMA MATER STUDIORUM - UNIVERSITA DI BOLOGNA</legalName>
+        <shortName>UNIBO</shortName>
+        <address>
+          <street>VIA ZAMBONI 33</street>
+          <city>Bologna</city>
+          <postalCode>40126</postalCode>
+          <country>IT</country>
+          <url>http://www.unibo.it</url>
+          <geolocation>44.4968718,11.3524529</geolocation>
+        </address>
+        <departmentName>ARCES Research Center</departmentName>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Bologna</name>
+              <rcn>1465366</rcn>
+              <nutsCode>ITH55</nutsCode>
+              <parents>
+                <region>
+                  <name>Emilia-Romagna</name>
+                  <rcn>1465007</rcn>
+                  <nutsCode>ITH5</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Nord-Est</name>
+                      <rcn>1465001</rcn>
+                      <nutsCode>ITH</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Italy</name>
+                          <rcn>309758504</rcn>
+                          <nutsCode>IT</nutsCode>
+                          <euCode>IT</euCode>
+                          <isoCode>IT</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Italy</name>
+              <rcn>309758504</rcn>
+              <nutsCode>IT</nutsCode>
+              <euCode>IT</euCode>
+              <isoCode>IT</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="435937.5" totalCost="435937.5" source="corda" order="8" ecContribution="435937.5" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1911825</rcn>
+        <id>999541642</id>
+        <vatNumber>ESG60594009</vatNumber>
+        <legalName>FUNDACIO HOSPITAL UNIVERSITARI VALL D'HEBRON - INSTITUT DE RECERCA</legalName>
+        <shortName>VHIR</shortName>
+        <address>
+          <street>PASSEIG VALL D HEBRON 119-129 EDIFICIO CENTRAL</street>
+          <city>BARCELONA</city>
+          <postalCode>08035</postalCode>
+          <country>ES</country>
+          <postBox>N/A</postBox>
+          <url>http://www.vhebron.es/vhang.htm</url>
+          <geolocation>41.3825596,2.1771353</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/REC</code>
+              <title>Research Organisations</title>
+              <displayCode>/Research Organisations</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Barcelona</name>
+              <rcn>242241601</rcn>
+              <nutsCode>ES511</nutsCode>
+              <parents>
+                <region>
+                  <name>Cataluña</name>
+                  <rcn>242241640</rcn>
+                  <nutsCode>ES51</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Este</name>
+                      <rcn>242244136</rcn>
+                      <nutsCode>ES5</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Spain</name>
+                          <rcn>242387496</rcn>
+                          <nutsCode>ES</nutsCode>
+                          <euCode>ES</euCode>
+                          <isoCode>ES</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Spain</name>
+              <rcn>242387496</rcn>
+              <nutsCode>ES</nutsCode>
+              <euCode>ES</euCode>
+              <isoCode>ES</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="502375" totalCost="502375" source="corda" order="3" ecContribution="502375" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1951639</rcn>
+        <id>952628368</id>
+        <vatNumber>ATU65771355</vatNumber>
+        <legalName>SBA RESEARCH GEMEINNUTZIGE GMBH</legalName>
+        <shortName>SBA</shortName>
+        <address>
+          <street>FLORAGASSE 7, 5 OG</street>
+          <city>WIEN</city>
+          <postalCode>1040</postalCode>
+          <country>AT</country>
+          <url>https://www.sba-research.org</url>
+          <geolocation>48.2083537,16.3725042</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/REC</code>
+              <title>Research Organisations</title>
+              <displayCode>/Research Organisations</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Wien</name>
+              <rcn>175378624</rcn>
+              <nutsCode>AT130</nutsCode>
+              <parents>
+                <region>
+                  <name>Wien</name>
+                  <rcn>175378664</rcn>
+                  <nutsCode>AT13</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Ostösterreich</name>
+                      <rcn>1465444</rcn>
+                      <nutsCode>AT1</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Austria</name>
+                          <rcn>175540776</rcn>
+                          <nutsCode>AT</nutsCode>
+                          <euCode>AT</euCode>
+                          <isoCode>AT</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Austria</name>
+              <rcn>175540776</rcn>
+              <nutsCode>AT</nutsCode>
+              <euCode>AT</euCode>
+              <isoCode>AT</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="455000" totalCost="455000" source="corda" order="15" ecContribution="455000" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1916280</rcn>
+        <id>999702371</id>
+        <vatNumber>LU16853659</vatNumber>
+        <legalName>NETCOMPANY S.A.</legalName>
+        <address>
+          <street>RUE NICOLAS BOVE 2B</street>
+          <city>Luxembourg</city>
+          <postalCode>1253</postalCode>
+          <country>LU</country>
+          <url>http://www.intrasoft-intl.com</url>
+          <geolocation>49.604838900000004,6.086305835563419</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PRC</code>
+              <title>Private for-profit entities (excluding Higher or Secondary Education Establishments)</title>
+              <displayCode>/Private for-profit entities (excluding Higher or Secondary Education Establishments)</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Luxembourg</name>
+              <rcn>360185856</rcn>
+              <nutsCode>LU000</nutsCode>
+              <parents>
+                <region>
+                  <name>Luxembourg</name>
+                  <rcn>360185896</rcn>
+                  <nutsCode>LU00</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Luxembourg</name>
+                      <rcn>360188456</rcn>
+                      <nutsCode>LU0</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Luxembourg</name>
+                          <rcn>360352296</rcn>
+                          <nutsCode>LU</nutsCode>
+                          <euCode>LU</euCode>
+                          <isoCode>LU</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Luxembourg</name>
+              <rcn>360352296</rcn>
+              <nutsCode>LU</nutsCode>
+              <euCode>LU</euCode>
+              <isoCode>LU</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="685000" totalCost="685000" source="corda" order="1" ecContribution="685000" terminated="false" sme="false" type="coordinator">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1905672</rcn>
+        <id>999974844</id>
+        <vatNumber>ESQ2818015F</vatNumber>
+        <legalName>UNIVERSIDAD POLITECNICA DE MADRID</legalName>
+        <shortName>UPM</shortName>
+        <address>
+          <street>CALLE RAMIRO DE MAEZTU 7 EDIFICIO RECTORADO</street>
+          <city>MADRID</city>
+          <postalCode>28040</postalCode>
+          <country>ES</country>
+          <postBox>000</postBox>
+          <url>http://www.upm.es</url>
+          <geolocation>40.4167047,-3.7035824</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Madrid</name>
+              <rcn>242233344</rcn>
+              <nutsCode>ES300</nutsCode>
+              <parents>
+                <region>
+                  <name>Comunidad de Madrid</name>
+                  <rcn>242233384</rcn>
+                  <nutsCode>ES30</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Comunidad de Madrid</name>
+                      <rcn>242235944</rcn>
+                      <nutsCode>ES3</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Spain</name>
+                          <rcn>242387496</rcn>
+                          <nutsCode>ES</nutsCode>
+                          <euCode>ES</euCode>
+                          <isoCode>ES</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Spain</name>
+              <rcn>242387496</rcn>
+              <nutsCode>ES</nutsCode>
+              <euCode>ES</euCode>
+              <isoCode>ES</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="410000" totalCost="410000" source="corda" order="7" ecContribution="410000" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>2666274</rcn>
+        <id>923112723</id>
+        <vatNumber>BE0628646310</vatNumber>
+        <legalName>THE EUROPEAN INSTITUTE FOR INNOVATION THROUGH HEALTH DATA</legalName>
+        <shortName>i-HD</shortName>
+        <address>
+          <street>MEREBAAISTRAAT 10</street>
+          <city>OOSTERZELE</city>
+          <postalCode>9860</postalCode>
+          <country>BE</country>
+          <geolocation>50.9118825,4.3492432</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/REC</code>
+              <title>Research Organisations</title>
+              <displayCode>/Research Organisations</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Arr. Gent</name>
+              <rcn>188227780</rcn>
+              <nutsCode>BE234</nutsCode>
+              <parents>
+                <region>
+                  <name>Prov. Oost-Vlaanderen</name>
+                  <rcn>188227816</rcn>
+                  <nutsCode>BE23</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Vlaams Gewest</name>
+                      <rcn>188230184</rcn>
+                      <nutsCode>BE2</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Belgium</name>
+                          <rcn>188385832</rcn>
+                          <nutsCode>BE</nutsCode>
+                          <euCode>BE</euCode>
+                          <isoCode>BE</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Belgium</name>
+              <rcn>188385832</rcn>
+              <nutsCode>BE</nutsCode>
+              <euCode>BE</euCode>
+              <isoCode>BE</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme type="relatedLegalBasis" source="corda" uniqueProgrammePart="true">
+        <availableLanguages>en</availableLanguages>
+        <rcn>705741</rcn>
+        <id>HORIZON.2.1</id>
+        <code>HORIZON.2.1</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.2.1</pga>
+        <title>Health</title>
+        <parent>
+          <programme>
+            <rcn>705740</rcn>
+            <code>HORIZON.2</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode>/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme type="relatedTopic" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>705986</rcn>
+        <id>HORIZON_HORIZON-HLTH-2022-IND-13-02</id>
+        <code>HORIZON-HLTH-2022-IND-13-02</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>Scaling up multi-party computation, data anonymisation techniques, and synthetic data generation</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode>/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+            <category classification="topicKeyword" type="isAbout">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <code>/43450593</code>
+              <title>Computer sciences, information science and bioinformatics</title>
+              <displayCode>/Computer sciences, information science and bioinformatics</displayCode>
+            </category>
+            <category classification="topicKeyword" type="isAbout">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <code>/43458190</code>
+              <title>Technology commercialisation</title>
+              <displayCode>/Technology commercialisation</displayCode>
+            </category>
+            <category classification="topicKeyword" type="isAbout">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <code>/43452952</code>
+              <title>Health care sciences and services (including hospital administration, health care financing)</title>
+              <displayCode>/Health care sciences and services (including hospital administration, health care financing)</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme type="relatedLegalBasis" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>705746</rcn>
+        <id>HORIZON.2.1.5</id>
+        <code>HORIZON.2.1.5</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.2.1.5</pga>
+        <title>Tools, Technologies and Digital Solutions for Health and Care, including personalised medicine</title>
+        <parent>
+          <programme>
+            <rcn>705741</rcn>
+            <code>HORIZON.2.1</code>
+            <parent>
+              <programme>
+                <rcn>705740</rcn>
+                <code>HORIZON.2</code>
+                <parent>
+                  <programme>
+                    <rcn>705725</rcn>
+                    <code>HORIZON</code>
+                  </programme>
+                </parent>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode>/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1177524</rcn>
+        <id>101095530_2_DELIVHORIZON</id>
+        <title>Data and metadata model</title>
+        <description>Data and metadata model assumptions, design principles and formats for data integration ensuring syntactic and semantic interoperability</description>
+        <sourceUpdateDate>2024-10-22 12:19:49</sourceUpdateDate>
+        <contentUpdateDate>2024-10-29 13:21:18</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>708bf61f429104ea56b220c3a856e3ec</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e50f5930b7&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>971742</rcn>
+        <id>101095530_14_DELIVHORIZON</id>
+        <title>Impact master plan</title>
+        <description>Document detailing the project dissemination and communicationplan outlining the target groups and relevant tailored outreach strategies and the project communication channels</description>
+        <sourceUpdateDate>2023-08-28 00:52:12</sourceUpdateDate>
+        <contentUpdateDate>2023-09-08 13:56:51</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable" represents="project">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>25c2cddf73f9a2654117c48de1423aa2</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5fc749c1a&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1136797</rcn>
+        <id>101095530_44791_PUBLIHORIZON</id>
+        <title>Sickle cell disease landscape and challenges in the EU: the ERN-EuroBloodNet perspective</title>
+        <details>
+          <authors>María del Mar Mañú Pereira, PhD  Raffaella Colombatti, MD Federico Alvarez, PhD Prof Pablo Bartolucci, MD Celeste Bento, PhD Angelo Loris Brunetta, BSS Elena Cela, MD Soteroula Christou, MD Anna Collado, MD Prof Mariane de Montalembert, MD Laurence Dedeke</authors>
+          <journalNumber>Volume 10, Issue 8</journalNumber>
+          <journalTitle>The Lancet Haematology</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>Elsevier Limited</publisher>
+        </details>
+        <identifiers>
+          <issn>2352-3026</issn>
+          <doi>10.1016/S2352-3026(23)00182-5</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-07-28 13:51:22</sourceUpdateDate>
+        <contentUpdateDate>2024-07-29 16:01:52</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>975121</rcn>
+        <id>101095530_10_DELIVHORIZON</id>
+        <title>Data management plan</title>
+        <description>Document assessing project data flows data collection processing storage and interoperability of data in the project</description>
+        <sourceUpdateDate>2023-08-28 00:52:12</sourceUpdateDate>
+        <contentUpdateDate>2023-09-28 15:00:29</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable" represents="project">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>9653b9133193adfb918cdf6151c73939</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5fc767804&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/DMP</code>
+              <title>Data Management Plan</title>
+              <displayCode>/Data Management Plan</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1136794</rcn>
+        <id>101095530_44794_PUBLIHORIZON</id>
+        <title>Privacy Mechanisms and Evaluation Metrics for Synthetic Data Generation: A Systematic Review</title>
+        <details>
+          <authors>Pablo A. Osorio-Marulanda; Gorka Epelde; Mikel Hernandez; Imanol Isasa; Nicolas Moreno Reyes; Andoni Beristain Iraola</authors>
+          <journalNumber>Volume 2</journalNumber>
+          <journalTitle>IEEE Access</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Institute of Electrical and Electronics Engineers Inc.</publisher>
+        </details>
+        <identifiers>
+          <issn>2169-3536</issn>
+          <doi>10.1109/ACCESS.2024.3417608</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-07-28 13:51:22</sourceUpdateDate>
+        <contentUpdateDate>2024-07-29 16:01:52</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>971740</rcn>
+        <id>101095530_18_DELIVHORIZON</id>
+        <title>Quality assurance guidelines</title>
+        <description>Reference document indicating standards procedures and guidelines for project management internal communication meetings and reporting as well as selfassessmentgoals and key performance indicators for each WP</description>
+        <sourceUpdateDate>2023-08-28 00:52:12</sourceUpdateDate>
+        <contentUpdateDate>2023-09-08 13:56:51</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable" represents="project">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>e7f0c73d4308d6d69eeefa987ff3872e</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5f9f69f7c&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1148491</rcn>
+        <id>101095530_19_DELIVHORIZON</id>
+        <title>Ethical design requirements</title>
+        <description>The document will describe the ethical requirements andthe theoretical framework of ethics best practices to be implemented in the SDG pipelines.</description>
+        <sourceUpdateDate>2024-08-05 20:31:24</sourceUpdateDate>
+        <contentUpdateDate>2024-08-12 11:25:12</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>6fe2998c743568e9f03be6e990985f5a</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e50506e422&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1115761</rcn>
+        <id>101095530_35762_PUBLIHORIZON</id>
+        <title>Automated Knowledge-Based Cybersecurity Risk Assessment of Cyber-Physical Systems</title>
+        <details>
+          <authors>Stephen C. Phillips; Steve Taylor; Michael Boniface; Stefano Modafferi; Mike Surridge</authors>
+          <journalNumber>Volume 12</journalNumber>
+          <journalTitle>IEEE Access</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <issn>2169-3536</issn>
+          <doi>10.1109/ACCESS.2024.3404264</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-07-28 13:51:22</sourceUpdateDate>
+        <contentUpdateDate>2024-06-24 10:48:02</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1195150</rcn>
+        <id>101095530_35605_PUBLIHORIZON</id>
+        <title>Synthetic Data Generation by Artificial Intelligence to Accelerate Research and Precision Medicine in Hematology</title>
+        <details>
+          <authors>gastone.castellani@unibo.it, Saverio D'Amico , MEng1; Daniele Dall’Olio , PhD2; Claudia Sala , PhD3; Lorenzo Dall’Olio , PhD2; Elisabetta Sauta , PhD1; Matteo Zampini , PhD1; Gianluca Asti , MSc1; Luca Lanino , MD1,4; Giulia Maggioni, MD1,4;  Victor Savev</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>JCO Clinical Cancer Informatics</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>JCO Clinical Cancer Informatics</publisher>
+        </details>
+        <identifiers>
+          <issn>2473-4276</issn>
+          <doi>10.1200/CCI.23.000</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-06-18 12:11:30</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 15:15:27</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1277164</rcn>
+        <id>101095530_72180_PUBLIHORIZON</id>
+        <title>Comparative assessment of synthetic time series generation approaches in healthcare: leveraging patient metadata for accurate data synthesis 30 January 2024</title>
+        <details>
+          <authors>Imanol Isasa, Mikel Hernandez, Gorka Epelde, Francisco Londoño, Andoni Beristain, Xabat Larrea, Ane Alberdi, Panagiotis Bamidis &amp; Evdokimos Konstantinidis</authors>
+          <journalNumber>24</journalNumber>
+          <journalTitle>BMC Medical Informatics and Decision Making</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>BioMed Central</publisher>
+        </details>
+        <identifiers>
+          <issn>1472-6947</issn>
+          <doi>10.1186/s12911-024-02427-0</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-04-15 01:27:45</sourceUpdateDate>
+        <contentUpdateDate>2025-08-12 12:57:24</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1213841</rcn>
+        <id>101095530_PSHORIZON</id>
+        <title>Periodic Reporting for period 1 - SYNTHEMA (Synthetic generation of hematological data over federated computing frameworks)</title>
+        <description>periodic</description>
+        <teaser>Haematological diseases (HDs) encompass around 450 disorders involving abnormalities in blood cells, lymphoid organs, and coagulation factors, divided into oncological (e.g., lymphomas, myelomas, leukaemias) and non-oncological categories (e.g., hemoglobinopathies, haemolytic...</teaser>
+        <sourceUpdateDate>2024-11-27 14:02:58</sourceUpdateDate>
+        <contentUpdateDate>2024-12-02 12:10:27</contentUpdateDate>
+        <relations>
+          <associations>
+            <webItem type="relatedResultAttachment" source="corda">
+              <language>en</language>
+              <availableLanguages>en,any</availableLanguages>
+              <uri>/docs/results/horizon/101095/101095530_PS/synthema-logo-horizontal.png</uri>
+              <mimetype>image/png</mimetype>
+              <size>95232</size>
+            </webItem>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/pubsum</code>
+              <title>Report Summary</title>
+              <description>Result: Publishable summary (FP7 SESAM) and Summary for publication (H2020 SyGMa)</description>
+              <displayCode>/Report Summary</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1195132</rcn>
+        <id>101095530_35617_PUBLIHORIZON</id>
+        <title>Protecting Multiple Sensitive Attributes in Synthetic Micro-data</title>
+        <details>
+          <authors>Rudolf Mayer,Nina Niederhametner</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>IEEE Big Data 2023</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <issn>2473-2001</issn>
+          <doi>10.1109/BigData59044.2023.10386296</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-06-18 12:11:30</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 15:15:26</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>971746</rcn>
+        <id>101095530_17_DELIVHORIZON</id>
+        <title>Project website</title>
+        <description>Project website with information on the project partners and relevant news</description>
+        <sourceUpdateDate>2023-08-28 00:52:12</sourceUpdateDate>
+        <contentUpdateDate>2023-09-08 13:57:07</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable" represents="project">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>277013999936f306672ebb94d832d48f</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5f870b341&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/DEC</code>
+              <title>Websites, patent fillings, videos etc.</title>
+              <displayCode>/Websites, patent fillings, videos etc.</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1141587</rcn>
+        <id>101095530_36561_PUBLIHORIZON</id>
+        <title>MOSAIC: An Artificial Intelligence–Based Framework for Multimodal Analysis, Classification, and Personalized Prognostic Assessment in Rare Cancers</title>
+        <details>
+          <authors>Saverio D'Amico, MEng, Lorenzo Dall’Olio, PhD, Cesare Rollo, PhD, Patricia Alonso, PhD, Iñigo Prada-Luengo, PhD</authors>
+          <journalNumber>Volume 8</journalNumber>
+          <journalTitle>Clinical Cancer Informatics</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>JCO</publisher>
+        </details>
+        <identifiers>
+          <issn>2473-4276</issn>
+          <doi>10.1200/CCI.24.00008</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-06-25 18:13:45</sourceUpdateDate>
+        <contentUpdateDate>2024-08-05 16:32:05</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1115582</rcn>
+        <id>101095530_35618_PUBLIHORIZON</id>
+        <title>Clinical Text Reports to Stratify Patients Affected with Myeloid Neoplasms Using Natural Language Processing</title>
+        <details>
+          <authors>Gianluca Asti, Elisabetta Sauta, Nico Curti, Gianluca Carlini, Lorenzo Dall'Olio, Luca Lanino, Giulia Maggioni, Alessia Campagna, Marta Ubezio, Antonio Russo, Gabriele Todisco, Cristina Astrid Tentori, Pierandrea Morandini, Marilena Bicchieri, Maria Chiar</authors>
+          <journalNumber>Volum 142</journalNumber>
+          <journalTitle>Blood - American Society of Haematology</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>Blood - American Society of Haematology</publisher>
+        </details>
+        <identifiers>
+          <issn>1528-0020</issn>
+          <doi>10.1182/blood-2023-188292</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-06-18 12:11:30</sourceUpdateDate>
+        <contentUpdateDate>2024-06-24 10:47:57</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1115594</rcn>
+        <id>101095530_35620_PUBLIHORIZON</id>
+        <title>Personalized Timing for Allogeneic Stem-Cell Transplantation in Hematologic Neoplasms: A Target Trial Emulation Approach Using Multistate Modeling and Microsimulation</title>
+        <details>
+          <authors>Caterina Gregorio, PhD, Marta Spreafico, PhD, Saverio D'Amico, MEng, Elisabetta Sauta, PhD, Gianluca Asti, PhD, Luca Lanino, MD, Cristina Astrid Tentori, MD, Uwe Platzbecker, MD, Torsten Haferlach, MD, Maria Diez-Campelo, MD, Pierre Fenaux, MD, Rami Komro</authors>
+          <journalNumber>Volume 8</journalNumber>
+          <journalTitle>JCO Clinical Cancer Informatics</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>ASCO Publications</publisher>
+        </details>
+        <identifiers>
+          <issn>1548-8756</issn>
+          <doi>10.1200/CCI.23.0020</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-06-18 12:11:30</sourceUpdateDate>
+        <contentUpdateDate>2024-06-24 10:47:57</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1115589</rcn>
+        <id>101095530_35619_PUBLIHORIZON</id>
+        <title>Synthetic Histopathological Images Generation with Artificial Intelligence to Accelerate Research and Improve Clinical Outcomes in Hematology</title>
+        <details>
+          <authors>ianluca Asti, Saverio D'Amico, Nico Curti, Gianluca Carlini, Elisabetta Sauta, Nicolas Riccardo Derus, Daniele Dall'Olio, Claudia Sala, Lorenzo Dall'Olio, Luca Lanino, Giulia Maggioni, Alessia Campagna, Marta Ubezio, Antonio Russo, Gabriele Todisco, Crist</authors>
+          <journalNumber>Volume 142</journalNumber>
+          <journalTitle>Blood - American Society of Haematology</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>Blood - American Society of Haematology</publisher>
+        </details>
+        <identifiers>
+          <issn>1528-0020</issn>
+          <doi>10.1182/blood-2023-187521</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-06-18 12:11:30</sourceUpdateDate>
+        <contentUpdateDate>2024-06-24 10:47:57</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1195129</rcn>
+        <id>101095530_35621_PUBLIHORIZON</id>
+        <title>Clinical and Genomic-Based Decision Support System to Define the Optimal Timing of Allogeneic Hematopoietic Stem-Cell Transplantation in Patients With Myelodysplastic Syndromes</title>
+        <details>
+          <authors>Cristina Astrid Tentori, MD, Caterina Gregorio, PhD, Marie Robin, MD, Nico Gagelmann, MD, Carmelo Gurnari, MD,  Somedeb Ball, MD, Juan Carlos Caballero Berrocal, MD, Luca Lanino, MD, Saverio D'Amico, MEng, Marta Spreafico, PhD, Giulia Maggioni, MD, Erica</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Journal of Clinical Oncology</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>ASCO Publishing</publisher>
+        </details>
+        <identifiers>
+          <issn>1548-8756</issn>
+          <doi>10.1200/JCO.23.0217</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-06-18 12:11:30</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 15:15:26</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode>/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/21/39/225/719</code>
+        <title>leukemia</title>
+        <displayCode>/medical and health sciences/clinical medicine/oncology/leukemia</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="100">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode>/Digital agenda</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode>/Clean air</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="40">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode>/Artificial intelligence</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode>/Climate action</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode>/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages>en</availableLanguages>
+        <code>/HORIZON-RIA</code>
+        <title>HORIZON  Research and Innovation Actions</title>
+        <description>HORIZON  Research and Innovation Actions</description>
+        <displayCode>/HORIZON  Research and Innovation Actions</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode>/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages>en</availableLanguages>
+  <rcn>239475</rcn>
+  <id>101069336</id>
+  <acronym>Real-PCM-PIM</acronym>
+  <teaser>Separation of processing and memory is the root cause of the main performance and energy bottlenecks in modern computers. In the PI's ERC Stg, we proposed to combine data processing and storage in the same cells, to develop a novel unit called the 'memristive memory processing...</teaser>
+  <objective>Separation of processing and memory is the root cause of the main performance and energy bottlenecks in modern computers. In the PI's ERC Stg, we proposed to combine data processing and storage in the same cells, to develop a novel unit called the 'memristive memory processing unit' (mMPU). This unit was based on resistive RAM (RRAM), which is still not commercial in large capacity. 
+A different memory technology, phase change memory (PCM), is commercially available in large capacity (for example, Intel's Optane has 1.5 TB memory), and can serve as an appropriate technology to form an mMPU with short time-to-market.
+In this PoC, we aim to experimentally demonstrate a working mMPU based on commercially-available PCM.
+This mMPU will enable fast and energy efficient computers that are cheaper than existing computers. This will impact different applications such as artificial intelligence, databases, and genomics. The mMPU-based computers will allow faster and cheaper execution of the aforementioned applications.
+In this proposal, we target the required technical and business steps required to develop such an mMPU and to commercialize it.</objective>
+  <title>Real Processing in Phase Change Memory</title>
+  <totalCost>0</totalCost>
+  <ecMaxContribution>150000</ecMaxContribution>
+  <startDate>2022-04-01</startDate>
+  <endDate>2023-09-30</endDate>
+  <ecSignatureDate>2022-03-22</ecSignatureDate>
+  <duration>18</duration>
+  <status>CLOSED</status>
+  <identifiers>
+    <grantDoi>10.3030/101069336</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>false</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2022-06-17 10:31:42</sourceUpdateDate>
+  <contentCreationDate>2022-08-05 19:18:08</contentCreationDate>
+  <contentUpdateDate>2023-04-05 13:16:09</contentUpdateDate>
+  <lastUpdateDate>2025-09-19 14:48:46</lastUpdateDate>
+  <relations>
+    <associations>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>55465</rcn>
+        <title>ERC-2022-POC1</title>
+        <identifier>ERC-2022-POC1</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>55465</rcn>
+        <title>ERC-2022-POC1</title>
+        <identifier>ERC-2022-POC1</identifier>
+      </call>
+      <organization netEcContribution="150000" totalCost="0" source="corda" order="1" ecContribution="150000" terminated="false" sme="false" type="coordinator">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1906564</rcn>
+        <id>999907720</id>
+        <vatNumber>IL557585585</vatNumber>
+        <legalName>TECHNION - ISRAEL INSTITUTE OF TECHNOLOGY</legalName>
+        <address>
+          <street>SENATE BUILDING TECHNION CITY</street>
+          <city>Haifa</city>
+          <postalCode>32000</postalCode>
+          <country>IL</country>
+          <postBox>000</postBox>
+          <url>http://www.technion.ac.il</url>
+          <geolocation>32.8191218,34.9983856</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Israel</name>
+              <rcn>307661352</rcn>
+              <nutsCode>IL</nutsCode>
+              <euCode>IL</euCode>
+              <isoCode>IL</isoCode>
+            </region>
+            <region type="relatedRegion">
+              <name>Israel</name>
+              <rcn>307661352</rcn>
+              <nutsCode>IL</nutsCode>
+              <euCode>IL</euCode>
+              <isoCode>IL</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme type="relatedTopic" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>706226</rcn>
+        <id>HORIZON_ERC-2022-POC1</id>
+        <code>ERC-2022-POC1</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>ERC PROOF OF CONCEPT GRANTS1</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode>/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme type="relatedLegalBasis" source="corda" uniqueProgrammePart="true">
+        <availableLanguages>en</availableLanguages>
+        <rcn>705727</rcn>
+        <id>HORIZON.1.1</id>
+        <code>HORIZON.1.1</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.1.1</pga>
+        <title>European Research Council (ERC)</title>
+        <parent>
+          <programme>
+            <rcn>705726</rcn>
+            <code>HORIZON.1</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode>/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1036362</rcn>
+        <id>101069336_8027_PUBLIHORIZON</id>
+        <title>AritPIM: High-Throughput In-Memory Arithmetic</title>
+        <details>
+          <authors>Orian Leitersdorf; Dean Leitersdorf; Jonathan Gal; Mor Dahan; Ronny Ronen; Shahar Kvatinsky</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>IEEE Transactions on Emerging Topics in Computing (TETC)</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>IEEE Computer Society</publisher>
+        </details>
+        <identifiers>
+          <issn>2168-6750</issn>
+          <doi>10.1109/TETC.2023.3268137</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-01-19 05:31:38</sourceUpdateDate>
+        <contentUpdateDate>2024-01-31 10:28:00</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1051530</rcn>
+        <id>101069336_7970_PUBLIHORIZON</id>
+        <title>On Consistency for Bulk-Bitwise Processing-in-Memory</title>
+        <details>
+          <authors>B. Perach, R. Ronen, and S. Kvatinsky</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>2023 IEEE International Symposium on High-Performance Computer Architecture (HPCA)</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <issn>2378-203X</issn>
+          <doi>10.48550/arXiv.2211.07542</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-03-02 14:02:11</sourceUpdateDate>
+        <contentUpdateDate>2024-03-11 14:02:30</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>990101</rcn>
+        <id>101069336_1_DELIVHORIZON</id>
+        <title>Data Management Plan</title>
+        <description>Drafting of Data Management Plan</description>
+        <sourceUpdateDate>2023-10-16 02:15:46</sourceUpdateDate>
+        <contentUpdateDate>2023-10-17 12:58:57</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable" represents="project">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>0fa12d056349ac1f4c8c22a09b30ab17</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5f1dc4cfe&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1051203</rcn>
+        <id>101069336_8031_PUBLIHORIZON</id>
+        <title>Enabling Relational Database Analytical Processing in Bulk-Bitwise Processing-In-Memory</title>
+        <details>
+          <authors>Perach, Ben; Ronen, Ronny; Kvatinsky, Shahar</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>IEEE International System-on-Chip Conference (SOCC)</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <issn>2164-1706</issn>
+          <doi>10.48550/arXiv.2302.01675</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-03-02 14:02:11</sourceUpdateDate>
+        <contentUpdateDate>2024-03-07 16:50:01</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1054170</rcn>
+        <id>101069336_8029_PUBLIHORIZON</id>
+        <title>FourierPIM: High-throughput in-memory Fast Fourier Transform and polynomial multiplication</title>
+        <details>
+          <authors>Orian Leitersdorf, Yahav Boneh, Gonen Gazit, Ronny Ronen, Shahar Kvatinsky</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Memories - Materials, Devices, Circuits and Systems</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>Elsevier</publisher>
+        </details>
+        <identifiers>
+          <issn>2773-0646</issn>
+          <doi>10.48550/arXiv.2304.02336</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-01-06 00:36:27</sourceUpdateDate>
+        <contentUpdateDate>2024-03-12 13:40:10</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1189534</rcn>
+        <id>101069336_7873_PUBLIHORIZON</id>
+        <title>Stateful Logic Using Phase Change Memory</title>
+        <details>
+          <authors>Hoffer, Barak; Wainstein, Nicolas; Neumann, Christopher M.; Pop, Eric; Yalon, Eilam; Kvatinsky, Shahar; Hoffer, Barak</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>IEEE Journal on Exploratory Solid-State Computational Devices and Circuits</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2022</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <issn>2329-9231</issn>
+          <doi>10.48550/arXiv.2212.14377</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-01-06 00:36:27</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 14:06:39</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1051701</rcn>
+        <id>101069336_18415_PUBLIHORIZON</id>
+        <title>Performing Stateful Logic Using Spin-Orbit Torque (SOT) MRAM</title>
+        <details>
+          <authors>Barak Hoffer, Shahar Kvatinsky</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>IEEE International Conference on Nanotechnology (NANO)</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2022</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arXiv.2208.00741</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-03-02 14:02:11</sourceUpdateDate>
+        <contentUpdateDate>2024-03-11 14:02:41</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1085084</rcn>
+        <id>101069336_PSHORIZON</id>
+        <title>Periodic Reporting for period 1 - Real-PCM-PIM (Real Processing in Phase Change Memory)</title>
+        <description>periodic</description>
+        <teaser>This PoC aims to enable the development of a new type of processor, the mMPU that will be based on commercial memory technologies. The mMPU system improves the performance and energy of computing systems by two to three orders of magnitude compared to von Neumann architecture...</teaser>
+        <sourceUpdateDate>2024-04-24 12:43:05</sourceUpdateDate>
+        <contentUpdateDate>2024-04-29 16:45:17</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/pubsum</code>
+              <title>Report Summary</title>
+              <description>Result: Publishable summary (FP7 SESAM) and Summary for publication (H2020 SyGMa)</description>
+              <displayCode>/Report Summary</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1054167</rcn>
+        <id>101069336_8030_PUBLIHORIZON</id>
+        <title>Experimental Demonstration of Non-Stateful In-Memory Logic with 1T1R OxRAM Valence Change Mechanism Memristors</title>
+        <details>
+          <authors>Henriette Padberg, Amir Regev, Giuseppe Piccolboni, Alessandro Bricalli, Gabriel Molas, Jean Francois Nodin, Shahar Kvatinsky</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>IEEE Transactions on Circuits and Systems II: Express Briefs</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>Institute of Electrical and Electronics Engineers</publisher>
+        </details>
+        <identifiers>
+          <issn>1558-3791</issn>
+          <doi>10.48550/arXiv.2310.16843</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-01-06 00:36:27</sourceUpdateDate>
+        <contentUpdateDate>2024-03-12 13:40:10</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1054173</rcn>
+        <id>101069336_8028_PUBLIHORIZON</id>
+        <title>Accelerating Relational Database Analytical Processing with Bulk-Bitwise Processing-in-Memory</title>
+        <details>
+          <authors>Ben Perach, Ronny Ronen, Shahar Kvatinsky</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>IEEE interregional NEWCAS Conference</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arXiv.2307.00658</doi>
+          <isbn>979-8-3503-0024-6</isbn>
+        </identifiers>
+        <sourceUpdateDate>2024-01-06 00:36:27</sourceUpdateDate>
+        <contentUpdateDate>2024-03-12 13:40:10</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode>/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/49/337</code>
+        <title>genetics</title>
+        <displayCode>/natural sciences/biological sciences/genetics</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/47/303</code>
+        <title>databases</title>
+        <displayCode>/natural sciences/computer and information sciences/databases</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode>/Digital agenda</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode>/Clean air</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode>/Artificial intelligence</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="40">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode>/Climate action</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode>/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages>en</availableLanguages>
+        <code>/HORIZON-ERC-POC</code>
+        <title>HORIZON ERC Proof of Concept Grants</title>
+        <description>HORIZON ERC Proof of Concept Grants</description>
+        <displayCode>/HORIZON ERC Proof of Concept Grants</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode>/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

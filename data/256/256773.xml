@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages>en</availableLanguages>
+  <rcn>256773</rcn>
+  <id>101093186</id>
+  <acronym>S3</acronym>
+  <teaser>"*What if we had software bots that tirelessly test, debug, and monitor our software systems?*IT workers are expensive and scarce. So why can't we further automate boring, repetitive activities such as testing and debugging? The problem is that we lack computer-readable...</teaser>
+  <objective>"*What if we had software bots that tirelessly test, debug, and monitor our software systems?*
+
+IT workers are expensive and scarce. So why can't we further automate boring, repetitive activities such as testing and debugging? The problem is that we lack computer-readable _specifications_ (so-called _oracles_) for what the system should do or not do. For decades, this _oracle problem_ has been a roadblock to automated test generation, trusted software repairs, and accurate monitoring of software. 
+
+Building on groundbreaking research to infer input languages of systems, S3 introduces a unified approach to _learning oracles automatically_. It takes a given software system; _infers_ and _decodes_ its inputs and outputs; and runs _experiments_ to extract _models_ of how the system behaves, capturing its semantics by predicting output features for given input features.
+
+These models, named _system invariants_, allow to _fully automate_ critical software development activities: 
+
+TESTING. System invariants encode _languages_ for automatically generating test inputs and provide _oracles_ for checking test results: ""In the TLS server, the &lt;payload&gt; in the &lt;heartbeat-response&gt; must be the same as in the &lt;heartbeat-request&gt;."" 
+
+DEBUGGING. System invariants allow narrowing down causes of software behavior (""The X.509 public key certificate is not recognized if &lt;subject-name&gt; contains a zero byte""). Generated tests and oracles ensure reliable automated repair. 
+
+MONITORING. System invariants enable detecting abnormal behavior at runtime (""In 'log4j', logging a &lt;user-agent&gt; containing '""${jndi:&lt;url&gt;}""' opens &lt;url&gt;""). Problematic queries can be isolated and investigated until the problem is fixed. 
+
+In the future, testing, debugging, and monitoring would thus be taken over by _software bots_ who would autonomously explore software behavior, report issues, and suggest actions to their human co-workers, boosting developer productivity and software reliability. 
+"</objective>
+  <title>Semantics of Software Systems</title>
+  <totalCost>2500000</totalCost>
+  <ecMaxContribution>2500000</ecMaxContribution>
+  <startDate>2023-09-01</startDate>
+  <endDate>2028-08-31</endDate>
+  <ecSignatureDate>2023-08-22</ecSignatureDate>
+  <duration>60</duration>
+  <status>SIGNED</status>
+  <keywords>software test generation, fuzzing, software debugging, software repair, monitoring, data formats</keywords>
+  <identifiers>
+    <grantDoi>10.3030/101093186</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>false</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2025-01-03 10:47:16</sourceUpdateDate>
+  <contentCreationDate>2023-09-08 14:59:53</contentCreationDate>
+  <contentUpdateDate>2023-09-08 14:58:50</contentUpdateDate>
+  <lastUpdateDate>2025-09-19 14:49:11</lastUpdateDate>
+  <relations>
+    <associations>
+      <article source="editorial" type="relatedArticle">
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <rcn>447517</rcn>
+        <id>447517-pioneering-automated-software-development-with-intelligent-bots</id>
+        <title>Pioneering automated software development with intelligent bots</title>
+        <contentUpdateDate>2024-03-08 09:46:20</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/projectDescription</code>
+              <title>Project description</title>
+              <description>Article: description of linked project written by editorial team</description>
+              <displayCode>/Project description</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/editorial</code>
+              <title>CORDIS Editorial</title>
+              <description>Written by CORDIS</description>
+              <displayCode>/CORDIS Editorial</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </article>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>55593</rcn>
+        <title>ERC-2022-ADG</title>
+        <identifier>ERC-2022-ADG</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>55593</rcn>
+        <title>ERC-2022-ADG</title>
+        <identifier>ERC-2022-ADG</identifier>
+      </call>
+      <organization netEcContribution="2500000" totalCost="2500000" source="corda" order="1" ecContribution="2500000" terminated="false" sme="false" type="coordinator">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1965363</rcn>
+        <id>907336546</id>
+        <vatNumber>DE316283105</vatNumber>
+        <legalName>CISPA - HELMHOLTZ-ZENTRUM FUR INFORMATIONSSICHERHEIT GGMBH</legalName>
+        <address>
+          <street>STUHLSATZENHAUS 5</street>
+          <city>SAARBRUCKEN</city>
+          <postalCode>66123</postalCode>
+          <country>DE</country>
+          <geolocation>49.2593161,7.051837</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/REC</code>
+              <title>Research Organisations</title>
+              <displayCode>/Research Organisations</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Regionalverband Saarbrücken</name>
+              <rcn>221822977</rcn>
+              <nutsCode>DEC01</nutsCode>
+              <parents>
+                <region>
+                  <name>Saarland</name>
+                  <rcn>221823016</rcn>
+                  <nutsCode>DEC0</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Saarland</name>
+                      <rcn>221825576</rcn>
+                      <nutsCode>DEC</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Germany</name>
+                          <rcn>221940264</rcn>
+                          <nutsCode>DE</nutsCode>
+                          <euCode>DE</euCode>
+                          <isoCode>DE</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Germany</name>
+              <rcn>221940264</rcn>
+              <nutsCode>DE</nutsCode>
+              <euCode>DE</euCode>
+              <isoCode>DE</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme type="relatedTopic" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>706725</rcn>
+        <id>HORIZON_ERC-2022-ADG</id>
+        <code>ERC-2022-ADG</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>ERC ADVANCED GRANTS</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode>/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme type="relatedLegalBasis" source="corda" uniqueProgrammePart="true">
+        <availableLanguages>en</availableLanguages>
+        <rcn>705727</rcn>
+        <id>HORIZON.1.1</id>
+        <code>HORIZON.1.1</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.1.1</pga>
+        <title>European Research Council (ERC)</title>
+        <parent>
+          <programme>
+            <rcn>705726</rcn>
+            <code>HORIZON.1</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode>/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1197943</rcn>
+        <id>101093186_90040_PUBLIHORIZON</id>
+        <title>Learning the Effects of Software Changes</title>
+        <details>
+          <authors>Laura Plein</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Proceedings of the 33rd ACM SIGSOFT International Symposium on Software Testing and Analysis</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>ACM</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1145/3650212.3685550</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-11-17 19:36:32</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 15:22:45</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1197932</rcn>
+        <id>101093186_90042_PUBLIHORIZON</id>
+        <title>Shaping Test Inputs in Grammar-Based Fuzzing</title>
+        <details>
+          <authors>José Antonio Zamudio Amaya</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Proceedings of the 33rd ACM SIGSOFT International Symposium on Software Testing and Analysis</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>ACM</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1145/3650212.3685553</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-11-17 19:36:32</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 15:22:45</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1197937</rcn>
+        <id>101093186_90043_PUBLIHORIZON</id>
+        <title>Language-Based Software Testing</title>
+        <details>
+          <authors>Dominic Steinhöfel, Andreas Zeller</authors>
+          <journalNumber>67</journalNumber>
+          <journalTitle>Communications of the ACM</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Association for Computing Machinery (ACM)</publisher>
+        </details>
+        <identifiers>
+          <issn>0001-0782</issn>
+          <doi>10.1145/3631520</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-11-17 19:36:32</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 15:22:45</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode>/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/47/307/979/973</code>
+        <title>system software</title>
+        <displayCode>/natural sciences/computer and information sciences/software/software applications/system software</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/29/91/521/1299/1757</code>
+        <title>productivity</title>
+        <displayCode>/social sciences/economics and business/economics/production economics/productivity</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="100">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode>/Digital agenda</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode>/Clean air</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="100">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode>/Artificial intelligence</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode>/Climate action</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode>/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages>en</availableLanguages>
+        <code>/HORIZON-ERC</code>
+        <title>HORIZON ERC Grants</title>
+        <description>HORIZON ERC Grants</description>
+        <displayCode>/HORIZON ERC Grants</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode>/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

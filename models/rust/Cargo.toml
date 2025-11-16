@@ -1,0 +1,14 @@
+[package]
+name = "rust"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.100"
+chrono = { version = "0.4.42", features = ["serde"] }
+env_logger = "0.11.8"
+kdam = "0.6.3"
+serde = { version = "1.0.228", features = ["derive"] }
+serde-xml-rs = "0.8.2"
+#tqdm = "0.8.0"
+xml = "1.2.0"

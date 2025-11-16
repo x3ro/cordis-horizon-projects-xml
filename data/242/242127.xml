@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages>en</availableLanguages>
+  <rcn>242127</rcn>
+  <id>101054961</id>
+  <acronym>InterText</acronym>
+  <teaser>Interpreting text in the context of other texts is very hard: it requires understanding the fine-grained semantic relationships between documents called intertextual relationships. This is critical in many areas of human activity, including research, business, journalism, and...</teaser>
+  <objective>Interpreting text in the context of other texts is very hard: it requires understanding the fine-grained semantic relationships between documents called intertextual relationships. This is critical in many areas of human activity, including research, business, journalism, and others. However, finding and interpreting intertextual relationships and tracing information throughout heterogeneous sources remains a tedious manual task. Natural language processing (NLP) fails to adequately support it: mainstream NLP considers texts as static, isolated entities, and existing approaches to cross-document understanding focus on narrow use cases and lack a common, theoretical foundation. Data is scarce and difficult to create, and the field lacks a principled framework for modelling intertextuality.
+
+InterText breaks new ground by proposing the first general framework for studying intertextuality in NLP. We instantiate our framework in three intertextuality types: inline commentary, implicit linking, and semantic versioning. We produce new datasets and generalizable models for each of them. Rather than treating text as a sequence of words, we introduce a new data model that naturally reflects document structure and cross-document relationships. We use this data model to create novel, intertextuality-aware neural representations of text. While prior work ignores similarities between different types of intertextuality, we target their synergies. Thus, we offer solutions that scale to a wide range of tasks and across domains. To enable modular and efficient transfer learning, we propose new document-level adapter-based architectures. We investigate integrative properties of our framework in two case studies: academic peer review and conspiracy theory debunking. InterText creates a solid research platform for intertextuality-aware NLP crucial for managing the dynamic, interconnected digital discourse of today.</objective>
+  <title>Modelling Text as a Living Object in Cross-Document Context</title>
+  <totalCost>2499721</totalCost>
+  <ecMaxContribution>2499721</ecMaxContribution>
+  <startDate>2023-04-01</startDate>
+  <endDate>2028-03-31</endDate>
+  <ecSignatureDate>2022-09-15</ecSignatureDate>
+  <duration>60</duration>
+  <status>SIGNED</status>
+  <keywords>Unstructured Text Analysis,  Datasets and Resources in NLP,  Cross-Document Understanding,  Document Representation Learning,  Novel Task Definitions in NLP</keywords>
+  <identifiers>
+    <grantDoi>10.3030/101054961</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>false</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2025-01-03 10:47:16</sourceUpdateDate>
+  <contentCreationDate>2022-09-21 16:45:37</contentCreationDate>
+  <contentUpdateDate>2022-09-21 16:45:22</contentUpdateDate>
+  <lastUpdateDate>2025-09-19 14:48:35</lastUpdateDate>
+  <relations>
+    <associations>
+      <article source="editorial" type="relatedArticle">
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <rcn>438620</rcn>
+        <id>438620-groundbreaking-framework-to-automatically-analyse-relationships-between-texts</id>
+        <title>Groundbreaking framework to automatically analyse relationships between texts</title>
+        <contentUpdateDate>2023-03-07 17:46:19</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/projectDescription</code>
+              <title>Project description</title>
+              <description>Article: description of linked project written by editorial team</description>
+              <displayCode>/Project description</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/editorial</code>
+              <title>CORDIS Editorial</title>
+              <description>Written by CORDIS</description>
+              <displayCode>/CORDIS Editorial</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </article>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>55319</rcn>
+        <title>ERC-2021-ADG</title>
+        <identifier>ERC-2021-ADG</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>55319</rcn>
+        <title>ERC-2021-ADG</title>
+        <identifier>ERC-2021-ADG</identifier>
+      </call>
+      <organization netEcContribution="2499721" totalCost="2499721" source="corda" order="1" ecContribution="2499721" terminated="false" sme="false" type="coordinator">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1905684</rcn>
+        <id>999986581</id>
+        <vatNumber>DE111608628</vatNumber>
+        <legalName>TECHNISCHE UNIVERSITAT DARMSTADT</legalName>
+        <address>
+          <street>KAROLINENPLATZ  5</street>
+          <city>DARMSTADT</city>
+          <postalCode>64289</postalCode>
+          <country>DE</country>
+          <url>http://www.tu-darmstadt.de</url>
+          <geolocation>49.8748897,8.6565534</geolocation>
+        </address>
+        <departmentName>Arbeitsbereich Sportbiomechanik (Lauflabor)</departmentName>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Darmstadt, Kreisfreie Stadt</name>
+              <rcn>221802561</rcn>
+              <nutsCode>DE711</nutsCode>
+              <parents>
+                <region>
+                  <name>Darmstadt</name>
+                  <rcn>221802600</rcn>
+                  <nutsCode>DE71</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Hessen</name>
+                      <rcn>1465446</rcn>
+                      <nutsCode>DE7</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Germany</name>
+                          <rcn>221940264</rcn>
+                          <nutsCode>DE</nutsCode>
+                          <euCode>DE</euCode>
+                          <isoCode>DE</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Germany</name>
+              <rcn>221940264</rcn>
+              <nutsCode>DE</nutsCode>
+              <euCode>DE</euCode>
+              <isoCode>DE</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme type="relatedLegalBasis" source="corda" uniqueProgrammePart="true">
+        <availableLanguages>en</availableLanguages>
+        <rcn>705727</rcn>
+        <id>HORIZON.1.1</id>
+        <code>HORIZON.1.1</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.1.1</pga>
+        <title>European Research Council (ERC)</title>
+        <parent>
+          <programme>
+            <rcn>705726</rcn>
+            <code>HORIZON.1</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode>/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme type="relatedTopic" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>705892</rcn>
+        <id>HORIZON_ERC-2021-ADG</id>
+        <code>ERC-2021-ADG</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>ERC ADVANCED GRANTS</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode>/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1304544</rcn>
+        <id>101054961_158872_PUBLIHORIZON</id>
+        <title>HDT: Hierarchical Document Transformer</title>
+        <details>
+          <authors>Haoyu He ; Markus Flicke ; Jan Buchmann; Iryna Gurevych; Andreas Geiger</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Proceedings of the 1st Conference on Language Modeling</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>OpenReview</publisher>
+        </details>
+        <identifiers>
+          <doi>10.26083/TUPRINTS-00030063</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-05-27 17:31:39</sourceUpdateDate>
+        <contentUpdateDate>2025-06-02 13:57:38</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1304720</rcn>
+        <id>101054961_159042_PUBLIHORIZON</id>
+        <title>Re3: A Holistic Framework and Dataset for Modeling Collaborative Document Revision</title>
+        <details>
+          <authors>Qian Ruan, Ilia Kuznetsov, Iryna Gurevych</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Association for Computational Linguistics</publisher>
+        </details>
+        <identifiers>
+          <doi>10.18653/V1/2024.ACL-LONG.255</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-05-26 15:13:42</sourceUpdateDate>
+        <contentUpdateDate>2025-06-03 14:17:06</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1304702</rcn>
+        <id>101054961_158851_PUBLIHORIZON</id>
+        <title>An Inclusive Notion of Text</title>
+        <details>
+          <authors>Ilia Kuznetsov, Iryna Gurevych</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>Association for Computational Linguistics</publisher>
+        </details>
+        <identifiers>
+          <doi>10.18653/V1/2023.ACL-LONG.633</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-05-26 15:13:42</sourceUpdateDate>
+        <contentUpdateDate>2025-06-03 14:16:57</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1304722</rcn>
+        <id>101054961_158848_PUBLIHORIZON</id>
+        <title>CARE: Collaborative AI-Assisted Reading Environment</title>
+        <details>
+          <authors>Dennis Zyska, Nils Dycke, Jan Buchmann, Ilia Kuznetsov, Iryna Gurevych</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 3: System Demonstrations)</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>Association for Computational Linguistics</publisher>
+        </details>
+        <identifiers>
+          <doi>10.18653/V1/2023.ACL-DEMO.28</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-05-26 15:13:42</sourceUpdateDate>
+        <contentUpdateDate>2025-06-03 14:17:06</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1304713</rcn>
+        <id>101054961_158865_PUBLIHORIZON</id>
+        <title>Document Structure in Long Document Transformers</title>
+        <details>
+          <authors>Jan Buchmann, Max Eichler, Jan-Micha Bodensohn, Ilia Kuznetsov, Iryna Gurevych</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Proceedings of the 18th Conference of the European Chapter of the Association for Computational Linguistics (Volume 1: Long Papers)</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Association for Computational Linguistics</publisher>
+        </details>
+        <identifiers>
+          <doi>10.26083/TUPRINTS-00027527</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-05-26 15:13:42</sourceUpdateDate>
+        <contentUpdateDate>2025-06-03 14:17:02</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1304728</rcn>
+        <id>101054961_158827_PUBLIHORIZON</id>
+        <title>Attribute or Abstain: Large Language Models as Long Document Assistants</title>
+        <details>
+          <authors>Jan Buchmann, Xiao Liu, Iryna Gurevych</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Association for Computational Linguistics</publisher>
+        </details>
+        <identifiers>
+          <doi>10.18653/V1/2024.EMNLP-MAIN.463</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-05-26 15:13:42</sourceUpdateDate>
+        <contentUpdateDate>2025-06-03 14:17:09</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1304723</rcn>
+        <id>101054961_158825_PUBLIHORIZON</id>
+        <title>Are Large Language Models Good Classifiers? A Study on Edit Intent Classification in Scientific Document Revisions</title>
+        <details>
+          <authors>Qian Ruan, Ilia Kuznetsov, Iryna Gurevych</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Association for Computational Linguistics</publisher>
+        </details>
+        <identifiers>
+          <doi>10.18653/V1/2024.EMNLP-MAIN.839</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-05-26 15:13:42</sourceUpdateDate>
+        <contentUpdateDate>2025-06-03 14:17:07</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1304734</rcn>
+        <id>101054961_158847_PUBLIHORIZON</id>
+        <title>NLPeer: A Unified Resource for the Computational Study of Peer Review</title>
+        <details>
+          <authors>Nils Dycke, Ilia Kuznetsov, Iryna Gurevych</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>Association for Computational Linguistics</publisher>
+        </details>
+        <identifiers>
+          <doi>10.18653/V1/2023.ACL-LONG.277</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-05-26 15:13:42</sourceUpdateDate>
+        <contentUpdateDate>2025-06-03 14:17:11</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1304714</rcn>
+        <id>101054961_158852_PUBLIHORIZON</id>
+        <title>Revise and Resubmit: An Intertextual Model of Text-based Collaboration in Peer Review</title>
+        <details>
+          <authors>Ilia Kuznetsov, Jan Buchmann, Max Eichler, Iryna Gurevych</authors>
+          <journalNumber>48</journalNumber>
+          <journalTitle>Computational Linguistics</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2022</publishedYear>
+          <publisher>MIT Press</publisher>
+        </details>
+        <identifiers>
+          <issn>0891-2017</issn>
+          <doi>10.1162/COLI_A_00455</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-05-26 15:13:42</sourceUpdateDate>
+        <contentUpdateDate>2025-06-03 14:17:02</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1304736</rcn>
+        <id>101054961_158828_PUBLIHORIZON</id>
+        <title>M2QA: Multi-domain Multilingual Question Answering</title>
+        <details>
+          <authors>Leon Engländer, Hannah Sterz, Clifton A Poth, Jonas Pfeiffer, Ilia Kuznetsov, Iryna Gurevych</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Findings of the Association for Computational Linguistics: EMNLP 2024</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Association for Computational Linguistics</publisher>
+        </details>
+        <identifiers>
+          <doi>10.18653/V1/2024.FINDINGS-EMNLP.365</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-05-26 15:13:42</sourceUpdateDate>
+        <contentUpdateDate>2025-06-03 14:17:12</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1304729</rcn>
+        <id>101054961_158846_PUBLIHORIZON</id>
+        <title>Overview of PragTag-2023: Low-Resource Multi-Domain Pragmatic Tagging of Peer Reviews</title>
+        <details>
+          <authors>Nils Dycke, Ilia Kuznetsov, Iryna Gurevych</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Proceedings of the 10th Workshop on Argument Mining</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>Association for Computational Linguistics</publisher>
+        </details>
+        <identifiers>
+          <doi>10.18653/V1/2023.ARGMINING-1.21</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-05-26 15:13:42</sourceUpdateDate>
+        <contentUpdateDate>2025-06-03 14:17:09</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1304724</rcn>
+        <id>101054961_158826_PUBLIHORIZON</id>
+        <title>Systematic Task Exploration with LLMs: A Study in Citation Text Generation</title>
+        <details>
+          <authors>Furkan Şahinuç, Ilia Kuznetsov, Yufang Hou, Iryna Gurevych</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Association for Computational Linguistics</publisher>
+        </details>
+        <identifiers>
+          <doi>10.18653/V1/2024.ACL-LONG.265</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-05-26 15:13:42</sourceUpdateDate>
+        <contentUpdateDate>2025-06-03 14:17:07</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1304719</rcn>
+        <id>101054961_158849_PUBLIHORIZON</id>
+        <title>CiteBench: A Benchmark for Scientific Citation Text Generation</title>
+        <details>
+          <authors>Martin Funkquist, Ilia Kuznetsov, Yufang Hou, Iryna Gurevych</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>Association for Computational Linguistics</publisher>
+        </details>
+        <identifiers>
+          <doi>10.18653/V1/2023.EMNLP-MAIN.455</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-05-26 15:13:42</sourceUpdateDate>
+        <contentUpdateDate>2025-06-03 14:17:05</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode>/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/29/103/567</code>
+        <title>journalism</title>
+        <displayCode>/social sciences/media and communications/journalism</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode>/Digital agenda</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode>/Clean air</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode>/Artificial intelligence</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode>/Climate action</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode>/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages>en</availableLanguages>
+        <code>/HORIZON-ERC</code>
+        <title>HORIZON ERC Grants</title>
+        <description>HORIZON ERC Grants</description>
+        <displayCode>/HORIZON ERC Grants</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode>/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

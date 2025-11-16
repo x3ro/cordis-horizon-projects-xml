@@ -1,0 +1,791 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages>en</availableLanguages>
+  <rcn>252543</rcn>
+  <id>101118511</id>
+  <acronym>SeConRob</acronym>
+  <teaser>The SeConRob project aims at developing methods for the self-configuration of robotic processes, where each manufacturing step depends on the results of the previous step. In this case a lot of productivity, energy and resources are lost, because the processes currently cannot...</teaser>
+  <objective>The SeConRob project aims at developing methods for the self-configuration of robotic processes, where each manufacturing step depends on the results of the previous step. In this case a lot of productivity, energy and resources are lost, because the processes currently cannot be automated for technical and economic reasons. Such situations typically occur during inspection and re-work, where the (downstream) re-work process depends on the results of the (upstream) inspection process of each individual part. SeConRob will develop technologies that enable the automation of such processes, by creating robotic processes that can be automatically configured for each individual part. This will build upon AI-based data analysis that extracts information from the inspection data, that used in turn to automatically generate a robot program and process parameters for the downstream re-work process. Physical process models will the basis for the initial planning and a long-term feedback loop based on reinforcement learning will be established to optimize the process and account for properties that are not included in the initial model.
+Two use cases with multi-stage manufacturing processes including inspection, gouging, welding, grinding and polishing will provide test cases for the developments. Demonstrations are planned on a real-world production line to raise interest in sectors such as automotive and aerospace, where safety-critical parts are manufactured. The estimated market potential for such multi-stage self-configuring robotic process is about 2000 robotic workcells, corresponding to a market of 600 M€.</objective>
+  <title>Self-configuring multi-step robotic work-flows</title>
+  <totalCost>3625366.26</totalCost>
+  <ecMaxContribution>2992176.63</ecMaxContribution>
+  <startDate>2023-10-01</startDate>
+  <endDate>2027-03-31</endDate>
+  <ecSignatureDate>2023-06-27</ecSignatureDate>
+  <duration>42</duration>
+  <status>SIGNED</status>
+  <keywords>inspection robots, process planning, re-work processes</keywords>
+  <identifiers>
+    <grantDoi>10.3030/101118511</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>false</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2025-07-21 16:44:33</sourceUpdateDate>
+  <contentCreationDate>2023-07-07 17:05:16</contentCreationDate>
+  <contentUpdateDate>2025-07-28 10:42:03</contentUpdateDate>
+  <lastUpdateDate>2025-10-28 11:09:44</lastUpdateDate>
+  <relations>
+    <associations>
+      <article source="editorial" type="relatedArticle">
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <rcn>445374</rcn>
+        <id>445374-robotic-solutions-for-efficiency-gaps-in-manufacturing</id>
+        <title>Robotic solutions for efficiency gaps in manufacturing</title>
+        <contentUpdateDate>2023-12-25 11:26:11</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/projectDescription</code>
+              <title>Project description</title>
+              <description>Article: description of linked project written by editorial team</description>
+              <displayCode>/Project description</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/editorial</code>
+              <title>CORDIS Editorial</title>
+              <description>Written by CORDIS</description>
+              <displayCode>/CORDIS Editorial</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </article>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>55587</rcn>
+        <title>HORIZON-CL4-2022-DIGITAL-EMERGING-02</title>
+        <identifier>HORIZON-CL4-2022-DIGITAL-EMERGING-02</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>55587</rcn>
+        <title>HORIZON-CL4-2022-DIGITAL-EMERGING-02</title>
+        <identifier>HORIZON-CL4-2022-DIGITAL-EMERGING-02</identifier>
+      </call>
+      <organization netEcContribution="317532.5" totalCost="317532.5" source="corda" order="6" ecContribution="317532.5" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1905912</rcn>
+        <id>999984059</id>
+        <vatNumber>DE129515865</vatNumber>
+        <legalName>FRAUNHOFER GESELLSCHAFT ZUR FORDERUNG DER ANGEWANDTEN FORSCHUNG EV</legalName>
+        <shortName>Fraunhofer</shortName>
+        <address>
+          <street>HANSASTRASSE 27C</street>
+          <city>MUNCHEN</city>
+          <postalCode>80686</postalCode>
+          <country>DE</country>
+          <postBox>000</postBox>
+          <url>https://www.fraunhofer.de</url>
+          <geolocation>48.1322664,11.5296222</geolocation>
+        </address>
+        <departmentName>Integrated Project Management</departmentName>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/REC</code>
+              <title>Research Organisations</title>
+              <displayCode>/Research Organisations</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>München, Kreisfreie Stadt</name>
+              <rcn>221782082</rcn>
+              <nutsCode>DE212</nutsCode>
+              <parents>
+                <region>
+                  <name>Oberbayern</name>
+                  <rcn>221782120</rcn>
+                  <nutsCode>DE21</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Bayern</name>
+                      <rcn>221784616</rcn>
+                      <nutsCode>DE2</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Germany</name>
+                          <rcn>221940264</rcn>
+                          <nutsCode>DE</nutsCode>
+                          <euCode>DE</euCode>
+                          <isoCode>DE</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Germany</name>
+              <rcn>221940264</rcn>
+              <nutsCode>DE</nutsCode>
+              <euCode>DE</euCode>
+              <isoCode>DE</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="260312" totalCost="371875" source="corda" order="4" ecContribution="260312" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1958255</rcn>
+        <id>899722046</id>
+        <vatNumber>IT03354081204</vatNumber>
+        <legalName>MARPOSS SOCIETA PER AZIONI</legalName>
+        <shortName>MARPOSS SPA</shortName>
+        <address>
+          <street>VIA SALICETO 13</street>
+          <city>Bentivoglio</city>
+          <postalCode>40010</postalCode>
+          <country>IT</country>
+          <geolocation>44.5920098,11.3954907</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PRC</code>
+              <title>Private for-profit entities (excluding Higher or Secondary Education Establishments)</title>
+              <displayCode>/Private for-profit entities (excluding Higher or Secondary Education Establishments)</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Bologna</name>
+              <rcn>1465366</rcn>
+              <nutsCode>ITH55</nutsCode>
+              <parents>
+                <region>
+                  <name>Emilia-Romagna</name>
+                  <rcn>1465007</rcn>
+                  <nutsCode>ITH5</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Nord-Est</name>
+                      <rcn>1465001</rcn>
+                      <nutsCode>ITH</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Italy</name>
+                          <rcn>309758504</rcn>
+                          <nutsCode>IT</nutsCode>
+                          <euCode>IT</euCode>
+                          <isoCode>IT</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Italy</name>
+              <rcn>309758504</rcn>
+              <nutsCode>IT</nutsCode>
+              <euCode>IT</euCode>
+              <isoCode>IT</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="339989.13" totalCost="485700.01" source="corda" order="7" ecContribution="339989.13" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1981984</rcn>
+        <id>882317918</id>
+        <vatNumber>DE332675079</vatNumber>
+        <legalName>OTTO FUCHS KG</legalName>
+        <address>
+          <street>DERSCHLAGER STRASSE 26</street>
+          <city>Meinerzhagen</city>
+          <postalCode>58540</postalCode>
+          <country>DE</country>
+          <geolocation>51.1002934,7.6388051</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PRC</code>
+              <title>Private for-profit entities (excluding Higher or Secondary Education Establishments)</title>
+              <displayCode>/Private for-profit entities (excluding Higher or Secondary Education Establishments)</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Märkischer Kreis</name>
+              <rcn>221815112</rcn>
+              <nutsCode>DEA58</nutsCode>
+              <parents>
+                <region>
+                  <name>Arnsberg</name>
+                  <rcn>221815144</rcn>
+                  <nutsCode>DEA5</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Nordrhein-Westfalen</name>
+                      <rcn>221817384</rcn>
+                      <nutsCode>DEA</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Germany</name>
+                          <rcn>221940264</rcn>
+                          <nutsCode>DE</nutsCode>
+                          <euCode>DE</euCode>
+                          <isoCode>DE</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Germany</name>
+              <rcn>221940264</rcn>
+              <nutsCode>DE</nutsCode>
+              <euCode>DE</euCode>
+              <isoCode>DE</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="584500" totalCost="835000" source="corda" order="2" ecContribution="584500" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1981983</rcn>
+        <id>885287088</id>
+        <vatNumber>FR81381252121</vatNumber>
+        <legalName>SAFE METAL</legalName>
+        <shortName>SAFE METAL</shortName>
+        <address>
+          <street>BOULEVARD DE LA BOISSONNETTE</street>
+          <city>FEURS</city>
+          <postalCode>42110</postalCode>
+          <country>FR</country>
+          <geolocation>45.746714049999994,4.818736795702976</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PRC</code>
+              <title>Private for-profit entities (excluding Higher or Secondary Education Establishments)</title>
+              <displayCode>/Private for-profit entities (excluding Higher or Secondary Education Establishments)</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedRegion">
+              <name>France</name>
+              <rcn>258902568</rcn>
+              <nutsCode>FR</nutsCode>
+              <euCode>FR</euCode>
+              <isoCode>FR</isoCode>
+            </region>
+            <region type="relatedNutsCode">
+              <name>Loire</name>
+              <rcn>1464511</rcn>
+              <nutsCode>FRK25</nutsCode>
+              <parents>
+                <region>
+                  <name>Rhône-Alpes</name>
+                  <rcn>1464966</rcn>
+                  <nutsCode>FRK2</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Auvergne-Rhône-Alpes</name>
+                      <rcn>1464964</rcn>
+                      <nutsCode>FRK</nutsCode>
+                      <parents>
+                        <region>
+                          <name>France</name>
+                          <rcn>258902568</rcn>
+                          <nutsCode>FR</nutsCode>
+                          <euCode>FR</euCode>
+                          <isoCode>FR</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="553742" totalCost="553742.5" source="corda" order="5" ecContribution="553742" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1917794</rcn>
+        <id>999510311</id>
+        <legalName>ECOLE CENTRALE DE LYON</legalName>
+        <shortName>ECL</shortName>
+        <address>
+          <street>AVENUE GUY DE COLLONGUE 36</street>
+          <city>Ecully</city>
+          <postalCode>69134</postalCode>
+          <country>FR</country>
+          <postBox>163</postBox>
+          <url>http://www.ec-lyon.fr</url>
+          <geolocation>45.7791179,4.7706094</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Rhône</name>
+              <rcn>1465355</rcn>
+              <nutsCode>FRK26</nutsCode>
+              <parents>
+                <region>
+                  <name>Rhône-Alpes</name>
+                  <rcn>1464966</rcn>
+                  <nutsCode>FRK2</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Auvergne-Rhône-Alpes</name>
+                      <rcn>1464964</rcn>
+                      <nutsCode>FRK</nutsCode>
+                      <parents>
+                        <region>
+                          <name>France</name>
+                          <rcn>258902568</rcn>
+                          <nutsCode>FR</nutsCode>
+                          <euCode>FR</euCode>
+                          <isoCode>FR</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>France</name>
+              <rcn>258902568</rcn>
+              <nutsCode>FR</nutsCode>
+              <euCode>FR</euCode>
+              <isoCode>FR</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="292635" totalCost="418050" source="corda" order="3" ecContribution="292635" terminated="false" sme="true" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1938827</rcn>
+        <id>962836454</id>
+        <vatNumber>DE263435522</vatNumber>
+        <legalName>ACS-SOLUTIONS GMBH</legalName>
+        <shortName>ACS</shortName>
+        <address>
+          <street>SCIENCE PARK 2</street>
+          <city>Saarbrucken</city>
+          <postalCode>66123</postalCode>
+          <country>DE</country>
+          <postBox>000</postBox>
+          <url>http://www.i-deal-technologies.com</url>
+          <geolocation>49.25638255,7.0383628603703965</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PRC</code>
+              <title>Private for-profit entities (excluding Higher or Secondary Education Establishments)</title>
+              <displayCode>/Private for-profit entities (excluding Higher or Secondary Education Establishments)</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Regionalverband Saarbrücken</name>
+              <rcn>221822977</rcn>
+              <nutsCode>DEC01</nutsCode>
+              <parents>
+                <region>
+                  <name>Saarland</name>
+                  <rcn>221823016</rcn>
+                  <nutsCode>DEC0</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Saarland</name>
+                      <rcn>221825576</rcn>
+                      <nutsCode>DEC</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Germany</name>
+                          <rcn>221940264</rcn>
+                          <nutsCode>DE</nutsCode>
+                          <euCode>DE</euCode>
+                          <isoCode>DE</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Germany</name>
+              <rcn>221940264</rcn>
+              <nutsCode>DE</nutsCode>
+              <euCode>DE</euCode>
+              <isoCode>DE</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="643466" totalCost="643466.25" source="corda" order="1" ecContribution="643466" terminated="false" sme="false" type="coordinator">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1913907</rcn>
+        <id>999610221</id>
+        <vatNumber>ATU38420507</vatNumber>
+        <legalName>PROFACTOR GMBH</legalName>
+        <shortName>PROFACTOR</shortName>
+        <address>
+          <street>IM STADTGUT D1</street>
+          <city>STEYR GLEINK</city>
+          <postalCode>4407</postalCode>
+          <country>AT</country>
+          <url>https://www.profactor.at</url>
+          <geolocation>48.0687171,14.4155839</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/REC</code>
+              <title>Research Organisations</title>
+              <displayCode>/Research Organisations</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Steyr-Kirchdorf</name>
+              <rcn>175386692</rcn>
+              <nutsCode>AT314</nutsCode>
+              <parents>
+                <region>
+                  <name>Oberösterreich</name>
+                  <rcn>175386728</rcn>
+                  <nutsCode>AT31</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Westösterreich</name>
+                      <rcn>175389224</rcn>
+                      <nutsCode>AT3</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Austria</name>
+                          <rcn>175540776</rcn>
+                          <nutsCode>AT</nutsCode>
+                          <euCode>AT</euCode>
+                          <isoCode>AT</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Austria</name>
+              <rcn>175540776</rcn>
+              <nutsCode>AT</nutsCode>
+              <euCode>AT</euCode>
+              <isoCode>AT</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme type="relatedLegalBasis" source="corda" uniqueProgrammePart="true">
+        <availableLanguages>en</availableLanguages>
+        <rcn>705756</rcn>
+        <id>HORIZON.2.4</id>
+        <code>HORIZON.2.4</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.2.4</pga>
+        <title>Digital, Industry and Space</title>
+        <parent>
+          <programme>
+            <rcn>705740</rcn>
+            <code>HORIZON.2</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode>/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme type="relatedTopic" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>706682</rcn>
+        <id>HORIZON_HORIZON-CL4-2022-DIGITAL-EMERGING-02-05</id>
+        <code>HORIZON-CL4-2022-DIGITAL-EMERGING-02-05</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>AI, Data and Robotics for Industry optimisation (including production and services) (AI, Data and Robotics Partnership) (IA)</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode>/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+            <category classification="topicKeyword" type="isAbout">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <code>/43457356</code>
+              <title>Smart manufacturing</title>
+              <displayCode>/Smart manufacturing</displayCode>
+            </category>
+            <category classification="topicKeyword" type="isAbout">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <code>/43450593</code>
+              <title>Computer sciences, information science and bioinformatics</title>
+              <displayCode>/Computer sciences, information science and bioinformatics</displayCode>
+            </category>
+            <category classification="topicKeyword" type="isAbout">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <code>/43456825</code>
+              <title>Robotics and automatic control</title>
+              <displayCode>/Robotics and automatic control</displayCode>
+            </category>
+            <category classification="topicKeyword" type="isAbout">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <code>/43451374</code>
+              <title>Electrical and electronic engineering</title>
+              <displayCode>/Electrical and electronic engineering</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme type="relatedLegalBasis" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>705761</rcn>
+        <id>HORIZON.2.4.5</id>
+        <code>HORIZON.2.4.5</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.2.4.5</pga>
+        <title>Artificial Intelligence and Robotics</title>
+        <parent>
+          <programme>
+            <rcn>705756</rcn>
+            <code>HORIZON.2.4</code>
+            <parent>
+              <programme>
+                <rcn>705740</rcn>
+                <code>HORIZON.2</code>
+                <parent>
+                  <programme>
+                    <rcn>705725</rcn>
+                    <code>HORIZON</code>
+                  </programme>
+                </parent>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode>/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1377458</rcn>
+        <id>101118511_244845_PUBLIHORIZON</id>
+        <title>Surface topography evolution in robotic electrochemical-mechanical polishing process of 316L stainless steel</title>
+        <details>
+          <authors>Sangil Han, Daniel Krzak, Mehmet Cici, Thierry André, Ferdinando Salvatore, Joël Rech</authors>
+          <journalNumber></journalNumber>
+          <journalTitle></journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2026</publishedYear>
+          <publisher>ELSEVIER</publisher>
+        </details>
+        <sourceUpdateDate>2025-10-20 17:42:54</sourceUpdateDate>
+        <contentUpdateDate>2025-10-28 11:09:40</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode>/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/29/101/555/1359</code>
+        <title>automation</title>
+        <displayCode>/social sciences/sociology/industrial relations/automation</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/29/91/521/1299/1757</code>
+        <title>productivity</title>
+        <displayCode>/social sciences/economics and business/economics/production economics/productivity</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="100">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode>/Digital agenda</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode>/Clean air</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="100">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode>/Artificial intelligence</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode>/Climate action</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode>/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages>en</availableLanguages>
+        <code>/HORIZON-IA</code>
+        <title>HORIZON Innovation Actions</title>
+        <description>HORIZON Innovation Actions</description>
+        <displayCode>/HORIZON Innovation Actions</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode>/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

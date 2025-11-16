@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages>en</availableLanguages>
+  <rcn>263802</rcn>
+  <id>101152924</id>
+  <acronym>RNA-Diffusion</acronym>
+  <teaser>Ribonucleic Acids (RNAs) are crucial polymers in biology: RNAs might be the key to understanding the origins of life and are extremely promising therapeutic tools. Just like proteins, RNAs numerous properties stem from their 3-dimensional structure, which itself arises from...</teaser>
+  <objective>Ribonucleic Acids (RNAs) are crucial polymers in biology: RNAs might be the key to understanding the origins of life and are extremely promising therapeutic tools. Just like proteins, RNAs numerous properties stem from their 3-dimensional structure, which itself arises from their nucleotide sequence. However, RNA molecules are particularly dynamical, making their structure noticeably difficult to study, both experimentally and theoretically. Moreover, RNA dynamics are critical for biological function.
+Recently, deep learning (DL) methods have revolutionised computational biophysics by mastering the task of protein native structure prediction from sequence. Comparable success can be hoped for RNA, but it is impaired by the less abundant data and the lack of direct transferability of current methods. More importantly, no attempt has been made at developing a DL approach to directly predict RNA dynamics.
+In this proposal we aim to adapt the emergent framework of diffusion models to the task of one-shot sampling of RNA conformational ensembles. Diffusion models constitute a new paradigm in generative machine learning (ML) that has attained astounding successes in conditional image generation, audio, graph and geometric shape synthesis. Our goal is to produce a neural network-based software which, given an arbitrary input sequence, efficiently samples the 3D coordinates of RNA conformations according to their equilibrium probabilities. To do so we suggest an original approach combining (1) coarse-grained internal coordinates, (2) a diffusion-based generative framework, (3) an attention-based architecture inspired by state-of-the-art DL biomolecular approaches and (4) a mixed training procedure based on experimental fragments and molecular dynamics simulations. Our approach could be used as a replacement to extensive MD simulations which are voracious both in human time and energy expense, hence accelerating biophysical research and decreasing its carbon footprint.</objective>
+  <title>RNA Dynamics prediction with Diffusion Models</title>
+  <totalCost>0</totalCost>
+  <ecMaxContribution>172750.08</ecMaxContribution>
+  <startDate>2024-12-01</startDate>
+  <endDate>2026-11-30</endDate>
+  <ecSignatureDate>2024-05-22</ecSignatureDate>
+  <duration>24</duration>
+  <status>SIGNED</status>
+  <keywords>RNA, dynamics, diffusion model, deep learning, score-based generative modelling, coarse graining, molecular dynamics</keywords>
+  <identifiers>
+    <grantDoi>10.3030/101152924</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>false</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2024-12-31 09:30:22</sourceUpdateDate>
+  <contentCreationDate>2024-05-29 16:05:24</contentCreationDate>
+  <contentUpdateDate>2024-05-29 16:05:22</contentUpdateDate>
+  <lastUpdateDate>2025-09-19 14:48:52</lastUpdateDate>
+  <relations>
+    <associations>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>56065</rcn>
+        <title>HORIZON-MSCA-2023-PF-01</title>
+        <identifier>HORIZON-MSCA-2023-PF-01</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>56065</rcn>
+        <title>HORIZON-MSCA-2023-PF-01</title>
+        <identifier>HORIZON-MSCA-2023-PF-01</identifier>
+      </call>
+      <organization netEcContribution="172750.08" totalCost="0" source="corda" order="1" ecContribution="172750.08" terminated="false" sme="false" type="coordinator">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1908564</rcn>
+        <id>999850878</id>
+        <vatNumber>IT00551830326</vatNumber>
+        <legalName>SCUOLA INTERNAZIONALE SUPERIORE DI STUDI AVANZATI DI TRIESTE</legalName>
+        <shortName>SISSA</shortName>
+        <address>
+          <street>VIA BONOMEA   265</street>
+          <city>Trieste</city>
+          <postalCode>34136</postalCode>
+          <country>IT</country>
+          <url>http://www.sissa.it</url>
+          <geolocation>45.67970335,13.7748282360935</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Trieste</name>
+              <rcn>1464074</rcn>
+              <nutsCode>ITH44</nutsCode>
+              <parents>
+                <region>
+                  <name>Friuli-Venezia Giulia</name>
+                  <rcn>1465006</rcn>
+                  <nutsCode>ITH4</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Nord-Est</name>
+                      <rcn>1465001</rcn>
+                      <nutsCode>ITH</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Italy</name>
+                          <rcn>309758504</rcn>
+                          <nutsCode>IT</nutsCode>
+                          <euCode>IT</euCode>
+                          <isoCode>IT</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Italy</name>
+              <rcn>309758504</rcn>
+              <nutsCode>IT</nutsCode>
+              <euCode>IT</euCode>
+              <isoCode>IT</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme type="relatedTopic" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>707918</rcn>
+        <id>HORIZON_HORIZON-MSCA-2023-PF-01-01</id>
+        <code>HORIZON-MSCA-2023-PF-01-01</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>MSCA Postdoctoral Fellowships 2023</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode>/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme type="relatedLegalBasis" source="corda" uniqueProgrammePart="true">
+        <availableLanguages>en</availableLanguages>
+        <rcn>705729</rcn>
+        <id>HORIZON.1.2</id>
+        <code>HORIZON.1.2</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.1.2</pga>
+        <title>Marie Skłodowska-Curie Actions (MSCA)</title>
+        <parent>
+          <programme>
+            <rcn>705726</rcn>
+            <code>HORIZON.1</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode>/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1321529</rcn>
+        <id>101152924_1_DELIVHORIZON</id>
+        <title>Data Management Plan</title>
+        <description>The Data Management Plan describes the data management life cycle for all data sets that will be collected, processed or generated by the action. It is a document describing what data will be collected, processed or generated and following what methodology and standards, whether and how this data will be shared and/or made open, and how it will be curated and preserved.</description>
+        <sourceUpdateDate>2025-06-09 13:13:44</sourceUpdateDate>
+        <contentUpdateDate>2025-07-11 12:59:10</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>ebbd2f8f411beec0b0d0fa66e37f7076</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e51d5c161b&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/DMP</code>
+              <title>Data Management Plan</title>
+              <displayCode>/Data Management Plan</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode>/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/49/315/997/1613</code>
+        <title>proteins</title>
+        <displayCode>/natural sciences/biological sciences/biochemistry/biomolecules/proteins</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/47/297/933/1589</code>
+        <title>deep learning</title>
+        <displayCode>/natural sciences/computer and information sciences/artificial intelligence/machine learning/deep learning</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/49/337/1019</code>
+        <title>nucleotides</title>
+        <displayCode>/natural sciences/biological sciences/genetics/nucleotides</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/49/329</code>
+        <title>biophysics</title>
+        <displayCode>/natural sciences/biological sciences/biophysics</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/49/337/1021</code>
+        <title>RNA</title>
+        <displayCode>/natural sciences/biological sciences/genetics/RNA</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="40">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode>/Digital agenda</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="40">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode>/Clean air</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="40">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode>/Artificial intelligence</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="40">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode>/Climate action</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode>/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages>en</availableLanguages>
+        <code>/HORIZON-TMA-MSCA-PF-EF</code>
+        <title>HORIZON TMA MSCA Postdoctoral Fellowships - European Fellowships</title>
+        <description>HORIZON TMA MSCA Postdoctoral Fellowships - European Fellowships</description>
+        <displayCode>/HORIZON TMA MSCA Postdoctoral Fellowships - European Fellowships</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode>/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

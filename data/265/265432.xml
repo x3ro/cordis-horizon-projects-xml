@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages>en</availableLanguages>
+  <rcn>265432</rcn>
+  <id>101141351</id>
+  <acronym>COMPACT</acronym>
+  <teaser>Model predictive control (MPC) is applied with success in industry for automating constrained multivariable dynamical systems in an optimized way. However, some crucial aspects of MPC design largely remain to be addressed to unleash the full potential of MPC in applications:...</teaser>
+  <objective>Model predictive control (MPC) is applied with success in industry for automating constrained multivariable dynamical systems in an optimized way. However, some crucial aspects of MPC design largely remain to be addressed to unleash the full potential of MPC in applications: the efforts required to collect experimental data, identify the prediction model, and calibrate the controller, must be reduced considerably; the controller must self-adapt seamlessly to cope with unforeseen changes and not require excessively demanding computer hardware for deployment. This project aims to address methodologically such aspects and establish a theoretical and algorithmic framework for designing the next generation of nonlinear adaptive embedded MPC systems from data. Firstly, to reduce data-collection efforts significantly, we will develop tools that enable the design of experiments based on novel active-learning approaches to nonlinear system identification, coupled with robust MPC schemes to ensure safe data collection. Secondly, to cut calibration efforts down drastically, we will devise innovative preference-based methods that can learn from calibrators' assessments and automatically detect critical closed-loop scenarios. Thirdly, we will develop methods for seemingly adapting the prediction model at runtime to cope with uncertainties and model mismatches not seen during the design, as well as methods for approximating the control law with different tradeoffs between the amount of required online computations and the obtained closed-loop performance. To demonstrate the potential industrial use of the methodologies and algorithms developed in the project, we will formulate and solve laboratory benchmark problems on an experimental robotic platform, a challenging system for data-driven control due to its highly nonlinear, multi-input/multi-output, and fast-sampling dynamics.</objective>
+  <title>Computational model predictive and adaptive control tools</title>
+  <totalCost>2499375</totalCost>
+  <ecMaxContribution>2499375</ecMaxContribution>
+  <startDate>2024-09-01</startDate>
+  <endDate>2029-08-31</endDate>
+  <ecSignatureDate>2024-08-06</ecSignatureDate>
+  <duration>60</duration>
+  <status>SIGNED</status>
+  <keywords>Model predictive control, nonlinear system identification, active learning, recurrent neural networks, nonlinear programming, robot control</keywords>
+  <identifiers>
+    <grantDoi>10.3030/101141351</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>false</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2024-12-31 09:30:22</sourceUpdateDate>
+  <contentCreationDate>2024-08-20 15:27:01</contentCreationDate>
+  <contentUpdateDate>2024-08-20 15:27:00</contentUpdateDate>
+  <lastUpdateDate>2025-09-19 14:48:36</lastUpdateDate>
+  <relations>
+    <associations>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>55834</rcn>
+        <title>ERC-2023-ADG</title>
+        <identifier>ERC-2023-ADG</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>55834</rcn>
+        <title>ERC-2023-ADG</title>
+        <identifier>ERC-2023-ADG</identifier>
+      </call>
+      <organization netEcContribution="2499375" totalCost="2499375" source="corda" order="1" ecContribution="2499375" terminated="false" sme="false" type="coordinator">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1915558</rcn>
+        <id>965146412</id>
+        <vatNumber>IT02235840465</vatNumber>
+        <legalName>SCUOLA IMT (ISTITUZIONI, MERCATI, TECNOLOGIE) ALTI STUDI DI LUCCA</legalName>
+        <shortName>IMT LUCCA</shortName>
+        <address>
+          <street>PIAZZA SAN PONZIANO 6</street>
+          <city>Lucca</city>
+          <postalCode>55100</postalCode>
+          <country>IT</country>
+          <postBox>000</postBox>
+          <url>https://www.imtlucca.it/</url>
+          <geolocation>43.8428381,10.502876</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Lucca</name>
+              <rcn>1464250</rcn>
+              <nutsCode>ITI12</nutsCode>
+              <parents>
+                <region>
+                  <name>Toscana</name>
+                  <rcn>1465009</rcn>
+                  <nutsCode>ITI1</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Centro (IT)</name>
+                      <rcn>1465008</rcn>
+                      <nutsCode>ITI</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Italy</name>
+                          <rcn>309758504</rcn>
+                          <nutsCode>IT</nutsCode>
+                          <euCode>IT</euCode>
+                          <isoCode>IT</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Italy</name>
+              <rcn>309758504</rcn>
+              <nutsCode>IT</nutsCode>
+              <euCode>IT</euCode>
+              <isoCode>IT</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme type="relatedTopic" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>707185</rcn>
+        <id>HORIZON_ERC-2023-ADG</id>
+        <code>ERC-2023-ADG</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>ERC ADVANCED GRANTS</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode>/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme type="relatedLegalBasis" source="corda" uniqueProgrammePart="true">
+        <availableLanguages>en</availableLanguages>
+        <rcn>705727</rcn>
+        <id>HORIZON.1.1</id>
+        <code>HORIZON.1.1</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.1.1</pga>
+        <title>European Research Council (ERC)</title>
+        <parent>
+          <programme>
+            <rcn>705726</rcn>
+            <code>HORIZON.1</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode>/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode>/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/29/89</code>
+        <title>law</title>
+        <displayCode>/social sciences/law</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="100">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode>/Digital agenda</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="40">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode>/Clean air</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="40">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode>/Artificial intelligence</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="40">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode>/Climate action</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode>/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages>en</availableLanguages>
+        <code>/HORIZON-ERC</code>
+        <title>HORIZON ERC Grants</title>
+        <description>HORIZON ERC Grants</description>
+        <displayCode>/HORIZON ERC Grants</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode>/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

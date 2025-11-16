@@ -1,0 +1,3237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages>en</availableLanguages>
+  <rcn>240113</rcn>
+  <id>101070558</id>
+  <acronym>FoQaCiA</acronym>
+  <teaser>In FoQaCiA, we will expand the theoretical basis for the design of quantum algorithms. Our view is that the future success of quantum computing critically depends on advances at the most fundamental level, and that large-scale investments in quantum implementations will only...</teaser>
+  <objective>In FoQaCiA, we will expand the theoretical basis for the design of quantum algorithms. Our view is that the future success of quantum computing critically depends on advances at the most fundamental level, and that large-scale investments in quantum implementations will only pay off if they can draw on additional foundational insights and ideas. While several powerful quantum algorithms are known, the basic techniques they employ are few and far between. Largely, it still remains to be discovered how to systematically harness the quantum for computation. 
+
+We study four areas of quantum phenomenology: (i) Quantum contextuality, non-classicality, and quantum advantage, (ii) Complexity of classical simulation of quantum computation, (iii) Arithmetic of quantum circuits, and (iv) Efficiency of fault-tolerant quantum computation.
+
+These fields are chosen for two reasons. First, their progress is of great importance for the physical realisation and the broad applicability of quantum computation. Regarding (i), one of the simplest proofs of quantum contextuality, Mermin’s star, has recently been employed to prove (Bravyi, Gosset, König) that bounded-depth quantum circuits are more powerful than their classical analogues. We seek to expand this result beyond bounded depth. In (ii), we study the quantum speedup by shaving off the redundant part – the efficiently classically simulable. In (iii), we aim to provide more efficient techniques for gate and circuit synthesis, utilising the number-theoretic underpinnings of the problem. Regarding (iv), given the celebrated threshold theorem, and the fact that the error threshold is now known to be within reach of experiment, we will tackle the remaining challenge of reducing the cost of fault tolerance.
+
+The second reason for selecting the above work areas is to mine them for foundational quantum mechanical structures and find related quantum algorithmic uses.</objective>
+  <title>Foundations of quantum computational advantage</title>
+  <totalCost>1247340</totalCost>
+  <ecMaxContribution>1247340</ecMaxContribution>
+  <startDate>2022-10-01</startDate>
+  <endDate>2026-03-31</endDate>
+  <ecSignatureDate>2022-05-31</ecSignatureDate>
+  <duration>42</duration>
+  <status>SIGNED</status>
+  <keywords>Quantum computing, contextuality, non-locality, Wigner functions, classical simulation, fault tolerance, magic state distillation, quantum cryptography,gate synthesis,number theory,topological methods</keywords>
+  <identifiers>
+    <grantDoi>10.3030/101070558</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>false</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2025-07-03 09:32:26</sourceUpdateDate>
+  <contentCreationDate>2022-08-26 02:22:27</contentCreationDate>
+  <contentUpdateDate>2025-08-11 09:52:23</contentUpdateDate>
+  <lastUpdateDate>2025-09-19 14:48:34</lastUpdateDate>
+  <relations>
+    <associations>
+      <article source="editorial" type="relatedArticle">
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <rcn>437417</rcn>
+        <id>437417-new-techniques-underlying-the-design-of-efficient-quantum-algorithms</id>
+        <title>New techniques underlying the design of efficient quantum algorithms</title>
+        <contentUpdateDate>2022-11-21 09:50:00</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/projectDescription</code>
+              <title>Project description</title>
+              <description>Article: description of linked project written by editorial team</description>
+              <displayCode>/Project description</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/editorial</code>
+              <title>CORDIS Editorial</title>
+              <description>Written by CORDIS</description>
+              <displayCode>/CORDIS Editorial</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </article>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>55533</rcn>
+        <title>HORIZON-CL4-2021-DIGITAL-EMERGING-01</title>
+        <identifier>HORIZON-CL4-2021-DIGITAL-EMERGING-01</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>55533</rcn>
+        <title>HORIZON-CL4-2021-DIGITAL-EMERGING-01</title>
+        <identifier>HORIZON-CL4-2021-DIGITAL-EMERGING-01</identifier>
+      </call>
+      <organization netEcContribution="0" totalCost="0" source="corda" order="7" terminated="false" sme="false" type="associatedPartner">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1943713</rcn>
+        <id>998804636</id>
+        <legalName>UNIVERSITY OF BRITISH COLUMBIA</legalName>
+        <shortName>UBC</shortName>
+        <address>
+          <street>AGRONOMY ROAD 102-6190</street>
+          <city>VANCOUVER</city>
+          <postalCode>V6T 1Z2</postalCode>
+          <country>CA</country>
+          <url>https://www.ubc.ca</url>
+          <geolocation>49.2604466,-123.2531788</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Canada</name>
+              <rcn>204114472</rcn>
+              <nutsCode>CA</nutsCode>
+              <euCode>CA</euCode>
+              <isoCode>CA</isoCode>
+            </region>
+            <region type="relatedRegion">
+              <name>Canada</name>
+              <rcn>204114472</rcn>
+              <nutsCode>CA</nutsCode>
+              <euCode>CA</euCode>
+              <isoCode>CA</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="0" totalCost="0" source="corda" order="10" terminated="false" sme="false" type="associatedPartner">
+        <availableLanguages>en</availableLanguages>
+        <rcn>2141210</rcn>
+        <id>996231614</id>
+        <legalName>UNIVERSITY OF WATERLOO</legalName>
+        <shortName>UNIVERSITY OF WATERLOO</shortName>
+        <address>
+          <street>200 UNIVERSITY AVENUE WEST</street>
+          <city>Waterloo</city>
+          <postalCode>N2L 3G1</postalCode>
+          <country>CA</country>
+          <url>https://www.uwaterloo.ca</url>
+          <geolocation>43.47061295,-80.54724731656324</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Canada</name>
+              <rcn>204114472</rcn>
+              <nutsCode>CA</nutsCode>
+              <euCode>CA</euCode>
+              <isoCode>CA</isoCode>
+            </region>
+            <region type="relatedRegion">
+              <name>Canada</name>
+              <rcn>204114472</rcn>
+              <nutsCode>CA</nutsCode>
+              <euCode>CA</euCode>
+              <isoCode>CA</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="231750" totalCost="231750" source="corda" order="4" ecContribution="231750" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1907050</rcn>
+        <id>999882015</id>
+        <vatNumber>ESQ1818002F</vatNumber>
+        <legalName>UNIVERSIDAD DE GRANADA</legalName>
+        <shortName>UGR</shortName>
+        <address>
+          <street>CUESTA DEL HOSPICIO SN</street>
+          <city>GRANADA</city>
+          <postalCode>18071</postalCode>
+          <country>ES</country>
+          <postBox>N/A</postBox>
+          <url>http://www.ugr.es</url>
+          <geolocation>37.1830197,-3.6021919</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Granada</name>
+              <rcn>242245700</rcn>
+              <nutsCode>ES614</nutsCode>
+              <parents>
+                <region>
+                  <name>Andalucía</name>
+                  <rcn>242245736</rcn>
+                  <nutsCode>ES61</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Sur</name>
+                      <rcn>1465449</rcn>
+                      <nutsCode>ES6</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Spain</name>
+                          <rcn>242387496</rcn>
+                          <nutsCode>ES</nutsCode>
+                          <euCode>ES</euCode>
+                          <isoCode>ES</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Spain</name>
+              <rcn>242387496</rcn>
+              <nutsCode>ES</nutsCode>
+              <euCode>ES</euCode>
+              <isoCode>ES</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="229912.5" totalCost="229912.5" source="corda" order="6" ecContribution="229912.5" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1910710</rcn>
+        <id>999876001</id>
+        <vatNumber>PL5840203239</vatNumber>
+        <legalName>UNIWERSYTET GDANSKI</legalName>
+        <shortName>UNIVERSITY OF GDANSK</shortName>
+        <address>
+          <street>UL JANA BAZYNSKIEGO 8</street>
+          <city>GDANSK</city>
+          <postalCode>80-309</postalCode>
+          <country>PL</country>
+          <url>http://www.ug.edu.pl</url>
+          <geolocation>54.3998329,18.5680212</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Trójmiejski</name>
+              <rcn>424960195</rcn>
+              <nutsCode>PL633</nutsCode>
+              <parents>
+                <region>
+                  <name>Pomorskie</name>
+                  <rcn>424960232</rcn>
+                  <nutsCode>PL63</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Makroregion północny</name>
+                      <rcn>424962600</rcn>
+                      <nutsCode>PL6</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Poland</name>
+                          <rcn>425101864</rcn>
+                          <nutsCode>PL</nutsCode>
+                          <euCode>PL</euCode>
+                          <isoCode>PL</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Poland</name>
+              <rcn>425101864</rcn>
+              <nutsCode>PL</nutsCode>
+              <euCode>PL</euCode>
+              <isoCode>PL</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="0" totalCost="0" source="corda" order="8" terminated="false" sme="false" type="associatedPartner">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1941300</rcn>
+        <id>986276989</id>
+        <legalName>Simon Fraser University</legalName>
+        <shortName>SFU</shortName>
+        <address>
+          <street>UNIVERSITY DRIVE 8888</street>
+          <city>Burnaby</city>
+          <postalCode>V5A 1S6</postalCode>
+          <country>CA</country>
+          <url>http://www.sfu.ca</url>
+          <geolocation>49.2445,-122.972717</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Canada</name>
+              <rcn>204114472</rcn>
+              <nutsCode>CA</nutsCode>
+              <euCode>CA</euCode>
+              <isoCode>CA</isoCode>
+            </region>
+            <region type="relatedRegion">
+              <name>Canada</name>
+              <rcn>204114472</rcn>
+              <nutsCode>CA</nutsCode>
+              <euCode>CA</euCode>
+              <isoCode>CA</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="202735" totalCost="202735" source="corda" order="5" ecContribution="202735" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1906338</rcn>
+        <id>999923628</id>
+        <vatNumber>TR1750021979</vatNumber>
+        <legalName>BILKENT UNIVERSITESI VAKIF</legalName>
+        <shortName>BILKENTUNIVERSITY BILIM KENTI</shortName>
+        <address>
+          <street>ESKISEHIR YOLU 8 KM</street>
+          <city>BILKENT ANKARA</city>
+          <postalCode>06800</postalCode>
+          <country>TR</country>
+          <url>http://www.bilkent.edu.tr</url>
+          <geolocation>39.881951,32.7584164</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Ankara</name>
+              <rcn>1464021</rcn>
+              <nutsCode>TR510</nutsCode>
+              <parents>
+                <region>
+                  <name>Ankara</name>
+                  <rcn>1465123</rcn>
+                  <nutsCode>TR51</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Batı Anadolu</name>
+                      <rcn>1465122</rcn>
+                      <nutsCode>TR5</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Türkiye</name>
+                          <rcn>493783592</rcn>
+                          <nutsCode>TR</nutsCode>
+                          <euCode>TR</euCode>
+                          <isoCode>TR</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Türkiye</name>
+              <rcn>493783592</rcn>
+              <nutsCode>TR</nutsCode>
+              <euCode>TR</euCode>
+              <isoCode>TR</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="0" totalCost="0" source="corda" order="11" terminated="false" sme="false" type="associatedPartner">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1949570</rcn>
+        <id>999975620</id>
+        <vatNumber>GB524371168</vatNumber>
+        <legalName>UNIVERSITY COLLEGE LONDON</legalName>
+        <address>
+          <street>GOWER STREET</street>
+          <city>LONDON</city>
+          <postalCode>WC1E 6BT</postalCode>
+          <country>UK</country>
+          <postBox>N/A</postBox>
+          <url>http://www.ucl.ac.uk</url>
+          <geolocation>51.5224975,-0.1326874</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Camden and City of London</name>
+              <rcn>1465358</rcn>
+              <nutsCode>UKI31</nutsCode>
+              <parents>
+                <region>
+                  <name>Inner London — West</name>
+                  <rcn>1465192</rcn>
+                  <nutsCode>UKI3</nutsCode>
+                  <parents>
+                    <region>
+                      <name>London</name>
+                      <rcn>508635688</rcn>
+                      <nutsCode>UKI</nutsCode>
+                      <parents>
+                        <region>
+                          <name>United Kingdom</name>
+                          <rcn>508725800</rcn>
+                          <nutsCode>UK</nutsCode>
+                          <euCode>UK</euCode>
+                          <isoCode>GB</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>United Kingdom</name>
+              <rcn>508725800</rcn>
+              <nutsCode>UK</nutsCode>
+              <euCode>UK</euCode>
+              <isoCode>GB</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="341117.5" totalCost="341117.5" source="corda" order="1" ecContribution="341117.5" terminated="false" sme="false" type="coordinator">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1915934</rcn>
+        <id>988145985</id>
+        <vatNumber>PT508633346</vatNumber>
+        <legalName>INTERNATIONAL IBERIAN NANOTECHNOLOGY LABORATORY</legalName>
+        <shortName>LABORATORIO IBERICO INTERNACIONAL DE NANOTECNOLOGIA LIN</shortName>
+        <address>
+          <street>AVENIDA MESTRE JOSE VEIGA</street>
+          <city>Braga</city>
+          <postalCode>4715-330</postalCode>
+          <country>PT</country>
+          <url>http://www.inl.int</url>
+          <geolocation>41.5549337,-8.400925</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/REC</code>
+              <title>Research Organisations</title>
+              <displayCode>/Research Organisations</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Cávado</name>
+              <rcn>427036738</rcn>
+              <nutsCode>PT112</nutsCode>
+              <parents>
+                <region>
+                  <name>Norte</name>
+                  <rcn>1465074</rcn>
+                  <nutsCode>PT11</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Continente</name>
+                      <rcn>427039272</rcn>
+                      <nutsCode>PT1</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Portugal</name>
+                          <rcn>427199016</rcn>
+                          <nutsCode>PT</nutsCode>
+                          <euCode>PT</euCode>
+                          <isoCode>PT</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Portugal</name>
+              <rcn>427199016</rcn>
+              <nutsCode>PT</nutsCode>
+              <euCode>PT</euCode>
+              <isoCode>PT</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="0" totalCost="0" source="corda" order="9" terminated="false" sme="false" type="associatedPartner">
+        <availableLanguages>en</availableLanguages>
+        <rcn>2056049</rcn>
+        <id>999885216</id>
+        <legalName>UNIVERSITY OF OTTAWA</legalName>
+        <shortName>uOttawa</shortName>
+        <address>
+          <street>550 Cumberland Street (246-OVPR)</street>
+          <city>Ottawa</city>
+          <postalCode>K1N 6N5</postalCode>
+          <country>CA</country>
+          <postBox>TTBE SITE 3042</postBox>
+          <url>http://www.uottawa.ca</url>
+          <geolocation>45.421106,-75.690308</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Canada</name>
+              <rcn>204114472</rcn>
+              <nutsCode>CA</nutsCode>
+              <euCode>CA</euCode>
+              <isoCode>CA</isoCode>
+            </region>
+            <region type="relatedRegion">
+              <name>Canada</name>
+              <rcn>204114472</rcn>
+              <nutsCode>CA</nutsCode>
+              <euCode>CA</euCode>
+              <isoCode>CA</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="40000" totalCost="40000" source="corda" order="2" ecContribution="40000" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1906506</rcn>
+        <id>999885022</id>
+        <vatNumber>SE202100306201</vatNumber>
+        <legalName>STOCKHOLMS UNIVERSITET</legalName>
+        <address>
+          <street>UNIVERSITETSVAGEN 10</street>
+          <city>Stockholm</city>
+          <postalCode>10691</postalCode>
+          <country>SE</country>
+          <postBox>N/A</postBox>
+          <url>http://www.su.se</url>
+          <geolocation>59.3251172,18.0710935</geolocation>
+        </address>
+        <departmentName>Department of Biochemistry and Biophysics</departmentName>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Stockholms län</name>
+              <rcn>473436224</rcn>
+              <nutsCode>SE110</nutsCode>
+              <parents>
+                <region>
+                  <name>Stockholm</name>
+                  <rcn>473436264</rcn>
+                  <nutsCode>SE11</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Östra Sverige</name>
+                      <rcn>473438760</rcn>
+                      <nutsCode>SE1</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Sweden</name>
+                          <rcn>473598504</rcn>
+                          <nutsCode>SE</nutsCode>
+                          <euCode>SE</euCode>
+                          <isoCode>SE</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Sweden</name>
+              <rcn>473598504</rcn>
+              <nutsCode>SE</nutsCode>
+              <euCode>SE</euCode>
+              <isoCode>SE</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="0" totalCost="0" source="corda" order="12" terminated="false" sme="false" type="associatedPartner">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1905855</rcn>
+        <id>999981828</id>
+        <vatNumber>DE811245527</vatNumber>
+        <legalName>GOTTFRIED WILHELM LEIBNIZ UNIVERSITAET HANNOVER</legalName>
+        <shortName>LUH</shortName>
+        <address>
+          <street>WELFENGARTEN 1</street>
+          <city>Hannover</city>
+          <postalCode>30167</postalCode>
+          <country>DE</country>
+          <postBox>N/A</postBox>
+          <url>http://www.uni-hannover.de</url>
+          <geolocation>52.3822104,9.7171476</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Region Hannover</name>
+              <rcn>221810825</rcn>
+              <nutsCode>DE929</nutsCode>
+              <parents>
+                <region>
+                  <name>Hannover</name>
+                  <rcn>221810856</rcn>
+                  <nutsCode>DE92</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Niedersachsen</name>
+                      <rcn>221813288</rcn>
+                      <nutsCode>DE9</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Germany</name>
+                          <rcn>221940264</rcn>
+                          <nutsCode>DE</nutsCode>
+                          <euCode>DE</euCode>
+                          <isoCode>DE</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Germany</name>
+              <rcn>221940264</rcn>
+              <nutsCode>DE</nutsCode>
+              <euCode>DE</euCode>
+              <isoCode>DE</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="201825" totalCost="201825" source="corda" order="3" ecContribution="201825" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1908659</rcn>
+        <id>999862518</id>
+        <vatNumber>ESQ4118001I</vatNumber>
+        <legalName>UNIVERSIDAD DE SEVILLA</legalName>
+        <address>
+          <street>CALLE S. FERNANDO 4</street>
+          <city>Sevilla</city>
+          <postalCode>41004</postalCode>
+          <country>ES</country>
+          <url>http://www.us.es</url>
+          <geolocation>37.38181325,-5.9910237446683</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Sevilla</name>
+              <rcn>242245704</rcn>
+              <nutsCode>ES618</nutsCode>
+              <parents>
+                <region>
+                  <name>Andalucía</name>
+                  <rcn>242245736</rcn>
+                  <nutsCode>ES61</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Sur</name>
+                      <rcn>1465449</rcn>
+                      <nutsCode>ES6</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Spain</name>
+                          <rcn>242387496</rcn>
+                          <nutsCode>ES</nutsCode>
+                          <euCode>ES</euCode>
+                          <isoCode>ES</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Spain</name>
+              <rcn>242387496</rcn>
+              <nutsCode>ES</nutsCode>
+              <euCode>ES</euCode>
+              <isoCode>ES</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme type="relatedLegalBasis" source="corda" uniqueProgrammePart="true">
+        <availableLanguages>en</availableLanguages>
+        <rcn>705756</rcn>
+        <id>HORIZON.2.4</id>
+        <code>HORIZON.2.4</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.2.4</pga>
+        <title>Digital, Industry and Space</title>
+        <parent>
+          <programme>
+            <rcn>705740</rcn>
+            <code>HORIZON.2</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode>/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme type="relatedTopic" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>706453</rcn>
+        <id>HORIZON_HORIZON-CL4-2021-DIGITAL-EMERGING-01-23</id>
+        <code>HORIZON-CL4-2021-DIGITAL-EMERGING-01-23</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>International cooperation with Canada (RIA)</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode>/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+            <category classification="topicKeyword" type="isAbout">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <code>/43450788</code>
+              <title>Cryptology, security, privacy, quantum crypto</title>
+              <displayCode>/Cryptology, security, privacy, quantum crypto</displayCode>
+            </category>
+            <category classification="topicKeyword" type="isAbout">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <code>/42849521</code>
+              <title>Quantum Technologies (e.g. computing and communication)</title>
+              <displayCode>/Quantum Technologies (e.g. computing and communication)</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme type="relatedLegalBasis" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>705758</rcn>
+        <id>HORIZON.2.4.2</id>
+        <code>HORIZON.2.4.2</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.2.4.2</pga>
+        <title>Key Digital Technologies</title>
+        <parent>
+          <programme>
+            <rcn>705756</rcn>
+            <code>HORIZON.2.4</code>
+            <parent>
+              <programme>
+                <rcn>705740</rcn>
+                <code>HORIZON.2</code>
+                <parent>
+                  <programme>
+                    <rcn>705725</rcn>
+                    <code>HORIZON</code>
+                  </programme>
+                </parent>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode>/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1103050</rcn>
+        <id>101070558_31121_PUBLIHORIZON</id>
+        <title>Communications in Mathematical Physics</title>
+        <details>
+          <authors>Imin Chen, Nadish de Silva</authors>
+          <journalNumber>accepted, in press.</journalNumber>
+          <journalTitle>Communications in Mathematical Physics</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Springer Verlag</publisher>
+        </details>
+        <identifiers>
+          <issn>0010-3616</issn>
+          <doi>10.48550/arXiv.2309.15184</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-06-03 06:20:05</sourceUpdateDate>
+        <contentUpdateDate>2024-06-13 10:34:06</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1103080</rcn>
+        <id>101070558_31083_PUBLIHORIZON</id>
+        <title>A bundle perspective on contextuality: Empirical models and simplicial distributions on bundle scenarios</title>
+        <details>
+          <authors>Rui Soares Barbosa, Aziz Kharoof, Cihan Okay</authors>
+          <journalNumber>arXiv:2308.06336 [math.CT]</journalNumber>
+          <journalTitle>arXiv</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>N/A</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arxiv.2308.06336</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-06-03 06:20:05</sourceUpdateDate>
+        <contentUpdateDate>2024-06-13 10:34:08</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/OTHER</code>
+              <title>Other</title>
+              <displayCode>/Other</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1126674</rcn>
+        <id>101070558_24_DELIVHORIZON</id>
+        <title>Communication toolkit (T6.2)</title>
+        <description>Set of tools to support dissemination and communication, including project branding and visual identity, project website, and social media presence.</description>
+        <sourceUpdateDate>2024-07-05 04:36:45</sourceUpdateDate>
+        <contentUpdateDate>2024-07-08 16:12:38</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>d05363e7efc2fab9b184fd7c59728f1f</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5f9f59848&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/DEC</code>
+              <title>Websites, patent fillings, videos etc.</title>
+              <displayCode>/Websites, patent fillings, videos etc.</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1103060</rcn>
+        <id>101070558_31107_PUBLIHORIZON</id>
+        <title>Simple proof that anomalous weak values require coherence</title>
+        <details>
+          <authors>Rafael Wagner, Ernesto F. Galvão</authors>
+          <journalNumber>108, L040202</journalNumber>
+          <journalTitle>Physical Review A</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>American Physical Society</publisher>
+        </details>
+        <identifiers>
+          <issn>2469-9926</issn>
+          <doi>10.48550/arxiv.2303.08700</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-06-03 06:20:05</sourceUpdateDate>
+        <contentUpdateDate>2024-06-13 10:34:07</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1126944</rcn>
+        <id>101070558_11_DELIVHORIZON</id>
+        <title>Github release of code for computing with Heisenberg and Clifford groups built on arbitrary abelian groups (T3.1)</title>
+        <description>Stable release of open source Julia code for computing representations, cohomology, group algebras and other algebraic invariants of Heisenberg and Clifford groups over algebraic number fields using OSCAR (Open Source Computer Algebra Research system). This will enable exact computations in small dimensions that will further inform our theoretical investigations into the arithmetic structures of their orbits on states, codes, circuits, polytopes, etc.  It will also let us study the role played by non-isomorphic maximal orders in questions of exact circuit synthesis in arithmetic groups.</description>
+        <sourceUpdateDate>2024-07-05 04:36:45</sourceUpdateDate>
+        <contentUpdateDate>2024-07-08 15:55:05</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>d3297ab2dc704508868145f6b096f770</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5021f99c9&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/O</code>
+              <title>Other</title>
+              <displayCode>/Other</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1103071</rcn>
+        <id>101070558_31108_PUBLIHORIZON</id>
+        <title>Mermin polytopes in quantum computation and foundations</title>
+        <details>
+          <authors>Cihan Okay, Ho Yiu Chung, Selman Ipek</authors>
+          <journalNumber>23(9&amp;10), 733–782</journalNumber>
+          <journalTitle>Quantum Information and Computation</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>Rinton Press</publisher>
+        </details>
+        <identifiers>
+          <issn>1533-7146</issn>
+          <doi>10.48550/arXiv.2210.10186</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-06-03 06:20:05</sourceUpdateDate>
+        <contentUpdateDate>2024-06-13 10:34:08</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1103044</rcn>
+        <id>101070558_31125_PUBLIHORIZON</id>
+        <title>The operadic theory of convexity</title>
+        <details>
+          <authors>Redi Haderi, Cihan Okay, Walker H. Stern</authors>
+          <journalNumber>arXiv:2403.18102 [math.CT]</journalNumber>
+          <journalTitle>arXiv</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>N/A</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arXiv.2403.18102</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-06-03 06:20:05</sourceUpdateDate>
+        <contentUpdateDate>2024-06-13 10:34:05</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/OTHER</code>
+              <title>Other</title>
+              <displayCode>/Other</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1103065</rcn>
+        <id>101070558_31117_PUBLIHORIZON</id>
+        <title>Quantum circuits to measure scalar spin chirality</title>
+        <details>
+          <authors>Leander I. Reascos, Bruno Murta, Ernesto F. Galvão, Joaquín Fernández-Rossier</authors>
+          <journalNumber>5, 043087</journalNumber>
+          <journalTitle>Physical Review Research</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>American Physical Society</publisher>
+        </details>
+        <identifiers>
+          <issn>2643-1564</issn>
+          <doi>10.48550/arxiv.2306.14804</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-06-03 06:20:05</sourceUpdateDate>
+        <contentUpdateDate>2024-06-13 10:34:07</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1103055</rcn>
+        <id>101070558_31133_PUBLIHORIZON</id>
+        <title>Lifting noncontextuality inequalities</title>
+        <details>
+          <authors>Raman Choudhary, Rui Soares Barbosa, Adán Cabello</authors>
+          <journalNumber>109, 052216</journalNumber>
+          <journalTitle>Physical Review A</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>American Physical Society</publisher>
+        </details>
+        <identifiers>
+          <issn>1094-1622</issn>
+          <doi>10.48550/arXiv.2401.12349</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-06-03 06:20:05</sourceUpdateDate>
+        <contentUpdateDate>2024-06-13 10:34:06</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1103274</rcn>
+        <id>101070558_31139_PUBLIHORIZON</id>
+        <title>Impossibility of bipartite full nonlocality, all-versus-nothing proofs, and pseudo-telepathy in small Bell scenarios</title>
+        <details>
+          <authors>Yuan Liu, Ho Yiu Chung, Emmanuel Zambrini Cruzeiro, Junior R. Gonzales-Ureta, Ravishankar Ramanathan, Adán Cabello</authors>
+          <journalNumber>arXiv:2310.10600 [quant-ph]</journalNumber>
+          <journalTitle>arXiv</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>N/A</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/ARXIV.2310.10600</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-04-15 01:27:45</sourceUpdateDate>
+        <contentUpdateDate>2025-07-23 12:34:22</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/OTHER</code>
+              <title>Other</title>
+              <displayCode>/Other</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1103063</rcn>
+        <id>101070558_31099_PUBLIHORIZON</id>
+        <title>On the rank of two-dimensional simplicial distributions</title>
+        <details>
+          <authors>Okay, Cihan</authors>
+          <journalNumber>arXiv:2312.15794 [quant-ph]</journalNumber>
+          <journalTitle>arXiv</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>N/A</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arxiv.2312.15794</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-06-03 06:20:05</sourceUpdateDate>
+        <contentUpdateDate>2024-06-13 10:34:07</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/OTHER</code>
+              <title>Other</title>
+              <displayCode>/Other</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1103061</rcn>
+        <id>101070558_31102_PUBLIHORIZON</id>
+        <title>Alternative robust ways of witnessing nonclassicality in the simplest scenario</title>
+        <details>
+          <authors>Massy Khoshbin, Lorenzo Catani, Matthew Leifer</authors>
+          <journalNumber>109, 032212</journalNumber>
+          <journalTitle>Physical Review A</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>American Physical Society</publisher>
+        </details>
+        <identifiers>
+          <issn>2469-9926</issn>
+          <doi>10.48550/arxiv.2311.13474</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-06-03 06:20:05</sourceUpdateDate>
+        <contentUpdateDate>2024-06-13 10:34:07</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1103146</rcn>
+        <id>101070558_31135_PUBLIHORIZON</id>
+        <title>Measurement-based quantum computation in finite one-dimensional systems: string order implies computational power</title>
+        <details>
+          <authors>Robert Raussendorf, Wang Yang, Arnab Adhikary</authors>
+          <journalNumber>7, 1215</journalNumber>
+          <journalTitle>Quantum</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>Quantum</publisher>
+        </details>
+        <identifiers>
+          <issn>2521-327X</issn>
+          <doi>10.22331/q-2023-12-28-1215</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-06-03 06:20:05</sourceUpdateDate>
+        <contentUpdateDate>2024-06-13 10:34:09</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1103267</rcn>
+        <id>101070558_31137_PUBLIHORIZON</id>
+        <title>Logical possibilities for physics after MIP*=RE</title>
+        <details>
+          <authors>Adán Cabello, Marco Túlio Quintino, Matthias Kleinmann</authors>
+          <journalNumber>arXiv:2307.02920 [quant-ph]</journalNumber>
+          <journalTitle>arXiv</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>N/A</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/ARXIV.2307.02920</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-04-15 01:27:45</sourceUpdateDate>
+        <contentUpdateDate>2025-07-23 12:34:22</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/OTHER</code>
+              <title>Other</title>
+              <displayCode>/Other</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1103275</rcn>
+        <id>101070558_31141_PUBLIHORIZON</id>
+        <title>Quantum optimization: Potential, challenges, and the path forward</title>
+        <details>
+          <authors>Amira Abbas et al.</authors>
+          <journalNumber>arXiv:2312.02279 [quant-ph]</journalNumber>
+          <journalTitle>arXiv</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>N/A</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arXiv.2312.02279</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-06-03 06:20:05</sourceUpdateDate>
+        <contentUpdateDate>2024-06-13 10:34:14</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/OTHER</code>
+              <title>Other</title>
+              <displayCode>/Other</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1103047</rcn>
+        <id>101070558_31123_PUBLIHORIZON</id>
+        <title>Bases for optimising stabiliser decompositions of quantum states</title>
+        <details>
+          <authors>Nadish de Silva, Ming Yin, Sergii Strelchuk</authors>
+          <journalNumber>accepted, in press</journalNumber>
+          <journalTitle>Quantum Science and Technology</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>IOP Publishing</publisher>
+        </details>
+        <identifiers>
+          <issn>2058-9565</issn>
+          <doi>10.48550/arXiv.2311.17384</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-06-03 06:20:05</sourceUpdateDate>
+        <contentUpdateDate>2024-06-13 10:34:05</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1103261</rcn>
+        <id>101070558_31144_PUBLIHORIZON</id>
+        <title>SIC-POVMs from Stark units: dimensions n^2+3=4p, p prime</title>
+        <details>
+          <authors>Ingemar Bengtsson, Markus Grassl, Gary McConnell</authors>
+          <journalNumber>arXiv:2403.02872 [quant-ph]</journalNumber>
+          <journalTitle>arXiv</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>N/A</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arXiv.2403.02872</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-06-03 06:20:05</sourceUpdateDate>
+        <contentUpdateDate>2024-06-13 10:34:12</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/OTHER</code>
+              <title>Other</title>
+              <displayCode>/Other</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1103048</rcn>
+        <id>101070558_31126_PUBLIHORIZON</id>
+        <title>Twisted simplicial distributions</title>
+        <details>
+          <authors>Cihan Okay, Walker H. Stern</authors>
+          <journalNumber>arXiv:2403.19808 [quant-ph]</journalNumber>
+          <journalTitle>arXiv</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>N/A</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arXiv.2403.19808</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-06-03 06:20:05</sourceUpdateDate>
+        <contentUpdateDate>2024-06-13 10:34:05</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/OTHER</code>
+              <title>Other</title>
+              <displayCode>/Other</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1103270</rcn>
+        <id>101070558_31140_PUBLIHORIZON</id>
+        <title>Fast algorithms for classical specifications of stabiliser states and Clifford gates</title>
+        <details>
+          <authors>Nadish de Silva, Wilfred Salmon, Ming Yin</authors>
+          <journalNumber>arXiv:2311.10357 [quant-ph]</journalNumber>
+          <journalTitle>arXiv</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>N/A</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arXiv.2311.10357</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-06-03 06:20:05</sourceUpdateDate>
+        <contentUpdateDate>2024-06-13 10:34:14</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/OTHER</code>
+              <title>Other</title>
+              <displayCode>/Other</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1103059</rcn>
+        <id>101070558_31116_PUBLIHORIZON</id>
+        <title>Verifiable measurement-based quantum random sampling with trapped ions</title>
+        <details>
+          <authors>Martin Ringbauer et al.</authors>
+          <journalNumber>arXiv:2307.14424 [quant-ph]</journalNumber>
+          <journalTitle>arXiv</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>N/A</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arxiv.2307.14424</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-06-03 06:20:05</sourceUpdateDate>
+        <contentUpdateDate>2024-06-13 10:34:07</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/OTHER</code>
+              <title>Other</title>
+              <displayCode>/Other</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1103052</rcn>
+        <id>101070558_31120_PUBLIHORIZON</id>
+        <title>Topological methods for studying contextuality: N-cycle scenarios and beyond</title>
+        <details>
+          <authors>Aziz Kharoof, Selman Ipek, Cihan Okay</authors>
+          <journalNumber>25(8), 1127</journalNumber>
+          <journalTitle>Entropy</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>Multidisciplinary Digital Publishing Institute (MDPI)</publisher>
+        </details>
+        <identifiers>
+          <issn>1099-4300</issn>
+          <doi>10.3390/e25081127</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-06-03 06:20:05</sourceUpdateDate>
+        <contentUpdateDate>2024-06-13 10:34:06</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1103051</rcn>
+        <id>101070558_31124_PUBLIHORIZON</id>
+        <title>The degenerate vertices of the 2-qubit Λ-polytope and their update rules</title>
+        <details>
+          <authors>Selman Ipek, Cihan Okay</authors>
+          <journalNumber>arXiv:2312.10734 [quant-ph]</journalNumber>
+          <journalTitle>arXiv</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>N/A</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/ARXIV.2312.10734</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-04-15 01:27:45</sourceUpdateDate>
+        <contentUpdateDate>2025-07-23 12:34:22</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/OTHER</code>
+              <title>Other</title>
+              <displayCode>/Other</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1103058</rcn>
+        <id>101070558_31106_PUBLIHORIZON</id>
+        <title>Contextuality with vanishing coherence and maximal robustness to dephasing</title>
+        <details>
+          <authors>Vinicius P. Rossi, David Schmid, John H. Selby, Ana Belén Sainz</authors>
+          <journalNumber>108, 032213</journalNumber>
+          <journalTitle>Physical Review A</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>American Physical Society</publisher>
+        </details>
+        <identifiers>
+          <issn>2469-9926</issn>
+          <doi>10.48550/arxiv.2212.06856</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-06-03 06:20:05</sourceUpdateDate>
+        <contentUpdateDate>2024-06-13 10:34:06</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1103057</rcn>
+        <id>101070558_31127_PUBLIHORIZON</id>
+        <title>Game semantics for higher-order unitary quantum computation</title>
+        <details>
+          <authors>Samson Abramsky, Radha Jagadeesan</authors>
+          <journalNumber>arXiv:2404.06646 [cs.PL]</journalNumber>
+          <journalTitle>arXiv</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>N/A</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arXiv.2404.06646</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-06-03 06:20:05</sourceUpdateDate>
+        <contentUpdateDate>2024-06-13 10:34:06</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/OTHER</code>
+              <title>Other</title>
+              <displayCode>/Other</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1103056</rcn>
+        <id>101070558_31122_PUBLIHORIZON</id>
+        <title>State-independent all-versus-nothing arguments</title>
+        <details>
+          <authors>Boseong Kim, Samson Abramsky</authors>
+          <journalNumber>arXiv:2311.11218 [quant-ph]</journalNumber>
+          <journalTitle>arXiv</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>N/A</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arXiv.2311.11218</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-06-03 06:20:05</sourceUpdateDate>
+        <contentUpdateDate>2024-06-13 10:34:06</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/OTHER</code>
+              <title>Other</title>
+              <displayCode>/Other</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1103049</rcn>
+        <id>101070558_31128_PUBLIHORIZON</id>
+        <title>Kirkwood-Dirac representations beyond quantum states (and their relation to noncontextuality)</title>
+        <details>
+          <authors>David Schmid, Roberto D. Baldijão, Yìlè Yīng, Rafael Wagner, John H. Selby</authors>
+          <journalNumber>arXiv:2405.04573 [quant-ph]</journalNumber>
+          <journalTitle>arXiv</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>N/A</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/ARXIV.2405.04573</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-04-15 01:27:45</sourceUpdateDate>
+        <contentUpdateDate>2025-07-23 12:34:22</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/OTHER</code>
+              <title>Other</title>
+              <displayCode>/Other</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1103258</rcn>
+        <id>101070558_31147_PUBLIHORIZON</id>
+        <title>Relativization is naturally functorial</title>
+        <details>
+          <authors>Jan Głowacki</authors>
+          <journalNumber>arXiv:2403.03755 [quant-ph]</journalNumber>
+          <journalTitle>arXiv</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>N/A</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/ARXIV.2403.03755</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-04-15 01:27:45</sourceUpdateDate>
+        <contentUpdateDate>2025-07-23 12:34:22</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/OTHER</code>
+              <title>Other</title>
+              <displayCode>/Other</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1103054</rcn>
+        <id>101070558_31129_PUBLIHORIZON</id>
+        <title>Multi-qutrit exact synthesis</title>
+        <details>
+          <authors>Amolak Ratan Kalra, Manimugdha Saikia, Dinesh Valluri, Sam Winnick, Jon Yard</authors>
+          <journalNumber>arXiv:2405.08147 [quant-ph]</journalNumber>
+          <journalTitle>arXiv</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>N/A</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arXiv.2405.08147</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-06-03 06:20:05</sourceUpdateDate>
+        <contentUpdateDate>2024-06-13 10:34:06</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/OTHER</code>
+              <title>Other</title>
+              <displayCode>/Other</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1103070</rcn>
+        <id>101070558_31115_PUBLIHORIZON</id>
+        <title>Simplicial techniques for operator solutions of linear constraint systems</title>
+        <details>
+          <authors>Ho Yiu Chung, Cihan Okay, Igor Sikora</authors>
+          <journalNumber>348,108883</journalNumber>
+          <journalTitle>Topology and its Applications</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Topology and its applications</publisher>
+        </details>
+        <identifiers>
+          <issn>0166-8641</issn>
+          <doi>10.48550/arXiv.2305.07974</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-06-03 06:20:05</sourceUpdateDate>
+        <contentUpdateDate>2024-06-13 10:34:08</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1103265</rcn>
+        <id>101070558_31148_PUBLIHORIZON</id>
+        <title>Experimental certification of contextuality, coherence, and dimension in a programmable universal photonic processor</title>
+        <details>
+          <authors>Taira Giordani, Rafael Wagner, Chiara Esposito, Anita Camillini, Francesco Hoch, Gonzalo Carvacho, Ciro Pentangelo, Francesco Ceccarelli, Simone Piacentini, Andrea Crespi, Nicolò Spagnolo, Roberto Osellame, Ernesto F. Galvão, Fabio Sciarrino</authors>
+          <journalNumber>9(44), eadj4249</journalNumber>
+          <journalTitle>Science Advances</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>Science Advances</publisher>
+        </details>
+        <identifiers>
+          <issn>2375-2548</issn>
+          <doi>10.1126/sciadv.adj4249</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-06-03 06:20:05</sourceUpdateDate>
+        <contentUpdateDate>2024-06-13 10:34:13</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1103271</rcn>
+        <id>101070558_31136_PUBLIHORIZON</id>
+        <title>Operational quantum reference frame transformations</title>
+        <details>
+          <authors>Titouan Carette, Jan Głowacki, Leon Loveridge</authors>
+          <journalNumber>arXiv:2303.14002 [quant-ph]</journalNumber>
+          <journalTitle>arXiv</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>N/A</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/ARXIV.2303.14002</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-04-15 01:27:45</sourceUpdateDate>
+        <contentUpdateDate>2025-07-23 12:34:22</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/OTHER</code>
+              <title>Other</title>
+              <displayCode>/Other</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1147444</rcn>
+        <id>101070558_PSHORIZON</id>
+        <title>Periodic Reporting for period 1 - FoQaCiA (Foundations of quantum computational advantage)</title>
+        <description>periodic</description>
+        <teaser>Quantum computation is a technology with enormous promise. Many quantum algorithms have been developed to provide speed-ups for problems in quantum simulation, optimization, and linear algebra. The FoQaCiA project takes the view that the future success of quantum computing...</teaser>
+        <sourceUpdateDate>2024-07-28 15:35:29</sourceUpdateDate>
+        <contentUpdateDate>2024-08-07 12:42:22</contentUpdateDate>
+        <relations>
+          <associations>
+            <webItem type="relatedResultAttachment" source="corda">
+              <language>en</language>
+              <availableLanguages>en,any</availableLanguages>
+              <uri>/docs/results/horizon/101070/101070558_PS/foqacia-collabs.png</uri>
+              <alternativeText>Collaborations among FoQaCiA nodes that resulted in publications (solid) or are ongoing (dashed)</alternativeText>
+              <mimetype>image/png</mimetype>
+              <size>1243136</size>
+            </webItem>
+            <webItem type="relatedResultAttachment" source="corda">
+              <language>en</language>
+              <availableLanguages>en,any</availableLanguages>
+              <uri>/docs/results/horizon/101070/101070558_PS/tmp-09785d1f-5fda-4aff-95a3-72039d096a0b.jpeg</uri>
+              <alternativeText>Photonic chip used to test new FoQaCiA-proposed techniques for characterizing nonclassicality.</alternativeText>
+              <mimetype>image/jpeg</mimetype>
+              <size>2007040</size>
+            </webItem>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/pubsum</code>
+              <title>Report Summary</title>
+              <description>Result: Publishable summary (FP7 SESAM) and Summary for publication (H2020 SyGMa)</description>
+              <displayCode>/Report Summary</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1103078</rcn>
+        <id>101070558_31084_PUBLIHORIZON</id>
+        <title>Homotopical characterization of strongly contextual simplicial distributions on cone spaces</title>
+        <details>
+          <authors>Aziz Kharoof, Cihan Okay</authors>
+          <journalNumber>arXiv:2311.14111 [math.AT]</journalNumber>
+          <journalTitle>arXiv</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>N/A</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arxiv.2311.14111</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-06-03 06:20:05</sourceUpdateDate>
+        <contentUpdateDate>2024-06-13 10:34:08</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/OTHER</code>
+              <title>Other</title>
+              <displayCode>/Other</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1103272</rcn>
+        <id>101070558_31143_PUBLIHORIZON</id>
+        <title>Test of the physical significance of Bell nonlocality</title>
+        <details>
+          <authors>Carlos Vieira, Ravishankar Ramanathan, Adán Cabello</authors>
+          <journalNumber>arXiv:2402.00801 [quant-ph]</journalNumber>
+          <journalTitle>arXiv</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>N/A</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/ARXIV.2402.00801</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-04-15 01:27:45</sourceUpdateDate>
+        <contentUpdateDate>2025-07-23 12:34:22</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/OTHER</code>
+              <title>Other</title>
+              <displayCode>/Other</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1103069</rcn>
+        <id>101070558_31112_PUBLIHORIZON</id>
+        <title>Non-stabilizerness and entanglement from cat-state injection</title>
+        <details>
+          <authors>Filipa C R Peres, Rafael Wagner, Ernesto F Galvão</authors>
+          <journalNumber>26, 013051</journalNumber>
+          <journalTitle>New Journal of Physics</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>NJP</publisher>
+        </details>
+        <identifiers>
+          <issn>1367-2630</issn>
+          <doi>10.48550/arxiv.2305.19988</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-06-03 06:20:05</sourceUpdateDate>
+        <contentUpdateDate>2024-06-13 10:34:08</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1103046</rcn>
+        <id>101070558_31134_PUBLIHORIZON</id>
+        <title>Certifying sets of quantum observables with any full-rank state</title>
+        <details>
+          <authors>Zhen-Peng Xu, Debashis Saha, Kishor Bharti, Adán Cabello</authors>
+          <journalNumber>132, 140201</journalNumber>
+          <journalTitle>Physical Review Letters</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>American Physical Society</publisher>
+        </details>
+        <identifiers>
+          <issn>1079-7114</issn>
+          <doi>10.48550/arXiv.2309.05735</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-06-03 06:20:05</sourceUpdateDate>
+        <contentUpdateDate>2024-06-13 10:34:05</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1103273</rcn>
+        <id>101070558_31142_PUBLIHORIZON</id>
+        <title>Minimum full nonlocality, all versus nothing nonlocality, and quantum pseudo telepathy</title>
+        <details>
+          <authors>Adán Cabello</authors>
+          <journalNumber>arXiv:2311.17735 [quant-ph]</journalNumber>
+          <journalTitle>arXiv</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>N/A</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/ARXIV.2311.17735</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-04-15 01:27:45</sourceUpdateDate>
+        <contentUpdateDate>2025-07-23 12:34:22</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/OTHER</code>
+              <title>Other</title>
+              <displayCode>/Other</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1103269</rcn>
+        <id>101070558_31138_PUBLIHORIZON</id>
+        <title>Simulation of quantum computation with magic states via Jordan-Wigner transformations</title>
+        <details>
+          <authors>Michael Zurel, Lawrence Z. Cohen, Robert Raussendorf</authors>
+          <journalNumber>arXiv:2307.16034 [quant-ph]</journalNumber>
+          <journalTitle>arXiv</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>N/A</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arXiv.2307.16034</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-06-03 06:20:05</sourceUpdateDate>
+        <contentUpdateDate>2024-06-13 10:34:13</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/OTHER</code>
+              <title>Other</title>
+              <displayCode>/Other</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1103066</rcn>
+        <id>101070558_31103_PUBLIHORIZON</id>
+        <title>Pauli-based model of quantum computation with higher-dimensional systems</title>
+        <details>
+          <authors>Filipa C. R. Peres</authors>
+          <journalNumber>108, 032606</journalNumber>
+          <journalTitle>Physical Review A</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>American Physical Society</publisher>
+        </details>
+        <identifiers>
+          <issn>2469-9926</issn>
+          <doi>10.48550/arxiv.2302.13702</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-06-03 06:20:05</sourceUpdateDate>
+        <contentUpdateDate>2024-06-13 10:34:07</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1103053</rcn>
+        <id>101070558_31131_PUBLIHORIZON</id>
+        <title>Using a resource theoretic perspective to witness and engineer quantum generalized contextuality for prepare-and-measure scenarios</title>
+        <details>
+          <authors>Rafael Wagner, Roberto D Baldijão, Alisson Tezzin, and Bárbara Amaral</authors>
+          <journalNumber>56, 505303</journalNumber>
+          <journalTitle>Journal of Physics A: Mathematical and Theoretical</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>Journal of Physics A: Mathematical and Theoretical</publisher>
+        </details>
+        <identifiers>
+          <issn>1751-8113</issn>
+          <doi>10.48550/arXiv.2102.10469</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-06-03 06:20:05</sourceUpdateDate>
+        <contentUpdateDate>2024-06-13 10:34:06</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1103064</rcn>
+        <id>101070558_31114_PUBLIHORIZON</id>
+        <title>Quantum circuits for measuring weak values, Kirkwood–Dirac quasiprobability distributions, and state spectra</title>
+        <details>
+          <authors>Rafael Wagner, Zohar Schwartzman-Nowik, Ismael L Paiva, Amit Te'eni, Antonio Ruiz-Molero, Rui Soares Barbosa, Eliahu Cohen, Ernesto F Galvão</authors>
+          <journalNumber>9, 015030</journalNumber>
+          <journalTitle>Quantum Science and Technology</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Quantum Science and Technology</publisher>
+        </details>
+        <identifiers>
+          <issn>2058-9565</issn>
+          <doi>10.48550/arxiv.2302.00705</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-06-03 06:20:05</sourceUpdateDate>
+        <contentUpdateDate>2024-06-13 10:34:07</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1126945</rcn>
+        <id>101070558_1_DELIVHORIZON</id>
+        <title>Report on resource theory of non-classicality for causal structures (T1.1)</title>
+        <description>Report on developing a compositional resource theory of non-classicality for arbitrary causal structures. This will extend contextuality analysis and quantification to arbitrary scenarios, including generalisations of the noncontextuality and non-locality constraints on classical ontological models. It will enable a principled extension of contextuality analysis and measures of contextuality to computational settings such as the circuit model and multi-agent communication.</description>
+        <sourceUpdateDate>2024-07-05 04:36:45</sourceUpdateDate>
+        <contentUpdateDate>2024-07-08 15:55:05</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>c72e1febac78ffd19d536cff5d403f71</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5021fa88d&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1103072</rcn>
+        <id>101070558_31097_PUBLIHORIZON</id>
+        <title>Equivariant simplicial distributions and quantum contextuality</title>
+        <details>
+          <authors>Cihan Okay, Igor Sikora</authors>
+          <journalNumber>arXiv:2310.18135 [quant-ph]</journalNumber>
+          <journalTitle>arXiv</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>N/A</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arxiv.2310.18135</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-06-03 06:20:05</sourceUpdateDate>
+        <contentUpdateDate>2024-06-13 10:34:08</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/OTHER</code>
+              <title>Other</title>
+              <displayCode>/Other</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1126675</rcn>
+        <id>101070558_6_DELIVHORIZON</id>
+        <title>Report on representation of quantum algorithms in extended stabilizer formalisms (T2.2)</title>
+        <description>Report on the representation of quantum algorithms in extensions of the Pauli stabilizer formalism. The report will discuss (i) algebraic generalizations of the stabilizer formalism based on group theoretic methods for describing quantum algorithms; (ii) the cnc-construction; specifically prospects and limitations, and (iii) the Lambda polytopes; specifically how known hidden-variable descriptions found for certain algorithms carry over to the Lambda polytopes.</description>
+        <sourceUpdateDate>2024-07-05 04:36:45</sourceUpdateDate>
+        <contentUpdateDate>2024-07-08 16:12:38</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>96776d3e864fce09c844552deb647fa0</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e50c04158e&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1103067</rcn>
+        <id>101070558_31119_PUBLIHORIZON</id>
+        <title>Unbounded Sharing of Nonlocality Using Projective Measurements</title>
+        <details>
+          <authors>Souradeep Sasmal, Som Kanjilal, Alok Kumar Pan</authors>
+          <journalNumber>arXiv:2311.07977 [quant-ph]</journalNumber>
+          <journalTitle>arXiv</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>N/A</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arXiv.2311.07977</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-06-03 06:20:05</sourceUpdateDate>
+        <contentUpdateDate>2024-06-13 10:34:07</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/OTHER</code>
+              <title>Other</title>
+              <displayCode>/Other</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1126953</rcn>
+        <id>101070558_15_DELIVHORIZON</id>
+        <title>Report on non-continuous equivalence transformations for topological circuits (T4.3)</title>
+        <description>Report on discrete equivalence transformation for encoded gate operation. Based on the currently existing graphical form of the transformation rules, their rigorous mathematical description is established, and a corresponding efficient representation as a data structure is identified.</description>
+        <sourceUpdateDate>2024-07-05 04:36:45</sourceUpdateDate>
+        <contentUpdateDate>2024-07-08 15:55:08</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>a91ad731755572258602df7990336c5b</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5021fa895&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1103062</rcn>
+        <id>101070558_31113_PUBLIHORIZON</id>
+        <title>Combining contextuality and causality: a game semantics approach</title>
+        <details>
+          <authors>Samson Abramsky, Rui Soares Barbosa, Amy Searle</authors>
+          <journalNumber>382(2268), 20230002</journalNumber>
+          <journalTitle>Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Royal Society of London</publisher>
+        </details>
+        <identifiers>
+          <issn>1364-503X</issn>
+          <doi>10.48550/arxiv.2307.04786</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-06-03 06:20:05</sourceUpdateDate>
+        <contentUpdateDate>2024-06-13 10:34:07</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1103068</rcn>
+        <id>101070558_31118_PUBLIHORIZON</id>
+        <title>"Simulating quantum computation: how many ""bits"" for ""it""?"</title>
+        <details>
+          <authors>Michael Zurel, Cihan Okay, Robert Raussendorf</authors>
+          <journalNumber>arXiv:2305.17287 [quant-ph]</journalNumber>
+          <journalTitle>arXiv</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>N/A</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arXiv.2305.17287</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-06-03 06:20:05</sourceUpdateDate>
+        <contentUpdateDate>2024-06-13 10:34:08</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/OTHER</code>
+              <title>Other</title>
+              <displayCode>/Other</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1103082</rcn>
+        <id>101070558_31095_PUBLIHORIZON</id>
+        <title>Can multiple observers detect KS-contextuality?</title>
+        <details>
+          <authors>Arthur C. R. Dutra, Roberto D. Baldijão, Marcelo Terra Cunha</authors>
+          <journalNumber>arXiv:2310.19564 [quant-ph]</journalNumber>
+          <journalTitle>arXiv</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>N/A</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/ARXIV.2310.19564</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-04-15 01:27:45</sourceUpdateDate>
+        <contentUpdateDate>2025-07-23 12:34:22</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/OTHER</code>
+              <title>Other</title>
+              <displayCode>/Other</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode>/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/51/359/1069</code>
+        <title>arithmetics</title>
+        <displayCode>/natural sciences/mathematics/pure mathematics/arithmetics</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode>/Digital agenda</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode>/Clean air</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode>/Artificial intelligence</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode>/Climate action</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode>/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages>en</availableLanguages>
+        <code>/HORIZON-RIA</code>
+        <title>HORIZON  Research and Innovation Actions</title>
+        <description>HORIZON  Research and Innovation Actions</description>
+        <displayCode>/HORIZON  Research and Innovation Actions</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode>/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

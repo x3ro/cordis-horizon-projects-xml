@@ -1,0 +1,1411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages>en</availableLanguages>
+  <rcn>244401</rcn>
+  <id>101073106</id>
+  <acronym>GECKO</acronym>
+  <teaser>After more than a decade of research, IsoGeometric approaches are starting to make inroads into commercial solvers, and thus starting to be relevant in the industrial practice. Outstanding challenges still exist in the use of the underlying CAD technologies, and in particular...</teaser>
+  <objective>After more than a decade of research, IsoGeometric approaches are starting to make inroads into commercial solvers, and thus starting to be relevant in the industrial practice. Outstanding challenges still exist in the use of the underlying CAD technologies, and in particular in the use of “trimming”.
+The main objective of the GECKO project is to help solving the outstanding difficulties by improving the current state of the art and by integrating academic research within the industrial workflow. 
+This will be achieved by ensuring that open-source solvers, developed in the academia for both solid and fluid dynamics, are able to use as an input domain any CAD geometry, even in cases in which the geometrical definition is not optimal, i.e. poorly defined or “dirty” geometries. In this regard, an efficient and robust solver design must be implemented to be capable of performing seamless “Design-through-analysis” workflows . 
+The goal will inherently imply collaborating with the pre/post processing industry (represented in the proposal by the company BETA-CAE), with solver vendors (DYNAMORE) and end users (IDIADA) to ensure that a smooth path is defined to allow such convergence. 
+The overall project outcome will be to form a new cohort of experts on the topic and to enhance the open source tools and operational workflow so that they can effectively complement commercial based approaches. This in turn will allow addressing relevant bottlenecks, as identified by the industrial partners, so that the solution can be eventually backported into commercial solutions. 
+Another important objective in the GECKO project is to empower and generalize the currently available solutions when dealing with complex non-linear models (Solvers) in Computational Fluid Dynamics (CFD), Computational Solid Mechanics (CSM), acoustics, vibro-acoustics, Reduced Order Models (RoM) and surface mapping.</objective>
+  <title>Design for IGA-type discretization workflows</title>
+  <totalCost>0</totalCost>
+  <ecMaxContribution>2561205.6</ecMaxContribution>
+  <startDate>2023-01-01</startDate>
+  <endDate>2027-06-30</endDate>
+  <ecSignatureDate>2022-11-23</ecSignatureDate>
+  <duration>54</duration>
+  <status>SIGNED</status>
+  <keywords>CAD, CAE, Isogeometric, IBRA y Trimming</keywords>
+  <identifiers>
+    <grantDoi>10.3030/101073106</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>false</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2025-07-23 15:37:47</sourceUpdateDate>
+  <contentCreationDate>2023-03-07 10:43:57</contentCreationDate>
+  <contentUpdateDate>2025-10-07 14:46:25</contentUpdateDate>
+  <lastUpdateDate>2025-10-07 14:46:34</lastUpdateDate>
+  <relations>
+    <associations>
+      <article source="editorial" type="relatedArticle">
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <rcn>440735</rcn>
+        <id>440735-open-source-solvers-for-any-cad-geometry</id>
+        <title>Open-source solvers for any CAD geometry</title>
+        <contentUpdateDate>2023-07-21 09:24:00</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/projectDescription</code>
+              <title>Project description</title>
+              <description>Article: description of linked project written by editorial team</description>
+              <displayCode>/Project description</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/editorial</code>
+              <title>CORDIS Editorial</title>
+              <description>Written by CORDIS</description>
+              <displayCode>/CORDIS Editorial</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </article>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>55382</rcn>
+        <title>HORIZON-MSCA-2021-DN-01</title>
+        <identifier>HORIZON-MSCA-2021-DN-01</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>55382</rcn>
+        <title>HORIZON-MSCA-2021-DN-01</title>
+        <identifier>HORIZON-MSCA-2021-DN-01</identifier>
+      </call>
+      <organization netEcContribution="0" totalCost="0" source="corda" order="10" terminated="false" sme="false" type="associatedPartner">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1976257</rcn>
+        <id>916052772</id>
+        <vatNumber>BE0831980876</vatNumber>
+        <legalName>Leuven.Inc Stichting</legalName>
+        <address>
+          <street>Kapeldreef 60</street>
+          <city>Leuven</city>
+          <postalCode>3001</postalCode>
+          <country>BE</country>
+          <geolocation>50.8618474,4.6682827</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/OTH</code>
+              <title>Other</title>
+              <displayCode>/Other</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Arr. Leuven</name>
+              <rcn>188227842</rcn>
+              <nutsCode>BE242</nutsCode>
+              <parents>
+                <region>
+                  <name>Prov. Vlaams-Brabant</name>
+                  <rcn>188227880</rcn>
+                  <nutsCode>BE24</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Vlaams Gewest</name>
+                      <rcn>188230184</rcn>
+                      <nutsCode>BE2</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Belgium</name>
+                          <rcn>188385832</rcn>
+                          <nutsCode>BE</nutsCode>
+                          <euCode>BE</euCode>
+                          <isoCode>BE</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Belgium</name>
+              <rcn>188385832</rcn>
+              <nutsCode>BE</nutsCode>
+              <euCode>BE</euCode>
+              <isoCode>BE</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="240098.4" totalCost="0" source="corda" order="5" ecContribution="240098.4" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1905662</rcn>
+        <id>999895692</id>
+        <vatNumber>EL090049627</vatNumber>
+        <legalName>ARISTOTELIO PANEPISTIMIO THESSALONIKIS</legalName>
+        <shortName>ARISTOTLE UNIVERSITY OF THESSALONIKI</shortName>
+        <address>
+          <street>KEDEA BUILDING, TRITIS SEPTEMVRIOU, ARISTOTLE UNIVERSITY CAMPUS</street>
+          <city>THESSALONIKI</city>
+          <postalCode>546 36</postalCode>
+          <country>EL</country>
+          <postBox>000</postBox>
+          <url>http://www.auth.gr</url>
+          <geolocation>40.62598349613209,22.96056716388373</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Θεσσαλονίκη</name>
+              <rcn>1465354</rcn>
+              <nutsCode>EL522</nutsCode>
+              <parents>
+                <region>
+                  <name>Κεντρική Μακεδονία</name>
+                  <rcn>1464917</rcn>
+                  <nutsCode>EL52</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Βόρεια Ελλάδα</name>
+                      <rcn>1464915</rcn>
+                      <nutsCode>EL5</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Greece</name>
+                          <rcn>240552488</rcn>
+                          <nutsCode>EL</nutsCode>
+                          <euCode>EL</euCode>
+                          <isoCode>EL</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Greece</name>
+              <rcn>240552488</rcn>
+              <nutsCode>EL</nutsCode>
+              <euCode>EL</euCode>
+              <isoCode>EL</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="325674" totalCost="0" source="corda" order="11" ecContribution="325674" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1905691</rcn>
+        <id>999977463</id>
+        <vatNumber>DE811193231</vatNumber>
+        <legalName>TECHNISCHE UNIVERSITAET MUENCHEN</legalName>
+        <shortName>TUM</shortName>
+        <address>
+          <street>Arcisstrasse  21</street>
+          <city>Muenchen</city>
+          <postalCode>80333</postalCode>
+          <country>DE</country>
+          <url>http://www.tu-muenchen.de</url>
+          <geolocation>48.1499912,11.567459</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>München, Kreisfreie Stadt</name>
+              <rcn>221782082</rcn>
+              <nutsCode>DE212</nutsCode>
+              <parents>
+                <region>
+                  <name>Oberbayern</name>
+                  <rcn>221782120</rcn>
+                  <nutsCode>DE21</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Bayern</name>
+                      <rcn>221784616</rcn>
+                      <nutsCode>DE2</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Germany</name>
+                          <rcn>221940264</rcn>
+                          <nutsCode>DE</nutsCode>
+                          <euCode>DE</euCode>
+                          <isoCode>DE</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Germany</name>
+              <rcn>221940264</rcn>
+              <nutsCode>DE</nutsCode>
+              <euCode>DE</euCode>
+              <isoCode>DE</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="0" totalCost="0" source="corda" order="13" terminated="false" sme="false" type="associatedPartner">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1905657</rcn>
+        <id>999895789</id>
+        <vatNumber>IT01279680480</vatNumber>
+        <legalName>UNIVERSITA DEGLI STUDI DI FIRENZE</legalName>
+        <shortName>UNIFI</shortName>
+        <address>
+          <street>Piazza San Marco  4</street>
+          <city>Florence</city>
+          <postalCode>50121</postalCode>
+          <country>IT</country>
+          <postBox>N/A</postBox>
+          <url>http://www.unifi.it/</url>
+          <geolocation>43.7778118,11.2594064</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Firenze</name>
+              <rcn>1464131</rcn>
+              <nutsCode>ITI14</nutsCode>
+              <parents>
+                <region>
+                  <name>Toscana</name>
+                  <rcn>1465009</rcn>
+                  <nutsCode>ITI1</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Centro (IT)</name>
+                      <rcn>1465008</rcn>
+                      <nutsCode>ITI</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Italy</name>
+                          <rcn>309758504</rcn>
+                          <nutsCode>IT</nutsCode>
+                          <euCode>IT</euCode>
+                          <isoCode>IT</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Italy</name>
+              <rcn>309758504</rcn>
+              <nutsCode>IT</nutsCode>
+              <euCode>IT</euCode>
+              <isoCode>IT</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="0" totalCost="0" source="corda" order="8" terminated="false" sme="false" type="associatedPartner">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1980867</rcn>
+        <id>908812207</id>
+        <legalName>BETA CAE SYSTEMS INTERNATIONAL AG</legalName>
+        <shortName>BETA CAE SYSTEMS INTERNATIONAL AG</shortName>
+        <address>
+          <street>PLATZ 4</street>
+          <city>Root D4</city>
+          <postalCode>6039</postalCode>
+          <country>CH</country>
+          <geolocation>47.10343315,8.37472147311287</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PRC</code>
+              <title>Private for-profit entities (excluding Higher or Secondary Education Establishments)</title>
+              <displayCode>/Private for-profit entities (excluding Higher or Secondary Education Establishments)</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Luzern</name>
+              <rcn>1464227</rcn>
+              <nutsCode>CH061</nutsCode>
+              <parents>
+                <region>
+                  <name>Zentralschweiz</name>
+                  <rcn>1464891</rcn>
+                  <nutsCode>CH06</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Schweiz/Suisse/Svizzera</name>
+                      <rcn>1464884</rcn>
+                      <nutsCode>CH0</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Switzerland</name>
+                          <rcn>205949480</rcn>
+                          <nutsCode>CH</nutsCode>
+                          <euCode>CH</euCode>
+                          <isoCode>CH</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Switzerland</name>
+              <rcn>205949480</rcn>
+              <nutsCode>CH</nutsCode>
+              <euCode>CH</euCode>
+              <isoCode>CH</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="0" totalCost="0" source="corda" order="12" terminated="false" sme="false" type="associatedPartner">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1905831</rcn>
+        <id>999991819</id>
+        <vatNumber>DE167015661</vatNumber>
+        <legalName>AIRBUS DEFENCE AND SPACE GMBH</legalName>
+        <address>
+          <street>WILLY-MESSERSCHMITT-STRASSE 1</street>
+          <city>Taufkirchen</city>
+          <postalCode>82024</postalCode>
+          <country>DE</country>
+          <url>https://www.airbus-group.com</url>
+          <geolocation>48.0643823,11.6675042</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PRC</code>
+              <title>Private for-profit entities (excluding Higher or Secondary Education Establishments)</title>
+              <displayCode>/Private for-profit entities (excluding Higher or Secondary Education Establishments)</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>München, Landkreis</name>
+              <rcn>221782097</rcn>
+              <nutsCode>DE21H</nutsCode>
+              <parents>
+                <region>
+                  <name>Oberbayern</name>
+                  <rcn>221782120</rcn>
+                  <nutsCode>DE21</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Bayern</name>
+                      <rcn>221784616</rcn>
+                      <nutsCode>DE2</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Germany</name>
+                          <rcn>221940264</rcn>
+                          <nutsCode>DE</nutsCode>
+                          <euCode>DE</euCode>
+                          <isoCode>DE</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Germany</name>
+              <rcn>221940264</rcn>
+              <nutsCode>DE</nutsCode>
+              <euCode>DE</euCode>
+              <isoCode>DE</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="0" totalCost="0" source="corda" order="7" terminated="false" sme="true" type="associatedPartner">
+        <availableLanguages>en</availableLanguages>
+        <rcn>2122976</rcn>
+        <id>998771268</id>
+        <vatNumber>DE813339249</vatNumber>
+        <legalName>DYNAMORE HOLDING GMBH</legalName>
+        <address>
+          <street>INDUSTRIESTRASSE 2</street>
+          <city>Stuttgart Vaihingen</city>
+          <postalCode>70565</postalCode>
+          <country>DE</country>
+          <url>https://www.dynamore.de</url>
+          <geolocation>48.72476845,9.11295696028522</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PRC</code>
+              <title>Private for-profit entities (excluding Higher or Secondary Education Establishments)</title>
+              <displayCode>/Private for-profit entities (excluding Higher or Secondary Education Establishments)</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Stuttgart, Stadtkreis</name>
+              <rcn>221777985</rcn>
+              <nutsCode>DE111</nutsCode>
+              <parents>
+                <region>
+                  <name>Stuttgart</name>
+                  <rcn>221778024</rcn>
+                  <nutsCode>DE11</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Baden-Württemberg</name>
+                      <rcn>221780520</rcn>
+                      <nutsCode>DE1</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Germany</name>
+                          <rcn>221940264</rcn>
+                          <nutsCode>DE</nutsCode>
+                          <euCode>DE</euCode>
+                          <isoCode>DE</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Germany</name>
+              <rcn>221940264</rcn>
+              <nutsCode>DE</nutsCode>
+              <euCode>DE</euCode>
+              <isoCode>DE</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="195404.4" totalCost="0" source="corda" order="2" ecContribution="195404.4" terminated="true" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1905809</rcn>
+        <id>999861257</id>
+        <vatNumber>DE152330858</vatNumber>
+        <legalName>TECHNISCHE UNIVERSITAET BRAUNSCHWEIG</legalName>
+        <address>
+          <street>UNIVERSITAETSPLATZ 2</street>
+          <city>BRAUNSCHWEIG</city>
+          <postalCode>38106</postalCode>
+          <country>DE</country>
+          <postBox>000</postBox>
+          <url>http://www.tu-braunschweig.de</url>
+          <geolocation>52.2734787,10.5294580013904</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Braunschweig, Kreisfreie Stadt</name>
+              <rcn>221810753</rcn>
+              <nutsCode>DE911</nutsCode>
+              <parents>
+                <region>
+                  <name>Braunschweig</name>
+                  <rcn>221810792</rcn>
+                  <nutsCode>DE91</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Niedersachsen</name>
+                      <rcn>221813288</rcn>
+                      <nutsCode>DE9</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Germany</name>
+                          <rcn>221940264</rcn>
+                          <nutsCode>DE</nutsCode>
+                          <euCode>DE</euCode>
+                          <isoCode>DE</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Germany</name>
+              <rcn>221940264</rcn>
+              <nutsCode>DE</nutsCode>
+              <euCode>DE</euCode>
+              <isoCode>DE</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="0" totalCost="0" source="corda" order="6" terminated="false" sme="false" type="associatedPartner">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1910803</rcn>
+        <id>999788313</id>
+        <vatNumber>ESA43581610</vatNumber>
+        <legalName>IDIADA AUTOMOTIVE TECHNOLOGY SA</legalName>
+        <address>
+          <street>L ALBORNAR</street>
+          <city>Santa Oliva</city>
+          <postalCode>43710</postalCode>
+          <country>ES</country>
+          <postBox>20</postBox>
+          <url>http://www.idiada.com</url>
+          <geolocation>41.2532889,1.5510139</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PRC</code>
+              <title>Private for-profit entities (excluding Higher or Secondary Education Establishments)</title>
+              <displayCode>/Private for-profit entities (excluding Higher or Secondary Education Establishments)</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Tarragona</name>
+              <rcn>242241604</rcn>
+              <nutsCode>ES514</nutsCode>
+              <parents>
+                <region>
+                  <name>Cataluña</name>
+                  <rcn>242241640</rcn>
+                  <nutsCode>ES51</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Este</name>
+                      <rcn>242244136</rcn>
+                      <nutsCode>ES5</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Spain</name>
+                          <rcn>242387496</rcn>
+                          <nutsCode>ES</nutsCode>
+                          <euCode>ES</euCode>
+                          <isoCode>ES</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Spain</name>
+              <rcn>242387496</rcn>
+              <nutsCode>ES</nutsCode>
+              <euCode>ES</euCode>
+              <isoCode>ES</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="0" totalCost="0" source="corda" order="9" terminated="false" sme="false" type="associatedPartner">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1910033</rcn>
+        <id>999976202</id>
+        <vatNumber>ESQ0818003F</vatNumber>
+        <legalName>UNIVERSITAT POLITECNICA DE CATALUNYA</legalName>
+        <shortName>UPC</shortName>
+        <address>
+          <street>CALLE JORDI GIRONA 31</street>
+          <city>BARCELONA</city>
+          <postalCode>08034</postalCode>
+          <country>ES</country>
+          <postBox>000</postBox>
+          <url>http://www.upc.edu</url>
+          <geolocation>41.3825596,2.1771353</geolocation>
+        </address>
+        <departmentName>Technology Transfer Centre</departmentName>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Barcelona</name>
+              <rcn>242241601</rcn>
+              <nutsCode>ES511</nutsCode>
+              <parents>
+                <region>
+                  <name>Cataluña</name>
+                  <rcn>242241640</rcn>
+                  <nutsCode>ES51</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Este</name>
+                      <rcn>242244136</rcn>
+                      <nutsCode>ES5</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Spain</name>
+                          <rcn>242387496</rcn>
+                          <nutsCode>ES</nutsCode>
+                          <euCode>ES</euCode>
+                          <isoCode>ES</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Spain</name>
+              <rcn>242387496</rcn>
+              <nutsCode>ES</nutsCode>
+              <euCode>ES</euCode>
+              <isoCode>ES</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="518875.2" totalCost="0" source="corda" order="3" ecContribution="518875.2" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1906518</rcn>
+        <id>999893752</id>
+        <legalName>UNIVERSITA DEGLI STUDI DI PAVIA</legalName>
+        <shortName>UNIPV</shortName>
+        <address>
+          <street>STRADA NUOVA  65</street>
+          <city>Pavia</city>
+          <postalCode>27100</postalCode>
+          <country>IT</country>
+          <postBox>N/A</postBox>
+          <url>http://www.unipv.eu</url>
+          <geolocation>45.1866632,9.154892</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Pavia</name>
+              <rcn>309641480</rcn>
+              <nutsCode>ITC48</nutsCode>
+              <parents>
+                <region>
+                  <name>Lombardia</name>
+                  <rcn>309641512</rcn>
+                  <nutsCode>ITC4</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Nord-Ovest</name>
+                      <rcn>309643816</rcn>
+                      <nutsCode>ITC</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Italy</name>
+                          <rcn>309758504</rcn>
+                          <nutsCode>IT</nutsCode>
+                          <euCode>IT</euCode>
+                          <isoCode>IT</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Italy</name>
+              <rcn>309758504</rcn>
+              <nutsCode>IT</nutsCode>
+              <euCode>IT</euCode>
+              <isoCode>IT</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="755913.6" totalCost="0" source="corda" order="1" ecContribution="755913.6" terminated="false" sme="false" type="coordinator">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1906609</rcn>
+        <id>999658721</id>
+        <vatNumber>ESQ5850006G</vatNumber>
+        <legalName>CENTRE INTERNACIONAL DE METODES NUMERICS EN ENGINYERIA</legalName>
+        <shortName>CIMNE-CERCA</shortName>
+        <address>
+          <street>C GRAN CAPITAN, EDIFICI C1, CAMPUS NORD UPC SN</street>
+          <city>Barcelona</city>
+          <postalCode>08034</postalCode>
+          <country>ES</country>
+          <url>http://www.cimne.com</url>
+          <geolocation>41.370449300000004,2.1500219563810696</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/REC</code>
+              <title>Research Organisations</title>
+              <displayCode>/Research Organisations</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Barcelona</name>
+              <rcn>242241601</rcn>
+              <nutsCode>ES511</nutsCode>
+              <parents>
+                <region>
+                  <name>Cataluña</name>
+                  <rcn>242241640</rcn>
+                  <nutsCode>ES51</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Este</name>
+                      <rcn>242244136</rcn>
+                      <nutsCode>ES5</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Spain</name>
+                          <rcn>242387496</rcn>
+                          <nutsCode>ES</nutsCode>
+                          <euCode>ES</euCode>
+                          <isoCode>ES</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Spain</name>
+              <rcn>242387496</rcn>
+              <nutsCode>ES</nutsCode>
+              <euCode>ES</euCode>
+              <isoCode>ES</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="525240" totalCost="0" source="corda" order="4" ecContribution="525240" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1905910</rcn>
+        <id>999991334</id>
+        <vatNumber>BE0419052173</vatNumber>
+        <legalName>KATHOLIEKE UNIVERSITEIT LEUVEN</legalName>
+        <shortName>KU Leuven</shortName>
+        <address>
+          <street>OUDE MARKT 13</street>
+          <city>LEUVEN</city>
+          <postalCode>3000</postalCode>
+          <country>BE</country>
+          <postBox>N/A</postBox>
+          <url>http://www.kuleuven.be</url>
+          <geolocation>50.8780592,4.699407640209</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Arr. Leuven</name>
+              <rcn>188227842</rcn>
+              <nutsCode>BE242</nutsCode>
+              <parents>
+                <region>
+                  <name>Prov. Vlaams-Brabant</name>
+                  <rcn>188227880</rcn>
+                  <nutsCode>BE24</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Vlaams Gewest</name>
+                      <rcn>188230184</rcn>
+                      <nutsCode>BE2</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Belgium</name>
+                          <rcn>188385832</rcn>
+                          <nutsCode>BE</nutsCode>
+                          <euCode>BE</euCode>
+                          <isoCode>BE</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Belgium</name>
+              <rcn>188385832</rcn>
+              <nutsCode>BE</nutsCode>
+              <euCode>BE</euCode>
+              <isoCode>BE</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme type="relatedTopic" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>706005</rcn>
+        <id>HORIZON_HORIZON-MSCA-2021-DN-01-01</id>
+        <code>HORIZON-MSCA-2021-DN-01-01</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>MSCA Doctoral Networks 2021</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode>/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme type="relatedLegalBasis" source="corda" uniqueProgrammePart="true">
+        <availableLanguages>en</availableLanguages>
+        <rcn>705729</rcn>
+        <id>HORIZON.1.2</id>
+        <code>HORIZON.1.2</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.1.2</pga>
+        <title>Marie Skłodowska-Curie Actions (MSCA)</title>
+        <parent>
+          <programme>
+            <rcn>705726</rcn>
+            <code>HORIZON.1</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode>/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1275705</rcn>
+        <id>101073106_22_DELIVHORIZON</id>
+        <title>Initial and final public engagement &amp; training report</title>
+        <description>Mid-term and final public engagement &amp; training report. M48 updates will be added</description>
+        <sourceUpdateDate>2025-03-31 14:59:57</sourceUpdateDate>
+        <contentUpdateDate>2025-04-07 11:18:41</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>4bca8447bf3cd3f6079a11688d850b0b</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e50f06db16&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1058426</rcn>
+        <id>101073106_16_DELIVHORIZON</id>
+        <title>GECKO Website</title>
+        <description>GECKO Website</description>
+        <sourceUpdateDate>2024-03-18 04:48:30</sourceUpdateDate>
+        <contentUpdateDate>2024-03-26 11:18:06</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable" represents="project">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>d8d284c7b41a99d0088e0b5c8d9afe43</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5f8cf7393&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/DEC</code>
+              <title>Websites, patent fillings, videos etc.</title>
+              <displayCode>/Websites, patent fillings, videos etc.</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1258927</rcn>
+        <id>101073106_127187_PUBLIHORIZON</id>
+        <title>Application of the isogeometric shifted boundary method to the Poisson problem</title>
+        <details>
+          <authors>Antonelli, Nicolò; Gorgi, Andrea; Aristio, Ricky; Zorrilla, Rubén; Rossi, Riccardo; Scovazzi, Guglielmo; Wüchner, Roland</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Proceedings of the 31st International Conference on Noise and Vibration Engineering, ISMA</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>KU Leuven</publisher>
+        </details>
+        <identifiers>
+          <isbn>978-90-82893-17-5</isbn>
+        </identifiers>
+        <sourceUpdateDate>2025-04-15 01:27:45</sourceUpdateDate>
+        <contentUpdateDate>2025-07-24 15:10:17</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1258929</rcn>
+        <id>101073106_127196_PUBLIHORIZON</id>
+        <title>Immersed IGA and mass lumping for explicit dynamics of 1D structural elements</title>
+        <details>
+          <authors>A. Pagonas, L. Radtke, M. Torre, T.J.R. Hughes, A. Düster, G. Sangalli, A. Reali</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Proceedings of the 31st International Conference on Noise and Vibration Engineering, ISMA</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>KU Leuven</publisher>
+        </details>
+        <identifiers>
+          <isbn>978-90-82893-17-5</isbn>
+        </identifiers>
+        <sourceUpdateDate>2025-04-15 01:27:45</sourceUpdateDate>
+        <contentUpdateDate>2025-07-24 15:10:27</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1258924</rcn>
+        <id>101073106_127186_PUBLIHORIZON</id>
+        <title>Model order reduction of isogeometric BEM systems via Krylov subspace recycling</title>
+        <details>
+          <authors>Le P., Panagiotopoulos D., Deckers E.</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Proceedings of the 31st International Conference on Noise and Vibration Engineering, ISMA</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>KU Leuven</publisher>
+        </details>
+        <identifiers>
+          <isbn>978-90-82893-17-5</isbn>
+        </identifiers>
+        <sourceUpdateDate>2025-02-24 14:51:33</sourceUpdateDate>
+        <contentUpdateDate>2025-03-03 11:11:06</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1258920</rcn>
+        <id>101073106_127185_PUBLIHORIZON</id>
+        <title>The Shifted Boundary Method in Isogeometric Analysis</title>
+        <details>
+          <authors>Nicolò Antonelli, Ricky Aristio, Andrea Gorgi, Rubén Zorrilla, Riccardo Rossi, Guglielmo Scovazzi, Roland Wüchner</authors>
+          <journalNumber>430</journalNumber>
+          <journalTitle>Computer Methods in Applied Mechanics and Engineering</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Elsevier BV</publisher>
+        </details>
+        <identifiers>
+          <issn>0045-7825</issn>
+          <doi>10.1016/J.CMA.2024.117228</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-04-15 01:27:45</sourceUpdateDate>
+        <contentUpdateDate>2025-07-24 15:10:17</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1058436</rcn>
+        <id>101073106_23_DELIVHORIZON</id>
+        <title>Minutes of Kick-off meeting, GA's and SB's</title>
+        <description>Minutes of Kick-off meeting, GA's and SB's. M2-M6-M12-M24-M36-M48 updates will be added</description>
+        <sourceUpdateDate>2024-03-18 04:48:30</sourceUpdateDate>
+        <contentUpdateDate>2024-03-26 11:20:04</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable" represents="project">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>acde1f7f48122b4637d5528974b97593</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5070ebea1&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1281750</rcn>
+        <id>101073106_PSHORIZON</id>
+        <title>Periodic Reporting for period 1 - GECKO (Design for IGA-type discretization workflows)</title>
+        <description>periodic</description>
+        <teaser>The GECKO project aims to bridge the gap between Computer-Aided Design (CAD) and Computer-Aided Engineering (CAE) by integrating computational models into industrial workflows. Traditional CAE modeling is slow and error-prone in its preprocess phase, making it inefficient for...</teaser>
+        <sourceUpdateDate>2025-04-21 16:51:41</sourceUpdateDate>
+        <contentUpdateDate>2025-04-21 16:51:41</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/pubsum</code>
+              <title>Report Summary</title>
+              <description>Result: Publishable summary (FP7 SESAM) and Summary for publication (H2020 SyGMa)</description>
+              <displayCode>/Report Summary</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode>/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/43/273</code>
+        <title>acoustics</title>
+        <displayCode>/natural sciences/physical sciences/acoustics</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/51/359/1065</code>
+        <title>geometry</title>
+        <displayCode>/natural sciences/mathematics/pure mathematics/geometry</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode>/Digital agenda</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode>/Clean air</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode>/Artificial intelligence</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode>/Climate action</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode>/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages>en</availableLanguages>
+        <code>/HORIZON-TMA-MSCA-DN</code>
+        <title>HORIZON TMA MSCA Doctoral Networks</title>
+        <description>HORIZON TMA MSCA Doctoral Networks</description>
+        <displayCode>/HORIZON TMA MSCA Doctoral Networks</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode>/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

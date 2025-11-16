@@ -1,0 +1,2282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages>en</availableLanguages>
+  <rcn>241338</rcn>
+  <id>101058479</id>
+  <acronym>RAISE</acronym>
+  <teaser>The mission of RAISE is to provide the infrastructure for a distributed crowdsourced data processing system, moving from open data to open access data for processing. RAISE will provide the mechanism for sending the algorithm to the dataset instead of sending the data to the...</teaser>
+  <objective>The mission of RAISE is to provide the infrastructure for a distributed crowdsourced data processing system, moving from open data to open access data for processing. RAISE will provide the mechanism for sending the algorithm to the dataset instead of sending the data to the algorithm. The real value of open data for the research community is not to access them but to process them as conveniently as possible in order to reduce time-to-result and increase productivity. RAISE aims at promoting a transparent way of sharing and processing data, enabling the research community to publish their work with evidence-based authenticity of the data-analysis performed, ensuring at the same time the accreditation of their work. RAISE will be grounded on the fundamental principle defined in the FAIR Guiding Principles for scientific data management and stewardship (Findability, Accessibility, Interoperability and Reusability). To do so, RAISE brings the processing algorithm (small size) to the dataset (large size) instead of downloading the dataset to the computer where the processing algorithm is. To increase the processing capacity of the dataset repositories, RAISE borrows the crowdsourcing concept where researchers can easily integrate in the existing workflows computers serving both their datasets and the processing capacity.
+RAISE will produce the following Outputs:
+1.	A trustworthy crowdsourced network of RAI Certified nodes offering data storing and processing resources 
+2.	The RAI Cloud platform to orchestrate the data sharing, processing and finding.
+3.	The Research Analysis Identifier ? RAI , a unique identifier of any result along with the dataset information and the processing script, without disclosing any source code or raw data.
+4.	Dataset plagiarism identification and dataset proof-of-origin services, to maximise the level of trust of the RAISE system.
+5.	The RAI Synthetic Data Generator</objective>
+  <title>Research Analysis Identifier SystEm</title>
+  <totalCost>4836125</totalCost>
+  <ecMaxContribution>4836125</ecMaxContribution>
+  <startDate>2022-10-01</startDate>
+  <endDate>2026-01-31</endDate>
+  <ecSignatureDate>2022-06-07</ecSignatureDate>
+  <duration>40</duration>
+  <status>SIGNED</status>
+  <keywords>crowdsourced data sharing and processing network</keywords>
+  <identifiers>
+    <grantDoi>10.3030/101058479</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>false</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2025-07-30 14:50:22</sourceUpdateDate>
+  <contentCreationDate>2022-09-04 13:22:10</contentCreationDate>
+  <contentUpdateDate>2025-08-08 16:40:01</contentUpdateDate>
+  <lastUpdateDate>2025-09-19 14:48:41</lastUpdateDate>
+  <relations>
+    <associations>
+      <article source="editorial" type="relatedArticle">
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <rcn>438023</rcn>
+        <id>438023-from-open-data-to-data-open-for-processing</id>
+        <title>From open data to data open for processing</title>
+        <contentUpdateDate>2023-01-17 10:28:02</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/projectDescription</code>
+              <title>Project description</title>
+              <description>Article: description of linked project written by editorial team</description>
+              <displayCode>/Project description</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/editorial</code>
+              <title>CORDIS Editorial</title>
+              <description>Written by CORDIS</description>
+              <displayCode>/CORDIS Editorial</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </article>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>55336</rcn>
+        <title>HORIZON-INFRA-2021-EOSC-01</title>
+        <identifier>HORIZON-INFRA-2021-EOSC-01</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>55336</rcn>
+        <title>HORIZON-INFRA-2021-EOSC-01</title>
+        <identifier>HORIZON-INFRA-2021-EOSC-01</identifier>
+      </call>
+      <organization netEcContribution="117875" totalCost="117875" source="corda" order="15" ecContribution="117875" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1911065</rcn>
+        <id>999874934</id>
+        <vatNumber>BE0208359859</vatNumber>
+        <legalName>UNIVERSITEIT HASSELT</legalName>
+        <shortName>UHASSELT</shortName>
+        <address>
+          <street>MARTELARENLAAN 42</street>
+          <city>Hasselt</city>
+          <postalCode>3500</postalCode>
+          <country>BE</country>
+          <postBox>000</postBox>
+          <url>http://www.uhasselt.be</url>
+          <geolocation>50.933519,5.34245001591116</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Arr. Hasselt</name>
+              <rcn>1464787</rcn>
+              <nutsCode>BE224</nutsCode>
+              <parents>
+                <region>
+                  <name>Prov. Limburg (BE)</name>
+                  <rcn>188227752</rcn>
+                  <nutsCode>BE22</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Vlaams Gewest</name>
+                      <rcn>188230184</rcn>
+                      <nutsCode>BE2</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Belgium</name>
+                          <rcn>188385832</rcn>
+                          <nutsCode>BE</nutsCode>
+                          <euCode>BE</euCode>
+                          <isoCode>BE</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Belgium</name>
+              <rcn>188385832</rcn>
+              <nutsCode>BE</nutsCode>
+              <euCode>BE</euCode>
+              <isoCode>BE</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="172625" totalCost="172625" source="corda" order="5" ecContribution="172625" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>2062347</rcn>
+        <id>999874352</id>
+        <vatNumber>EL090203611</vatNumber>
+        <legalName>UNIVERSITY OF MACEDONIA</legalName>
+        <address>
+          <street>EGNATIA STREET 156</street>
+          <city>Thessaloniki</city>
+          <postalCode>540 06</postalCode>
+          <country>EL</country>
+          <postBox>1591</postBox>
+          <url>http://www.uom.gr</url>
+          <geolocation>40.6254475,22.9602614</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Θεσσαλονίκη</name>
+              <rcn>1465354</rcn>
+              <nutsCode>EL522</nutsCode>
+              <parents>
+                <region>
+                  <name>Κεντρική Μακεδονία</name>
+                  <rcn>1464917</rcn>
+                  <nutsCode>EL52</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Βόρεια Ελλάδα</name>
+                      <rcn>1464915</rcn>
+                      <nutsCode>EL5</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Greece</name>
+                          <rcn>240552488</rcn>
+                          <nutsCode>EL</nutsCode>
+                          <euCode>EL</euCode>
+                          <isoCode>EL</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Greece</name>
+              <rcn>240552488</rcn>
+              <nutsCode>EL</nutsCode>
+              <euCode>EL</euCode>
+              <isoCode>EL</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="178875" totalCost="178875" source="corda" order="17" ecContribution="178875" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1912543</rcn>
+        <id>999844476</id>
+        <vatNumber>IT02009180189</vatNumber>
+        <legalName>CENTRO EUROPEO DI FORMAZIONE E RICERCA IN INGEGNERIA SISMICA</legalName>
+        <shortName>EUCENTRE</shortName>
+        <address>
+          <street>VIA FERRATA 1</street>
+          <city>Pavia</city>
+          <postalCode>27100</postalCode>
+          <country>IT</country>
+          <postBox>000</postBox>
+          <geolocation>45.1860043,9.1546375</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Pavia</name>
+              <rcn>309641480</rcn>
+              <nutsCode>ITC48</nutsCode>
+              <parents>
+                <region>
+                  <name>Lombardia</name>
+                  <rcn>309641512</rcn>
+                  <nutsCode>ITC4</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Nord-Ovest</name>
+                      <rcn>309643816</rcn>
+                      <nutsCode>ITC</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Italy</name>
+                          <rcn>309758504</rcn>
+                          <nutsCode>IT</nutsCode>
+                          <euCode>IT</euCode>
+                          <isoCode>IT</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Italy</name>
+              <rcn>309758504</rcn>
+              <nutsCode>IT</nutsCode>
+              <euCode>IT</euCode>
+              <isoCode>IT</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="355125" totalCost="355125" source="corda" order="10" ecContribution="355125" terminated="false" sme="true" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>3145246</rcn>
+        <id>917943205</id>
+        <vatNumber>CY10356978J</vatNumber>
+        <legalName>VILABS (CY) LTD</legalName>
+        <address>
+          <street>VICTORY HOUSE 205 ARCHBISHOP MAKARIOS</street>
+          <city>LIMASSOL</city>
+          <postalCode>3030</postalCode>
+          <country>CY</country>
+          <geolocation>34.79489125,32.985589384508</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PRC</code>
+              <title>Private for-profit entities (excluding Higher or Secondary Education Establishments)</title>
+              <displayCode>/Private for-profit entities (excluding Higher or Secondary Education Establishments)</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Κύπρος</name>
+              <rcn>210239488</rcn>
+              <nutsCode>CY000</nutsCode>
+              <parents>
+                <region>
+                  <name>Κύπρος</name>
+                  <rcn>210239528</rcn>
+                  <nutsCode>CY00</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Κύπρος</name>
+                      <rcn>210242088</rcn>
+                      <nutsCode>CY0</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Cyprus</name>
+                          <rcn>210405928</rcn>
+                          <nutsCode>CY</nutsCode>
+                          <euCode>CY</euCode>
+                          <isoCode>CY</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Cyprus</name>
+              <rcn>210405928</rcn>
+              <nutsCode>CY</nutsCode>
+              <euCode>CY</euCode>
+              <isoCode>CY</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="350750" totalCost="350750" source="corda" order="8" ecContribution="350750" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1907101</rcn>
+        <id>998802502</id>
+        <vatNumber>EL099785242</vatNumber>
+        <legalName>ETHNIKO KENTRO EREVNAS KAI TECHNOLOGIKIS ANAPTYXIS</legalName>
+        <shortName>CENTRE FOR RESEARCH AND TECHNOLOGY HELLAS CERTH</shortName>
+        <address>
+          <street>CHARILAOU THERMI ROAD 6 KM</street>
+          <city>THERMI THESSALONIKI</city>
+          <postalCode>57 001</postalCode>
+          <country>EL</country>
+          <postBox>000</postBox>
+          <url>https://www.certh.gr</url>
+          <geolocation>40.5472188,23.0219745</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/REC</code>
+              <title>Research Organisations</title>
+              <displayCode>/Research Organisations</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Θεσσαλονίκη</name>
+              <rcn>1465354</rcn>
+              <nutsCode>EL522</nutsCode>
+              <parents>
+                <region>
+                  <name>Κεντρική Μακεδονία</name>
+                  <rcn>1464917</rcn>
+                  <nutsCode>EL52</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Βόρεια Ελλάδα</name>
+                      <rcn>1464915</rcn>
+                      <nutsCode>EL5</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Greece</name>
+                          <rcn>240552488</rcn>
+                          <nutsCode>EL</nutsCode>
+                          <euCode>EL</euCode>
+                          <isoCode>EL</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Greece</name>
+              <rcn>240552488</rcn>
+              <nutsCode>EL</nutsCode>
+              <euCode>EL</euCode>
+              <isoCode>EL</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="282000" totalCost="282000" source="corda" order="6" ecContribution="282000" terminated="false" sme="true" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1976814</rcn>
+        <id>898123195</id>
+        <vatNumber>NL860410067B01</vatNumber>
+        <legalName>TECREANDO B.V.</legalName>
+        <shortName>TECREANDO</shortName>
+        <address>
+          <street>HERENGRACHT 577</street>
+          <city>AMSTERDAM</city>
+          <postalCode>1017 CD</postalCode>
+          <country>NL</country>
+          <geolocation>52.3720796,4.8852582</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PRC</code>
+              <title>Private for-profit entities (excluding Higher or Secondary Education Establishments)</title>
+              <displayCode>/Private for-profit entities (excluding Higher or Secondary Education Establishments)</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <rcn>1471664</rcn>
+              <nutsCode>NL32B</nutsCode>
+            </region>
+            <region type="relatedRegion">
+              <name>Netherlands</name>
+              <rcn>391547432</rcn>
+              <nutsCode>NL</nutsCode>
+              <euCode>NL</euCode>
+              <isoCode>NL</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="1020750" totalCost="1020750" source="corda" order="1" ecContribution="1020750" terminated="false" sme="false" type="coordinator">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1905662</rcn>
+        <id>999895692</id>
+        <vatNumber>EL090049627</vatNumber>
+        <legalName>ARISTOTELIO PANEPISTIMIO THESSALONIKIS</legalName>
+        <shortName>ARISTOTLE UNIVERSITY OF THESSALONIKI</shortName>
+        <address>
+          <street>KEDEA BUILDING, TRITIS SEPTEMVRIOU, ARISTOTLE UNIVERSITY CAMPUS</street>
+          <city>THESSALONIKI</city>
+          <postalCode>546 36</postalCode>
+          <country>EL</country>
+          <postBox>000</postBox>
+          <url>http://www.auth.gr</url>
+          <geolocation>40.62598349613209,22.96056716388373</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Θεσσαλονίκη</name>
+              <rcn>1465354</rcn>
+              <nutsCode>EL522</nutsCode>
+              <parents>
+                <region>
+                  <name>Κεντρική Μακεδονία</name>
+                  <rcn>1464917</rcn>
+                  <nutsCode>EL52</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Βόρεια Ελλάδα</name>
+                      <rcn>1464915</rcn>
+                      <nutsCode>EL5</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Greece</name>
+                          <rcn>240552488</rcn>
+                          <nutsCode>EL</nutsCode>
+                          <euCode>EL</euCode>
+                          <isoCode>EL</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Greece</name>
+              <rcn>240552488</rcn>
+              <nutsCode>EL</nutsCode>
+              <euCode>EL</euCode>
+              <isoCode>EL</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="329500" totalCost="329500" source="corda" order="4" ecContribution="329500" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1936691</rcn>
+        <id>986185518</id>
+        <vatNumber>EL999562826</vatNumber>
+        <legalName>PANEPISTIMIO DYTIKIS MAKEDONIAS</legalName>
+        <shortName>UNIVERSITY OF WESTERN MACEDONIA UOWM</shortName>
+        <address>
+          <street>PARKO AGIOU DIMITRIOU 1</street>
+          <city>KOZANI</city>
+          <postalCode>501 00</postalCode>
+          <country>EL</country>
+          <url>http://www.uowm.gr</url>
+          <geolocation>40.3007259,21.7883119</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Γρεβενά</name>
+              <rcn>1464190</rcn>
+              <nutsCode>EL531</nutsCode>
+              <parents>
+                <region>
+                  <name>Δυτική Μακεδονία</name>
+                  <rcn>1464918</rcn>
+                  <nutsCode>EL53</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Βόρεια Ελλάδα</name>
+                      <rcn>1464915</rcn>
+                      <nutsCode>EL5</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Greece</name>
+                          <rcn>240552488</rcn>
+                          <nutsCode>EL</nutsCode>
+                          <euCode>EL</euCode>
+                          <isoCode>EL</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Greece</name>
+              <rcn>240552488</rcn>
+              <nutsCode>EL</nutsCode>
+              <euCode>EL</euCode>
+              <isoCode>EL</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="181375" totalCost="181375" source="corda" order="13" ecContribution="181375" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1909986</rcn>
+        <id>999562788</id>
+        <vatNumber>EL999723442</vatNumber>
+        <legalName>ATHINA-EREVNITIKO KENTRO KAINOTOMIAS STIS TECHNOLOGIES TIS PLIROFORIAS, TON EPIKOINONION KAI TIS GNOSIS</legalName>
+        <shortName>ATHENA - RESEARCH AND INNOVATION CENTER</shortName>
+        <address>
+          <street>ARTEMIDOS 6 KAI EPIDAVROU</street>
+          <city>MAROUSSI</city>
+          <postalCode>151 25</postalCode>
+          <country>EL</country>
+          <postBox>000</postBox>
+          <url>http://www.athena-innovation.gr</url>
+          <geolocation>38.9953683,21.9877132</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/REC</code>
+              <title>Research Organisations</title>
+              <displayCode>/Research Organisations</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Βόρειος Τομέας Αθηνών</name>
+              <rcn>1465368</rcn>
+              <nutsCode>EL301</nutsCode>
+              <parents>
+                <region>
+                  <name>Aττική</name>
+                  <rcn>1464908</rcn>
+                  <nutsCode>EL30</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Αττική</name>
+                      <rcn>1464907</rcn>
+                      <nutsCode>EL3</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Greece</name>
+                          <rcn>240552488</rcn>
+                          <nutsCode>EL</nutsCode>
+                          <euCode>EL</euCode>
+                          <isoCode>EL</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Greece</name>
+              <rcn>240552488</rcn>
+              <nutsCode>EL</nutsCode>
+              <euCode>EL</euCode>
+              <isoCode>EL</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="116712.5" totalCost="116712.5" source="corda" order="7" ecContribution="116712.5" terminated="true" sme="true" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1967666</rcn>
+        <id>895016964</id>
+        <vatNumber>IT02539330221</vatNumber>
+        <legalName>WITA SRL</legalName>
+        <address>
+          <street>VIA DELLA COOPERAZIONE, 105</street>
+          <city>TRENTO</city>
+          <postalCode>38123</postalCode>
+          <country>IT</country>
+          <geolocation>46.0661497,11.11662318758863</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PRC</code>
+              <title>Private for-profit entities (excluding Higher or Secondary Education Establishments)</title>
+              <displayCode>/Private for-profit entities (excluding Higher or Secondary Education Establishments)</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Trento</name>
+              <rcn>1465409</rcn>
+              <nutsCode>ITH20</nutsCode>
+              <parents>
+                <region>
+                  <name>Provincia Autonoma di Trento</name>
+                  <rcn>1465003</rcn>
+                  <nutsCode>ITH2</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Nord-Est</name>
+                      <rcn>1465001</rcn>
+                      <nutsCode>ITH</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Italy</name>
+                          <rcn>309758504</rcn>
+                          <nutsCode>IT</nutsCode>
+                          <euCode>IT</euCode>
+                          <isoCode>IT</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Italy</name>
+              <rcn>309758504</rcn>
+              <nutsCode>IT</nutsCode>
+              <euCode>IT</euCode>
+              <isoCode>IT</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="73287.5" totalCost="73287.5" source="corda" order="21" ecContribution="73287.5" terminated="false" sme="true" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1992616</rcn>
+        <id>873426607</id>
+        <vatNumber>FR58940284227</vatNumber>
+        <legalName>XEETI</legalName>
+        <shortName>Xeeti</shortName>
+        <address>
+          <street>5 rue Tonduti de l'Escarene</street>
+          <city>Nice</city>
+          <postalCode>06000</postalCode>
+          <country>FR</country>
+          <geolocation>43.7013641,7.2747382</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PRC</code>
+              <title>Private for-profit entities (excluding Higher or Secondary Education Establishments)</title>
+              <displayCode>/Private for-profit entities (excluding Higher or Secondary Education Establishments)</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Alpes-Maritimes</name>
+              <rcn>1465374</rcn>
+              <nutsCode>FRL03</nutsCode>
+              <parents>
+                <region>
+                  <name>Provence-Alpes-Côte d’Azur</name>
+                  <rcn>1464968</rcn>
+                  <nutsCode>FRL0</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Provence-Alpes-Côte d’Azur</name>
+                      <rcn>1464967</rcn>
+                      <nutsCode>FRL</nutsCode>
+                      <parents>
+                        <region>
+                          <name>France</name>
+                          <rcn>258902568</rcn>
+                          <nutsCode>FR</nutsCode>
+                          <euCode>FR</euCode>
+                          <isoCode>FR</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>France</name>
+              <rcn>258902568</rcn>
+              <nutsCode>FR</nutsCode>
+              <euCode>FR</euCode>
+              <isoCode>FR</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="525125" totalCost="525125" source="corda" order="2" ecContribution="525125" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1909376</rcn>
+        <id>955552336</id>
+        <vatNumber>ESG75051912</vatNumber>
+        <legalName>FUNDACION CENTRO DE TECNOLOGIAS DE INTERACCION VISUAL Y COMUNICACIONES VICOMTECH</legalName>
+        <shortName>VICOM</shortName>
+        <address>
+          <street>PASEO MIKELETEGI PARQUE TECNOLOGICO DE MIRAMON 57</street>
+          <city>Donostia San Sebastian</city>
+          <postalCode>20009</postalCode>
+          <country>ES</country>
+          <url>https://www.vicomtech.org</url>
+          <geolocation>43.3224219,-1.9838889</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/REC</code>
+              <title>Research Organisations</title>
+              <displayCode>/Research Organisations</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Gipuzkoa</name>
+              <rcn>242229314</rcn>
+              <nutsCode>ES212</nutsCode>
+              <parents>
+                <region>
+                  <name>País Vasco</name>
+                  <rcn>242229352</rcn>
+                  <nutsCode>ES21</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Noreste</name>
+                      <rcn>242231848</rcn>
+                      <nutsCode>ES2</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Spain</name>
+                          <rcn>242387496</rcn>
+                          <nutsCode>ES</nutsCode>
+                          <euCode>ES</euCode>
+                          <isoCode>ES</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Spain</name>
+              <rcn>242387496</rcn>
+              <nutsCode>ES</nutsCode>
+              <euCode>ES</euCode>
+              <isoCode>ES</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="120125" totalCost="120125" source="corda" order="16" ecContribution="120125" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1962030</rcn>
+        <id>903914192</id>
+        <vatNumber>EL997032008</vatNumber>
+        <legalName>OPENAIRE AMKE</legalName>
+        <address>
+          <street>6 ARTEMIDOS STR &amp; EPIDAVROU</street>
+          <city>MAROUSI</city>
+          <postalCode>15 125</postalCode>
+          <country>EL</country>
+          <geolocation>38.045574349999995,23.805270162605616</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/OTH</code>
+              <title>Other</title>
+              <displayCode>/Other</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Βόρειος Τομέας Αθηνών</name>
+              <rcn>1465368</rcn>
+              <nutsCode>EL301</nutsCode>
+              <parents>
+                <region>
+                  <name>Aττική</name>
+                  <rcn>1464908</rcn>
+                  <nutsCode>EL30</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Αττική</name>
+                      <rcn>1464907</rcn>
+                      <nutsCode>EL3</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Greece</name>
+                          <rcn>240552488</rcn>
+                          <nutsCode>EL</nutsCode>
+                          <euCode>EL</euCode>
+                          <isoCode>EL</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Greece</name>
+              <rcn>240552488</rcn>
+              <nutsCode>EL</nutsCode>
+              <euCode>EL</euCode>
+              <isoCode>EL</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="164500" totalCost="164500" source="corda" order="9" ecContribution="164500" terminated="false" sme="true" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1945988</rcn>
+        <id>913695963</id>
+        <vatNumber>CY10364207G</vatNumber>
+        <legalName>INNOV-ACTS LIMITED</legalName>
+        <address>
+          <street>6 KOLOKOTRONI STREET FLOOR 1 ROOM 6</street>
+          <city>LEFKOSIA</city>
+          <postalCode>1101</postalCode>
+          <country>CY</country>
+          <geolocation>34.9823018,33.1451285</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PRC</code>
+              <title>Private for-profit entities (excluding Higher or Secondary Education Establishments)</title>
+              <displayCode>/Private for-profit entities (excluding Higher or Secondary Education Establishments)</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Κύπρος</name>
+              <rcn>210239488</rcn>
+              <nutsCode>CY000</nutsCode>
+              <parents>
+                <region>
+                  <name>Κύπρος</name>
+                  <rcn>210239528</rcn>
+                  <nutsCode>CY00</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Κύπρος</name>
+                      <rcn>210242088</rcn>
+                      <nutsCode>CY0</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Cyprus</name>
+                          <rcn>210405928</rcn>
+                          <nutsCode>CY</nutsCode>
+                          <euCode>CY</euCode>
+                          <isoCode>CY</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Cyprus</name>
+              <rcn>210405928</rcn>
+              <nutsCode>CY</nutsCode>
+              <euCode>CY</euCode>
+              <isoCode>CY</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="0" totalCost="0" source="corda" order="19" terminated="false" sme="false" type="associatedPartner">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1905627</rcn>
+        <id>999975329</id>
+        <vatNumber>GB568630414</vatNumber>
+        <legalName>UNIVERSITY OF SOUTHAMPTON</legalName>
+        <shortName>SOUTHAMPTON</shortName>
+        <address>
+          <street>Highfield</street>
+          <city>SOUTHAMPTON</city>
+          <postalCode>SO17 1BJ</postalCode>
+          <country>UK</country>
+          <postBox>N/A</postBox>
+          <url>http://www.southampton.ac.uk</url>
+          <geolocation>50.92996995,-1.39643013613604</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Southampton</name>
+              <rcn>508637378</rcn>
+              <nutsCode>UKJ32</nutsCode>
+              <parents>
+                <region>
+                  <name>Hampshire and Isle of Wight</name>
+                  <rcn>508637416</rcn>
+                  <nutsCode>UKJ3</nutsCode>
+                  <parents>
+                    <region>
+                      <name>South East (England)</name>
+                      <rcn>508639784</rcn>
+                      <nutsCode>UKJ</nutsCode>
+                      <parents>
+                        <region>
+                          <name>United Kingdom</name>
+                          <rcn>508725800</rcn>
+                          <nutsCode>UK</nutsCode>
+                          <euCode>UK</euCode>
+                          <isoCode>GB</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>United Kingdom</name>
+              <rcn>508725800</rcn>
+              <nutsCode>UK</nutsCode>
+              <euCode>UK</euCode>
+              <isoCode>GB</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="182000" totalCost="182000" source="corda" order="11" ecContribution="182000" terminated="false" sme="true" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1976816</rcn>
+        <id>907486605</id>
+        <vatNumber>EL800894158</vatNumber>
+        <legalName>KYKLIKI VELTISTOPOIISI IKE</legalName>
+        <shortName>Cyclopt PC</shortName>
+        <address>
+          <street>LAERTOU 22</street>
+          <city>PYLAIA THESSALONIKI</city>
+          <postalCode>55 535</postalCode>
+          <country>EL</country>
+          <geolocation>40.6403167,22.9352716</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PRC</code>
+              <title>Private for-profit entities (excluding Higher or Secondary Education Establishments)</title>
+              <displayCode>/Private for-profit entities (excluding Higher or Secondary Education Establishments)</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Θεσσαλονίκη</name>
+              <rcn>1465354</rcn>
+              <nutsCode>EL522</nutsCode>
+              <parents>
+                <region>
+                  <name>Κεντρική Μακεδονία</name>
+                  <rcn>1464917</rcn>
+                  <nutsCode>EL52</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Βόρεια Ελλάδα</name>
+                      <rcn>1464915</rcn>
+                      <nutsCode>EL5</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Greece</name>
+                          <rcn>240552488</rcn>
+                          <nutsCode>EL</nutsCode>
+                          <euCode>EL</euCode>
+                          <isoCode>EL</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Greece</name>
+              <rcn>240552488</rcn>
+              <nutsCode>EL</nutsCode>
+              <euCode>EL</euCode>
+              <isoCode>EL</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="170750" totalCost="170750" source="corda" order="18" ecContribution="170750" terminated="false" sme="true" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1960588</rcn>
+        <id>899910129</id>
+        <vatNumber>EL801132893</vatNumber>
+        <legalName>ENVE.X SINGLE MEMBER PC</legalName>
+        <address>
+          <street>KOSTI PALAMA 11</street>
+          <city>Thesaloniki</city>
+          <postalCode>551 33</postalCode>
+          <country>EL</country>
+          <geolocation>38.2580032,21.7429386</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PRC</code>
+              <title>Private for-profit entities (excluding Higher or Secondary Education Establishments)</title>
+              <displayCode>/Private for-profit entities (excluding Higher or Secondary Education Establishments)</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Θεσσαλονίκη</name>
+              <rcn>1465354</rcn>
+              <nutsCode>EL522</nutsCode>
+              <parents>
+                <region>
+                  <name>Κεντρική Μακεδονία</name>
+                  <rcn>1464917</rcn>
+                  <nutsCode>EL52</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Βόρεια Ελλάδα</name>
+                      <rcn>1464915</rcn>
+                      <nutsCode>EL5</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Greece</name>
+                          <rcn>240552488</rcn>
+                          <nutsCode>EL</nutsCode>
+                          <euCode>EL</euCode>
+                          <isoCode>EL</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Greece</name>
+              <rcn>240552488</rcn>
+              <nutsCode>EL</nutsCode>
+              <euCode>EL</euCode>
+              <isoCode>EL</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="172000" totalCost="172000" source="corda" order="12" ecContribution="172000" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1906240</rcn>
+        <id>999978530</id>
+        <vatNumber>SE202100297301</vatNumber>
+        <legalName>KAROLINSKA INSTITUTET</legalName>
+        <shortName>KAROLINSKA INSTITUTE</shortName>
+        <address>
+          <street>NOBELS VAG 5</street>
+          <city>STOCKHOLM</city>
+          <postalCode>171 77</postalCode>
+          <country>SE</country>
+          <postBox>N/A</postBox>
+          <url>http://www.ki.se</url>
+          <geolocation>59.3481714,18.0250493</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Stockholms län</name>
+              <rcn>473436224</rcn>
+              <nutsCode>SE110</nutsCode>
+              <parents>
+                <region>
+                  <name>Stockholm</name>
+                  <rcn>473436264</rcn>
+                  <nutsCode>SE11</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Östra Sverige</name>
+                      <rcn>473438760</rcn>
+                      <nutsCode>SE1</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Sweden</name>
+                          <rcn>473598504</rcn>
+                          <nutsCode>SE</nutsCode>
+                          <euCode>SE</euCode>
+                          <isoCode>SE</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Sweden</name>
+              <rcn>473598504</rcn>
+              <nutsCode>SE</nutsCode>
+              <euCode>SE</euCode>
+              <isoCode>SE</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="128250" totalCost="128250" source="corda" order="14" ecContribution="128250" terminated="false" sme="true" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1976817</rcn>
+        <id>892135579</id>
+        <vatNumber>BE0758652836</vatNumber>
+        <legalName>AINIGMA TECHNOLOGIES</legalName>
+        <shortName>AINIGMA</shortName>
+        <address>
+          <street>KAPELDREEF 60</street>
+          <city>Leuven</city>
+          <postalCode>3001</postalCode>
+          <country>BE</country>
+          <geolocation>50.879202,4.7011675</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PRC</code>
+              <title>Private for-profit entities (excluding Higher or Secondary Education Establishments)</title>
+              <displayCode>/Private for-profit entities (excluding Higher or Secondary Education Establishments)</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Arr. Leuven</name>
+              <rcn>188227842</rcn>
+              <nutsCode>BE242</nutsCode>
+              <parents>
+                <region>
+                  <name>Prov. Vlaams-Brabant</name>
+                  <rcn>188227880</rcn>
+                  <nutsCode>BE24</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Vlaams Gewest</name>
+                      <rcn>188230184</rcn>
+                      <nutsCode>BE2</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Belgium</name>
+                          <rcn>188385832</rcn>
+                          <nutsCode>BE</nutsCode>
+                          <euCode>BE</euCode>
+                          <isoCode>BE</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Belgium</name>
+              <rcn>188385832</rcn>
+              <nutsCode>BE</nutsCode>
+              <euCode>BE</euCode>
+              <isoCode>BE</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="194500" totalCost="194500" source="corda" order="3" ecContribution="194500" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1916280</rcn>
+        <id>999702371</id>
+        <vatNumber>LU16853659</vatNumber>
+        <legalName>NETCOMPANY S.A.</legalName>
+        <address>
+          <street>RUE NICOLAS BOVE 2B</street>
+          <city>Luxembourg</city>
+          <postalCode>1253</postalCode>
+          <country>LU</country>
+          <url>http://www.intrasoft-intl.com</url>
+          <geolocation>49.604838900000004,6.086305835563419</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PRC</code>
+              <title>Private for-profit entities (excluding Higher or Secondary Education Establishments)</title>
+              <displayCode>/Private for-profit entities (excluding Higher or Secondary Education Establishments)</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Luxembourg</name>
+              <rcn>360185856</rcn>
+              <nutsCode>LU000</nutsCode>
+              <parents>
+                <region>
+                  <name>Luxembourg</name>
+                  <rcn>360185896</rcn>
+                  <nutsCode>LU00</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Luxembourg</name>
+                      <rcn>360188456</rcn>
+                      <nutsCode>LU0</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Luxembourg</name>
+                          <rcn>360352296</rcn>
+                          <nutsCode>LU</nutsCode>
+                          <euCode>LU</euCode>
+                          <isoCode>LU</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Luxembourg</name>
+              <rcn>360352296</rcn>
+              <nutsCode>LU</nutsCode>
+              <euCode>LU</euCode>
+              <isoCode>LU</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="0" totalCost="0" source="corda" order="20" terminated="false" sme="false" type="associatedPartner">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1910756</rcn>
+        <id>998826946</id>
+        <legalName>ROYAL INSTITUTION FOR THE ADVANCEMENT OF LEARNING MCGILL UNIVERSITY</legalName>
+        <shortName>McGill University</shortName>
+        <address>
+          <street>845 SHERBROOKE STREET WEST</street>
+          <city>Montreal</city>
+          <postalCode>H3A0G4</postalCode>
+          <country>CA</country>
+          <url>http://www.mcgill.ca</url>
+          <geolocation>45.4565404,-73.6402679</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Canada</name>
+              <rcn>204114472</rcn>
+              <nutsCode>CA</nutsCode>
+              <euCode>CA</euCode>
+              <isoCode>CA</isoCode>
+            </region>
+            <region type="relatedRegion">
+              <name>Canada</name>
+              <rcn>204114472</rcn>
+              <nutsCode>CA</nutsCode>
+              <euCode>CA</euCode>
+              <isoCode>CA</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme type="relatedLegalBasis" source="corda" uniqueProgrammePart="true">
+        <availableLanguages>en</availableLanguages>
+        <rcn>705735</rcn>
+        <id>HORIZON.1.3</id>
+        <code>HORIZON.1.3</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.1.3</pga>
+        <title>Research infrastructures</title>
+        <parent>
+          <programme>
+            <rcn>705726</rcn>
+            <code>HORIZON.1</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode>/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme type="relatedTopic" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>705913</rcn>
+        <id>HORIZON_HORIZON-INFRA-2021-EOSC-01-04</id>
+        <code>HORIZON-INFRA-2021-EOSC-01-04</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>Innovative and customizable services for EOSC</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode>/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+            <category classification="topicKeyword" type="isAbout">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <code>/43449504</code>
+              <title>Artificial intelligence, intelligent systems, multi agent systems</title>
+              <displayCode>/Artificial intelligence, intelligent systems, multi agent systems</displayCode>
+            </category>
+            <category classification="topicKeyword" type="isAbout">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <code>/43451046</code>
+              <title>Digital services</title>
+              <displayCode>/Digital services</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme type="relatedLegalBasis" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>705736</rcn>
+        <id>HORIZON.1.3.1</id>
+        <code>HORIZON.1.3.1</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.1.3.1</pga>
+        <title>Consolidating and Developing the Landscape of European Research Infrastructures</title>
+        <parent>
+          <programme>
+            <rcn>705735</rcn>
+            <code>HORIZON.1.3</code>
+            <parent>
+              <programme>
+                <rcn>705726</rcn>
+                <code>HORIZON.1</code>
+                <parent>
+                  <programme>
+                    <rcn>705725</rcn>
+                    <code>HORIZON</code>
+                  </programme>
+                </parent>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode>/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1256555</rcn>
+        <id>101058479_13_DELIVHORIZON</id>
+        <title>Communication, Dissemination and Exploitation progress report (first version)</title>
+        <description>The overall progress of all the WP activities will be reported with emphasis on the activities performed, lessons learnt and an updated planning for the final period.</description>
+        <sourceUpdateDate>2025-02-17 20:05:29</sourceUpdateDate>
+        <contentUpdateDate>2025-02-26 08:02:44</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>e83b08fe3f76270d3f11dc30f1f68b2c</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e50aaf2869&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1042721</rcn>
+        <id>101058479_1_DELIVHORIZON</id>
+        <title>Project management and quality control plan</title>
+        <description>This report will define all the project management framework along with all project quality control procedures including a detailed description of project structure partner responsibilities quality control mechanisms documentation control documentation formats and exchange rules</description>
+        <sourceUpdateDate>2024-02-15 16:35:30</sourceUpdateDate>
+        <contentUpdateDate>2024-02-19 17:06:30</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable" represents="project">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>cf067dfd42131dece39da1f4db729c13</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5f484002d&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1042710</rcn>
+        <id>101058479_2_DELIVHORIZON</id>
+        <title>Data management plan</title>
+        <description>The plan concerning the open research data management according to the guidelines for data and other outputs management in the Horizon Europe Annotated Grant Agreement and DMP Template</description>
+        <sourceUpdateDate>2024-02-15 16:35:30</sourceUpdateDate>
+        <contentUpdateDate>2024-02-19 17:06:30</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable" represents="project">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>b7c36ed3e5cbf6c6f1f063cc5da52c2b</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5f9f5e161&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1042713</rcn>
+        <id>101058479_12_DELIVHORIZON</id>
+        <title>Overall Communication, Dissemination and Exploitation Plan</title>
+        <description>This report will include the overall strategy goals objectives activities targets guidelines and materials for all the tasks of the WP</description>
+        <sourceUpdateDate>2024-02-15 16:35:30</sourceUpdateDate>
+        <contentUpdateDate>2024-02-19 17:06:30</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable" represents="project">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>63aeab0d3b8609b934b2bc05ffe18c2c</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5f9f5e9fb&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1229511</rcn>
+        <id>101058479_102035_PUBLIHORIZON</id>
+        <title>Modular Monoliths the way to Standardization</title>
+        <details>
+          <authors>Michail Tsechelidis, Nikolaos Nikolaidis, Theodore Maikantis, Apostolos Ampatzoglou</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Proceedings of the 3rd Eclipse Security, AI, Architecture and Modelling Conference on Cloud to Edge Continuum</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>ACM</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1145/3624486.3624506</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-12-15 01:52:25</sourceUpdateDate>
+        <contentUpdateDate>2024-12-16 16:53:48</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1030410</rcn>
+        <id>101058479_7242_PUBLIHORIZON</id>
+        <title>Consent Management in Data Workflows: A Graph Problem</title>
+        <details>
+          <authors>Dorota Filipczuk, Enrico H. Gerding, George Konstantinidis</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Proceedings of the 26th International Conference on Extending Database Technology (EDBT)</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>OpenProceedings</publisher>
+        </details>
+        <identifiers>
+          <issn>2367-2005</issn>
+          <doi>10.48786/edbt.2023.61</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-01-06 00:36:27</sourceUpdateDate>
+        <contentUpdateDate>2024-02-21 16:29:13</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1034241</rcn>
+        <id>101058479_7241_PUBLIHORIZON</id>
+        <title>Exploring the Effect of Various Maintenance Activities on the Accumulation of TD Principal</title>
+        <details>
+          <authors>Nikolaos Nikolaidis, Apostolos Ampatzoglou, Alexander Chatzigeorgiou, Nikolaos Mittas, Evdokimos Konstantinidis, Panagiotis Bamidis</authors>
+          <journalNumber></journalNumber>
+          <journalTitle></journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1109/TechDebt59074.2023.00018</doi>
+          <isbn>979-8-3503-1194-5</isbn>
+        </identifiers>
+        <sourceUpdateDate>2024-01-06 00:36:27</sourceUpdateDate>
+        <contentUpdateDate>2024-02-22 09:55:19</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1256560</rcn>
+        <id>101058479_6_DELIVHORIZON</id>
+        <title>Research Analysis Identifier (RAI) Handbook</title>
+        <description>This deliverable will be a website including all the specifications needed for the use of RAI in publications.</description>
+        <sourceUpdateDate>2025-02-17 20:05:29</sourceUpdateDate>
+        <contentUpdateDate>2025-02-26 08:02:44</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>ec106d36749df35163bdaeba509e2eb5</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e50aae7074&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/O</code>
+              <title>Other</title>
+              <displayCode>/Other</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1044352</rcn>
+        <id>101058479_PSHORIZON</id>
+        <title>Periodic Reporting for period 2 - RAISE (Research Analysis Identifier SystEm)</title>
+        <description>periodic</description>
+        <teaser>RAISE's mission is to establish the infrastructure for a decentralized crowdsourced data processing system, transitioning from open data to open-access data for processing. The key innovation lies in RAISE's capability to dispatch algorithms to datasets, as opposed to...</teaser>
+        <sourceUpdateDate>2025-03-03 18:32:38</sourceUpdateDate>
+        <contentUpdateDate>2025-03-03 18:32:38</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/pubsum</code>
+              <title>Report Summary</title>
+              <description>Result: Publishable summary (FP7 SESAM) and Summary for publication (H2020 SyGMa)</description>
+              <displayCode>/Report Summary</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1256557</rcn>
+        <id>101058479_5_DELIVHORIZON</id>
+        <title>RAI Cloud services' specifications</title>
+        <description>This deliverable will provide the RAISE service specification and architecture.</description>
+        <sourceUpdateDate>2025-02-17 20:05:29</sourceUpdateDate>
+        <contentUpdateDate>2025-02-26 08:02:44</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>34c96d8f587d9142143118bf68d2fff6</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e50aa3c65c&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1256148</rcn>
+        <id>101058479_9_DELIVHORIZON</id>
+        <title>Data Plagiarism Checker results</title>
+        <description>This deliverable will be a scientific publication containing the results of the Data Plagiarism Checker algorithm.</description>
+        <sourceUpdateDate>2025-02-17 20:05:29</sourceUpdateDate>
+        <contentUpdateDate>2025-02-26 08:02:00</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>df62b58eb7abbee984c9c6824a1d869b</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5142dbab4&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1229508</rcn>
+        <id>101058479_102077_PUBLIHORIZON</id>
+        <title>Data Marketplaces in the AI Economy</title>
+        <details>
+          <authors>George Konstantinidis, Luis-Daniel Ibáñez, Dumitru Roman</authors>
+          <journalNumber></journalNumber>
+          <journalTitle></journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>Vestlandsforsking</publisher>
+        </details>
+        <identifiers>
+          <isbn>978-82-428-0457-0</isbn>
+        </identifiers>
+        <sourceUpdateDate>2024-12-15 01:52:25</sourceUpdateDate>
+        <contentUpdateDate>2024-12-16 16:53:48</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1034251</rcn>
+        <id>101058479_8365_PUBLIHORIZON</id>
+        <title>Data management plans as linked open data: exploiting ARGOS FAIR and machine actionable outputs in the OpenAIRE research graph</title>
+        <details>
+          <authors>Elli Papadopoulou, Alessia Bardi, George Kakaletris, Diamadis Tziotzios, Paolo Manghi, Natalia Manola</authors>
+          <journalNumber>14</journalNumber>
+          <journalTitle>Journal of Biomedical Semantics</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>Springer Nature</publisher>
+        </details>
+        <identifiers>
+          <issn>2041-1480</issn>
+          <doi>10.1186/s13326-023-00297-5</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-01-06 00:36:27</sourceUpdateDate>
+        <contentUpdateDate>2024-01-17 17:38:00</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1256561</rcn>
+        <id>101058479_4_DELIVHORIZON</id>
+        <title>Service architecture consumer protection requirements</title>
+        <description>This report will address all the technical issues about the service architecture design and the technical requirements to ensure system liability.</description>
+        <sourceUpdateDate>2025-02-17 20:05:29</sourceUpdateDate>
+        <contentUpdateDate>2025-02-26 08:02:44</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>fa48608fb5124930a69f7bec8bb14452</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e50d38bd9f&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1229510</rcn>
+        <id>101058479_102060_PUBLIHORIZON</id>
+        <title>ForBackBench: From Database to Semantic Web Mappings and Back</title>
+        <details>
+          <authors>Afnan Alhazmi, Jaime Osvaldo Salas, George Konstantinidis</authors>
+          <journalNumber></journalNumber>
+          <journalTitle></journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>CEUR Workshop Proceedings</publisher>
+        </details>
+        <identifiers>
+          <issn>1613-0073</issn>
+        </identifiers>
+        <sourceUpdateDate>2024-12-15 01:52:25</sourceUpdateDate>
+        <contentUpdateDate>2024-12-16 16:53:48</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <webLink source="editorial" type="socialMedia" represents="twitter">
+        <title>Twitter</title>
+        <language>en</language>
+        <availableLanguages>en</availableLanguages>
+        <id>0dfd3dba17195b1afca7fcef990b26a8</id>
+        <physUrl>https://twitter.com/RaiseScience</physUrl>
+        <defaultLanguage>en</defaultLanguage>
+      </webLink>
+      <webLink source="editorial" type="socialMedia" represents="facebook">
+        <title>Facebook</title>
+        <language>en</language>
+        <availableLanguages>en</availableLanguages>
+        <id>cdafe20e0c9a3fffc752ecbc1213114a</id>
+        <physUrl>https://www.facebook.com/raise.science</physUrl>
+        <defaultLanguage>en</defaultLanguage>
+      </webLink>
+      <webLink source="editorial" type="socialMedia" represents="linkedIn">
+        <title>LinkedIn</title>
+        <language>en</language>
+        <availableLanguages>en</availableLanguages>
+        <id>f900b938cef5e2e35f2eb8a99eed62d7</id>
+        <physUrl>https://www.linkedin.com/company/raise-science</physUrl>
+        <defaultLanguage>en</defaultLanguage>
+      </webLink>
+      <webLink source="editorial" type="relatedWebsite" represents="project">
+        <title>project website</title>
+        <language>en</language>
+        <availableLanguages>en</availableLanguages>
+        <id>01809221fd10cfba3f9c8225f246a6d2</id>
+        <physUrl>https://raise-science.eu/</physUrl>
+        <defaultLanguage>en</defaultLanguage>
+      </webLink>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode>/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/29/91/521/1299/1757</code>
+        <title>productivity</title>
+        <displayCode>/social sciences/economics and business/economics/production economics/productivity</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/47/299/941</code>
+        <title>data processing</title>
+        <displayCode>/natural sciences/computer and information sciences/data science/data processing</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode>/Digital agenda</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode>/Clean air</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode>/Artificial intelligence</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode>/Climate action</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode>/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages>en</availableLanguages>
+        <code>/HORIZON-RIA</code>
+        <title>HORIZON  Research and Innovation Actions</title>
+        <description>HORIZON  Research and Innovation Actions</description>
+        <displayCode>/HORIZON  Research and Innovation Actions</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode>/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

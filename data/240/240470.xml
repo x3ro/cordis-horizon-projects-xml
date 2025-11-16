@@ -1,0 +1,1453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages>en</availableLanguages>
+  <rcn>240470</rcn>
+  <id>101043225</id>
+  <acronym>AMICAS</acronym>
+  <teaser>A major challenge in anesthesia is to adapt the drug infusion rates from observed patient response to surgical stimuli. The patient models are based on nominal population characteristic response and lack specific surgical effects. In major surgery (e.g. cardiac, transplant...</teaser>
+  <objective>A major challenge in anesthesia is to adapt the drug infusion rates from observed patient response to surgical stimuli. The patient models are based on nominal population characteristic response and lack specific surgical effects. In major surgery (e.g. cardiac, transplant, obese patients) modelling uncertainty stems from significant blood losses, anomalous drug diffusion, drug effect synergy/antagonism, anesthetic-hemodynamic interactions, etc. This complex optimisation problem requires superhuman abilities of the anesthesiologist. 
+
+Computer controlled anesthesia holds the answer to be the game changer for best surgery outcomes. Although few, clinical studies report that computer based anesthesia for one or two drugs outperforms manual management. In reality, clinical practice mitigates a multi-drug optimization problem while accommodating large patient model uncertainty. The anesthesiologist makes decisions based on future surgeon actions and expected patient response. This is a predictive control strategy, a mature methodology in systems and control engineering with potential to faster recovery times and lower risk of complications. 
+
+The goal of this proposal is to advance the scope and clinical use of computer based constrained optimization of multi-drug infusion rates for anesthesia with strong effects on hemodynamics. I plan to identify multivariable models and minimize the large uncertainties in patient response. With adaptation mechanisms from nominal to individual patient models, we design multivariable optimal predictive control methodologies to manage strongly coupled dynamics. To maximize performance of the closed loop, we model the surgical stimulus as a known disturbance signal and additional bolus infusions from anesthesiologist as known inputs. 
+
+I am convinced that integration of human expertise with computer optimization is a successful solution for breakthrough into clinical practice.</objective>
+  <title>Adaptive Multi-Drug Infusion Control System for General Anesthesia in Major Surgery</title>
+  <totalCost>1927325</totalCost>
+  <ecMaxContribution>1927325</ecMaxContribution>
+  <startDate>2022-10-01</startDate>
+  <endDate>2027-09-30</endDate>
+  <ecSignatureDate>2022-07-18</ecSignatureDate>
+  <duration>60</duration>
+  <status>SIGNED</status>
+  <keywords>multivariable control, model uncertainty, convolutional neural networks, predictive control, interaction, anomalous diffusion, drug effect, general anesthesia, cardiac surgery, human expertise</keywords>
+  <identifiers>
+    <grantDoi>10.3030/101043225</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>false</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2025-09-29 12:33:47</sourceUpdateDate>
+  <contentCreationDate>2022-09-02 15:58:27</contentCreationDate>
+  <contentUpdateDate>2025-10-22 11:47:18</contentUpdateDate>
+  <lastUpdateDate>2025-10-22 11:48:09</lastUpdateDate>
+  <relations>
+    <associations>
+      <article source="editorial" type="relatedArticle">
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <rcn>437648</rcn>
+        <id>437648-computer-controlled-anaesthesia</id>
+        <title>Computer-controlled anaesthesia</title>
+        <contentUpdateDate>2022-12-05 14:49:43</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/projectDescription</code>
+              <title>Project description</title>
+              <description>Article: description of linked project written by editorial team</description>
+              <displayCode>/Project description</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/editorial</code>
+              <title>CORDIS Editorial</title>
+              <description>Written by CORDIS</description>
+              <displayCode>/CORDIS Editorial</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </article>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>55314</rcn>
+        <title>ERC-2021-COG</title>
+        <identifier>ERC-2021-COG</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>55314</rcn>
+        <title>ERC-2021-COG</title>
+        <identifier>ERC-2021-COG</identifier>
+      </call>
+      <organization netEcContribution="1927325" totalCost="1927325" source="corda" order="1" ecContribution="1927325" terminated="false" sme="false" type="coordinator">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1906194</rcn>
+        <id>999986096</id>
+        <vatNumber>BE0248015142</vatNumber>
+        <legalName>UNIVERSITEIT GENT</legalName>
+        <shortName>UGent</shortName>
+        <address>
+          <street>SINT PIETERSNIEUWSTRAAT 25</street>
+          <city>GENT</city>
+          <postalCode>9000</postalCode>
+          <country>BE</country>
+          <postBox>000</postBox>
+          <url>http://www.ugent.be</url>
+          <geolocation>51.048245,3.7272009</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Arr. Gent</name>
+              <rcn>188227780</rcn>
+              <nutsCode>BE234</nutsCode>
+              <parents>
+                <region>
+                  <name>Prov. Oost-Vlaanderen</name>
+                  <rcn>188227816</rcn>
+                  <nutsCode>BE23</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Vlaams Gewest</name>
+                      <rcn>188230184</rcn>
+                      <nutsCode>BE2</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Belgium</name>
+                          <rcn>188385832</rcn>
+                          <nutsCode>BE</nutsCode>
+                          <euCode>BE</euCode>
+                          <isoCode>BE</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Belgium</name>
+              <rcn>188385832</rcn>
+              <nutsCode>BE</nutsCode>
+              <euCode>BE</euCode>
+              <isoCode>BE</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme type="relatedTopic" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>705886</rcn>
+        <id>HORIZON_ERC-2021-COG</id>
+        <code>ERC-2021-COG</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>ERC CONSOLIDATOR GRANTS</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode>/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme type="relatedLegalBasis" source="corda" uniqueProgrammePart="true">
+        <availableLanguages>en</availableLanguages>
+        <rcn>705727</rcn>
+        <id>HORIZON.1.1</id>
+        <code>HORIZON.1.1</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.1.1</pga>
+        <title>European Research Council (ERC)</title>
+        <parent>
+          <programme>
+            <rcn>705726</rcn>
+            <code>HORIZON.1</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode>/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1198768</rcn>
+        <id>101043225_89747_PUBLIHORIZON</id>
+        <title>Uncertainty Minimization and Feasibility Study for Managing the Complex and Interacting Anesthesia-Hemodynamic System</title>
+        <details>
+          <authors>Ghita, Mihaela; Copot, Dana; Birs, Isabela R.; Muresan, Cristina I.; Keyser, Robin De; Neckebroek, Martine; Struys, Michel M.R.F.; Ionescu, Clara M.</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>IEEE 61st Conference on Decision and Control (CDC)</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2022</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <issn>0743-1546</issn>
+          <doi>10.1109/cdc51059.2022.9992350</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-11-17 19:36:32</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 15:28:36</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1225562</rcn>
+        <id>101043225_96551_PUBLIHORIZON</id>
+        <title>A compact fractional-order model for hypnosis in general anesthesia</title>
+        <details>
+          <authors>Marcian Mihai , Isabela Roxana Birs, Erwin Hegedus , Dana Copot, Robain De Keyser, Clara-Mihaela Ionescu, Cristina Muresan and Martine Neckebroek</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>12th IFAC Conference on Fractional Differentiation and its Application (ICFDA)</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>ELSEVIER</publisher>
+        </details>
+        <identifiers>
+          <issn>2405-8963</issn>
+          <doi>10.1016/j.ifacol.2024.08.166</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-12-02 09:44:48</sourceUpdateDate>
+        <contentUpdateDate>2024-12-09 12:42:39</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1274570</rcn>
+        <id>101043225_136102_PUBLIHORIZON</id>
+        <title>A Novel Decentralized–Decoupled Fractional-Order Control Strategy for Complete Anesthesia–Hemodynamic Stabilization in Patients Undergoing Surgical Procedures</title>
+        <details>
+          <authors>Erwin T. Hegedüs, Isabela R. Birs, Clara M. Ionescu, Cristina I. Muresan</authors>
+          <journalNumber>8</journalNumber>
+          <journalTitle>Fractal and Fractional</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>MDPI AG</publisher>
+        </details>
+        <identifiers>
+          <issn>2504-3110</issn>
+          <doi>10.3390/FRACTALFRACT8110623</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-04-15 01:27:45</sourceUpdateDate>
+        <contentUpdateDate>2025-05-20 11:26:49</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1198763</rcn>
+        <id>101043225_89786_PUBLIHORIZON</id>
+        <title>Analysis and Preliminary Results of a Feedback-Feedforward Controller for Depth of Anesthesia</title>
+        <details>
+          <authors>Erwin Hegedus, Marcian D. Mihai, Isabela R. Birs, Hamed Farbakhsh, Erhan Yumuk, Dana Copot, Eva H. Dulf, Robain De Keyser, Clara M. Ionescu, Cristina I. Muresan</authors>
+          <journalNumber>58</journalNumber>
+          <journalTitle>IFAC-PapersOnLine</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Elsevier BV</publisher>
+        </details>
+        <identifiers>
+          <issn>2405-8963</issn>
+          <doi>10.1016/j.ifacol.2024.08.037</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-11-17 19:36:32</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 15:28:36</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1281030</rcn>
+        <id>101043225_140786_PUBLIHORIZON</id>
+        <title>A Compartmental Modelling Framework for Drug Distribution in Lean and Obese Patients in Long-Term General Anesthesia&lt;sup&gt;*&lt;/sup&gt;</title>
+        <details>
+          <authors>Amani R. Ynineb, Erhan Yumuk, Hamed Farbakhsh, Ghada Ben Othman, Dana Copot, Isabela R. Birs, Cristina I. Muresan, Robin De Keyser, Samir Ladaci, Clara M. Ionescu, Martine Neckebroek</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>2024 European Control Conference (ECC)</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <doi>10.23919/ECC64448.2024.10590971</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-04-07 10:19:05</sourceUpdateDate>
+        <contentUpdateDate>2025-04-15 08:08:13</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1198762</rcn>
+        <id>101043225_89779_PUBLIHORIZON</id>
+        <title>Model Extraction From Clinical Data Subject to Large Uncertainties and Poor Identifiability</title>
+        <details>
+          <authors>Clara M. Ionescu, Robin De Keyser, Dana Copot, Erhan Yumuk, Amani Ynineb, Ghada Ben Othman, Martine Neckebroek</authors>
+          <journalNumber>8</journalNumber>
+          <journalTitle>IEEE Control Systems Letters</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <issn>2475-1456</issn>
+          <doi>10.1109/LCSYS.2024.3402942</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-11-17 19:36:32</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 15:28:35</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1314888</rcn>
+        <id>101043225_PSHORIZON</id>
+        <title>Periodic Reporting for period 1 - AMICAS (Adaptive Multi-Drug Infusion Control System for General Anesthesia in Major Surgery)</title>
+        <description>periodic</description>
+        <teaser>The ERC AMICAS project proposes an Adaptive Multi-drug Infusion Control system for general Anesthesia in major Surgery. A major challenge in anesthesia is to adapt the drug infusion rates from observed patient response to complex surgical actions. The patient models are based...</teaser>
+        <sourceUpdateDate>2025-06-24 08:45:32</sourceUpdateDate>
+        <contentUpdateDate>2025-06-24 08:45:32</contentUpdateDate>
+        <relations>
+          <associations>
+            <webItem type="relatedResultAttachment" source="corda">
+              <language>en</language>
+              <availableLanguages>en,any</availableLanguages>
+              <uri>/docs/results/horizon/101043/101043225_PS/erc-figure1-01.png</uri>
+              <alternativeText>Digital Operating Room with Anesthesia and Hemodynamic Management</alternativeText>
+              <mimetype>image/png</mimetype>
+              <size>604160</size>
+            </webItem>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/pubsum</code>
+              <title>Report Summary</title>
+              <description>Result: Publishable summary (FP7 SESAM) and Summary for publication (H2020 SyGMa)</description>
+              <displayCode>/Report Summary</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1362568</rcn>
+        <id>101043225_225440_PUBLIHORIZON</id>
+        <title>Modeling, analysis and experimental observations of fat volume properties in compartmental models for drug pharmacokinetics</title>
+        <details>
+          <authors>Amani R. Ynineb; Bouchra Khoumeri; Erhan Yumuk; Bora Ayvaz; Ghada Ben Othman; Clara M. Ionescu; Dana Copot</authors>
+          <journalNumber>60</journalNumber>
+          <journalTitle>Annual Reviews in Control</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2025</publishedYear>
+          <publisher>Elsevier</publisher>
+        </details>
+        <identifiers>
+          <issn>1872-9088</issn>
+          <doi>10.1016/J.ARCONTROL.2025.100996</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-09-16 13:35:51</sourceUpdateDate>
+        <contentUpdateDate>2025-09-22 10:59:22</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1198764</rcn>
+        <id>101043225_89778_PUBLIHORIZON</id>
+        <title>Parametric Modeling and Deep Learning for Enhancing Pain Assessment in Postanesthesia</title>
+        <details>
+          <authors>Mihaela Ghita, Isabela R. Birs, Dana Copot, Cristina I. Muresan, Martine Neckebroek, Clara M. Ionescu</authors>
+          <journalNumber>70</journalNumber>
+          <journalTitle>IEEE Transactions on Biomedical Engineering</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Institute of Electrical and Electronics Engineers (IEEE)</publisher>
+        </details>
+        <identifiers>
+          <issn>0018-9294</issn>
+          <doi>10.1109/TBME.2023.3274541</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-11-17 19:36:32</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 15:28:36</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1281039</rcn>
+        <id>101043225_140784_PUBLIHORIZON</id>
+        <title>Uncertainty and its Effect on Optimal Multidrug Control of Hemodynamic Variables</title>
+        <details>
+          <authors>Teodora Popescu, Isabela R. Birs, Ghada Ben Othman, Erhan Yumuk, Marcian Mihai, Erwin Hegedus, Dana Copot, Robin De Keyser, Clara M. Ionescu, Cristina I. Muresan</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>2024 American Control Conference (ACC)</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <doi>10.23919/ACC60939.2024.10644844</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-04-07 10:19:05</sourceUpdateDate>
+        <contentUpdateDate>2025-04-15 08:08:14</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1198754</rcn>
+        <id>101043225_89785_PUBLIHORIZON</id>
+        <title>PID control of data-driven patient response with fixed ratio co-administration of drugs for depth of hypnosis</title>
+        <details>
+          <authors>Clara M. Ionescu, Hamed Farbakhsh, Cristina Muresan, Robin De Keyser, Erhan Yumuk, Ghada Ben Othman, Amani Rayene Ynineb, Isabela Birs, Dana Copot, Martine Neckebroek</authors>
+          <journalNumber>58</journalNumber>
+          <journalTitle>IFAC-PapersOnLine</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Elsevier BV</publisher>
+        </details>
+        <identifiers>
+          <issn>2405-8963</issn>
+          <doi>10.1016/j.ifacol.2024.08.038</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-11-17 19:36:32</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 15:28:35</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1198765</rcn>
+        <id>101043225_89780_PUBLIHORIZON</id>
+        <title>Fractional-Order Modeling of the Depth of Analgesia as Reference Model for Control Purposes</title>
+        <details>
+          <authors>Cristina I. Muresan, Erwin T. Hegedüs, Marcian D. Mihai, Ghada Ben Othman, Isabela Birs, Dana Copot, Eva Henrietta Dulf, Robin De Keyser, Clara M. Ionescu, Martine Neckebroek</authors>
+          <journalNumber>8</journalNumber>
+          <journalTitle>Fractal and Fractional</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>MDPI AG</publisher>
+        </details>
+        <identifiers>
+          <issn>2504-3110</issn>
+          <doi>10.3390/fractalfract8090539</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-11-17 19:36:32</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 15:28:36</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1272044</rcn>
+        <id>101043225_136100_PUBLIHORIZON</id>
+        <title>An adaptive control structure to mitigate lack of feasibility in systems with poor identifiability. Case Study on General Anesthesia</title>
+        <details>
+          <authors>Clara M. Ionescu, Robin De Keyser, Erhan Yumuk, Dana Copot, Martine Neckebroek</authors>
+          <journalNumber>58</journalNumber>
+          <journalTitle>IFAC-PapersOnLine</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Elsevier BV</publisher>
+        </details>
+        <identifiers>
+          <issn>2405-8963</issn>
+          <doi>10.1016/J.IFACOL.2024.11.039</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-04-07 10:19:05</sourceUpdateDate>
+        <contentUpdateDate>2025-05-20 11:26:48</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1281029</rcn>
+        <id>101043225_140787_PUBLIHORIZON</id>
+        <title>Comparative Analysis of Pharmacokinetic-Pharmacodynamic Models for Propofol and Remifentanil Using Model Predictive Control</title>
+        <details>
+          <authors>A. R. Ynineb, H. Farbakhsh, G. Ben Othman, Y. Wahlquist, I. R. Birs, E. Yumuk, C. I. Muresan, R. De Keyser, D. Copot, C. M. Ionescu, M. Neckebroek</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>2024 European Control Conference (ECC)</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <doi>10.23919/ECC64448.2024.10590766</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-04-07 10:19:05</sourceUpdateDate>
+        <contentUpdateDate>2025-04-15 08:08:13</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1225573</rcn>
+        <id>101043225_96550_PUBLIHORIZON</id>
+        <title>A fractional order impedance model for heterogeneous drug distribution in obese patients during general anesthesia</title>
+        <details>
+          <authors>Amani Rayene Ynineb, Erhan Yumuk, Hamed Farbakhs , Ghada Ben Othman , Dana Copot, Isabela Roxana Birs, Cristina Muresan, Robain De Keyser , Samir Ladaci, Clara-Mihaela Ionescu and Martine Neckebroek.</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>12th IFAC Conference on Fractional Differentiation and its Application (ICFDA)</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>ELSEVIER</publisher>
+        </details>
+        <identifiers>
+          <issn>2405-8963</issn>
+          <doi>10.1016/j.ifacol.2024.08.167</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-12-02 09:44:48</sourceUpdateDate>
+        <contentUpdateDate>2024-12-09 12:42:40</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1198760</rcn>
+        <id>101043225_89777_PUBLIHORIZON</id>
+        <title>Model predictive control of hemodynamics during intravenous general anesthesia</title>
+        <details>
+          <authors>Hamed Farbakhsh, Erhan Yumuk, Ghada Ben Othman, Robin De Keyser, Dana Copot, Isabela Birs, Clara M. Ionescu</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>2023 27th International Conference on System Theory, Control and Computing (ICSTCC)</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <issn>2473-5698</issn>
+          <doi>10.1109/icstcc59206.2023.10308441</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-11-17 19:36:32</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 15:28:35</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1198761</rcn>
+        <id>101043225_89761_PUBLIHORIZON</id>
+        <title>Biomedical Signal Processing and Control</title>
+        <details>
+          <authors>Mihaela Ghita, Isabela R. Birs, Dana Copot, Cristina I. Muresan, Clara M. Ionescu</authors>
+          <journalNumber>83</journalNumber>
+          <journalTitle>Biomedical Signal Processing and Control</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>Elsevier BV</publisher>
+        </details>
+        <identifiers>
+          <issn>1746-8094</issn>
+          <doi>10.1016/J.BSPC.2023.104678</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-04-07 10:19:05</sourceUpdateDate>
+        <contentUpdateDate>2025-05-20 11:26:42</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1198758</rcn>
+        <id>101043225_89776_PUBLIHORIZON</id>
+        <title>Modelling of Blood Loss Influence on Propofol Concentrations and Anesthetic States in Critical Responses *</title>
+        <details>
+          <authors>Mihaela Ghita, Dana Copot, Isabela Birs, Cristina Muresan, Martine Neckebroek, Clara Ionescu</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>2023 American Control Conference (ACC)</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <issn>0743-1619</issn>
+          <doi>10.23919/ACC55779.2023.10156356</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-11-17 19:36:32</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 15:28:35</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1198766</rcn>
+        <id>101043225_89748_PUBLIHORIZON</id>
+        <title>Sensors</title>
+        <details>
+          <authors>Clara M. Ionescu; Dana Copot; Erhan Yumuk; Robin De Keyser; Cristina Muresan; Isabela Roxana Birs; Ghada Ben Othman; Hamed Farbakhsh; Amani R. Ynineb; Martine Neckebroek</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Sensors, Vol 24, Iss 7, p 2031 (2024)</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>MDPI</publisher>
+        </details>
+        <identifiers>
+          <issn>1424-8220</issn>
+          <doi>10.3390/S24072031</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-04-15 01:27:45</sourceUpdateDate>
+        <contentUpdateDate>2025-05-21 16:42:23</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1272050</rcn>
+        <id>101043225_136101_PUBLIHORIZON</id>
+        <title>Minimizing Epistemic Uncertainty for Predictive Control of General Anesthesia</title>
+        <details>
+          <authors>Clara M. Ionescu, Robin De Keyser, Dana Copot, Erhan Yumuk, Isabela R. Birs, Erwin Hegedus, Cristina I. Muresan, Martine Neckebroek</authors>
+          <journalNumber>58</journalNumber>
+          <journalTitle>IFAC-PapersOnLine</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Elsevier BV</publisher>
+        </details>
+        <identifiers>
+          <issn>2405-8963</issn>
+          <doi>10.1016/J.IFACOL.2024.11.086</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-04-07 10:19:05</sourceUpdateDate>
+        <contentUpdateDate>2025-05-20 11:26:49</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1198770</rcn>
+        <id>101043225_89723_PUBLIHORIZON</id>
+        <title>Journal of Process Control</title>
+        <details>
+          <authors>Erhan Yumuk; Dana Copot; Clara M. Ionescu; Martine Neckebroek</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>JOURNAL OF PROCESS CONTROL</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>ELSEVIER SCI LTD</publisher>
+        </details>
+        <identifiers>
+          <issn>0959-1524</issn>
+          <doi>10.1016/j.jprocont.2024.103243</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-11-17 19:36:32</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 15:28:36</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1281038</rcn>
+        <id>101043225_140785_PUBLIHORIZON</id>
+        <title>A Decoupled Fractional Order Control Strategy to Increase Patient Safety During Anesthesia-Hemodynamic Interactions</title>
+        <details>
+          <authors>Erwin Hegedus, Marcian D. Mihai, Isabela R. Birs, Hamed Farbakhsh, Erhan Yumuk, Dana Copot, Robain De Keyser, Clara M. Ionescu, Cristina I. Muresan</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>2024 European Control Conference (ECC)</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <doi>10.23919/ECC64448.2024.10591046</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-04-07 10:19:05</sourceUpdateDate>
+        <contentUpdateDate>2025-04-15 08:08:14</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1198759</rcn>
+        <id>101043225_89781_PUBLIHORIZON</id>
+        <title>Inducing Anaesthesia via Exact Feedback Linearization control</title>
+        <details>
+          <authors>Paul A. Pintea, Eva H. Dulf, Cristina I. Muresan, Clara M. Ionescu</authors>
+          <journalNumber>58</journalNumber>
+          <journalTitle>IFAC-PapersOnLine</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Elsevier BV</publisher>
+        </details>
+        <identifiers>
+          <issn>2405-8963</issn>
+          <doi>10.1016/j.ifacol.2024.08.069</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-11-17 19:36:32</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 15:28:35</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1198771</rcn>
+        <id>101043225_89784_PUBLIHORIZON</id>
+        <title>Fractional Order PID Control of Propofol Dosage and Optimization in Lean and Obese Patients</title>
+        <details>
+          <authors>Amani R. Ynineb, Marcian-David Mihai, Erhan Yumuk, Hamed Farbakhsh, Ghada Ben Othman, Robin De Keyser, Cristina Muresan, Isabela Birs, Dana Copot, Clara M. Ionescu</authors>
+          <journalNumber>58</journalNumber>
+          <journalTitle>IFAC-PapersOnLine</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Elsevier BV</publisher>
+        </details>
+        <identifiers>
+          <issn>2405-8963</issn>
+          <doi>10.1016/j.ifacol.2024.08.039</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-11-17 19:36:32</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 15:28:36</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1198772</rcn>
+        <id>101043225_89787_PUBLIHORIZON</id>
+        <title>First-Hand Design of a Fractional order PID for Controlling the Depth of Hypnosis during Induction</title>
+        <details>
+          <authors>Marcian Mihai, Isabela Birs, Hegedus Erwin, Dana Copot, Martine Neckebroek, Robain De Keyser, Clara M. Ionescu, Cristina I. Muresan</authors>
+          <journalNumber>58</journalNumber>
+          <journalTitle>IFAC-PapersOnLine</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Elsevier BV</publisher>
+        </details>
+        <identifiers>
+          <issn>2405-8963</issn>
+          <doi>10.1016/j.ifacol.2024.08.032</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-11-17 19:36:32</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 15:28:36</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode>/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/21/39/223</code>
+        <title>surgery</title>
+        <displayCode>/medical and health sciences/clinical medicine/surgery</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode>/Digital agenda</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode>/Clean air</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode>/Artificial intelligence</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode>/Climate action</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode>/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages>en</availableLanguages>
+        <code>/HORIZON-ERC</code>
+        <title>HORIZON ERC Grants</title>
+        <description>HORIZON ERC Grants</description>
+        <displayCode>/HORIZON ERC Grants</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode>/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

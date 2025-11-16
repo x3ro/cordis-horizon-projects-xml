@@ -1,0 +1,1919 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages>en</availableLanguages>
+  <rcn>254133</rcn>
+  <id>101088763</id>
+  <acronym>DECOLLAGE</acronym>
+  <teaser>In recent years, transformer-based deep learning models such as BERT or GPT-3 have led to impressive results in many natural language processing (NLP) tasks, exhibiting transfer and few-shot learning capabilities.However, despite faring well in benchmarks, current deep...</teaser>
+  <objective>In recent years, transformer-based deep learning models such as BERT or GPT-3 have led to impressive results in many natural language processing (NLP) tasks, exhibiting transfer and few-shot learning capabilities.
+
+However, despite faring well in benchmarks, current deep learning models for NLP often fail badly in the wild: they are bad at out-of-domain generalization, they do not exploit contextual information, they are poorly calibrated, and their memory is not traceable. These limitations stem from their monolithic architectures, which are good for perception, but unsuitable for tasks requiring higher-level cognition. 
+
+In this project, I attack these fundamental problems by bringing together tools and ideas from machine learning, sparse modeling, information theory, and cognitive science, in an interdisciplinary approach. First, I will use uncertainty and quality estimates for utility-guided controlled generation, combining this control mechanism with the efficient encoding of contextual information and integration of multiple modalities. Second, I will develop sparse and structured memory models, together with attention descriptive representations towards conscious processing. Third, I will build mathematical models for sparse communication (reconciling discrete and continuous domains), supporting end-to-end differentiability and enabling a shared workspace where multiple modules and agents can communicate. 
+
+I will apply the innovations above to highly challenging language generation tasks, including machine translation, open dialogue, and story generation. To reinforce interdisciplinarity and maximize technological impact, collaborations are planned with cognitive scientists and with a scale-up company in the crowd-sourcing translation industry.</objective>
+  <title>DEep COgnition Learning for LAnguage GEneration</title>
+  <totalCost>1999595</totalCost>
+  <ecMaxContribution>1999595</ecMaxContribution>
+  <startDate>2023-08-01</startDate>
+  <endDate>2028-07-31</endDate>
+  <ecSignatureDate>2023-04-05</ecSignatureDate>
+  <duration>60</duration>
+  <status>SIGNED</status>
+  <keywords>Deep Learning, Natural Language Processing, Attention Mechanisms, Computational Models of Higher-Level Cognition</keywords>
+  <identifiers>
+    <grantDoi>10.3030/101088763</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>false</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2025-09-15 15:49:12</sourceUpdateDate>
+  <contentCreationDate>2023-07-13 18:40:30</contentCreationDate>
+  <contentUpdateDate>2025-10-01 18:12:31</contentUpdateDate>
+  <lastUpdateDate>2025-10-01 18:12:36</lastUpdateDate>
+  <relations>
+    <associations>
+      <article source="editorial" type="relatedArticle">
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <rcn>446245</rcn>
+        <id>446245-unlocking-the-future-of-language-understanding-and-processing</id>
+        <title>Unlocking the future of language understanding and processing</title>
+        <contentUpdateDate>2024-02-09 11:14:06</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/projectDescription</code>
+              <title>Project description</title>
+              <description>Article: description of linked project written by editorial team</description>
+              <displayCode>/Project description</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/editorial</code>
+              <title>CORDIS Editorial</title>
+              <description>Written by CORDIS</description>
+              <displayCode>/CORDIS Editorial</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </article>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>55605</rcn>
+        <title>ERC-2022-COG</title>
+        <identifier>ERC-2022-COG</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>55605</rcn>
+        <title>ERC-2022-COG</title>
+        <identifier>ERC-2022-COG</identifier>
+      </call>
+      <organization netEcContribution="1790220" totalCost="1790220" source="corda" order="1" ecContribution="1790220" terminated="false" sme="false" type="coordinator">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1925575</rcn>
+        <id>999580248</id>
+        <vatNumber>PT502854200</vatNumber>
+        <legalName>INSTITUTO DE TELECOMUNICACOES</legalName>
+        <address>
+          <street>CAMPUS UNIVERSITARIO DE SANTIAGO UNIVERSIDADE DE AVEIRO</street>
+          <city>GLORIA E VERA CRUZ</city>
+          <postalCode>3810-193</postalCode>
+          <country>PT</country>
+          <url>http://www.it.pt</url>
+          <geolocation>38.7077926,-9.136506</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/REC</code>
+              <title>Research Organisations</title>
+              <displayCode>/Research Organisations</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <rcn>1471674</rcn>
+              <nutsCode>PT191</nutsCode>
+            </region>
+            <region type="relatedRegion">
+              <name>Portugal</name>
+              <rcn>427199016</rcn>
+              <nutsCode>PT</nutsCode>
+              <euCode>PT</euCode>
+              <isoCode>PT</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="209375" totalCost="209375" source="corda" order="2" ecContribution="209375" terminated="true" sme="true" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>2542483</rcn>
+        <id>939116074</id>
+        <vatNumber>PT510852254</vatNumber>
+        <legalName>UNBABEL UNIPESSOAL, LDA</legalName>
+        <shortName>Unbabel</shortName>
+        <address>
+          <street>RUA VISCONE DE SANTAREM 67B</street>
+          <city>Porto Alto</city>
+          <postalCode>1000-286</postalCode>
+          <country>PT</country>
+          <geolocation>38.7352204,-9.1404443</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PRC</code>
+              <title>Private for-profit entities (excluding Higher or Secondary Education Establishments)</title>
+              <displayCode>/Private for-profit entities (excluding Higher or Secondary Education Establishments)</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedRegion">
+              <name>Portugal</name>
+              <rcn>427199016</rcn>
+              <nutsCode>PT</nutsCode>
+              <euCode>PT</euCode>
+              <isoCode>PT</isoCode>
+            </region>
+            <region type="relatedNutsCode">
+              <rcn>1471670</rcn>
+              <nutsCode>PT1A0</nutsCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme type="relatedLegalBasis" source="corda" uniqueProgrammePart="true">
+        <availableLanguages>en</availableLanguages>
+        <rcn>705727</rcn>
+        <id>HORIZON.1.1</id>
+        <code>HORIZON.1.1</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.1.1</pga>
+        <title>European Research Council (ERC)</title>
+        <parent>
+          <programme>
+            <rcn>705726</rcn>
+            <code>HORIZON.1</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode>/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme type="relatedTopic" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>706731</rcn>
+        <id>HORIZON_ERC-2022-COG</id>
+        <code>ERC-2022-COG</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>ERC CONSOLIDATOR GRANTS</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode>/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1353251</rcn>
+        <id>101088763_211496_PUBLIHORIZON</id>
+        <title>The Devil Is in the Errors: Leveraging Large Language Models for Fine-grained Machine Translation Evaluation</title>
+        <details>
+          <authors>Patrick Fernandes, Daniel Deutsch, Mara Finkelstein, Parker Riley, André Martins, Graham Neubig, Ankush Garg, Jonathan Clark, Markus Freitag, Orhan Firat</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Proceedings of the Eighth Conference on Machine Translation</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>Association for Computational Linguistics</publisher>
+        </details>
+        <identifiers>
+          <doi>10.18653/V1/2023.WMT-1.100</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-08-25 08:12:51</sourceUpdateDate>
+        <contentUpdateDate>2025-09-01 11:13:01</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1353244</rcn>
+        <id>101088763_211469_PUBLIHORIZON</id>
+        <title>CroissantLLM: A Truly Bilingual French-English Language Model</title>
+        <details>
+          <authors>Faysse, Manuel; Fernandes, Patrick; Guerreiro, Nuno; Loison, Antonio; Alves, Duarte; Corro, Caio; Boizard, Nicolas; Alves, Jaoe; Rei, Ricardo; Martins, Pedro Raphaël; Casademunt, Antoni; Yvon, François; Martins, André; Viaud, Gautier; Hudelot, Céline; Colombo, Pierre</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Transactions on Machine Learning Research</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>OpenReview.net</publisher>
+        </details>
+        <identifiers>
+          <issn>2835-8856</issn>
+          <doi>10.48550/ARXIV.2402.00786</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-08-25 08:12:51</sourceUpdateDate>
+        <contentUpdateDate>2025-09-01 11:12:59</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1353263</rcn>
+        <id>101088763_211522_PUBLIHORIZON</id>
+        <title>Modern Hopfield Networks with Continuous-Time Memories</title>
+        <details>
+          <authors>Saul Santos, António Farinhas, Daniel C McNamee, André FT Martins</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>ICLR Workshop on New Frontiers in Associative Memories</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2025</publishedYear>
+          <publisher>OpenReview.net</publisher>
+        </details>
+        <sourceUpdateDate>2025-08-25 08:12:51</sourceUpdateDate>
+        <contentUpdateDate>2025-09-01 11:13:03</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1353295</rcn>
+        <id>101088763_211530_PUBLIHORIZON</id>
+        <title>$\infty$-Video: A Training-Free Approach to Long Video Understanding via Continuous-Time Memory Consolidation</title>
+        <details>
+          <authors>Saul Santos, António Farinhas, Daniel C McNamee, André F. T. Martins</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>International Conference on Machine Learning (ICML'25)</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2025</publishedYear>
+          <publisher>OpenReview.net</publisher>
+        </details>
+        <sourceUpdateDate>2025-08-25 08:12:51</sourceUpdateDate>
+        <contentUpdateDate>2025-09-01 11:16:00</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1353240</rcn>
+        <id>101088763_211467_PUBLIHORIZON</id>
+        <title>Findings of the Quality Estimation Shared Task at WMT 2024: Are LLMs Closing the Gap in QE?</title>
+        <details>
+          <authors>Zerva, Chrysoula; Blain, Frédéric; de Souza, José Guilherme Camargo; Kanojia, Diptesh; Deoghare, Sourabh Dattatray; Guerreiro, Nuno Miguel; Attanasio, Giuseppe; Rei, Ricardo; Orasan, Constantin; Negri, Matteo; Turchi, Marco; Chatterjee, Rajen; Bhattacharyya, Pushpak; Freitag, Markus; Martins, André</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Proceedings of the Ninth Conference on Machine Translation</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Association for Computational Linguistics</publisher>
+        </details>
+        <identifiers>
+          <doi>10.18653/V1/2024.WMT-1.3</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-08-25 08:12:51</sourceUpdateDate>
+        <contentUpdateDate>2025-09-01 11:12:58</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1353237</rcn>
+        <id>101088763_211497_PUBLIHORIZON</id>
+        <title>&lt;b&gt;x&lt;scp&gt;comet&lt;/scp&gt; &lt;/b&gt;: Transparent Machine Translation Evaluation through Fine-grained Error Detection</title>
+        <details>
+          <authors>Nuno M. Guerreiro, Ricardo Rei, Daan van Stigt, Luisa Coheur, Pierre Colombo, André F. T. Martins</authors>
+          <journalNumber>12</journalNumber>
+          <journalTitle>Transactions of the Association for Computational Linguistics</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>MIT Press</publisher>
+        </details>
+        <identifiers>
+          <issn>2307-387X</issn>
+          <doi>10.1162/TACL_A_00683</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-08-25 08:12:51</sourceUpdateDate>
+        <contentUpdateDate>2025-09-01 11:12:58</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1353241</rcn>
+        <id>101088763_211462_PUBLIHORIZON</id>
+        <title>Findings of the WMT 2023 Shared Task on Quality Estimation</title>
+        <details>
+          <authors>Blain, Frederic; Zerva, Chrysoula; Ribeiro, Ricardo; Guerreiro, Nuno M.; Kanojia, Diptesh; C. de Souza, José G.; Silva, Beatriz; Vaz, Tânia; Jingxuan, Yan; Azadi, Fatemeh; Orasan, Constantin; Martins, André</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Proceedings of the Eighth Conference on Machine Translation</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>Association for Computational Linguistics</publisher>
+        </details>
+        <identifiers>
+          <doi>10.18653/V1/2023.WMT-1.52</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-08-25 08:12:51</sourceUpdateDate>
+        <contentUpdateDate>2025-09-01 11:12:58</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1353260</rcn>
+        <id>101088763_211508_PUBLIHORIZON</id>
+        <title>Conformalizing Machine Translation Evaluation</title>
+        <details>
+          <authors>Chrysoula Zerva, André F. T. Martins</authors>
+          <journalNumber>12</journalNumber>
+          <journalTitle>Transactions of the Association for Computational Linguistics</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>MIT Press</publisher>
+        </details>
+        <identifiers>
+          <issn>2307-387X</issn>
+          <doi>10.1162/TACL_A_00711</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-08-25 08:12:51</sourceUpdateDate>
+        <contentUpdateDate>2025-09-01 11:13:03</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1353272</rcn>
+        <id>101088763_211506_PUBLIHORIZON</id>
+        <title>Sparse and Structured Hopfield Networks</title>
+        <details>
+          <authors>Saul José Rodrigues Dos Santos, Vlad Niculae, Daniel C Mcnamee, Andre Martins</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Proceedings of the 41st International Conference on Machine Learning, PMLR 235:43368-43388, 2024</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Proceedings of Machine Learning Research (PMLR)</publisher>
+        </details>
+        <sourceUpdateDate>2025-08-25 08:12:51</sourceUpdateDate>
+        <contentUpdateDate>2025-09-01 11:13:06</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1353259</rcn>
+        <id>101088763_211511_PUBLIHORIZON</id>
+        <title>Tower: An Open Multilingual Large Language Model for Translation-Related Tasks</title>
+        <details>
+          <authors>Duarte M. Alves, José Pombal, Nuno M. Guerreiro, Pedro H. Martins, João Alves, Amin Farajian, Ben Peters, Ricardo Rei, Patrick Fernandes, Sweta Agrawal, Pierre Colombo, José G.C. de Souza, André F.T. Martins</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Conference on Language Modeling (COLM'24, oral)</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>OpenReview.net</publisher>
+        </details>
+        <sourceUpdateDate>2025-08-25 08:12:51</sourceUpdateDate>
+        <contentUpdateDate>2025-09-01 11:13:03</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1353261</rcn>
+        <id>101088763_211514_PUBLIHORIZON</id>
+        <title>Can Automatic Metrics Assess High-Quality Translations?</title>
+        <details>
+          <authors>Sweta Agrawal, António Farinhas, Ricardo Rei, Andre Martins</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Association for Computational Linguistics</publisher>
+        </details>
+        <identifiers>
+          <doi>10.18653/V1/2024.EMNLP-MAIN.802</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-08-25 08:12:51</sourceUpdateDate>
+        <contentUpdateDate>2025-09-01 11:13:03</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1353274</rcn>
+        <id>101088763_211501_PUBLIHORIZON</id>
+        <title>Non-Exchangeable Conformal Risk Control</title>
+        <details>
+          <authors>António Farinhas, Chryssa Zerva, Dennis Ulmer, André F. T. Martins</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>International Conference on Learning Representations (ICLR)</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>OpenReview.net</publisher>
+        </details>
+        <sourceUpdateDate>2025-08-25 08:12:51</sourceUpdateDate>
+        <contentUpdateDate>2025-09-01 11:13:07</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1353257</rcn>
+        <id>101088763_211513_PUBLIHORIZON</id>
+        <title>xTower: A Multilingual LLM for Explaining and Correcting Translation Errors</title>
+        <details>
+          <authors>Marcos V Treviso, Nuno M Guerreiro, Sweta Agrawal, Ricardo Rei, José Pombal, Tania Vaz, Helena Wu, Beatriz Silva, Daan Van Stigt, Andre Martins</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Findings of the Association for Computational Linguistics: EMNLP 2024</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Association for Computational Linguistics</publisher>
+        </details>
+        <identifiers>
+          <doi>10.18653/V1/2024.FINDINGS-EMNLP.892</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-08-25 08:12:51</sourceUpdateDate>
+        <contentUpdateDate>2025-09-01 11:13:01</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1353262</rcn>
+        <id>101088763_211516_PUBLIHORIZON</id>
+        <title>QUEST: Quality-Aware Metropolis-Hastings Sampling for Machine Translation</title>
+        <details>
+          <authors>Gonçalo R. A. Faria, Sweta Agrawal, António Farinhas, Ricardo Rei, José G. C. de Souza, André F. T. Martins</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Advances in Neural Information Processing Systems 37 (NeurIPS 2024)</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>OpenReview.net</publisher>
+        </details>
+        <sourceUpdateDate>2025-08-25 08:12:51</sourceUpdateDate>
+        <contentUpdateDate>2025-09-01 11:13:03</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1353242</rcn>
+        <id>101088763_211500_PUBLIHORIZON</id>
+        <title>Non-Exchangeable Conformal Language Generation with Nearest Neighbors</title>
+        <details>
+          <authors>Dennis Ulmer, Chrysoula Zerva, Andre Martins</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Findings of the Association for Computational Linguistics: EACL 2024</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Association for Computational Linguistics</publisher>
+        </details>
+        <sourceUpdateDate>2025-08-25 08:12:51</sourceUpdateDate>
+        <contentUpdateDate>2025-09-01 11:12:58</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1353253</rcn>
+        <id>101088763_211468_PUBLIHORIZON</id>
+        <title>Assessing the Role of Context in Chat Translation Evaluation: Is Context Helpful and Under What Conditions?</title>
+        <details>
+          <authors>Agrawal, Sweta; Farajian, Amin; Fernandes, Patrick; Rei, Ricardo; Martins, André F. T.</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Transactions of the Association for Computational Linguistics</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>MIT Press</publisher>
+        </details>
+        <identifiers>
+          <issn>2307-387X</issn>
+          <doi>10.1162/TACL_A_00700</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-08-25 08:12:51</sourceUpdateDate>
+        <contentUpdateDate>2025-09-01 11:13:01</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1353264</rcn>
+        <id>101088763_211510_PUBLIHORIZON</id>
+        <title>How Effective Are State Space Models for Machine Translation?</title>
+        <details>
+          <authors>Hugo Pitorro, Pavlo Vasylenko, Marcos Treviso, André Martins</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Proceedings of the Ninth Conference on Machine Translation</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Association for Computational Linguistics</publisher>
+        </details>
+        <identifiers>
+          <doi>10.18653/V1/2024.WMT-1.111</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-08-25 08:12:51</sourceUpdateDate>
+        <contentUpdateDate>2025-09-01 11:13:03</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1353269</rcn>
+        <id>101088763_211515_PUBLIHORIZON</id>
+        <title>Modeling User Preferences with Automatic Metrics: Creating a High-Quality Preference Dataset for Machine Translation</title>
+        <details>
+          <authors>Sweta Agrawal, José G. C. De Souza, Ricardo Rei, António Farinhas, Gonçalo Faria, Patrick Fernandes, Nuno M Guerreiro, Andre Martins</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Association for Computational Linguistics</publisher>
+        </details>
+        <identifiers>
+          <doi>10.18653/V1/2024.EMNLP-MAIN.803</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-08-25 08:12:51</sourceUpdateDate>
+        <contentUpdateDate>2025-09-01 11:13:04</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1353285</rcn>
+        <id>101088763_211531_PUBLIHORIZON</id>
+        <title>AdaSplash: Adaptive Sparse Flash Attention</title>
+        <details>
+          <authors>Nuno Gonçalves, Marcos Treviso, André F. T. Martins</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>International Conference on Machine Learning (ICML'25, oral)</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2025</publishedYear>
+          <publisher>OpenReview.net</publisher>
+        </details>
+        <sourceUpdateDate>2025-08-25 08:12:51</sourceUpdateDate>
+        <contentUpdateDate>2025-09-01 11:16:00</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1353268</rcn>
+        <id>101088763_211526_PUBLIHORIZON</id>
+        <title>Different Speech Translation Models Encode and Translate Speaker Gender Differently</title>
+        <details>
+          <authors>Dennis Fucci, Marco Gaido, Matteo Negri, Luisa Bentivogli, Andre Martins, Giuseppe Attanasio</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2025</publishedYear>
+          <publisher>Association for Computational Linguistics</publisher>
+        </details>
+        <identifiers>
+          <doi>10.18653/V1/2025.ACL-SHORT.78</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-08-25 08:12:51</sourceUpdateDate>
+        <contentUpdateDate>2025-09-01 11:13:04</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1353276</rcn>
+        <id>101088763_211512_PUBLIHORIZON</id>
+        <title>Analyzing Context Contributions in LLM-based Machine Translation</title>
+        <details>
+          <authors>Emmanouil Zaranis, Nuno M Guerreiro, Andre Martins</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Findings of the Association for Computational Linguistics: EMNLP 2024</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Association for Computational Linguistics</publisher>
+        </details>
+        <identifiers>
+          <doi>10.18653/V1/2024.FINDINGS-EMNLP.876</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-08-25 08:12:51</sourceUpdateDate>
+        <contentUpdateDate>2025-09-01 11:13:07</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1353266</rcn>
+        <id>101088763_211523_PUBLIHORIZON</id>
+        <title>Sparse Activations as Conformal Predictors</title>
+        <details>
+          <authors>Margarida M Campos, João Cálem, Sophia Sklaviadis, Mario A. T. Figueiredo, Andre Martins</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Volume 258: International Conference on Artificial Intelligence and Statistics, 3-5 May 2025 (AISTATS)</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2025</publishedYear>
+          <publisher>Proceedings of Machine Learning Research (PLMR)</publisher>
+        </details>
+        <sourceUpdateDate>2025-08-25 08:12:51</sourceUpdateDate>
+        <contentUpdateDate>2025-09-01 11:13:04</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1353296</rcn>
+        <id>101088763_211528_PUBLIHORIZON</id>
+        <title>Did Translation Models Get More Robust Without Anyone Even Noticing?</title>
+        <details>
+          <authors>Ben Peters, Andre Martins</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2025</publishedYear>
+          <publisher>Association for Computational Linguistics</publisher>
+        </details>
+        <identifiers>
+          <doi>10.18653/V1/2025.ACL-LONG.122</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-08-25 08:12:51</sourceUpdateDate>
+        <contentUpdateDate>2025-09-01 11:16:00</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1353254</rcn>
+        <id>101088763_211465_PUBLIHORIZON</id>
+        <title>Scaling up CometKiwi: Unbabel-IST 2023 Submission for the Quality Estimation Shared Task</title>
+        <details>
+          <authors>Ricardo Rei, Nuno M. Guerreiro, JosÃ© Pombal, Daan van Stigt, Marcos Treviso, Luisa Coheur, José G. C. de Souza, André Martins</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Proceedings of the Eighth Conference on Machine Translation</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>Association for Computational Linguistics</publisher>
+        </details>
+        <identifiers>
+          <doi>10.18653/V1/2023.WMT-1.73</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-08-25 08:12:51</sourceUpdateDate>
+        <contentUpdateDate>2025-09-01 11:13:01</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1353265</rcn>
+        <id>101088763_211527_PUBLIHORIZON</id>
+        <title>Watching the Watchers: Exposing Gender Disparities in Machine Translation Quality Estimation</title>
+        <details>
+          <authors>Emmanouil Zaranis, Giuseppe Attanasio, Sweta Agrawal, Andre Martins</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2025</publishedYear>
+          <publisher>Association for Computational Linguistics</publisher>
+        </details>
+        <identifiers>
+          <doi>10.18653/V1/2025.ACL-LONG.1228</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-08-25 08:12:51</sourceUpdateDate>
+        <contentUpdateDate>2025-09-01 11:13:04</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1353247</rcn>
+        <id>101088763_211466_PUBLIHORIZON</id>
+        <title>Steering Large Language Models for Machine Translation with Finetuning and In-Context Learning</title>
+        <details>
+          <authors>Duarte Alves, Nuno Guerreiro, João Alves, José Pombal, Ricardo Rei, José de Souza, Pierre Colombo, Andre Martins</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Findings of the Association for Computational Linguistics: EMNLP 2023</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>Association for Computational Linguistics</publisher>
+        </details>
+        <identifiers>
+          <doi>10.18653/V1/2023.FINDINGS-EMNLP.744</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-08-25 08:12:51</sourceUpdateDate>
+        <contentUpdateDate>2025-09-01 11:13:00</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1353258</rcn>
+        <id>101088763_211517_PUBLIHORIZON</id>
+        <title>Reranking Laws for Language Generation: A Communication-Theoretic Perspective (spotlight paper)</title>
+        <details>
+          <authors>António Farinhas, Haau-Sing Li, André F. T. Martins</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Advances in Neural Information Processing Systems 37 (NeurIPS 2024)</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>OpenReview.net</publisher>
+        </details>
+        <sourceUpdateDate>2025-08-25 08:12:51</sourceUpdateDate>
+        <contentUpdateDate>2025-09-01 11:13:01</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1353271</rcn>
+        <id>101088763_211525_PUBLIHORIZON</id>
+        <title>LLMs instead of Human Judges? A Large Scale Empirical Study across 20 NLP Evaluation Tasks</title>
+        <details>
+          <authors>Anna Bavaresco, Raffaella Bernardi, Leonardo Bertolazzi, Desmond Elliott, Raquel Fernández, Albert Gatt, Esam Ghaleb, Mario Giulianelli, Michael Hanna, Alexander Koller, Andre Martins, Philipp Mondorf, Vera Neplenbroek, Sandro Pezzelle, Barbara Plank, David Schlangen, Alessandro Suglia, Aditya K Surikuchi, Ece Takmaz, Alberto Testoni</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2025</publishedYear>
+          <publisher>Association for Computational Linguistics</publisher>
+        </details>
+        <identifiers>
+          <doi>10.18653/V1/2025.ACL-SHORT.20</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-08-25 08:12:51</sourceUpdateDate>
+        <contentUpdateDate>2025-09-01 11:13:06</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1353267</rcn>
+        <id>101088763_211518_PUBLIHORIZON</id>
+        <title>XAMPLER: Learning to Retrieve Cross-Lingual In-Context Examples</title>
+        <details>
+          <authors>Peiqin Lin, Andre Martins, Hinrich Schuetze</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Findings of the Association for Computational Linguistics: NAACL 2025</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2025</publishedYear>
+          <publisher>Association for Computational Linguistics</publisher>
+        </details>
+        <identifiers>
+          <doi>10.18653/V1/2025.FINDINGS-NAACL.221</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-08-25 08:12:51</sourceUpdateDate>
+        <contentUpdateDate>2025-09-01 11:13:04</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1353270</rcn>
+        <id>101088763_211524_PUBLIHORIZON</id>
+        <title>Discrete Latent Structure in Neural Networks</title>
+        <details>
+          <authors>Vlad Niculae, Caio Corro, Nikita Nangia, Tsvetomila Mihaylova, André F. T. Martins</authors>
+          <journalNumber>19</journalNumber>
+          <journalTitle>Foundations and Trends® in Signal Processing</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2025</publishedYear>
+          <publisher>Now Publishers</publisher>
+        </details>
+        <identifiers>
+          <issn>1932-8346</issn>
+          <doi>10.1561/2000000134</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-08-25 08:12:51</sourceUpdateDate>
+        <contentUpdateDate>2025-09-01 11:13:04</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/MONOGRAPHIC_BOOK</code>
+              <title>Monographic books</title>
+              <displayCode>/Monographic books</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1353250</rcn>
+        <id>101088763_211463_PUBLIHORIZON</id>
+        <title>An Empirical Study of Translation Hypothesis Ensembling with Large Language Models</title>
+        <details>
+          <authors>António Farinhas, José de Souza, Andre Martins</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>Association for Computational Linguistics</publisher>
+        </details>
+        <identifiers>
+          <doi>10.18653/V1/2023.EMNLP-MAIN.733</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-08-25 08:12:51</sourceUpdateDate>
+        <contentUpdateDate>2025-09-01 11:13:01</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1353275</rcn>
+        <id>101088763_211507_PUBLIHORIZON</id>
+        <title>Conformal Prediction for Natural Language Processing: A Survey</title>
+        <details>
+          <authors>Margarida Campos, António Farinhas, Chrysoula Zerva, Mário A. T. Figueiredo, André F. T. Martins</authors>
+          <journalNumber>12</journalNumber>
+          <journalTitle>Transactions of the Association for Computational Linguistics</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>MIT Press</publisher>
+        </details>
+        <identifiers>
+          <issn>2307-387X</issn>
+          <doi>10.1162/TACL_A_00715</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-08-25 08:12:51</sourceUpdateDate>
+        <contentUpdateDate>2025-09-01 11:13:07</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1353273</rcn>
+        <id>101088763_211505_PUBLIHORIZON</id>
+        <title>Aligning Neural Machine Translation Models: Human Feedback in Training and Inference</title>
+        <details>
+          <authors>Miguel Ramos, Patrick Fernandes, António Farinhas, Andre Martins</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Proceedings of the 25th Annual Conference of the European Association for Machine Translation (Volume 1)</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>European Association for Machine Translation</publisher>
+        </details>
+        <sourceUpdateDate>2025-08-25 08:12:51</sourceUpdateDate>
+        <contentUpdateDate>2025-09-01 11:13:06</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1353245</rcn>
+        <id>101088763_211495_PUBLIHORIZON</id>
+        <title>Sparse Modern Hopfield Networks</title>
+        <details>
+          <authors>André F. T. Martins, Vlad Niculae, Daniel C. McNamee</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>NeurIPS Workshop on Associative Memories \&amp; Hopfield Networks</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>OpenReview.net</publisher>
+        </details>
+        <sourceUpdateDate>2025-08-25 08:12:51</sourceUpdateDate>
+        <contentUpdateDate>2025-09-01 11:13:00</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1353256</rcn>
+        <id>101088763_211498_PUBLIHORIZON</id>
+        <title>mPLM-Sim: Unveiling Better Cross-Lingual Similarity and Transfer in Multilingual Pretrained Language Models</title>
+        <details>
+          <authors>Peiqin Lin, Chengzhi Hu, Zheyu Zhang, André F. T. Martins, Hinrich Schütze</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Findings of the Association for Computational Linguistics: EACL 2024</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Association for Computational Linguistics</publisher>
+        </details>
+        <sourceUpdateDate>2025-08-25 08:12:51</sourceUpdateDate>
+        <contentUpdateDate>2025-09-01 11:13:01</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1353243</rcn>
+        <id>101088763_211464_PUBLIHORIZON</id>
+        <title>Bridging the Gap: A Survey on Integrating (Human) Feedback for Natural Language Generation</title>
+        <details>
+          <authors>Patrick Fernandes, Aman Madaan, Emmy Liu, António Farinhas, Pedro Henrique Martins, Amanda Bertsch, José G. C. de Souza, Shuyan Zhou, Tongshuang Wu, Graham Neubig, André F. T. Martins</authors>
+          <journalNumber>11</journalNumber>
+          <journalTitle>Transactions of the Association for Computational Linguistics</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>MIT Press</publisher>
+        </details>
+        <identifiers>
+          <issn>2307-387X</issn>
+          <doi>10.1162/TACL_A_00626</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-08-25 08:12:51</sourceUpdateDate>
+        <contentUpdateDate>2025-09-01 11:12:58</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode>/Project</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="100">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode>/Digital agenda</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode>/Clean air</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="100">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode>/Artificial intelligence</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode>/Climate action</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode>/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages>en</availableLanguages>
+        <code>/HORIZON-ERC</code>
+        <title>HORIZON ERC Grants</title>
+        <description>HORIZON ERC Grants</description>
+        <displayCode>/HORIZON ERC Grants</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode>/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

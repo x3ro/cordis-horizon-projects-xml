@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages>en</availableLanguages>
+  <rcn>253842</rcn>
+  <id>101107885</id>
+  <acronym>INT-PVK-PRINT</acronym>
+  <teaser>Hybrid perovskite photovoltaics (PV) are considered one of the most promising emerging PV technologies that have the potential to becoming a vital part of future’s renewable energy production needed for combating climate change. However, the community still struggles with...</teaser>
+  <objective>Hybrid perovskite photovoltaics (PV) are considered one of the most promising emerging PV technologies that have the potential to becoming a vital part of future’s renewable energy production needed for combating climate change. However, the community still struggles with the scaling and reproducibility when printing perovskite thin-film absorber layers from solution due to the complex perovskite formation process that is susceptible to a variety of environment and process parameters.
+This project proposes a novel interface between perovskite solution printing and algorithmic optimization and control theory by equipping a roll-to-roll perovskite printing line with in situ characterization, computational data processing and automatically adjustable process parameters. The characterization is given by point-probe reflection/absorption as well as luminescence imaging measurements. Feedback for control is calculated in real-time using simple control algorithms, at first, and progressing in complexity toward the employment of deep reinforcement learning (DRL), later on. The images are analyzed offline using convolutional neural networks for optimizing absorption/reflection set points for the above-described feedback control.
+The proposal has two main goals: 1) Boosting the optimization of perovskite solution printing by effectively balancing exploration and exploitation of the large parameter space 2) demonstrating enhanced process control of certain system states to achieve higher process reproducibility and resilience in perovskite printing. These goals are complementary in a sense that control is exceeded on rapidly accessible parameters while optimization is performed with slowly accessible parameters.
+In conclusion, this proposal presents a fundamental and concise new methodology of addressing reproducibility and scalability in perovskite solution printing that could be used for printing of functional thin-film, as well, highlighting its generality.</objective>
+  <title>An intelligent perovskite solution printing line</title>
+  <totalCost>0</totalCost>
+  <ecMaxContribution>188590.08</ecMaxContribution>
+  <startDate>2023-09-01</startDate>
+  <endDate>2025-08-31</endDate>
+  <ecSignatureDate>2023-03-29</ecSignatureDate>
+  <duration>24</duration>
+  <status>SIGNED</status>
+  <keywords>scalable roll-to-roll coating, hybrid perovskite photovoltaics, in situ characterization, luminescence imaging, deep machine learning, deep reinforcement learning,  convolutional neural networks</keywords>
+  <identifiers>
+    <grantDoi>10.3030/101107885</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>false</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2024-12-31 09:30:22</sourceUpdateDate>
+  <contentCreationDate>2023-07-13 17:49:30</contentCreationDate>
+  <contentUpdateDate>2023-07-13 17:49:25</contentUpdateDate>
+  <lastUpdateDate>2025-10-28 10:17:36</lastUpdateDate>
+  <relations>
+    <associations>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>55393</rcn>
+        <title>HORIZON-MSCA-2022-PF-01</title>
+        <identifier>HORIZON-MSCA-2022-PF-01</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>55393</rcn>
+        <title>HORIZON-MSCA-2022-PF-01</title>
+        <identifier>HORIZON-MSCA-2022-PF-01</identifier>
+      </call>
+      <organization netEcContribution="188590.08" totalCost="0" source="corda" order="1" ecContribution="188590.08" terminated="false" sme="false" type="coordinator">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1906260</rcn>
+        <id>999844864</id>
+        <vatNumber>IT02133971008</vatNumber>
+        <legalName>UNIVERSITA DEGLI STUDI DI ROMA TOR VERGATA</legalName>
+        <shortName>UNITOV</shortName>
+        <address>
+          <street>VIA CRACOVIA 50</street>
+          <city>Roma</city>
+          <postalCode>00133</postalCode>
+          <country>IT</country>
+          <postBox>000</postBox>
+          <url>http://www.uniroma2.it</url>
+          <geolocation>41.8514639,12.6295217</geolocation>
+        </address>
+        <departmentName>Deparment of Enterprise Engineering "Mario Lucertini"</departmentName>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Roma</name>
+              <rcn>1464004</rcn>
+              <nutsCode>ITI43</nutsCode>
+              <parents>
+                <region>
+                  <name>Lazio</name>
+                  <rcn>1465012</rcn>
+                  <nutsCode>ITI4</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Centro (IT)</name>
+                      <rcn>1465008</rcn>
+                      <nutsCode>ITI</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Italy</name>
+                          <rcn>309758504</rcn>
+                          <nutsCode>IT</nutsCode>
+                          <euCode>IT</euCode>
+                          <isoCode>IT</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Italy</name>
+              <rcn>309758504</rcn>
+              <nutsCode>IT</nutsCode>
+              <euCode>IT</euCode>
+              <isoCode>IT</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="0" totalCost="0" source="corda" order="2" terminated="false" sme="false" type="associatedPartner">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1905691</rcn>
+        <id>999977463</id>
+        <vatNumber>DE811193231</vatNumber>
+        <legalName>TECHNISCHE UNIVERSITAET MUENCHEN</legalName>
+        <shortName>TUM</shortName>
+        <address>
+          <street>Arcisstrasse  21</street>
+          <city>Muenchen</city>
+          <postalCode>80333</postalCode>
+          <country>DE</country>
+          <url>http://www.tu-muenchen.de</url>
+          <geolocation>48.1499912,11.567459</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>München, Kreisfreie Stadt</name>
+              <rcn>221782082</rcn>
+              <nutsCode>DE212</nutsCode>
+              <parents>
+                <region>
+                  <name>Oberbayern</name>
+                  <rcn>221782120</rcn>
+                  <nutsCode>DE21</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Bayern</name>
+                      <rcn>221784616</rcn>
+                      <nutsCode>DE2</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Germany</name>
+                          <rcn>221940264</rcn>
+                          <nutsCode>DE</nutsCode>
+                          <euCode>DE</euCode>
+                          <isoCode>DE</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Germany</name>
+              <rcn>221940264</rcn>
+              <nutsCode>DE</nutsCode>
+              <euCode>DE</euCode>
+              <isoCode>DE</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme type="relatedLegalBasis" source="corda" uniqueProgrammePart="true">
+        <availableLanguages>en</availableLanguages>
+        <rcn>705729</rcn>
+        <id>HORIZON.1.2</id>
+        <code>HORIZON.1.2</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.1.2</pga>
+        <title>Marie Skłodowska-Curie Actions (MSCA)</title>
+        <parent>
+          <programme>
+            <rcn>705726</rcn>
+            <code>HORIZON.1</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode>/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme type="relatedTopic" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>706018</rcn>
+        <id>HORIZON_HORIZON-MSCA-2022-PF-01-01</id>
+        <code>HORIZON-MSCA-2022-PF-01-01</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>MSCA Postdoctoral Fellowships 2022</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode>/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1142455</rcn>
+        <id>101107885_1_DELIVHORIZON</id>
+        <title>Data Management Plan</title>
+        <description>The Data Management Plan describes the data management life cyclefor all data sets that will be collected, processed or generated by the action. It is adocument describing what data will be collected, processed or generated andfollowing what methodology and standards, whether and how this data will beshared and/or made open, and how it will be curated and preserved.</description>
+        <sourceUpdateDate>2024-07-30 10:32:54</sourceUpdateDate>
+        <contentUpdateDate>2024-08-06 15:04:02</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>f947e57400424acfa5c2f7a2ed0c9234</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e508dc2a62&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/DMP</code>
+              <title>Data Management Plan</title>
+              <displayCode>/Data Management Plan</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1377491</rcn>
+        <id>101107885_245344_PUBLIHORIZON</id>
+        <title>Advanced Energy Materials</title>
+        <details>
+          <authors>Simon Ternes, Christoph J. Brabec, Luigi A. Castriotta, Thomas Exlager, Karen Forberich, Alessio Gagliardi, Michael Götte, Florian Mathies, Sinclair Ryley Ratnasingham, Lennart K. Reb, Eva Unger, Aldo Di Carlo</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Advanced Energy Materials</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2025</publishedYear>
+          <publisher>Wiley-VCH Verlag</publisher>
+        </details>
+        <identifiers>
+          <issn>1614-6832</issn>
+          <doi>10.1002/AENM.202503187</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-10-20 17:42:54</sourceUpdateDate>
+        <contentUpdateDate>2025-10-28 10:17:32</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1370490</rcn>
+        <id>101107885_3_DELIVHORIZON</id>
+        <title>Communication, Dissemination &amp; Exploitation Plan</title>
+        <description>The plan describes the planned measures to maximize the impact ofthe project, including the dissemination and exploitation measures that are planned,and the target group(s) addressed. Regarding communication measures and publicengagement strategy, the aim is to inform and reach out to society and show theactivities performed, and the use and the benefits the project will have for citizens.</description>
+        <sourceUpdateDate>2025-10-07 05:06:23</sourceUpdateDate>
+        <contentUpdateDate>2025-10-16 08:53:41</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>a4d56a1bc963d985c63e645ab23ee943</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e522defcd2&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1377490</rcn>
+        <id>101107885_245345_PUBLIHORIZON</id>
+        <title>Advanced Energy Materials</title>
+        <details>
+          <authors>Forberich, Karen; Albrecht, Steve; Castriotta, Luigi Angelo; Distler, Andreas; Hauch, Jens; Kirchartz, Thomas; Paetzold, Ulrich W.; Schorr, Susan; Sprau, Christian; Stannowski, Bernd; Ternes, Simon; Unger, Eva; Unold, Thomas; Brabec, Christoph J.</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Advanced Energy Materials</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Wiley-VCH Verlag</publisher>
+        </details>
+        <identifiers>
+          <issn>1614-6832</issn>
+          <doi>10.34734/FZJ-2025-00101</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-10-20 17:42:54</sourceUpdateDate>
+        <contentUpdateDate>2025-10-28 10:17:32</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1377492</rcn>
+        <id>101107885_245346_PUBLIHORIZON</id>
+        <title>Modeling and Fundamental Dynamics of Vacuum, Gas, and Antisolvent Quenching for Scalable Perovskite Processes</title>
+        <details>
+          <authors>Simon Ternes; Felix Laufer; Ulrich W. Paetzold</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Advanced Science</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Wiley</publisher>
+        </details>
+        <identifiers>
+          <issn>2198-3844</issn>
+          <doi>10.5445/IR/1000168634</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-10-20 17:42:54</sourceUpdateDate>
+        <contentUpdateDate>2025-10-28 10:17:32</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode>/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/47/297/933/1587</code>
+        <title>reinforcement learning</title>
+        <displayCode>/natural sciences/computer and information sciences/artificial intelligence/machine learning/reinforcement learning</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/45/30018/30032/30055</code>
+        <title>climatic changes</title>
+        <displayCode>/natural sciences/earth and related environmental sciences/atmospheric sciences/climatology/climatic changes</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/47/299/941</code>
+        <title>data processing</title>
+        <displayCode>/natural sciences/computer and information sciences/data science/data processing</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/25/67/425/1169/1685/98939167</code>
+        <title>photovoltaic</title>
+        <displayCode>/engineering and technology/environmental engineering/energy and fuels/renewable energy/solar energy/photovoltaic</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/47/297/931</code>
+        <title>computational intelligence</title>
+        <displayCode>/natural sciences/computer and information sciences/artificial intelligence/computational intelligence</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="100">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode>/Digital agenda</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="40">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode>/Clean air</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="100">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode>/Artificial intelligence</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="40">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode>/Climate action</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode>/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages>en</availableLanguages>
+        <code>/HORIZON-TMA-MSCA-PF-EF</code>
+        <title>HORIZON TMA MSCA Postdoctoral Fellowships - European Fellowships</title>
+        <description>HORIZON TMA MSCA Postdoctoral Fellowships - European Fellowships</description>
+        <displayCode>/HORIZON TMA MSCA Postdoctoral Fellowships - European Fellowships</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode>/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

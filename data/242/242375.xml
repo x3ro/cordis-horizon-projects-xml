@@ -1,0 +1,2545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages>en</availableLanguages>
+  <rcn>242375</rcn>
+  <id>101081395</id>
+  <acronym>EYE-CLIMA</acronym>
+  <teaser>The Global Stocktake, and the success of the Paris Agreement, hinges on the information nations provide about their emissions through National Greenhouse Gas Inventories (NGHGIs). Current methodologies laid-out by the IPCC for reporting emissions are generally built around the...</teaser>
+  <objective>The Global Stocktake, and the success of the Paris Agreement, hinges on the information nations provide about their emissions through National Greenhouse Gas Inventories (NGHGIs). Current methodologies laid-out by the IPCC for reporting emissions are generally built around the use of statistical data and emission factors. Although they are designed to be transparent, they can have significant uncertainties owing to incomplete or inaccurate information. The 2019 refinement of the IPCC Guidelines highlights the need for independent verification of NGHGIs especially using atmospheric observations. However, the technical complexity and the hitherto limited resolving power of atmospheric constraints makes it challenging for NGHGI compilers to adopt this type of verification. EYE-CLIMA will address this need for independent verification by developing observation-based methods (using both satellite remote sensing and ground-based observations) to a level of readiness where they can be used to determine emissions at national and sub-national scales and for verification of NGHGIs. The methodology involves using process-based and data-driven models to simulate GHG fluxes, first without atmospheric observations, then these fluxes are then combined with models of atmospheric transport and chemistry to assimilate atmospheric observations, which are used to correct the first flux estimates. Through engagement with stakeholders, i.e., NGHGI compilers, EYE-CLIMA, will develop flux data products for CO2 (LULUCF sector), CH4, N2O, and emissions data of F-gases (SF6, HFC-23, HFC-143a, HFC-125, HFC-134a, HFC-32) and black carbon (BC), which will be tailored to their needs. The fluxes will be attributed to natural versus anthropogenic sources, and for the latter, to source sectors that can be compared with groups of IPCC sectors in NGHGIs. The methodology for the atmospheric inversions and how to use these for verification of NGHGIs will be described in best practice guidelines.</objective>
+  <title>Verifying Emissions of Climate Forcers</title>
+  <totalCost>4994262.5</totalCost>
+  <ecMaxContribution>4994262.25</ecMaxContribution>
+  <startDate>2023-01-01</startDate>
+  <endDate>2026-12-31</endDate>
+  <ecSignatureDate>2022-10-04</ecSignatureDate>
+  <duration>48</duration>
+  <status>SIGNED</status>
+  <keywords>greenhouse gases, inverse modelling, satellite remote sensing, methane, nitrous oxide, carbon dioxide, F-gases, black carbon, emissions, inventories, global stocktake, verification, climate forcers</keywords>
+  <identifiers>
+    <grantDoi>10.3030/101081395</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>false</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2025-01-03 10:47:16</sourceUpdateDate>
+  <contentCreationDate>2022-10-10 13:55:25</contentCreationDate>
+  <contentUpdateDate>2023-03-10 22:08:08</contentUpdateDate>
+  <lastUpdateDate>2025-09-19 14:48:52</lastUpdateDate>
+  <relations>
+    <associations>
+      <article source="editorial" type="relatedArticle">
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <rcn>438777</rcn>
+        <id>438777-supporting-greenhouse-gas-inventories-using-atmospheric-observations</id>
+        <title>Supporting greenhouse gas inventories using atmospheric observations</title>
+        <contentUpdateDate>2023-03-27 09:59:44</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/projectDescription</code>
+              <title>Project description</title>
+              <description>Article: description of linked project written by editorial team</description>
+              <displayCode>/Project description</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/editorial</code>
+              <title>CORDIS Editorial</title>
+              <description>Written by CORDIS</description>
+              <displayCode>/CORDIS Editorial</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </article>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>55507</rcn>
+        <title>HORIZON-CL5-2022-D1-02</title>
+        <identifier>HORIZON-CL5-2022-D1-02</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>55507</rcn>
+        <title>HORIZON-CL5-2022-D1-02</title>
+        <identifier>HORIZON-CL5-2022-D1-02</identifier>
+      </call>
+      <organization netEcContribution="20000" totalCost="20000" source="corda" order="13" ecContribution="20000" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>2678617</rcn>
+        <id>922983713</id>
+        <legalName>INTEGRATED CARBON OBSERVATION SYSTEM EUROPEAN RESEARCH INFRASTRUCTURECONSORTIUM</legalName>
+        <shortName>ICOS ERIC</shortName>
+        <address>
+          <street>ERIK PALMENIN AUKIO 1</street>
+          <city>HELSINKI</city>
+          <postalCode>00560</postalCode>
+          <country>FI</country>
+          <geolocation>60.1674086,24.9425683</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/REC</code>
+              <title>Research Organisations</title>
+              <displayCode>/Research Organisations</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Helsinki-Uusimaa</name>
+              <rcn>1465369</rcn>
+              <nutsCode>FI1B1</nutsCode>
+              <parents>
+                <region>
+                  <name>Helsinki-Uusimaa</name>
+                  <rcn>1464932</rcn>
+                  <nutsCode>FI1B</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Manner-Suomi</name>
+                      <rcn>256383528</rcn>
+                      <nutsCode>FI1</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Finland</name>
+                          <rcn>256543272</rcn>
+                          <nutsCode>FI</nutsCode>
+                          <euCode>FI</euCode>
+                          <isoCode>FI</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Finland</name>
+              <rcn>256543272</rcn>
+              <nutsCode>FI</nutsCode>
+              <euCode>FI</euCode>
+              <isoCode>FI</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="419967.5" totalCost="419967.5" source="corda" order="2" ecContribution="419967.5" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1906232</rcn>
+        <id>999866883</id>
+        <vatNumber>ATU37586901</vatNumber>
+        <legalName>UNIVERSITAT WIEN</legalName>
+        <shortName>UNIVIE</shortName>
+        <address>
+          <street>UNIVERSITATSRING 1</street>
+          <city>WIEN</city>
+          <postalCode>1010</postalCode>
+          <country>AT</country>
+          <postBox>N/A</postBox>
+          <url>http://www.univie.ac.at</url>
+          <geolocation>48.2126943,16.3615902</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Wien</name>
+              <rcn>175378624</rcn>
+              <nutsCode>AT130</nutsCode>
+              <parents>
+                <region>
+                  <name>Wien</name>
+                  <rcn>175378664</rcn>
+                  <nutsCode>AT13</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Ostösterreich</name>
+                      <rcn>1465444</rcn>
+                      <nutsCode>AT1</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Austria</name>
+                          <rcn>175540776</rcn>
+                          <nutsCode>AT</nutsCode>
+                          <euCode>AT</euCode>
+                          <isoCode>AT</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Austria</name>
+              <rcn>175540776</rcn>
+              <nutsCode>AT</nutsCode>
+              <euCode>AT</euCode>
+              <isoCode>AT</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="624966" totalCost="624966.25" source="corda" order="11" ecContribution="624966" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1905694</rcn>
+        <id>999992401</id>
+        <vatNumber>FR43775685019</vatNumber>
+        <legalName>COMMISSARIAT A L ENERGIE ATOMIQUE ET AUX ENERGIES ALTERNATIVES</legalName>
+        <shortName>CEA</shortName>
+        <address>
+          <street>RUE LEBLANC  25</street>
+          <city>Paris</city>
+          <postalCode>75015</postalCode>
+          <country>FR</country>
+          <postBox>N/A</postBox>
+          <url>https://www.cea.fr</url>
+          <geolocation>48.8397706,2.2739214</geolocation>
+        </address>
+        <departmentName>CEA LIST / DIASI</departmentName>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/REC</code>
+              <title>Research Organisations</title>
+              <displayCode>/Research Organisations</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Paris</name>
+              <rcn>258740225</rcn>
+              <nutsCode>FR101</nutsCode>
+              <parents>
+                <region>
+                  <name>Ile-de-France</name>
+                  <rcn>258740264</rcn>
+                  <nutsCode>FR10</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Ile-de-France</name>
+                      <rcn>258742824</rcn>
+                      <nutsCode>FR1</nutsCode>
+                      <parents>
+                        <region>
+                          <name>France</name>
+                          <rcn>258902568</rcn>
+                          <nutsCode>FR</nutsCode>
+                          <euCode>FR</euCode>
+                          <isoCode>FR</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>France</name>
+              <rcn>258902568</rcn>
+              <nutsCode>FR</nutsCode>
+              <euCode>FR</euCode>
+              <isoCode>FR</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="265000" totalCost="265000" source="corda" order="15" ecContribution="265000" terminated="false" sme="true" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1959505</rcn>
+        <id>905669116</id>
+        <vatNumber>FR01830347027</vatNumber>
+        <legalName>SCIENCE PARTNERS</legalName>
+        <shortName>SCIENCE PARTNERS</shortName>
+        <address>
+          <street>42 QUAI DE JEMMAPES</street>
+          <city>Paris</city>
+          <postalCode>75010</postalCode>
+          <country>FR</country>
+          <geolocation>48.8694794,2.3672916</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PRC</code>
+              <title>Private for-profit entities (excluding Higher or Secondary Education Establishments)</title>
+              <displayCode>/Private for-profit entities (excluding Higher or Secondary Education Establishments)</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Paris</name>
+              <rcn>258740225</rcn>
+              <nutsCode>FR101</nutsCode>
+              <parents>
+                <region>
+                  <name>Ile-de-France</name>
+                  <rcn>258740264</rcn>
+                  <nutsCode>FR10</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Ile-de-France</name>
+                      <rcn>258742824</rcn>
+                      <nutsCode>FR1</nutsCode>
+                      <parents>
+                        <region>
+                          <name>France</name>
+                          <rcn>258902568</rcn>
+                          <nutsCode>FR</nutsCode>
+                          <euCode>FR</euCode>
+                          <isoCode>FR</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>France</name>
+              <rcn>258902568</rcn>
+              <nutsCode>FR</nutsCode>
+              <euCode>FR</euCode>
+              <isoCode>FR</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="763933.75" totalCost="763933.75" source="corda" order="1" ecContribution="763933.75" terminated="false" sme="false" type="coordinator">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1910316</rcn>
+        <id>999654162</id>
+        <vatNumber>NO941705561MVA</vatNumber>
+        <legalName>STIFTELSEN NILU</legalName>
+        <shortName>NILU</shortName>
+        <address>
+          <street>INSTITUTTVEIEN 18</street>
+          <city>Kjeller</city>
+          <postalCode>2027</postalCode>
+          <country>NO</country>
+          <postBox>100</postBox>
+          <url>http://www.nilu.no</url>
+          <geolocation>59.97443,11.048794</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/REC</code>
+              <title>Research Organisations</title>
+              <displayCode>/Research Organisations</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <rcn>1472836</rcn>
+              <nutsCode>NO084</nutsCode>
+            </region>
+            <region type="relatedNutsCode">
+              <name>Norway</name>
+              <rcn>392333864</rcn>
+              <nutsCode>NO</nutsCode>
+              <euCode>NO</euCode>
+              <isoCode>NO</isoCode>
+            </region>
+            <region type="relatedRegion">
+              <name>Norway</name>
+              <rcn>392333864</rcn>
+              <nutsCode>NO</nutsCode>
+              <euCode>NO</euCode>
+              <isoCode>NO</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="190000" totalCost="190000" source="corda" order="6" ecContribution="190000" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1908342</rcn>
+        <id>999588978</id>
+        <vatNumber>EL090033943</vatNumber>
+        <legalName>PANEPISTIMIO KRITIS</legalName>
+        <shortName>UNIVERSITY OF CRETE</shortName>
+        <address>
+          <street>UNIVERSITY CAMPUS GALLOS</street>
+          <city>RETHIMNO</city>
+          <postalCode>74 100</postalCode>
+          <country>EL</country>
+          <postBox>000</postBox>
+          <url>http://www.uoc.gr</url>
+          <geolocation>35.3798188,24.5800544</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Ρέθυμνο</name>
+              <rcn>1464055</rcn>
+              <nutsCode>EL433</nutsCode>
+              <parents>
+                <region>
+                  <name>Κρήτη</name>
+                  <rcn>1464913</rcn>
+                  <nutsCode>EL43</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Νησιά Αιγαίου</name>
+                      <rcn>1464909</rcn>
+                      <nutsCode>EL4</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Greece</name>
+                          <rcn>240552488</rcn>
+                          <nutsCode>EL</nutsCode>
+                          <euCode>EL</euCode>
+                          <isoCode>EL</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Greece</name>
+              <rcn>240552488</rcn>
+              <nutsCode>EL</nutsCode>
+              <euCode>EL</euCode>
+              <isoCode>EL</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="7200" totalCost="7200" source="corda" order="12" ecContribution="7200" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1906406</rcn>
+        <id>998427888</id>
+        <vatNumber>DE153809887</vatNumber>
+        <legalName>JOHANN HEINRICH VON THUENEN-INSTITUT, BUNDESFORSCHUNGSINSTITUT FUER LAENDLICHE RAEUME, WALD UND FISCHEREI</legalName>
+        <shortName>THUENEN-INSTITUTE</shortName>
+        <address>
+          <street>BUNDESALLEE  50</street>
+          <city>Braunschweig</city>
+          <postalCode>38116</postalCode>
+          <country>DE</country>
+          <url>http://www.vti.bund.de</url>
+          <geolocation>52.2897044,10.434052399841477</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/REC</code>
+              <title>Research Organisations</title>
+              <displayCode>/Research Organisations</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Braunschweig, Kreisfreie Stadt</name>
+              <rcn>221810753</rcn>
+              <nutsCode>DE911</nutsCode>
+              <parents>
+                <region>
+                  <name>Braunschweig</name>
+                  <rcn>221810792</rcn>
+                  <nutsCode>DE91</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Niedersachsen</name>
+                      <rcn>221813288</rcn>
+                      <nutsCode>DE9</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Germany</name>
+                          <rcn>221940264</rcn>
+                          <nutsCode>DE</nutsCode>
+                          <euCode>DE</euCode>
+                          <isoCode>DE</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Germany</name>
+              <rcn>221940264</rcn>
+              <nutsCode>DE</nutsCode>
+              <euCode>DE</euCode>
+              <isoCode>DE</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="240000" totalCost="240000" source="corda" order="5" ecContribution="240000" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1905966</rcn>
+        <id>999987454</id>
+        <vatNumber>DE811245070</vatNumber>
+        <legalName>UNIVERSITAET BREMEN</legalName>
+        <shortName>UBREMEN</shortName>
+        <address>
+          <street>Bibliothekstrasse 1</street>
+          <city>Bremen</city>
+          <postalCode>28359</postalCode>
+          <country>DE</country>
+          <postBox>33 04 40</postBox>
+          <url>http://www.uni-bremen.de</url>
+          <geolocation>53.1072896,8.8497015</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Bremen, Kreisfreie Stadt</name>
+              <rcn>221794305</rcn>
+              <nutsCode>DE501</nutsCode>
+              <parents>
+                <region>
+                  <name>Bremen</name>
+                  <rcn>221794344</rcn>
+                  <nutsCode>DE50</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Bremen</name>
+                      <rcn>221796904</rcn>
+                      <nutsCode>DE5</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Germany</name>
+                          <rcn>221940264</rcn>
+                          <nutsCode>DE</nutsCode>
+                          <euCode>DE</euCode>
+                          <isoCode>DE</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Germany</name>
+              <rcn>221940264</rcn>
+              <nutsCode>DE</nutsCode>
+              <euCode>DE</euCode>
+              <isoCode>DE</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="160000" totalCost="160000" source="corda" order="3" ecContribution="160000" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1930414</rcn>
+        <id>998157161</id>
+        <legalName>CICERO SENTER FOR KLIMAFORSKNING</legalName>
+        <shortName>CICERO</shortName>
+        <address>
+          <street>GAUSTADALLEEN 21</street>
+          <city>Oslo</city>
+          <postalCode>0349</postalCode>
+          <country>NO</country>
+          <postBox>1129 Blindern</postBox>
+          <url>http://www.cicero.uio.no</url>
+          <geolocation>59.9427623,10.7174054</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/REC</code>
+              <title>Research Organisations</title>
+              <displayCode>/Research Organisations</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Oslo</name>
+              <rcn>1464783</rcn>
+              <nutsCode>NO081</nutsCode>
+              <parents>
+                <region>
+                  <name>Oslo og Viken</name>
+                  <rcn>1465043</rcn>
+                  <nutsCode>NO08</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Norge</name>
+                      <rcn>1465039</rcn>
+                      <nutsCode>NO0</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Norway</name>
+                          <rcn>392333864</rcn>
+                          <nutsCode>NO</nutsCode>
+                          <euCode>NO</euCode>
+                          <isoCode>NO</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Norway</name>
+              <rcn>392333864</rcn>
+              <nutsCode>NO</nutsCode>
+              <euCode>NO</euCode>
+              <isoCode>NO</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="402400" totalCost="402400" source="corda" order="7" ecContribution="402400" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1907044</rcn>
+        <id>990797674</id>
+        <vatNumber>DE266749428</vatNumber>
+        <legalName>KARLSRUHER INSTITUT FUER TECHNOLOGIE</legalName>
+        <shortName>KIT</shortName>
+        <address>
+          <street>KAISERSTRASSE 12</street>
+          <city>Karlsruhe</city>
+          <postalCode>76131</postalCode>
+          <country>DE</country>
+          <url>https://www.kit.edu</url>
+          <geolocation>49.15579545,8.48182500300111</geolocation>
+        </address>
+        <departmentName>Financial Management</departmentName>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Karlsruhe, Stadtkreis</name>
+              <rcn>221778050</rcn>
+              <nutsCode>DE122</nutsCode>
+              <parents>
+                <region>
+                  <name>Karlsruhe</name>
+                  <rcn>221778088</rcn>
+                  <nutsCode>DE12</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Baden-Württemberg</name>
+                      <rcn>221780520</rcn>
+                      <nutsCode>DE1</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Germany</name>
+                          <rcn>221940264</rcn>
+                          <nutsCode>DE</nutsCode>
+                          <euCode>DE</euCode>
+                          <isoCode>DE</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Germany</name>
+              <rcn>221940264</rcn>
+              <nutsCode>DE</nutsCode>
+              <euCode>DE</euCode>
+              <isoCode>DE</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="530000" totalCost="530000" source="corda" order="4" ecContribution="530000" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1907108</rcn>
+        <id>999452596</id>
+        <legalName>INTERNATIONALES INSTITUT FUER ANGEWANDTE SYSTEMANALYSE</legalName>
+        <shortName>IIASA</shortName>
+        <address>
+          <street>Schlossplatz  1</street>
+          <city>Laxenburg</city>
+          <postalCode>2361</postalCode>
+          <country>AT</country>
+          <url>http://www.iiasa.ac.at</url>
+          <geolocation>48.0682722,16.3581708</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/REC</code>
+              <title>Research Organisations</title>
+              <displayCode>/Research Organisations</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Wiener Umland/Südteil</name>
+              <rcn>175378567</rcn>
+              <nutsCode>AT127</nutsCode>
+              <parents>
+                <region>
+                  <name>Niederösterreich</name>
+                  <rcn>175378600</rcn>
+                  <nutsCode>AT12</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Ostösterreich</name>
+                      <rcn>1465444</rcn>
+                      <nutsCode>AT1</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Austria</name>
+                          <rcn>175540776</rcn>
+                          <nutsCode>AT</nutsCode>
+                          <euCode>AT</euCode>
+                          <isoCode>AT</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Austria</name>
+              <rcn>175540776</rcn>
+              <nutsCode>AT</nutsCode>
+              <euCode>AT</euCode>
+              <isoCode>AT</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="0" totalCost="0" source="corda" order="17" terminated="false" sme="false" type="associatedPartner">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1905561</rcn>
+        <id>999979015</id>
+        <legalName>EIDGENOESSISCHE TECHNISCHE HOCHSCHULE ZUERICH</legalName>
+        <shortName>ETH Zürich</shortName>
+        <address>
+          <street>Raemistrasse  101</street>
+          <city>Zuerich</city>
+          <postalCode>8092</postalCode>
+          <country>CH</country>
+          <postBox>N/A</postBox>
+          <url>https://www.ethz.ch</url>
+          <geolocation>47.3764534,8.54770931489751</geolocation>
+        </address>
+        <departmentName>Integrated Systems Laboratory</departmentName>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Zürich</name>
+              <rcn>1465385</rcn>
+              <nutsCode>CH040</nutsCode>
+              <parents>
+                <region>
+                  <name>Zürich</name>
+                  <rcn>1464888</rcn>
+                  <nutsCode>CH04</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Schweiz/Suisse/Svizzera</name>
+                      <rcn>1464884</rcn>
+                      <nutsCode>CH0</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Switzerland</name>
+                          <rcn>205949480</rcn>
+                          <nutsCode>CH</nutsCode>
+                          <euCode>CH</euCode>
+                          <isoCode>CH</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Switzerland</name>
+              <rcn>205949480</rcn>
+              <nutsCode>CH</nutsCode>
+              <euCode>CH</euCode>
+              <isoCode>CH</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="120000" totalCost="120000" source="corda" order="8" ecContribution="120000" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1907843</rcn>
+        <id>999916741</id>
+        <legalName>EUROPEAN CENTRE FOR MEDIUM-RANGE WEATHER FORECASTS</legalName>
+        <shortName>ECMWF</shortName>
+        <address>
+          <street>SHINFIELD PARK</street>
+          <city>READING</city>
+          <postalCode>RG2 9AX</postalCode>
+          <country>UK</country>
+          <postBox>000</postBox>
+          <url>http://www.ecmwf.int</url>
+          <geolocation>51.4580216,-0.9673726</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/REC</code>
+              <title>Research Organisations</title>
+              <displayCode>/Research Organisations</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Berkshire</name>
+              <rcn>508637249</rcn>
+              <nutsCode>UKJ11</nutsCode>
+              <parents>
+                <region>
+                  <name>Berkshire, Buckinghamshire and Oxfordshire</name>
+                  <rcn>508637288</rcn>
+                  <nutsCode>UKJ1</nutsCode>
+                  <parents>
+                    <region>
+                      <name>South East (England)</name>
+                      <rcn>508639784</rcn>
+                      <nutsCode>UKJ</nutsCode>
+                      <parents>
+                        <region>
+                          <name>United Kingdom</name>
+                          <rcn>508725800</rcn>
+                          <nutsCode>UK</nutsCode>
+                          <euCode>UK</euCode>
+                          <isoCode>GB</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>United Kingdom</name>
+              <rcn>508725800</rcn>
+              <nutsCode>UK</nutsCode>
+              <euCode>UK</euCode>
+              <isoCode>GB</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="180000" totalCost="180000" source="corda" order="10" ecContribution="180000" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1959504</rcn>
+        <id>915786216</id>
+        <vatNumber>FR76784663544</vatNumber>
+        <legalName>CENTRE INTERPROFESSIONNEL TECHNIQUE D'ETUDES DE LA POLLUTION ATMOSPHERIQUE ASSOCIATION</legalName>
+        <shortName>CITEPA</shortName>
+        <address>
+          <street>42 RUE DE PARADIS</street>
+          <city>Paris</city>
+          <postalCode>75010</postalCode>
+          <country>FR</country>
+          <geolocation>48.8754858,2.350322</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/OTH</code>
+              <title>Other</title>
+              <displayCode>/Other</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Paris</name>
+              <rcn>258740225</rcn>
+              <nutsCode>FR101</nutsCode>
+              <parents>
+                <region>
+                  <name>Ile-de-France</name>
+                  <rcn>258740264</rcn>
+                  <nutsCode>FR10</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Ile-de-France</name>
+                      <rcn>258742824</rcn>
+                      <nutsCode>FR1</nutsCode>
+                      <parents>
+                        <region>
+                          <name>France</name>
+                          <rcn>258902568</rcn>
+                          <nutsCode>FR</nutsCode>
+                          <euCode>FR</euCode>
+                          <isoCode>FR</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>France</name>
+              <rcn>258902568</rcn>
+              <nutsCode>FR</nutsCode>
+              <euCode>FR</euCode>
+              <isoCode>FR</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="560000" totalCost="560000" source="corda" order="9" ecContribution="560000" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1909988</rcn>
+        <id>999591306</id>
+        <vatNumber>FI02446647</vatNumber>
+        <legalName>ILMATIETEEN LAITOS</legalName>
+        <shortName>FMI</shortName>
+        <address>
+          <street>Erik Palmenin aukio  1</street>
+          <city>Helsinki</city>
+          <postalCode>00560</postalCode>
+          <country>FI</country>
+          <postBox>00101</postBox>
+          <url>http://www.fmi.fi</url>
+          <geolocation>60.1674086,24.9425683</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/REC</code>
+              <title>Research Organisations</title>
+              <displayCode>/Research Organisations</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Helsinki-Uusimaa</name>
+              <rcn>1465369</rcn>
+              <nutsCode>FI1B1</nutsCode>
+              <parents>
+                <region>
+                  <name>Helsinki-Uusimaa</name>
+                  <rcn>1464932</rcn>
+                  <nutsCode>FI1B</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Manner-Suomi</name>
+                      <rcn>256383528</rcn>
+                      <nutsCode>FI1</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Finland</name>
+                          <rcn>256543272</rcn>
+                          <nutsCode>FI</nutsCode>
+                          <euCode>FI</euCode>
+                          <isoCode>FI</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Finland</name>
+              <rcn>256543272</rcn>
+              <nutsCode>FI</nutsCode>
+              <euCode>FI</euCode>
+              <isoCode>FI</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="510795" totalCost="510795" source="corda" order="14" ecContribution="510795" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1905572</rcn>
+        <id>999997930</id>
+        <vatNumber>FR40180089013</vatNumber>
+        <legalName>CENTRE NATIONAL DE LA RECHERCHE SCIENTIFIQUE CNRS</legalName>
+        <shortName>CNRS</shortName>
+        <address>
+          <street>RUE MICHEL ANGE 3</street>
+          <city>PARIS</city>
+          <postalCode>75794</postalCode>
+          <country>FR</country>
+          <postBox>N/A</postBox>
+          <url>http://www.cnrs.fr</url>
+          <geolocation>48.84755265,2.26404020346787</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/REC</code>
+              <title>Research Organisations</title>
+              <displayCode>/Research Organisations</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>France</name>
+              <rcn>258902568</rcn>
+              <nutsCode>FR</nutsCode>
+              <euCode>FR</euCode>
+              <isoCode>FR</isoCode>
+            </region>
+            <region type="relatedRegion">
+              <name>France</name>
+              <rcn>258902568</rcn>
+              <nutsCode>FR</nutsCode>
+              <euCode>FR</euCode>
+              <isoCode>FR</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="0" totalCost="0" source="corda" order="16" terminated="false" sme="false" type="associatedPartner">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1907031</rcn>
+        <id>999907138</id>
+        <vatNumber>CHE116133475MWST</vatNumber>
+        <legalName>EIDGENOSSISCHE MATERIALPRUFUNGS- UND FORSCHUNGSANSTALT</legalName>
+        <shortName>EMPA</shortName>
+        <address>
+          <street>UEBERLANDSTRASSE 129</street>
+          <city>Dubendorf</city>
+          <postalCode>8600</postalCode>
+          <country>CH</country>
+          <url>http://www.empa.ch</url>
+          <geolocation>47.40052175,8.62408308288973</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Zürich</name>
+              <rcn>1465385</rcn>
+              <nutsCode>CH040</nutsCode>
+              <parents>
+                <region>
+                  <name>Zürich</name>
+                  <rcn>1464888</rcn>
+                  <nutsCode>CH04</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Schweiz/Suisse/Svizzera</name>
+                      <rcn>1464884</rcn>
+                      <nutsCode>CH0</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Switzerland</name>
+                          <rcn>205949480</rcn>
+                          <nutsCode>CH</nutsCode>
+                          <euCode>CH</euCode>
+                          <isoCode>CH</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Switzerland</name>
+              <rcn>205949480</rcn>
+              <nutsCode>CH</nutsCode>
+              <euCode>CH</euCode>
+              <isoCode>CH</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme type="relatedLegalBasis" source="corda" uniqueProgrammePart="true">
+        <availableLanguages>en</availableLanguages>
+        <rcn>705767</rcn>
+        <id>HORIZON.2.5</id>
+        <code>HORIZON.2.5</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.2.5</pga>
+        <title>Climate, Energy and Mobility</title>
+        <parent>
+          <programme>
+            <rcn>705740</rcn>
+            <code>HORIZON.2</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode>/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme type="relatedTopic" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>706339</rcn>
+        <id>HORIZON_HORIZON-CL5-2022-D1-02-01</id>
+        <code>HORIZON-CL5-2022-D1-02-01</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>Verification and reconciliation of estimates of climate forcers</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode>/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+            <category classification="topicKeyword" type="isAbout">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <code>/43450281</code>
+              <title>Climatic research</title>
+              <displayCode>/Climatic research</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme type="relatedLegalBasis" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>705768</rcn>
+        <id>HORIZON.2.5.1</id>
+        <code>HORIZON.2.5.1</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.2.5.1</pga>
+        <title>Climate Science and Solutions</title>
+        <parent>
+          <programme>
+            <rcn>705767</rcn>
+            <code>HORIZON.2.5</code>
+            <parent>
+              <programme>
+                <rcn>705740</rcn>
+                <code>HORIZON.2</code>
+                <parent>
+                  <programme>
+                    <rcn>705725</rcn>
+                    <code>HORIZON</code>
+                  </programme>
+                </parent>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode>/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1200622</rcn>
+        <id>101081395_11_DELIVHORIZON</id>
+        <title>Input driving dataset for process-based models</title>
+        <description>Input driving dataset for process-based models</description>
+        <sourceUpdateDate>2024-11-17 19:36:32</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 14:03:19</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>403fc76f42ba1689bdef81ce1d9cb13d</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e508da2277&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/DATA</code>
+              <title>Data sets, microdata, etc</title>
+              <displayCode>/Data sets, microdata, etc</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1210569</rcn>
+        <id>101081395_54506_PUBLIHORIZON</id>
+        <title>Estimating the Global Influence of Cover Crops on Ecosystem Service Indicators in Croplands With the LPJ-GUESS Model</title>
+        <details>
+          <authors>Ma, J., Anthoni, P., Olin, S., Rabin, S. S., Bayer, A. D., Xia, L., &amp; Arneth, A.</authors>
+          <journalNumber>11(5), e2022EF003142</journalNumber>
+          <journalTitle>Earth's Future</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>Earth's Future</publisher>
+        </details>
+        <identifiers>
+          <issn>2328-4277</issn>
+          <doi>10.1029/2022EF003142</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-09-03 05:54:21</sourceUpdateDate>
+        <contentUpdateDate>2024-11-26 11:03:33</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1200596</rcn>
+        <id>101081395_49_DELIVHORIZON</id>
+        <title>First update to data management plan</title>
+        <description>First update to data management plan</description>
+        <sourceUpdateDate>2024-11-17 19:36:32</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 14:03:15</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>66684753eb6f77022922ff426b844d56</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e50f3a54fb&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/DMP</code>
+              <title>Data Management Plan</title>
+              <displayCode>/Data Management Plan</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1216960</rcn>
+        <id>101081395_PSHORIZON</id>
+        <title>Periodic Reporting for period 1 - EYE-CLIMA (Verifying Emissions of Climate Forcers)</title>
+        <description>periodic</description>
+        <teaser>The Global Stocktake, and thus the success of the Paris Agreement, hinges on the information nations provide about their emissions through National Greenhouse Gas Inventories (NGHGIs). Current methodologies laid-out by the IPCC for reporting emissions are generally built...</teaser>
+        <sourceUpdateDate>2024-12-02 09:44:48</sourceUpdateDate>
+        <contentUpdateDate>2024-12-02 09:44:48</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/pubsum</code>
+              <title>Report Summary</title>
+              <description>Result: Publishable summary (FP7 SESAM) and Summary for publication (H2020 SyGMa)</description>
+              <displayCode>/Report Summary</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1200620</rcn>
+        <id>101081395_19_DELIVHORIZON</id>
+        <title>Preliminary fluxes of CO2, CH4 and N2O at 0.5° from 2005</title>
+        <description>Fluxes and uncertainties of CO2, CH4 and N2O for Europe from 2005 to at least 2023 at 0.5° and monthly resolution. Test dataset of one year at M18.</description>
+        <sourceUpdateDate>2024-11-17 19:36:32</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 14:03:19</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>82554d7806e8c69b13087840e53b6ed3</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5122b9ddb&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/DATA</code>
+              <title>Data sets, microdata, etc</title>
+              <displayCode>/Data sets, microdata, etc</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1210577</rcn>
+        <id>101081395_54528_PUBLIHORIZON</id>
+        <title>Optical and Microphysical Properties of the Aerosols during a Rare Event of Biomass-Burning Mixed with Polluted Dust</title>
+        <details>
+          <authors>Gidarakou, M., Papayannis, A., Kokkalis, P., Evangeliou, N., Vratolis, S., Remoundaki, E., Groot Zwaaftink, C., Eckhardt, S., Mylonaki, M., Argyrouli, A., Eleftheriadis, K, Solomos, S., Gini, M. I.</authors>
+          <journalNumber>15(2), 190</journalNumber>
+          <journalTitle>Atmosphere</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Atmosphere</publisher>
+        </details>
+        <identifiers>
+          <issn>2073-4433</issn>
+          <doi>10.3390/atmos15020190</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-09-03 05:54:21</sourceUpdateDate>
+        <contentUpdateDate>2024-11-26 11:03:33</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1200624</rcn>
+        <id>101081395_2_DELIVHORIZON</id>
+        <title>Second report on CO2 and CH4 satellite datasets</title>
+        <description>Report update on CO2 and CH4 satellite datasets, uncertainties, analysis and recommendations from existing and upcoming missions.</description>
+        <sourceUpdateDate>2024-11-17 19:36:32</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 14:03:19</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>980731a936f4309493dcb1c266a89963</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5122d34c5&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1210568</rcn>
+        <id>101081395_54532_PUBLIHORIZON</id>
+        <title>Urgent abatement of industrial sources of nitrous oxide</title>
+        <details>
+          <authors>Davidson, E.A., Winiwarter, W.</authors>
+          <journalNumber>13, 599-601 (2023)</journalNumber>
+          <journalTitle>Nature Climate Change</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>Nature Climate Change</publisher>
+        </details>
+        <identifiers>
+          <issn>1758-6798</issn>
+          <doi>10.1038/s41558-023-01723-3</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-09-03 05:54:21</sourceUpdateDate>
+        <contentUpdateDate>2024-11-26 11:03:33</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1210582</rcn>
+        <id>101081395_54794_PUBLIHORIZON</id>
+        <title>Carbon and Greenhouse Gas Budgets of Europe: Trends, Interannual and Spatial Variability, and Their Drivers</title>
+        <details>
+          <authors>Lauerwald, R., Bastos, A., McGrath, M.J., Petrescu, A.M.R., Ritter, F., Andrew, R.M., Berchet, A., Broquet, G., Brunner, D., Chevallier, F., Cescatti, A., Filipek, S., Fortems-Cheiney, A., Forzieri, G., Friedlingstein, P., Fuchs, R., Gerbig, C., Houweling</authors>
+          <journalNumber>38(8) e2024GB008141</journalNumber>
+          <journalTitle>Global Biogeochemical Cycles</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>AGU Advancing Earth and Space Sciences</publisher>
+        </details>
+        <identifiers>
+          <issn>1944-9224</issn>
+          <doi>10.1029/2024GB008141</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-09-03 05:54:21</sourceUpdateDate>
+        <contentUpdateDate>2024-11-26 11:03:33</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1210563</rcn>
+        <id>101081395_54767_PUBLIHORIZON</id>
+        <title>Global nitrous oxide budget (1980–2020)</title>
+        <details>
+          <authors>Tian, H., Pan, N., Thompson, R. L., Canadell, J. G., Suntharalingam, P., Regnier, P., Davidson, E. A., Prather, M., Ciais, P., Muntean, M., Pan, S., Winiwarter, W., Zaehle, S., Zhou, F., Jackson, R. B., Bange, H. W., Berthet, S., Bian, Z., Bianchi, D., Bo</authors>
+          <journalNumber>16, 2543–2604, 2024</journalNumber>
+          <journalTitle>Earth System Science Data</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Earth System Science Data</publisher>
+        </details>
+        <identifiers>
+          <issn>1866-3516</issn>
+          <doi>10.5194/essd-16-2543-2024</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-09-03 05:54:21</sourceUpdateDate>
+        <contentUpdateDate>2024-11-26 11:03:33</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1210566</rcn>
+        <id>101081395_54499_PUBLIHORIZON</id>
+        <title>CH4 Fluxes Derived from Assimilation of TROPOMI XCH4 in CarbonTracker Europe-CH4: Evaluation of Seasonality and Spatial Distribution in the Northern High Latitudes</title>
+        <details>
+          <authors>Tsuruta, A., Kivimäki, E., Lindqvist , H., Karppinen, T., Backman, L., Hakkarainen , J., Schneising, O., Buchwitz, M., Lan, X., Kivi, R., Chen, H., Buschmann, M., Herkommer, B., Notholt, J., Roehl, C., Té, Y., Wunch, D., Tamminen, J. and Aalto, T.</authors>
+          <journalNumber>15(6), 1620</journalNumber>
+          <journalTitle>Remote Sensing</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>Remote Sensing</publisher>
+        </details>
+        <identifiers>
+          <issn>2072-4292</issn>
+          <doi>10.3390/rs15061620</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-09-03 05:54:21</sourceUpdateDate>
+        <contentUpdateDate>2024-11-26 11:03:33</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1200618</rcn>
+        <id>101081395_21_DELIVHORIZON</id>
+        <title>Preliminary fluxes of CO2, CH4 and N2O at 0.2° from 2018</title>
+        <description>Fluxes and uncertainties of CO2, CH4 and N2O for Europe from 2018 to at least 2023 at 0.2° and monthly resolution ground-based and satellite observations. Test dataset of one year at M18.</description>
+        <sourceUpdateDate>2024-11-17 19:36:32</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 14:03:18</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>2847bca8afc7b8f534c099451c22742b</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5122ba361&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/DATA</code>
+              <title>Data sets, microdata, etc</title>
+              <displayCode>/Data sets, microdata, etc</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1200617</rcn>
+        <id>101081395_13_DELIVHORIZON</id>
+        <title>High-resolution fluxes and uncertainties of CO2, CH4 and N2O from bottom-up models</title>
+        <description>High-resolution fluxes and uncertainties of CO2, CH4 and N2O for Europe from 1990-2024 to be used for the synthesis in WP4 and as prior information in WP3 for inversions</description>
+        <sourceUpdateDate>2024-11-17 19:36:32</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 14:03:18</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>9c31d85e32e591236cca62e44d33342a</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e50eb83889&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/DATA</code>
+              <title>Data sets, microdata, etc</title>
+              <displayCode>/Data sets, microdata, etc</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1261607</rcn>
+        <id>101081395_37_DELIVHORIZON</id>
+        <title>First update to communication, dissemination and exploitation plan</title>
+        <description>First update to the communication dissemination, and exploitation plan</description>
+        <sourceUpdateDate>2025-03-03 18:32:38</sourceUpdateDate>
+        <contentUpdateDate>2025-03-10 11:00:22</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>b383c46f59794397296a59632152eba0</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5167ca727&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1324651</rcn>
+        <id>101081395_54777_PUBLIHORIZON</id>
+        <title>Assessing the role of terrestrial ecosystems in Finland’s total CO2 balance through a comparison of top-down and bottom-up estimates</title>
+        <details>
+          <authors>Isomäki K., McGrath M.J., Backman L., Leskinen J., Berchet A., Broquet G., Fortems-Cheiney A., Junttila V., Leppänen A., Lindqvist H., Mengistu A., Mäkelä A., Raivonen M., Thölix L. &amp; Aalto T.</authors>
+          <journalNumber>29: 77–102</journalNumber>
+          <journalTitle>BOREAL ENVIRONMENT RESEARCH</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Finnish Environment Institute</publisher>
+        </details>
+        <identifiers>
+          <issn>1797-2469</issn>
+          <doi>10.5281/ZENODO.14207178</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-04-15 01:27:45</sourceUpdateDate>
+        <contentUpdateDate>2025-07-11 17:53:34</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1200616</rcn>
+        <id>101081395_18_DELIVHORIZON</id>
+        <title>Anthropogenic emissions and uncertainties of GHGs and BC</title>
+        <description>Anthropogenic emissions of CH4, N2O, F-gases and BC from GAINS as well as an estimate of the uncertainties for all GHGs and BC, to be used in WP3 for inversions</description>
+        <sourceUpdateDate>2024-11-17 19:36:32</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 14:03:18</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>0a95125709d4830357c095a6af7d1fd8</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e50be3a06d&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/DATA</code>
+              <title>Data sets, microdata, etc</title>
+              <displayCode>/Data sets, microdata, etc</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1200595</rcn>
+        <id>101081395_48_DELIVHORIZON</id>
+        <title>Data management plan</title>
+        <description>First data management plan</description>
+        <sourceUpdateDate>2024-11-17 19:36:32</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 14:03:15</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>0d91b455842d237930aa12aa54c87228</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5fde64cd0&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/DMP</code>
+              <title>Data Management Plan</title>
+              <displayCode>/Data Management Plan</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1200619</rcn>
+        <id>101081395_10_DELIVHORIZON</id>
+        <title>Concentrations of eBC from traffic and non-traffic sources</title>
+        <description>eBC concentrations attributed to biomass burning and fossil fuel combustion sources</description>
+        <sourceUpdateDate>2024-11-17 19:36:32</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 14:03:19</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>589162dbdc3a3c7effc2039f7cdbf048</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e50631a1fb&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/DATA</code>
+              <title>Data sets, microdata, etc</title>
+              <displayCode>/Data sets, microdata, etc</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1299139</rcn>
+        <id>101081395_33_DELIVHORIZON</id>
+        <title>First synthesis of GHG and BC emissions for Europe</title>
+        <description>Synthesis of GHG and BC emissions for EU27+3 countries to support policy. First version using the best datasets available at the time at M10.</description>
+        <sourceUpdateDate>2025-05-12 12:20:42</sourceUpdateDate>
+        <contentUpdateDate>2025-05-19 16:50:11</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>37a4c5b991e6b7b6b5316ae4f57e79d6</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e51927e6f4&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1200589</rcn>
+        <id>101081395_47_DELIVHORIZON</id>
+        <title>Project handbook</title>
+        <description>Project handbook.</description>
+        <sourceUpdateDate>2024-11-17 19:36:32</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 14:03:15</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>88ba69ce234c5213e220aef75297f66e</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5f9edb12f&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1200593</rcn>
+        <id>101081395_39_DELIVHORIZON</id>
+        <title>First EYE-CLIMA outlook summary</title>
+        <description>EYE-CLIMA Outlook on key findings and project outcomes</description>
+        <sourceUpdateDate>2024-11-17 19:36:32</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 14:03:15</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>c5ad508cacdfae38c0b54fce1129c034</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e508da38e0&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1200623</rcn>
+        <id>101081395_1_DELIVHORIZON</id>
+        <title>First report on CO2 and CH4 satellite datasets</title>
+        <description>Report on CO2 and CH4 satellite datasets, uncertainties, analysis and recommendations from existing and upcoming missions.</description>
+        <sourceUpdateDate>2024-11-17 19:36:32</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 14:03:19</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>53ee903b498ccf943709d3c677c4866f</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e50631adf6&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1200583</rcn>
+        <id>101081395_7_DELIVHORIZON</id>
+        <title>Report on existing biomass and biomass change datasets</title>
+        <description>Report on existing biomass and biomass change datasets, gaps, uncertainties analysis andrecommendations for UNFCCC reporting</description>
+        <sourceUpdateDate>2024-11-17 19:36:32</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 14:03:15</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>0a13e2296bda143f0aa6f36973c9f3ee</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e508da26cd&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1210583</rcn>
+        <id>101081395_54772_PUBLIHORIZON</id>
+        <title>The global potential for mitigating nitrous oxide emissions from croplands</title>
+        <details>
+          <authors>Xiaoqing Cui; Yan Bo; Wulahati Adalibieke; Wilfried Winiwarter; Xin Zhang; Eric A. Davidson; Zhongxiao Sun; Hanqin Tian; Pete Smith; Feng Zhou</authors>
+          <journalNumber>7, 401-420 (2024)</journalNumber>
+          <journalTitle>One Earth</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Science Direct, One Earh</publisher>
+        </details>
+        <identifiers>
+          <issn>2590-3322</issn>
+          <doi>10.1016/j.oneear.2024.01.005</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-09-03 05:54:21</sourceUpdateDate>
+        <contentUpdateDate>2024-11-26 11:03:33</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1210575</rcn>
+        <id>101081395_54526_PUBLIHORIZON</id>
+        <title>Using Atmospheric Inverse Modelling of Methane Budgets with Copernicus Land Water and Wetness Data to Detect Land Use-Related Emissions</title>
+        <details>
+          <authors>Tenkanen, M.K.; Tsuruta, A.; Tyystjärvi, V.; Törmä, M.; Autio, I.; Haakana, M.; Tuomainen, T.; Leppänen, A.; Markkanen, T.; Raivonen, M.; Niinistö, S; Arslan, A. N.; Aalto, T.</authors>
+          <journalNumber>16, 124</journalNumber>
+          <journalTitle>Remote Sensing</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>Remote Sensing</publisher>
+        </details>
+        <identifiers>
+          <issn>2072-4292</issn>
+          <doi>10.3390/rs16010124</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-09-03 05:54:21</sourceUpdateDate>
+        <contentUpdateDate>2024-11-26 11:03:33</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1200588</rcn>
+        <id>101081395_43_DELIVHORIZON</id>
+        <title>First progress on targets report</title>
+        <description>Progress on Targets reports aimed at policy makers showing top-down derived emission trends from 2005 and the target emission reductions according to policy.</description>
+        <sourceUpdateDate>2024-11-17 19:36:32</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 14:03:15</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>08517f7303b56d908ec8d40368c7268e</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e50be33cb3&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1200621</rcn>
+        <id>101081395_36_DELIVHORIZON</id>
+        <title>First communication, dissemination and exploitation plan</title>
+        <description>Communication dissemination, and exploitation plan, first version.</description>
+        <sourceUpdateDate>2024-11-17 19:36:32</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 14:03:19</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>df91d35254c81e835bd563a79f45afe4</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5fde69dc4&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode>/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/25/75/461/1239/1739</code>
+        <title>satellite technology</title>
+        <displayCode>/engineering and technology/mechanical engineering/vehicle engineering/aerospace engineering/satellite technology</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode>/Digital agenda</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="40">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode>/Clean air</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode>/Artificial intelligence</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="100">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode>/Climate action</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode>/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages>en</availableLanguages>
+        <code>/HORIZON-RIA</code>
+        <title>HORIZON  Research and Innovation Actions</title>
+        <description>HORIZON  Research and Innovation Actions</description>
+        <displayCode>/HORIZON  Research and Innovation Actions</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode>/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

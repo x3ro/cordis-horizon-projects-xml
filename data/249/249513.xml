@@ -1,0 +1,943 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages>en</availableLanguages>
+  <rcn>249513</rcn>
+  <id>101105246</id>
+  <acronym>STEFF</acronym>
+  <teaser>"In this action, we propose a theoretical investigation of charged particle behavior in external laser fields using the recently-described flying focus"" (FF) regime, a laser field setup which allows precise control of the position and velocity of its focus. This novel regime...</teaser>
+  <objective>"In this action, we propose a theoretical investigation of charged particle behavior in external laser fields using the recently-described flying focus"" (FF) regime, a laser field setup which allows precise control of the position and velocity of its focus. This novel regime makes it possible to adjust the laser focus so that it co-propagates with the particle, including the situation when the particle is moving against the laser phase fronts. The resulting long laser-particle interaction time enabled by FF pulses is expected to significantly enhance radiation reaction, methods of particle beam control, and cumulative magnetic moment effects along the particle trajectories. In the classical relativistic framework, this will give us the possibility to test the equations of motion, which include radiation-reaction terms and Stern-Gerlach force in the case of particles with spin. In the quantum framework, we will first investigate analytically the probability of single photon emission by a high energy electron in a flying focus beam, and then study numerically the cascade emission of several photons (quantum radiation reaction). Finally, we will implement flying focus fields and the calculated probabilities of the quantum emission processes into the Particle-In-Cell code SMILEI. With this code, we will perform simulations of experimental setups exploiting flying focus fields in laser-particle interactions. Thus we will identify viable experiments that could lead for the first time to unambiguous radiation reaction detection, allow for methods of particle beam control, and enable us to probe quantum electrodynamics in the strong field regime."</objective>
+  <title>Strong-field electrodynamics in Flying Focus pulses</title>
+  <totalCost>0</totalCost>
+  <ecMaxContribution>157544.72</ecMaxContribution>
+  <startDate>2023-05-01</startDate>
+  <endDate>2025-04-30</endDate>
+  <ecSignatureDate>2023-03-31</ecSignatureDate>
+  <duration>24</duration>
+  <status>SIGNED</status>
+  <keywords>Radiation from moving charges, classical and quantum electrodynamics, laser driven electron acceleration, high-intensity lasers</keywords>
+  <identifiers>
+    <grantDoi>10.3030/101105246</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>false</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2025-04-07 10:13:03</sourceUpdateDate>
+  <contentCreationDate>2023-06-15 09:40:17</contentCreationDate>
+  <contentUpdateDate>2023-06-15 09:40:09</contentUpdateDate>
+  <lastUpdateDate>2025-09-19 14:48:45</lastUpdateDate>
+  <relations>
+    <associations>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>55393</rcn>
+        <title>HORIZON-MSCA-2022-PF-01</title>
+        <identifier>HORIZON-MSCA-2022-PF-01</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>55393</rcn>
+        <title>HORIZON-MSCA-2022-PF-01</title>
+        <identifier>HORIZON-MSCA-2022-PF-01</identifier>
+      </call>
+      <organization netEcContribution="0" totalCost="0" source="corda" order="3" terminated="false" sme="false" type="associatedPartner">
+        <availableLanguages>en</availableLanguages>
+        <rcn>2063662</rcn>
+        <id>999867562</id>
+        <legalName>UNIVERSITY OF ROCHESTER</legalName>
+        <address>
+          <street>ELMWOOD AVENUE, BOX EHSC 601</street>
+          <city>Rochester Ny</city>
+          <postalCode>14642</postalCode>
+          <country>US</country>
+          <postBox>000</postBox>
+          <url>https://www.urmc.rochester.edu</url>
+          <geolocation>43.157285,-77.615214</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>United States</name>
+              <rcn>510822952</rcn>
+              <nutsCode>US</nutsCode>
+              <euCode>US</euCode>
+              <isoCode>US</isoCode>
+            </region>
+            <region type="relatedRegion">
+              <name>United States</name>
+              <rcn>510822952</rcn>
+              <nutsCode>US</nutsCode>
+              <euCode>US</euCode>
+              <isoCode>US</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="157544.72" totalCost="0" source="corda" order="1" ecContribution="157544.72" terminated="false" sme="false" type="coordinator">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1973214</rcn>
+        <id>890169001</id>
+        <legalName>EXTREME LIGHT INFRASTRUCTURE ERIC</legalName>
+        <shortName>ELI ERIC</shortName>
+        <address>
+          <street>ZA RADNICI 835</street>
+          <city>DOLNI BREZANY</city>
+          <postalCode>252 41</postalCode>
+          <country>CZ</country>
+          <geolocation>49.9623698,14.4544993</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/REC</code>
+              <title>Research Organisations</title>
+              <displayCode>/Research Organisations</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Středočeský kraj</name>
+              <rcn>210501760</rcn>
+              <nutsCode>CZ020</nutsCode>
+              <parents>
+                <region>
+                  <name>Střední Čechy</name>
+                  <rcn>210501800</rcn>
+                  <nutsCode>CZ02</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Česko</name>
+                      <rcn>1465445</rcn>
+                      <nutsCode>CZ0</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Czechia</name>
+                          <rcn>210668072</rcn>
+                          <nutsCode>CZ</nutsCode>
+                          <euCode>CZ</euCode>
+                          <isoCode>CZ</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Czechia</name>
+              <rcn>210668072</rcn>
+              <nutsCode>CZ</nutsCode>
+              <euCode>CZ</euCode>
+              <isoCode>CZ</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="0" totalCost="0" source="corda" order="2" terminated="false" sme="false" type="associatedPartner">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1949732</rcn>
+        <id>999990267</id>
+        <vatNumber>DE129517720</vatNumber>
+        <legalName>MAX-PLANCK-GESELLSCHAFT ZUR FORDERUNG DER WISSENSCHAFTEN EV</legalName>
+        <shortName>MPG</shortName>
+        <address>
+          <street>HOFGARTENSTRASSE 8</street>
+          <city>MUNCHEN</city>
+          <postalCode>80539</postalCode>
+          <country>DE</country>
+          <postBox>000</postBox>
+          <url>http://www.mpg.de</url>
+          <geolocation>48.1411687,11.5822929</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/REC</code>
+              <title>Research Organisations</title>
+              <displayCode>/Research Organisations</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>München, Kreisfreie Stadt</name>
+              <rcn>221782082</rcn>
+              <nutsCode>DE212</nutsCode>
+              <parents>
+                <region>
+                  <name>Oberbayern</name>
+                  <rcn>221782120</rcn>
+                  <nutsCode>DE21</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Bayern</name>
+                      <rcn>221784616</rcn>
+                      <nutsCode>DE2</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Germany</name>
+                          <rcn>221940264</rcn>
+                          <nutsCode>DE</nutsCode>
+                          <euCode>DE</euCode>
+                          <isoCode>DE</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Germany</name>
+              <rcn>221940264</rcn>
+              <nutsCode>DE</nutsCode>
+              <euCode>DE</euCode>
+              <isoCode>DE</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme type="relatedLegalBasis" source="corda" uniqueProgrammePart="true">
+        <availableLanguages>en</availableLanguages>
+        <rcn>705729</rcn>
+        <id>HORIZON.1.2</id>
+        <code>HORIZON.1.2</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.1.2</pga>
+        <title>Marie Skłodowska-Curie Actions (MSCA)</title>
+        <parent>
+          <programme>
+            <rcn>705726</rcn>
+            <code>HORIZON.1</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode>/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme type="relatedTopic" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>706018</rcn>
+        <id>HORIZON_HORIZON-MSCA-2022-PF-01-01</id>
+        <code>HORIZON-MSCA-2022-PF-01-01</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>MSCA Postdoctoral Fellowships 2022</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode>/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1335080</rcn>
+        <id>101105246_169325_PUBLIHORIZON</id>
+        <title>Radiation by a laser-driven flying-focus electron wave packet</title>
+        <details>
+          <authors>Antonino Di Piazza, Martin Formanek, Dillon Ramsey, John P. Palastro</authors>
+          <journalNumber>110</journalNumber>
+          <journalTitle>Physical Review D</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>American Physical Society (APS)</publisher>
+        </details>
+        <identifiers>
+          <issn>2470-0010</issn>
+          <doi>10.1103/PHYSREVD.110.116010</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-06-20 12:24:34</sourceUpdateDate>
+        <contentUpdateDate>2025-07-18 11:35:19</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1274530</rcn>
+        <id>101105246_136657_PUBLIHORIZON</id>
+        <title>Radiation by a laser-driven flying-focus electron wave packet</title>
+        <details>
+          <authors>Antonino Di Piazza; Martin Formanek; Dillon Ramsey; John P. Palastro</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Physical Review D</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>APS</publisher>
+        </details>
+        <identifiers>
+          <issn>2470-0029</issn>
+          <doi>10.48550/arxiv.2409.15025</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-03-24 22:01:08</sourceUpdateDate>
+        <contentUpdateDate>2025-04-01 08:41:25</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1335081</rcn>
+        <id>101105246_169326_PUBLIHORIZON</id>
+        <title>Superluminal matter waves</title>
+        <details>
+          <authors>J. P. Palastro, D. Ramsey, M. Formanek, J. Vieira, A. Di Piazza</authors>
+          <journalNumber>6</journalNumber>
+          <journalTitle>Physical Review Research</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>American Physical Society (APS)</publisher>
+        </details>
+        <identifiers>
+          <issn>2643-1564</issn>
+          <doi>10.1103/PHYSREVRESEARCH.6.043075</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-06-20 12:24:34</sourceUpdateDate>
+        <contentUpdateDate>2025-07-18 11:35:19</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1337742</rcn>
+        <id>101105246_PSHORIZON</id>
+        <title>Periodic Reporting for period 1 - STEFF (Strong-field electrodynamics in Flying Focus pulses)</title>
+        <description>periodic</description>
+        <teaser>The dynamics of an electron in a strong external electromagnetic field is one of the most fundamental unsolved problems in classical and quantum electrodynamics (QED). In this regime, electron motion is dominated by quantum radiation reaction  (RR), which is the loss of energy...</teaser>
+        <sourceUpdateDate>2025-07-23 15:45:20</sourceUpdateDate>
+        <contentUpdateDate>2025-07-23 15:45:20</contentUpdateDate>
+        <relations>
+          <associations>
+            <webItem type="relatedResultAttachment" source="corda">
+              <language>en</language>
+              <availableLanguages>en,any</availableLanguages>
+              <uri>/docs/results/horizon/101105/101105246_PS/graphics-nolabels.png</uri>
+              <alternativeText>Figure 1: interaction of a particle beam (blue) with a red a) FF pulse and b) SFG pulse.</alternativeText>
+              <mimetype>image/png</mimetype>
+              <size>357376</size>
+            </webItem>
+            <webItem type="relatedResultAttachment" source="corda">
+              <language>en</language>
+              <availableLanguages>en,any</availableLanguages>
+              <uri>/docs/results/horizon/101105/101105246_PS/ff-with-oam-no-labels.jpg</uri>
+              <alternativeText>Figure 2: propagation of electrons in FF pulse with orbital angular momentum.</alternativeText>
+              <mimetype>image/jpeg</mimetype>
+              <size>987136</size>
+            </webItem>
+            <webItem type="relatedResultAttachment" source="corda">
+              <language>en</language>
+              <availableLanguages>en,any</availableLanguages>
+              <uri>/docs/results/horizon/101105/101105246_PS/microbunching.png</uri>
+              <alternativeText>Figure 3: microbunching in a) SFG pulses and b) FF pulses, vertical axis shows the radiated power</alternativeText>
+              <mimetype>image/png</mimetype>
+              <size>394240</size>
+            </webItem>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/pubsum</code>
+              <title>Report Summary</title>
+              <description>Result: Publishable summary (FP7 SESAM) and Summary for publication (H2020 SyGMa)</description>
+              <displayCode>/Report Summary</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1335089</rcn>
+        <id>101105246_169323_PUBLIHORIZON</id>
+        <title>X-ray free-electron lasing in a flying-focus undulator</title>
+        <details>
+          <authors>D. Ramsey, B. Malaca, T. T. Simpson, M. S. Formanek, L. S. Mack, J. Vieira, D. H. Froula, J. P. Palastro</authors>
+          <journalNumber>8</journalNumber>
+          <journalTitle>Communications Physics</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2025</publishedYear>
+          <publisher>Springer Science and Business Media LLC</publisher>
+        </details>
+        <identifiers>
+          <issn>2399-3650</issn>
+          <doi>10.1038/S42005-025-02028-X</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-06-20 12:24:34</sourceUpdateDate>
+        <contentUpdateDate>2025-07-18 11:35:21</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1335087</rcn>
+        <id>101105246_169327_PUBLIHORIZON</id>
+        <title>Signatures of vacuum birefringence in low-power flying focus pulses</title>
+        <details>
+          <authors>Martin Formanek, John P. Palastro, Dillon Ramsey, Stefan Weber, Antonino Di Piazza</authors>
+          <journalNumber>109</journalNumber>
+          <journalTitle>Physical Review D</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>American Physical Society (APS)</publisher>
+        </details>
+        <identifiers>
+          <issn>2470-0010</issn>
+          <doi>10.1103/PHYSREVD.109.056009</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-06-20 12:24:34</sourceUpdateDate>
+        <contentUpdateDate>2025-07-18 11:35:21</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1069681</rcn>
+        <id>101105246_1_DELIVHORIZON</id>
+        <title>Data Management Plan</title>
+        <description>The Data Management Plan describes the data management life cycle for all data sets that will be collected, processed or generated by the action. It is a document describing what data will be collected, processed or generated and following what methodology and standards, whether and how this data will be shared and/or made open, and how it will be curated and preserved.</description>
+        <sourceUpdateDate>2025-04-07 10:19:05</sourceUpdateDate>
+        <contentUpdateDate>2024-04-01 10:34:33</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>008466a691f1be4c8a81312d2560a8c5</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5039ca4b0&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/DMP</code>
+              <title>Data Management Plan</title>
+              <displayCode>/Data Management Plan</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1335088</rcn>
+        <id>101105246_169324_PUBLIHORIZON</id>
+        <title>Charged particle beam transport in a flying focus pulse with orbital angular momentum</title>
+        <details>
+          <authors>Martin Formanek, John P. Palastro, Marija Vranic, Dillon Ramsey, Antonino Di Piazza</authors>
+          <journalNumber>107</journalNumber>
+          <journalTitle>Physical Review E</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>American Physical Society (APS)</publisher>
+        </details>
+        <identifiers>
+          <issn>2470-0045</issn>
+          <doi>10.1103/PHYSREVE.107.055213</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-06-20 12:24:34</sourceUpdateDate>
+        <contentUpdateDate>2025-07-18 11:35:21</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1279106</rcn>
+        <id>101105246_3_DELIVHORIZON</id>
+        <title>Communication, Dissemination &amp; Exploitation Plan</title>
+        <description>The plan describes the planned measures to maximize the impact of the project, including the dissemination and exploitation measures that are planned, and the target group(s) addressed. Regarding communication measures and public engagement strategy, the aim is to inform and reach out to society and show the activities performed, and the use and the benefits the project will have for citizens.</description>
+        <sourceUpdateDate>2025-04-07 10:19:05</sourceUpdateDate>
+        <contentUpdateDate>2025-04-07 10:19:05</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>de4453fc1b32e29daaf25968f4ad3d74</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e51a9aaa8c&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1274531</rcn>
+        <id>101105246_136658_PUBLIHORIZON</id>
+        <title>Signatures of vacuum birefringence in low-power flying focus pulses</title>
+        <details>
+          <authors>Martin Formanek; John P. Palastro; Dillon Ramsey; Stefan Weber; Antonino Di Piazza</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Physical Review D</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>APS</publisher>
+        </details>
+        <identifiers>
+          <issn>2470-0029</issn>
+          <doi>10.48550/arxiv.2307.11734</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-03-24 22:01:08</sourceUpdateDate>
+        <contentUpdateDate>2025-04-01 08:41:25</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1274543</rcn>
+        <id>101105246_136656_PUBLIHORIZON</id>
+        <title>Superluminal matter waves</title>
+        <details>
+          <authors>J. P. Palastro; D. Ramsey; M. Formanek; J. Vieira; A. Di Piazza</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Physical Review Research</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>APS</publisher>
+        </details>
+        <identifiers>
+          <issn>2643-1564</issn>
+          <doi>10.48550/arxiv.2405.00209</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-03-24 22:01:08</sourceUpdateDate>
+        <contentUpdateDate>2025-04-01 08:41:27</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1188961</rcn>
+        <id>101105246_6621_PUBLIHORIZON</id>
+        <title>Charged particle beam transport in a flying focus pulse with orbital angular momentum</title>
+        <details>
+          <authors>M. Formanek, J. P. Palastro, M. Vranic, D. Ramsey, A. Di Piazza</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Physical Review E</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>APS</publisher>
+        </details>
+        <identifiers>
+          <issn>2470-0053</issn>
+          <doi>10.1103/PhysRevE.107.055213</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-01-06 00:36:27</sourceUpdateDate>
+        <contentUpdateDate>2024-11-15 09:20:58</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode>/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/43/793/30017</code>
+        <title>quantum field theory</title>
+        <displayCode>/natural sciences/physical sciences/quantum physics/quantum field theory</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/43/251/745</code>
+        <title>laser physics</title>
+        <displayCode>/natural sciences/physical sciences/optics/laser physics</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/43/261/791/1541</code>
+        <title>photons</title>
+        <displayCode>/natural sciences/physical sciences/theoretical physics/particle physics/photons</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="40">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode>/Digital agenda</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="40">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode>/Clean air</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="40">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode>/Artificial intelligence</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="40">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode>/Climate action</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode>/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages>en</availableLanguages>
+        <code>/HORIZON-TMA-MSCA-PF-EF</code>
+        <title>HORIZON TMA MSCA Postdoctoral Fellowships - European Fellowships</title>
+        <description>HORIZON TMA MSCA Postdoctoral Fellowships - European Fellowships</description>
+        <displayCode>/HORIZON TMA MSCA Postdoctoral Fellowships - European Fellowships</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode>/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

@@ -1,0 +1,3826 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages>en</availableLanguages>
+  <rcn>240455</rcn>
+  <id>101069688</id>
+  <acronym>CONNECT</acronym>
+  <teaser>"CONNECT addresses the convergence of security and safety in CCAM by assessing dynamic trust relationships and defining a trust reasoning framework based on which involved entities can establish trust for cooperatively executing safety-critical functions. This will enable both...</teaser>
+  <objective>"CONNECT addresses the convergence of security and safety in CCAM by assessing dynamic trust relationships and defining a trust reasoning framework based on which involved entities can establish trust for cooperatively executing safety-critical functions. This will enable both a) cyber-secure data sharing between data sources in the CCAM ecosystem that had no or insufficient pre-existing trust relationship, and b) outsourcing tasks to the MEC and cloud in a trustworthy way. Beyond the needs of functional safety, trustworthiness management should be included in CCAM’s security functionality solution for verifying trustworthiness of transmitting stations and infrastructure. CONNECT will build upon and expand the Zero Trust concept to tackle the issue of how to bootstrap vertical trust from the application, the execution environment and device hardware from the vehicle up to MEC and cloud environments. This includes measuring the system when instantiating network functions and determining the integrity and origin of software. Trusted Execution Environments (TEEs), as sw- or hw-based security elements, will be essential to establish a verifiable chain of trust throughout the entire application stack of the host vehicle, as well as protecting data in transit, at rest and in use. By coupling the Zero Trust security principle with the need of “Never Trust, Always Verify”, CONNECT bootstraps vertical trust for all users, devices and systems in the CCAM ecosystem by enabling continuous authorization and authentication prior to be granted access to data or resources. Through TEE-enabled “Chip-to-Cloud"" assurances and verifiable chain of trust, CONNECT reaches its full potential: not only does it mitigates risks stemming from the Zero Trust CCAM environment but also ensures resilience. This can make CONNECT the cornerstone of future smart transportation as it will usher new levels of safety and connectivity and bring vehicles even close to autonomy."</objective>
+  <title>Continuous and Efficient Cooperative Trust Management for Resilient CCAM</title>
+  <totalCost>5656643.75</totalCost>
+  <ecMaxContribution>5656643.75</ecMaxContribution>
+  <startDate>2022-09-01</startDate>
+  <endDate>2025-08-31</endDate>
+  <ecSignatureDate>2022-06-03</ecSignatureDate>
+  <duration>36</duration>
+  <status>SIGNED</status>
+  <keywords>5G C-V2X, CCAM, Trust Assessment, Security, Safety, Resilience, TEE, Verifiable Credentials</keywords>
+  <identifiers>
+    <grantDoi>10.3030/101069688</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>false</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2025-10-13 08:58:02</sourceUpdateDate>
+  <contentCreationDate>2022-09-02 09:50:42</contentCreationDate>
+  <contentUpdateDate>2025-10-20 18:46:38</contentUpdateDate>
+  <lastUpdateDate>2025-10-20 18:47:25</lastUpdateDate>
+  <relations>
+    <associations>
+      <article source="editorial" type="relatedArticle">
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <rcn>457138</rcn>
+        <id>457138-building-european-capacity-for-connected-cooperative-and-automated-mobility</id>
+        <title>Building European capacity for Connected, Cooperative and Automated Mobility</title>
+        <contentUpdateDate>2025-03-11 10:28:10</contentUpdateDate>
+        <relations>
+          <associations>
+            <article source="editorial" type="contains">
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <rcn>457156</rcn>
+              <title>Ensuring AVs can safely navigate everything in their path</title>
+              <relations>
+                <categories>
+                  <category classification="applicationDomain" type="isApplicableIn">
+                    <language>en</language>
+                    <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+                    <code>/trans</code>
+                    <title>Transport and Mobility</title>
+                    <displayCode>/Transport and Mobility</displayCode>
+                  </category>
+                  <category classification="collection" type="belongsTo">
+                    <language>en</language>
+                    <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+                    <code>/brief</code>
+                    <title>Result in Brief</title>
+                    <description>Article: Classic and enhanced</description>
+                    <displayCode>/Result in Brief</displayCode>
+                  </category>
+                  <category classification="source" type="isProvidedBy">
+                    <language>en</language>
+                    <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+                    <code>/editorial</code>
+                    <title>CORDIS Editorial</title>
+                    <description>Written by CORDIS</description>
+                    <displayCode>/CORDIS Editorial</displayCode>
+                  </category>
+                </categories>
+              </relations>
+            </article>
+            <article source="editorial" type="contains">
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <rcn>457149</rcn>
+              <title>A model library of driving behaviours</title>
+              <relations>
+                <categories>
+                  <category classification="applicationDomain" type="isApplicableIn">
+                    <language>en</language>
+                    <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+                    <code>/trans</code>
+                    <title>Transport and Mobility</title>
+                    <displayCode>/Transport and Mobility</displayCode>
+                  </category>
+                  <category classification="collection" type="belongsTo">
+                    <language>en</language>
+                    <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+                    <code>/brief</code>
+                    <title>Result in Brief</title>
+                    <description>Article: Classic and enhanced</description>
+                    <displayCode>/Result in Brief</displayCode>
+                  </category>
+                  <category classification="source" type="isProvidedBy">
+                    <language>en</language>
+                    <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+                    <code>/editorial</code>
+                    <title>CORDIS Editorial</title>
+                    <description>Written by CORDIS</description>
+                    <displayCode>/CORDIS Editorial</displayCode>
+                  </category>
+                </categories>
+              </relations>
+            </article>
+            <article source="editorial" type="contains">
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <rcn>457143</rcn>
+              <title>All-weather sensors see driverless freight vehicles roll out at airports, ports and logistic hubs</title>
+              <relations>
+                <categories>
+                  <category classification="applicationDomain" type="isApplicableIn">
+                    <language>en</language>
+                    <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+                    <code>/trans</code>
+                    <title>Transport and Mobility</title>
+                    <displayCode>/Transport and Mobility</displayCode>
+                  </category>
+                  <category classification="collection" type="belongsTo">
+                    <language>en</language>
+                    <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+                    <code>/brief</code>
+                    <title>Result in Brief</title>
+                    <description>Article: Classic and enhanced</description>
+                    <displayCode>/Result in Brief</displayCode>
+                  </category>
+                  <category classification="source" type="isProvidedBy">
+                    <language>en</language>
+                    <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+                    <code>/editorial</code>
+                    <title>CORDIS Editorial</title>
+                    <description>Written by CORDIS</description>
+                    <displayCode>/CORDIS Editorial</displayCode>
+                  </category>
+                </categories>
+              </relations>
+            </article>
+            <article source="editorial" type="contains">
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <rcn>457154</rcn>
+              <title>Showcasing the benefits of automated vehicles for sustainable urban transport</title>
+              <relations>
+                <categories>
+                  <category classification="applicationDomain" type="isApplicableIn">
+                    <language>en</language>
+                    <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+                    <code>/trans</code>
+                    <title>Transport and Mobility</title>
+                    <displayCode>/Transport and Mobility</displayCode>
+                  </category>
+                  <category classification="collection" type="belongsTo">
+                    <language>en</language>
+                    <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+                    <code>/brief</code>
+                    <title>Result in Brief</title>
+                    <description>Article: Classic and enhanced</description>
+                    <displayCode>/Result in Brief</displayCode>
+                  </category>
+                  <category classification="source" type="isProvidedBy">
+                    <language>en</language>
+                    <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+                    <code>/editorial</code>
+                    <title>CORDIS Editorial</title>
+                    <description>Written by CORDIS</description>
+                    <displayCode>/CORDIS Editorial</displayCode>
+                  </category>
+                </categories>
+              </relations>
+            </article>
+            <article source="editorial" type="contains">
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <rcn>457151</rcn>
+              <title>Assessing societal impacts of new CCAM interventions</title>
+              <relations>
+                <categories>
+                  <category classification="applicationDomain" type="isApplicableIn">
+                    <language>en</language>
+                    <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+                    <code>/trans</code>
+                    <title>Transport and Mobility</title>
+                    <displayCode>/Transport and Mobility</displayCode>
+                  </category>
+                  <category classification="collection" type="belongsTo">
+                    <language>en</language>
+                    <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+                    <code>/brief</code>
+                    <title>Result in Brief</title>
+                    <description>Article: Classic and enhanced</description>
+                    <displayCode>/Result in Brief</displayCode>
+                  </category>
+                  <category classification="source" type="isProvidedBy">
+                    <language>en</language>
+                    <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+                    <code>/editorial</code>
+                    <title>CORDIS Editorial</title>
+                    <description>Written by CORDIS</description>
+                    <displayCode>/CORDIS Editorial</displayCode>
+                  </category>
+                </categories>
+              </relations>
+            </article>
+            <article source="editorial" type="contains">
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <rcn>457148</rcn>
+              <title>Developing robust self-driving vehicles that can go the distance</title>
+              <relations>
+                <categories>
+                  <category classification="applicationDomain" type="isApplicableIn">
+                    <language>en</language>
+                    <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+                    <code>/trans</code>
+                    <title>Transport and Mobility</title>
+                    <displayCode>/Transport and Mobility</displayCode>
+                  </category>
+                  <category classification="collection" type="belongsTo">
+                    <language>en</language>
+                    <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+                    <code>/brief</code>
+                    <title>Result in Brief</title>
+                    <description>Article: Classic and enhanced</description>
+                    <displayCode>/Result in Brief</displayCode>
+                  </category>
+                  <category classification="source" type="isProvidedBy">
+                    <language>en</language>
+                    <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+                    <code>/editorial</code>
+                    <title>CORDIS Editorial</title>
+                    <description>Written by CORDIS</description>
+                    <displayCode>/CORDIS Editorial</displayCode>
+                  </category>
+                </categories>
+              </relations>
+            </article>
+            <article source="editorial" type="contains">
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <rcn>457142</rcn>
+              <title>Self-driving technologies need user-friendly AI</title>
+              <relations>
+                <categories>
+                  <category classification="applicationDomain" type="isApplicableIn">
+                    <language>en</language>
+                    <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+                    <code>/trans</code>
+                    <title>Transport and Mobility</title>
+                    <displayCode>/Transport and Mobility</displayCode>
+                  </category>
+                  <category classification="collection" type="belongsTo">
+                    <language>en</language>
+                    <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+                    <code>/brief</code>
+                    <title>Result in Brief</title>
+                    <description>Article: Classic and enhanced</description>
+                    <displayCode>/Result in Brief</displayCode>
+                  </category>
+                  <category classification="source" type="isProvidedBy">
+                    <language>en</language>
+                    <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+                    <code>/editorial</code>
+                    <title>CORDIS Editorial</title>
+                    <description>Written by CORDIS</description>
+                    <displayCode>/CORDIS Editorial</displayCode>
+                  </category>
+                </categories>
+              </relations>
+            </article>
+            <article source="editorial" type="contains">
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <rcn>457146</rcn>
+              <title>Decision-making tools for smarter, safer mobility</title>
+              <relations>
+                <categories>
+                  <category classification="applicationDomain" type="isApplicableIn">
+                    <language>en</language>
+                    <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+                    <code>/trans</code>
+                    <title>Transport and Mobility</title>
+                    <displayCode>/Transport and Mobility</displayCode>
+                  </category>
+                  <category classification="collection" type="belongsTo">
+                    <language>en</language>
+                    <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+                    <code>/brief</code>
+                    <title>Result in Brief</title>
+                    <description>Article: Classic and enhanced</description>
+                    <displayCode>/Result in Brief</displayCode>
+                  </category>
+                  <category classification="source" type="isProvidedBy">
+                    <language>en</language>
+                    <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+                    <code>/editorial</code>
+                    <title>CORDIS Editorial</title>
+                    <description>Written by CORDIS</description>
+                    <displayCode>/CORDIS Editorial</displayCode>
+                  </category>
+                </categories>
+              </relations>
+            </article>
+            <article source="editorial" type="contains">
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <rcn>457145</rcn>
+              <title>Trustworthy data is key to rolling out automated vehicles</title>
+              <relations>
+                <categories>
+                  <category classification="applicationDomain" type="isApplicableIn">
+                    <language>en</language>
+                    <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+                    <code>/trans</code>
+                    <title>Transport and Mobility</title>
+                    <displayCode>/Transport and Mobility</displayCode>
+                  </category>
+                  <category classification="collection" type="belongsTo">
+                    <language>en</language>
+                    <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+                    <code>/brief</code>
+                    <title>Result in Brief</title>
+                    <description>Article: Classic and enhanced</description>
+                    <displayCode>/Result in Brief</displayCode>
+                  </category>
+                  <category classification="source" type="isProvidedBy">
+                    <language>en</language>
+                    <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+                    <code>/editorial</code>
+                    <title>CORDIS Editorial</title>
+                    <description>Written by CORDIS</description>
+                    <displayCode>/CORDIS Editorial</displayCode>
+                  </category>
+                </categories>
+              </relations>
+            </article>
+            <article source="editorial" type="contains">
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <rcn>457144</rcn>
+              <title>Smart modelling leaves European gridlock in the rear-view mirror</title>
+              <relations>
+                <categories>
+                  <category classification="applicationDomain" type="isApplicableIn">
+                    <language>en</language>
+                    <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+                    <code>/trans</code>
+                    <title>Transport and Mobility</title>
+                    <displayCode>/Transport and Mobility</displayCode>
+                  </category>
+                  <category classification="collection" type="belongsTo">
+                    <language>en</language>
+                    <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+                    <code>/brief</code>
+                    <title>Result in Brief</title>
+                    <description>Article: Classic and enhanced</description>
+                    <displayCode>/Result in Brief</displayCode>
+                  </category>
+                  <category classification="source" type="isProvidedBy">
+                    <language>en</language>
+                    <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+                    <code>/editorial</code>
+                    <title>CORDIS Editorial</title>
+                    <description>Written by CORDIS</description>
+                    <displayCode>/CORDIS Editorial</displayCode>
+                  </category>
+                </categories>
+              </relations>
+            </article>
+            <article source="editorial" type="contains">
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <rcn>457152</rcn>
+              <title>Automated mobility starts with physical and digital infrastructure</title>
+              <relations>
+                <categories>
+                  <category classification="applicationDomain" type="isApplicableIn">
+                    <language>en</language>
+                    <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+                    <code>/trans</code>
+                    <title>Transport and Mobility</title>
+                    <displayCode>/Transport and Mobility</displayCode>
+                  </category>
+                  <category classification="collection" type="belongsTo">
+                    <language>en</language>
+                    <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+                    <code>/brief</code>
+                    <title>Result in Brief</title>
+                    <description>Article: Classic and enhanced</description>
+                    <displayCode>/Result in Brief</displayCode>
+                  </category>
+                  <category classification="source" type="isProvidedBy">
+                    <language>en</language>
+                    <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+                    <code>/editorial</code>
+                    <title>CORDIS Editorial</title>
+                    <description>Written by CORDIS</description>
+                    <displayCode>/CORDIS Editorial</displayCode>
+                  </category>
+                </categories>
+              </relations>
+            </article>
+            <article source="editorial" type="contains">
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <rcn>457150</rcn>
+              <title>Reshaping mobility for all</title>
+              <relations>
+                <categories>
+                  <category classification="applicationDomain" type="isApplicableIn">
+                    <language>en</language>
+                    <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+                    <code>/trans</code>
+                    <title>Transport and Mobility</title>
+                    <displayCode>/Transport and Mobility</displayCode>
+                  </category>
+                  <category classification="collection" type="belongsTo">
+                    <language>en</language>
+                    <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+                    <code>/brief</code>
+                    <title>Result in Brief</title>
+                    <description>Article: Classic and enhanced</description>
+                    <displayCode>/Result in Brief</displayCode>
+                  </category>
+                  <category classification="source" type="isProvidedBy">
+                    <language>en</language>
+                    <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+                    <code>/editorial</code>
+                    <title>CORDIS Editorial</title>
+                    <description>Written by CORDIS</description>
+                    <displayCode>/CORDIS Editorial</displayCode>
+                  </category>
+                </categories>
+              </relations>
+            </article>
+            <article source="editorial" type="contains">
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <rcn>457153</rcn>
+              <title>Protecting Europe’s connected cars against cyberthreats</title>
+              <relations>
+                <categories>
+                  <category classification="applicationDomain" type="isApplicableIn">
+                    <language>en</language>
+                    <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+                    <code>/trans</code>
+                    <title>Transport and Mobility</title>
+                    <displayCode>/Transport and Mobility</displayCode>
+                  </category>
+                  <category classification="collection" type="belongsTo">
+                    <language>en</language>
+                    <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+                    <code>/brief</code>
+                    <title>Result in Brief</title>
+                    <description>Article: Classic and enhanced</description>
+                    <displayCode>/Result in Brief</displayCode>
+                  </category>
+                  <category classification="source" type="isProvidedBy">
+                    <language>en</language>
+                    <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+                    <code>/editorial</code>
+                    <title>CORDIS Editorial</title>
+                    <description>Written by CORDIS</description>
+                    <displayCode>/CORDIS Editorial</displayCode>
+                  </category>
+                </categories>
+              </relations>
+            </article>
+            <article source="editorial" type="contains">
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <rcn>457155</rcn>
+              <title>Putting citizens at the heart of the transport revolution</title>
+              <relations>
+                <categories>
+                  <category classification="applicationDomain" type="isApplicableIn">
+                    <language>en</language>
+                    <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+                    <code>/trans</code>
+                    <title>Transport and Mobility</title>
+                    <displayCode>/Transport and Mobility</displayCode>
+                  </category>
+                  <category classification="collection" type="belongsTo">
+                    <language>en</language>
+                    <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+                    <code>/brief</code>
+                    <title>Result in Brief</title>
+                    <description>Article: Classic and enhanced</description>
+                    <displayCode>/Result in Brief</displayCode>
+                  </category>
+                  <category classification="source" type="isProvidedBy">
+                    <language>en</language>
+                    <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+                    <code>/editorial</code>
+                    <title>CORDIS Editorial</title>
+                    <description>Written by CORDIS</description>
+                    <displayCode>/CORDIS Editorial</displayCode>
+                  </category>
+                </categories>
+              </relations>
+            </article>
+            <article source="editorial" type="contains">
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <rcn>457147</rcn>
+              <title>Establishing a European framework for connected, cooperative and automated driving</title>
+              <relations>
+                <categories>
+                  <category classification="applicationDomain" type="isApplicableIn">
+                    <language>en</language>
+                    <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+                    <code>/trans</code>
+                    <title>Transport and Mobility</title>
+                    <displayCode>/Transport and Mobility</displayCode>
+                  </category>
+                  <category classification="collection" type="belongsTo">
+                    <language>en</language>
+                    <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+                    <code>/brief</code>
+                    <title>Result in Brief</title>
+                    <description>Article: Classic and enhanced</description>
+                    <displayCode>/Result in Brief</displayCode>
+                  </category>
+                  <category classification="source" type="isProvidedBy">
+                    <language>en</language>
+                    <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+                    <code>/editorial</code>
+                    <title>CORDIS Editorial</title>
+                    <description>Written by CORDIS</description>
+                    <displayCode>/CORDIS Editorial</displayCode>
+                  </category>
+                </categories>
+              </relations>
+            </article>
+            <webItem type="relatedImage" source="editorial" represents="article">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl,any</availableLanguages>
+              <uri>/docs/article/images/2025-03/457138.jpg</uri>
+              <mimetype>image/jpeg</mimetype>
+              <size>164089</size>
+              <copyright>© zapp2photo/stock.adobe.com</copyright>
+            </webItem>
+            <webLink source="editorial" type="formatPdf" represents="article">
+              <title>Download PDF version</title>
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>8763b59f-1042-11f0-b1a3-01aa75ed71a1_pdf</id>
+              <physUrl>https://op.europa.eu/o/opportal-service/download-handler?identifier=8763b59f-1042-11f0-b1a3-01aa75ed71a1_pdf&amp;format=PDF&amp;language=en&amp;productionSystem=cellar</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+            <webLink source="editorial" type="formatPdf" represents="postcard">
+              <title>Download PDF version</title>
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>13dc731e-fefd-11ef-9503-01aa75ed71a1_pdf</id>
+              <physUrl>https://op.europa.eu/o/opportal-service/download-handler?identifier=13dc731e-fefd-11ef-9503-01aa75ed71a1_pdf&amp;format=PDF&amp;language=en&amp;productionSystem=cellar</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+            <webLink source="editorial" type="orderPrint" represents="article">
+              <title>Order paper copy</title>
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <id>8763b59f-1042-11f0-b1a3-01aa75ed71a1_print</id>
+              <physUrl>https://op.europa.eu/en/publication-detail/-/publication/8763b59f-1042-11f0-b1a3-01aa75ed71a1/</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+            <webLink source="editorial" type="orderPrint" represents="postcard">
+              <title>Order paper copy</title>
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <id>13dc731e-fefd-11ef-9503-01aa75ed71a1_print</id>
+              <physUrl>https://op.europa.eu/en/publication-detail/-/publication/13dc731e-fefd-11ef-9503-01aa75ed71a1/</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="applicationDomain" type="isApplicableIn">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/trans</code>
+              <title>Transport and Mobility</title>
+              <displayCode>/Transport and Mobility</displayCode>
+            </category>
+            <category classification="audience" type="isTargetedTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/RES</code>
+              <title>Research organisation</title>
+              <displayCode>/Research organisation</displayCode>
+            </category>
+            <category classification="audience" type="isTargetedTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/GOV</code>
+              <title>National government</title>
+              <displayCode>/National government</displayCode>
+            </category>
+            <category classification="audience" type="isTargetedTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/ENTR</code>
+              <title>Enterprise and industry organisation</title>
+              <displayCode>/Enterprise and industry organisation</displayCode>
+            </category>
+            <category classification="client" type="isRequestedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CINEA.C</code>
+              <title>CINEA - Green research and innovation</title>
+              <description>2021</description>
+              <displayCode>/CINEA - Green research and innovation</displayCode>
+            </category>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/resultsPack</code>
+              <title>Results Pack</title>
+              <description>Article: Collections of results, from finished or nearly completed projects, focusing on a specific theme that you can apply in your domain</description>
+              <displayCode>/Results Pack</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/editorial</code>
+              <title>CORDIS Editorial</title>
+              <description>Written by CORDIS</description>
+              <displayCode>/CORDIS Editorial</displayCode>
+            </category>
+          </categories>
+        </relations>
+        <teaser>New mobility solutions enabled by connected, cooperative and automated mobility (CCAM) will increase the safety, traffic efficiency and accessibility of Europe’s road transport system. This CORDIS Results Pack highlights 15 EU-funded projects addressing the technological, regulatory and social challenges of automated transport systems, paving the way for more sustainable and equitable transport in the future.</teaser>
+      </article>
+      <article source="editorial" type="relatedArticle">
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <rcn>437510</rcn>
+        <id>437510-making-ccam-more-resilient-with-more-trust</id>
+        <title>Making CCAM more resilient with more trust</title>
+        <contentUpdateDate>2022-11-18 09:20:00</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/projectDescription</code>
+              <title>Project description</title>
+              <description>Article: description of linked project written by editorial team</description>
+              <displayCode>/Project description</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/editorial</code>
+              <title>CORDIS Editorial</title>
+              <description>Written by CORDIS</description>
+              <displayCode>/CORDIS Editorial</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </article>
+      <article source="editorial" type="relatedArticle">
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <rcn>457145</rcn>
+        <id>457145-trustworthy-data-is-key-to-rolling-out-automated-vehicles</id>
+        <title>Trustworthy data is key to rolling out automated vehicles</title>
+        <contentUpdateDate>2025-03-06 11:54:03</contentUpdateDate>
+        <relations>
+          <associations>
+            <article source="editorial" type="isContainedIn">
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <rcn>457138</rcn>
+              <title>Building European capacity for Connected, Cooperative and Automated Mobility</title>
+              <relations>
+                <categories>
+                  <category classification="applicationDomain" type="isApplicableIn">
+                    <language>en</language>
+                    <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+                    <code>/trans</code>
+                    <title>Transport and Mobility</title>
+                    <displayCode>/Transport and Mobility</displayCode>
+                  </category>
+                  <category classification="audience" type="isTargetedTo">
+                    <language>en</language>
+                    <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+                    <code>/RES</code>
+                    <title>Research organisation</title>
+                    <displayCode>/Research organisation</displayCode>
+                  </category>
+                  <category classification="audience" type="isTargetedTo">
+                    <language>en</language>
+                    <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+                    <code>/GOV</code>
+                    <title>National government</title>
+                    <displayCode>/National government</displayCode>
+                  </category>
+                  <category classification="audience" type="isTargetedTo">
+                    <language>en</language>
+                    <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+                    <code>/ENTR</code>
+                    <title>Enterprise and industry organisation</title>
+                    <displayCode>/Enterprise and industry organisation</displayCode>
+                  </category>
+                  <category classification="client" type="isRequestedBy">
+                    <language>en</language>
+                    <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+                    <code>/CINEA.C</code>
+                    <title>CINEA - Green research and innovation</title>
+                    <description>2021</description>
+                    <displayCode>/CINEA - Green research and innovation</displayCode>
+                  </category>
+                  <category classification="collection" type="belongsTo">
+                    <language>en</language>
+                    <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+                    <code>/resultsPack</code>
+                    <title>Results Pack</title>
+                    <description>Article: Collections of results, from finished or nearly completed projects, focusing on a specific theme that you can apply in your domain</description>
+                    <displayCode>/Results Pack</displayCode>
+                  </category>
+                  <category classification="source" type="isProvidedBy">
+                    <language>en</language>
+                    <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+                    <code>/editorial</code>
+                    <title>CORDIS Editorial</title>
+                    <description>Written by CORDIS</description>
+                    <displayCode>/CORDIS Editorial</displayCode>
+                  </category>
+                </categories>
+              </relations>
+            </article>
+            <webItem type="relatedImage" source="editorial" represents="article">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl,any</availableLanguages>
+              <uri>/docs/article/images/2025-02/457145.jpg</uri>
+              <mimetype>image/jpeg</mimetype>
+              <size>80135</size>
+              <copyright>© sofiko14/stock.adobe.com</copyright>
+            </webItem>
+          </associations>
+          <categories>
+            <category classification="applicationDomain" type="isApplicableIn">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/trans</code>
+              <title>Transport and Mobility</title>
+              <displayCode>/Transport and Mobility</displayCode>
+            </category>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/brief</code>
+              <title>Result in Brief</title>
+              <description>Article: Classic and enhanced</description>
+              <displayCode>/Result in Brief</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/editorial</code>
+              <title>CORDIS Editorial</title>
+              <description>Written by CORDIS</description>
+              <displayCode>/CORDIS Editorial</displayCode>
+            </category>
+          </categories>
+        </relations>
+        <teaser>For a safer, more secure future transport system, researchers for the EU-funded CONNECT project developed a novel solution to assess and ensure the trustworthiness of the data on which automated vehicles rely.</teaser>
+      </article>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>55499</rcn>
+        <title>HORIZON-CL5-2021-D6-01</title>
+        <identifier>HORIZON-CL5-2021-D6-01</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>55499</rcn>
+        <title>HORIZON-CL5-2021-D6-01</title>
+        <identifier>HORIZON-CL5-2021-D6-01</identifier>
+      </call>
+      <organization netEcContribution="350000" totalCost="350000" source="corda" order="11" ecContribution="350000" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>2968173</rcn>
+        <id>983611914</id>
+        <vatNumber>EL094029552</vatNumber>
+        <legalName>UNI SYSTEMS SYSTIMATA PLIROFORIKIS MONOPROSOPI ANONYMI EMPORIKI ETAIRIA</legalName>
+        <shortName>UNI SYSTEMS INFORMATION TECHNOLOGY SYSTEMS COMMERCIAL S.M.S.A.</shortName>
+        <address>
+          <street>AL PANTOU STREET 19-23</street>
+          <city>ATHINA</city>
+          <postalCode>176 71</postalCode>
+          <country>EL</country>
+          <geolocation>38.2653828,21.7618384</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PRC</code>
+              <title>Private for-profit entities (excluding Higher or Secondary Education Establishments)</title>
+              <displayCode>/Private for-profit entities (excluding Higher or Secondary Education Establishments)</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Νότιος Τομέας Αθηνών</name>
+              <rcn>1464158</rcn>
+              <nutsCode>EL304</nutsCode>
+              <parents>
+                <region>
+                  <name>Aττική</name>
+                  <rcn>1464908</rcn>
+                  <nutsCode>EL30</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Αττική</name>
+                      <rcn>1464907</rcn>
+                      <nutsCode>EL3</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Greece</name>
+                          <rcn>240552488</rcn>
+                          <nutsCode>EL</nutsCode>
+                          <euCode>EL</euCode>
+                          <isoCode>EL</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Greece</name>
+              <rcn>240552488</rcn>
+              <nutsCode>EL</nutsCode>
+              <euCode>EL</euCode>
+              <isoCode>EL</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="348750" totalCost="348750" source="corda" order="14" ecContribution="348750" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1905908</rcn>
+        <id>999992886</id>
+        <vatNumber>IT07084560015</vatNumber>
+        <legalName>CENTRO RICERCHE FIAT SCPA</legalName>
+        <shortName>CENTRO RICERCHE FIAT</shortName>
+        <address>
+          <street>STRADA TORINO 50</street>
+          <city>ORBASSANO</city>
+          <postalCode>10043</postalCode>
+          <country>IT</country>
+          <postBox>000</postBox>
+          <url>http://www.crf.it</url>
+          <geolocation>45.0140614,7.5647471</geolocation>
+        </address>
+        <departmentName>Public Funding</departmentName>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/REC</code>
+              <title>Research Organisations</title>
+              <displayCode>/Research Organisations</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Torino</name>
+              <rcn>309641281</rcn>
+              <nutsCode>ITC11</nutsCode>
+              <parents>
+                <region>
+                  <name>Piemonte</name>
+                  <rcn>309641320</rcn>
+                  <nutsCode>ITC1</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Nord-Ovest</name>
+                      <rcn>309643816</rcn>
+                      <nutsCode>ITC</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Italy</name>
+                          <rcn>309758504</rcn>
+                          <nutsCode>IT</nutsCode>
+                          <euCode>IT</euCode>
+                          <isoCode>IT</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Italy</name>
+              <rcn>309758504</rcn>
+              <nutsCode>IT</nutsCode>
+              <euCode>IT</euCode>
+              <isoCode>IT</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="325000" totalCost="325000" source="corda" order="10" ecContribution="325000" terminated="false" sme="true" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1946775</rcn>
+        <id>910462080</id>
+        <vatNumber>CY10373773W</vatNumber>
+        <legalName>SUITE5 DATA INTELLIGENCE SOLUTIONS LIMITED</legalName>
+        <address>
+          <street>ALEXANDREIAS 2, BRIDGE TOWER, FLAT/OFFICE 101</street>
+          <city>Limassol</city>
+          <postalCode>3013</postalCode>
+          <country>CY</country>
+          <geolocation>34.683246,33.029887</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PRC</code>
+              <title>Private for-profit entities (excluding Higher or Secondary Education Establishments)</title>
+              <displayCode>/Private for-profit entities (excluding Higher or Secondary Education Establishments)</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Κύπρος</name>
+              <rcn>210239488</rcn>
+              <nutsCode>CY000</nutsCode>
+              <parents>
+                <region>
+                  <name>Κύπρος</name>
+                  <rcn>210239528</rcn>
+                  <nutsCode>CY00</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Κύπρος</name>
+                      <rcn>210242088</rcn>
+                      <nutsCode>CY0</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Cyprus</name>
+                          <rcn>210405928</rcn>
+                          <nutsCode>CY</nutsCode>
+                          <euCode>CY</euCode>
+                          <isoCode>CY</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Cyprus</name>
+              <rcn>210405928</rcn>
+              <nutsCode>CY</nutsCode>
+              <euCode>CY</euCode>
+              <isoCode>CY</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="452500" totalCost="452500" source="corda" order="5" ecContribution="452500" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1905692</rcn>
+        <id>999882209</id>
+        <vatNumber>DE173703203</vatNumber>
+        <legalName>UNIVERSITAET ULM</legalName>
+        <shortName>UULM</shortName>
+        <address>
+          <street>HELMHOLTZSTRASSE  16</street>
+          <city>Ulm</city>
+          <postalCode>89081</postalCode>
+          <country>DE</country>
+          <postBox>N/A</postBox>
+          <url>http://www.uni-ulm.de</url>
+          <geolocation>48.4251253,9.96293771568437</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Ulm, Stadtkreis</name>
+              <rcn>221778180</rcn>
+              <nutsCode>DE144</nutsCode>
+              <parents>
+                <region>
+                  <name>Tübingen</name>
+                  <rcn>221778216</rcn>
+                  <nutsCode>DE14</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Baden-Württemberg</name>
+                      <rcn>221780520</rcn>
+                      <nutsCode>DE1</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Germany</name>
+                          <rcn>221940264</rcn>
+                          <nutsCode>DE</nutsCode>
+                          <euCode>DE</euCode>
+                          <isoCode>DE</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Germany</name>
+              <rcn>221940264</rcn>
+              <nutsCode>DE</nutsCode>
+              <euCode>DE</euCode>
+              <isoCode>DE</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="559000" totalCost="559000" source="corda" order="2" ecContribution="559000" terminated="false" sme="true" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1913833</rcn>
+        <id>985034419</id>
+        <vatNumber>EL998908360</vatNumber>
+        <legalName>GIOUMPITEK MELETI SCHEDIASMOS YLOPOIISI KAI POLISI ERGON PLIROFORIKIS ETAIREIA PERIORISMENIS EFTHYNIS</legalName>
+        <shortName>UBITECH DESIGN PLANNING IMPLEMENTATION &amp; SALE OF INFORMATION WORKS</shortName>
+        <address>
+          <street>MITHRIDATOU 36-38</street>
+          <city>ATHINA</city>
+          <postalCode>11 632</postalCode>
+          <country>EL</country>
+          <url>https://www.ubitech.eu</url>
+          <geolocation>37.9589268,23.743758</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PRC</code>
+              <title>Private for-profit entities (excluding Higher or Secondary Education Establishments)</title>
+              <displayCode>/Private for-profit entities (excluding Higher or Secondary Education Establishments)</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Κεντρικός Τομέας Αθηνών</name>
+              <rcn>1465456</rcn>
+              <nutsCode>EL303</nutsCode>
+              <parents>
+                <region>
+                  <name>Aττική</name>
+                  <rcn>1464908</rcn>
+                  <nutsCode>EL30</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Αττική</name>
+                      <rcn>1464907</rcn>
+                      <nutsCode>EL3</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Greece</name>
+                          <rcn>240552488</rcn>
+                          <nutsCode>EL</nutsCode>
+                          <euCode>EL</euCode>
+                          <isoCode>EL</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Greece</name>
+              <rcn>240552488</rcn>
+              <nutsCode>EL</nutsCode>
+              <euCode>EL</euCode>
+              <isoCode>EL</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="372500" totalCost="372500" source="corda" order="3" ecContribution="372500" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1920594</rcn>
+        <id>996543275</id>
+        <vatNumber>DE254327327</vatNumber>
+        <legalName>HUAWEI TECHNOLOGIES DUESSELDORF GMBH</legalName>
+        <shortName>HWDU</shortName>
+        <address>
+          <street>HANSAALLEE 205</street>
+          <city>DUSSELDORF</city>
+          <postalCode>40549</postalCode>
+          <country>DE</country>
+          <geolocation>51.2418336,6.7221219</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PRC</code>
+              <title>Private for-profit entities (excluding Higher or Secondary Education Establishments)</title>
+              <displayCode>/Private for-profit entities (excluding Higher or Secondary Education Establishments)</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Düsseldorf, Kreisfreie Stadt</name>
+              <rcn>221814849</rcn>
+              <nutsCode>DEA11</nutsCode>
+              <parents>
+                <region>
+                  <name>Düsseldorf</name>
+                  <rcn>221814888</rcn>
+                  <nutsCode>DEA1</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Nordrhein-Westfalen</name>
+                      <rcn>221817384</rcn>
+                      <nutsCode>DEA</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Germany</name>
+                          <rcn>221940264</rcn>
+                          <nutsCode>DE</nutsCode>
+                          <euCode>DE</euCode>
+                          <isoCode>DE</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Germany</name>
+              <rcn>221940264</rcn>
+              <nutsCode>DE</nutsCode>
+              <euCode>DE</euCode>
+              <isoCode>DE</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="285393.75" totalCost="285393.75" source="corda" order="12" ecContribution="285393.75" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1908335</rcn>
+        <id>999900833</id>
+        <vatNumber>NL002946725B01</vatNumber>
+        <legalName>UNIVERSITEIT TWENTE</legalName>
+        <shortName>UNIVERSITEIT TWENTE</shortName>
+        <address>
+          <street>DRIENERLOLAAN 5</street>
+          <city>Enschede</city>
+          <postalCode>7522 NB</postalCode>
+          <country>NL</country>
+          <postBox>000</postBox>
+          <url>http://www.utwente.nl</url>
+          <geolocation>52.2398494,6.8499541</geolocation>
+        </address>
+        <departmentName>Facultly of Engineering Technology, University of Twente</departmentName>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Twente</name>
+              <rcn>391389251</rcn>
+              <nutsCode>NL213</nutsCode>
+              <parents>
+                <region>
+                  <name>Overijssel</name>
+                  <rcn>391389288</rcn>
+                  <nutsCode>NL21</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Oost-Nederland</name>
+                      <rcn>391391784</rcn>
+                      <nutsCode>NL2</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Netherlands</name>
+                          <rcn>391547432</rcn>
+                          <nutsCode>NL</nutsCode>
+                          <euCode>NL</euCode>
+                          <isoCode>NL</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Netherlands</name>
+              <rcn>391547432</rcn>
+              <nutsCode>NL</nutsCode>
+              <euCode>NL</euCode>
+              <isoCode>NL</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="206250" totalCost="206250" source="corda" order="13" ecContribution="206250" terminated="false" sme="true" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1968354</rcn>
+        <id>991478032</id>
+        <vatNumber>FR16399229756</vatNumber>
+        <legalName>FS COM</legalName>
+        <shortName>FSCOM</shortName>
+        <address>
+          <street>6 AVENUE DES ALPES, RESIDENCE ROI SOLEIL-MONTESPAN</street>
+          <city>ANTIBES</city>
+          <postalCode>06600</postalCode>
+          <country>FR</country>
+          <geolocation>43.5836,7.10905</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PRC</code>
+              <title>Private for-profit entities (excluding Higher or Secondary Education Establishments)</title>
+              <displayCode>/Private for-profit entities (excluding Higher or Secondary Education Establishments)</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Alpes-Maritimes</name>
+              <rcn>1465374</rcn>
+              <nutsCode>FRL03</nutsCode>
+              <parents>
+                <region>
+                  <name>Provence-Alpes-Côte d’Azur</name>
+                  <rcn>1464968</rcn>
+                  <nutsCode>FRL0</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Provence-Alpes-Côte d’Azur</name>
+                      <rcn>1464967</rcn>
+                      <nutsCode>FRL</nutsCode>
+                      <parents>
+                        <region>
+                          <name>France</name>
+                          <rcn>258902568</rcn>
+                          <nutsCode>FR</nutsCode>
+                          <euCode>FR</euCode>
+                          <isoCode>FR</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>France</name>
+              <rcn>258902568</rcn>
+              <nutsCode>FR</nutsCode>
+              <euCode>FR</euCode>
+              <isoCode>FR</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="592000" totalCost="592000" source="corda" order="9" ecContribution="592000" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>2121870</rcn>
+        <id>967538432</id>
+        <vatNumber>DE815231432</vatNumber>
+        <legalName>INTEL DEUTSCHLAND GMBH</legalName>
+        <shortName>IMC</shortName>
+        <address>
+          <street>DORNACHER STRASSE 1D</street>
+          <city>FELDKIRCHEN</city>
+          <postalCode>85622</postalCode>
+          <country>DE</country>
+          <geolocation>48.080906,11.6153314</geolocation>
+        </address>
+        <departmentName>Software &amp; Services Group</departmentName>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PRC</code>
+              <title>Private for-profit entities (excluding Higher or Secondary Education Establishments)</title>
+              <displayCode>/Private for-profit entities (excluding Higher or Secondary Education Establishments)</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Ebersberg</name>
+              <rcn>221782088</rcn>
+              <nutsCode>DE218</nutsCode>
+              <parents>
+                <region>
+                  <name>Oberbayern</name>
+                  <rcn>221782120</rcn>
+                  <nutsCode>DE21</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Bayern</name>
+                      <rcn>221784616</rcn>
+                      <nutsCode>DE2</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Germany</name>
+                          <rcn>221940264</rcn>
+                          <nutsCode>DE</nutsCode>
+                          <euCode>DE</euCode>
+                          <isoCode>DE</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Germany</name>
+              <rcn>221940264</rcn>
+              <nutsCode>DE</nutsCode>
+              <euCode>DE</euCode>
+              <isoCode>DE</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="0" totalCost="0" source="corda" order="6" ecContribution="0" terminated="true" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>2558775</rcn>
+        <id>950302793</id>
+        <vatNumber>IL513658070</vatNumber>
+        <legalName>RED HAT ISRAEL LTD</legalName>
+        <shortName>RED HAT</shortName>
+        <address>
+          <street>HA PNINA STREET 8  FLOOR 15</street>
+          <city>RA ANANA</city>
+          <postalCode>4321545</postalCode>
+          <country>IL</country>
+          <geolocation>30.8760272,35.0015196</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PRC</code>
+              <title>Private for-profit entities (excluding Higher or Secondary Education Establishments)</title>
+              <displayCode>/Private for-profit entities (excluding Higher or Secondary Education Establishments)</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Israel</name>
+              <rcn>307661352</rcn>
+              <nutsCode>IL</nutsCode>
+              <euCode>IL</euCode>
+              <isoCode>IL</isoCode>
+            </region>
+            <region type="relatedRegion">
+              <name>Israel</name>
+              <rcn>307661352</rcn>
+              <nutsCode>IL</nutsCode>
+              <euCode>IL</euCode>
+              <isoCode>IL</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="392500" totalCost="392500" source="corda" order="7" ecContribution="392500" terminated="false" sme="true" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1913305</rcn>
+        <id>999617884</id>
+        <vatNumber>FR37341120749</vatNumber>
+        <legalName>TRIALOG</legalName>
+        <shortName>TRIALOG</shortName>
+        <address>
+          <street>25 RUE DU GENERAL FOY</street>
+          <city>Paris</city>
+          <postalCode>75008</postalCode>
+          <country>FR</country>
+          <url>https://www.trialog.com</url>
+          <geolocation>48.8789325,2.317382</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PRC</code>
+              <title>Private for-profit entities (excluding Higher or Secondary Education Establishments)</title>
+              <displayCode>/Private for-profit entities (excluding Higher or Secondary Education Establishments)</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Paris</name>
+              <rcn>258740225</rcn>
+              <nutsCode>FR101</nutsCode>
+              <parents>
+                <region>
+                  <name>Ile-de-France</name>
+                  <rcn>258740264</rcn>
+                  <nutsCode>FR10</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Ile-de-France</name>
+                      <rcn>258742824</rcn>
+                      <nutsCode>FR1</nutsCode>
+                      <parents>
+                        <region>
+                          <name>France</name>
+                          <rcn>258902568</rcn>
+                          <nutsCode>FR</nutsCode>
+                          <euCode>FR</euCode>
+                          <isoCode>FR</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>France</name>
+              <rcn>258902568</rcn>
+              <nutsCode>FR</nutsCode>
+              <euCode>FR</euCode>
+              <isoCode>FR</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="150000" totalCost="150000" source="corda" order="15" ecContribution="150000" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1905674</rcn>
+        <id>999977754</id>
+        <vatNumber>IT00518460019</vatNumber>
+        <legalName>POLITECNICO DI TORINO</legalName>
+        <shortName>POLITO</shortName>
+        <address>
+          <street>CORSO DUCA DEGLI ABRUZZI 24</street>
+          <city>Torino</city>
+          <postalCode>10129</postalCode>
+          <country>IT</country>
+          <postBox>000</postBox>
+          <url>https://www.polito.it</url>
+          <geolocation>45.0626528,7.6618159</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Torino</name>
+              <rcn>309641281</rcn>
+              <nutsCode>ITC11</nutsCode>
+              <parents>
+                <region>
+                  <name>Piemonte</name>
+                  <rcn>309641320</rcn>
+                  <nutsCode>ITC1</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Nord-Ovest</name>
+                      <rcn>309643816</rcn>
+                      <nutsCode>ITC</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Italy</name>
+                          <rcn>309758504</rcn>
+                          <nutsCode>IT</nutsCode>
+                          <euCode>IT</euCode>
+                          <isoCode>IT</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Italy</name>
+              <rcn>309758504</rcn>
+              <nutsCode>IT</nutsCode>
+              <euCode>IT</euCode>
+              <isoCode>IT</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="355000" totalCost="355000" source="corda" order="16" ecContribution="355000" terminated="false" sme="true" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>2396763</rcn>
+        <id>949729135</id>
+        <vatNumber>FR22753408962</vatNumber>
+        <legalName>INSTITUT DE RECHERCHE TECHNOLOGIQUE SYSTEM X</legalName>
+        <shortName>IRT SYSTEMX</shortName>
+        <address>
+          <street>2 BD THOMAS GOBERT</street>
+          <city>PALAISEAU</city>
+          <postalCode>91120</postalCode>
+          <country>FR</country>
+          <geolocation>48.711917,2.2022483988828863</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/REC</code>
+              <title>Research Organisations</title>
+              <displayCode>/Research Organisations</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Essonne</name>
+              <rcn>258740228</rcn>
+              <nutsCode>FR104</nutsCode>
+              <parents>
+                <region>
+                  <name>Ile-de-France</name>
+                  <rcn>258740264</rcn>
+                  <nutsCode>FR10</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Ile-de-France</name>
+                      <rcn>258742824</rcn>
+                      <nutsCode>FR1</nutsCode>
+                      <parents>
+                        <region>
+                          <name>France</name>
+                          <rcn>258902568</rcn>
+                          <nutsCode>FR</nutsCode>
+                          <euCode>FR</euCode>
+                          <isoCode>FR</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>France</name>
+              <rcn>258902568</rcn>
+              <nutsCode>FR</nutsCode>
+              <euCode>FR</euCode>
+              <isoCode>FR</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="381250" totalCost="381250" source="corda" order="1" ecContribution="381250" terminated="false" sme="true" type="coordinator">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1951625</rcn>
+        <id>999761735</id>
+        <vatNumber>ATU47330106</vatNumber>
+        <legalName>TECHNIKON FORSCHUNGS- UND PLANUNGSGESELLSCHAFT MBH</legalName>
+        <shortName>TECHNIKON</shortName>
+        <address>
+          <street>BURGPLATZ 3A</street>
+          <city>VILLACH</city>
+          <postalCode>9500</postalCode>
+          <country>AT</country>
+          <postBox>000</postBox>
+          <url>http://www.technikon.at</url>
+          <geolocation>46.61543935,13.844158232082478</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PRC</code>
+              <title>Private for-profit entities (excluding Higher or Secondary Education Establishments)</title>
+              <displayCode>/Private for-profit entities (excluding Higher or Secondary Education Establishments)</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Klagenfurt-Villach</name>
+              <rcn>175382593</rcn>
+              <nutsCode>AT211</nutsCode>
+              <parents>
+                <region>
+                  <name>Kärnten</name>
+                  <rcn>175382632</rcn>
+                  <nutsCode>AT21</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Südösterreich</name>
+                      <rcn>175385128</rcn>
+                      <nutsCode>AT2</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Austria</name>
+                          <rcn>175540776</rcn>
+                          <nutsCode>AT</nutsCode>
+                          <euCode>AT</euCode>
+                          <isoCode>AT</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Austria</name>
+              <rcn>175540776</rcn>
+              <nutsCode>AT</nutsCode>
+              <euCode>AT</euCode>
+              <isoCode>AT</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="491500" totalCost="491500" source="corda" order="4" ecContribution="491500" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1917133</rcn>
+        <id>999654356</id>
+        <vatNumber>EL090162593</vatNumber>
+        <legalName>EREVNITIKO PANEPISTIMIAKO INSTITOUTO SYSTIMATON EPIKOINONION KAI YPOLOGISTON</legalName>
+        <shortName>RESEARCH UNIVERSITY INSTITUTE OF COMMUNICATION AND COMPUTER SYSTEMS</shortName>
+        <address>
+          <street>PATISION 42</street>
+          <city>ATHINA</city>
+          <postalCode>106 82</postalCode>
+          <country>EL</country>
+          <url>http://www.iccs.gr</url>
+          <geolocation>39.591621450000005,21.2955477</geolocation>
+        </address>
+        <departmentName>ICCS</departmentName>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/REC</code>
+              <title>Research Organisations</title>
+              <displayCode>/Research Organisations</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Κεντρικός Τομέας Αθηνών</name>
+              <rcn>1465456</rcn>
+              <nutsCode>EL303</nutsCode>
+              <parents>
+                <region>
+                  <name>Aττική</name>
+                  <rcn>1464908</rcn>
+                  <nutsCode>EL30</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Αττική</name>
+                      <rcn>1464907</rcn>
+                      <nutsCode>EL3</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Greece</name>
+                          <rcn>240552488</rcn>
+                          <nutsCode>EL</nutsCode>
+                          <euCode>EL</euCode>
+                          <isoCode>EL</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Greece</name>
+              <rcn>240552488</rcn>
+              <nutsCode>EL</nutsCode>
+              <euCode>EL</euCode>
+              <isoCode>EL</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="0" totalCost="0" source="corda" order="17" terminated="false" sme="false" type="associatedPartner">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1907035</rcn>
+        <id>999985223</id>
+        <vatNumber>GB688953065</vatNumber>
+        <legalName>UNIVERSITY OF SURREY</legalName>
+        <shortName>SURREY</shortName>
+        <address>
+          <street>Stag Hill</street>
+          <city>Guildford</city>
+          <postalCode>GU2 7XH</postalCode>
+          <country>UK</country>
+          <postBox>N/A</postBox>
+          <url>http://www.surrey.ac.uk</url>
+          <geolocation>51.2411634,-0.5897177</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>West Surrey</name>
+              <rcn>1465376</rcn>
+              <nutsCode>UKJ25</nutsCode>
+              <parents>
+                <region>
+                  <name>Surrey, East and West Sussex</name>
+                  <rcn>508637352</rcn>
+                  <nutsCode>UKJ2</nutsCode>
+                  <parents>
+                    <region>
+                      <name>South East (England)</name>
+                      <rcn>508639784</rcn>
+                      <nutsCode>UKJ</nutsCode>
+                      <parents>
+                        <region>
+                          <name>United Kingdom</name>
+                          <rcn>508725800</rcn>
+                          <nutsCode>UK</nutsCode>
+                          <euCode>UK</euCode>
+                          <isoCode>GB</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>United Kingdom</name>
+              <rcn>508725800</rcn>
+              <nutsCode>UK</nutsCode>
+              <euCode>UK</euCode>
+              <isoCode>GB</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="395000" totalCost="395000" source="corda" order="8" ecContribution="395000" terminated="false" sme="false" type="participant">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1922019</rcn>
+        <id>972424419</id>
+        <vatNumber>DE129426275</vatNumber>
+        <legalName>DENSO AUTOMOTIVE DEUTSCHLAND GMBH</legalName>
+        <shortName>DNDE</shortName>
+        <address>
+          <street>FREISINGER STRASSE 21</street>
+          <city>Eching</city>
+          <postalCode>85386</postalCode>
+          <country>DE</country>
+          <url>http://www.denso-europe.com</url>
+          <geolocation>48.3042214,11.6393</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PRC</code>
+              <title>Private for-profit entities (excluding Higher or Secondary Education Establishments)</title>
+              <displayCode>/Private for-profit entities (excluding Higher or Secondary Education Establishments)</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Freising</name>
+              <rcn>221782091</rcn>
+              <nutsCode>DE21B</nutsCode>
+              <parents>
+                <region>
+                  <name>Oberbayern</name>
+                  <rcn>221782120</rcn>
+                  <nutsCode>DE21</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Bayern</name>
+                      <rcn>221784616</rcn>
+                      <nutsCode>DE2</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Germany</name>
+                          <rcn>221940264</rcn>
+                          <nutsCode>DE</nutsCode>
+                          <euCode>DE</euCode>
+                          <isoCode>DE</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Germany</name>
+              <rcn>221940264</rcn>
+              <nutsCode>DE</nutsCode>
+              <euCode>DE</euCode>
+              <isoCode>DE</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme type="relatedTopic" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>706410</rcn>
+        <id>HORIZON_HORIZON-CL5-2021-D6-01-04</id>
+        <code>HORIZON-CL5-2021-D6-01-04</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>Cyber secure and resilient CCAM (CCAM Partnership)</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode>/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+            <category classification="topicKeyword" type="isAbout">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <code>/43458442</code>
+              <title>Transport engineering</title>
+              <displayCode>/Transport engineering</displayCode>
+            </category>
+            <category classification="topicKeyword" type="isAbout">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <code>/43458445</code>
+              <title>Transport engineering, intelligent transport systems</title>
+              <displayCode>/Transport engineering, intelligent transport systems</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme type="relatedLegalBasis" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>705774</rcn>
+        <id>HORIZON.2.5.7</id>
+        <code>HORIZON.2.5.7</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.2.5.7</pga>
+        <title>Clean, Safe and Accessible Transport and Mobility</title>
+        <parent>
+          <programme>
+            <rcn>705767</rcn>
+            <code>HORIZON.2.5</code>
+            <parent>
+              <programme>
+                <rcn>705740</rcn>
+                <code>HORIZON.2</code>
+                <parent>
+                  <programme>
+                    <rcn>705725</rcn>
+                    <code>HORIZON</code>
+                  </programme>
+                </parent>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode>/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme type="relatedLegalBasis" source="corda" uniqueProgrammePart="true">
+        <availableLanguages>en</availableLanguages>
+        <rcn>705767</rcn>
+        <id>HORIZON.2.5</id>
+        <code>HORIZON.2.5</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.2.5</pga>
+        <title>Climate, Energy and Mobility</title>
+        <parent>
+          <programme>
+            <rcn>705740</rcn>
+            <code>HORIZON.2</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode>/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme type="relatedLegalBasis" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>705775</rcn>
+        <id>HORIZON.2.5.8</id>
+        <code>HORIZON.2.5.8</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.2.5.8</pga>
+        <title>Smart Mobility</title>
+        <parent>
+          <programme>
+            <rcn>705767</rcn>
+            <code>HORIZON.2.5</code>
+            <parent>
+              <programme>
+                <rcn>705740</rcn>
+                <code>HORIZON.2</code>
+                <parent>
+                  <programme>
+                    <rcn>705725</rcn>
+                    <code>HORIZON</code>
+                  </programme>
+                </parent>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode>/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1079315</rcn>
+        <id>101069688_12_DELIVHORIZON</id>
+        <title>Distributed Processing and CCAM Trust Functions Offloading &amp; Data Space Modelling</title>
+        <description>State-of-the-art analysis of the most prominent orchestration and offloading techniques, within the MEC-Enhanced vehicular context, so as to identify those approaches that are most suitable for further investigation when it comes to assessing the feasibility and executing a trust calculation offloading action. Furthermore, this deliverable will document the data model, of the CONNECT VCs, by enhancing the standardized W3C model to also capture the required features of the target CCAM ecosystem.</description>
+        <sourceUpdateDate>2024-04-12 20:06:36</sourceUpdateDate>
+        <contentUpdateDate>2024-04-16 15:36:06</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable" represents="project">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>88fc44ad8b560e8947b0070c880a4507</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e50b0f7550&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1079313</rcn>
+        <id>101069688_14_DELIVHORIZON</id>
+        <title>Distributed Processing, Fast Offloading and MEC-enabled Orchestrator</title>
+        <description>Documentation on the policy modelling and decision making for managing the offloading policies. This deliverable also provides the 1st release of the MEC-enabled CONNECT Orchestrator as well as the VCs for the continuous authorization, authentication and secure communication between CCAM actors.</description>
+        <sourceUpdateDate>2024-04-12 20:06:36</sourceUpdateDate>
+        <contentUpdateDate>2024-04-16 15:36:05</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable" represents="project">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>92d33bfb774f657bc3e3ace4550399aa</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e50b0f72db&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/O</code>
+              <title>Other</title>
+              <displayCode>/Other</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1191477</rcn>
+        <id>101069688_24061_PUBLIHORIZON</id>
+        <title>Hash-Based Direct Anonymous Attestation</title>
+        <details>
+          <authors>Liqun Chen; Changyu Dong; Nada El Kassem; Christopher J. P. Newton; Yalan Wang</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Post-Quantum Cryptography (PQCrypto 2023)</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Springer</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1007/978-3-031-40003-2_21</doi>
+          <isbn>978-3-031-40003-2</isbn>
+        </identifiers>
+        <sourceUpdateDate>2024-04-19 11:43:47</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 14:10:16</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1079308</rcn>
+        <id>101069688_18_DELIVHORIZON</id>
+        <title>Dissemination, Communication, Clustering and Exploitation activities</title>
+        <description>Documentation on the dissemination, communication, clustering, standardization, and exploitation activities. Highlighting open-source contributions and workshop organization activities. First version will be submitted in M18. Second version will be submitted in M36 and will exclude exploitation measures which will be included within Deliverable 7.3.</description>
+        <sourceUpdateDate>2024-04-12 20:06:36</sourceUpdateDate>
+        <contentUpdateDate>2024-04-16 15:36:04</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable" represents="project">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>47e33b381975312ac3ba0a1262f57b64</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e50b0f72de&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1372732</rcn>
+        <id>101069688_241729_PUBLIHORIZON</id>
+        <title>Proxy Assertions and Agency: The Case of Machine-Assertions</title>
+        <details>
+          <authors>Chirag Arora</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Philosophy and Technology</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Springer Nature</publisher>
+        </details>
+        <identifiers>
+          <issn>2210-5441</issn>
+          <doi>10.1007/S13347-024-00703-5</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-10-13 09:04:16</sourceUpdateDate>
+        <contentUpdateDate>2025-10-20 14:48:22</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1138618</rcn>
+        <id>101069688_PSHORIZON</id>
+        <title>Periodic Reporting for period 1 - CONNECT (Continuous and Efficient Cooperative Trust Management for Resilient CCAM)</title>
+        <description>periodic</description>
+        <teaser>The 5G C-V2X technology is expected to greatly enhance autonomous driving through perception sharing, path planning, real-time local updates, and coordinated driving. These features facilitate the next generation of ITS solutions for cooperative autonomous driving applications...</teaser>
+        <sourceUpdateDate>2024-07-28 15:35:29</sourceUpdateDate>
+        <contentUpdateDate>2024-07-29 15:54:47</contentUpdateDate>
+        <relations>
+          <associations>
+            <webItem type="relatedResultAttachment" source="corda">
+              <language>en</language>
+              <availableLanguages>en,any</availableLanguages>
+              <uri>/docs/results/horizon/101069/101069688_PS/connect-figure.png</uri>
+              <mimetype>image/png</mimetype>
+              <size>569344</size>
+            </webItem>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/pubsum</code>
+              <title>Report Summary</title>
+              <description>Result: Publishable summary (FP7 SESAM) and Summary for publication (H2020 SyGMa)</description>
+              <displayCode>/Report Summary</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1335934</rcn>
+        <id>101069688_199475_PUBLIHORIZON</id>
+        <title>Philosophy &amp; Technology</title>
+        <details>
+          <authors>Chirag Arora</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Philosophy &amp; Technology</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Springer</publisher>
+        </details>
+        <identifiers>
+          <issn>2210-5433</issn>
+          <doi>10.1007/S13347-024-00703-5</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-07-14 16:29:30</sourceUpdateDate>
+        <contentUpdateDate>2025-07-25 11:43:35</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1293250</rcn>
+        <id>101069688_150044_PUBLIHORIZON</id>
+        <title>AI/ML-based services and applications for 6G-connected and autonomous vehicles</title>
+        <details>
+          <authors>Claudio Casetti, Carla Fabiana Chiasserini, Falko Dressler, Agon Memedi, Diego Gasco, Elad Michael Schiller</authors>
+          <journalNumber>255</journalNumber>
+          <journalTitle>Computer Networks</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Elsevier BV</publisher>
+        </details>
+        <identifiers>
+          <issn>1389-1286</issn>
+          <doi>10.1016/J.COMNET.2024.110854</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-05-08 08:14:26</sourceUpdateDate>
+        <contentUpdateDate>2025-05-12 13:46:21</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1335931</rcn>
+        <id>101069688_199477_PUBLIHORIZON</id>
+        <title>The Internet of Vehicles (IoV) — Security, Privacy, Trust, and Reputation Management for Connected Vehicles</title>
+        <details>
+          <authors>Drobot, Adam; Zhang, Tao; Buonarosa, Mary Lynn; Kargl, Frank; Schwinke, Steve; Sikdar, Biplab</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>IEEE Internet of Things Magazine</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <issn>2576-3199</issn>
+          <doi>10.1109/MIOT.2023.10145018</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-07-14 16:29:30</sourceUpdateDate>
+        <contentUpdateDate>2025-07-25 11:43:33</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1191475</rcn>
+        <id>101069688_24063_PUBLIHORIZON</id>
+        <title>WIP: A Trust Assessment Method for In-Vehicular Networks using Vehicle Risk Assessment</title>
+        <details>
+          <authors>Artur Hermann, Natasa Trkulja, Anderson Ramon Ferraz de Lucena, Alexander Kiening, Ana Petrovska, Frank Kargl</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>VehicleSec 2024</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>NDSS</publisher>
+        </details>
+        <identifiers>
+          <doi>10.14722/vehiclesec.2024.23016</doi>
+          <isbn>979-8-9894372-7-6</isbn>
+        </identifiers>
+        <sourceUpdateDate>2024-04-19 11:43:47</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 14:10:16</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1079316</rcn>
+        <id>101069688_2_DELIVHORIZON</id>
+        <title>Project Quality Plan</title>
+        <description>A set of project templates, project management, review and internal quality control processes, and Open Science practices. The second part of D1.2, the Risk Assessment Plan, shows how potential risks are assessed and mitigated.</description>
+        <sourceUpdateDate>2024-04-12 20:06:36</sourceUpdateDate>
+        <contentUpdateDate>2024-04-16 15:36:06</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable" represents="project">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>c60864e8613b4089a0695a9cad561a5d</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e50b0f577a&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1372735</rcn>
+        <id>101069688_241728_PUBLIHORIZON</id>
+        <title>Pluralism and the Design of Autonomous Vehicles</title>
+        <details>
+          <authors>Adam Henschke; Chirag Arora</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Philosophy and Technology</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Springer Nature</publisher>
+        </details>
+        <identifiers>
+          <issn>2210-5441</issn>
+          <doi>10.1007/S13347-024-00802-3</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-10-13 09:04:16</sourceUpdateDate>
+        <contentUpdateDate>2025-10-20 14:48:22</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1079322</rcn>
+        <id>101069688_9_DELIVHORIZON</id>
+        <title>Conceptual architecture of Customizable TEE and Attestation Models Specifications</title>
+        <description>Report on the progress of T4.1-3 on blueprinting the architecture of the customisable TEE Guard and all envisioned functionalities alongside the methodology for enforcing runtime behavioural attestation.</description>
+        <sourceUpdateDate>2024-04-12 20:06:36</sourceUpdateDate>
+        <contentUpdateDate>2024-04-16 15:36:06</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable" represents="project">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>3492513264aec546dac226b7c1f0e647</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e50b0f754f&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/O</code>
+              <title>Other</title>
+              <displayCode>/Other</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1293112</rcn>
+        <id>101069688_150027_PUBLIHORIZON</id>
+        <title>How To Bind A TPM’s Attestation Keys With Its Endorsement Key</title>
+        <details>
+          <authors>Chen, Liqun; El Kassem, Nada; Newton, Christopher J P</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>The Computer Journal</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>Oxford Academic</publisher>
+        </details>
+        <identifiers>
+          <issn>1460-2067</issn>
+          <doi>10.1093/COMJNL/BXAD037</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-05-08 08:14:26</sourceUpdateDate>
+        <contentUpdateDate>2025-05-12 14:16:58</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1293241</rcn>
+        <id>101069688_150045_PUBLIHORIZON</id>
+        <title>GenSUMO: GenAI-Creation of Critical Scenarios for Autonomous Vehicle Testing</title>
+        <details>
+          <authors>S. Angelini, D. Gasco, C.Casetti</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>IEEE CCNC 2025</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <sourceUpdateDate>2025-05-08 08:14:26</sourceUpdateDate>
+        <contentUpdateDate>2025-05-12 13:46:19</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1357057</rcn>
+        <id>101069688_222208_PUBLIHORIZON</id>
+        <title>A Real-time Implementation of an Edge-Assisted Collision Warning System for Urban Intersections</title>
+        <details>
+          <authors>Christian Vitale; Panagiotis Kardaras; Panayiotis Kolios; Carla Fabiana Chiasserini; Georgios Ellinas</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>2025 IEEE Vehicular Networking Conference (VNC)</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2025</publishedYear>
+          <publisher></publisher>
+        </details>
+        <identifiers>
+          <doi>10.1109/VNC64509.2025.11054200</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-09-06 01:23:00</sourceUpdateDate>
+        <contentUpdateDate>2025-09-08 12:27:33</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1293251</rcn>
+        <id>101069688_150043_PUBLIHORIZON</id>
+        <title>MS-VAN3T-CARLA: An Open-Source Co-Simulation Framework for Cooperative Perception Evaluation</title>
+        <details>
+          <authors>Risma Carletti, Carlos Mateo; Casetti, Claudio; Härri, Jérôme; Risso, Fulvio</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>2024 19th Wireless On-Demand Network Systems and Services Conference (WONS)</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <doi>10.23919/WONS60642.2024.10449533</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-05-08 08:14:26</sourceUpdateDate>
+        <contentUpdateDate>2025-05-12 13:46:22</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1079319</rcn>
+        <id>101069688_4_DELIVHORIZON</id>
+        <title>Operational Landscape, Requirements and Reference Architecture - Initial Version</title>
+        <description>Documentation of CONNET requirements (T2.1), CCAM services positioning (T2.2), first version of the overall Reference Architecture (T2.4), and first version of the ethical analysis (T2.3) on the measures of evidence to be considered during the CONNECT trust assessment &amp; the type of system properties (T2.5) that can be attested.</description>
+        <sourceUpdateDate>2024-04-12 20:06:36</sourceUpdateDate>
+        <contentUpdateDate>2024-04-16 15:36:06</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable" represents="project">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>f427bfafa2f7ae0301211b284fe54a58</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e50b0f6912&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1372729</rcn>
+        <id>101069688_241671_PUBLIHORIZON</id>
+        <title>Machine-Checked Proofs of Accountability: How to sElect Who is to Blame</title>
+        <details>
+          <authors>Dragan, Constantin Catalin; Dupressoir, François; Gjøsteen, Kristian; Haines, Thomas; Rønne, Peter; Solberg, Morten Rotvold</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Lecture Notes in Computer Science</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Springer</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1007/978-3-031-51479-1_24</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-10-13 09:04:16</sourceUpdateDate>
+        <contentUpdateDate>2025-10-20 14:48:22</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1335924</rcn>
+        <id>101069688_199478_PUBLIHORIZON</id>
+        <title>On Enhancing Intersection Applications With Misbehavior Detection and Mitigation</title>
+        <details>
+          <authors>Zhang, Jiahao; Liu, Ziyi; Jemaa, Ines; Bassi, Francesca; Nashashibi, Fawzi</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>2024 IEEE 100th Vehicular Technology Conference (VTC2024-Fall)</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1109/VTC2024-FALL63153.2024.10757840</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-07-14 16:29:30</sourceUpdateDate>
+        <contentUpdateDate>2025-07-25 11:43:31</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1058622</rcn>
+        <id>101069688_7_DELIVHORIZON</id>
+        <title>CONNECT Trust &amp; Risk Assessment and CAD Twinning Framework (Initial Version)</title>
+        <description>Early release of CONNECT Trust Assessment framework with its internal Risk Assessment engine and first release of the Digital Twin component for the real-time offloading of the trust calculations.</description>
+        <sourceUpdateDate>2024-04-12 20:06:36</sourceUpdateDate>
+        <contentUpdateDate>2024-03-26 12:10:07</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable" represents="project">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>9050e3c756a6eb029fc915803e3bc86f</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e50b0f577c&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/O</code>
+              <title>Other</title>
+              <displayCode>/Other</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1191464</rcn>
+        <id>101069688_24064_PUBLIHORIZON</id>
+        <title>Edge-assisted ML-aided Uncertainty-aware Vehicle Collision Avoidance at Urban Intersections</title>
+        <details>
+          <authors>Dinesh Cyril Selvaraj, Christian Vitale, Tania Panayiotou, Panayiotis Kolios, Carla Fabiana Chiasserini, Georgios Ellinas</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>IEEE TRANSACTIONS ON INTELLIGENT VEHICLES</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <issn>2379-8904</issn>
+          <doi>10.48550/arXiv.2404.14523</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-04-19 11:43:47</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 14:10:16</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1079310</rcn>
+        <id>101069688_10_DELIVHORIZON</id>
+        <title>Virtualization- and Edge-based Security and Trust Extensions (First Release)</title>
+        <description>Early release of the CONNECT Guard and TC-enabled DTs leveraging root-of-trust capabilities of the TEE-enabled connector for enabling the provision of implemented attestation enablers (T4.3) &amp; runtime monitors (T4.4), including details on the implementation of the Secret Sharing scheme (T4.2).</description>
+        <sourceUpdateDate>2024-04-12 20:06:36</sourceUpdateDate>
+        <contentUpdateDate>2024-04-16 15:36:04</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable" represents="project">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>baf2bc02698d8e5d2ebbd0e08b3f56d6</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e50b0f577d&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/O</code>
+              <title>Other</title>
+              <displayCode>/Other</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1191479</rcn>
+        <id>101069688_24058_PUBLIHORIZON</id>
+        <title>S-LDM: Server Local Dynamic Map for 5G-based Centralized Enhanced Collective Perception</title>
+        <details>
+          <authors>Carlos Mateo Risma Carletti, Francesco Raviglione, Claudio Casetti, Filippo Stoffella, Girma Mamuye Yilma, Filippo Visintainer</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Journal Vehicular Communication</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>Elsevier</publisher>
+        </details>
+        <identifiers>
+          <issn>2577-2465</issn>
+          <doi>10.2139/ssrn.4494030</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-04-19 11:43:47</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 14:10:17</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1079314</rcn>
+        <id>101069688_17_DELIVHORIZON</id>
+        <title>Plan for Dissemination and Exploitation incl. Communication</title>
+        <description>Documentation on T7.1 and on the planned dissemination, exploitation and communication activities.</description>
+        <sourceUpdateDate>2024-04-12 20:06:36</sourceUpdateDate>
+        <contentUpdateDate>2024-04-16 15:36:05</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable" represents="project">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>07f366a9335ca63b8c4df051e40f6002</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e50b0f720a&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1293243</rcn>
+        <id>101069688_150046_PUBLIHORIZON</id>
+        <title>ms-van3t: An integrated multi-stack framework for virtual validation of V2X communication and services</title>
+        <details>
+          <authors>F. Raviglione, C.M. Risma Carletti, M. Malinverno, C. Casetti, C.F. Chiasserini</authors>
+          <journalNumber>217</journalNumber>
+          <journalTitle>Computer Communications</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Elsevier BV</publisher>
+        </details>
+        <identifiers>
+          <issn>0140-3664</issn>
+          <doi>10.1016/J.COMCOM.2024.01.022</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-05-08 08:14:26</sourceUpdateDate>
+        <contentUpdateDate>2025-05-12 13:46:19</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1191476</rcn>
+        <id>101069688_24060_PUBLIHORIZON</id>
+        <title>In-vehicle Trust Assessment Framework</title>
+        <details>
+          <authors>Nataša Trkulja, Artur Hermann, Ana Petrovska, Alexander Kiening, Anderson Ramon Ferraz de Lucena, Frank Kargl</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>21th ESCAR Europe 2023</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>Ruhr-Universität Bochum</publisher>
+        </details>
+        <identifiers>
+          <doi>10.13154/294-10384</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-04-19 11:43:47</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 14:10:16</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1293240</rcn>
+        <id>101069688_150039_PUBLIHORIZON</id>
+        <title>Philosophy &amp; Technology</title>
+        <details>
+          <authors>Adam Henschke; Chirag Arora</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Philosophy &amp; Technology</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Springer</publisher>
+        </details>
+        <identifiers>
+          <issn>2210-5441</issn>
+          <doi>10.1007/S13347-024-00802-3</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-07-14 16:29:30</sourceUpdateDate>
+        <contentUpdateDate>2025-07-25 11:40:36</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1293246</rcn>
+        <id>101069688_150036_PUBLIHORIZON</id>
+        <title>OScar: An ETSI -Compliant C- ITS Stack for Field- Testing with Embedded Hardware Devices</title>
+        <details>
+          <authors>Marco Rapelli, Francesco Raviglione, Claudio Casetti</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>2024 22nd Mediterranean Communication and Computer Networking Conference (MedComNet)</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1109/MEDCOMNET62012.2024.10578207</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-05-08 08:14:26</sourceUpdateDate>
+        <contentUpdateDate>2025-05-12 13:46:21</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1191467</rcn>
+        <id>101069688_24069_PUBLIHORIZON</id>
+        <title>Sphinx-in-the-Head: Group Signatures from Symmetric Primitives</title>
+        <details>
+          <authors>Liqun Chen, Changyu Dong, Christopher J. P. Newton and Yalan Wang</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>ACM Transactions on Privacy and Security</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Association for Computing Machinery</publisher>
+        </details>
+        <identifiers>
+          <issn>2471-2566</issn>
+          <doi>10.1145/3638763</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-04-19 11:43:47</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 14:10:16</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>970266</rcn>
+        <id>101069688_4001_PUBLIHORIZON</id>
+        <title>Comparative Evaluation of PKI and DAA-based Architectures for V2X Communication Security</title>
+        <details>
+          <authors>Angelogianni  Anna; Krontiris Ioannis; Giannetsos Thanassis</authors>
+          <journalTitle>2023 IEEE Vehicular Networking Conference (VNC)</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <issn>2157-9865</issn>
+          <doi>10.1109/VNC57357.2023.10136316</doi>
+        </identifiers>
+        <sourceUpdateDate>2023-12-23 02:20:47</sourceUpdateDate>
+        <contentUpdateDate>2023-08-10 18:17:57</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1293253</rcn>
+        <id>101069688_150035_PUBLIHORIZON</id>
+        <title>ETSI-Compliant Protection of Connected Vulnerable Road Users: Simulation and Field Trial</title>
+        <details>
+          <authors>Alessandro Genovese, Marco Rapelli, Francesco Raviglione, Claudio Casetti</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>2024 IEEE Vehicular Networking Conference (VNC)</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1109/VNC61989.2024.10576014</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-05-08 08:14:26</sourceUpdateDate>
+        <contentUpdateDate>2025-05-12 13:46:22</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1293208</rcn>
+        <id>101069688_150031_PUBLIHORIZON</id>
+        <title>Maneuver Coordination Using V2I to Improve Traffic Efficiency at Intersections</title>
+        <details>
+          <authors>Lorenzo Farina, Marco Rapelli, Barbara Maví Masini, Claudio Casetti, Alessandro Bazzi</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>2024 IEEE Vehicular Networking Conference (VNC)</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1109/VNC61989.2024.10575944</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-05-08 08:14:26</sourceUpdateDate>
+        <contentUpdateDate>2025-05-12 13:46:11</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1371766</rcn>
+        <id>101069688_222212_PUBLIHORIZON</id>
+        <title>Quantification Methods for Trust in Cooperative Driving</title>
+        <details>
+          <authors>Artur Hermann, Nataša Trkulja, Patrick Wachter, Benjamin Erb, Frank Kargl</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>2025 IEEE Vehicular Networking Conference (VNC)</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2025</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1109/VNC64509.2025.11054209</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-10-13 09:04:16</sourceUpdateDate>
+        <contentUpdateDate>2025-10-20 14:48:17</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1079303</rcn>
+        <id>101069688_6_DELIVHORIZON</id>
+        <title>Architectural Specification of CONNECT Trust Assessment Framework, Operation and</title>
+        <description>Documentation of CONNECT Trust Assessment architecture &amp; methodology (T3.1-3).</description>
+        <sourceUpdateDate>2024-04-12 20:06:36</sourceUpdateDate>
+        <contentUpdateDate>2024-04-16 15:36:03</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable" represents="project">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>7bc564dea81066f2b65863d0aba3e33a</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e50b0f577b&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1191474</rcn>
+        <id>101069688_24049_PUBLIHORIZON</id>
+        <title>Securing Cooperative Intersection Management through Subjective Trust Networks</title>
+        <details>
+          <authors>Frank Kargl, Nataša Trkulja, Artur Hermann, Florian Sommer, Anderson Ramon Ferraz de Lucena, Alexander Kiening, Sergej Japs</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>2023 IEEE 97th Vehicular Technology Conference (VTC2023-Spring)</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <issn>2577-2465</issn>
+          <doi>10.1109/VTC2023-Spring57618.2023.10200789</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-04-19 11:43:47</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 14:10:16</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>970501</rcn>
+        <id>101069688_1161_PUBLIHORIZON</id>
+        <title>An ML-Aided Reinforcement Learning Approach for Challenging Vehicle Maneuvers</title>
+        <details>
+          <authors>Dinesh Cyril Selvaraj, Shailesh Hegde, Nicola Amati, Francesco Deflorio and Carla Fabiana Chiasserini</authors>
+          <journalTitle>IEEE TRANSACTIONS ON INTELLIGENT VEHICLES</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2023</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <issn>2379-8904</issn>
+          <doi>10.1109/TIV.2022.3224656</doi>
+        </identifiers>
+        <sourceUpdateDate>2023-12-23 02:20:47</sourceUpdateDate>
+        <contentUpdateDate>2023-08-21 18:14:36</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1371758</rcn>
+        <id>101069688_150037_PUBLIHORIZON</id>
+        <title>Personalized and Context-aware Route Planning for Edge-assisted Vehicles</title>
+        <details>
+          <authors>Dinesh Cyril Selvaraj, Falko Dressler, Carla Fabiana Chiasserini</authors>
+          <journalNumber></journalNumber>
+          <journalTitle></journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>arXiv</publisher>
+        </details>
+        <sourceUpdateDate>2025-10-13 09:04:16</sourceUpdateDate>
+        <contentUpdateDate>2025-10-20 14:48:17</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode>/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/47/307</code>
+        <title>software</title>
+        <displayCode>/natural sciences/computer and information sciences/software</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode>/Digital agenda</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode>/Clean air</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode>/Artificial intelligence</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode>/Climate action</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode>/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages>en</availableLanguages>
+        <code>/HORIZON-RIA</code>
+        <title>HORIZON  Research and Innovation Actions</title>
+        <description>HORIZON  Research and Innovation Actions</description>
+        <displayCode>/HORIZON  Research and Innovation Actions</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode>/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

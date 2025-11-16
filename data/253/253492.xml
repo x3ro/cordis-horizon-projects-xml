@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages>en</availableLanguages>
+  <rcn>253492</rcn>
+  <id>101106070</id>
+  <acronym>PaedsSeq</acronym>
+  <teaser>Paediatric cancer is the leading cause of death in children post infancy in the Western world. The integration of high-throughput molecular profiling is now urgently needed to guide clinical decision-making and treatment stratification. However, access to adequate tumour...</teaser>
+  <objective>Paediatric cancer is the leading cause of death in children post infancy in the Western world. The integration of high-throughput molecular profiling is now urgently needed to guide clinical decision-making and treatment stratification. However, access to adequate tumour material for genomic profiling remains highly challenging, particularly in children with refractory cancers, due to sampling difficulties and small sample volumes. The analysis of cell-free DNA (cfDNA) from liquid biopsies for the detection of circulating tumour DNA (ctDNA) could offer a powerful, minimally invasive alternative to tumour profiling, thus circumventing sampling limitations. However, current ctDNA approaches have limited specificity and sensitivity, and their clinical implementation is hindered by poor scalability and high costs associated with conventional sequencing technologies. In contrast, emerging nanopore sequencing platforms have faster turnaround times, are more affordable and significantly smaller than conventional sequencers, making them easy to deploy and implement in healthcare settings. However, their utility for cfDNA analyses remains largely unexplored. Here, using available data and liquid biopsy samples from ~500 children with cancer, I will develop computational tools for the detailed analysis of cfDNA nanopore sequencing data. By harnessing nanopores ability to sequence native DNA, thus allowing the detection of mutational DNA alterations and epigenetic modifications from the same assay, I will: (a) establish highly sensitive and specific approaches for the detection and molecular profiling of ctDNA, (b) develop methylation-based disease classifiers for accurate diagnosis and treatment stratification, and (c) evaluate the clinical utility of cfDNA nanopore sequencing to monitor treatment response and detect cancer relapse. The clinical implementation of these approaches could therefore significantly improve disease management and outcomes for children with cancer.</objective>
+  <title>Nanopore sequencing of cell-free DNA for the sensitive detection, molecular profiling and monitoring of childhood cancers</title>
+  <totalCost>0</totalCost>
+  <ecMaxContribution>220908.48</ecMaxContribution>
+  <startDate>2023-06-01</startDate>
+  <endDate>2025-05-31</endDate>
+  <ecSignatureDate>2023-04-03</ecSignatureDate>
+  <duration>24</duration>
+  <status>SIGNED</status>
+  <keywords>cancer genomics, liquid biopsies, cell-free DNA, paediatric cancer, nanopore sequencing, early detection, copy number aberrations, DNA methylation, disease classification</keywords>
+  <identifiers>
+    <grantDoi>10.3030/101106070</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>false</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2024-12-31 09:30:22</sourceUpdateDate>
+  <contentCreationDate>2023-07-11 16:09:34</contentCreationDate>
+  <contentUpdateDate>2023-07-11 16:09:25</contentUpdateDate>
+  <lastUpdateDate>2025-10-27 16:44:45</lastUpdateDate>
+  <relations>
+    <associations>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>55393</rcn>
+        <title>HORIZON-MSCA-2022-PF-01</title>
+        <identifier>HORIZON-MSCA-2022-PF-01</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>55393</rcn>
+        <title>HORIZON-MSCA-2022-PF-01</title>
+        <identifier>HORIZON-MSCA-2022-PF-01</identifier>
+      </call>
+      <organization netEcContribution="220908.48" totalCost="0" source="corda" order="1" ecContribution="220908.48" terminated="false" sme="false" type="coordinator">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1906282</rcn>
+        <id>999988230</id>
+        <legalName>EUROPEAN MOLECULAR BIOLOGY LABORATORY</legalName>
+        <shortName>EMBL</shortName>
+        <address>
+          <street>Meyerhofstrasse  1</street>
+          <city>Heidelberg</city>
+          <postalCode>69117</postalCode>
+          <country>DE</country>
+          <postBox>N/A</postBox>
+          <url>http://www.embl.org</url>
+          <geolocation>49.38466795,8.71059058213846</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/REC</code>
+              <title>Research Organisations</title>
+              <displayCode>/Research Organisations</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Heidelberg, Stadtkreis</name>
+              <rcn>221778053</rcn>
+              <nutsCode>DE125</nutsCode>
+              <parents>
+                <region>
+                  <name>Karlsruhe</name>
+                  <rcn>221778088</rcn>
+                  <nutsCode>DE12</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Baden-Württemberg</name>
+                      <rcn>221780520</rcn>
+                      <nutsCode>DE1</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Germany</name>
+                          <rcn>221940264</rcn>
+                          <nutsCode>DE</nutsCode>
+                          <euCode>DE</euCode>
+                          <isoCode>DE</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Germany</name>
+              <rcn>221940264</rcn>
+              <nutsCode>DE</nutsCode>
+              <euCode>DE</euCode>
+              <isoCode>DE</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="0" totalCost="0" source="corda" order="2" terminated="false" sme="false" type="associatedPartner">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1906227</rcn>
+        <id>999907526</id>
+        <vatNumber>GB729856187</vatNumber>
+        <legalName>THE UNIVERSITY OF BIRMINGHAM</legalName>
+        <shortName>UoB</shortName>
+        <address>
+          <street>Edgbaston</street>
+          <city>Birmingham</city>
+          <postalCode>B15 2TT</postalCode>
+          <country>UK</country>
+          <postBox>N/A</postBox>
+          <url>http://www.bham.ac.uk</url>
+          <geolocation>52.4609756,-1.9172134</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Birmingham</name>
+              <rcn>508625089</rcn>
+              <nutsCode>UKG31</nutsCode>
+              <parents>
+                <region>
+                  <name>West Midlands</name>
+                  <rcn>508625128</rcn>
+                  <nutsCode>UKG3</nutsCode>
+                  <parents>
+                    <region>
+                      <name>West Midlands (England)</name>
+                      <rcn>508627496</rcn>
+                      <nutsCode>UKG</nutsCode>
+                      <parents>
+                        <region>
+                          <name>United Kingdom</name>
+                          <rcn>508725800</rcn>
+                          <nutsCode>UK</nutsCode>
+                          <euCode>UK</euCode>
+                          <isoCode>GB</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>United Kingdom</name>
+              <rcn>508725800</rcn>
+              <nutsCode>UK</nutsCode>
+              <euCode>UK</euCode>
+              <isoCode>GB</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme type="relatedLegalBasis" source="corda" uniqueProgrammePart="true">
+        <availableLanguages>en</availableLanguages>
+        <rcn>705729</rcn>
+        <id>HORIZON.1.2</id>
+        <code>HORIZON.1.2</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.1.2</pga>
+        <title>Marie Skłodowska-Curie Actions (MSCA)</title>
+        <parent>
+          <programme>
+            <rcn>705726</rcn>
+            <code>HORIZON.1</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode>/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme type="relatedTopic" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>706018</rcn>
+        <id>HORIZON_HORIZON-MSCA-2022-PF-01-01</id>
+        <code>HORIZON-MSCA-2022-PF-01-01</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>MSCA Postdoctoral Fellowships 2022</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode>/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1321419</rcn>
+        <id>101106070_3_DELIVHORIZON</id>
+        <title>Communication, Dissemination and Exploitation Plan</title>
+        <description>The plan describes the planned measures to maximize the impact of the project, including the dissemination and exploitation measures that are planned, and the target group(s) addressed. Regarding communication measures and public engagement strategy, the aim is to inform and reach out to society and show the activities performed, and the use and the benefits the project will have for citizens.</description>
+        <sourceUpdateDate>2025-06-09 13:13:44</sourceUpdateDate>
+        <contentUpdateDate>2025-07-11 12:58:00</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>04fb6559434ca7718a39ed7e095419b9</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e51d168e55&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1335804</rcn>
+        <id>101106070_200651_PUBLIHORIZON</id>
+        <title>SAVANA: reliable analysis of somatic structural variants and copy number aberrations using long-read sequencing</title>
+        <details>
+          <authors>Hillary Elrick, Carolin M. Sauer, Jose Espejo Valle-Inclan, Katherine Trevers, Melanie Tanguy, Sonia Zumalave, Solange De Noon, Francesc Muyas, Rita Cascão, Angela Afonso, Alistair G. Rust, Fernanda Amary, Roberto Tirabosco, Adam Giess, Timothy Freeman, Alona Sosinsky, Katherine Piculell, David T. Miller, Claudia C. Faria, Greg Elgar, Adrienne M. Flanagan, Isidro Cortes-Ciriano</authors>
+          <journalNumber>22</journalNumber>
+          <journalTitle>Nature Methods</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2025</publishedYear>
+          <publisher>Springer Science and Business Media LLC</publisher>
+        </details>
+        <identifiers>
+          <issn>1548-7091</issn>
+          <doi>10.1038/S41592-025-02708-0</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-07-17 14:47:13</sourceUpdateDate>
+        <contentUpdateDate>2025-07-25 11:43:00</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1245999</rcn>
+        <id>101106070_116058_PUBLIHORIZON</id>
+        <title>Stratified Medicine Paediatrics: Cell free DNA and serial tumour sequencing identifies subtype specific cancer evolution and epigenetic states</title>
+        <details>
+          <authors>Sally L. George, Claire Lynn, Reda Stankunaite, Debbie Hughes, Carolin M. Sauer, Jane Chalker, Saira Waqar Ahmed, Minou Oostveen, Paula Z. Proszek, Lina Yuan, Ridwan Shaikh, Sabri Jamal, Ama Brew, Jennifer Tall, Tony Rogers, Steven C. Clifford, Josef Vormoor, Janet M. Shipley, Deborah A. Tweddle, Chris Jones, Courtney Willis, G.A. Amos Burke, Aditi Vedi, Lisa Howell, Robert Johnston, Helen Rees, Madeleine Adams, Angela Jesudason, Milind Ronghe, Martin Elliott, Emma Ross, Guy Makin, Quentin Campbell-Hewson, Richard G. Grundy, Jennifer Turnbull, Shaun Wilson, Victoria Lee, Juliet C. Gray, Sara Stoneham, Susanne A. Gatz, Lynley V. Marshall, Paola Angelini, John Anderson, George D. Cresswell, Trevor A. Graham, Bissan Al-Lazikani, Isidro Cortes-Ciriano, Pamela Kearns, J. Ciaran Hutchinson, Darren Hargrave, Thomas S. Jacques, Michael Hubank, Andrea Sottoriva, Louis Chesler</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Cancer Discovery</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>American Association for Cancer Research (AACR)</publisher>
+        </details>
+        <identifiers>
+          <issn>2159-8274</issn>
+          <doi>10.1158/2159-8290.CD-24-0916</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-01-20 23:12:08</sourceUpdateDate>
+        <contentUpdateDate>2025-01-28 09:40:26</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1335808</rcn>
+        <id>101106070_200650_PUBLIHORIZON</id>
+        <title>SAVANA: reliable analysis of somatic structural variants and copy number aberrations in clinical samples using long-read sequencing</title>
+        <details>
+          <authors>Hillary Elrick; Carolin M Sauer; Jose Espejo Valle-Inclan; Katherine Trevers; Melanie Tanguy; Sonia Zumalave; Solange De Noon; Francesc Muyas; Rita Cascao; Angela Afonso; Fernanda Amary; Roberto Tirabosco; Adam Giess; Timothy Freeman; Alona Sosinsky; Katherine Piculell; David T Miller; Claudia C Faria; Greg Elgar; Adrienne M Flanagan; Isidro Cortes-Ciriano</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Crossref</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>bioRxiv</publisher>
+        </details>
+        <identifiers>
+          <issn>2692-8205</issn>
+          <doi>10.21203/RS.3.RS-4870639/V1</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-07-17 14:47:13</sourceUpdateDate>
+        <contentUpdateDate>2025-07-25 11:43:00</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1366616</rcn>
+        <id>101106070_PSHORIZON</id>
+        <title>Periodic Reporting for period 1 - PaedsSeq (Nanopore sequencing of cell-free DNA for the sensitive detection, molecular profiling and monitoring of childhood cancers)</title>
+        <description>periodic</description>
+        <teaser>Paediatric cancer is the leading cause of death in children post infancy in the Western world. Solid tumours, including tumours of the central nervous system (CNS), neuroblastomas, and bone and soft tissue sarcomas, are amongst the poorest outcome cancers in children (5-year...</teaser>
+        <sourceUpdateDate>2025-10-20 17:42:54</sourceUpdateDate>
+        <contentUpdateDate>2025-10-27 16:44:42</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/pubsum</code>
+              <title>Report Summary</title>
+              <description>Result: Publishable summary (FP7 SESAM) and Summary for publication (H2020 SyGMa)</description>
+              <displayCode>/Report Summary</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1034208</rcn>
+        <id>101106070_1_DELIVHORIZON</id>
+        <title>Data Management Plan</title>
+        <description>The Data Management Plan describes the data management life cycle for all data sets that will be collected processed or generated by the action It is a document describing what data will be collected processed or generated and following what methodology and standards whether and how this data will be shared andor made open and how it will be curated and preserved</description>
+        <sourceUpdateDate>2024-01-14 18:04:10</sourceUpdateDate>
+        <contentUpdateDate>2024-01-17 16:54:03</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable" represents="project">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>c2a02e58d28b0109b5c3da5f1b2d2a32</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e506655e3b&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/DMP</code>
+              <title>Data Management Plan</title>
+              <displayCode>/Data Management Plan</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1245985</rcn>
+        <id>101106070_116057_PUBLIHORIZON</id>
+        <title>Ongoing chromothripsis underpins osteosarcoma genome complexity and clonal evolution</title>
+        <details>
+          <authors>Jose Espejo Valle-Inclan, Solange De Noon, Katherine Trevers, Hillary Elrick, Ianthe A.E.M. van Belzen, Sonia Zumalave, Carolin M. Sauer, Mélanie Tanguy, Thomas Butters, Francesc Muyas, Alistair G. Rust, Fernanda Amary, Roberto Tirabosco, Adam Giess, Alona Sosinsky, Greg Elgar, Adrienne M. Flanagan, Isidro Cortés-Ciriano</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Cell</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2025</publishedYear>
+          <publisher>Elsevier BV</publisher>
+        </details>
+        <identifiers>
+          <issn>0092-8674</issn>
+          <doi>10.1016/j.cell.2024.12.005</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-01-20 23:12:08</sourceUpdateDate>
+        <contentUpdateDate>2025-01-28 09:40:25</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode>/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/49/337/1015</code>
+        <title>DNA</title>
+        <displayCode>/natural sciences/biological sciences/genetics/DNA</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/21/39/225</code>
+        <title>oncology</title>
+        <displayCode>/medical and health sciences/clinical medicine/oncology</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="40">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode>/Digital agenda</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="40">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode>/Clean air</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="40">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode>/Artificial intelligence</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="40">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode>/Climate action</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode>/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages>en</availableLanguages>
+        <code>/HORIZON-TMA-MSCA-PF-EF</code>
+        <title>HORIZON TMA MSCA Postdoctoral Fellowships - European Fellowships</title>
+        <description>HORIZON TMA MSCA Postdoctoral Fellowships - European Fellowships</description>
+        <displayCode>/HORIZON TMA MSCA Postdoctoral Fellowships - European Fellowships</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode>/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>
