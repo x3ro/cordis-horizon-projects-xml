@@ -1,0 +1,1080 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages readOnly="true">en</availableLanguages>
+  <rcn>239793</rcn>
+  <id>101041208</id>
+  <acronym>FASTPROOF</acronym>
+  <teaser>A proof-system is a protocol that enables a powerful prover to convince a weaker verifier of the validity of a computational statement. Proof-systems have been central to the theory of computing since its inception. Some of the most important results, concepts and open...</teaser>
+  <objective>A proof-system is a protocol that enables a powerful prover to convince a weaker verifier of the validity of a computational statement. Proof-systems have been central to the theory of computing since its inception. Some of the most important results, concepts and open problems in this field revolve around notions of efficient proof-systems.
+
+In recent years, due to the surging need for large scale computation coupled with advances such as cloud computing and blockchains, these computational proof-systems, which originated in the theory literature, are now being implemented and deployed also in practice. However, their widespread deployment is impeded by key bottlenecks on the theory side. The goal of the FASTPROOF project is to identify, study and mainly to resolve these bottlenecks:
+
+1. Minimizing the amount of back and forth interaction between the prover and the verifier, aiming at proofs that are non-interactive. Non-interactive proofs offer game-changing advantages: in contrast to their interactive counterparts, such proofs can simply be posted online and shared between different clients.
+
+2. In current proof-systems the time that it takes for a prover to prove correctness of a computation is significantly longer than the time that it takes to simply perform the computation. The second major challenge is to reduce the complexity of proving correctness to be linear in the computation time. 
+
+3. Making the memory, or space complexity, needed to generate the proof be proportional to the space requirements of the computation, in contrast to most protocols in the literature in which the space required to prove correctness is proportional to the running time of the computation.
+ 
+The goal of the FASTPROOF project is to resolve these key challenges while relying on well-founded cryptographic assumptions. While the focus of this project is theoretical, we believe that it stands to have an important impact also on the future development of practical proof-systems.</objective>
+  <title>Fast Proofs for Verifying Computations</title>
+  <keywords>Proof-Systems, Interactive Proofs, Zero-knowledge</keywords>
+  <totalCost>1435000</totalCost>
+  <ecMaxContribution>1435000</ecMaxContribution>
+  <startDate>2022-04-01</startDate>
+  <endDate>2027-03-31</endDate>
+  <ecSignatureDate>2022-03-01</ecSignatureDate>
+  <duration>60</duration>
+  <status>SIGNED</status>
+  <identifiers>
+    <grantDoi>10.3030/101041208</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>false</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2022-06-23 23:26:49</sourceUpdateDate>
+  <contentCreationDate readOnly="true">2022-08-16 22:45:50</contentCreationDate>
+  <contentUpdateDate>2023-03-10 21:50:10</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-09-22 11:01:19</lastUpdateDate>
+  <relations>
+    <associations>
+      <article source="editorial" type="relatedArticle">
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <rcn>436875</rcn>
+        <id>436875-developing-efficient-proof-systems-for-verifying-the-correctness-of-computations</id>
+        <title>Developing Efficient Proof-Systems for Verifying the Correctness of Computations</title>
+        <contentUpdateDate>2022-11-07 17:10:40</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/projectDescription</code>
+              <title>Project description</title>
+              <description>Article: description of linked project written by editorial team</description>
+              <displayCode readOnly="true">/Project description</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/editorial</code>
+              <title>CORDIS Editorial</title>
+              <description>Written by CORDIS</description>
+              <displayCode readOnly="true">/CORDIS Editorial</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </article>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>55317</rcn>
+        <title>ERC-2021-STG</title>
+        <identifier>ERC-2021-STG</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>55317</rcn>
+        <title>ERC-2021-STG</title>
+        <identifier>ERC-2021-STG</identifier>
+      </call>
+      <organization source="corda" order="1" ecContribution="1435000" terminated="false" sme="false" netEcContribution="1435000" totalCost="1435000" type="coordinator">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1906564</rcn>
+        <id>999907720</id>
+        <vatNumber>IL557585585</vatNumber>
+        <legalName>TECHNION - ISRAEL INSTITUTE OF TECHNOLOGY</legalName>
+        <address>
+          <street>SENATE BUILDING TECHNION CITY</street>
+          <city>Haifa</city>
+          <postalCode>32000</postalCode>
+          <country>IL</country>
+          <postBox>000</postBox>
+          <url>http://www.technion.ac.il</url>
+          <geolocation>32.8191218,34.9983856</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode readOnly="true">/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Israel</name>
+              <rcn>307661352</rcn>
+              <nutsCode>IL</nutsCode>
+              <euCode>IL</euCode>
+              <isoCode>IL</isoCode>
+            </region>
+            <region type="relatedRegion">
+              <name>Israel</name>
+              <rcn>307661352</rcn>
+              <nutsCode>IL</nutsCode>
+              <euCode>IL</euCode>
+              <isoCode>IL</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme source="corda" type="relatedTopic">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>705885</rcn>
+        <id>HORIZON_ERC-2021-STG</id>
+        <code>ERC-2021-STG</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>ERC STARTING GRANTS</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode readOnly="true">/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme source="corda" uniqueProgrammePart="true" type="relatedLegalBasis">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>705727</rcn>
+        <id>HORIZON.1.1</id>
+        <code>HORIZON.1.1</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.1.1</pga>
+        <title>European Research Council (ERC)</title>
+        <parent>
+          <programme>
+            <rcn>705726</rcn>
+            <code>HORIZON.1</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode readOnly="true">/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1242799</rcn>
+        <id>101041208_111247_PUBLIHORIZON</id>
+        <title>Distribution-Free Proofs of Proximity</title>
+        <details>
+          <authors>Gur, Tom; Aaronson, Hugo; Rajgopal, Ninad; Rothblum, Ron</authors>
+          <journalNumber/>
+          <journalTitle/>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>CCC 2024</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arxiv.2308.08874</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-01-03 10:51:38</sourceUpdateDate>
+        <contentUpdateDate>2025-01-17 10:54:37</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1362906</rcn>
+        <id>101041208_227804_PUBLIHORIZON</id>
+        <title>Locally Testable Tree Codes</title>
+        <details>
+          <authors>Tamer Moud, Alon Rosen, Ron Rothblum</authors>
+          <journalNumber/>
+          <journalTitle>Proceedings of the 2025 Annual ACM-SIAM Symposium on Discrete Algorithms (SODA)</journalTitle>
+          <publishedPages/>
+          <publishedYear>2025</publishedYear>
+          <publisher>Society for Industrial and Applied Mathematics</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1137/1.9781611978322.189</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-09-19 14:28:24</sourceUpdateDate>
+        <contentUpdateDate>2025-09-22 11:01:15</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1116752</rcn>
+        <id>101041208_31854_PUBLIHORIZON</id>
+        <title>Combinatorially Homomorphic Encryption</title>
+        <details>
+          <authors>Yuval Ishai, Eyal Kushnir, and Ron D. Rothblum</authors>
+          <journalNumber>2023/1973</journalNumber>
+          <journalTitle>Cryptology ePrint Archive</journalTitle>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>Springer</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1007/978-3-031-48618-0_9</doi>
+          <isbn>978-3-031-48617-3</isbn>
+        </identifiers>
+        <sourceUpdateDate>2024-06-03 06:20:05</sourceUpdateDate>
+        <contentUpdateDate>2024-06-26 15:26:00</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1102944</rcn>
+        <id>101041208_31860_PUBLIHORIZON</id>
+        <title>Collision-Resistance from Multi-Collision-Resistance</title>
+        <details>
+          <authors>Ron D. Rothblum Prashant Nalini Vasudevan</authors>
+          <journalTitle>Journal of Cryptology</journalTitle>
+          <publishedPages/>
+          <publishedYear>2022</publishedYear>
+          <publisher>Springer</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1007/978-3-031-15982-4_17</doi>
+          <isbn>978-3-031-15981-7</isbn>
+        </identifiers>
+        <sourceUpdateDate>2024-06-03 06:20:05</sourceUpdateDate>
+        <contentUpdateDate>2024-07-02 15:35:37</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1116757</rcn>
+        <id>101041208_31858_PUBLIHORIZON</id>
+        <title>Efficient Interactive Proofs for Non-Deterministic Bounded Space</title>
+        <details>
+          <authors>Joshua Cook, Ron D. Rothblum</authors>
+          <journalTitle>Electronic colloquium on computational complexity</journalTitle>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>"Schloss Dagstuhl -- Leibniz-Zentrum f""ur Informatik"</publisher>
+        </details>
+        <identifiers>
+          <doi>10.4230/LIPIcs.APPROX/RANDOM.2023.47</doi>
+          <issn>1868-8969</issn>
+        </identifiers>
+        <sourceUpdateDate>2024-06-03 06:20:05</sourceUpdateDate>
+        <contentUpdateDate>2024-06-26 14:22:00</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1362898</rcn>
+        <id>101041208_227805_PUBLIHORIZON</id>
+        <title>Rate-1 Zero-Knowledge Proofs from One-Way Functions</title>
+        <details>
+          <authors>Noor Athamnah, Eden Florentz – Konopnicki, Ron D. Rothblum</authors>
+          <journalNumber/>
+          <journalTitle>Lecture Notes in Computer Science, Theory of Cryptography</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>ACM</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1007/978-3-031-78011-0_11</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-09-19 14:28:24</sourceUpdateDate>
+        <contentUpdateDate>2025-09-22 11:01:13</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1102942</rcn>
+        <id>101041208_31861_PUBLIHORIZON</id>
+        <title>Unstructured Hardness to Average-Case Randomness</title>
+        <details>
+          <authors>Lijie Chen, Ron D. Rothblum, Roei Tell</authors>
+          <journalTitle>Annual IEEE Symposium on Foundations of Computer Science</journalTitle>
+          <publishedPages/>
+          <publishedYear>2022</publishedYear>
+          <publisher>IEEE Computer Society</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1109/FOCS54457.2022.00048</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-06-03 06:20:05</sourceUpdateDate>
+        <contentUpdateDate>2024-07-02 15:34:00</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1362904</rcn>
+        <id>101041208_227800_PUBLIHORIZON</id>
+        <title>Fiat-Shamir in the Plain Model from Derandomization (Or: Do Efficient Algorithms Believe that NP = PSPACE?)</title>
+        <details>
+          <authors>Lijie Chen, Ron D. Rothblum, Roei Tell</authors>
+          <journalNumber/>
+          <journalTitle>Proceedings of the 57th Annual ACM Symposium on Theory of Computing</journalTitle>
+          <publishedPages/>
+          <publishedYear>2025</publishedYear>
+          <publisher>ACM</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1145/3717823.3718177</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-09-19 14:28:24</sourceUpdateDate>
+        <contentUpdateDate>2025-09-22 11:01:15</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1116753</rcn>
+        <id>101041208_31856_PUBLIHORIZON</id>
+        <title>Proving as fast as computing: succinct arguments with constant prover overhead</title>
+        <details>
+          <authors>Noga Ron-Zewi, Ron D. Rothblum</authors>
+          <journalNumber>2021/1673</journalNumber>
+          <journalTitle>Cryptology ePrint Archive</journalTitle>
+          <publishedPages/>
+          <publishedYear>2022</publishedYear>
+          <publisher>Association for Computing Machinery</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1145/3519935.3519956</doi>
+          <isbn>9781450392648</isbn>
+        </identifiers>
+        <sourceUpdateDate>2024-06-03 06:20:05</sourceUpdateDate>
+        <contentUpdateDate>2024-06-26 15:04:59</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1242798</rcn>
+        <id>101041208_111248_PUBLIHORIZON</id>
+        <title>Faithful Simulation of Randomized BFT Protocols on Block DAGs</title>
+        <details>
+          <authors>Attiya, Hagit; Enea, Constantin; Nassar, Shafik</authors>
+          <journalNumber/>
+          <journalTitle>34th International Conference on Concurrency Theory, {CONCUR} 2023,</journalTitle>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>Concur 2023</publisher>
+        </details>
+        <sourceUpdateDate>2025-01-03 10:51:38</sourceUpdateDate>
+        <contentUpdateDate>2025-01-17 10:54:37</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1102948</rcn>
+        <id>101041208_31859_PUBLIHORIZON</id>
+        <title>Delegation for Search Problems</title>
+        <details>
+          <authors>Justin Holmgren, Andrea Lincoln, Ron D. Rothblum</authors>
+          <journalTitle>49th International Colloquium on Automata, Languages, and Programming (ICALP 2022)</journalTitle>
+          <publishedPages/>
+          <publishedYear>2022</publishedYear>
+          <publisher>"Schloss Dagstuhl -- Leibniz-Zentrum f""ur Informatik"</publisher>
+        </details>
+        <identifiers>
+          <doi>10.4230/LIPIcs.ICALP.2022.73</doi>
+          <issn>1868-8969</issn>
+        </identifiers>
+        <sourceUpdateDate>2024-06-03 06:20:05</sourceUpdateDate>
+        <contentUpdateDate>2024-07-02 15:36:43</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1362894</rcn>
+        <id>101041208_227801_PUBLIHORIZON</id>
+        <title>Batch Proofs Are Statistically Hiding</title>
+        <details>
+          <authors>Nir Bitansky, Chethan Kamath, Omer Paneth, Ron D. Rothblum, Prashant Nalini Vasudevan</authors>
+          <journalNumber/>
+          <journalTitle>Proceedings of the 56th Annual ACM Symposium on Theory of Computing</journalTitle>
+          <publishedPages/>
+          <publishedYear>2025</publishedYear>
+          <publisher>ACM</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1145/3618260.3649775</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-09-19 14:28:24</sourceUpdateDate>
+        <contentUpdateDate>2025-09-22 11:01:13</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1362903</rcn>
+        <id>101041208_227798_PUBLIHORIZON</id>
+        <title>Doubly-Efficient Batch Verification in Statistical Zero-Knowledge</title>
+        <details>
+          <authors>Or Keret, Ron D. Rothblum, Prashant Nalini Vasudevan</authors>
+          <journalNumber/>
+          <journalTitle>Lecture Notes in Computer Science, Theory of Cryptography</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>ACM</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1007/978-3-031-78017-2_13</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-09-19 14:28:24</sourceUpdateDate>
+        <contentUpdateDate>2025-09-22 11:01:15</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1116754</rcn>
+        <id>101041208_31855_PUBLIHORIZON</id>
+        <title>Faster Sounder Succinct Arguments and s</title>
+        <details>
+          <authors>Justin Holmgren, Ron D. Rothblum</authors>
+          <journalTitle>Cryptology ePrint Archive</journalTitle>
+          <publishedPages/>
+          <publishedYear>2022</publishedYear>
+          <publisher>Springer</publisher>
+        </details>
+        <identifiers>
+          <isbn>978-3-031-15801-8</isbn>
+        </identifiers>
+        <sourceUpdateDate>2024-06-03 06:20:05</sourceUpdateDate>
+        <contentUpdateDate>2024-06-26 14:58:51</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1116756</rcn>
+        <id>101041208_31857_PUBLIHORIZON</id>
+        <title>Succinct Interactive Oracle Proofs: Applications and Limitations</title>
+        <details>
+          <authors>Shafik Nassar, Ron D. Rothblum</authors>
+          <journalNumber>2022/281</journalNumber>
+          <journalTitle>Cryptology Eprint Archive</journalTitle>
+          <publishedPages/>
+          <publishedYear>2022</publishedYear>
+          <publisher>Springer</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1007/978-3-031-15802-5_18</doi>
+          <isbn>978-3-031-15801-8</isbn>
+        </identifiers>
+        <sourceUpdateDate>2024-06-03 06:20:05</sourceUpdateDate>
+        <contentUpdateDate>2024-06-26 14:23:54</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1259443</rcn>
+        <id>101041208_PSHORIZON</id>
+        <title>Periodic Reporting for period 1 - FASTPROOF (Fast Proofs for Verifying Computations)</title>
+        <teaser>A proof-system is a protocol that enables a powerful prover to convince a weaker verifier of the validity of a computational statement. Proof-systems have been central to the theory of computing since its inception. Some of the most important results, concepts and open...</teaser>
+        <description>periodic</description>
+        <sourceUpdateDate>2025-03-03 18:32:38</sourceUpdateDate>
+        <contentUpdateDate>2025-03-03 18:32:38</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/pubsum</code>
+              <title>Report Summary</title>
+              <description>Result: Publishable summary (FP7 SESAM) and Summary for publication (H2020 SyGMa)</description>
+              <displayCode readOnly="true">/Report Summary</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>879890</rcn>
+        <id>101041208_1_DELIVHORIZON</id>
+        <title>Data Management Plan</title>
+        <description>Drafting of Data Management Plan</description>
+        <sourceUpdateDate>2022-10-12 23:30:36</sourceUpdateDate>
+        <contentUpdateDate>2022-10-17 18:46:01</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode readOnly="true">/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" represents="project" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>82c33d604fbc673d79a4b6ae45dadd4d</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5f0f52738&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1362896</rcn>
+        <id>101041208_227802_PUBLIHORIZON</id>
+        <title>Strong Batching for Non-interactive Statistical Zero-Knowledge</title>
+        <details>
+          <authors>Changrui Mu, Shafik Nassar, Ron D. Rothblum, Prashant Nalini Vasudevan</authors>
+          <journalNumber/>
+          <journalTitle>Lecture Notes in Computer Science, Advances in Cryptology – EUROCRYPT 2024</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>Springer</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1007/978-3-031-58751-1_9</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-09-19 14:28:24</sourceUpdateDate>
+        <contentUpdateDate>2025-09-22 11:01:13</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode readOnly="true">/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/47/295/917</code>
+        <title>cryptography</title>
+        <displayCode readOnly="true">/natural sciences/computer and information sciences/computer security/cryptography</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode readOnly="true">/Digital agenda</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode readOnly="true">/Clean air</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode readOnly="true">/Artificial intelligence</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode readOnly="true">/Climate action</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode readOnly="true">/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <code>/HORIZON-ERC</code>
+        <title>HORIZON ERC Grants</title>
+        <description>HORIZON ERC Grants</description>
+        <displayCode readOnly="true">/HORIZON ERC Grants</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode readOnly="true">/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

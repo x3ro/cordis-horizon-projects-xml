@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages readOnly="true">en</availableLanguages>
+  <rcn>241299</rcn>
+  <id>101059332</id>
+  <acronym>RRR-XAI</acronym>
+  <teaser>Deep Deep Learning (DL) is a form of machine learning (ML) that enables computers to learn from experience and understand the world in terms of a hierarchy of concepts. This hierarchy allows a DL model to learn complicated concepts by building them out of simpler ones. A graph...</teaser>
+  <objective>Deep Deep Learning (DL) is a form of machine learning (ML) that enables computers to learn from experience and understand the world in terms of a hierarchy of concepts. This hierarchy allows a DL model to learn complicated concepts by building them out of simpler ones. A graph of these hierarchies would be many layers deep, and thus its name. A Deep neural network (DNN) is based on an artificial neural network model, and its core strength is that there is no need for human assistance to formally specify all the knowledge that the model needs. This makes DNNs represent the state of the art in Artificial Intelligence (AI). Despite their top performance and ubiquity of applications (from Healthcare to autonomous cars), DNNs suffer serious shortcomings. First, DNNs are considered black box models, i.e., with complex and opaque algorithms, hard to interpret and diagnose. Second, they suffer from bias, and the testing protocols for automatic recognition are not fair, as they learn patterns in the data that are not correlated to the output; e.g. they may focus on areas outside the lung in X ray images to predict the presence of COVID-19. Although DNNs outperform many other methods, they often are not right for the right reasons (RRR). RRR-XAI tackles this mismatch and bridges this gap through a tight integration of DL and symbolic AI, with the principal objective of making DL explainable. To achieve this I will follow the rationale behind XAI under the RRR philosophy and perform analyses to understand two types of phenomena that cause trouble in DNNs. Second, I will use: 1) Domain knowledge expertise as supporting evidence to explain a particular model output; 2) Neural-Symbolic computation to communicate the explanation of such phenomena in natural language. I will study two practical use cases where supporting explanations of the model output are critical: a) COVID-19 prediction from chest X-Ray images, and b) Weapon detection in alarm systems and crowds from images.</objective>
+  <title>RRR-XAI: Right for the Right Reason eXplainable Artificial Intelligence</title>
+  <keywords>Explainable Artificial Intelligence, Responsible AI, Deep Learning, Knowledge Representation, Neural-Symbolic learning and reasoning, Big Data, Information Fusion, Computational Intelligence</keywords>
+  <totalCost>0</totalCost>
+  <ecMaxContribution>165312.96</ecMaxContribution>
+  <startDate>2022-11-01</startDate>
+  <endDate>2024-10-31</endDate>
+  <ecSignatureDate>2022-08-16</ecSignatureDate>
+  <duration>24</duration>
+  <status>TERMINATED</status>
+  <identifiers>
+    <grantDoi>10.3030/101059332</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>false</euroSciVoc>
+  </validation>
+  <terminationDate>2023-04-19 00:00:00</terminationDate>
+  <sourceUpdateDate>2022-08-21 01:15:06</sourceUpdateDate>
+  <contentCreationDate readOnly="true">2022-09-05 08:23:25</contentCreationDate>
+  <contentUpdateDate>2022-09-05 08:23:09</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-09-19 14:48:38</lastUpdateDate>
+  <relations>
+    <associations>
+      <article source="editorial" type="relatedArticle">
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <rcn>438206</rcn>
+        <id>438206-untangling-the-complexity-of-deep-learning</id>
+        <title>Untangling the complexity of deep learning</title>
+        <contentUpdateDate>2023-01-30 14:34:02</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/projectDescription</code>
+              <title>Project description</title>
+              <description>Article: description of linked project written by editorial team</description>
+              <displayCode readOnly="true">/Project description</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/editorial</code>
+              <title>CORDIS Editorial</title>
+              <description>Written by CORDIS</description>
+              <displayCode readOnly="true">/CORDIS Editorial</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </article>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>55376</rcn>
+        <title>HORIZON-MSCA-2021-PF-01</title>
+        <identifier>HORIZON-MSCA-2021-PF-01</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>55376</rcn>
+        <title>HORIZON-MSCA-2021-PF-01</title>
+        <identifier>HORIZON-MSCA-2021-PF-01</identifier>
+      </call>
+      <organization source="corda" order="2" terminated="false" totalCost="0" sme="false" netEcContribution="0" type="associatedPartner">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1906313</rcn>
+        <id>999898020</id>
+        <vatNumber>IT00273530527</vatNumber>
+        <legalName>UNIVERSITA DEGLI STUDI DI SIENA</legalName>
+        <shortName>UNISI</shortName>
+        <address>
+          <street>VIA BANCHI DI SOTTO 55</street>
+          <city>Siena</city>
+          <postalCode>53100</postalCode>
+          <country>IT</country>
+          <postBox>N/A</postBox>
+          <url>http://www.unisi.it</url>
+          <geolocation>43.3191389,11.3326947</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode readOnly="true">/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Siena</name>
+              <rcn>1464161</rcn>
+              <nutsCode>ITI19</nutsCode>
+              <parents>
+                <region>
+                  <name>Toscana</name>
+                  <rcn>1465009</rcn>
+                  <nutsCode>ITI1</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Centro (IT)</name>
+                      <rcn>1465008</rcn>
+                      <nutsCode>ITI</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Italy</name>
+                          <rcn>309758504</rcn>
+                          <nutsCode>IT</nutsCode>
+                          <euCode>IT</euCode>
+                          <isoCode>IT</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Italy</name>
+              <rcn>309758504</rcn>
+              <nutsCode>IT</nutsCode>
+              <euCode>IT</euCode>
+              <isoCode>IT</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization source="corda" order="1" ecContribution="165312.96" terminated="false" sme="false" netEcContribution="165312.96" totalCost="0" type="coordinator">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1907050</rcn>
+        <id>999882015</id>
+        <vatNumber>ESQ1818002F</vatNumber>
+        <legalName>UNIVERSIDAD DE GRANADA</legalName>
+        <shortName>UGR</shortName>
+        <address>
+          <street>CUESTA DEL HOSPICIO SN</street>
+          <city>GRANADA</city>
+          <postalCode>18071</postalCode>
+          <country>ES</country>
+          <postBox>N/A</postBox>
+          <url>http://www.ugr.es</url>
+          <geolocation>37.1830197,-3.6021919</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode readOnly="true">/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Granada</name>
+              <rcn>242245700</rcn>
+              <nutsCode>ES614</nutsCode>
+              <parents>
+                <region>
+                  <name>Andalucía</name>
+                  <rcn>242245736</rcn>
+                  <nutsCode>ES61</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Sur</name>
+                      <rcn>1465449</rcn>
+                      <nutsCode>ES6</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Spain</name>
+                          <rcn>242387496</rcn>
+                          <nutsCode>ES</nutsCode>
+                          <euCode>ES</euCode>
+                          <isoCode>ES</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Spain</name>
+              <rcn>242387496</rcn>
+              <nutsCode>ES</nutsCode>
+              <euCode>ES</euCode>
+              <isoCode>ES</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme source="corda" type="relatedTopic">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>706003</rcn>
+        <id>HORIZON_HORIZON-MSCA-2021-PF-01-01</id>
+        <code>HORIZON-MSCA-2021-PF-01-01</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>MSCA Postdoctoral Fellowships 2021</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode readOnly="true">/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme source="corda" uniqueProgrammePart="true" type="relatedLegalBasis">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>705729</rcn>
+        <id>HORIZON.1.2</id>
+        <code>HORIZON.1.2</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.1.2</pga>
+        <title>Marie Skłodowska-Curie Actions (MSCA)</title>
+        <parent>
+          <programme>
+            <rcn>705726</rcn>
+            <code>HORIZON.1</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode readOnly="true">/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>972014</rcn>
+        <id>101059332_5082_PUBLIHORIZON</id>
+        <title>Connecting the dots in trustworthy Artificial Intelligence: From AI principles, ethics, and key requirements to responsible AI systems and regulation</title>
+        <details>
+          <authors>Natalia Díaz-Rodríguez, Javier Del Ser, Mark Coeckelbergh, Marcos López de Prado, Enrique Herrera-Viedma, Francisco Herrera</authors>
+          <journalNumber>101896</journalNumber>
+          <journalTitle>Information Fusion</journalTitle>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>Elsevier</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1016/J.INFFUS.2023.101896</doi>
+          <issn>1566-2535</issn>
+        </identifiers>
+        <sourceUpdateDate>2025-04-15 01:27:45</sourceUpdateDate>
+        <contentUpdateDate>2025-06-23 16:47:46</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>972013</rcn>
+        <id>101059332_5081_PUBLIHORIZON</id>
+        <title>Gender and sex bias in COVID-19 epidemiological data through the lens of causality</title>
+        <details>
+          <authors>Natalia Díaz-Rodríguez, Rūta Binkytė, Wafae Bakkali, Sannidhi Bookseller, Paola Tubaro, Andrius Bacevičius, Sami Zhioua, Raja Chatila</authors>
+          <journalNumber>103276</journalNumber>
+          <journalTitle>Information Processing &amp; Management</journalTitle>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>Elsevier</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1016/J.IPM.2023.103276</doi>
+          <issn>0306-4573</issn>
+        </identifiers>
+        <sourceUpdateDate>2025-04-15 01:27:45</sourceUpdateDate>
+        <contentUpdateDate>2025-04-15 01:27:45</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>972018</rcn>
+        <id>101059332_5083_PUBLIHORIZON</id>
+        <title>Explainable Artificial Intelligence (XAI): What we know and what is left to attain Trustworthy Artificial Intelligence</title>
+        <details>
+          <authors>Sajid Ali, Tamer Abuhmed, Shaker El-Sappagh, Khan Muhammad, Jose M. Alonso-Moral, Roberto Confalonieri, Riccardo Guidotti, Javier Del Ser, Natalia Díaz-Rodríguez, Francisco Herrera</authors>
+          <journalNumber>101805</journalNumber>
+          <journalTitle>Information Fusion</journalTitle>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>Elsevier</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1016/J.INFFUS.2023.101805</doi>
+          <issn>1566-2535</issn>
+        </identifiers>
+        <sourceUpdateDate>2025-04-15 01:27:45</sourceUpdateDate>
+        <contentUpdateDate>2025-06-23 16:48:22</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1090094</rcn>
+        <id>101059332_PSHORIZON</id>
+        <title>Periodic Reporting for period 1 - RRR-XAI (RRR-XAI: Right for the Right Reason eXplainable Artificial Intelligence)</title>
+        <teaser>The overall purpose of RRR-XAI was making deep learning (DL) explainable under the right for the right reasons (RRR) philosophy, by creating explanations endorsed by the reasoning of a domain expert, using the X-NeSyL (eXplainable NeSy Learning) methodology.  To achieve this I...</teaser>
+        <description>periodic</description>
+        <sourceUpdateDate>2024-04-18 19:15:40</sourceUpdateDate>
+        <contentUpdateDate>2024-05-03 14:06:17</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/pubsum</code>
+              <title>Report Summary</title>
+              <description>Result: Publishable summary (FP7 SESAM) and Summary for publication (H2020 SyGMa)</description>
+              <displayCode readOnly="true">/Report Summary</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode readOnly="true">/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/25/75/461/1235/1731</code>
+        <title>autonomous vehicles</title>
+        <displayCode readOnly="true">/engineering and technology/mechanical engineering/vehicle engineering/automotive engineering/autonomous vehicles</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/21/33/121/44109686/8132740</code>
+        <title>coronaviruses</title>
+        <displayCode readOnly="true">/medical and health sciences/health sciences/infectious diseases/RNA viruses/coronaviruses</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/47/297/933/1589</code>
+        <title>deep learning</title>
+        <displayCode readOnly="true">/natural sciences/computer and information sciences/artificial intelligence/machine learning/deep learning</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/47/297/931</code>
+        <title>computational intelligence</title>
+        <displayCode readOnly="true">/natural sciences/computer and information sciences/artificial intelligence/computational intelligence</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/31/111/609</code>
+        <title>philosophy</title>
+        <displayCode readOnly="true">/humanities/philosophy, ethics and religion/philosophy</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode readOnly="true">/Digital agenda</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode readOnly="true">/Clean air</displayCode>
+      </category>
+      <category weight="100" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode readOnly="true">/Artificial intelligence</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode readOnly="true">/Climate action</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode readOnly="true">/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <code>/HORIZON-TMA-MSCA-PF-EF</code>
+        <title>HORIZON TMA MSCA Postdoctoral Fellowships - European Fellowships</title>
+        <description>HORIZON TMA MSCA Postdoctoral Fellowships - European Fellowships</description>
+        <displayCode readOnly="true">/HORIZON TMA MSCA Postdoctoral Fellowships - European Fellowships</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode readOnly="true">/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

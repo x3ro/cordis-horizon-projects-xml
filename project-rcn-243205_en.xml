@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages readOnly="true">en</availableLanguages>
+  <rcn>243205</rcn>
+  <id>101078482</id>
+  <acronym>CONJEXITY</acronym>
+  <teaser>Fine-grained complexity theory identifies a small set of conjectures under which a large number of hardness results hold. The fast-growing list of such conditional hardness results already spans many diverse areas of computer science. Improved algorithms for some of the most...</teaser>
+  <objective><![CDATA[Fine-grained complexity theory identifies a small set of conjectures under which a large number of hardness results hold. The fast-growing list of such conditional hardness results already spans many diverse areas of computer science. Improved algorithms for some of the most central problems in these domains are deemed impossible unless one of the core conjectures turns out to be false, terminating decades-long quests for faster algorithms. Much research is going into closing the remaining gaps, addressing more domains, and achieving beyond-worst-case results.
+
+But should these conjectures, that are the foundation of this entire theory, really be treated as laws of nature? In addition to three primary conjectures, the community has put forth about ten others. These ``secondary conjectures'' are often stronger variants of the primary conjectures, stating that the core problems remain hard despite introducing new assumptions on the input; they let us prove more hardness results but are also less extensively studied (and less likely to be true) compared to the original conjectures.
+
+Stepping away from current research that is hustling towards achieving tight bounds for all important problems under such conjectures, this project aims to investigate the conjectures themselves. Our main objective is to resolve the secondary conjectures; either by falsifying them or by establishing their equivalence to a primary conjecture. Either of these two outcomes would be satisfying: Refuting a conjecture must involve disruptive algorithmic techniques, impacting numerous other problems. Unifying a secondary conjecture with an original (primary) conjecture reinforces the validity of the conjecture and all its implications, solidifying the very foundations of Fine-Grained Complexity. We believe that there is a pressing need for such an investigation of this rapidly growing theory.]]></objective>
+  <title>Investigating the Conjectures of Fine-Grained Complexity</title>
+  <keywords>Fine-grained complexity, conditional lower bounds, reductions, graph algorithms</keywords>
+  <totalCost>1499250</totalCost>
+  <ecMaxContribution>1499250</ecMaxContribution>
+  <startDate>2022-12-01</startDate>
+  <endDate>2027-11-30</endDate>
+  <ecSignatureDate>2022-11-15</ecSignatureDate>
+  <duration>60</duration>
+  <status>SIGNED</status>
+  <identifiers>
+    <grantDoi>10.3030/101078482</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>false</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2025-01-03 10:47:16</sourceUpdateDate>
+  <contentCreationDate readOnly="true">2022-11-25 10:12:30</contentCreationDate>
+  <contentUpdateDate>2022-11-25 10:11:40</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-09-19 14:49:05</lastUpdateDate>
+  <relations>
+    <associations>
+      <article source="editorial" type="relatedArticle">
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <rcn>439659</rcn>
+        <id>439659-fine-grained-complexity-s-secondary-conjectures-upgrade-or-dismissal</id>
+        <title>Fine-grained complexity’s secondary conjectures: upgrade or dismissal</title>
+        <contentUpdateDate>2023-04-28 16:10:02</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/projectDescription</code>
+              <title>Project description</title>
+              <description>Article: description of linked project written by editorial team</description>
+              <displayCode readOnly="true">/Project description</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/editorial</code>
+              <title>CORDIS Editorial</title>
+              <description>Written by CORDIS</description>
+              <displayCode readOnly="true">/CORDIS Editorial</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </article>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>55684</rcn>
+        <title>ERC-2022-STG</title>
+        <identifier>ERC-2022-STG</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>55684</rcn>
+        <title>ERC-2022-STG</title>
+        <identifier>ERC-2022-STG</identifier>
+      </call>
+      <organization totalCost="1499250" netEcContribution="1499250" source="corda" order="1" ecContribution="1499250" terminated="false" sme="false" type="coordinator">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1906414</rcn>
+        <id>999979306</id>
+        <vatNumber>IL520016858</vatNumber>
+        <legalName>WEIZMANN INSTITUTE OF SCIENCE</legalName>
+        <shortName>WEIZMANN</shortName>
+        <address>
+          <street>HERZL STREET 234</street>
+          <city>Rehovot</city>
+          <postalCode>7610001</postalCode>
+          <country>IL</country>
+          <postBox>26</postBox>
+          <url>http://www.weizmann.ac.il</url>
+          <geolocation>31.8952532,34.8105616</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode readOnly="true">/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Israel</name>
+              <rcn>307661352</rcn>
+              <nutsCode>IL</nutsCode>
+              <euCode>IL</euCode>
+              <isoCode>IL</isoCode>
+            </region>
+            <region type="relatedRegion">
+              <name>Israel</name>
+              <rcn>307661352</rcn>
+              <nutsCode>IL</nutsCode>
+              <euCode>IL</euCode>
+              <isoCode>IL</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme source="corda" uniqueProgrammePart="true" type="relatedLegalBasis">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>705727</rcn>
+        <id>HORIZON.1.1</id>
+        <code>HORIZON.1.1</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.1.1</pga>
+        <title>European Research Council (ERC)</title>
+        <parent>
+          <programme>
+            <rcn>705726</rcn>
+            <code>HORIZON.1</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode readOnly="true">/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme source="corda" type="relatedTopic">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>706904</rcn>
+        <id>HORIZON_ERC-2022-STG</id>
+        <code>ERC-2022-STG</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>ERC STARTING GRANTS</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode readOnly="true">/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1256176</rcn>
+        <id>101078482_120680_PUBLIHORIZON</id>
+        <title>Worst-Case to Expander-Case Reductions</title>
+        <details>
+          <authors>Abboud and Wallheimer</authors>
+          <journalNumber/>
+          <journalTitle>ITCS 2023</journalTitle>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>LIPIcs</publisher>
+        </details>
+        <identifiers>
+          <doi>10.4230/LIPIcs.ITCS.2023.1</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-02-10 05:32:22</sourceUpdateDate>
+        <contentUpdateDate>2025-02-24 09:17:57</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1253742</rcn>
+        <id>101078482_122705_PUBLIHORIZON</id>
+        <title>Deterministic 3SUM-Hardness</title>
+        <details>
+          <authors>Fischer, Kaliciak, Polak</authors>
+          <journalNumber/>
+          <journalTitle>ITCS 2024</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>LIPIcs</publisher>
+        </details>
+        <identifiers>
+          <doi>10.4230/LIPIcs.ITCS.2024.49</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-02-10 05:32:22</sourceUpdateDate>
+        <contentUpdateDate>2025-02-17 13:20:09</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1256153</rcn>
+        <id>101078482_120671_PUBLIHORIZON</id>
+        <title>Worst-Case to Expander-Case Reductions: Derandomized and Generalized</title>
+        <details>
+          <authors>Abboud and Wallheimer</authors>
+          <journalNumber/>
+          <journalTitle>ESA 2024</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>LIPIcs</publisher>
+        </details>
+        <identifiers>
+          <doi>10.4230/LIPIcs.ESA.2024.4</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-02-10 05:32:22</sourceUpdateDate>
+        <contentUpdateDate>2025-02-24 09:17:56</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1256166</rcn>
+        <id>101078482_120681_PUBLIHORIZON</id>
+        <title>Stronger 3-SUM Lower Bounds for Approximate Distance Oracles via Additive Combinatorics</title>
+        <details>
+          <authors>Abboud, Bringmann, Fischer</authors>
+          <journalNumber/>
+          <journalTitle>STOC 2023</journalTitle>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>ACM</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1145/3564246.3585240</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-02-10 05:32:22</sourceUpdateDate>
+        <contentUpdateDate>2025-02-24 09:17:57</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1250365</rcn>
+        <id>101078482_120670_PUBLIHORIZON</id>
+        <title>Faster Combinatorial k-Clique Algorithms</title>
+        <details>
+          <authors>Amir Abboud, Nick Fischer, Yarin Shechter</authors>
+          <journalNumber/>
+          <journalTitle>Lecture Notes in Computer Science, LATIN 2024: Theoretical Informatics</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>Springer Nature Switzerland</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1007/978-3-031-55598-5_13</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-02-04 05:57:03</sourceUpdateDate>
+        <contentUpdateDate>2025-02-10 08:10:10</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/BOOK_CHAPTER</code>
+              <title>Book chapters</title>
+              <displayCode readOnly="true">/Book chapters</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1256156</rcn>
+        <id>101078482_120677_PUBLIHORIZON</id>
+        <title>All-Pairs Max-Flow is no Harder than Single-Pair Max-Flow: Gomory-Hu Trees in Almost-Linear Time</title>
+        <details>
+          <authors>Abboud, Li, Panigrahi, Saranurak</authors>
+          <journalNumber/>
+          <journalTitle>FOCS 2023</journalTitle>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1109/FOCS57990.2023.00137</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-02-10 05:32:22</sourceUpdateDate>
+        <contentUpdateDate>2025-02-24 09:17:56</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1256172</rcn>
+        <id>101078482_120679_PUBLIHORIZON</id>
+        <title>Listing 4-cycles</title>
+        <details>
+          <authors>Abboud, Khoury, Leibowitz, Safier</authors>
+          <journalNumber/>
+          <journalTitle>FSTTCS 2023</journalTitle>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>LIPIcs</publisher>
+        </details>
+        <identifiers>
+          <doi>10.4230/LIPIcs.FSTTCS.2023.25</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-02-10 05:32:22</sourceUpdateDate>
+        <contentUpdateDate>2025-02-24 09:17:57</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1256151</rcn>
+        <id>101078482_120676_PUBLIHORIZON</id>
+        <title>The Time Complexity of Fully Sparse Matrix Multiplication</title>
+        <details>
+          <authors>Abboud, Bringmann, Fischer, Kunnemann</authors>
+          <journalNumber/>
+          <journalTitle>SODA 2024</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>SIAM</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1137/1.9781611977912.167</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-02-10 05:32:22</sourceUpdateDate>
+        <contentUpdateDate>2025-02-24 09:17:56</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1256154</rcn>
+        <id>101078482_120675_PUBLIHORIZON</id>
+        <title>New Graph Decompositions and Combinatorial Boolean Matrix Multiplication Algorithms</title>
+        <details>
+          <authors>Abboud, Fischer, Kelly, Meka, Lovett</authors>
+          <journalNumber/>
+          <journalTitle>STOC 2024</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>ACM</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1145/3618260.3649696</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-02-10 05:32:22</sourceUpdateDate>
+        <contentUpdateDate>2025-02-24 09:17:56</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode readOnly="true">/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/29/89</code>
+        <title>law</title>
+        <displayCode readOnly="true">/social sciences/law</displayCode>
+      </category>
+      <category weight="100" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode readOnly="true">/Digital agenda</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode readOnly="true">/Clean air</displayCode>
+      </category>
+      <category weight="100" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode readOnly="true">/Artificial intelligence</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode readOnly="true">/Climate action</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode readOnly="true">/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <code>/HORIZON-ERC</code>
+        <title>HORIZON ERC Grants</title>
+        <description>HORIZON ERC Grants</description>
+        <displayCode readOnly="true">/HORIZON ERC Grants</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode readOnly="true">/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

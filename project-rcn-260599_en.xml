@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages readOnly="true">en</availableLanguages>
+  <rcn>260599</rcn>
+  <id>101150609</id>
+  <acronym>HiddenTipChains</acronym>
+  <teaser><![CDATA["Consider a scenario in a financial market where investors privately share important insider information within their social circles. Although financial authorities could monitor investors' transactions, it remains challenging to identify which investors have received and are...]]></teaser>
+  <objective><![CDATA["Consider a scenario in a financial market where investors privately share important insider information within their social circles. Although financial authorities could monitor investors' transactions, it remains challenging to identify which investors have received and are exploiting insider information. I term this scenario a hidden cascade problem, in which the true states of agents cannot be directly observed. This particular form of cascade modelling, involving the inference of agent states from indirect observations, has received limited attention in the existing literature.
+
+This proposal, ""HiddenTipChains"", introduces approaches based on Topological Data Analysis, Machine Learning, and probabilistic modeling to reveal hidden information transfer through investors social connections and to detect suspicious trading based on insider information. This supports European Commission goals for financial stability and investor protection. In a broader context, the methods will enable us to analyse hidden cascade models when direct observations of agents' true states are not directly observable. I expect that in future research, these approaches can find application in addressing hidden cascade challenges across various fields, such as epidemiology, climate science, and information security.
+
+The empirical part of the project is based on world-wide unique and exceptionally extensive datasets, providing us with full access to investors full market-wide trading history on all the securities they traded. Additionally, we have observable social connections among insider investors, allowing us to track how news tips about future events propagate within this network. The approached developed in this project will be verified with synthetic data with extensive Monte-Carlo experiments. The project contributes to the Computer Science literature by developing techniques for hidden cascade problems and within the Quantitative Finance domain for identifying market abuse.
+"]]></objective>
+  <title>Hidden Cascade Modelling for the Identification of Hidden Tip Chains in Stock Markets</title>
+  <keywords>Information cascades, insider information, machine learning, topological data analysis</keywords>
+  <totalCost>0</totalCost>
+  <ecMaxContribution>199694.4</ecMaxContribution>
+  <startDate>2024-07-01</startDate>
+  <endDate>2026-06-30</endDate>
+  <ecSignatureDate>2024-03-11</ecSignatureDate>
+  <duration>24</duration>
+  <status>SIGNED</status>
+  <identifiers>
+    <grantDoi>10.3030/101150609</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>false</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2024-12-31 09:30:22</sourceUpdateDate>
+  <contentCreationDate readOnly="true">2024-03-15 16:59:25</contentCreationDate>
+  <contentUpdateDate>2024-03-15 16:59:24</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-09-19 14:49:01</lastUpdateDate>
+  <relations>
+    <associations>
+      <article source="editorial" type="relatedArticle">
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <rcn>450089</rcn>
+        <id>450089-understanding-and-overcoming-hidden-cascade-scenarios</id>
+        <title>Understanding and overcoming hidden cascade scenarios</title>
+        <contentUpdateDate>2024-07-04 16:24:34</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="applicationDomain" type="isApplicableIn">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/society</code>
+              <title>Society</title>
+              <displayCode readOnly="true">/Society</displayCode>
+            </category>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/projectDescription</code>
+              <title>Project description</title>
+              <description>Article: description of linked project written by editorial team</description>
+              <displayCode readOnly="true">/Project description</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/editorial</code>
+              <title>CORDIS Editorial</title>
+              <description>Written by CORDIS</description>
+              <displayCode readOnly="true">/CORDIS Editorial</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </article>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>56065</rcn>
+        <title>HORIZON-MSCA-2023-PF-01</title>
+        <identifier>HORIZON-MSCA-2023-PF-01</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>56065</rcn>
+        <title>HORIZON-MSCA-2023-PF-01</title>
+        <identifier>HORIZON-MSCA-2023-PF-01</identifier>
+      </call>
+      <organization source="corda" order="2" terminated="false" sme="false" netEcContribution="0" totalCost="0" type="associatedPartner">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1905956</rcn>
+        <id>999997736</id>
+        <vatNumber>DK31119103</vatNumber>
+        <legalName>AARHUS UNIVERSITET</legalName>
+        <shortName>AU</shortName>
+        <address>
+          <street>NORDRE RINGGADE 1</street>
+          <city>Aarhus C</city>
+          <postalCode>8000</postalCode>
+          <country>DK</country>
+          <postBox>N/A</postBox>
+          <url>http://www.au.dk</url>
+          <geolocation>56.171028,10.199381</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode readOnly="true">/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Østjylland</name>
+              <rcn>223346946</rcn>
+              <nutsCode>DK042</nutsCode>
+              <parents>
+                <region>
+                  <name>Midtjylland</name>
+                  <rcn>223346984</rcn>
+                  <nutsCode>DK04</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Danmark</name>
+                      <rcn>223349288</rcn>
+                      <nutsCode>DK0</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Denmark</name>
+                          <rcn>223513128</rcn>
+                          <nutsCode>DK</nutsCode>
+                          <euCode>DK</euCode>
+                          <isoCode>DK</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Denmark</name>
+              <rcn>223513128</rcn>
+              <nutsCode>DK</nutsCode>
+              <euCode>DK</euCode>
+              <isoCode>DK</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization source="corda" order="1" ecContribution="199694.4" terminated="false" sme="false" netEcContribution="199694.4" totalCost="0" type="coordinator">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1955959</rcn>
+        <id>902999288</id>
+        <vatNumber>FI28445618</vatNumber>
+        <legalName>TAMPEREEN KORKEAKOULUSAATIO SR</legalName>
+        <shortName>TAMPERE UNIVERSITY</shortName>
+        <address>
+          <street>KALEVANTIE 4</street>
+          <city>TAMPERE</city>
+          <postalCode>33100</postalCode>
+          <country>FI</country>
+          <postBox>N/A</postBox>
+          <url>http://www.tuni.fi</url>
+          <geolocation>61.49412325,23.779206777676293</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode readOnly="true">/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <rcn>1471677</rcn>
+              <nutsCode>FI19B</nutsCode>
+            </region>
+            <region type="relatedRegion">
+              <name>Finland</name>
+              <rcn>256543272</rcn>
+              <nutsCode>FI</nutsCode>
+              <euCode>FI</euCode>
+              <isoCode>FI</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization source="corda" order="3" sme="false" netEcContribution="0" terminated="false" totalCost="0" type="associatedPartner">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1914460</rcn>
+        <id>992412045</id>
+        <legalName>INDIAN INSTITUTE OF TECHNOLOGY DELHI</legalName>
+        <shortName>IITD</shortName>
+        <address>
+          <street>HAUZ KHAS</street>
+          <city>New Delhi</city>
+          <postalCode>110 016</postalCode>
+          <country>IN</country>
+          <url>http://www.iitd.ac.in</url>
+          <geolocation>28.5274543,77.2119261</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode readOnly="true">/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>India</name>
+              <rcn>308185640</rcn>
+              <nutsCode>IN</nutsCode>
+              <euCode>IN</euCode>
+              <isoCode>IN</isoCode>
+            </region>
+            <region type="relatedRegion">
+              <name>India</name>
+              <rcn>308185640</rcn>
+              <nutsCode>IN</nutsCode>
+              <euCode>IN</euCode>
+              <isoCode>IN</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme source="corda" type="relatedTopic">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>707918</rcn>
+        <id>HORIZON_HORIZON-MSCA-2023-PF-01-01</id>
+        <code>HORIZON-MSCA-2023-PF-01-01</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>MSCA Postdoctoral Fellowships 2023</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode readOnly="true">/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme source="corda" uniqueProgrammePart="true" type="relatedLegalBasis">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>705729</rcn>
+        <id>HORIZON.1.2</id>
+        <code>HORIZON.1.2</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.1.2</pga>
+        <title>Marie Skłodowska-Curie Actions (MSCA)</title>
+        <parent>
+          <programme>
+            <rcn>705726</rcn>
+            <code>HORIZON.1</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode readOnly="true">/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1245617</rcn>
+        <id>101150609_1_DELIVHORIZON</id>
+        <title>Data Management Plan</title>
+        <description>The Data Management Plan describes the data management life cycle for all data sets that will be collected, processed or generated by the action. It is a document describing what data will be collected, processed or generated and following what methodology and standards, whether and how this data will be shared and/or made open, and how it will be curated and preserved.</description>
+        <sourceUpdateDate>2025-01-20 23:12:08</sourceUpdateDate>
+        <contentUpdateDate>2025-01-27 10:04:38</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/DMP</code>
+              <title>Data Management Plan</title>
+              <displayCode readOnly="true">/Data Management Plan</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>b5aca39bedd29d704701da07320c6832</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e516aa3a1f&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode readOnly="true">/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/31/113/613</code>
+        <title>history</title>
+        <displayCode readOnly="true">/humanities/history and archaeology/history</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/21/33/137/133</code>
+        <title>epidemiology</title>
+        <displayCode readOnly="true">/medical and health sciences/health sciences/public health/epidemiology</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/47/295/919</code>
+        <title>network security</title>
+        <displayCode readOnly="true">/natural sciences/computer and information sciences/computer security/network security</displayCode>
+      </category>
+      <category weight="100" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode readOnly="true">/Digital agenda</displayCode>
+      </category>
+      <category weight="40" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode readOnly="true">/Clean air</displayCode>
+      </category>
+      <category weight="100" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode readOnly="true">/Artificial intelligence</displayCode>
+      </category>
+      <category weight="40" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode readOnly="true">/Climate action</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode readOnly="true">/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <code>/HORIZON-TMA-MSCA-PF-EF</code>
+        <title>HORIZON TMA MSCA Postdoctoral Fellowships - European Fellowships</title>
+        <description>HORIZON TMA MSCA Postdoctoral Fellowships - European Fellowships</description>
+        <displayCode readOnly="true">/HORIZON TMA MSCA Postdoctoral Fellowships - European Fellowships</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode readOnly="true">/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

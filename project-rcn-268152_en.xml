@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages readOnly="true">en</availableLanguages>
+  <rcn>268152</rcn>
+  <id>101169716</id>
+  <acronym>SCALEBIO</acronym>
+  <teaser>Sequencing technologies have developed to be cheap and accurate, leading to major breakthroughs, such as the complete sequence of a human genome, the creation of nationwide population gene banks, or the discovery of novel viruses. As the amount of data produced grows...</teaser>
+  <objective>Sequencing technologies have developed to be cheap and accurate, leading to major breakthroughs, such as the complete sequence of a human genome, the creation of nationwide population gene banks, or the discovery of novel viruses. As the amount of data produced grows exponentially and their applications become more broad and complex, the community needs accurate computational methods that scale.
+
+At the core of many algorithmic methods for processing sequencing data is the basic primitive of finding a set of paths or walks in graphs of various nature. Under different formulations and objective functions, the resulting problems can be NP-hard (e.g. flow decompositions) or polynomial-time (e.g. path covers), which are impractical on large graphs. Thus, many practical tools prefer fast heuristics to exact algorithms. While these may be optimized for specific inputs, they may not be reliable or accurate in general, which is a highly relevant issue in e.g. medical and life-science research.
+
+This project will develop general methods to massively scale such exact graph algorithms. First, via novel graph structures usable in a preprocessing step: safety structures, e.g. sets of paths that can be quickly found to appear in all optimal solutions and thus simplify the problem; variation structures that limit the hardness of a problem only to graph areas rich in genetic variation. Second, via modern algorithmic techniques: parameterizing polynomial algorithms to run in time linear in the graph size and superlinear only in a small parameter; dynamic algorithms that, as the input grows, update solutions based only on the new data.
+
+We will apply these methods in two high-impact applications: long-read RNA transcript discovery, and indexing massive and rapidly growing genomic databases.
+
+This project paves the way for exact graph algorithms usable independently of the problem complexity or of the input size, applicable to real-world problems.</objective>
+  <title>Scalable Graph Algorithms for Bioinformatics using Structure, Parameterization and Dynamic Updates</title>
+  <totalCost>1999868</totalCost>
+  <ecMaxContribution>1999868</ecMaxContribution>
+  <startDate>2025-09-01</startDate>
+  <endDate>2030-08-31</endDate>
+  <ecSignatureDate>2024-12-12</ecSignatureDate>
+  <duration>60</duration>
+  <status>SIGNED</status>
+  <identifiers>
+    <grantDoi>10.3030/101169716</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>true</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2024-12-31 09:30:22</sourceUpdateDate>
+  <contentCreationDate readOnly="true">2024-12-19 16:38:10</contentCreationDate>
+  <contentUpdateDate>2024-12-19 16:38:06</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-09-19 14:49:04</lastUpdateDate>
+  <relations>
+    <associations>
+      <article source="editorial" type="relatedArticle">
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <rcn>454925</rcn>
+        <id>454925-improving-graph-algorithms-scalability-for-bioinformatics</id>
+        <title>Improving graph algorithms’ scalability for bioinformatics</title>
+        <contentUpdateDate>2025-03-20 10:16:02</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="applicationDomain" type="isApplicableIn">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/funda</code>
+              <title>Fundamental Research </title>
+              <displayCode readOnly="true">/Fundamental Research </displayCode>
+            </category>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/projectDescription</code>
+              <title>Project description</title>
+              <description>Article: description of linked project written by editorial team</description>
+              <displayCode readOnly="true">/Project description</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/editorial</code>
+              <title>CORDIS Editorial</title>
+              <description>Written by CORDIS</description>
+              <displayCode readOnly="true">/CORDIS Editorial</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </article>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>56533</rcn>
+        <title>ERC-2024-COG</title>
+        <identifier>ERC-2024-COG</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>56533</rcn>
+        <title>ERC-2024-COG</title>
+        <identifier>ERC-2024-COG</identifier>
+      </call>
+      <organization source="corda" order="1" ecContribution="1999868" terminated="false" sme="false" netEcContribution="1999868" totalCost="1999868" type="coordinator">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1905568</rcn>
+        <id>999994535</id>
+        <vatNumber>FI03134717</vatNumber>
+        <legalName>HELSINGIN YLIOPISTO</legalName>
+        <address>
+          <street>FABIANINKATU 33</street>
+          <city>HELSINGIN YLIOPISTO</city>
+          <postalCode>00014</postalCode>
+          <country>FI</country>
+          <postBox>N/A</postBox>
+          <url>http://www.helsinki.fi/university/</url>
+          <geolocation>60.1721612,24.947271</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode readOnly="true">/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Finland</name>
+              <rcn>256543272</rcn>
+              <nutsCode>FI</nutsCode>
+              <euCode>FI</euCode>
+              <isoCode>FI</isoCode>
+            </region>
+            <region type="relatedRegion">
+              <name>Finland</name>
+              <rcn>256543272</rcn>
+              <nutsCode>FI</nutsCode>
+              <euCode>FI</euCode>
+              <isoCode>FI</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme source="corda" uniqueProgrammePart="true" type="relatedLegalBasis">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>705727</rcn>
+        <id>HORIZON.1.1</id>
+        <code>HORIZON.1.1</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.1.1</pga>
+        <title>European Research Council (ERC)</title>
+        <parent>
+          <programme>
+            <rcn>705726</rcn>
+            <code>HORIZON.1</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode readOnly="true">/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme source="corda" type="relatedTopic">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>708619</rcn>
+        <id>HORIZON_ERC-2024-COG</id>
+        <code>ERC-2024-COG</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>ERC CONSOLIDATOR GRANTS</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode readOnly="true">/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode readOnly="true">/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/47/303</code>
+        <title>databases</title>
+        <displayCode readOnly="true">/natural sciences/computer and information sciences/databases</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/49/341/325</code>
+        <title>virology</title>
+        <displayCode readOnly="true">/natural sciences/biological sciences/microbiology/virology</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/49/337/1025</code>
+        <title>genomes</title>
+        <displayCode readOnly="true">/natural sciences/biological sciences/genetics/genomes</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/47/297/925</code>
+        <title>heuristic programming</title>
+        <displayCode readOnly="true">/natural sciences/computer and information sciences/artificial intelligence/heuristic programming</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/51/359/1063</code>
+        <title>discrete mathematics</title>
+        <displayCode readOnly="true">/natural sciences/mathematics/pure mathematics/discrete mathematics</displayCode>
+      </category>
+      <category weight="100" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode readOnly="true">/Digital agenda</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode readOnly="true">/Clean air</displayCode>
+      </category>
+      <category weight="100" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode readOnly="true">/Artificial intelligence</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode readOnly="true">/Climate action</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode readOnly="true">/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <code>/HORIZON-ERC</code>
+        <title>HORIZON ERC Grants</title>
+        <description>HORIZON ERC Grants</description>
+        <displayCode readOnly="true">/HORIZON ERC Grants</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode readOnly="true">/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

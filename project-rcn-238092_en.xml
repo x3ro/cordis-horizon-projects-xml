@@ -1,0 +1,928 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages readOnly="true">en</availableLanguages>
+  <rcn>238092</rcn>
+  <id>101039692</id>
+  <acronym>GENERALIZATION</acronym>
+  <teaser>Recent years have witnessed tremendous progress in the field of Machine Learning (ML). Learning algorithms are applied in an ever-increasing variety of contexts, ranging from engineering challenges such as self-driving cars all the way to societal contexts involving private...</teaser>
+  <objective>Recent years have witnessed tremendous progress in the field of Machine Learning (ML). Learning algorithms are applied in an ever-increasing variety of contexts, ranging from engineering challenges such as self-driving cars all the way to societal contexts involving private data. These developments pose important challenges (i) Many of the recent breakthroughs demonstrate phenomena that lack explanations, and sometimes even contradict conventional wisdom. One main reason for this is because classical ML theory adopts a worst-case perspective which is too pessimistic to explain practical ML: in reality data is rarely worst-case, and experiments indicate that often much less data is needed than predicted by traditional theory. (ii) The increase in ML applications that involve private and sensitive data highlights the need for algorithms that handle the data responsibly. While this need has been addressed by the field of Differential Privacy (DP), the cost of privacy remains poorly understood: How much more data does private learning require, compared to learning without privacy constraints? Inspired by these challenges, our guiding question is:  How much data is needed for learning? Towards answering this question we aim to develop a theory of generalization which complements the traditional theory and is better fit to model real-world learning tasks. We will base it on distribution-, data-, and algorithm-dependent perspectives. These complement the  distribution-free worst-case perspective of the classical theory, and are suitable for exploiting specific properties of a given learning task. We will use this theory to study various settings, including supervised, semisupervised, interactive, and private learning. We believe that this research will advance the field in terms of efficiency, reliability, and applicability. Furthermore, our work combines ideas from various areas in computer science and mathematics; we thus expect further impact outside our field.</objective>
+  <title>Modern Challenges in Learning Theory</title>
+  <keywords>Theoretical Computer Science, Statistical Learning Theory , Differentially Private Learning, Mathematical Models</keywords>
+  <totalCost>1433750</totalCost>
+  <ecMaxContribution>1433750</ecMaxContribution>
+  <startDate>2022-09-01</startDate>
+  <endDate>2027-08-31</endDate>
+  <ecSignatureDate>2022-03-04</ecSignatureDate>
+  <duration>60</duration>
+  <status>SIGNED</status>
+  <identifiers>
+    <grantDoi>10.3030/101039692</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>false</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2025-01-03 10:47:16</sourceUpdateDate>
+  <contentCreationDate readOnly="true">2022-07-22 19:28:53</contentCreationDate>
+  <contentUpdateDate>2022-07-22 19:28:50</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-09-19 14:48:42</lastUpdateDate>
+  <relations>
+    <associations>
+      <article source="editorial" type="relatedArticle">
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <rcn>434228</rcn>
+        <id>434228-advancing-generealisation-theory-in-machine-learning</id>
+        <title>Advancing generealisation theory in machine learning</title>
+        <contentUpdateDate>2022-10-04 10:22:01</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/projectDescription</code>
+              <title>Project description</title>
+              <description>Article: description of linked project written by editorial team</description>
+              <displayCode readOnly="true">/Project description</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/editorial</code>
+              <title>CORDIS Editorial</title>
+              <description>Written by CORDIS</description>
+              <displayCode readOnly="true">/CORDIS Editorial</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </article>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>55317</rcn>
+        <title>ERC-2021-STG</title>
+        <identifier>ERC-2021-STG</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>55317</rcn>
+        <title>ERC-2021-STG</title>
+        <identifier>ERC-2021-STG</identifier>
+      </call>
+      <organization ecContribution="1433750" terminated="false" sme="false" netEcContribution="1433750" totalCost="1433750" source="corda" order="1" type="coordinator">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1906564</rcn>
+        <id>999907720</id>
+        <vatNumber>IL557585585</vatNumber>
+        <legalName>TECHNION - ISRAEL INSTITUTE OF TECHNOLOGY</legalName>
+        <address>
+          <street>SENATE BUILDING TECHNION CITY</street>
+          <city>Haifa</city>
+          <postalCode>32000</postalCode>
+          <country>IL</country>
+          <postBox>000</postBox>
+          <url>http://www.technion.ac.il</url>
+          <geolocation>32.8191218,34.9983856</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode readOnly="true">/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Israel</name>
+              <rcn>307661352</rcn>
+              <nutsCode>IL</nutsCode>
+              <euCode>IL</euCode>
+              <isoCode>IL</isoCode>
+            </region>
+            <region type="relatedRegion">
+              <name>Israel</name>
+              <rcn>307661352</rcn>
+              <nutsCode>IL</nutsCode>
+              <euCode>IL</euCode>
+              <isoCode>IL</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme source="corda" type="relatedTopic">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>705885</rcn>
+        <id>HORIZON_ERC-2021-STG</id>
+        <code>ERC-2021-STG</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>ERC STARTING GRANTS</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode readOnly="true">/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme uniqueProgrammePart="true" source="corda" type="relatedLegalBasis">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>705727</rcn>
+        <id>HORIZON.1.1</id>
+        <code>HORIZON.1.1</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.1.1</pga>
+        <title>European Research Council (ERC)</title>
+        <parent>
+          <programme>
+            <rcn>705726</rcn>
+            <code>HORIZON.1</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode readOnly="true">/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1197689</rcn>
+        <id>101039692_85041_PUBLIHORIZON</id>
+        <title>Universal Rates for Multiclass Learning</title>
+        <details>
+          <authors>Hanneke, Steve; Moran, Shay; Zhang, Qian</authors>
+          <journalNumber/>
+          <journalTitle/>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>PMLR 195</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arxiv.2307.02066</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-11-12 17:22:19</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 15:22:23</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1307996</rcn>
+        <id>101039692_PSHORIZON</id>
+        <title>Periodic Reporting for period 1 - GENERALIZATION (Modern Challenges in Learning Theory)</title>
+        <teaser>In recent years, Machine Learning (ML) has made incredible strides. We now see learning algorithms applied across a wide range of fields, from engineering feats like self-driving cars to social applications that involve private data.However, these advancements come with...</teaser>
+        <description>periodic</description>
+        <sourceUpdateDate>2025-06-09 13:13:44</sourceUpdateDate>
+        <contentUpdateDate>2025-06-09 13:13:44</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/pubsum</code>
+              <title>Report Summary</title>
+              <description>Result: Publishable summary (FP7 SESAM) and Summary for publication (H2020 SyGMa)</description>
+              <displayCode readOnly="true">/Report Summary</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1197678</rcn>
+        <id>101039692_85038_PUBLIHORIZON</id>
+        <title>The Bayesian Stability Zoo</title>
+        <details>
+          <authors>Moran, Shay; Schefler, Hilla; Shafer, Jonathan</authors>
+          <journalNumber/>
+          <journalTitle/>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>NeurIPS 2023</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arxiv.2310.18428</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-11-12 17:22:19</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 15:22:22</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>913546</rcn>
+        <id>101039692_1_DELIVHORIZON</id>
+        <title>Data Management Plan</title>
+        <description>Drafting of Data Management Plan</description>
+        <sourceUpdateDate>2023-02-13 06:25:25</sourceUpdateDate>
+        <contentUpdateDate>2023-02-17 19:42:07</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode readOnly="true">/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" represents="project" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>9047c4e2c0ab07059fd0dfc613a8090e</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5f72e634a&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1197631</rcn>
+        <id>101039692_85058_PUBLIHORIZON</id>
+        <title>List Online Classification</title>
+        <details>
+          <authors>Moran, Shay; Sharon, Ohad; Tsubari, Iska; Yosebashvili, Sivan</authors>
+          <journalNumber/>
+          <journalTitle/>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>PMLR 195</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arxiv.2303.15383</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-11-12 17:22:19</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 15:22:17</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1197625</rcn>
+        <id>101039692_85060_PUBLIHORIZON</id>
+        <title>On Differentially Private Online Predictions</title>
+        <details>
+          <authors>Kaplan, Haim; Mansour, Yishay; Moran, Shay; Nissim, Kobbi; Stemmer, Uri</authors>
+          <journalNumber/>
+          <journalTitle/>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>Research Gate</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arxiv.2302.14099</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-11-12 17:22:19</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 15:22:17</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1197490</rcn>
+        <id>101039692_85045_PUBLIHORIZON</id>
+        <title>A Trichotomy for Transductive Online Learning</title>
+        <details>
+          <authors>Hanneke, Steve; Moran, Shay; Shafer, Jonathan</authors>
+          <journalNumber/>
+          <journalTitle/>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>NeurIPS</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arxiv.2311.06428</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-11-12 17:22:19</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 15:21:59</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1221417</rcn>
+        <id>101039692_85062_PUBLIHORIZON</id>
+        <title>Boosting Simple Learners</title>
+        <details>
+          <authors>Alon, Noga; Gonen, Alon; Hazan, Elad; Moran, Shay</authors>
+          <journalNumber/>
+          <journalTitle>TheoretiCS, Vol Volume 2 (2023)</journalTitle>
+          <publishedPages/>
+          <publishedYear>2021</publishedYear>
+          <publisher>Cornell</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1145/3406325.3451030</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-11-12 17:22:19</sourceUpdateDate>
+        <contentUpdateDate>2024-12-04 11:02:40</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1197495</rcn>
+        <id>101039692_85053_PUBLIHORIZON</id>
+        <title>Integral Probability Metrics PAC-Bayes Bounds</title>
+        <details>
+          <authors>Amit, Ron; Epstein, Baruch; Moran, Shay; Meir, Ron</authors>
+          <journalNumber/>
+          <journalTitle/>
+          <publishedPages/>
+          <publishedYear>2022</publishedYear>
+          <publisher>NeurIPS</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arxiv.2207.00614</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-11-12 17:22:19</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 15:21:59</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1197679</rcn>
+        <id>101039692_85043_PUBLIHORIZON</id>
+        <title>Replicability and stability in learning</title>
+        <details>
+          <authors>Chase, Zachary; Moran, Shay; Yehudayoff, Amir</authors>
+          <journalNumber/>
+          <journalTitle/>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arxiv.2304.03757</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-11-12 17:22:19</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 15:22:22</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1197676</rcn>
+        <id>101039692_85039_PUBLIHORIZON</id>
+        <title>Local Borsuk-Ulam, Stability, and Replicability</title>
+        <details>
+          <authors>Zachary Chase; Bogdan Chornomaz; Shay Moran; Amir Yehudayoff</authors>
+          <journalNumber/>
+          <journalTitle>Crossref</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>Association for Computing Machinery</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arxiv.2311.01599</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-11-12 17:22:19</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 15:22:22</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1197620</rcn>
+        <id>101039692_85057_PUBLIHORIZON</id>
+        <title>Differentially-Private Bayes Consistency</title>
+        <details>
+          <authors>Bousquet, Olivier; Kaplan, Haim; Kontorovich, Aryeh; Mansour, Yishay; Moran, Shay; Sadigurschi, Menachem; Stemmer, Uri</authors>
+          <journalNumber/>
+          <journalTitle/>
+          <publishedPages/>
+          <publishedYear>2022</publishedYear>
+          <publisher>Research Gate</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arxiv.2212.04216</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-11-12 17:22:19</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 15:22:16</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1197690</rcn>
+        <id>101039692_85036_PUBLIHORIZON</id>
+        <title>Multiclass Online Learning and Uniform Convergence</title>
+        <details>
+          <authors>Hanneke, Steve; Moran, Shay; Raman, Vinod; Subedi, Unique; Tewari, Ambuj</authors>
+          <journalNumber/>
+          <journalTitle/>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>PMLR 195</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arxiv.2303.17716</doi>
+          <issn>5682-5696</issn>
+        </identifiers>
+        <sourceUpdateDate>2024-11-12 17:22:19</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 15:22:23</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1197491</rcn>
+        <id>101039692_85048_PUBLIHORIZON</id>
+        <title>The unstable formula theorem revisited via algorithms</title>
+        <details>
+          <authors>Malliaris, Maryanthe; Moran, Shay</authors>
+          <journalNumber/>
+          <journalTitle/>
+          <publishedPages/>
+          <publishedYear>2022</publishedYear>
+          <publisher>Paper Whit Code</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arxiv.2212.05050</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-11-12 17:22:19</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 15:21:59</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1197674</rcn>
+        <id>101039692_85042_PUBLIHORIZON</id>
+        <title>Bandit-Feedback Online Multiclass Classification: Variants and Tradeoffs</title>
+        <details>
+          <authors>Filmus, Yuval; Hanneke, Steve; Mehalel, Idan; Moran, Shay</authors>
+          <journalNumber/>
+          <journalTitle/>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>NeurIPS</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arxiv.2402.07453</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-11-12 17:22:19</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 15:22:22</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode readOnly="true">/Project</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode readOnly="true">/Digital agenda</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode readOnly="true">/Clean air</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode readOnly="true">/Artificial intelligence</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode readOnly="true">/Climate action</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode readOnly="true">/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <code>/HORIZON-ERC</code>
+        <title>HORIZON ERC Grants</title>
+        <description>HORIZON ERC Grants</description>
+        <displayCode readOnly="true">/HORIZON ERC Grants</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode readOnly="true">/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

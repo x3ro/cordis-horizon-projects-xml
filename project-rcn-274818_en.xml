@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages readOnly="true">en</availableLanguages>
+  <rcn>274818</rcn>
+  <id>101199828</id>
+  <acronym>REVITALIZE</acronym>
+  <teaser>A lot of everyday infrastructure is powered by legacy software that depends on obsolete toolchains. Such software is literally “stuck in time” and cannot benefit from innovations in modern compilers such as automated security mitigations applied during compilation. There...</teaser>
+  <objective>A lot of everyday infrastructure is powered by legacy software that depends on obsolete toolchains. Such software is literally “stuck in time” and cannot benefit from innovations in modern compilers such as automated security mitigations applied during compilation. There are often other undesirable consequences, such as a need to use outdated hardware platforms.
+
+Unfortunately, modernizing such legacy software isn’t as simple as taking the ancient source code (if it exists) and re-running it through a modern compiler. In practice, hidden undocumented dependencies on specific compiler versions, build systems, and other parts of older toolchains often make it infeasible to recreate legacy programs from old source code. There is also the related problem of identifying which of several surviving source code versions might be the one that corresponds to an existing authoritative binary.
+
+In this project, the PI proposes an ambitious approach that bypasses these concerns by starting at the existing authoritative binary and then “lifting” it to the intermediate representation of the LLVM compiler infrastructure. Once “lifted,” the existing software can immediately take advantage of the vast array of software reliability tools and optimization passes that already exist for LLVM. Our project will take existing x86 legacy binaries and automatically translate them to security-hardened replacement binaries for the open standard RISC-V architecture, both with and without CHERI security extensions.
+
+In order to provide assurance that replacement software revitalized via “lifting” actually performs exactly as a functional drop-in replacement of the original (but lacking security vulnerabilities lurking in the original), the PI proposes a novel use of Multivariant Execution Environments (MVEEs) for the fine-grained differential testing of replacement against original. This can also be used to confirm that existing legacy source code truly matches the authoritative binary.</objective>
+  <title>Assured Recompilation of Vintage Executables via Binary Lifting: Unfreezing Legacy Software from Obsolete Toolchain Dependence</title>
+  <keywords>binary lifting from machine code to compiler IR, binary to binary cross-compilation between instruction set architectures, security retrofitting of binary executables, legacy code revitalization, differential testing of binaries directly against each other with deep state introspection using multivariant execution</keywords>
+  <totalCost>0</totalCost>
+  <ecMaxContribution>2500000</ecMaxContribution>
+  <startDate>2026-07-01</startDate>
+  <endDate>2031-06-30</endDate>
+  <ecSignatureDate>2025-07-31</ecSignatureDate>
+  <duration>60</duration>
+  <status>SIGNED</status>
+  <identifiers>
+    <grantDoi>10.3030/101199828</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>false</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2025-08-04 12:52:04</sourceUpdateDate>
+  <contentCreationDate readOnly="true">2025-08-04 18:04:28</contentCreationDate>
+  <contentUpdateDate>2025-08-04 12:52:04</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-09-19 14:48:59</lastUpdateDate>
+  <relations>
+    <associations>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>56633</rcn>
+        <title>ERC-2024-ADG</title>
+        <identifier>ERC-2024-ADG</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>56633</rcn>
+        <title>ERC-2024-ADG</title>
+        <identifier>ERC-2024-ADG</identifier>
+      </call>
+      <organization netEcContribution="2500000" totalCost="0" source="corda" order="1" ecContribution="2500000" terminated="false" sme="false" type="coordinator">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1905653</rcn>
+        <id>999986678</id>
+        <vatNumber>DE811231089</vatNumber>
+        <legalName>TECHNISCHE UNIVERSITAT BERLIN</legalName>
+        <shortName>TUB</shortName>
+        <address>
+          <street>STRASSE DES 17 JUNI 135</street>
+          <city>Berlin</city>
+          <postalCode>10623</postalCode>
+          <country>DE</country>
+          <postBox>000</postBox>
+          <url>http://www.tu-berlin.de</url>
+          <geolocation>52.5121106,13.32700630032475</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode readOnly="true">/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Berlin</name>
+              <rcn>221786112</rcn>
+              <nutsCode>DE300</nutsCode>
+              <parents>
+                <region>
+                  <name>Berlin</name>
+                  <rcn>221786152</rcn>
+                  <nutsCode>DE30</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Berlin</name>
+                      <rcn>221788712</rcn>
+                      <nutsCode>DE3</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Germany</name>
+                          <rcn>221940264</rcn>
+                          <nutsCode>DE</nutsCode>
+                          <euCode>DE</euCode>
+                          <isoCode>DE</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Germany</name>
+              <rcn>221940264</rcn>
+              <nutsCode>DE</nutsCode>
+              <euCode>DE</euCode>
+              <isoCode>DE</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme source="corda" uniqueProgrammePart="true" type="relatedLegalBasis">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>705727</rcn>
+        <id>HORIZON.1.1</id>
+        <code>HORIZON.1.1</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.1.1</pga>
+        <title>European Research Council (ERC)</title>
+        <parent>
+          <programme>
+            <rcn>705726</rcn>
+            <code>HORIZON.1</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode readOnly="true">/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme source="corda" type="relatedTopic">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>708726</rcn>
+        <id>HORIZON_ERC-2024-ADG</id>
+        <code>ERC-2024-ADG</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>ERC ADVANCED GRANTS</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode readOnly="true">/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode readOnly="true">/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/47/307</code>
+        <title>software</title>
+        <displayCode readOnly="true">/natural sciences/computer and information sciences/software</displayCode>
+      </category>
+      <category weight="100" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode readOnly="true">/Digital agenda</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode readOnly="true">/Clean air</displayCode>
+      </category>
+      <category weight="100" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode readOnly="true">/Artificial intelligence</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode readOnly="true">/Climate action</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode readOnly="true">/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <code>/HORIZON-ERC</code>
+        <title>HORIZON ERC Grants</title>
+        <description>HORIZON ERC Grants</description>
+        <displayCode readOnly="true">/HORIZON ERC Grants</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode readOnly="true">/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

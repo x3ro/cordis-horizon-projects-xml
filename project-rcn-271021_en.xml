@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages readOnly="true">en</availableLanguages>
+  <rcn>271021</rcn>
+  <id>101203810</id>
+  <acronym>Deep EpiDyn</acronym>
+  <teaser>Reconstructing epidemic dynamics in real-time has become crucial for effective disease management, as demonstrated by the COVID-19 pandemic. Traditional methods rely on epidemiological data (e.g., reported cases), which can be biased or incomplete due to variable testing...</teaser>
+  <objective>Reconstructing epidemic dynamics in real-time has become crucial for effective disease management, as demonstrated by the COVID-19 pandemic. Traditional methods rely on epidemiological data (e.g., reported cases), which can be biased or incomplete due to variable testing policies, particularly in resource-limited settings. Instead, phylodynamics has emerged as a valuable toolkit for using viral phylogenies to understand epidemic dynamics. However, conventional phylodynamic methods rely on mathematical formulas and approximations, which are not scalable to large datasets and are time-consuming, limiting their use primarily to retrospective rather than real-time analysis.
+
+This proposal aims to transform phylodynamics by integrating it with deep learning to bypass the cumbersome likelihood calculations, thereby facilitating real-time analysis directly from sequence data. I will develop innovative deep learning models to explore the relationships between phylogenetic trees and epidemiological parameters of viruses with epidemic potential, such as SARS-CoV-2, influenza, RSV, and mpox. These models are designed to rapidly and accurately estimate time-varying epidemiological metrics, including transmission heterogeneity, basic reproduction numbers, infectious and incubation periods.
+
+This initiative is set to revolutionize our ability to model and comprehend infectious diseases in real-time, elevating sequence data to a critical, standalone data source. It will incorporate cross-validation with epidemiological inference from reported cases and wastewater analyses, reducing reliance on any single data source and enhancing both public health responses and infectious disease surveillance. Furthermore, by simulating incremental data collection that reflects real outbreak conditions, this project will evaluate the sensitivity of real-time estimations and determine the necessary sampling proportions to accurately represent epidemic dynamics. This approach will yield crucial</objective>
+  <title>Real-time reconstruction of epidemic dynamics from viral phylogenies using Deep Learning</title>
+  <keywords>Phylodynamics, Deep Learning, Genomic Epidemiology, Infectious Disease, Phylogenetics</keywords>
+  <totalCost>0</totalCost>
+  <ecMaxContribution>276187.92</ecMaxContribution>
+  <startDate>2025-09-01</startDate>
+  <endDate>2027-08-31</endDate>
+  <ecSignatureDate>2025-04-15</ecSignatureDate>
+  <duration>24</duration>
+  <status>SIGNED</status>
+  <identifiers>
+    <grantDoi>10.3030/101203810</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>false</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2025-07-08 11:41:50</sourceUpdateDate>
+  <contentCreationDate readOnly="true">2025-04-22 16:24:19</contentCreationDate>
+  <contentUpdateDate>2025-08-18 13:49:29</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-09-19 14:48:51</lastUpdateDate>
+  <relations>
+    <associations>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>56116</rcn>
+        <title>HORIZON-MSCA-2024-PF-01</title>
+        <identifier>HORIZON-MSCA-2024-PF-01</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>56116</rcn>
+        <title>HORIZON-MSCA-2024-PF-01</title>
+        <identifier>HORIZON-MSCA-2024-PF-01</identifier>
+      </call>
+      <organization source="corda" order="1" ecContribution="276187.92" terminated="false" sme="false" netEcContribution="276187.92" totalCost="0" type="coordinator">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1905556</rcn>
+        <id>999984350</id>
+        <vatNumber>GB125506730</vatNumber>
+        <legalName>THE CHANCELLOR, MASTERS AND SCHOLARS OF THE UNIVERSITY OF OXFORD</legalName>
+        <shortName>UOXF</shortName>
+        <address>
+          <street>WELLINGTON SQUARE UNIVERSITY OFFICES</street>
+          <city>Oxford</city>
+          <postalCode>OX1 2JD</postalCode>
+          <country>UK</country>
+          <postBox>N/A</postBox>
+          <url>http://www.ox.ac.uk</url>
+          <geolocation>51.7520131,-1.2578498</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode readOnly="true">/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Oxfordshire</name>
+              <rcn>508637252</rcn>
+              <nutsCode>UKJ14</nutsCode>
+              <parents>
+                <region>
+                  <name>Berkshire, Buckinghamshire and Oxfordshire</name>
+                  <rcn>508637288</rcn>
+                  <nutsCode>UKJ1</nutsCode>
+                  <parents>
+                    <region>
+                      <name>South East (England)</name>
+                      <rcn>508639784</rcn>
+                      <nutsCode>UKJ</nutsCode>
+                      <parents>
+                        <region>
+                          <name>United Kingdom</name>
+                          <rcn>508725800</rcn>
+                          <nutsCode>UK</nutsCode>
+                          <euCode>UK</euCode>
+                          <isoCode>GB</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>United Kingdom</name>
+              <rcn>508725800</rcn>
+              <nutsCode>UK</nutsCode>
+              <euCode>UK</euCode>
+              <isoCode>GB</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme source="corda" uniqueProgrammePart="true" type="relatedLegalBasis">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>705729</rcn>
+        <id>HORIZON.1.2</id>
+        <code>HORIZON.1.2</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.1.2</pga>
+        <title>Marie Skłodowska-Curie Actions (MSCA)</title>
+        <parent>
+          <programme>
+            <rcn>705726</rcn>
+            <code>HORIZON.1</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode readOnly="true">/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme source="corda" type="relatedTopic">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>708088</rcn>
+        <id>HORIZON_HORIZON-MSCA-2024-PF-01-01</id>
+        <code>HORIZON-MSCA-2024-PF-01-01</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>MSCA Postdoctoral Fellowships 2024</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode readOnly="true">/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode readOnly="true">/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/49/353/1051</code>
+        <title>comparative morphology</title>
+        <displayCode readOnly="true">/natural sciences/biological sciences/biological morphology/comparative morphology</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/25/67/89023697/1183</code>
+        <title>wastewater treatment processes</title>
+        <displayCode readOnly="true">/engineering and technology/environmental engineering/water treatment processes/wastewater treatment processes</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/21/33/137/133/9678651</code>
+        <title>pandemics</title>
+        <displayCode readOnly="true">/medical and health sciences/health sciences/public health/epidemiology/pandemics</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/21/33/121/44109686/71336944</code>
+        <title>influenza</title>
+        <displayCode readOnly="true">/medical and health sciences/health sciences/infectious diseases/RNA viruses/influenza</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/21/33/121/44109686/8132740</code>
+        <title>coronaviruses</title>
+        <displayCode readOnly="true">/medical and health sciences/health sciences/infectious diseases/RNA viruses/coronaviruses</displayCode>
+      </category>
+      <category weight="40" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode readOnly="true">/Digital agenda</displayCode>
+      </category>
+      <category weight="40" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode readOnly="true">/Clean air</displayCode>
+      </category>
+      <category weight="40" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode readOnly="true">/Artificial intelligence</displayCode>
+      </category>
+      <category weight="40" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode readOnly="true">/Climate action</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode readOnly="true">/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <code>/HORIZON-TMA-MSCA-PF-EF</code>
+        <title>HORIZON TMA MSCA Postdoctoral Fellowships - European Fellowships</title>
+        <description>HORIZON TMA MSCA Postdoctoral Fellowships - European Fellowships</description>
+        <displayCode readOnly="true">/HORIZON TMA MSCA Postdoctoral Fellowships - European Fellowships</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode readOnly="true">/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

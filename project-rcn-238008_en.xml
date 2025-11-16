@@ -1,0 +1,1042 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages readOnly="true">en</availableLanguages>
+  <rcn>238008</rcn>
+  <id>101039208</id>
+  <acronym>REGINDEX</acronym>
+  <teaser>Sorting is, arguably, the most powerful algorithmic primitive when it comes to indexing data. At the same time, the regularities exposed by sorting are precisely those enabling data compression. In the last two decades, this fascinating duality has led researchers to the...</teaser>
+  <objective>Sorting is, arguably, the most powerful algorithmic primitive when it comes to indexing data. At the same time, the regularities exposed by sorting are precisely those enabling data compression. In the last two decades, this fascinating duality has led researchers to the design of compressed full-text indexes: data structures supporting fast pattern matching queries over compressed text. In this project, we revisit the natural generalization of the problem to labeled graphs from a new perspective: we interpret graphs as finite-state automata and investigate the connections existing between their propensity to be sorted and the languages they recognize. Our novel language-theoretic approach makes it possible to transfer fundamental results between the mature fields of regular language theory and compressed text indexing. We aim at building this bridge by developing a new theory of compressed regular language indexing. This project finds fundamental applications to the rapidly-expanding field of computational pan-genomics, where the goal is to study the variations contained in the genomes of an entire population. Recent research has shown that representing pan-genomes as labeled graphs is an important step to reduce reference allele bias. Existing approaches, however,  can index only restricted classes of graphs, thereby limiting the practical applicability of such powerful pan-genome representations. Our innovative approach, based on sorting regular languages by partial co-lexicographic orders, changes the perspective from which the compressed indexing problem has been tackled in the literature. This project aims at developing a theory of graph indexing and compression based on the natural interplay between sorting and regular language theory. We will apply these findings inside practical tools for aligning arbitrarily-long DNA fragments against compressed pan-genome graphs.</objective>
+  <title>Compressed Indexes for Regular Languages with Applications to Computational Pan-genomics</title>
+  <keywords>compressed data structures, pattern matching algorithms, graph data structures, data compression, regular languages. computational pan-genomics</keywords>
+  <totalCost>1385743</totalCost>
+  <ecMaxContribution>1385743</ecMaxContribution>
+  <startDate>2022-09-01</startDate>
+  <endDate>2027-08-31</endDate>
+  <ecSignatureDate>2022-01-28</ecSignatureDate>
+  <duration>60</duration>
+  <status>SIGNED</status>
+  <identifiers>
+    <grantDoi>10.3030/101039208</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>true</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2025-01-03 10:47:16</sourceUpdateDate>
+  <contentCreationDate readOnly="true">2022-07-01 11:44:15</contentCreationDate>
+  <contentUpdateDate>2022-07-01 11:44:13</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-09-19 14:48:38</lastUpdateDate>
+  <relations>
+    <associations>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>55317</rcn>
+        <title>ERC-2021-STG</title>
+        <identifier>ERC-2021-STG</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>55317</rcn>
+        <title>ERC-2021-STG</title>
+        <identifier>ERC-2021-STG</identifier>
+      </call>
+      <organization source="corda" order="1" ecContribution="1385743" terminated="false" sme="false" netEcContribution="1385743" totalCost="1385743" type="coordinator">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1909514</rcn>
+        <id>999897341</id>
+        <vatNumber>IT00816350276</vatNumber>
+        <legalName><![CDATA[UNIVERSITA CA' FOSCARI  VENEZIA]]></legalName>
+        <shortName>UNIVE</shortName>
+        <address>
+          <street>DORSODURO 3246</street>
+          <city>VENEZIA</city>
+          <postalCode>30123</postalCode>
+          <country>IT</country>
+          <url>http://www.unive.it</url>
+          <geolocation>45.43458557360008,12.325949378563257</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode readOnly="true">/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Venezia</name>
+              <rcn>1464130</rcn>
+              <nutsCode>ITH35</nutsCode>
+              <parents>
+                <region>
+                  <name>Veneto</name>
+                  <rcn>1465004</rcn>
+                  <nutsCode>ITH3</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Nord-Est</name>
+                      <rcn>1465001</rcn>
+                      <nutsCode>ITH</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Italy</name>
+                          <rcn>309758504</rcn>
+                          <nutsCode>IT</nutsCode>
+                          <euCode>IT</euCode>
+                          <isoCode>IT</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Italy</name>
+              <rcn>309758504</rcn>
+              <nutsCode>IT</nutsCode>
+              <euCode>IT</euCode>
+              <isoCode>IT</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme source="corda" type="relatedTopic">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>705885</rcn>
+        <id>HORIZON_ERC-2021-STG</id>
+        <code>ERC-2021-STG</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>ERC STARTING GRANTS</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode readOnly="true">/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme source="corda" uniqueProgrammePart="true" type="relatedLegalBasis">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>705727</rcn>
+        <id>HORIZON.1.1</id>
+        <code>HORIZON.1.1</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.1.1</pga>
+        <title>European Research Council (ERC)</title>
+        <parent>
+          <programme>
+            <rcn>705726</rcn>
+            <code>HORIZON.1</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode readOnly="true">/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1164046</rcn>
+        <id>101039208_50482_PUBLIHORIZON</id>
+        <title>Sorting Finite Automata via Partition Refinement</title>
+        <details>
+          <authors>Ruben Becker; Manuel Cáceres; Davide Cenzato; Sung-Hwan Kim; Bojana Kodric; Francisco Olivares; Nicola Prezza</authors>
+          <journalNumber/>
+          <journalTitle>Proceedings of the 31st Annual European Symposium on Algorithms (ESA 2023)</journalTitle>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>Schloss Dagstuhl – Leibniz-Zentrum für Informatik</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arXiv.2305.05129</doi>
+          <issn>1868-8969</issn>
+        </identifiers>
+        <sourceUpdateDate>2025-04-15 01:27:45</sourceUpdateDate>
+        <contentUpdateDate>2024-09-03 16:49:12</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1164045</rcn>
+        <id>101039208_50545_PUBLIHORIZON</id>
+        <title>Random Wheeler Automata</title>
+        <details>
+          <authors>Ruben Becker, Davide Cenzato, Sung-Hwan Kim, Bojana Kodric, Riccardo Maso, Nicola Prezza</authors>
+          <journalTitle>Proceedings of the 35th Annual Symposium on Combinatorial Pattern Matching (CPM 2024)</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>Schloss Dagstuhl – Leibniz-Zentrum für Informatik</publisher>
+        </details>
+        <identifiers>
+          <doi>10.4230/LIPIcs.CPM.2024.5</doi>
+          <issn>1868-8969</issn>
+        </identifiers>
+        <sourceUpdateDate>2024-08-26 03:59:49</sourceUpdateDate>
+        <contentUpdateDate>2024-09-03 16:48:28</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1164049</rcn>
+        <id>101039208_50544_PUBLIHORIZON</id>
+        <title>The Rational Construction of a Wheeler DFA</title>
+        <details>
+          <authors>Giovanni Manzini, Alberto Policriti, Nicola Prezza, Brian Riccardi</authors>
+          <journalNumber>35</journalNumber>
+          <journalTitle>Proceedings of the 35th Annual Symposium on Combinatorial Pattern Matching (CPM 2024)</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>Schloss Dagstuhl – Leibniz-Zentrum für Informatik</publisher>
+        </details>
+        <identifiers>
+          <doi>10.4230/LIPIcs.CPM.2024.23</doi>
+          <issn>1868-8969</issn>
+        </identifiers>
+        <sourceUpdateDate>2024-08-26 03:59:49</sourceUpdateDate>
+        <contentUpdateDate>2024-09-03 16:51:47</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1164040</rcn>
+        <id>101039208_50542_PUBLIHORIZON</id>
+        <title>Top-k Frequent Patterns in Streams and Parameterized-Space LZ Compression</title>
+        <details>
+          <authors>Patrick Dinklage, Johannes Fischer, Nicola Prezza</authors>
+          <journalTitle>Proceedings of the 22nd International Symposium on Experimental Algorithms (SEA 2024)</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>Schloss Dagstuhl – Leibniz-Zentrum für Informatik</publisher>
+        </details>
+        <identifiers>
+          <doi>10.4230/LIPIcs.SEA.2024.9</doi>
+          <issn>1868-8969</issn>
+        </identifiers>
+        <sourceUpdateDate>2024-08-26 03:59:49</sourceUpdateDate>
+        <contentUpdateDate>2024-09-03 16:40:43</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1175798</rcn>
+        <id>101039208_65647_PUBLIHORIZON</id>
+        <title>On Computing the Smallest Suffixient Set</title>
+        <details>
+          <authors>Davide Cenzato, Francisco Olivares, Nicola Prezza</authors>
+          <journalTitle>Proceedings of the 31st International Symposium on String Processing and Information Retrieval (SPIRE 2024)</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>Springer Cham</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arXiv.2407.18753</doi>
+          <issn>1611-3349</issn>
+        </identifiers>
+        <sourceUpdateDate>2024-09-30 04:51:42</sourceUpdateDate>
+        <contentUpdateDate>2024-10-17 13:44:00</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1164036</rcn>
+        <id>101039208_49841_PUBLIHORIZON</id>
+        <title>Faster Prefix-Sorting Algorithms for Deterministic Finite Automata</title>
+        <details>
+          <authors>Sung-Hwan Kim; Francisco Olivares; Nicola Prezza</authors>
+          <journalTitle>Proceedings of the 34th Annual Symposium on Combinatorial Pattern Matching (CPM 2023)</journalTitle>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>Schloss Dagstuhl – Leibniz-Zentrum für Informatik</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arxiv.2304.10962</doi>
+          <issn>1868-8969</issn>
+        </identifiers>
+        <sourceUpdateDate>2024-08-19 22:49:48</sourceUpdateDate>
+        <contentUpdateDate>2024-09-03 16:39:33</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1164043</rcn>
+        <id>101039208_50501_PUBLIHORIZON</id>
+        <title>A survey of BWT variants for string collections</title>
+        <details>
+          <authors>Cenzato, Davide; Lipták, Zsuzsanna</authors>
+          <journalNumber/>
+          <journalTitle>Bioinformatics</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>Oxford University Press</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arXiv.2202.13235</doi>
+          <issn>1367-4811</issn>
+        </identifiers>
+        <sourceUpdateDate>2025-04-15 01:27:45</sourceUpdateDate>
+        <contentUpdateDate>2024-09-03 16:46:58</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1164041</rcn>
+        <id>101039208_50502_PUBLIHORIZON</id>
+        <title>Toward a Definitive Compressibility Measure for Repetitive Sequences</title>
+        <details>
+          <authors>Tomasz Kociumaka; Gonzalo Navarro; Nicola Prezza</authors>
+          <journalTitle>IEEE Transactions on Information Theory</journalTitle>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arXiv.1910.02151</doi>
+          <issn>0018-9448</issn>
+        </identifiers>
+        <sourceUpdateDate>2024-08-26 03:59:49</sourceUpdateDate>
+        <contentUpdateDate>2024-09-03 16:45:45</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1164039</rcn>
+        <id>101039208_50521_PUBLIHORIZON</id>
+        <title>Computing matching statistics on Wheeler DFAs</title>
+        <details>
+          <authors>Conte A.; Cotumaccio N.; Gagie T.; Manzini G.; Prezza N.; Sciortino M.</authors>
+          <journalTitle>Proceedings of the 2023 Data Compression Conference (DCC)</journalTitle>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arXiv.2301.05338</doi>
+          <issn>2375-0359</issn>
+        </identifiers>
+        <sourceUpdateDate>2024-08-26 03:59:49</sourceUpdateDate>
+        <contentUpdateDate>2024-09-03 16:44:57</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1164038</rcn>
+        <id>101039208_49861_PUBLIHORIZON</id>
+        <title>Co-lexicographically Ordering Automata and Regular Languages -- Part I</title>
+        <details>
+          <authors>Nicola Cotumaccio; Giovanna D’Agostino; Alberto Policriti; Nicola Prezza</authors>
+          <journalNumber/>
+          <journalTitle>Journal of the ACM</journalTitle>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>Association for Computing Machinery, New York, NY, United States</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1145/3607471</doi>
+          <issn>0004-5411</issn>
+        </identifiers>
+        <sourceUpdateDate>2025-04-15 01:27:45</sourceUpdateDate>
+        <contentUpdateDate>2024-09-03 16:40:31</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>914323</rcn>
+        <id>101039208_1_DELIVHORIZON</id>
+        <title>Data management plan</title>
+        <description>Data management plan</description>
+        <sourceUpdateDate>2022-12-23 17:08:57</sourceUpdateDate>
+        <contentUpdateDate>2023-02-21 13:16:12</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode readOnly="true">/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" represents="project" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>c85c42edfbc40401035b110ced4e91b9</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5f58358da&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1164047</rcn>
+        <id>101039208_50483_PUBLIHORIZON</id>
+        <title>Optimal Wheeler Language Recognition</title>
+        <details>
+          <authors>Ruben Becker; Davide Cenzato; Sung-Hwan Kim; Bojana Kodric; Alberto Policriti; Nicola Prezza</authors>
+          <journalTitle>Proceedings of String Processing and Information Retrieval 2023 ISBN: 9783031439797</journalTitle>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>Springer</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arXiv.2306.04737</doi>
+          <issn>1611-3349</issn>
+        </identifiers>
+        <sourceUpdateDate>2024-08-26 03:59:49</sourceUpdateDate>
+        <contentUpdateDate>2024-09-03 16:49:57</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1164048</rcn>
+        <id>101039208_50553_PUBLIHORIZON</id>
+        <title>Sketching and Streaming for Dictionary Compression</title>
+        <details>
+          <authors>Ruben Becker, Matteo Canton, Davide Cenzato, Sung-Hwan Kim, Bojana Kodric, Nicola Prezza</authors>
+          <journalTitle>Proceedings of the Data Compression Conference 2024</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arXiv.2310.17980</doi>
+          <issn>2375-0359</issn>
+        </identifiers>
+        <sourceUpdateDate>2024-08-26 03:59:49</sourceUpdateDate>
+        <contentUpdateDate>2024-09-03 16:50:51</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1164042</rcn>
+        <id>101039208_50546_PUBLIHORIZON</id>
+        <title>Computing the LCP Array of a Labeled Graph</title>
+        <details>
+          <authors>Jarno N. Alanko, Davide Cenzato, Nicola Cotumaccio, Sung-Hwan Kim, Giovanni Manzini, Nicola Prezza</authors>
+          <journalTitle>Proceedings of the 35th Annual Symposium on Combinatorial Pattern Matching (CPM 2024)</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>Schloss Dagstuhl – Leibniz-Zentrum für Informatik</publisher>
+        </details>
+        <identifiers>
+          <doi>10.4230/LIPIcs.CPM.2024.1</doi>
+          <issn>1868-8969</issn>
+        </identifiers>
+        <sourceUpdateDate>2024-08-26 03:59:49</sourceUpdateDate>
+        <contentUpdateDate>2024-09-03 16:41:00</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1310375</rcn>
+        <id>101039208_PSHORIZON</id>
+        <title>Periodic Reporting for period 1 - REGINDEX (Compressed Indexes for Regular Languages with Applications to Computational Pan-genomics)</title>
+        <teaser>The REGINDEX project sets out to develop new efficient algorithms and data structures for searching large amounts of structured data. This objective is becoming a necessity in several scientific fields, such as bioinformatics, databases, and web engines, having in common the...</teaser>
+        <description>periodic</description>
+        <sourceUpdateDate>2025-06-09 13:16:14</sourceUpdateDate>
+        <contentUpdateDate>2025-06-09 13:16:14</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/pubsum</code>
+              <title>Report Summary</title>
+              <description>Result: Publishable summary (FP7 SESAM) and Summary for publication (H2020 SyGMa)</description>
+              <displayCode readOnly="true">/Report Summary</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webItem source="corda" type="relatedResultAttachment">
+              <language>en</language>
+              <availableLanguages readOnly="true">en,any</availableLanguages>
+              <uri>/docs/results/horizon/101039/101039208_PS/regindex-positivo.png</uri>
+              <alternativeText>REGINDEX logo</alternativeText>
+              <mimetype readOnly="true">image/png</mimetype>
+              <size readOnly="true">52224</size>
+            </webItem>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1175801</rcn>
+        <id>101039208_65646_PUBLIHORIZON</id>
+        <title>Indexing Finite-State Automata Using Forward-Stable Partitions</title>
+        <details>
+          <authors>Ruben Becker, Sung-Hwan Kim, Nicola Prezza, Carlo Tosoni</authors>
+          <journalTitle>Proceedings of the 31st International Symposium on String Processing and Information Retrieval (SPIRE 2024)</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>Springer Cham</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arXiv.2406.02763</doi>
+          <issn>1611-3349</issn>
+        </identifiers>
+        <sourceUpdateDate>2024-09-30 04:51:42</sourceUpdateDate>
+        <contentUpdateDate>2024-10-17 13:47:57</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1164044</rcn>
+        <id>101039208_50522_PUBLIHORIZON</id>
+        <title>Space-time Trade-offs for the LCP Array of Wheeler DFAs</title>
+        <details>
+          <authors>Nicola Cotumaccio, Travis Gagie, Dominik Köppl, Nicola Prezza</authors>
+          <journalNumber/>
+          <journalTitle>Proceedings of String Processing and Information Retrieval 2023</journalTitle>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>Springer</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arXiv.2306.05684</doi>
+          <issn>1611-3349</issn>
+        </identifiers>
+        <sourceUpdateDate>2025-04-15 01:27:45</sourceUpdateDate>
+        <contentUpdateDate>2024-09-03 16:47:54</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode readOnly="true">/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/49/337/1015</code>
+        <title>DNA</title>
+        <displayCode readOnly="true">/natural sciences/biological sciences/genetics/DNA</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/49/337/1025</code>
+        <title>genomes</title>
+        <displayCode readOnly="true">/natural sciences/biological sciences/genetics/genomes</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode readOnly="true">/Digital agenda</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode readOnly="true">/Clean air</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode readOnly="true">/Artificial intelligence</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode readOnly="true">/Climate action</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode readOnly="true">/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <code>/HORIZON-ERC</code>
+        <title>HORIZON ERC Grants</title>
+        <description>HORIZON ERC Grants</description>
+        <displayCode readOnly="true">/HORIZON ERC Grants</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode readOnly="true">/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

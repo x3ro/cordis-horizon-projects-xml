@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages readOnly="true">en</availableLanguages>
+  <rcn>255003</rcn>
+  <id>101108109</id>
+  <acronym>GROVER</acronym>
+  <teaser>Natural language processing (NLP) models trained on text without explicit supervision can have groundbreaking performance. They can develop a notion for grammar, syntax, and semantics, thus learning the structure of language. However, while we have defined the rules in our...</teaser>
+  <objective>Natural language processing (NLP) models trained on text without explicit supervision can have groundbreaking performance. They can develop a notion for grammar, syntax, and semantics, thus learning the structure of language. However, while we have defined the rules in our language, we only have a basic understanding about the linguistics of our genome. In this project, our goal is to treat the human genome as a sequence of text and apply NLP techniques to the human DNA sequence. We will establish byte-pair tokenization to generate vocabulary from DNA sequence and analyse attention maps to see the training relationship between different “words” of the genome. We will then further investigate the language rules using methods from corpus linguistics. Together, this will allow us to explore the grammar, syntax, and semantics hidden in the genome and capture their biological meaning. For proof-of-principle, we will perform several biological prediction tasks with fine-tuning models, built on top of the pretrained model. First, we will take popular genomic prediction tasks to benchmark our approach, such as predicting genome elements, transcription, and precision of genome editing. Then we will add some novel tasks around genome stability using available multi-omics data. Throughout the project we will implement techniques for interpretable learning and strategies to observe, control, and prevent ethnic biases in our approach.  
+We expect for large language models to change how we, as a scientific field, approach genomics data analysis and expect our models to establish how these techniques can be applied efficiently, transparently, and in a bias-reduced way.  In addition to general understanding of genome biology, we plan to use our models in the future for technical improvements of data analysis, population genetics, and for translational uses with applications in cancer genomics and genome editing.</objective>
+  <title>Natural Language Processing to learn the language of the Human Genome</title>
+  <keywords>Natural Language Processing, Genomics, Bioinformatics, Machine Learning, Genome Instability</keywords>
+  <totalCost>0</totalCost>
+  <ecMaxContribution>173847.36</ecMaxContribution>
+  <startDate>2024-09-01</startDate>
+  <endDate>2026-08-31</endDate>
+  <ecSignatureDate>2023-05-08</ecSignatureDate>
+  <duration>24</duration>
+  <status>SIGNED</status>
+  <identifiers>
+    <grantDoi>10.3030/101108109</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>false</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2024-12-31 09:30:22</sourceUpdateDate>
+  <contentCreationDate readOnly="true">2023-07-25 09:56:48</contentCreationDate>
+  <contentUpdateDate>2023-07-25 09:56:04</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-09-19 14:49:06</lastUpdateDate>
+  <relations>
+    <associations>
+      <article source="editorial" type="relatedArticle">
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <rcn>446611</rcn>
+        <id>446611-natural-language-processing-to-read-the-human-genome</id>
+        <title>Natural language processing to read the human genome</title>
+        <contentUpdateDate>2024-02-15 17:44:00</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/projectDescription</code>
+              <title>Project description</title>
+              <description>Article: description of linked project written by editorial team</description>
+              <displayCode readOnly="true">/Project description</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/editorial</code>
+              <title>CORDIS Editorial</title>
+              <description>Written by CORDIS</description>
+              <displayCode readOnly="true">/CORDIS Editorial</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </article>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>55393</rcn>
+        <title>HORIZON-MSCA-2022-PF-01</title>
+        <identifier>HORIZON-MSCA-2022-PF-01</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>55393</rcn>
+        <title>HORIZON-MSCA-2022-PF-01</title>
+        <identifier>HORIZON-MSCA-2022-PF-01</identifier>
+      </call>
+      <organization terminated="false" netEcContribution="173847.36" totalCost="0" sme="false" source="corda" order="1" ecContribution="173847.36" type="coordinator">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1905682</rcn>
+        <id>999897729</id>
+        <vatNumber>DE188369991</vatNumber>
+        <legalName>TECHNISCHE UNIVERSITAET DRESDEN</legalName>
+        <shortName>TUD</shortName>
+        <address>
+          <street>HELMHOLTZSTRASSE 10</street>
+          <city>DRESDEN</city>
+          <postalCode>01069</postalCode>
+          <country>DE</country>
+          <postBox>N/A</postBox>
+          <url>http://tu-dresden.de</url>
+          <geolocation>51.0290859,13.7244364</geolocation>
+        </address>
+        <departmentName>European Project Center</departmentName>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode readOnly="true">/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Dresden, Kreisfreie Stadt</name>
+              <rcn>221827201</rcn>
+              <nutsCode>DED21</nutsCode>
+              <parents>
+                <region>
+                  <name>Dresden</name>
+                  <rcn>221827240</rcn>
+                  <nutsCode>DED2</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Sachsen</name>
+                      <rcn>221829672</rcn>
+                      <nutsCode>DED</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Germany</name>
+                          <rcn>221940264</rcn>
+                          <nutsCode>DE</nutsCode>
+                          <euCode>DE</euCode>
+                          <isoCode>DE</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Germany</name>
+              <rcn>221940264</rcn>
+              <nutsCode>DE</nutsCode>
+              <euCode>DE</euCode>
+              <isoCode>DE</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme uniqueProgrammePart="true" source="corda" type="relatedLegalBasis">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>705729</rcn>
+        <id>HORIZON.1.2</id>
+        <code>HORIZON.1.2</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.1.2</pga>
+        <title>Marie Skłodowska-Curie Actions (MSCA)</title>
+        <parent>
+          <programme>
+            <rcn>705726</rcn>
+            <code>HORIZON.1</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode readOnly="true">/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme source="corda" type="relatedTopic">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>706018</rcn>
+        <id>HORIZON_HORIZON-MSCA-2022-PF-01-01</id>
+        <code>HORIZON-MSCA-2022-PF-01-01</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>MSCA Postdoctoral Fellowships 2022</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode readOnly="true">/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1261660</rcn>
+        <id>101108109_1_DELIVHORIZON</id>
+        <title>Data Management Plan</title>
+        <description>The Data Management Plan describes the data management life cycle for all data sets that will be collected, processed or generated by the action. It is a document describing what data will be collected, processed or generated and following what methodology and standards, whether and how this data will be shared and/or made open, and how it will be curated and preserved.</description>
+        <sourceUpdateDate>2025-03-03 18:32:38</sourceUpdateDate>
+        <contentUpdateDate>2025-03-10 11:00:30</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/DMP</code>
+              <title>Data Management Plan</title>
+              <displayCode readOnly="true">/Data Management Plan</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>2bf625b0c67d44a2ea33268c98332fb5</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e51938f9ff&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode readOnly="true">/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/31/107/587</code>
+        <title>linguistics</title>
+        <displayCode readOnly="true">/humanities/languages and literature/linguistics</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/49/337/1015</code>
+        <title>DNA</title>
+        <displayCode readOnly="true">/natural sciences/biological sciences/genetics/DNA</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/21/39/225</code>
+        <title>oncology</title>
+        <displayCode readOnly="true">/medical and health sciences/clinical medicine/oncology</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/49/337/1025</code>
+        <title>genomes</title>
+        <displayCode readOnly="true">/natural sciences/biological sciences/genetics/genomes</displayCode>
+      </category>
+      <category weight="40" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode readOnly="true">/Digital agenda</displayCode>
+      </category>
+      <category weight="40" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode readOnly="true">/Clean air</displayCode>
+      </category>
+      <category weight="40" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode readOnly="true">/Artificial intelligence</displayCode>
+      </category>
+      <category weight="40" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode readOnly="true">/Climate action</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode readOnly="true">/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <code>/HORIZON-TMA-MSCA-PF-EF</code>
+        <title>HORIZON TMA MSCA Postdoctoral Fellowships - European Fellowships</title>
+        <description>HORIZON TMA MSCA Postdoctoral Fellowships - European Fellowships</description>
+        <displayCode readOnly="true">/HORIZON TMA MSCA Postdoctoral Fellowships - European Fellowships</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode readOnly="true">/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

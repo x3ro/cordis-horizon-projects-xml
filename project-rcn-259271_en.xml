@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages readOnly="true">en</availableLanguages>
+  <rcn>259271</rcn>
+  <id>101122653</id>
+  <acronym>CertiFOX</acronym>
+  <teaser>The field of combinatorial optimization is concerned with developing generic tools that take a declarative problem description and automatically compute an optimal solution to it. Often, users specify their problem in a high-level, human-understandable formal language. This...</teaser>
+  <objective>The field of combinatorial optimization is concerned with developing generic tools that take a declarative problem description and automatically compute an optimal solution to it. Often, users specify their problem in a high-level, human-understandable formal language. This specification is first translated into a low-level specification a solver understands and subsequently solved. Thanks to tremendous progress in solving technology, we can now solve a wide variety of NP-hard (or worse) problems in practice. Moreover, these tools are increasingly used in real-life applications, including high-value and life-affecting decisions. Therefore, it is of utmost importance that they be completely reliable. The central objective of this proposal is to develop methodologies and tools with which we can guarantee with 100% certainty that the right problem has been solved correctly. 
+
+To achieve this ambitious objective, I will build on recent breakthroughs in proof logging, where solvers do not just output an answer, but also a proof (or certificate) of correctness. However, a major limitation of current techniques is that correctness is not proven relative to the human-understandable specification written by the user, but relative to the low-level translation that the solver receives, meaning that there is no guarantee that the solver is solving the original problem. In this project, I will investigate end-to-end guarantees of correctness. When successful, this will have a major impact on the way combinatorial optimization software is developed, evaluated, and used: the proofs produced will enable (1) debugging, since proofs contain detailed information about where bugs occurred, (2) auditability, since proofs can be stored and checked by an independent third party, and even (3) rigorous evaluation of algorithmic improvements (I, for instance, have first-hand experience of winning a solver competition due to a bug that would have been caught easily using proof logging).</objective>
+  <title>CertiFOX: Certified First-Order Model Expansion</title>
+  <keywords>Combinatorial optimization, proof logging</keywords>
+  <totalCost>1999928.75</totalCost>
+  <ecMaxContribution>1999928.75</ecMaxContribution>
+  <startDate>2024-10-01</startDate>
+  <endDate>2029-09-30</endDate>
+  <ecSignatureDate>2023-12-14</ecSignatureDate>
+  <duration>60</duration>
+  <status>SIGNED</status>
+  <identifiers>
+    <grantDoi>10.3030/101122653</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>false</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2024-12-31 09:30:22</sourceUpdateDate>
+  <contentCreationDate readOnly="true">2023-12-26 14:41:08</contentCreationDate>
+  <contentUpdateDate>2023-12-26 14:41:06</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-09-19 14:48:44</lastUpdateDate>
+  <relations>
+    <associations>
+      <article source="editorial" type="relatedArticle">
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <rcn>450036</rcn>
+        <id>450036-reliable-and-effective-combinatorial-optimisation</id>
+        <title>Reliable and effective combinatorial optimisation</title>
+        <contentUpdateDate>2024-06-20 17:17:41</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/projectDescription</code>
+              <title>Project description</title>
+              <description>Article: description of linked project written by editorial team</description>
+              <displayCode readOnly="true">/Project description</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/editorial</code>
+              <title>CORDIS Editorial</title>
+              <description>Written by CORDIS</description>
+              <displayCode readOnly="true">/CORDIS Editorial</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </article>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>55556</rcn>
+        <title>ERC-2023-COG</title>
+        <identifier>ERC-2023-COG</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>55556</rcn>
+        <title>ERC-2023-COG</title>
+        <identifier>ERC-2023-COG</identifier>
+      </call>
+      <organization source="corda" order="2" ecContribution="0" terminated="false" sme="false" netEcContribution="0" totalCost="0" type="participant">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1906222</rcn>
+        <id>999902094</id>
+        <vatNumber>BE0449012406</vatNumber>
+        <legalName>VRIJE UNIVERSITEIT BRUSSEL</legalName>
+        <shortName>VUB</shortName>
+        <address>
+          <street>PLEINLAAN 2</street>
+          <city>BRUSSEL</city>
+          <postalCode>1050</postalCode>
+          <country>BE</country>
+          <postBox>000</postBox>
+          <url>http://www.vub.ac.be</url>
+          <geolocation>50.8232159,4.3920206</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode readOnly="true">/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Arr. de Bruxelles-Capitale/Arr. Brussel-Hoofdstad</name>
+              <rcn>188223488</rcn>
+              <nutsCode>BE100</nutsCode>
+              <parents>
+                <region>
+                  <name>Région de Bruxelles-Capitale/ Brussels Hoofdstedelijk Gewest</name>
+                  <rcn>188223528</rcn>
+                  <nutsCode>BE10</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Région de Bruxelles-Capitale/Brussels Hoofdstedelijk Gewest</name>
+                      <rcn>188226088</rcn>
+                      <nutsCode>BE1</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Belgium</name>
+                          <rcn>188385832</rcn>
+                          <nutsCode>BE</nutsCode>
+                          <euCode>BE</euCode>
+                          <isoCode>BE</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Belgium</name>
+              <rcn>188385832</rcn>
+              <nutsCode>BE</nutsCode>
+              <euCode>BE</euCode>
+              <isoCode>BE</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization source="corda" order="1" ecContribution="1999928.75" terminated="false" sme="false" netEcContribution="1999928.75" totalCost="1999928.75" type="coordinator">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1905910</rcn>
+        <id>999991334</id>
+        <vatNumber>BE0419052173</vatNumber>
+        <legalName>KATHOLIEKE UNIVERSITEIT LEUVEN</legalName>
+        <shortName>KU Leuven</shortName>
+        <address>
+          <street>OUDE MARKT 13</street>
+          <city>LEUVEN</city>
+          <postalCode>3000</postalCode>
+          <country>BE</country>
+          <postBox>N/A</postBox>
+          <url>http://www.kuleuven.be</url>
+          <geolocation>50.8780592,4.699407640209</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode readOnly="true">/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Arr. Leuven</name>
+              <rcn>188227842</rcn>
+              <nutsCode>BE242</nutsCode>
+              <parents>
+                <region>
+                  <name>Prov. Vlaams-Brabant</name>
+                  <rcn>188227880</rcn>
+                  <nutsCode>BE24</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Vlaams Gewest</name>
+                      <rcn>188230184</rcn>
+                      <nutsCode>BE2</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Belgium</name>
+                          <rcn>188385832</rcn>
+                          <nutsCode>BE</nutsCode>
+                          <euCode>BE</euCode>
+                          <isoCode>BE</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Belgium</name>
+              <rcn>188385832</rcn>
+              <nutsCode>BE</nutsCode>
+              <euCode>BE</euCode>
+              <isoCode>BE</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme uniqueProgrammePart="true" source="corda" type="relatedLegalBasis">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>705727</rcn>
+        <id>HORIZON.1.1</id>
+        <code>HORIZON.1.1</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.1.1</pga>
+        <title>European Research Council (ERC)</title>
+        <parent>
+          <programme>
+            <rcn>705726</rcn>
+            <code>HORIZON.1</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode readOnly="true">/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme source="corda" type="relatedTopic">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>706525</rcn>
+        <id>HORIZON_ERC-2023-COG</id>
+        <code>ERC-2023-COG</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>ERC CONSOLIDATOR GRANTS</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode readOnly="true">/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode readOnly="true">/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/47/307</code>
+        <title>software</title>
+        <displayCode readOnly="true">/natural sciences/computer and information sciences/software</displayCode>
+      </category>
+      <category weight="100" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode readOnly="true">/Digital agenda</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode readOnly="true">/Clean air</displayCode>
+      </category>
+      <category weight="100" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode readOnly="true">/Artificial intelligence</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode readOnly="true">/Climate action</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode readOnly="true">/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <code>/HORIZON-ERC</code>
+        <title>HORIZON ERC Grants</title>
+        <description>HORIZON ERC Grants</description>
+        <displayCode readOnly="true">/HORIZON ERC Grants</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode readOnly="true">/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

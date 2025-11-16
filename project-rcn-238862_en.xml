@@ -1,0 +1,2701 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages readOnly="true">en</availableLanguages>
+  <rcn>238862</rcn>
+  <id>101056781</id>
+  <acronym>SCAPE</acronym>
+  <teaser>In power electronics, the traditional design approach of power converters involves a range of power semiconductor devices with different ratings, optimized to operate at different conditions, where different suitable ancillary circuitry and power circuit topologies are also...</teaser>
+  <objective>In power electronics, the traditional design approach of power converters involves a range of power semiconductor devices with different ratings, optimized to operate at different conditions, where different suitable ancillary circuitry and power circuit topologies are also required. This dispersion in power devices and circuits leads to significant engineering efforts, the inability to take full advantage from scale economies to reduce costs, and the inability to concentrate efforts to improve performance. In the electric vehicle (EV) market, this is translated to a lack of standardization on the EV power conversion system designs across the different models and types of vehicles available, meaning that nowadays EV OEMs invest billions of euros to develop their own solutions.
+SCAPE aims at achieving three main objectives: i) propose a standardisable, modular, and scalable approach, based on multilevel technology, for the design of the EV power conversion systems ii) develop highly-compact and integrated building-block implementation. iii) propose intelligent modulation and control strategies, online diagnosis, and digital twin for predictive maintenance with machine learning. Reaching these objectives will enable reducing the cost of the EV power electronics thanks to scale economies, improving its performance features (reliability, efficiency, power density, etc.), and enabling advanced functionalities.
+This will allow satisfying the user’s needs, increase the acceptance and affordability of zero-emission vehicles, reduce green-house gasses emission, and enable a full-market penetration of the EV. Having this approach adopted by EU automotive manufacturers will allow creating a cost-efficient production chain in the EU based on economies of scale and advanced integration technologies, as a competitive advantage against other manufacturers.</objective>
+  <title>Switching-Cell-Array-based Power Electronics conversion for future electric vehicles</title>
+  <keywords>Power electronics, Multilevel converters, Board integration</keywords>
+  <totalCost>5999750</totalCost>
+  <ecMaxContribution>5999750</ecMaxContribution>
+  <startDate>2022-07-01</startDate>
+  <endDate>2026-06-30</endDate>
+  <ecSignatureDate>2022-04-04</ecSignatureDate>
+  <duration>48</duration>
+  <status>SIGNED</status>
+  <identifiers>
+    <grantDoi>10.3030/101056781</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>false</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2025-07-08 11:41:50</sourceUpdateDate>
+  <contentCreationDate readOnly="true">2022-08-02 17:21:39</contentCreationDate>
+  <contentUpdateDate>2025-08-08 16:24:43</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-09-29 12:20:03</lastUpdateDate>
+  <relations>
+    <associations>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>55497</rcn>
+        <title>HORIZON-CL5-2021-D5-01</title>
+        <identifier>HORIZON-CL5-2021-D5-01</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>55497</rcn>
+        <title>HORIZON-CL5-2021-D5-01</title>
+        <identifier>HORIZON-CL5-2021-D5-01</identifier>
+      </call>
+      <organization source="corda" order="5" ecContribution="766637.5" terminated="false" sme="false" netEcContribution="168500" totalCost="766637.5" type="participant">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1948613</rcn>
+        <id>997436645</id>
+        <legalName>AVL ARASTIRMA VE MUHENDISLIK SANAYI VE TICARET LIMITED SIRKETI</legalName>
+        <shortName>AVL TURKIYE</shortName>
+        <address>
+          <street>AKPINAR MAH. TUNA CD. BALLICA SK 1 SANCAKTEPE</street>
+          <city>ISTANBUL</city>
+          <postalCode>34885</postalCode>
+          <country>TR</country>
+          <geolocation>40.834761400000005,29.53131854069879</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PRC</code>
+              <title>Private for-profit entities (excluding Higher or Secondary Education Establishments)</title>
+              <displayCode readOnly="true">/Private for-profit entities (excluding Higher or Secondary Education Establishments)</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>İstanbul</name>
+              <rcn>1464100</rcn>
+              <nutsCode>TR100</nutsCode>
+              <parents>
+                <region>
+                  <name>İstanbul</name>
+                  <rcn>1465101</rcn>
+                  <nutsCode>TR10</nutsCode>
+                  <parents>
+                    <region>
+                      <name>İstanbul</name>
+                      <rcn>1465100</rcn>
+                      <nutsCode>TR1</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Türkiye</name>
+                          <rcn>493783592</rcn>
+                          <nutsCode>TR</nutsCode>
+                          <euCode>TR</euCode>
+                          <isoCode>TR</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Türkiye</name>
+              <rcn>493783592</rcn>
+              <nutsCode>TR</nutsCode>
+              <euCode>TR</euCode>
+              <isoCode>TR</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization source="corda" order="9" ecContribution="252350" terminated="false" sme="true" netEcContribution="252350" totalCost="252350" type="participant">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1911541</rcn>
+        <id>999745439</id>
+        <vatNumber>IT00934601006</vatNumber>
+        <legalName><![CDATA[ISTITUTO DI STUDI PER L'INTEGRAZIONE DEI SISTEMI - SOCIETA'COOPERATIVA]]></legalName>
+        <shortName>ISINNOVA</shortName>
+        <address>
+          <street>VIA SISTINA 42</street>
+          <city>ROMA</city>
+          <postalCode>00187</postalCode>
+          <country>IT</country>
+          <postBox>000</postBox>
+          <url>https://www.isinnova.org</url>
+          <geolocation>41.958066,12.526898057551021</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/OTH</code>
+              <title>Other</title>
+              <displayCode readOnly="true">/Other</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Roma</name>
+              <rcn>1464004</rcn>
+              <nutsCode>ITI43</nutsCode>
+              <parents>
+                <region>
+                  <name>Lazio</name>
+                  <rcn>1465012</rcn>
+                  <nutsCode>ITI4</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Centro (IT)</name>
+                      <rcn>1465008</rcn>
+                      <nutsCode>ITI</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Italy</name>
+                          <rcn>309758504</rcn>
+                          <nutsCode>IT</nutsCode>
+                          <euCode>IT</euCode>
+                          <isoCode>IT</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Italy</name>
+              <rcn>309758504</rcn>
+              <nutsCode>IT</nutsCode>
+              <euCode>IT</euCode>
+              <isoCode>IT</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization source="corda" order="6" ecContribution="956162.5" terminated="false" sme="true" netEcContribution="956162.5" totalCost="956162.5" type="participant">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>3006510</rcn>
+        <id>917522322</id>
+        <vatNumber>IT01992140697</vatNumber>
+        <legalName>TEKNE SRL</legalName>
+        <shortName>TEKNE</shortName>
+        <address>
+          <street>CONTRADA SAN MATTEO 42</street>
+          <city>POGGIOFIORITO</city>
+          <postalCode>66030</postalCode>
+          <country>IT</country>
+          <geolocation>42.6384261,12.674297</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PRC</code>
+              <title>Private for-profit entities (excluding Higher or Secondary Education Establishments)</title>
+              <displayCode readOnly="true">/Private for-profit entities (excluding Higher or Secondary Education Establishments)</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Chieti</name>
+              <rcn>309653572</rcn>
+              <nutsCode>ITF14</nutsCode>
+              <parents>
+                <region>
+                  <name>Abruzzo</name>
+                  <rcn>309653608</rcn>
+                  <nutsCode>ITF1</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Sud</name>
+                      <rcn>309656104</rcn>
+                      <nutsCode>ITF</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Italy</name>
+                          <rcn>309758504</rcn>
+                          <nutsCode>IT</nutsCode>
+                          <euCode>IT</euCode>
+                          <isoCode>IT</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Italy</name>
+              <rcn>309758504</rcn>
+              <nutsCode>IT</nutsCode>
+              <euCode>IT</euCode>
+              <isoCode>IT</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization source="corda" order="1" ecContribution="1067262.5" terminated="false" sme="false" netEcContribution="1067262.5" totalCost="1067262.5" type="coordinator">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1913642</rcn>
+        <id>996435993</id>
+        <vatNumber>ESG64946387</vatNumber>
+        <legalName>FUNDACIO INSTITUT DE RECERCA EN ENERGIA DE CATALUNYA</legalName>
+        <shortName>IREC-CERCA</shortName>
+        <address>
+          <street>C/ JARDINS DE LES DONES DE NEGRE 1</street>
+          <city>Sant Adria De Besos</city>
+          <postalCode>08930</postalCode>
+          <country>ES</country>
+          <url>http://www.irec.cat</url>
+          <geolocation>41.4304832,2.2182775</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/REC</code>
+              <title>Research Organisations</title>
+              <displayCode readOnly="true">/Research Organisations</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Barcelona</name>
+              <rcn>242241601</rcn>
+              <nutsCode>ES511</nutsCode>
+              <parents>
+                <region>
+                  <name>Cataluña</name>
+                  <rcn>242241640</rcn>
+                  <nutsCode>ES51</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Este</name>
+                      <rcn>242244136</rcn>
+                      <nutsCode>ES5</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Spain</name>
+                          <rcn>242387496</rcn>
+                          <nutsCode>ES</nutsCode>
+                          <euCode>ES</euCode>
+                          <isoCode>ES</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Spain</name>
+              <rcn>242387496</rcn>
+              <nutsCode>ES</nutsCode>
+              <euCode>ES</euCode>
+              <isoCode>ES</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization source="corda" order="2" ecContribution="777950" terminated="false" sme="false" netEcContribution="777950" totalCost="777950" type="participant">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1905575</rcn>
+        <id>999991722</id>
+        <vatNumber>ESQ2818002D</vatNumber>
+        <legalName>AGENCIA ESTATAL CONSEJO SUPERIOR DE INVESTIGACIONES CIENTIFICAS</legalName>
+        <shortName>CSIC</shortName>
+        <address>
+          <street>CALLE SERRANO 117</street>
+          <city>MADRID</city>
+          <postalCode>28006</postalCode>
+          <country>ES</country>
+          <postBox>N/A</postBox>
+          <url>http://www.csic.es</url>
+          <geolocation>40.4409945,-3.6878876</geolocation>
+        </address>
+        <departmentName>Deputy Vice-Presidency for Scientific Programming</departmentName>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/REC</code>
+              <title>Research Organisations</title>
+              <displayCode readOnly="true">/Research Organisations</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Madrid</name>
+              <rcn>242233344</rcn>
+              <nutsCode>ES300</nutsCode>
+              <parents>
+                <region>
+                  <name>Comunidad de Madrid</name>
+                  <rcn>242233384</rcn>
+                  <nutsCode>ES30</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Comunidad de Madrid</name>
+                      <rcn>242235944</rcn>
+                      <nutsCode>ES3</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Spain</name>
+                          <rcn>242387496</rcn>
+                          <nutsCode>ES</nutsCode>
+                          <euCode>ES</euCode>
+                          <isoCode>ES</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Spain</name>
+              <rcn>242387496</rcn>
+              <nutsCode>ES</nutsCode>
+              <euCode>ES</euCode>
+              <isoCode>ES</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization source="corda" order="3" ecContribution="772875" terminated="false" sme="false" netEcContribution="772875" totalCost="772875" type="participant">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1910033</rcn>
+        <id>999976202</id>
+        <vatNumber>ESQ0818003F</vatNumber>
+        <legalName>UNIVERSITAT POLITECNICA DE CATALUNYA</legalName>
+        <shortName>UPC</shortName>
+        <address>
+          <street>CALLE JORDI GIRONA 31</street>
+          <city>BARCELONA</city>
+          <postalCode>08034</postalCode>
+          <country>ES</country>
+          <postBox>000</postBox>
+          <url>http://www.upc.edu</url>
+          <geolocation>41.3825596,2.1771353</geolocation>
+        </address>
+        <departmentName>Technology Transfer Centre</departmentName>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode readOnly="true">/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Barcelona</name>
+              <rcn>242241601</rcn>
+              <nutsCode>ES511</nutsCode>
+              <parents>
+                <region>
+                  <name>Cataluña</name>
+                  <rcn>242241640</rcn>
+                  <nutsCode>ES51</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Este</name>
+                      <rcn>242244136</rcn>
+                      <nutsCode>ES5</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Spain</name>
+                          <rcn>242387496</rcn>
+                          <nutsCode>ES</nutsCode>
+                          <euCode>ES</euCode>
+                          <isoCode>ES</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Spain</name>
+              <rcn>242387496</rcn>
+              <nutsCode>ES</nutsCode>
+              <euCode>ES</euCode>
+              <isoCode>ES</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization sme="true" netEcContribution="576600" totalCost="576600" source="corda" order="7" ecContribution="576600" terminated="false" type="participant">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1955284</rcn>
+        <id>908679705</id>
+        <vatNumber>FR94809853674</vatNumber>
+        <legalName>DEEP CONCEPT</legalName>
+        <address>
+          <street>AVENUE PIERRE ANGOT HELIOPARC 2</street>
+          <city>Pau</city>
+          <postalCode>64053</postalCode>
+          <country>FR</country>
+          <geolocation>43.3213256,-0.3670497</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PRC</code>
+              <title>Private for-profit entities (excluding Higher or Secondary Education Establishments)</title>
+              <displayCode readOnly="true">/Private for-profit entities (excluding Higher or Secondary Education Establishments)</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Pyrénées-Atlantiques</name>
+              <rcn>1464180</rcn>
+              <nutsCode>FRI15</nutsCode>
+              <parents>
+                <region>
+                  <name>Aquitaine</name>
+                  <rcn>1464957</rcn>
+                  <nutsCode>FRI1</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Nouvelle-Aquitaine</name>
+                      <rcn>1464956</rcn>
+                      <nutsCode>FRI</nutsCode>
+                      <parents>
+                        <region>
+                          <name>France</name>
+                          <rcn>258902568</rcn>
+                          <nutsCode>FR</nutsCode>
+                          <euCode>FR</euCode>
+                          <isoCode>FR</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>France</name>
+              <rcn>258902568</rcn>
+              <nutsCode>FR</nutsCode>
+              <euCode>FR</euCode>
+              <isoCode>FR</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization netEcContribution="131537.5" totalCost="131537.5" source="corda" order="8" ecContribution="131537.5" terminated="false" sme="true" type="participant">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1915903</rcn>
+        <id>998806479</id>
+        <vatNumber>ESB62822010</vatNumber>
+        <legalName>BAX INNOVATION CONSULTING SL</legalName>
+        <shortName><![CDATA[Bax & Company]]></shortName>
+        <address>
+          <street>CALLE CASP 116-118, 5</street>
+          <city>BARCELONA</city>
+          <postalCode>08013</postalCode>
+          <country>ES</country>
+          <url>http://www.bwcv.es</url>
+          <geolocation>41.3828939,2.1774322</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PRC</code>
+              <title>Private for-profit entities (excluding Higher or Secondary Education Establishments)</title>
+              <displayCode readOnly="true">/Private for-profit entities (excluding Higher or Secondary Education Establishments)</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Barcelona</name>
+              <rcn>242241601</rcn>
+              <nutsCode>ES511</nutsCode>
+              <parents>
+                <region>
+                  <name>Cataluña</name>
+                  <rcn>242241640</rcn>
+                  <nutsCode>ES51</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Este</name>
+                      <rcn>242244136</rcn>
+                      <nutsCode>ES5</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Spain</name>
+                          <rcn>242387496</rcn>
+                          <nutsCode>ES</nutsCode>
+                          <euCode>ES</euCode>
+                          <isoCode>ES</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Spain</name>
+              <rcn>242387496</rcn>
+              <nutsCode>ES</nutsCode>
+              <euCode>ES</euCode>
+              <isoCode>ES</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization source="corda" order="5" terminated="false" ecContribution="0" sme="false" netEcContribution="598137.5" totalCost="0" type="thirdParty">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1922109</rcn>
+        <id>988038024</id>
+        <vatNumber>DE815016321</vatNumber>
+        <legalName>AVL SOFTWARE AND FUNCTIONS GMBH</legalName>
+        <address>
+          <street>IM GEWERBEPARK B 29</street>
+          <city>REGENSBURG</city>
+          <postalCode>93059</postalCode>
+          <country>DE</country>
+          <postBox>000</postBox>
+          <url>http://avl-functions.de/</url>
+          <geolocation>49.030153150000004,12.13013680563737</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PRC</code>
+              <title>Private for-profit entities (excluding Higher or Secondary Education Establishments)</title>
+              <displayCode readOnly="true">/Private for-profit entities (excluding Higher or Secondary Education Establishments)</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Regensburg, Kreisfreie Stadt</name>
+              <rcn>221782210</rcn>
+              <nutsCode>DE232</nutsCode>
+              <parents>
+                <region>
+                  <name>Oberpfalz</name>
+                  <rcn>221782248</rcn>
+                  <nutsCode>DE23</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Bayern</name>
+                      <rcn>221784616</rcn>
+                      <nutsCode>DE2</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Germany</name>
+                          <rcn>221940264</rcn>
+                          <nutsCode>DE</nutsCode>
+                          <euCode>DE</euCode>
+                          <isoCode>DE</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Germany</name>
+              <rcn>221940264</rcn>
+              <nutsCode>DE</nutsCode>
+              <euCode>DE</euCode>
+              <isoCode>DE</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization ecContribution="698375" terminated="false" sme="false" netEcContribution="698375" totalCost="698375" source="corda" order="4" type="participant">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1906199</rcn>
+        <id>999840887</id>
+        <vatNumber>IT00427620364</vatNumber>
+        <legalName>UNIVERSITA DEGLI STUDI DI MODENA E REGGIO EMILIA</legalName>
+        <shortName>UNIMORE</shortName>
+        <address>
+          <street>VIA UNIVERSITA 4</street>
+          <city>MODENA</city>
+          <postalCode>41121</postalCode>
+          <country>IT</country>
+          <postBox>000</postBox>
+          <url>http://www.unimore.it</url>
+          <geolocation>44.6451415,10.9277340074659</geolocation>
+        </address>
+        <departmentName><![CDATA[DIPARTIMENTO DI INGEGNERIA " ENZO FERRARI"]]></departmentName>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode readOnly="true">/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Modena</name>
+              <rcn>1464057</rcn>
+              <nutsCode>ITH54</nutsCode>
+              <parents>
+                <region>
+                  <name>Emilia-Romagna</name>
+                  <rcn>1465007</rcn>
+                  <nutsCode>ITH5</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Nord-Est</name>
+                      <rcn>1465001</rcn>
+                      <nutsCode>ITH</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Italy</name>
+                          <rcn>309758504</rcn>
+                          <nutsCode>IT</nutsCode>
+                          <euCode>IT</euCode>
+                          <isoCode>IT</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Italy</name>
+              <rcn>309758504</rcn>
+              <nutsCode>IT</nutsCode>
+              <euCode>IT</euCode>
+              <isoCode>IT</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme source="corda" type="relatedLegalBasis">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>705774</rcn>
+        <id>HORIZON.2.5.7</id>
+        <code>HORIZON.2.5.7</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.2.5.7</pga>
+        <title>Clean, Safe and Accessible Transport and Mobility</title>
+        <parent>
+          <programme>
+            <rcn>705767</rcn>
+            <code>HORIZON.2.5</code>
+            <parent>
+              <programme>
+                <rcn>705740</rcn>
+                <code>HORIZON.2</code>
+                <parent>
+                  <programme>
+                    <rcn>705725</rcn>
+                    <code>HORIZON</code>
+                  </programme>
+                </parent>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode readOnly="true">/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme source="corda" uniqueProgrammePart="true" type="relatedLegalBasis">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>705767</rcn>
+        <id>HORIZON.2.5</id>
+        <code>HORIZON.2.5</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.2.5</pga>
+        <title>Climate, Energy and Mobility</title>
+        <parent>
+          <programme>
+            <rcn>705740</rcn>
+            <code>HORIZON.2</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode readOnly="true">/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme source="corda" type="relatedTopic">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>706389</rcn>
+        <id>HORIZON_HORIZON-CL5-2021-D5-01-02</id>
+        <code>HORIZON-CL5-2021-D5-01-02</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>Nextgen EV components: Integration of advanced power electronics and associated controls (2ZERO)</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode readOnly="true">/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+            <category classification="topicKeyword" type="isAbout">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <code>/43456120</code>
+              <title>Powertrain</title>
+              <displayCode readOnly="true">/Powertrain</displayCode>
+            </category>
+            <category classification="topicKeyword" type="isAbout">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <code>/43449627</code>
+              <title>Automotive</title>
+              <displayCode readOnly="true">/Automotive</displayCode>
+            </category>
+            <category classification="topicKeyword" type="isAbout">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <code>/43455538</code>
+              <title>Other engineering and technologies</title>
+              <displayCode readOnly="true">/Other engineering and technologies</displayCode>
+            </category>
+            <category classification="topicKeyword" type="isAbout">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <code>/43458499</code>
+              <title>Truck</title>
+              <displayCode readOnly="true">/Truck</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme source="corda" type="relatedLegalBasis">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>705773</rcn>
+        <id>HORIZON.2.5.6</id>
+        <code>HORIZON.2.5.6</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.2.5.6</pga>
+        <title>Industrial Competitiveness in Transport</title>
+        <parent>
+          <programme>
+            <rcn>705767</rcn>
+            <code>HORIZON.2.5</code>
+            <parent>
+              <programme>
+                <rcn>705740</rcn>
+                <code>HORIZON.2</code>
+                <parent>
+                  <programme>
+                    <rcn>705725</rcn>
+                    <code>HORIZON</code>
+                  </programme>
+                </parent>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode readOnly="true">/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1257239</rcn>
+        <id>101056781_23550_PUBLIHORIZON</id>
+        <title>Capacitor Voltage Balancing of Four-Level ANPC and π-type Converters Based on Simplified Virtual-VectorPWM</title>
+        <details>
+          <authors>Attique Qamar, M.; Filba-Martinez, A.; Busquets-Monge, S.; Kui, W.</authors>
+          <journalNumber/>
+          <journalTitle/>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1109/ESARS-ITEC57127.2023.10114865</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-04-15 01:27:45</sourceUpdateDate>
+        <contentUpdateDate>2025-06-04 16:28:13</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1363355</rcn>
+        <id>101056781_206677_PUBLIHORIZON</id>
+        <title>Chip-level Interconnection Techniques for Chip Embedding Integration of SiC MOSFETs</title>
+        <details>
+          <authors>Emma Solà, Mariana Raya, Philippe Lasserre, David Sánchez, José Rebollo, Miquel Vellvehi, Xavier Perpiñà, Xavier Jordà</authors>
+          <journalNumber/>
+          <journalTitle/>
+          <publishedPages/>
+          <publishedYear>2025</publishedYear>
+          <publisher>ISPSD 2025</publisher>
+        </details>
+        <sourceUpdateDate>2025-08-04 12:57:30</sourceUpdateDate>
+        <contentUpdateDate>2025-09-24 10:14:37</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>947188</rcn>
+        <id>101056781_44_DELIVHORIZON</id>
+        <title>Dissemination and Exploitation Strategy (DES) M3</title>
+        <description>Year one report detailing the communication and dissemination strategy and its implementation through a dissemination activity plan. It also features an integrated IP ownership and exploitation strategy.</description>
+        <sourceUpdateDate>2025-04-07 10:19:05</sourceUpdateDate>
+        <contentUpdateDate>2023-06-27 15:22:58</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode readOnly="true">/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>686fac49436f05e696e1a0545eb1f88e</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5f1ef382d&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>947186</rcn>
+        <id>101056781_2_DELIVHORIZON</id>
+        <title>Data and Knowledge Management plan</title>
+        <description>Definition of the items that are subjected to intellectual property and the procedures to exchange information among the partners. Updates will be informed during project reports.</description>
+        <sourceUpdateDate>2025-04-07 10:19:05</sourceUpdateDate>
+        <contentUpdateDate>2023-06-27 15:22:55</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode readOnly="true">/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>956d4d192ac05962818254a81fe6bf84</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5f5cb9dad&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1363353</rcn>
+        <id>101056781_206603_PUBLIHORIZON</id>
+        <title>Generalized Multiport Multilevel NPC Dual-Active-Bridge Converter for EV Auxiliary Power Module</title>
+        <details>
+          <authors>Oriol Esquius-Mas, Oriol Esquius-Mas,Alber Filba-Martinez, Joan Nicolas-Apruzzese and Sergio Busquets-Monge</authors>
+          <journalNumber/>
+          <journalTitle/>
+          <publishedPages/>
+          <publishedYear>2025</publishedYear>
+          <publisher>IEEE Open Journal of the Industrial Electronics Society</publisher>
+        </details>
+        <identifiers>
+          <doi>10.3390/electronics14173534</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-08-04 12:57:30</sourceUpdateDate>
+        <contentUpdateDate>2025-09-24 12:57:59</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1347777</rcn>
+        <id>101056781_206657_PUBLIHORIZON</id>
+        <title>Case study of the environmental performance of a new and modular EV inverter and on-board charger technology using Life Cycle Assessment</title>
+        <details>
+          <authors>-</authors>
+          <journalNumber/>
+          <journalTitle/>
+          <publishedPages/>
+          <publishedYear>2025</publishedYear>
+          <publisher>SDEWES 2025</publisher>
+        </details>
+        <sourceUpdateDate>2025-08-04 12:57:30</sourceUpdateDate>
+        <contentUpdateDate>2025-08-04 12:57:30</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1361737</rcn>
+        <id>101056781_209381_PUBLIHORIZON</id>
+        <title>Inter-turn Short Circuit Diagnosis in Ultrareliable Permanent Magnet Synchronous Machines</title>
+        <details>
+          <authors>-</authors>
+          <journalNumber/>
+          <journalTitle/>
+          <publishedPages/>
+          <publishedYear>2025</publishedYear>
+          <publisher>IEEE IECON 2025</publisher>
+        </details>
+        <sourceUpdateDate>2025-08-11 11:34:19</sourceUpdateDate>
+        <contentUpdateDate>2025-08-11 11:34:19</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1257242</rcn>
+        <id>101056781_23553_PUBLIHORIZON</id>
+        <title>Thermal analysis of an integrated motor drive with a switching cell array power converter.</title>
+        <details>
+          <authors>Grespan, M.; Busquets Monge, S.; Mas de les Valls Ortiz, E; Jordà, X.; Raya di Francisco, M.; Angeli, D.</authors>
+          <journalNumber/>
+          <journalTitle>Journal of Physics: Conference Series</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>IOP SCIENCE</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1088/1742-6596/2766/1/012033</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-04-15 01:27:45</sourceUpdateDate>
+        <contentUpdateDate>2025-04-15 01:27:45</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1142419</rcn>
+        <id>101056781_26_DELIVHORIZON</id>
+        <title>Designs of the OMSs for PHM and SoH purposes</title>
+        <description>Report on the design of all subsystems for reading the critical parameters for online monitoring of SCs, converters, battery, and motor.</description>
+        <sourceUpdateDate>2025-04-07 10:19:05</sourceUpdateDate>
+        <contentUpdateDate>2024-08-06 15:03:49</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode readOnly="true">/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>531b68338e677e16fd6b40aba641dca4</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e50ea7655b&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1257240</rcn>
+        <id>101056781_23552_PUBLIHORIZON</id>
+        <title>Optimized Modular Design of Neutral-Point-Clamped Traction Inverters for Multiple Electric Vehicles</title>
+        <details>
+          <authors>Rafiezadeh, R.; Busquets-Monge, S.; Alepuz, S.</authors>
+          <journalNumber/>
+          <journalTitle/>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <doi>10.23919/AEITAUTOMOTIVE58986.2023.10217243</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-04-16 20:03:37</sourceUpdateDate>
+        <contentUpdateDate>2025-02-25 13:42:07</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1046344</rcn>
+        <id>101056781_51_DELIVHORIZON</id>
+        <title>Environmental assessment of materials and processes</title>
+        <description>Report on the environmental impact assessment of the materials and manufacturing processes required for the proposed power converters employing the chip-embedded integration technology.</description>
+        <sourceUpdateDate>2025-04-07 10:19:05</sourceUpdateDate>
+        <contentUpdateDate>2024-02-26 13:04:11</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode readOnly="true">/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>2d7b4266fe8d793187f45bab61162032</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e508a8685e&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1361727</rcn>
+        <id>101056781_209379_PUBLIHORIZON</id>
+        <title>Thermo-Electrical Digital Twin-Assisted Aging Assessment of SiC MOSFETs in Switching-Cell- Array Power Converters</title>
+        <details>
+          <authors>-</authors>
+          <journalNumber/>
+          <journalTitle/>
+          <publishedPages/>
+          <publishedYear>2025</publishedYear>
+          <publisher>IEEE IECON 2025</publisher>
+        </details>
+        <sourceUpdateDate>2025-08-11 11:34:19</sourceUpdateDate>
+        <contentUpdateDate>2025-08-11 11:34:19</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>929556</rcn>
+        <id>101056781_48_DELIVHORIZON</id>
+        <title>Leaflet, posters/roll-ups and presentation</title>
+        <description>Media for the project’s dissemination during events. It will comply with the project dissemination strategy and visual identity.</description>
+        <sourceUpdateDate>2025-04-07 10:19:05</sourceUpdateDate>
+        <contentUpdateDate>2023-04-21 15:11:16</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/DEC</code>
+              <title>Websites, patent fillings, videos etc.</title>
+              <displayCode readOnly="true">/Websites, patent fillings, videos etc.</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>f93507310ca4618b31674ec818016470</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5f867b7f7&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1048993</rcn>
+        <id>101056781_24_DELIVHORIZON</id>
+        <title>Ruggedness and aging analysis of selected power semiconductor devices</title>
+        <description>Report on the ruggedness and aging shown by representative power devices. These results will serve as input for the preliminary converter mock-up designs.</description>
+        <sourceUpdateDate>2025-04-07 10:19:05</sourceUpdateDate>
+        <contentUpdateDate>2024-03-04 14:30:13</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode readOnly="true">/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>b7dddcd53f6d028d8454e5a2341afc7b</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e508fd39e7&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1257238</rcn>
+        <id>101056781_23549_PUBLIHORIZON</id>
+        <title>E-VOLVE cluster: Increasing innovation efficiency to support the transition toward sustainable e-mobility.</title>
+        <details>
+          <authors>Armengaud, E.; Armengaud, I.; Weinzerl, M.; Kniewallner, J.; Brandstaetter, B.; Custic, M.; Sorniotti, A.; Man So, K.; Montanaro, U.; Romeral, L.; Filba Martinez, A.; Gramstat, S.; Ivanov, V.</authors>
+          <journalNumber/>
+          <journalTitle/>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>TRA 2024</publisher>
+        </details>
+        <sourceUpdateDate>2024-04-16 20:03:37</sourceUpdateDate>
+        <contentUpdateDate>2025-02-25 13:40:00</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1134589</rcn>
+        <id>101056781_PSHORIZON</id>
+        <title>Periodic Reporting for period 1 - SCAPE (Switching-Cell-Array-based Power Electronics conversion for future electric vehicles)</title>
+        <teaser>In power electronics, the traditional design approach of power converters involves a range of power semiconductor devices with different ratings, optimized to operate at different conditions, where different suitable ancillary circuitry and power circuit topologies are also...</teaser>
+        <description>periodic</description>
+        <sourceUpdateDate>2024-06-06 15:24:21</sourceUpdateDate>
+        <contentUpdateDate>2024-07-24 11:58:27</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/pubsum</code>
+              <title>Report Summary</title>
+              <description>Result: Publishable summary (FP7 SESAM) and Summary for publication (H2020 SyGMa)</description>
+              <displayCode readOnly="true">/Report Summary</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1257241</rcn>
+        <id>101056781_23551_PUBLIHORIZON</id>
+        <title>Inherently Decoupled Dc-Link Capacitor Voltage Control of Multilevel Neutral-Point-Clamped Converters</title>
+        <details>
+          <authors>José M. Campos-Salazar; Robert Griñó; Sergio Busquets-Monge; Gabriel Garcia-Rojas</authors>
+          <journalNumber/>
+          <journalTitle>IEEE</journalTitle>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <doi>10.36227/TECHRXIV.22318240.V1</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-04-15 01:27:45</sourceUpdateDate>
+        <contentUpdateDate>2025-06-04 16:34:00</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1272446</rcn>
+        <id>101056781_25_DELIVHORIZON</id>
+        <title>Ruggedness and aging analysis of the SCs</title>
+        <description>Report on the ruggedness and aging shown by the manufactured SCs in WP4, serving as a complementary data to the SC characterization performed in WP4.</description>
+        <sourceUpdateDate>2025-04-07 10:19:05</sourceUpdateDate>
+        <contentUpdateDate>2025-03-31 11:50:43</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode readOnly="true">/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>1526c9caba08db062a434433f1b991b1</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e51a071906&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1345081</rcn>
+        <id>101056781_206683_PUBLIHORIZON</id>
+        <title>Common Mode Analysis of Non-Isolated Integrated Chargers based on NPC Inverter for Electric Vehicles</title>
+        <details>
+          <authors>Fabio Bernardi, Emilio Lorenzani, Davide Barater, Germán Fañanás Puigjaner, Sergio Busquets-Monge</authors>
+          <journalNumber/>
+          <journalTitle>IECON 2024 - 50th Annual Conference of the IEEE Industrial Electronics Society</journalTitle>
+          <publishedPages/>
+          <publishedYear>2025</publishedYear>
+          <publisher>IEEE IECON 2024</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1109/IECON55916.2024.10905337</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-08-04 12:57:30</sourceUpdateDate>
+        <contentUpdateDate>2025-08-04 12:57:30</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1257234</rcn>
+        <id>101056781_23547_PUBLIHORIZON</id>
+        <title>Thermo-Electrical Modeling of Multilevel Switching-Cell-Array-Based Power Converters</title>
+        <details>
+          <authors>Rafiezadeh, R.; Busquets-Monge, S.; Alepuz, S.</authors>
+          <journalNumber/>
+          <journalTitle>IEEE International Symposium on Industrial Electronics (ISIE)</journalTitle>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1109/ISIE51358.2023.10228132</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-04-16 20:03:37</sourceUpdateDate>
+        <contentUpdateDate>2025-02-25 13:00:38</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1257232</rcn>
+        <id>101056781_23546_PUBLIHORIZON</id>
+        <title>Moving Towards a Sustainable Design of Power Converters Contributing to Zero-Emissions in the EV Use Phase and Lower Environmental Impacts in its Production: A Material Assessment with respect to Recyclability Aspects</title>
+        <details>
+          <authors>López, L.A.; Benveniste, G.; Attique Qamar, M.; Ferreira, V.J.; Corchero, C.</authors>
+          <journalNumber/>
+          <journalTitle/>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>SDEWES</publisher>
+        </details>
+        <sourceUpdateDate>2025-04-15 01:27:45</sourceUpdateDate>
+        <contentUpdateDate>2025-06-04 16:24:00</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1347781</rcn>
+        <id>101056781_206660_PUBLIHORIZON</id>
+        <title>Estimation of thermo-mechanical Anand model parameters of die-attach materials for power electronics assemblies</title>
+        <details>
+          <authors>Fuste, Nauem; Sola, Emma; Avino, Oriol; Perpina, Xavier; Vellvehi, Miquel; Jorda, Xavier</authors>
+          <journalNumber/>
+          <journalTitle/>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>CIPS 2024</publisher>
+        </details>
+        <sourceUpdateDate>2025-08-04 12:57:30</sourceUpdateDate>
+        <contentUpdateDate>2025-08-04 12:57:30</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1361738</rcn>
+        <id>101056781_209380_PUBLIHORIZON</id>
+        <title>Common Mode Voltage Effects and Bearing Current Mitigation in Three-Level NPC Inverter-Driven PMSMs for Electric Vehicles</title>
+        <details>
+          <authors>-</authors>
+          <journalNumber/>
+          <journalTitle/>
+          <publishedPages/>
+          <publishedYear>2025</publishedYear>
+          <publisher>IEEE IECON 2025</publisher>
+        </details>
+        <sourceUpdateDate>2025-08-11 11:34:19</sourceUpdateDate>
+        <contentUpdateDate>2025-08-11 11:34:19</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>947175</rcn>
+        <id>101056781_3_DELIVHORIZON</id>
+        <title>Gender Equality Action plan</title>
+        <description>Report on the considered features of the SCAPE technology that must be considered from a gender perspective and how these are addressed.</description>
+        <sourceUpdateDate>2025-04-07 10:19:05</sourceUpdateDate>
+        <contentUpdateDate>2023-06-27 15:22:54</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode readOnly="true">/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>8526399a245756f22e40f04a4fbb5207</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e50bd1dcdb&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1345080</rcn>
+        <id>101056781_206653_PUBLIHORIZON</id>
+        <title>E-VOLVE Cluster: Increasing Innovation Efficiency to Support the Transition Toward Sustainable e-mobility</title>
+        <details>
+          <authors>Armengaud, Eric; Armengaud, Ingrid; Weinzerl, Martin; Kniewallner, Jasmin; Brandstätter, Bernhard; Ćustić, Medina; Sorniotti, Aldo; Man So, Kai; Montanaro, Umberto; Romeral, Luis; Filba-Martinez, Alber; Gramstat, Sebastian; Ivanov, Valentin</authors>
+          <journalNumber/>
+          <journalTitle>Lecture Notes in Mobility ISBN: 9783031894435</journalTitle>
+          <publishedPages/>
+          <publishedYear>2025</publishedYear>
+          <publisher>TRA 2024</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1007/978-3-031-89444-2_82</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-08-04 12:57:30</sourceUpdateDate>
+        <contentUpdateDate>2025-08-04 12:57:30</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1347771</rcn>
+        <id>101056781_206675_PUBLIHORIZON</id>
+        <title>SiC MOSFET Chip Embedded Switching-Cell for Multilevel Converters</title>
+        <details>
+          <authors>Mariana Raya, Emma Solà, Miquel Vellvehi, Xavier Perpiñà, Philippe Lasserre, Sergio Busquets-Monge, Xavier Jordà</authors>
+          <journalNumber/>
+          <journalTitle/>
+          <publishedPages/>
+          <publishedYear>2025</publishedYear>
+          <publisher>ISPSD 2025</publisher>
+        </details>
+        <identifiers>
+          <doi>10.23919/ISPSD62843.2025.11118194</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-08-04 12:57:30</sourceUpdateDate>
+        <contentUpdateDate>2025-08-04 12:57:30</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1361730</rcn>
+        <id>101056781_209370_PUBLIHORIZON</id>
+        <title>A Novel Hybrid Battery Based on a Bidirectional Four-level Neutral-Point-Clamped DC-DC Power Converter Interfacing</title>
+        <details>
+          <authors>-</authors>
+          <journalNumber/>
+          <journalTitle/>
+          <publishedPages/>
+          <publishedYear>2025</publishedYear>
+          <publisher>IEEE IECON 2025</publisher>
+        </details>
+        <sourceUpdateDate>2025-08-11 11:34:19</sourceUpdateDate>
+        <contentUpdateDate>2025-08-11 11:34:19</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1046342</rcn>
+        <id>101056781_45_DELIVHORIZON</id>
+        <title>Dissemination and Exploitation Strategy (DES) M15</title>
+        <description>Year two report detailing the DES.</description>
+        <sourceUpdateDate>2025-04-07 10:19:05</sourceUpdateDate>
+        <contentUpdateDate>2024-02-26 13:04:10</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode readOnly="true">/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>ba5437f4847aafe4a60ac668ae8eda8e</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e508a6604b&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1044690</rcn>
+        <id>101056781_17310_PUBLIHORIZON</id>
+        <title>Active Thermal Control in Neutral-Point-Clamped Multilevel Converters based on Switching-Cell Arrays</title>
+        <details>
+          <authors>Salvador Alepuz; Joan Nicolás-Apruzzese; Roya Rafiezadeh; Sergio Busquets-Monge; Mariana Raya; Àlber Filbà-Martínez</authors>
+          <journalTitle>MDPI</journalTitle>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>MDPI</publisher>
+        </details>
+        <identifiers>
+          <doi>10.36227/techrxiv.22591789.v1</doi>
+          <issn>2078-2489</issn>
+        </identifiers>
+        <sourceUpdateDate>2024-04-16 20:03:37</sourceUpdateDate>
+        <contentUpdateDate>2024-02-26 09:30:19</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1361722</rcn>
+        <id>101056781_209371_PUBLIHORIZON</id>
+        <title>A Novel Fault-Tolerant Control Approach for a Six-Phase Motor Drive Under Open-Circuit Faults</title>
+        <details>
+          <authors>Germán Fañanás-Puigjaner, Sergio Busquets-Monge, Gabriel Garcia-Rojas, Fabio Bernardi, Davide Barater, Àlber Filbà-Martínez</authors>
+          <journalNumber/>
+          <journalTitle/>
+          <publishedPages/>
+          <publishedYear>2025</publishedYear>
+          <publisher>Institute of Electrical and Electronics Engineers (IEEE)</publisher>
+        </details>
+        <identifiers>
+          <doi>10.36227/TECHRXIV.175372518.82888129/V1</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-08-11 11:34:19</sourceUpdateDate>
+        <contentUpdateDate>2025-08-11 11:34:19</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1267662</rcn>
+        <id>101056781_46_DELIVHORIZON</id>
+        <title>Dissemination and Exploitation Strategy (DES) M27</title>
+        <description>Year three report detailing the DES.</description>
+        <sourceUpdateDate>2025-04-07 10:19:05</sourceUpdateDate>
+        <contentUpdateDate>2025-03-17 11:06:23</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode readOnly="true">/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>314a464ca9126d3c62823a58db62e4c7</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e512a1ab41&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1345084</rcn>
+        <id>101056781_206684_PUBLIHORIZON</id>
+        <title>Slot Opening Influence on Short Circuit Current: A Sensitivity Analysis</title>
+        <details>
+          <authors>Andrea Tinti, Gregorio Cutuli, Stefano Nuzzo, Giacomo Sala, Davide Barater, Giovanni Franceschini</authors>
+          <journalNumber/>
+          <journalTitle>2025 IEEE Workshop on Electrical Machines Design, Control and Diagnosis (WEMDCD)</journalTitle>
+          <publishedPages/>
+          <publishedYear>2025</publishedYear>
+          <publisher>IEEE WEMDCD 2025</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1109/WEMDCD61816.2025.11014169</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-08-04 12:57:30</sourceUpdateDate>
+        <contentUpdateDate>2025-08-04 12:57:30</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1345077</rcn>
+        <id>101056781_206662_PUBLIHORIZON</id>
+        <title>Analysis of the Magnetic Fields Only Currents (MFCO) COMSOL Interface for the Simulation of Parasitic Inductances in Chip Embedding Power Boards</title>
+        <details>
+          <authors>Mariana Raya, Emma Solà, David Sánchez, Miquel Vellvehi, Xavier Perpiñà, Xavier Jordà</authors>
+          <journalNumber/>
+          <journalTitle>2025 26th International Conference on Thermal, Mechanical and Multi-Physics Simulation and Experiments in Microelectronics and Microsystems (EuroSimE)</journalTitle>
+          <publishedPages/>
+          <publishedYear>2025</publishedYear>
+          <publisher>EuroSime 2025</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1109/EUROSIME65125.2025.11006561</doi>
+          <issn>2833-8596</issn>
+        </identifiers>
+        <sourceUpdateDate>2025-08-04 12:57:30</sourceUpdateDate>
+        <contentUpdateDate>2025-08-04 12:57:30</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1347779</rcn>
+        <id>101056781_206679_PUBLIHORIZON</id>
+        <title>Non-Intrusive Online Junction Temperature Monitoring in Si and SiC Power MOSFETs</title>
+        <details>
+          <authors>Miquel Tutusaus, Xavier Perpiñà, Miquel Vellvehi, Manuel Fernández, Sergio Llorente, Xavier Jordà</authors>
+          <journalNumber/>
+          <journalTitle/>
+          <publishedPages/>
+          <publishedYear>2025</publishedYear>
+          <publisher>ISPSD 2025</publisher>
+        </details>
+        <sourceUpdateDate>2025-08-04 12:57:30</sourceUpdateDate>
+        <contentUpdateDate>2025-08-04 12:57:30</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1075954</rcn>
+        <id>101056781_9_DELIVHORIZON</id>
+        <title>Test cases</title>
+        <description>Report defining the test cases that will serve as an acceptance criterion of the requirements of all levels.</description>
+        <sourceUpdateDate>2025-04-07 10:19:05</sourceUpdateDate>
+        <contentUpdateDate>2024-04-08 17:16:31</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode readOnly="true">/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>0ff89fb409a9d1b43b91292ae9eb7d80</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e509dee003&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1257237</rcn>
+        <id>101056781_23548_PUBLIHORIZON</id>
+        <title>Design Optimization of a Three-Level Neutral-Point-Clamped Traction Inverter for Electric Vehicles based on Switching-Cell Arrays</title>
+        <details>
+          <authors>Rafiezadeh, R.; Busquets-Monge, S.; Alepuz, S.; Garcia-Rojas, G.; Fañanás Puigjaner, G.</authors>
+          <journalNumber/>
+          <journalTitle/>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <doi>10.23919/EPE23ECCEEUROPE58414.2023.10264425</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-04-15 01:27:45</sourceUpdateDate>
+        <contentUpdateDate>2025-06-04 16:27:20</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1345076</rcn>
+        <id>101056781_206573_PUBLIHORIZON</id>
+        <title>A Novel Mathematical Approach for Inductor-Current Expressions Definition in Multilevel Dual-Active-Bridge Converters</title>
+        <details>
+          <authors>Borrell-Pons, Eudald; Esquius-Mas, Oriol; Filba-Martinez, Alber; Trilla, Lluís</authors>
+          <journalNumber/>
+          <journalTitle>Electronics</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>MDPI</publisher>
+        </details>
+        <identifiers>
+          <doi>10.3390/ELECTRONICS13224476</doi>
+          <issn>2079-9292</issn>
+        </identifiers>
+        <sourceUpdateDate>2025-08-04 12:57:30</sourceUpdateDate>
+        <contentUpdateDate>2025-08-04 12:57:30</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>929483</rcn>
+        <id>101056781_49_DELIVHORIZON</id>
+        <title>Project website</title>
+        <description>Project’s website. It will be a main channel for the project’s communication to stakeholders, media, and public at large. It will be periodically updated with the progress and free-to-publish results of the project.</description>
+        <sourceUpdateDate>2025-04-07 10:19:05</sourceUpdateDate>
+        <contentUpdateDate>2023-04-21 15:10:01</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/DEC</code>
+              <title>Websites, patent fillings, videos etc.</title>
+              <displayCode readOnly="true">/Websites, patent fillings, videos etc.</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>0091626f4395311a972be7269dfb6f97</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5f5cb9a45&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>929555</rcn>
+        <id>101056781_13_DELIVHORIZON</id>
+        <title>Selection of switching-cell main power semiconductor devices</title>
+        <description>Report on the literature review of WBG power devices state-of-the-art, suitable for EV power conversion, as well as on comprehensive review about future trends based on emerging technologies such as diamond or Ga2O3. The report will determine the candidate references to be used in the implementation of the SCs.</description>
+        <sourceUpdateDate>2025-04-07 10:19:05</sourceUpdateDate>
+        <contentUpdateDate>2023-04-21 15:11:16</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode readOnly="true">/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>b55272e198463a49e60107528032400d</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5f5cb9e4a&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode readOnly="true">/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/51/359/1071</code>
+        <title>topology</title>
+        <displayCode readOnly="true">/natural sciences/mathematics/pure mathematics/topology</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/43/259/777</code>
+        <title>semiconductivity</title>
+        <displayCode readOnly="true">/natural sciences/physical sciences/electromagnetism and electronics/semiconductivity</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode readOnly="true">/Digital agenda</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode readOnly="true">/Clean air</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode readOnly="true">/Artificial intelligence</displayCode>
+      </category>
+      <category weight="100" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode readOnly="true">/Climate action</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode readOnly="true">/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <code>/HORIZON-RIA</code>
+        <title>HORIZON  Research and Innovation Actions</title>
+        <description>HORIZON  Research and Innovation Actions</description>
+        <displayCode readOnly="true">/HORIZON  Research and Innovation Actions</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode readOnly="true">/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages readOnly="true">en</availableLanguages>
+  <rcn>239320</rcn>
+  <id>101066915</id>
+  <acronym>LP-NORM</acronym>
+  <teaser>Automated vehicles and complex robot workers are expected to be used massively soon, with positive impacts on security, health at work and productivity. To handle real-world situations, they need to compute their command as fast as possible, but the advanced, safe control...</teaser>
+  <objective>Automated vehicles and complex robot workers are expected to be used massively soon, with positive impacts on security, health at work and productivity. To handle real-world situations, they need to compute their command as fast as possible, but the advanced, safe control algorithms remain a computational bottleneck. 
+To find the solution to a set of motion specifications and constraints for a robot, a widely used approach is to formulate and solve an optimization problem. The formulation is necessarily imprecise, due to modeling, sensing and estimation errors and the solution will not be executed perfectly by the robot. Yet the optimization solvers used in robotics are designed to converge to an exact solution with high precision, wasting time.
+In this project, I make a change of paradigm by leveraging approximations and investigate how the absence of need for high precision can be used to develop faster solvers. I study what approximations or errors are acceptable for the problem formulation and the solution, paying attention to the numeric properties of the problem. I use this knowledge to develop a solver tailored for approximate computations, with an emphasize on cheap but imprecise inner iterations and early termination. It will also handle gracefully infeasible situations due to errors, making it safer to operate in real conditions.
+To make the study, and test and benchmark the solver, I focus on two families of control problems: model predictive control and instantaneous linearized control, applied to a wide variety of systems, from buses, to rockets, to humanoid robots.
+This solver will have important impacts: make it possible to achieve real-time control for the most complex system; allow to keep real-time, when it was already possible, while enriching the problems; reduce the computing power and energy consumption required for a given robot. Understanding and handling imprecisions would also allow to build less precise and thus cheaper robots.</objective>
+  <title>Leveraging Precision in Numerical Optimization for Robotic Motions</title>
+  <keywords>Optimisation-based control,  model predictive control,  whole-body control,  autonomous vehicles,  quadruped robots,  humanoid robots</keywords>
+  <totalCost>0</totalCost>
+  <ecMaxContribution>211754.88</ecMaxContribution>
+  <startDate>2022-08-01</startDate>
+  <endDate>2024-07-31</endDate>
+  <ecSignatureDate>2022-05-24</ecSignatureDate>
+  <duration>24</duration>
+  <status>SIGNED</status>
+  <identifiers>
+    <grantDoi>10.3030/101066915</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>false</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2025-01-03 10:47:16</sourceUpdateDate>
+  <contentCreationDate readOnly="true">2022-08-04 17:12:30</contentCreationDate>
+  <contentUpdateDate>2022-08-04 17:12:21</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-09-19 14:48:45</lastUpdateDate>
+  <relations>
+    <associations>
+      <article source="editorial" type="relatedArticle">
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <rcn>434781</rcn>
+        <id>434781-precise-robot-control-from-imprecise-but-fast-computations</id>
+        <title>Precise robot control from imprecise but fast computations</title>
+        <contentUpdateDate>2022-10-17 18:24:01</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/projectDescription</code>
+              <title>Project description</title>
+              <description>Article: description of linked project written by editorial team</description>
+              <displayCode readOnly="true">/Project description</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/editorial</code>
+              <title>CORDIS Editorial</title>
+              <description>Written by CORDIS</description>
+              <displayCode readOnly="true">/CORDIS Editorial</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </article>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>55376</rcn>
+        <title>HORIZON-MSCA-2021-PF-01</title>
+        <identifier>HORIZON-MSCA-2021-PF-01</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>55376</rcn>
+        <title>HORIZON-MSCA-2021-PF-01</title>
+        <identifier>HORIZON-MSCA-2021-PF-01</identifier>
+      </call>
+      <organization source="corda" order="1" terminated="false" sme="false" netEcContribution="211754.88" totalCost="0" ecContribution="211754.88" type="coordinator">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1906120</rcn>
+        <id>999547074</id>
+        <vatNumber>FR45180089047</vatNumber>
+        <legalName>INSTITUT NATIONAL DE RECHERCHE EN INFORMATIQUE ET AUTOMATIQUE</legalName>
+        <shortName>INRIA</shortName>
+        <address>
+          <street>DOMAINE DE VOLUCEAU ROCQUENCOURT</street>
+          <city>Le Chesnay Cedex</city>
+          <postalCode>78153</postalCode>
+          <country>FR</country>
+          <postBox>N/A</postBox>
+          <url>http://www.inria.fr</url>
+          <geolocation>48.8278506,2.1319603</geolocation>
+        </address>
+        <departmentName>Inria</departmentName>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/REC</code>
+              <title>Research Organisations</title>
+              <displayCode readOnly="true">/Research Organisations</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>France</name>
+              <rcn>258902568</rcn>
+              <nutsCode>FR</nutsCode>
+              <euCode>FR</euCode>
+              <isoCode>FR</isoCode>
+            </region>
+            <region type="relatedRegion">
+              <name>France</name>
+              <rcn>258902568</rcn>
+              <nutsCode>FR</nutsCode>
+              <euCode>FR</euCode>
+              <isoCode>FR</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme source="corda" type="relatedTopic">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>706003</rcn>
+        <id>HORIZON_HORIZON-MSCA-2021-PF-01-01</id>
+        <code>HORIZON-MSCA-2021-PF-01-01</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>MSCA Postdoctoral Fellowships 2021</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode readOnly="true">/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme source="corda" uniqueProgrammePart="true" type="relatedLegalBasis">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>705729</rcn>
+        <id>HORIZON.1.2</id>
+        <code>HORIZON.1.2</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.1.2</pga>
+        <title>Marie Skłodowska-Curie Actions (MSCA)</title>
+        <parent>
+          <programme>
+            <rcn>705726</rcn>
+            <code>HORIZON.1</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode readOnly="true">/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1217524</rcn>
+        <id>101066915_76050_PUBLIHORIZON</id>
+        <title>Motion Accuracy and Computational Effort in QP-based Robot Control</title>
+        <details>
+          <authors>Sélim Chefchaouni, Mehdi Benallegue,  Adrien Escande, Pierre-Brice Wieber</authors>
+          <journalNumber/>
+          <journalTitle>2024 IEEE-RAS International Conference on Humanoid Robots</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arXiv.2407.16617</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-10-27 22:11:02</sourceUpdateDate>
+        <contentUpdateDate>2024-12-04 08:16:20</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1249489</rcn>
+        <id>101066915_1_DELIVHORIZON</id>
+        <title>Data Management Plan</title>
+        <description>The Data Management Plan describes the data management life cycle for all data sets that will be collected, processed or generated by the action. It is a document describing what data will be collected, processed or generated and following what methodology and standards, whether and how this data will be shared and/or made open, and how it will be curated and preserved.</description>
+        <sourceUpdateDate>2025-02-04 05:57:03</sourceUpdateDate>
+        <contentUpdateDate>2025-02-10 08:22:47</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/DMP</code>
+              <title>Data Management Plan</title>
+              <displayCode readOnly="true">/Data Management Plan</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>45cf4f7b1b1c93460cc91f6c6edca5c2</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5f7192bcd&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1256044</rcn>
+        <id>101066915_PSHORIZON</id>
+        <title>Periodic Reporting for period 1 - LP-NORM (Leveraging Precision in Numerical Optimization for Robotic Motions)</title>
+        <teaser>Robotic systems are expected to take a large place in tomorrow’s society, from self-driving vehicles to humanoid robots, far beyond current industrial robots in tightly controlled factory environments. Disruptive domains include autonomous cars or buses for transportation...</teaser>
+        <description>periodic</description>
+        <sourceUpdateDate>2025-02-17 20:05:29</sourceUpdateDate>
+        <contentUpdateDate>2025-02-17 20:05:29</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/pubsum</code>
+              <title>Report Summary</title>
+              <description>Result: Publishable summary (FP7 SESAM) and Summary for publication (H2020 SyGMa)</description>
+              <displayCode readOnly="true">/Report Summary</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1181826</rcn>
+        <id>101066915_76049_PUBLIHORIZON</id>
+        <title>The Hierarchical Newton’s Method for Numerically Stable Prioritized Dynamic Control</title>
+        <details>
+          <authors>Kai Pfeiffer, Adrien Escande, Pierre Gergondet, Abderrahmane Kheddar</authors>
+          <journalNumber>31</journalNumber>
+          <journalTitle>IEEE Transactions on Control Systems Technology</journalTitle>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>Institute of Electrical and Electronics Engineers (IEEE)</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1109/TCST.2023.3234492</doi>
+          <issn>1063-6536</issn>
+        </identifiers>
+        <sourceUpdateDate>2024-10-27 22:11:02</sourceUpdateDate>
+        <contentUpdateDate>2024-10-29 18:37:01</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1181829</rcn>
+        <id>101066915_76048_PUBLIHORIZON</id>
+        <title>Optimization-Based Control for Dynamic Legged Robots</title>
+        <details>
+          <authors>Patrick M. Wensing, Michael Posa, Yue Hu, Adrien Escande, Nicolas Mansard, Andrea Del Prete</authors>
+          <journalNumber>40</journalNumber>
+          <journalTitle>IEEE Transactions on Robotics</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>Institute of Electrical and Electronics Engineers (IEEE)</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1109/TRO.2023.3324580</doi>
+          <issn>1552-3098</issn>
+        </identifiers>
+        <sourceUpdateDate>2024-10-27 22:11:02</sourceUpdateDate>
+        <contentUpdateDate>2024-10-29 18:37:01</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1249477</rcn>
+        <id>101066915_3_DELIVHORIZON</id>
+        <title><![CDATA[Communication, Dissemination & Outreach Plan]]></title>
+        <description>The plan describes the planned measures to maximize the impact of the project, including the dissemination and exploitation measures that are planned, and the target group(s) addressed. Regarding communication measures and public engagement strategy, the aim is to inform and reach out to society and show the activities performed, and the use and the benefits the project will have for citizens.</description>
+        <sourceUpdateDate>2025-02-04 05:57:03</sourceUpdateDate>
+        <contentUpdateDate>2025-02-10 08:22:46</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode readOnly="true">/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>2b9dcbc3c7e5738f2de5a5c97a1605c0</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e517afdf3e&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode readOnly="true">/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/29/91/521/1299/1757</code>
+        <title>productivity</title>
+        <displayCode readOnly="true">/social sciences/economics and business/economics/production economics/productivity</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/25/73/453/459</code>
+        <title>robotics</title>
+        <displayCode readOnly="true">/engineering and technology/electrical engineering, electronic engineering, information engineering/electronic engineering/robotics</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode readOnly="true">/Digital agenda</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode readOnly="true">/Clean air</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode readOnly="true">/Artificial intelligence</displayCode>
+      </category>
+      <category weight="40" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode readOnly="true">/Climate action</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode readOnly="true">/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <code>/HORIZON-TMA-MSCA-PF-EF</code>
+        <title>HORIZON TMA MSCA Postdoctoral Fellowships - European Fellowships</title>
+        <description>HORIZON TMA MSCA Postdoctoral Fellowships - European Fellowships</description>
+        <displayCode readOnly="true">/HORIZON TMA MSCA Postdoctoral Fellowships - European Fellowships</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode readOnly="true">/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

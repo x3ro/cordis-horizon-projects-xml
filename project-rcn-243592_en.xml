@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages readOnly="true">en</availableLanguages>
+  <rcn>243592</rcn>
+  <id>101045811</id>
+  <acronym>MONTECARLO</acronym>
+  <teaser>In a series of relevant real world problems it is of fundamental importance to approximatively compute evaluations of high-dimensional functions. Such high-dimensional approximation problems appear, e.g., in stochastic optimal control problems in operations research, e.g., in...</teaser>
+  <objective>In a series of relevant real world problems it is of fundamental importance to approximatively compute evaluations of high-dimensional functions. Such high-dimensional approximation problems appear, e.g., in stochastic optimal control problems in operations research, e.g., in supervised learning problems, e.g., in financial engineering where partial differential equations (PDEs) and forward backward stochastic differential equations (FBSDEs) are used to approximatively price financial products, and, e.g., in nonlinear filtering problems where stochastic PDEs are used to approximatively describe the state of a given physical system with only partial information available. Standard approximation methods for such approximation problems suffer from the socalled curse of dimensionality in the sense that the number of computational operations of the approximation method grows at least exponentially in the problem dimension. It is the key objective of this project to design and analyze approximation algorithms which provably overcome the curse of dimensionality in the case of stochastic optimal control problem, nonlinear PDEs, nonlinear FBSDEs, certain SPDEs, and certain supervised learning problems. We intend to solve many of the above named approximation problems by combining different types of multilevel Monte Carlo approximation methods, in particular, multilevel Picard approximation methods, with stochastic gradient descent (SGD) optimization methods. Another chief objective of this project is to prove the conjecture that the SGD optimization method converges in the training of ANNs with ReLU activation. We expect that the outcome of this project will have a significant impact on the way how highdimensional PDEs, FBSDEs, and stochastic optimal control problems are solved in engineering and operations research and on the mathematical understanding of the training of ANNs by means of the SGD optimization methods.</objective>
+  <title>Overcoming the curse of dimensionality through nonlinear stochastic algorithms</title>
+  <keywords>information-based complexity, IBC, computational stochastics, Monte Carlo method, multilevel Monte Carlo method, numerical analysis, partial differential equation, PDE, backward stochastic differential equation, BSDE, stochastic optimal control, stochastic partial differential equation, SPDE, stochastic gradient descent, SGD, machine learning, artificial neural network, ANN</keywords>
+  <totalCost>1351528</totalCost>
+  <ecMaxContribution>1351528</ecMaxContribution>
+  <startDate>2023-07-01</startDate>
+  <endDate>2028-06-30</endDate>
+  <ecSignatureDate>2022-11-29</ecSignatureDate>
+  <duration>60</duration>
+  <status>SIGNED</status>
+  <identifiers>
+    <grantDoi>10.3030/101045811</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>true</euroSciVoc>
+  </validation>
+  <terminationDate>2025-08-31 00:00:00</terminationDate>
+  <sourceUpdateDate>2025-08-21 18:14:57</sourceUpdateDate>
+  <contentCreationDate readOnly="true">2022-12-09 15:44:33</contentCreationDate>
+  <contentUpdateDate>2025-08-28 14:50:24</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-09-22 10:58:07</lastUpdateDate>
+  <relations>
+    <associations>
+      <article source="editorial" type="relatedArticle">
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <rcn>440547</rcn>
+        <id>440547-nonlinear-monte-carlo-type-methods-for-high-dimensional-approximation-problems</id>
+        <title>Nonlinear Monte Carlo type methods for high-dimensional approximation problems</title>
+        <contentUpdateDate>2023-07-19 10:10:43</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/projectDescription</code>
+              <title>Project description</title>
+              <description>Article: description of linked project written by editorial team</description>
+              <displayCode readOnly="true">/Project description</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/editorial</code>
+              <title>CORDIS Editorial</title>
+              <description>Written by CORDIS</description>
+              <displayCode readOnly="true">/CORDIS Editorial</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </article>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>55314</rcn>
+        <title>ERC-2021-COG</title>
+        <identifier>ERC-2021-COG</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>55314</rcn>
+        <title>ERC-2021-COG</title>
+        <identifier>ERC-2021-COG</identifier>
+      </call>
+      <organization source="corda" order="1" ecContribution="1351528" terminated="false" sme="false" netEcContribution="1351528" totalCost="1351528" type="coordinator">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1948992</rcn>
+        <id>999853691</id>
+        <vatNumber>DE126118759</vatNumber>
+        <legalName>UNIVERSITAET MUENSTER</legalName>
+        <shortName>UM</shortName>
+        <address>
+          <street>SCHLOSSPLATZ  2</street>
+          <city>Muenster</city>
+          <postalCode>48149</postalCode>
+          <country>DE</country>
+          <postBox>N/A</postBox>
+          <url>http://www.uni-muenster.de</url>
+          <geolocation>51.9635826,7.6135957</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode readOnly="true">/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Münster, Kreisfreie Stadt</name>
+              <rcn>221814979</rcn>
+              <nutsCode>DEA33</nutsCode>
+              <parents>
+                <region>
+                  <name>Münster</name>
+                  <rcn>221815016</rcn>
+                  <nutsCode>DEA3</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Nordrhein-Westfalen</name>
+                      <rcn>221817384</rcn>
+                      <nutsCode>DEA</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Germany</name>
+                          <rcn>221940264</rcn>
+                          <nutsCode>DE</nutsCode>
+                          <euCode>DE</euCode>
+                          <isoCode>DE</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Germany</name>
+              <rcn>221940264</rcn>
+              <nutsCode>DE</nutsCode>
+              <euCode>DE</euCode>
+              <isoCode>DE</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme source="corda" type="relatedTopic">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>705886</rcn>
+        <id>HORIZON_ERC-2021-COG</id>
+        <code>ERC-2021-COG</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>ERC CONSOLIDATOR GRANTS</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode readOnly="true">/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme source="corda" uniqueProgrammePart="true" type="relatedLegalBasis">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>705727</rcn>
+        <id>HORIZON.1.1</id>
+        <code>HORIZON.1.1</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.1.1</pga>
+        <title>European Research Council (ERC)</title>
+        <parent>
+          <programme>
+            <rcn>705726</rcn>
+            <code>HORIZON.1</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode readOnly="true">/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1356630</rcn>
+        <id>101045811_217690_PUBLIHORIZON</id>
+        <title>Local Lipschitz Continuity in the Initial Value and Strong Completeness for Nonlinear Stochastic Differential Equations</title>
+        <details>
+          <authors>Sonja Cox, Martin Hutzenthaler, Arnulf Jentzen</authors>
+          <journalNumber>296</journalNumber>
+          <journalTitle>Memoirs of the American Mathematical Society</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>American Mathematical Society (AMS)</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1090/MEMO/1481</doi>
+          <issn>0065-9266</issn>
+        </identifiers>
+        <sourceUpdateDate>2025-09-06 01:23:00</sourceUpdateDate>
+        <contentUpdateDate>2025-09-08 12:25:00</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1356646</rcn>
+        <id>101045811_217679_PUBLIHORIZON</id>
+        <title>Overcoming the curse of dimensionality in the numerical approximation of high-dimensional semilinear elliptic partial differential equations</title>
+        <details>
+          <authors>Christian Beck, Lukas Gonon, Arnulf Jentzen</authors>
+          <journalNumber>5</journalNumber>
+          <journalTitle>Partial Differential Equations and Applications</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>Springer Science and Business Media LLC</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1007/S42985-024-00272-4</doi>
+          <issn>2662-2963</issn>
+        </identifiers>
+        <sourceUpdateDate>2025-09-06 01:23:00</sourceUpdateDate>
+        <contentUpdateDate>2025-09-08 12:25:02</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1356660</rcn>
+        <id>101045811_217674_PUBLIHORIZON</id>
+        <title>On the Existence of Minimizers in Shallow Residual ReLU Neural Network Optimization Landscapes</title>
+        <details>
+          <authors>Steffen Dereich, Arnulf Jentzen, Sebastian Kassing</authors>
+          <journalNumber>62</journalNumber>
+          <journalTitle>SIAM Journal on Numerical Analysis</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>Society for Industrial &amp; Applied Mathematics (SIAM)</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1137/23M1556241</doi>
+          <issn>0036-1429</issn>
+        </identifiers>
+        <sourceUpdateDate>2025-09-06 01:23:00</sourceUpdateDate>
+        <contentUpdateDate>2025-09-08 12:25:02</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1356662</rcn>
+        <id>101045811_217673_PUBLIHORIZON</id>
+        <title>Nonlinear Monte Carlo Methods with Polynomial Runtime for Bellman Equations of Discrete Time High-Dimensional Stochastic Optimal Control Problems</title>
+        <details>
+          <authors>Christian Beck, Arnulf Jentzen, Konrad Kleinberg, Thomas Kruse</authors>
+          <journalNumber>91</journalNumber>
+          <journalTitle>Applied Mathematics &amp;amp; Optimization</journalTitle>
+          <publishedPages/>
+          <publishedYear>2025</publishedYear>
+          <publisher>Springer Science and Business Media LLC</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1007/S00245-024-10213-7</doi>
+          <issn>0095-4616</issn>
+        </identifiers>
+        <sourceUpdateDate>2025-09-06 01:23:00</sourceUpdateDate>
+        <contentUpdateDate>2025-09-08 12:25:02</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1356658</rcn>
+        <id>101045811_217677_PUBLIHORIZON</id>
+        <title>Space-Time Deep Neural Network Approximations for High-Dimensional Partial Differential Equations</title>
+        <details>
+          <authors>Fabian Hornung, Arnulf Jentzen and Diyora Salimova</authors>
+          <journalNumber>0</journalNumber>
+          <journalTitle>Journal of Computational Mathematics</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>Global Science Press</publisher>
+        </details>
+        <identifiers>
+          <doi>10.4208/JCM.2308-M2021-0266</doi>
+          <issn>0254-9409</issn>
+        </identifiers>
+        <sourceUpdateDate>2025-09-06 01:23:00</sourceUpdateDate>
+        <contentUpdateDate>2025-09-08 12:25:02</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1356639</rcn>
+        <id>101045811_219550_PUBLIHORIZON</id>
+        <title>Learning rate adaptive stochastic gradient descent optimization methods: numerical simulations for deep learning methods for partial differential equations and convergence analyses</title>
+        <details>
+          <authors>Steffen Dereich, Arnulf Jentzen, Adrian Riekert</authors>
+          <journalNumber>to appear</journalNumber>
+          <journalTitle>Communications in Computational Physics</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>Global Science Press</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/ARXIV.2406.14340</doi>
+          <issn>1815-2406</issn>
+        </identifiers>
+        <sourceUpdateDate>2025-09-19 14:28:24</sourceUpdateDate>
+        <contentUpdateDate>2025-09-22 10:58:03</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1356634</rcn>
+        <id>101045811_217792_PUBLIHORIZON</id>
+        <title>Non-convergence to Global Minimizers for Adam and Stochastic Gradient Descent Optimization and Constructions of Local Minimizers in the Training of Artificial Neural Networks</title>
+        <details>
+          <authors>Arnulf Jentzen, Adrian Riekert</authors>
+          <journalNumber>13</journalNumber>
+          <journalTitle>SIAM/ASA Journal on Uncertainty Quantification</journalTitle>
+          <publishedPages/>
+          <publishedYear>2025</publishedYear>
+          <publisher>Society for Industrial &amp; Applied Mathematics (SIAM)</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1137/24M1639464</doi>
+          <issn>2166-2525</issn>
+        </identifiers>
+        <sourceUpdateDate>2025-09-06 01:23:00</sourceUpdateDate>
+        <contentUpdateDate>2025-09-08 12:25:01</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1356650</rcn>
+        <id>101045811_217678_PUBLIHORIZON</id>
+        <title>Gradient Descent Provably Escapes Saddle Points in the Training of Shallow ReLU Networks</title>
+        <details>
+          <authors>Patrick Cheridito, Arnulf Jentzen, Florian Rossmannek</authors>
+          <journalNumber>203</journalNumber>
+          <journalTitle>Journal of Optimization Theory and Applications</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>Springer Science and Business Media LLC</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1007/S10957-024-02513-3</doi>
+          <issn>0022-3239</issn>
+        </identifiers>
+        <sourceUpdateDate>2025-09-06 01:23:00</sourceUpdateDate>
+        <contentUpdateDate>2025-09-08 12:25:02</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode readOnly="true">/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/47/297/933/1595</code>
+        <title>supervised learning</title>
+        <displayCode readOnly="true">/natural sciences/computer and information sciences/artificial intelligence/machine learning/supervised learning</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/51/355/357</code>
+        <title>statistics and probability</title>
+        <displayCode readOnly="true">/natural sciences/mathematics/applied mathematics/statistics and probability</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/51/359/1067/1637/1817</code>
+        <title>partial differential equations</title>
+        <displayCode readOnly="true">/natural sciences/mathematics/pure mathematics/mathematical analysis/differential equations/partial differential equations</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/51/355/1061</code>
+        <title>numerical analysis</title>
+        <displayCode readOnly="true">/natural sciences/mathematics/applied mathematics/numerical analysis</displayCode>
+      </category>
+      <category weight="40" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode readOnly="true">/Digital agenda</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode readOnly="true">/Clean air</displayCode>
+      </category>
+      <category weight="40" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode readOnly="true">/Artificial intelligence</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode readOnly="true">/Climate action</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode readOnly="true">/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <code>/HORIZON-ERC</code>
+        <title>HORIZON ERC Grants</title>
+        <description>HORIZON ERC Grants</description>
+        <displayCode readOnly="true">/HORIZON ERC Grants</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode readOnly="true">/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages readOnly="true">en</availableLanguages>
+  <rcn>238205</rcn>
+  <id>101041040</id>
+  <acronym>SAMPDE</acronym>
+  <teaser>This project will develop a mathematical theory of sample complexity, i.e. of finite measurements, for inverse problems in partial differential equations (PDE). Inverse problems are ubiquitous in science and engineering, and appear when a quantity has to be reconstructed from...</teaser>
+  <objective>This project will develop a mathematical theory of sample complexity, i.e. of finite measurements, for inverse problems in partial differential equations (PDE). Inverse problems are ubiquitous in science and engineering, and appear when a quantity has to be reconstructed from indirect measurements. Whenever physics plays a crucial role in the description of an inverse problem, the mathematical model is based on a PDE. Many imaging modalities belong to this category, including ultrasonography, electrical impedance tomography and photoacoustic tomography. Many different PDE appear, depending on the physical domain. Currently, there is a substantial gap between theory and practice: all theoretical results require infinitely many measurements, while in all applied studies and practical implementations, only a finite number of measurements are taken. We argue that this gap is crucial, since the number of measurements is usually not very large, and has important consequences, regarding the choice of measurements, the priors on the unknown and the reconstruction algorithms. Many safe and effective modalities have had very limited use due to low reconstruction quality. Within a multidisciplinary approach, by combining methods from PDE theory, numerical analysis, signal processing, compressed sensing and machine learning, we will bridge this gap by developing a theory of sample complexity for inverse problems in PDE. This will allow for the deriving of a new mathematical theory of inverse problems for PDE under realistic assumptions, which will impact the implementation of many modalities, guiding the choice of priors and measurements. Consequently, emerging imaging modalities will become closer to actual usage. As a by-product, we will also derive new compressed sensing results which are valid for a general class of problems, including nonlinear and ill-posed, and sparsity constraints. Collaborations with experts in the relevant fields will ensure the project’s success.</objective>
+  <title>Sample complexity for inverse problems in PDE</title>
+  <keywords>inverse problems, compressed sensing, machine learning</keywords>
+  <totalCost>1153125</totalCost>
+  <ecMaxContribution>1153125</ecMaxContribution>
+  <startDate>2022-11-01</startDate>
+  <endDate>2027-10-31</endDate>
+  <ecSignatureDate>2022-04-29</ecSignatureDate>
+  <duration>60</duration>
+  <status>SIGNED</status>
+  <identifiers>
+    <grantDoi>10.3030/101041040</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>false</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2025-01-03 10:47:16</sourceUpdateDate>
+  <contentCreationDate readOnly="true">2022-07-25 14:35:26</contentCreationDate>
+  <contentUpdateDate>2024-09-06 18:24:24</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-09-19 14:49:09</lastUpdateDate>
+  <relations>
+    <associations>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>55317</rcn>
+        <title>ERC-2021-STG</title>
+        <identifier>ERC-2021-STG</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>55317</rcn>
+        <title>ERC-2021-STG</title>
+        <identifier>ERC-2021-STG</identifier>
+      </call>
+      <organization source="corda" order="1" ecContribution="1153125" terminated="false" sme="false" netEcContribution="1153125" totalCost="1153125" type="coordinator">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1908657</rcn>
+        <id>999976687</id>
+        <vatNumber>IT00754150100</vatNumber>
+        <legalName>UNIVERSITA DEGLI STUDI DI GENOVA</legalName>
+        <shortName>UNIGE</shortName>
+        <address>
+          <street>VIA BALBI 5</street>
+          <city>GENOVA</city>
+          <postalCode>16126</postalCode>
+          <country>IT</country>
+          <postBox>N/A</postBox>
+          <url>http://www.unige.it</url>
+          <geolocation>44.4152455,8.9256873</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode readOnly="true">/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Genova</name>
+              <rcn>309641411</rcn>
+              <nutsCode>ITC33</nutsCode>
+              <parents>
+                <region>
+                  <name>Liguria</name>
+                  <rcn>309641448</rcn>
+                  <nutsCode>ITC3</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Nord-Ovest</name>
+                      <rcn>309643816</rcn>
+                      <nutsCode>ITC</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Italy</name>
+                          <rcn>309758504</rcn>
+                          <nutsCode>IT</nutsCode>
+                          <euCode>IT</euCode>
+                          <isoCode>IT</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Italy</name>
+              <rcn>309758504</rcn>
+              <nutsCode>IT</nutsCode>
+              <euCode>IT</euCode>
+              <isoCode>IT</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme source="corda" type="relatedTopic">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>705885</rcn>
+        <id>HORIZON_ERC-2021-STG</id>
+        <code>ERC-2021-STG</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>ERC STARTING GRANTS</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode readOnly="true">/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme source="corda" uniqueProgrammePart="true" type="relatedLegalBasis">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>705727</rcn>
+        <id>HORIZON.1.1</id>
+        <code>HORIZON.1.1</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.1.1</pga>
+        <title>European Research Council (ERC)</title>
+        <parent>
+          <programme>
+            <rcn>705726</rcn>
+            <code>HORIZON.1</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode readOnly="true">/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1335375</rcn>
+        <id>101041040_PSHORIZON</id>
+        <title>Periodic Reporting for period 1 - SAMPDE (Sample complexity for inverse problems in PDE)</title>
+        <teaser>This project seeks to establish a mathematical framework for analyzing sample complexity—specifically, the role of finite measurements—in inverse problems governed by partial differential equations (PDEs). Inverse problems occur frequently in science and engineering when...</teaser>
+        <description>periodic</description>
+        <sourceUpdateDate>2025-07-14 16:29:30</sourceUpdateDate>
+        <contentUpdateDate>2025-07-14 16:29:30</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/pubsum</code>
+              <title>Report Summary</title>
+              <description>Result: Publishable summary (FP7 SESAM) and Summary for publication (H2020 SyGMa)</description>
+              <displayCode readOnly="true">/Report Summary</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1320271</rcn>
+        <id>101041040_173592_PUBLIHORIZON</id>
+        <title>Journal of the European Mathematical Society</title>
+        <details>
+          <authors>Giovanni S. Alberti; Alessandro Felisi; Matteo Santacesaria; S. Ivan Trapasso</authors>
+          <journalNumber/>
+          <journalTitle>Journal of the European Mathematical Society</journalTitle>
+          <publishedPages/>
+          <publishedYear>2025</publishedYear>
+          <publisher>European Mathematical Society</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/ARXIV.2302.03577</doi>
+          <issn>1435-9855</issn>
+        </identifiers>
+        <sourceUpdateDate>2025-07-04 19:26:43</sourceUpdateDate>
+        <contentUpdateDate>2025-07-07 15:40:22</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1234387</rcn>
+        <id>101041040_107996_PUBLIHORIZON</id>
+        <title>Continuous Generative Neural Networks: A Wavelet-Based Architecture in Function Spaces</title>
+        <details>
+          <authors>Giovanni S. Alberti, Matteo Santacesaria, Silvia Sciutto</authors>
+          <journalNumber>46</journalNumber>
+          <journalTitle>Numerical Functional Analysis and Optimization</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>Informa UK Limited</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1080/01630563.2024.2422064</doi>
+          <issn>0163-0563</issn>
+        </identifiers>
+        <sourceUpdateDate>2024-12-23 09:43:51</sourceUpdateDate>
+        <contentUpdateDate>2024-12-27 16:18:35</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1234393</rcn>
+        <id>101041040_107997_PUBLIHORIZON</id>
+        <title>SIAM Journal on Imaging Sciences</title>
+        <details>
+          <authors>Giovanni S. Alberti; Romain Petit; Matteo Santacesaria</authors>
+          <journalNumber>Vol. 17, Iss. 3</journalNumber>
+          <journalTitle>SIAM Journal on Imaging Sciences</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>Society for Industrial and Applied Mathematics</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arxiv.2402.00737</doi>
+          <issn>1936-4954</issn>
+        </identifiers>
+        <sourceUpdateDate>2024-12-23 09:43:51</sourceUpdateDate>
+        <contentUpdateDate>2024-12-27 16:18:36</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1234390</rcn>
+        <id>101041040_107995_PUBLIHORIZON</id>
+        <title>Manifold Learning by Mixture Models of VAEs for Inverse Problems</title>
+        <details>
+          <authors>Alberti, Giovanni S; Hertrich, Johannes; Santacesaria, Matteo; Sciutto, Silvia</authors>
+          <journalNumber>25(202):1−35, 2024</journalNumber>
+          <journalTitle>Journal of Machine Learning Research</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>Microtome Publishing</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/ARXIV.2303.15244</doi>
+          <issn>1533-7928</issn>
+        </identifiers>
+        <sourceUpdateDate>2025-04-15 01:27:45</sourceUpdateDate>
+        <contentUpdateDate>2025-05-19 17:00:20</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1234379</rcn>
+        <id>101041040_107994_PUBLIHORIZON</id>
+        <title>Exact recovery of the support of piecewise constant images via total variation regularization</title>
+        <details>
+          <authors>Yohann De Castro; Vincent Duval; Romain Petit</authors>
+          <journalNumber>40 105012</journalNumber>
+          <journalTitle>Inverse Problems</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>IOP</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arxiv.2307.03709</doi>
+          <issn>1361-6420</issn>
+        </identifiers>
+        <sourceUpdateDate>2024-12-23 09:43:51</sourceUpdateDate>
+        <contentUpdateDate>2024-12-27 16:18:34</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1320262</rcn>
+        <id>101041040_173593_PUBLIHORIZON</id>
+        <title>Learning a Gaussian mixture for sparsity regularization in inverse problems</title>
+        <details>
+          <authors>Giovanni S Alberti, Luca Ratti, Matteo Santacesaria, Silvia Sciutto</authors>
+          <journalNumber/>
+          <journalTitle>IMA Journal of Numerical Analysis</journalTitle>
+          <publishedPages/>
+          <publishedYear>2025</publishedYear>
+          <publisher>Oxford University Press (OUP)</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1093/IMANUM/DRAF037</doi>
+          <issn>0272-4979</issn>
+        </identifiers>
+        <sourceUpdateDate>2025-07-04 19:26:43</sourceUpdateDate>
+        <contentUpdateDate>2025-07-07 15:40:16</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode readOnly="true">/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/51/359/1067/1637/1817</code>
+        <title>partial differential equations</title>
+        <displayCode readOnly="true">/natural sciences/mathematics/pure mathematics/mathematical analysis/differential equations/partial differential equations</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode readOnly="true">/Digital agenda</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode readOnly="true">/Clean air</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode readOnly="true">/Artificial intelligence</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode readOnly="true">/Climate action</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode readOnly="true">/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <code>/HORIZON-ERC</code>
+        <title>HORIZON ERC Grants</title>
+        <description>HORIZON ERC Grants</description>
+        <displayCode readOnly="true">/HORIZON ERC Grants</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode readOnly="true">/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

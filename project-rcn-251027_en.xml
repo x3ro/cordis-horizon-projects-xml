@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages readOnly="true">en</availableLanguages>
+  <rcn>251027</rcn>
+  <id>101095310</id>
+  <acronym>TerraVirtualE</acronym>
+  <teaser>The question about how solar storms impact a planet has both fundamental scientific importance and greatsocial impacts for protecting our infrastructure from the most powerful solar storms. At present, models relyon a fluid description of the electrons due to algorithmic and...</teaser>
+  <objective>The question about how solar storms impact a planet has both fundamental scientific importance and great
+social impacts for protecting our infrastructure from the most powerful solar storms. At present, models rely
+on a fluid description of the electrons due to algorithmic and computational challenges. Our goal is to develop
+a model of the space environment around a planet based on a particle description of both ions and electrons.
+We plan to use the particle in cell (PIC) model where both ions and electrons retain their nature as particles.
+This PIC model will allow us to investigate the critical role of energetic electrons participating in the energy
+and matter transfer from the solar wind to the planet inner space.
+What makes this goal now possible is the Energy Conserving semi implicit method (ECsim), developed by
+the PI. The ECsim conserves energy exactly, a critical element in the investigation of energy flow from the
+solar wind. In addition, the energy conservation leads to enhanced numerical stability, which in turn greatly
+augment ECsim’s capability to simulate very large systems such as planet atmospheres while treating electrons
+as particles rather than fluid. We will start from this new development and introduce two critical innovations.
+First, we will implement adaptive spatial and temporal resolution for finer resolution closer to the planet and
+in selected areas of interest. Second, we will implement CPU-GPU algorithms for the new heterogeneous
+supercomputers developed by EuroHPC.
+These innovations will increase the capability of ECsim by more than an order of magnitude making it possible
+to model a region as big as the Earth space environment with the computers available within the next 3-5 years.
+If successful, we will have the first PIC model to describe a planetary space environment where the correct
+particle nature of the electrons is considered with all its implication for the energy and matter transport.</objective>
+  <title>Planetary space simulations based on the particle description for electrons and ions.</title>
+  <keywords>Space weather, Planetary space environment, Heterogeneous supercomputers</keywords>
+  <totalCost>518233.21</totalCost>
+  <ecMaxContribution>518233.21</ecMaxContribution>
+  <startDate>2023-09-01</startDate>
+  <endDate>2025-05-31</endDate>
+  <ecSignatureDate>2023-05-24</ecSignatureDate>
+  <duration>21</duration>
+  <status>SIGNED</status>
+  <identifiers>
+    <grantDoi>10.3030/101095310</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>false</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2025-01-20 23:03:52</sourceUpdateDate>
+  <contentCreationDate readOnly="true">2023-06-28 16:54:27</contentCreationDate>
+  <contentUpdateDate>2023-06-28 16:54:15</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-09-19 14:49:02</lastUpdateDate>
+  <relations>
+    <associations>
+      <article source="editorial" type="relatedArticle">
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <rcn>445915</rcn>
+        <id>445915-advanced-model-to-describe-the-planetary-space-environment</id>
+        <title>Advanced model to describe the planetary space environment</title>
+        <contentUpdateDate>2024-01-05 10:58:45</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/projectDescription</code>
+              <title>Project description</title>
+              <description>Article: description of linked project written by editorial team</description>
+              <displayCode readOnly="true">/Project description</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/editorial</code>
+              <title>CORDIS Editorial</title>
+              <description>Written by CORDIS</description>
+              <displayCode readOnly="true">/CORDIS Editorial</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </article>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>55593</rcn>
+        <title>ERC-2022-ADG</title>
+        <identifier>ERC-2022-ADG</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>55593</rcn>
+        <title>ERC-2022-ADG</title>
+        <identifier>ERC-2022-ADG</identifier>
+      </call>
+      <organization source="corda" order="1" ecContribution="518233.21" terminated="false" sme="false" netEcContribution="518233.21" totalCost="518233.21" type="coordinator">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1905910</rcn>
+        <id>999991334</id>
+        <vatNumber>BE0419052173</vatNumber>
+        <legalName>KATHOLIEKE UNIVERSITEIT LEUVEN</legalName>
+        <shortName>KU Leuven</shortName>
+        <address>
+          <street>OUDE MARKT 13</street>
+          <city>Leuven</city>
+          <postalCode>3000</postalCode>
+          <country>BE</country>
+          <postBox>N/A</postBox>
+          <url>http://www.kuleuven.be</url>
+          <geolocation>50.8780592,4.699407640209</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode readOnly="true">/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Arr. Leuven</name>
+              <rcn>188227842</rcn>
+              <nutsCode>BE242</nutsCode>
+              <parents>
+                <region>
+                  <name>Prov. Vlaams-Brabant</name>
+                  <rcn>188227880</rcn>
+                  <nutsCode>BE24</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Vlaams Gewest</name>
+                      <rcn>188230184</rcn>
+                      <nutsCode>BE2</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Belgium</name>
+                          <rcn>188385832</rcn>
+                          <nutsCode>BE</nutsCode>
+                          <euCode>BE</euCode>
+                          <isoCode>BE</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Belgium</name>
+              <rcn>188385832</rcn>
+              <nutsCode>BE</nutsCode>
+              <euCode>BE</euCode>
+              <isoCode>BE</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme source="corda" type="relatedTopic">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>706725</rcn>
+        <id>HORIZON_ERC-2022-ADG</id>
+        <code>ERC-2022-ADG</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>ERC ADVANCED GRANTS</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode readOnly="true">/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme source="corda" uniqueProgrammePart="true" type="relatedLegalBasis">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>705727</rcn>
+        <id>HORIZON.1.1</id>
+        <code>HORIZON.1.1</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.1.1</pga>
+        <title>European Research Council (ERC)</title>
+        <parent>
+          <programme>
+            <rcn>705726</rcn>
+            <code>HORIZON.1</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode readOnly="true">/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1320569</rcn>
+        <id>101095310_196117_PUBLIHORIZON</id>
+        <title>Coronal mass ejection propagation in the dynamically coupled space weather tool: COCONUT + EUHFORIA</title>
+        <details>
+          <authors>L. Linan, T. Baratashvili, A. Lani, B. Schmieder, M. Brchnelova, J. H. Guo, S. Poedts</authors>
+          <journalNumber>693</journalNumber>
+          <journalTitle>Astronomy &amp;amp; Astrophysics</journalTitle>
+          <publishedPages/>
+          <publishedYear>2025</publishedYear>
+          <publisher>EDP Sciences</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1051/0004-6361/202451854</doi>
+          <issn>0004-6361</issn>
+        </identifiers>
+        <sourceUpdateDate>2025-07-04 19:26:43</sourceUpdateDate>
+        <contentUpdateDate>2025-07-07 16:15:56</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode readOnly="true">/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/43/257/771/1511</code>
+        <title>planets</title>
+        <displayCode readOnly="true">/natural sciences/physical sciences/astronomy/planetary sciences/planets</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/25/73/453/449/1205</code>
+        <title>supercomputers</title>
+        <displayCode readOnly="true">/engineering and technology/electrical engineering, electronic engineering, information engineering/electronic engineering/computer hardware/supercomputers</displayCode>
+      </category>
+      <category weight="40" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode readOnly="true">/Digital agenda</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode readOnly="true">/Clean air</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode readOnly="true">/Artificial intelligence</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode readOnly="true">/Climate action</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode readOnly="true">/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <code>/HORIZON-ERC</code>
+        <title>HORIZON ERC Grants</title>
+        <description>HORIZON ERC Grants</description>
+        <displayCode readOnly="true">/HORIZON ERC Grants</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode readOnly="true">/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

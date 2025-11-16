@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages readOnly="true">en</availableLanguages>
+  <rcn>276422</rcn>
+  <id>101220235</id>
+  <acronym>Privacy4FMs</acronym>
+  <teaser>Novel foundation models (FMs) like GPT, LLaMA, and Stable Diffusion are achieving exceptional performance across diverse tasks, generating high-quality text, images, and audio, and driving industry innovations. This progress stems from a shift in machine learning paradigm:...</teaser>
+  <objective><![CDATA[Novel foundation models (FMs) like GPT, LLaMA, and Stable Diffusion are achieving exceptional performance across diverse tasks, generating high-quality text, images, and audio, and driving industry innovations. This progress stems from a shift in machine learning paradigm: instead of training task-specific models on curated datasets, FMs are first pretrained on vast, uncurated data to become strong general-purpose models, then adapted on smaller, domain-specific datasets for specific tasks.
+
+However, FMs leak information from their training data. For example, recent studies reveal that they can re-create individual data points from their pretraining and adaptation datasets. This poses serious privacy risks when private data is involved. Preventing exposure requires developing methods to ensure privacy-preservation throughout FMs' lifecycle, from pretraining to deployment. To achieve this, our project will identify sources of privacy leakage, provide privacy guarantees over both pretraining and adaptation, and audit FMs to detect privacy violations. Therefore, we must overcome three major challenges: the limited understanding of privacy risks in FM pretraining, the lack of formal joint privacy guarantees for pretraining and adaptation, and the ineffectiveness of current privacy auditing methods.
+
+The solution that we propose will establish a novel theoretical framework for privacy guarantees in FMs under the pretrain-adapt paradigm. Our fundamental innovations rely on the insight that, due to complex interdependencies between pretraining and adaptation data, different data points require individual levels of protection to prevent leakage. Advancing methods for identifying, achieving, and accounting for such individual guarantees will enable us to formally bound privacy leakage over both training stages and to detect violations. These innovations will allow society to benefit from technological advancements through FMs without compromising individuals' privacy.]]></objective>
+  <title>Privacy Protection and Auditing for Foundation Models</title>
+  <keywords>privacy, differential privacy, foundation models, privacy auditing</keywords>
+  <totalCost>1499973</totalCost>
+  <ecMaxContribution>1499973</ecMaxContribution>
+  <startDate>2026-01-01</startDate>
+  <endDate>2030-12-31</endDate>
+  <ecSignatureDate>2025-09-23</ecSignatureDate>
+  <duration>60</duration>
+  <status>SIGNED</status>
+  <identifiers>
+    <grantDoi>10.3030/101220235</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>false</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2025-09-26 04:33:22</sourceUpdateDate>
+  <contentCreationDate readOnly="true">2025-09-30 12:27:26</contentCreationDate>
+  <contentUpdateDate>2025-09-30 12:27:25</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-09-30 12:27:26</lastUpdateDate>
+  <relations>
+    <associations>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>57053</rcn>
+        <title>ERC-2025-STG</title>
+        <identifier>ERC-2025-STG</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>57053</rcn>
+        <title>ERC-2025-STG</title>
+        <identifier>ERC-2025-STG</identifier>
+      </call>
+      <organization source="corda" order="1" ecContribution="1499973" terminated="false" sme="false" netEcContribution="1499973" totalCost="1499973" type="coordinator">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1965363</rcn>
+        <id>907336546</id>
+        <vatNumber>DE316283105</vatNumber>
+        <legalName>CISPA - HELMHOLTZ-ZENTRUM FUR INFORMATIONSSICHERHEIT GGMBH</legalName>
+        <address>
+          <street>STUHLSATZENHAUS 5</street>
+          <city>SAARBRUCKEN</city>
+          <postalCode>66123</postalCode>
+          <country>DE</country>
+          <geolocation>49.2593161,7.051837</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/REC</code>
+              <title>Research Organisations</title>
+              <displayCode readOnly="true">/Research Organisations</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Regionalverband Saarbrücken</name>
+              <rcn>221822977</rcn>
+              <nutsCode>DEC01</nutsCode>
+              <parents>
+                <region>
+                  <name>Saarland</name>
+                  <rcn>221823016</rcn>
+                  <nutsCode>DEC0</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Saarland</name>
+                      <rcn>221825576</rcn>
+                      <nutsCode>DEC</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Germany</name>
+                          <rcn>221940264</rcn>
+                          <nutsCode>DE</nutsCode>
+                          <euCode>DE</euCode>
+                          <isoCode>DE</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Germany</name>
+              <rcn>221940264</rcn>
+              <nutsCode>DE</nutsCode>
+              <euCode>DE</euCode>
+              <isoCode>DE</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme source="corda" uniqueProgrammePart="true" type="relatedLegalBasis">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>705727</rcn>
+        <id>HORIZON.1.1</id>
+        <code>HORIZON.1.1</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.1.1</pga>
+        <title>European Research Council (ERC)</title>
+        <parent>
+          <programme>
+            <rcn>705726</rcn>
+            <code>HORIZON.1</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode readOnly="true">/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme source="corda" type="relatedTopic">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>709265</rcn>
+        <id>HORIZON_ERC-2025-STG</id>
+        <code>ERC-2025-STG</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>ERC STARTING GRANTS</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode readOnly="true">/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode readOnly="true">/Project</displayCode>
+      </category>
+      <category weight="100" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode readOnly="true">/Digital agenda</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode readOnly="true">/Clean air</displayCode>
+      </category>
+      <category weight="100" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode readOnly="true">/Artificial intelligence</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode readOnly="true">/Climate action</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode readOnly="true">/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <code>/HORIZON-ERC</code>
+        <title>HORIZON ERC Grants</title>
+        <description>HORIZON ERC Grants</description>
+        <displayCode readOnly="true">/HORIZON ERC Grants</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode readOnly="true">/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

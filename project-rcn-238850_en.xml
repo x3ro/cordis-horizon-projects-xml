@@ -1,0 +1,1346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages readOnly="true">en</availableLanguages>
+  <rcn>238850</rcn>
+  <id>101054974</id>
+  <acronym>SymSim</acronym>
+  <teaser>The goal of this project is to develop an algorithmic theory of similarity between graphs. Graphs are versatile models for representing complex data ranging from chemical molecules to social interactions. Dealing with graphical data and enabling modern data analysis...</teaser>
+  <objective>The goal of this project is to develop an algorithmic theory of similarity between graphs. Graphs are versatile models for representing complex data ranging from chemical molecules to social interactions. Dealing with graphical data and enabling modern data analysis techniques, a fundamental task is to compare graphs and to measure their similarity, preferably in a semantically meaningful and algorithmically efficient way. However, it is not clear at all how to achieve this. In many application areas, for example, computer vision, database systems, and formal verification, researchers have proposed (often ad-hoc) solutions to this problem tailored for the specific application, but a general theory is missing. We will develop such a theory in this project.
+
+Similarity of graphs has many different facets.  We will identify the common core of different approaches to similarity, but also exhibit their differences. We will design methods for comparing different similarity measures and for obtaining a semantic understanding of similarity. We will develop criteria for the suitability of various similarity measures for different types of applications.
+
+A particular focus of our research will be on efficient algorithms for computing similarity. There is little use in having a perfect similarity measure if we have no efficient way of determining how similar two graphs are.
+
+A classic algorithmic problem in this context is the graph isomorphism problem of deciding whether two graphs are structurally identical. Determining the precise computational complexity of this problem, or of the equivalent problem of computing all symmetries of a graph, is regarded to be one of the most important open questions in theoretical computer science. Building on recent progress, we will design new algorithms breaking barriers towards a polynomial-time algorithm for the isomorphism problem.</objective>
+  <title>Symmetry and Similarity</title>
+  <keywords>graph similarity, graph isomorphism, vector embedding, constraint satisfaction, homomorphism counting</keywords>
+  <totalCost>2495575</totalCost>
+  <ecMaxContribution>2495575</ecMaxContribution>
+  <startDate>2022-10-01</startDate>
+  <endDate>2027-09-30</endDate>
+  <ecSignatureDate>2022-05-30</ecSignatureDate>
+  <duration>60</duration>
+  <status>SIGNED</status>
+  <identifiers>
+    <grantDoi>10.3030/101054974</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>false</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2025-03-31 14:53:11</sourceUpdateDate>
+  <contentCreationDate readOnly="true">2022-08-02 17:20:43</contentCreationDate>
+  <contentUpdateDate>2022-08-02 17:20:35</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-09-19 14:48:53</lastUpdateDate>
+  <relations>
+    <associations>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>55319</rcn>
+        <title>ERC-2021-ADG</title>
+        <identifier>ERC-2021-ADG</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>55319</rcn>
+        <title>ERC-2021-ADG</title>
+        <identifier>ERC-2021-ADG</identifier>
+      </call>
+      <organization source="corda" order="1" ecContribution="2495575" terminated="false" sme="false" netEcContribution="2495575" totalCost="2495575" type="coordinator">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1905639</rcn>
+        <id>999983962</id>
+        <vatNumber>DE121689807</vatNumber>
+        <legalName>RHEINISCH-WESTFAELISCHE TECHNISCHE HOCHSCHULE AACHEN</legalName>
+        <shortName>RWTH AACHEN</shortName>
+        <address>
+          <street>TEMPLERGRABEN 55</street>
+          <city>Aachen</city>
+          <postalCode>52062</postalCode>
+          <country>DE</country>
+          <postBox>000</postBox>
+          <url>http://www.rwth-aachen.de</url>
+          <geolocation>50.7777954,6.07779426513182</geolocation>
+        </address>
+        <departmentName>RWTH Aachen</departmentName>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode readOnly="true">/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Städteregion Aachen</name>
+              <rcn>1465382</rcn>
+              <nutsCode>DEA2D</nutsCode>
+              <parents>
+                <region>
+                  <name>Köln</name>
+                  <rcn>221814952</rcn>
+                  <nutsCode>DEA2</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Nordrhein-Westfalen</name>
+                      <rcn>221817384</rcn>
+                      <nutsCode>DEA</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Germany</name>
+                          <rcn>221940264</rcn>
+                          <nutsCode>DE</nutsCode>
+                          <euCode>DE</euCode>
+                          <isoCode>DE</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Germany</name>
+              <rcn>221940264</rcn>
+              <nutsCode>DE</nutsCode>
+              <euCode>DE</euCode>
+              <isoCode>DE</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme source="corda" uniqueProgrammePart="true" type="relatedLegalBasis">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>705727</rcn>
+        <id>HORIZON.1.1</id>
+        <code>HORIZON.1.1</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.1.1</pga>
+        <title>European Research Council (ERC)</title>
+        <parent>
+          <programme>
+            <rcn>705726</rcn>
+            <code>HORIZON.1</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode readOnly="true">/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme source="corda" type="relatedTopic">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>705892</rcn>
+        <id>HORIZON_ERC-2021-ADG</id>
+        <code>ERC-2021-ADG</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>ERC ADVANCED GRANTS</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode readOnly="true">/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1198831</rcn>
+        <id>101054974_89383_PUBLIHORIZON</id>
+        <title>Simulating Logspace-Recursion with Logarithmic Quantifier Depth</title>
+        <details>
+          <authors>van Bergerem, Steffen; Grohe, Martin; Kiefer, Sandra; Oeljeklaus, Luca Frédéric Tilmann</authors>
+          <journalNumber/>
+          <journalTitle>38th Annual ACM/IEEE Symposium on Logic in Computer Science (LICS) : 26 – 29 June 2023, Boston, USA, 2023&lt;br/&gt;38. Annual ACM/IEEE Symposium on Logic in Computer Science, LICS, Boston, MA, USA, 2023-06-26 - 2023-06-29</journalTitle>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arxiv.2304.12948</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-11-17 19:36:32</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 15:28:41</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1256104</rcn>
+        <id>101054974_89387_PUBLIHORIZON</id>
+        <title>Limitations of Game Comonads for Invertible-Map Equivalence via Homomorphism Indistinguishability</title>
+        <details>
+          <authors>Lichter, Moritz; Pago, Benedikt Thomas; Seppelt, Tim Frederik</authors>
+          <journalNumber/>
+          <journalTitle>32nd EACSL Annual Conference on Computer Science Logic : CSL 2024, February 19–23, 2024, Naples, Italy / edited by Aniello Murano, Alexandra Silva&lt;br/&gt;32. EACSL Annual Conference on Computer Science Logic, CSL 2024, Naples, Italy, 2024-02-19 - 2024-02-23</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>Schloss Dagstuhl – Leibniz-Zentrum für Informatik</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arXiv.2308.05693</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-11-17 19:36:32</sourceUpdateDate>
+        <contentUpdateDate>2025-02-21 13:04:24</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1198819</rcn>
+        <id>101054974_89380_PUBLIHORIZON</id>
+        <title>An Algorithmic Meta Theorem for Homomorphism Indistinguishability</title>
+        <details>
+          <authors>Seppelt, Tim Frederik</authors>
+          <journalNumber/>
+          <journalTitle>49th International Symposium on Mathematical Foundations of Computer Science</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>Schloss Dagstuhl – Leibniz-Zentrum für Informatik</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arXiv.2402.08989</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-11-17 19:36:32</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 15:28:40</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1198840</rcn>
+        <id>101054974_89386_PUBLIHORIZON</id>
+        <title>The Complexity of Homomorphism Reconstructibility</title>
+        <details>
+          <authors>Böker, Jan Wilhelm; Härtel, Louis; Runde, Nina Katrin; Seppelt, Tim Frederik; Standke, Christoph</authors>
+          <journalNumber/>
+          <journalTitle>41st International Symposium on Theoretical Aspects of Computer Science (STACS 2024)</journalTitle>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>Schloss Dagstuhl - Leibniz-Zentrum für Informatik GmbH</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arxiv.2310.09009</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-11-17 19:36:32</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 15:28:42</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1256100</rcn>
+        <id>101054974_89427_PUBLIHORIZON</id>
+        <title>Where Did the Gap Go? Reassessing the Long-Range Graph Benchmark</title>
+        <details>
+          <authors>Jan Tönshoff, Martin Ritzert, Eran Rosenbluth, Martin Grohe</authors>
+          <journalNumber/>
+          <journalTitle>Transactions on Machine Learning Research</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>MLR Press</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/ARXIV.2309.00367</doi>
+          <issn>2835-8856</issn>
+        </identifiers>
+        <sourceUpdateDate>2025-04-15 01:27:45</sourceUpdateDate>
+        <contentUpdateDate>2025-06-03 17:21:58</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1198849</rcn>
+        <id>101054974_89428_PUBLIHORIZON</id>
+        <title>Logical equivalences, homomorphism indistinguishability, and forbidden minors</title>
+        <details>
+          <authors>Tim Seppelt</authors>
+          <journalNumber>301</journalNumber>
+          <journalTitle>Information and Computation</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>Elsevier BV</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arXiv.2302.11290</doi>
+          <issn>0890-5401</issn>
+        </identifiers>
+        <sourceUpdateDate>2024-11-17 19:36:32</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 15:28:42</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1198828</rcn>
+        <id>101054974_89377_PUBLIHORIZON</id>
+        <title>The Parameterized Complexity of Learning Monadic Second-Order Logic</title>
+        <details>
+          <authors>van Bergerem, Steffen; Grohe, Martin; Runde, Nina</authors>
+          <journalNumber/>
+          <journalTitle/>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>arxiv.org</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arxiv.2309.10489</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-11-17 19:36:32</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 15:28:41</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/OTHER</code>
+              <title>Other</title>
+              <displayCode readOnly="true">/Other</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1198839</rcn>
+        <id>101054974_89420_PUBLIHORIZON</id>
+        <title>Position: Future Directions in the Theory of Graph Machine Learning</title>
+        <details>
+          <authors>Christopher Morris, Fabrizio Frasca, Nadav Dym, Haggai Maron, Ismail Ilkan Ceylan, Ron Levie, Derek Lim, Michael M. Bronstein, Martin Grohe, Stefanie Jegelka</authors>
+          <journalNumber/>
+          <journalTitle>41st International Conference on Machine Learning</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>MLR Press</publisher>
+        </details>
+        <sourceUpdateDate>2024-11-17 19:36:32</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 15:28:42</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1198829</rcn>
+        <id>101054974_89379_PUBLIHORIZON</id>
+        <title>The Descriptive Complexity of Graph Neural Networks</title>
+        <details>
+          <authors>Grohe, Martin</authors>
+          <journalNumber/>
+          <journalTitle>Proceedings of the 38th Annual ACM/IEEE Symposium on Logic in Computer Science</journalTitle>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arxiv.2303.04613</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-11-17 19:36:32</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 15:28:41</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1198836</rcn>
+        <id>101054974_89385_PUBLIHORIZON</id>
+        <title>Computational complexity of the Weisfeiler-Leman dimension</title>
+        <details>
+          <authors>Lichter, Moritz; Raßmann, Simon; Schweitzer, Pascal</authors>
+          <journalNumber/>
+          <journalTitle/>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>arxiv.org</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arxiv.2402.11531</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-11-17 19:36:32</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 15:28:42</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/OTHER</code>
+              <title>Other</title>
+              <displayCode readOnly="true">/Other</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1198834</rcn>
+        <id>101054974_89415_PUBLIHORIZON</id>
+        <title>Are Targeted Messages More Effective?</title>
+        <details>
+          <authors>Martin Grohe, Eran Rosenbluth</authors>
+          <journalNumber/>
+          <journalTitle>Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>ACM</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arXiv.2403.06817</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-11-17 19:36:32</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 15:28:42</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1308016</rcn>
+        <id>101054974_PSHORIZON</id>
+        <title>Periodic Reporting for period 1 - SymSim (Symmetry and Similarity)</title>
+        <teaser>This project aims to develop an algorithmic theory of similarity between graphs. Graphs are versatile models for representing complex data ranging from chemical molecules to social interactions. In dealing with graphical data and enabling modern data analysis techniques, a...</teaser>
+        <description>periodic</description>
+        <sourceUpdateDate>2025-06-09 13:13:44</sourceUpdateDate>
+        <contentUpdateDate>2025-06-09 13:13:44</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/pubsum</code>
+              <title>Report Summary</title>
+              <description>Result: Publishable summary (FP7 SESAM) and Summary for publication (H2020 SyGMa)</description>
+              <displayCode readOnly="true">/Report Summary</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1198842</rcn>
+        <id>101054974_89384_PUBLIHORIZON</id>
+        <title>Fine-grained Expressivity of Graph Neural Networks</title>
+        <details>
+          <authors>Böker, Jan; Levie, Ron; Huang, Ningyuan; Villar, Soledad; Morris, Christopher</authors>
+          <journalNumber/>
+          <journalTitle>Advances in Neural Information Processing Systems</journalTitle>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>MLR Press</publisher>
+        </details>
+        <sourceUpdateDate>2024-11-17 19:36:32</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 15:28:42</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1198826</rcn>
+        <id>101054974_89378_PUBLIHORIZON</id>
+        <title>Structural Node Embeddings with Homomorphism Counts</title>
+        <details>
+          <authors>Wolf, Hinrikus; Oeljeklaus, Luca Frédéric Tilmann; Kühner, Pascal; Grohe, Martin</authors>
+          <journalNumber/>
+          <journalTitle/>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>arxiv.org</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arxiv.2308.15283</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-11-17 19:36:32</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 15:28:41</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/OTHER</code>
+              <title>Other</title>
+              <displayCode readOnly="true">/Other</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1198838</rcn>
+        <id>101054974_89389_PUBLIHORIZON</id>
+        <title>Weisfeiler-Leman Indistinguishability of Graphons</title>
+        <details>
+          <authors>Jan Böker</authors>
+          <journalNumber>30</journalNumber>
+          <journalTitle>The Electronic Journal of Combinatorics</journalTitle>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>The Electronic Journal of Combinatorics</publisher>
+        </details>
+        <identifiers>
+          <doi>10.37236/10973</doi>
+          <issn>1077-8926</issn>
+        </identifiers>
+        <sourceUpdateDate>2024-11-17 19:36:32</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 15:28:42</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1198846</rcn>
+        <id>101054974_89388_PUBLIHORIZON</id>
+        <title>Compressing CFI Graphs and Lower Bounds for the Weisfeiler-Leman Refinements</title>
+        <details>
+          <authors>Grohe, Martin; Lichter, Moritz; Neuen, Daniel; Schweitzer, Pascal</authors>
+          <journalNumber/>
+          <journalTitle>2023 IEEE 64th Annual Symposium on Foundations of Computer Science (FOCS)</journalTitle>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arxiv.2308.11970</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-11-17 19:36:32</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 15:28:42</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1198841</rcn>
+        <id>101054974_89423_PUBLIHORIZON</id>
+        <title>Lasserre Hierarchy for Graph Isomorphism and Homomorphism Indistinguishability</title>
+        <details>
+          <authors>David E. Roberson, Tim Seppelt</authors>
+          <journalNumber>Volume 3</journalNumber>
+          <journalTitle>TheoretiCS</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>Centre pour la Communication Scientifique Directe (CCSD)</publisher>
+        </details>
+        <identifiers>
+          <doi>10.46298/theoretics.24.20</doi>
+          <issn>2751-4838</issn>
+        </identifiers>
+        <sourceUpdateDate>2024-11-17 19:36:32</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 15:28:42</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1256102</rcn>
+        <id>101054974_89390_PUBLIHORIZON</id>
+        <title>Supercritical Size-Width Tree-Like Resolution Trade-Offs for Graph Isomorphism</title>
+        <details>
+          <authors>Christoph Berkholz and Moritz Lichter and Harry Vinall-Smeeth</authors>
+          <journalNumber/>
+          <journalTitle/>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>arxiv.org</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/ARXIV.2407.17947</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-11-17 19:36:32</sourceUpdateDate>
+        <contentUpdateDate>2025-02-21 13:02:05</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/OTHER</code>
+              <title>Other</title>
+              <displayCode readOnly="true">/Other</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1198835</rcn>
+        <id>101054974_89416_PUBLIHORIZON</id>
+        <title>The Iteration Number of the Weisfeiler-Leman Algorithm</title>
+        <details>
+          <authors>Martin Grohe, Moritz Lichter, Daniel Neuen</authors>
+          <journalNumber/>
+          <journalTitle>2023 38th Annual ACM/IEEE Symposium on Logic in Computer Science (LICS)</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arXiv.2301.13317</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-11-17 19:36:32</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 15:28:42</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1198837</rcn>
+        <id>101054974_89419_PUBLIHORIZON</id>
+        <title>Limitations of Affine Integer Relaxations for Solving Constraint Satisfaction Problems</title>
+        <details>
+          <authors>Moritz Lichter and Benedikt Pago</authors>
+          <journalNumber/>
+          <journalTitle/>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>arxiv.org</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/ARXIV.2407.09097</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-11-17 19:36:32</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 15:28:42</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/OTHER</code>
+              <title>Other</title>
+              <displayCode readOnly="true">/Other</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1256103</rcn>
+        <id>101054974_89417_PUBLIHORIZON</id>
+        <title>Isomorphism for Tournaments of Small Twin Width</title>
+        <details>
+          <authors>Martin Grohe and Daniel Neuen</authors>
+          <journalNumber/>
+          <journalTitle>Proceedings of the 51st International Colloquium on Automata, Languages, and Programming</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>Schloss Dagstuhl - Leibniz-Zentrum für Informatik</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arXiv.2312.02048</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-11-17 19:36:32</sourceUpdateDate>
+        <contentUpdateDate>2025-02-21 13:02:59</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1198847</rcn>
+        <id>101054974_89418_PUBLIHORIZON</id>
+        <title>Some Thoughts on Graph Similarity</title>
+        <details>
+          <authors>Martin Grohe</authors>
+          <journalNumber/>
+          <journalTitle>Principles of Verification: Cycling the Probabilistic Landscape: Essays Dedicated to Joost-Pieter Katoen on the Occasion of His 60th Birthday, Part I</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>Springer</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/ARXIV.2411.10182</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-04-15 01:27:45</sourceUpdateDate>
+        <contentUpdateDate>2025-06-03 17:21:58</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1198823</rcn>
+        <id>101054974_89382_PUBLIHORIZON</id>
+        <title>WL meet VC</title>
+        <details>
+          <authors>Morris, Christopher; Geerts, Floris; Tönshoff, Jan; Grohe, Martin</authors>
+          <journalNumber/>
+          <journalTitle>Proceedings of the 40th International Conference on Machine Learning (PMLR), 2023, Honolulu, Hawaii, USA.</journalTitle>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>MLR Press</publisher>
+        </details>
+        <sourceUpdateDate>2024-11-17 19:36:32</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 15:28:41</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1198817</rcn>
+        <id>101054974_89381_PUBLIHORIZON</id>
+        <title>Going Deep and Going Wide: Counting Logic and Homomorphism Indistinguishability over Graphs of Bounded Treedepth and Treewidth</title>
+        <details>
+          <authors>Fluck, Eva; Seppelt, Tim Frederik; Spitzer, Gian Luca</authors>
+          <journalNumber/>
+          <journalTitle>32nd EACSL Annual Conference on Computer Science Logic : CSL 2024, February 19–23, 2024, Naples, Italy / edited by Aniello Murano, Alexandra Silvapages</journalTitle>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>Schloss Dagstuhl – Leibniz-Zentrum für Informatik</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arxiv.2308.06044</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-11-17 19:36:32</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 15:28:40</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode readOnly="true">/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/47/303</code>
+        <title>databases</title>
+        <displayCode readOnly="true">/natural sciences/computer and information sciences/databases</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode readOnly="true">/Digital agenda</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode readOnly="true">/Clean air</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode readOnly="true">/Artificial intelligence</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode readOnly="true">/Climate action</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode readOnly="true">/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <code>/HORIZON-ERC</code>
+        <title>HORIZON ERC Grants</title>
+        <description>HORIZON ERC Grants</description>
+        <displayCode readOnly="true">/HORIZON ERC Grants</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode readOnly="true">/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

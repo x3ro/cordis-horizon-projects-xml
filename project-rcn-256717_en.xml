@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages readOnly="true">en</availableLanguages>
+  <rcn>256717</rcn>
+  <id>101116713</id>
+  <acronym>CRYPTOSYSTEMS</acronym>
+  <teaser>Many of today’s criticaMany of today’s critical infrastructures such as power grids or cellular networks are distributed systems which arecomprised of autonomous nodes connected over a network. To avoid single points of failure, a central goal indistributed systems is to...</teaser>
+  <objective>Many of today’s criticaMany of today’s critical infrastructures such as power grids or cellular networks are distributed systems which are
+comprised of autonomous nodes connected over a network. To avoid single points of failure, a central goal in
+distributed systems is to implement such systems in a fault-tolerant manner. Fault-tolerant systems remain secure and
+available even if some minority of nodes crash or spread incorrect information. To improve robustness and scalability,
+cutting-edge systems frequently rely on cryptography. In spite of its benefits, careless use of cryptography can incur
+performance penalties or lead to vulnerabilities. Both of these aspects significantly complicate its use in practice. As
+a result, many real-world systems use cryptography sparingly and therefore lack both robustness and scalability. To
+improve this unsatisfying state of affairs, the objectives of CRYPTOSYSTEMS are as follows:
+• New Formal Models. Established formal models from cryptography and distributed systems pursue independent
+security goals and therefore lack compatibility. CRYPTOSYSTEMS will develop new, more appropriate
+formal models for analyzing the security of cryptographic distributed systems.
+• Efficient and Robust Distributed Algorithms. The use of cryptography is currently underexplored in
+distributed systems. CRYPTOSYSTEMS will present exciting new applications of cryptography that will lead
+to the development of more robust and scalable distributed systems.
+• Cryptography for Distributed Algorithms. Cryptography is seldom developed with distributed algorithms as
+its primary use-case in mind. This results in inefficient or unwieldy cryptography which hampers the efficiency
+of distributed algorithms. To counteract this, CRYPTOSYSTEMS will develop cutting-edge cryptography such
+as compact signatures and communication efficient distributed randomness generation routines. Importantly,
+these tools will be specifically geared toward use in distributed algorithms.</objective>
+  <title>Cryptographic Foundation for Secure and Scalable Distributed Systems</title>
+  <totalCost>1416204</totalCost>
+  <ecMaxContribution>1416204</ecMaxContribution>
+  <startDate>2023-09-01</startDate>
+  <endDate>2028-08-31</endDate>
+  <ecSignatureDate>2023-08-22</ecSignatureDate>
+  <duration>60</duration>
+  <status>SIGNED</status>
+  <identifiers>
+    <grantDoi>10.3030/101116713</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>false</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2025-08-04 12:52:04</sourceUpdateDate>
+  <contentCreationDate readOnly="true">2023-09-20 18:28:31</contentCreationDate>
+  <contentUpdateDate>2025-08-11 13:50:06</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-09-19 14:49:03</lastUpdateDate>
+  <relations>
+    <associations>
+      <article source="editorial" type="relatedArticle">
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <rcn>455941</rcn>
+        <id>455941-improving-cryptographic-distributed-systems-security</id>
+        <title>Improving cryptographic distributed systems’ security</title>
+        <contentUpdateDate>2025-04-24 17:14:46</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="applicationDomain" type="isApplicableIn">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/indust</code>
+              <title>Industrial Technologies</title>
+              <displayCode readOnly="true">/Industrial Technologies</displayCode>
+            </category>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/projectDescription</code>
+              <title>Project description</title>
+              <description>Article: description of linked project written by editorial team</description>
+              <displayCode readOnly="true">/Project description</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/editorial</code>
+              <title>CORDIS Editorial</title>
+              <description>Written by CORDIS</description>
+              <displayCode readOnly="true">/CORDIS Editorial</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </article>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>55580</rcn>
+        <title>ERC-2023-STG</title>
+        <identifier>ERC-2023-STG</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>55580</rcn>
+        <title>ERC-2023-STG</title>
+        <identifier>ERC-2023-STG</identifier>
+      </call>
+      <organization source="corda" order="1" ecContribution="1416204" terminated="false" sme="false" netEcContribution="1416204" totalCost="1416204" type="coordinator">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1965363</rcn>
+        <id>907336546</id>
+        <vatNumber>DE316283105</vatNumber>
+        <legalName>CISPA - HELMHOLTZ-ZENTRUM FUR INFORMATIONSSICHERHEIT GGMBH</legalName>
+        <address>
+          <street>STUHLSATZENHAUS 5</street>
+          <city>SAARBRUCKEN</city>
+          <postalCode>66123</postalCode>
+          <country>DE</country>
+          <geolocation>49.2593161,7.051837</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/REC</code>
+              <title>Research Organisations</title>
+              <displayCode readOnly="true">/Research Organisations</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Regionalverband Saarbrücken</name>
+              <rcn>221822977</rcn>
+              <nutsCode>DEC01</nutsCode>
+              <parents>
+                <region>
+                  <name>Saarland</name>
+                  <rcn>221823016</rcn>
+                  <nutsCode>DEC0</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Saarland</name>
+                      <rcn>221825576</rcn>
+                      <nutsCode>DEC</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Germany</name>
+                          <rcn>221940264</rcn>
+                          <nutsCode>DE</nutsCode>
+                          <euCode>DE</euCode>
+                          <isoCode>DE</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Germany</name>
+              <rcn>221940264</rcn>
+              <nutsCode>DE</nutsCode>
+              <euCode>DE</euCode>
+              <isoCode>DE</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme source="corda" uniqueProgrammePart="true" type="relatedLegalBasis">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>705727</rcn>
+        <id>HORIZON.1.1</id>
+        <code>HORIZON.1.1</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.1.1</pga>
+        <title>European Research Council (ERC)</title>
+        <parent>
+          <programme>
+            <rcn>705726</rcn>
+            <code>HORIZON.1</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode readOnly="true">/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme source="corda" type="relatedTopic">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>706543</rcn>
+        <id>HORIZON_ERC-2023-STG</id>
+        <code>ERC-2023-STG</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>ERC STARTING GRANTS</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode readOnly="true">/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1198002</rcn>
+        <id>101116713_89995_PUBLIHORIZON</id>
+        <title>Early Stopping for Any Number of Corruptions</title>
+        <details>
+          <authors>Julian Loss, Jesper Buus Nielsen</authors>
+          <journalNumber/>
+          <journalTitle>Lecture Notes in Computer Science, Advances in Cryptology – EUROCRYPT 2024</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>Springer Nature Switzerland</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1007/978-3-031-58734-4_16</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-11-17 19:36:32</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 15:22:52</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/BOOK_CHAPTER</code>
+              <title>Book chapters</title>
+              <displayCode readOnly="true">/Book chapters</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1353626</rcn>
+        <id>101116713_212676_PUBLIHORIZON</id>
+        <title>Breaking RSA Generically Is Equivalent to Factoring, with Preprocessing.</title>
+        <details>
+          <authors>Dachman-Soled, Dana; Loss, Julian; O'Neill, Adam</authors>
+          <journalNumber/>
+          <journalTitle/>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher/>
+        </details>
+        <identifiers>
+          <doi>10.60882/CISPA.26892688.V1</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-08-25 08:12:51</sourceUpdateDate>
+        <contentUpdateDate>2025-09-01 11:13:32</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode readOnly="true">/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/47/295/917</code>
+        <title>cryptography</title>
+        <displayCode readOnly="true">/natural sciences/computer and information sciences/computer security/cryptography</displayCode>
+      </category>
+      <category weight="100" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode readOnly="true">/Digital agenda</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode readOnly="true">/Clean air</displayCode>
+      </category>
+      <category weight="100" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode readOnly="true">/Artificial intelligence</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode readOnly="true">/Climate action</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode readOnly="true">/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <code>/HORIZON-ERC</code>
+        <title>HORIZON ERC Grants</title>
+        <description>HORIZON ERC Grants</description>
+        <displayCode readOnly="true">/HORIZON ERC Grants</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode readOnly="true">/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

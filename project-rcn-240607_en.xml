@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages readOnly="true">en</availableLanguages>
+  <rcn>240607</rcn>
+  <id>101064953</id>
+  <acronym>GR-PLUTO</acronym>
+  <teaser>Magnetic fields shape the dynamics of relativistic plasmas that orbit around astrophysical black holes (BHs), as observed in current general relativistic magnetohydrodynamic (GRMHD) models. A primary example is magnetic reconnection, i.e. the rearrangement of the structure of...</teaser>
+  <objective><![CDATA[Magnetic fields shape the dynamics of relativistic plasmas that orbit around astrophysical black holes (BHs), as observed in current general relativistic magnetohydrodynamic (GRMHD) models. A primary example is magnetic reconnection, i.e. the rearrangement of the structure of magnetic field lines, which converts magnetic energy into kinetic and thermal energy and accelerates particles to relativistic velocities, thus producing the high-energy non-thermal radiation observed from accreting compact objects. Despite the importance of small-scale instabilities in determining the properties of magnetic dissipation and particle acceleration, global simulations of relativistic accretion disks usually consider either infinitely conducting fluid or one with a constant finite magnetic dissipation, which doesn't capture the collisionless nature of astrophysical plasmas. The goal of the GR-PLUTO project is to perform the first GRMHD numerical study on reconnection in relativistic disks using an effective non-constant resistivity, which will go beyond standard fluid models by introducing new non-collisional effects in global GRMHD simulations. This approach will test our current knowledge of relativistic magnetic reconnection and provide more consistent estimates for the rate at which particles can be accelerated, along with the general structure of magnetized accretion flows around BHs where this process occurs. As the simulations required to quantify the improvements w.r.t. state-of-the-art relativistic MHD reconnection and GRMHD accretion flow models have a high computational cost, the action will include the development of a numerical tool for the modeling of GRMHD flows based on the public PLUTO code. In collaboration with the hosting group at UniTo, the action will produce a new code that will combine the benefits of highly accurate numerical schemes with energy-efficient HPC methods, which will continue to be freely accessible by the public.]]></objective>
+  <title>General Relativistic numerical models of accretion disks and magnetic reconnection with the PLUTO code</title>
+  <keywords>magnetohydrodynamics,  magnetic reconnection,  plasma physics,  accretion disks,   general relativity,  black holes,  numerical methods for astrophysics,  GPUs,  High-Performance Computing</keywords>
+  <totalCost>0</totalCost>
+  <ecMaxContribution>188590.08</ecMaxContribution>
+  <startDate>2022-11-01</startDate>
+  <endDate>2024-10-31</endDate>
+  <ecSignatureDate>2022-07-12</ecSignatureDate>
+  <duration>24</duration>
+  <status>SIGNED</status>
+  <identifiers>
+    <grantDoi>10.3030/101064953</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>false</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2025-01-03 10:47:16</sourceUpdateDate>
+  <contentCreationDate readOnly="true">2022-09-02 17:30:55</contentCreationDate>
+  <contentUpdateDate>2022-09-02 17:30:43</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-09-19 14:48:41</lastUpdateDate>
+  <relations>
+    <associations>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>55376</rcn>
+        <title>HORIZON-MSCA-2021-PF-01</title>
+        <identifier>HORIZON-MSCA-2021-PF-01</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>55376</rcn>
+        <title>HORIZON-MSCA-2021-PF-01</title>
+        <identifier>HORIZON-MSCA-2021-PF-01</identifier>
+      </call>
+      <organization source="corda" order="1" ecContribution="188590.08" terminated="false" sme="false" netEcContribution="188590.08" totalCost="0" type="coordinator">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1907543</rcn>
+        <id>999861936</id>
+        <vatNumber>IT02099550010</vatNumber>
+        <legalName>UNIVERSITA DEGLI STUDI DI TORINO</legalName>
+        <shortName>UNITO</shortName>
+        <address>
+          <street>VIA GIUSEPPE VERDI 8</street>
+          <city>TORINO</city>
+          <postalCode>10124</postalCode>
+          <country>IT</country>
+          <postBox>N/A</postBox>
+          <url>http://www.unito.it</url>
+          <geolocation>45.0696399,7.6890729</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode readOnly="true">/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Torino</name>
+              <rcn>309641281</rcn>
+              <nutsCode>ITC11</nutsCode>
+              <parents>
+                <region>
+                  <name>Piemonte</name>
+                  <rcn>309641320</rcn>
+                  <nutsCode>ITC1</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Nord-Ovest</name>
+                      <rcn>309643816</rcn>
+                      <nutsCode>ITC</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Italy</name>
+                          <rcn>309758504</rcn>
+                          <nutsCode>IT</nutsCode>
+                          <euCode>IT</euCode>
+                          <isoCode>IT</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Italy</name>
+              <rcn>309758504</rcn>
+              <nutsCode>IT</nutsCode>
+              <euCode>IT</euCode>
+              <isoCode>IT</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme source="corda" type="relatedTopic">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>706003</rcn>
+        <id>HORIZON_HORIZON-MSCA-2021-PF-01-01</id>
+        <code>HORIZON-MSCA-2021-PF-01-01</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>MSCA Postdoctoral Fellowships 2021</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode readOnly="true">/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme uniqueProgrammePart="true" source="corda" type="relatedLegalBasis">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>705729</rcn>
+        <id>HORIZON.1.2</id>
+        <code>HORIZON.1.2</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.1.2</pga>
+        <title>Marie Skłodowska-Curie Actions (MSCA)</title>
+        <parent>
+          <programme>
+            <rcn>705726</rcn>
+            <code>HORIZON.1</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode readOnly="true">/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1078264</rcn>
+        <id>101064953_22603_PUBLIHORIZON</id>
+        <title>A 4th-order accurate finite volume method for ideal classical and special relativistic MHD based on pointwise reconstructions</title>
+        <details>
+          <authors>V. Berta; A. Mignone; M. Bugli; G. Mattia</authors>
+          <journalNumber>449</journalNumber>
+          <journalTitle>J.Comput.Phys.</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>Elsevier</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arxiv.2310.11831</doi>
+          <issn>1090-2716</issn>
+        </identifiers>
+        <sourceUpdateDate>2024-04-11 13:55:58</sourceUpdateDate>
+        <contentUpdateDate>2024-04-15 12:08:05</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1078256</rcn>
+        <id>101064953_22602_PUBLIHORIZON</id>
+        <title>Resistive relativistic MHD simulations of astrophysical jets</title>
+        <details>
+          <authors>G. Mattia; L. Del Zanna; M. Bugli; A. Pavan; R. Ciolfi; G. Bodo; A. Mignone</authors>
+          <journalNumber>679</journalNumber>
+          <journalTitle>Astronomy &amp; Astrophysics</journalTitle>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>EDP Sciences</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arxiv.2308.09477</doi>
+          <issn>1432-0746</issn>
+        </identifiers>
+        <sourceUpdateDate>2024-04-11 13:55:58</sourceUpdateDate>
+        <contentUpdateDate>2024-04-15 12:08:05</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1094525</rcn>
+        <id>101064953_1_DELIVHORIZON</id>
+        <title>Data Management Plan</title>
+        <description>The Data Management Plan describes the data management life cycle for all data sets that will be collected, processed or generated by the action. It is a document describing what data will be collected, processed or generated and following what methodology and standards, whether and how this data will be shared and/or made open, and how it will be curated and preserved.</description>
+        <sourceUpdateDate>2024-05-18 05:28:06</sourceUpdateDate>
+        <contentUpdateDate>2024-05-22 15:36:19</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/DMP</code>
+              <title>Data Management Plan</title>
+              <displayCode readOnly="true">/Data Management Plan</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>59f99bfd7044831b10111350e0abaebb</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e50bda9610&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1227672</rcn>
+        <id>101064953_3_DELIVHORIZON</id>
+        <title><![CDATA[Communication, Dissemination & Outreach Plan]]></title>
+        <description>The plan describes the planned measures to maximize the impact of the project, including the dissemination and exploitation measures that are planned, and the target group(s) addressed. Regarding communication measures and public engagement strategy, the aim is to inform and reach out to society and show the activities performed, and the use and the benefits the project will have for citizens.</description>
+        <sourceUpdateDate>2024-12-02 09:44:48</sourceUpdateDate>
+        <contentUpdateDate>2024-12-09 12:38:10</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode readOnly="true">/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>3041199ac7c61e9528b6417cd6847feb</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e512c4f0dc&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1274986</rcn>
+        <id>101064953_137986_PUBLIHORIZON</id>
+        <title>Astronomy and Astrophysics</title>
+        <details>
+          <authors>M. Bugli; E. F. Lopresti; E. Figueiredo; A. Mignone; B. Cerutti; G. Mattia; L. Del Zanna; G. Bodo; V. Berta</authors>
+          <journalNumber/>
+          <journalTitle>Astronomy &amp;amp; Astrophysics</journalTitle>
+          <publishedPages/>
+          <publishedYear>2025</publishedYear>
+          <publisher>ESO</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arxiv.2410.20924</doi>
+          <issn>0004-6361</issn>
+        </identifiers>
+        <sourceUpdateDate>2025-03-31 14:59:57</sourceUpdateDate>
+        <contentUpdateDate>2025-04-01 08:41:59</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1172721</rcn>
+        <id>101064953_66243_PUBLIHORIZON</id>
+        <title>A fourth-order accurate finite volume scheme for resistive relativistic MHD</title>
+        <details>
+          <authors>A Mignone, V Berta, M Rossazza, M Bugli, G Mattia, L Del Zanna, L Pareschi</authors>
+          <journalNumber>533</journalNumber>
+          <journalTitle>Monthly Notices of the Royal Astronomical Society</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>Oxford University Press (OUP)</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1093/mnras/stae1729</doi>
+          <issn>0035-8711</issn>
+        </identifiers>
+        <sourceUpdateDate>2024-09-30 04:51:42</sourceUpdateDate>
+        <contentUpdateDate>2024-10-10 11:14:20</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1307277</rcn>
+        <id>101064953_PSHORIZON</id>
+        <title>Periodic Reporting for period 1 - GR-PLUTO (General Relativistic numerical models of accretion disks and magnetic reconnection with the PLUTO code)</title>
+        <teaser>In the last few years, the scientific research on astrophysical black holes (BHs) has produced some historical discoveries, such as the detection of gravitational waves and the imaging of supermassive black holes with their accretion disk at the center of galaxies, including...</teaser>
+        <description>periodic</description>
+        <sourceUpdateDate>2025-05-23 15:22:03</sourceUpdateDate>
+        <contentUpdateDate>2025-05-23 15:22:03</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/pubsum</code>
+              <title>Report Summary</title>
+              <description>Result: Publishable summary (FP7 SESAM) and Summary for publication (H2020 SyGMa)</description>
+              <displayCode readOnly="true">/Report Summary</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webItem source="corda" type="relatedResultAttachment">
+              <language>en</language>
+              <availableLanguages readOnly="true">en,any</availableLanguages>
+              <uri>/docs/results/horizon/101064/101064953_PS/s10eer1nx4096-lowdelta-snapshot-t63.png</uri>
+              <alternativeText>Density and resistivity in a reconnecting current sheet (ResRMHD model from Bugli et al., 2025).</alternativeText>
+              <mimetype readOnly="true">image/png</mimetype>
+              <size readOnly="true">1076224</size>
+            </webItem>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1143470</rcn>
+        <id>101064953_22604_PUBLIHORIZON</id>
+        <title>Prospects for realtime characterization of core-collapse supernova and neutrino properties</title>
+        <details>
+          <authors>Meriem Bendahman; Isabel Goos; Joao A.B. Coelho; Matteo Bugli; Alexis Coleiro; Sonia El Hedri; Thierry Foglizzo; Davide Franco; Jérôme Guilet; Antoine Kouchner; Raphaël Raynaud; Yahya Tayalati</authors>
+          <journalNumber>2024(2)</journalNumber>
+          <journalTitle>JCAP - Journal of Cosmology and Astroparticle Physics</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>Institute of Physics</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arxiv.2311.06216</doi>
+          <issn>1475-7516</issn>
+        </identifiers>
+        <sourceUpdateDate>2024-05-01 16:48:20</sourceUpdateDate>
+        <contentUpdateDate>2024-08-06 16:14:49</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode readOnly="true">/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/43/30016</code>
+        <title>relativistic mechanics</title>
+        <displayCode readOnly="true">/natural sciences/physical sciences/relativistic mechanics</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode readOnly="true">/Digital agenda</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode readOnly="true">/Clean air</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode readOnly="true">/Artificial intelligence</displayCode>
+      </category>
+      <category weight="40" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode readOnly="true">/Climate action</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode readOnly="true">/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <code>/HORIZON-TMA-MSCA-PF-EF</code>
+        <title>HORIZON TMA MSCA Postdoctoral Fellowships - European Fellowships</title>
+        <description>HORIZON TMA MSCA Postdoctoral Fellowships - European Fellowships</description>
+        <displayCode readOnly="true">/HORIZON TMA MSCA Postdoctoral Fellowships - European Fellowships</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode readOnly="true">/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

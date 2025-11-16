@@ -1,0 +1,895 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages readOnly="true">en</availableLanguages>
+  <rcn>238558</rcn>
+  <id>101041064</id>
+  <acronym>BigBayesUQ</acronym>
+  <teaser>Recent years have seen a rapid increase in available information. This has created an urgent need for fast statistical and machine learning methods that can scale up to big data sets. Standard approaches, including the now routinely used Bayesian methods, are becoming...</teaser>
+  <objective>Recent years have seen a rapid increase in available information. This has created an urgent need for fast statistical and machine learning methods that can scale up to big data sets. Standard approaches, including the now routinely used Bayesian methods, are becoming computationally infeasible, especially in complex models with many parameters and large data sizes. A variety of algorithms have been proposed to speed up these procedures, but these are typically black box methods with very limited theoretical support. In fact empirical evidence shows the potentially bad performance of such methods. This is especially concerning in real-world applications, e.g. in medicine. In this project I shall open up the black box and provide a theory for scalable Bayesian methods combining recent, state-of-the-art techniques from Bayesian nonparametrics, empirical process theory, and machine learning. I focus on two very important classes of scalable techniques: variational and distributed Bayes. I shall establish guarantees, but also limitations, of these procedures for estimating the parameter of interest, and for quantifying the corresponding uncertainty, within a framework that will also convince outside of the Bayesian paradigm. As a result, scalable Bayesian techniques will have more accurate performance, and also better acceptance by a wider community of scientists and practitioners. The proposed research, although motivated by real world problems, is of a mathematical nature. In the analysis I consider mathematical models, which are routinely used in various fields (e.g. high-dimensional linear and logistic regressions are the work horses in econometrics or genetics). My theoretical results will provide  principled new insights that can be used, for instance in multiple specific applications I am involved in, including developing novel statistical methods for understanding fundamental questions in cosmology and the early detection of dementia using multiple data sources.</objective>
+  <title>The missing mathematical story of Bayesian uncertainty quantification for big data</title>
+  <keywords>asymptotics, frequentist validation of Bayesian methods, posterior consistency, uncertainty quantification, adaptation, nonparametric Bayes, variational inference, theoretical guarantees for computational schemes</keywords>
+  <totalCost>1492750</totalCost>
+  <ecMaxContribution>1492750</ecMaxContribution>
+  <startDate>2022-08-01</startDate>
+  <endDate>2027-07-31</endDate>
+  <ecSignatureDate>2022-02-10</ecSignatureDate>
+  <duration>60</duration>
+  <status>SIGNED</status>
+  <identifiers>
+    <grantDoi>10.3030/101041064</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>true</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2025-01-03 10:47:16</sourceUpdateDate>
+  <contentCreationDate readOnly="true">2022-07-28 20:01:48</contentCreationDate>
+  <contentUpdateDate>2022-07-28 20:01:45</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-09-19 14:49:03</lastUpdateDate>
+  <relations>
+    <associations>
+      <article source="editorial" type="relatedArticle">
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <rcn>434406</rcn>
+        <id>434406-shining-light-into-the-black-box-of-bayesian-algorithms-for-big-data</id>
+        <title>Shining light into the black box of Bayesian algorithms for big data</title>
+        <contentUpdateDate>2022-10-10 18:06:39</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/projectDescription</code>
+              <title>Project description</title>
+              <description>Article: description of linked project written by editorial team</description>
+              <displayCode readOnly="true">/Project description</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/editorial</code>
+              <title>CORDIS Editorial</title>
+              <description>Written by CORDIS</description>
+              <displayCode readOnly="true">/CORDIS Editorial</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </article>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>55317</rcn>
+        <title>ERC-2021-STG</title>
+        <identifier>ERC-2021-STG</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>55317</rcn>
+        <title>ERC-2021-STG</title>
+        <identifier>ERC-2021-STG</identifier>
+      </call>
+      <organization totalCost="1492750" source="corda" order="1" ecContribution="1492750" terminated="false" sme="false" netEcContribution="1492750" type="coordinator">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1905737</rcn>
+        <id>999838850</id>
+        <vatNumber>IT03628350153</vatNumber>
+        <legalName>UNIVERSITA COMMERCIALE LUIGI BOCCONI</legalName>
+        <shortName>UB</shortName>
+        <address>
+          <street>VIA SARFATTI 25</street>
+          <city>Milano</city>
+          <postalCode>20136</postalCode>
+          <country>IT</country>
+          <postBox>000</postBox>
+          <url>http://www.unibocconi.it</url>
+          <geolocation>45.4667971,9.1904984</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode readOnly="true">/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Milano</name>
+              <rcn>1465361</rcn>
+              <nutsCode>ITC4C</nutsCode>
+              <parents>
+                <region>
+                  <name>Lombardia</name>
+                  <rcn>309641512</rcn>
+                  <nutsCode>ITC4</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Nord-Ovest</name>
+                      <rcn>309643816</rcn>
+                      <nutsCode>ITC</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Italy</name>
+                          <rcn>309758504</rcn>
+                          <nutsCode>IT</nutsCode>
+                          <euCode>IT</euCode>
+                          <isoCode>IT</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Italy</name>
+              <rcn>309758504</rcn>
+              <nutsCode>IT</nutsCode>
+              <euCode>IT</euCode>
+              <isoCode>IT</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme source="corda" type="relatedTopic">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>705885</rcn>
+        <id>HORIZON_ERC-2021-STG</id>
+        <code>ERC-2021-STG</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>ERC STARTING GRANTS</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode readOnly="true">/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme source="corda" uniqueProgrammePart="true" type="relatedLegalBasis">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>705727</rcn>
+        <id>HORIZON.1.1</id>
+        <code>HORIZON.1.1</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.1.1</pga>
+        <title>European Research Council (ERC)</title>
+        <parent>
+          <programme>
+            <rcn>705726</rcn>
+            <code>HORIZON.1</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode readOnly="true">/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1236751</rcn>
+        <id>101041064_68038_PUBLIHORIZON</id>
+        <title>Variational Gaussian Processes For Linear Inverse Problems</title>
+        <details>
+          <authors>Randrianarisoa, Thibault; Szabo, Botond</authors>
+          <journalNumber/>
+          <journalTitle>NeurIPS-2023</journalTitle>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>Arxiv</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arXiv.2311.00663</doi>
+          <issn>2331-8422</issn>
+        </identifiers>
+        <sourceUpdateDate>2024-10-08 01:44:25</sourceUpdateDate>
+        <contentUpdateDate>2025-01-08 13:01:19</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1217069</rcn>
+        <id>101041064_68052_PUBLIHORIZON</id>
+        <title>Distributed function estimation: Adaptation using minimal communication</title>
+        <details>
+          <authors>Szabo, Botond; van Zanten, Harry</authors>
+          <journalNumber/>
+          <journalTitle>Mathematical Statistics and Learning</journalTitle>
+          <publishedPages/>
+          <publishedYear>2022</publishedYear>
+          <publisher>EMS Press</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arxiv.2003.12838</doi>
+          <issn>2520-2316</issn>
+        </identifiers>
+        <sourceUpdateDate>2024-10-08 01:44:25</sourceUpdateDate>
+        <contentUpdateDate>2024-12-04 08:12:05</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>910393</rcn>
+        <id>101041064_1_DELIVHORIZON</id>
+        <title>Data Management Plan</title>
+        <description>Data Management Plan</description>
+        <sourceUpdateDate>2023-01-28 23:28:45</sourceUpdateDate>
+        <contentUpdateDate>2023-02-05 22:36:09</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode readOnly="true">/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" represents="project" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>0dfe2e83cbf778e0818f4eeb43673cc9</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5f6ca9a2e&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1181769</rcn>
+        <id>101041064_75977_PUBLIHORIZON</id>
+        <title>Uncertainty quantification for sparse spectral variational approximations in Gaussian process regression</title>
+        <details>
+          <authors>Dennis Nieman, Botond Szabo, Harry van Zanten</authors>
+          <journalNumber>17</journalNumber>
+          <journalTitle>Electronic Journal of Statistics</journalTitle>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>Institute of Mathematical Statistics</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1214/23-ejs2155</doi>
+          <issn>1935-7524</issn>
+        </identifiers>
+        <sourceUpdateDate>2024-10-27 22:11:02</sourceUpdateDate>
+        <contentUpdateDate>2024-10-29 18:36:49</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1217073</rcn>
+        <id>101041064_68846_PUBLIHORIZON</id>
+        <title>Radial neighbours for provably accurate scalable approximations of Gaussian processes</title>
+        <details>
+          <authors>Yichen Zhu, Michele Peruzzi, Cheng Li, David B Dunson</authors>
+          <journalNumber/>
+          <journalTitle>Biometrika</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>Oxford University Press (OUP)</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1093/biomet/asae029</doi>
+          <issn>0006-3444</issn>
+        </identifiers>
+        <sourceUpdateDate>2024-10-08 01:44:25</sourceUpdateDate>
+        <contentUpdateDate>2024-12-04 08:12:06</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1175312</rcn>
+        <id>101041064_68049_PUBLIHORIZON</id>
+        <title>Contraction rates for sparse variational approximations in Gaussian process regression</title>
+        <details>
+          <authors>Nieman, Dennis; Szabo, Botond; van Zanten, Harry</authors>
+          <journalNumber>23</journalNumber>
+          <journalTitle>Journal of Machine Learning Research</journalTitle>
+          <publishedPages/>
+          <publishedYear>2022</publishedYear>
+          <publisher>JMLR, Inc. and Microtome Publishing</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arxiv.2109.10755</doi>
+          <issn>1533-7928</issn>
+        </identifiers>
+        <sourceUpdateDate>2024-10-08 01:44:25</sourceUpdateDate>
+        <contentUpdateDate>2024-10-29 13:27:31</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1181771</rcn>
+        <id>101041064_75978_PUBLIHORIZON</id>
+        <title>Optimal high-dimensional and nonparametric distributed testing under communication constraints</title>
+        <details>
+          <authors>Botond Szabó, Lasse Vuursteen, Harry van Zanten</authors>
+          <journalNumber>51</journalNumber>
+          <journalTitle>The Annals of Statistics</journalTitle>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>Institute of Mathematical Statistics</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1214/23-AOS2269</doi>
+          <issn>0090-5364</issn>
+        </identifiers>
+        <sourceUpdateDate>2024-10-27 22:11:02</sourceUpdateDate>
+        <contentUpdateDate>2025-05-06 16:54:00</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1217070</rcn>
+        <id>101041064_68042_PUBLIHORIZON</id>
+        <title><![CDATA[Analyzing Hierarchical Multi-View MRI Data With StaPLR: An Application to Alzheimer's Disease Classification]]></title>
+        <details>
+          <authors>Wouter van Loon; Frank de Vos; Frank de Vos; Frank de Vos; Marjolein Fokkema; Botond Szabo; Botond Szabo; Marisa Koini; Reinhold Schmidt; Mark de Rooij; Mark de Rooij</authors>
+          <journalNumber/>
+          <journalTitle>Frontiers in Neuroscience, Vol 16 (2022)</journalTitle>
+          <publishedPages/>
+          <publishedYear>2022</publishedYear>
+          <publisher>Frontiers in Neuroscience</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arxiv.2108.05761</doi>
+          <issn>1662-453X</issn>
+        </identifiers>
+        <sourceUpdateDate>2024-10-08 01:44:25</sourceUpdateDate>
+        <contentUpdateDate>2024-12-04 08:12:06</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1181761</rcn>
+        <id>101041064_75979_PUBLIHORIZON</id>
+        <title>Optimal Distributed Composite Testing in High-Dimensional Gaussian Models With 1-Bit Communication</title>
+        <details>
+          <authors>Botond Szabo, Lasse Vuursteen, Harry Van Zanten</authors>
+          <journalNumber>68</journalNumber>
+          <journalTitle>IEEE Transactions on Information Theory</journalTitle>
+          <publishedPages/>
+          <publishedYear>2022</publishedYear>
+          <publisher>Institute of Electrical and Electronics Engineers (IEEE)</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1109/tit.2022.3150599</doi>
+          <issn>0018-9448</issn>
+        </identifiers>
+        <sourceUpdateDate>2024-10-27 22:11:02</sourceUpdateDate>
+        <contentUpdateDate>2024-10-29 18:36:49</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1291009</rcn>
+        <id>101041064_PSHORIZON</id>
+        <title>Periodic Reporting for period 1 - BigBayesUQ (The missing mathematical story of Bayesian uncertainty quantification for big data)</title>
+        <teaser>Recent years have seen a rapid increase in available information. This has created an urgent need for fast statistical and machine learning methods that can scale up to big data sets. Standard approaches, including the now routinely used Bayesian methods, are becoming...</teaser>
+        <description>periodic</description>
+        <sourceUpdateDate>2025-04-29 11:04:35</sourceUpdateDate>
+        <contentUpdateDate>2025-04-29 11:04:35</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/pubsum</code>
+              <title>Report Summary</title>
+              <description>Result: Publishable summary (FP7 SESAM) and Summary for publication (H2020 SyGMa)</description>
+              <displayCode readOnly="true">/Report Summary</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1175307</rcn>
+        <id>101041064_68847_PUBLIHORIZON</id>
+        <title>Early stopping for L2-boosting in high-dimensional linear models</title>
+        <details>
+          <authors>Bernhard Stankewitz</authors>
+          <journalNumber>52</journalNumber>
+          <journalTitle>The Annals of Statistics</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>Institute of Mathematical Statistics</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1214/24-AOS2356</doi>
+          <issn>0090-5364</issn>
+        </identifiers>
+        <sourceUpdateDate>2024-10-08 01:44:25</sourceUpdateDate>
+        <contentUpdateDate>2024-10-29 13:27:30</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1236752</rcn>
+        <id>101041064_68040_PUBLIHORIZON</id>
+        <title>Optimal testing using combined test statistics across independent studies</title>
+        <details>
+          <authors>Vuursteen, Lasse; Szabo, Botond; van der Vaart, Aad; van Zanten, Harry</authors>
+          <journalNumber/>
+          <journalTitle>NeurIPS-2023</journalTitle>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>NeurIPS-2023</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arXiv.2310.19541</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-10-08 01:44:25</sourceUpdateDate>
+        <contentUpdateDate>2025-01-08 13:02:40</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1175317</rcn>
+        <id>101041064_68851_PUBLIHORIZON</id>
+        <title><![CDATA[Kolyan Ray and Botond Szabo's contribution to the Discussion of ‘Martingale Posterior Distributions’ by Fong, Holmes and Walker]]></title>
+        <details>
+          <authors>Kolyan Ray, Botond Szabó</authors>
+          <journalNumber>85</journalNumber>
+          <journalTitle>Journal of the Royal Statistical Society Series B: Statistical Methodology</journalTitle>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>Oxford University Press (OUP)</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1093/jrsssb/qkad098</doi>
+          <issn>1369-7412</issn>
+        </identifiers>
+        <sourceUpdateDate>2024-10-08 01:44:25</sourceUpdateDate>
+        <contentUpdateDate>2025-05-06 16:54:00</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode readOnly="true">/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/47/299/951</code>
+        <title>big data</title>
+        <displayCode readOnly="true">/natural sciences/computer and information sciences/data science/big data</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/51/355/357/82202707</code>
+        <title>bayesian statistics</title>
+        <displayCode readOnly="true">/natural sciences/mathematics/applied mathematics/statistics and probability/bayesian statistics</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/47/297/933</code>
+        <title>machine learning</title>
+        <displayCode readOnly="true">/natural sciences/computer and information sciences/artificial intelligence/machine learning</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/51/355/1059</code>
+        <title>mathematical model</title>
+        <displayCode readOnly="true">/natural sciences/mathematics/applied mathematics/mathematical model</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode readOnly="true">/Digital agenda</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode readOnly="true">/Clean air</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode readOnly="true">/Artificial intelligence</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode readOnly="true">/Climate action</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode readOnly="true">/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <code>/HORIZON-ERC</code>
+        <title>HORIZON ERC Grants</title>
+        <description>HORIZON ERC Grants</description>
+        <displayCode readOnly="true">/HORIZON ERC Grants</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode readOnly="true">/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

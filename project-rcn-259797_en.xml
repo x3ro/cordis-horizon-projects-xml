@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages readOnly="true">en</availableLanguages>
+  <rcn>259797</rcn>
+  <id>101124778</id>
+  <acronym>PRIVTOOLS</acronym>
+  <teaser>Privacy is a fundamental right and ideally both users’ data and organizations’ intellectual property are protected. Privacy Enhancing Technologies (PETs) can protect data and function privacy. A mature PET to protect data is Multi-Party Computation (MPC). Further PETs are...</teaser>
+  <objective>Privacy is a fundamental right and ideally both users’ data and organizations’ intellectual property are protected. Privacy Enhancing Technologies (PETs) can protect data and function privacy. A mature PET to protect data is Multi-Party Computation (MPC). Further PETs are Private Set Intersection (PSI) to compute functions on sets of elements, and Private Function Evaluation (PFE) to protect data and functions. The main goal of PRIVTOOLS is to develop composable PETs and corresponding open-source tools that make them accessible to developers who are non-experts in cryptography. So far, MPC, PSI and PFE were studied mostly separately, and their composition to more complex functions is open. We will develop composable and efficient PETs using various function representations.
+
+We achieve these objectives:
+1) Currently, each MPC framework uses a dedicated high-level language. The objective for MPCTool is to give developers unified access to multiple MPC frameworks and function representations from multiple programming languages. This allows technology transfer across MPC frameworks, compare their performance, and protects against vendor lock-in.
+2) For set operations, a developer must currently generate circuits for postprocessing elements in the intersection which is cumbersome. To make PSI more accessible, PSITool will be the first tool for PSI that generates optimized PSI variant protocols from programs using common abstractions for sets.
+3) For private functions, a developer must currently generate a circuit that is evaluated with a PFE protocol. This is inefficient and often only parts of the function must be hidden. PFETool will be a flexible tool for PFE that uses multiple function representations and automatically chooses efficient PFE protocols for subfunctions.
+
+The tools built in PRIVTOOLS also work with each other, e.g., PFETool can hide the set operations in PSITool. They will allow protecting data and functions in a large variety of applications.</objective>
+  <title>Tools for Protecting Data and Function Privacy</title>
+  <keywords>applied cryptography, privacy enhancing technologies, cryptographic protocols, secure computation, function privacy, multi-party computation, private set intersection, private function evaluation, cryptographic engineering, optimization, compilation</keywords>
+  <totalCost>1999640</totalCost>
+  <ecMaxContribution>1999640</ecMaxContribution>
+  <startDate>2025-02-01</startDate>
+  <endDate>2030-01-31</endDate>
+  <ecSignatureDate>2024-01-31</ecSignatureDate>
+  <duration>60</duration>
+  <status>SIGNED</status>
+  <identifiers>
+    <grantDoi>10.3030/101124778</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>true</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2024-12-31 09:30:22</sourceUpdateDate>
+  <contentCreationDate readOnly="true">2024-02-05 14:30:07</contentCreationDate>
+  <contentUpdateDate>2024-02-05 14:30:05</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-09-19 14:48:41</lastUpdateDate>
+  <relations>
+    <associations>
+      <article source="editorial" type="relatedArticle">
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <rcn>449834</rcn>
+        <id>449834-toolset-and-privacy-enhancing-technologies-for-protecting-data-and-functions</id>
+        <title>Toolset and privacy enhancing technologies for protecting data and functions</title>
+        <contentUpdateDate>2024-06-13 17:12:38</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/projectDescription</code>
+              <title>Project description</title>
+              <description>Article: description of linked project written by editorial team</description>
+              <displayCode readOnly="true">/Project description</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/editorial</code>
+              <title>CORDIS Editorial</title>
+              <description>Written by CORDIS</description>
+              <displayCode readOnly="true">/CORDIS Editorial</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </article>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>55556</rcn>
+        <title>ERC-2023-COG</title>
+        <identifier>ERC-2023-COG</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>55556</rcn>
+        <title>ERC-2023-COG</title>
+        <identifier>ERC-2023-COG</identifier>
+      </call>
+      <organization sme="false" netEcContribution="1999640" totalCost="1999640" source="corda" order="1" ecContribution="1999640" terminated="false" type="coordinator">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1905684</rcn>
+        <id>999986581</id>
+        <vatNumber>DE111608628</vatNumber>
+        <legalName>TECHNISCHE UNIVERSITAT DARMSTADT</legalName>
+        <address>
+          <street>KAROLINENPLATZ  5</street>
+          <city>DARMSTADT</city>
+          <postalCode>64289</postalCode>
+          <country>DE</country>
+          <url>http://www.tu-darmstadt.de</url>
+          <geolocation>49.8748897,8.6565534</geolocation>
+        </address>
+        <departmentName>Arbeitsbereich Sportbiomechanik (Lauflabor)</departmentName>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode readOnly="true">/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Darmstadt, Kreisfreie Stadt</name>
+              <rcn>221802561</rcn>
+              <nutsCode>DE711</nutsCode>
+              <parents>
+                <region>
+                  <name>Darmstadt</name>
+                  <rcn>221802600</rcn>
+                  <nutsCode>DE71</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Hessen</name>
+                      <rcn>1465446</rcn>
+                      <nutsCode>DE7</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Germany</name>
+                          <rcn>221940264</rcn>
+                          <nutsCode>DE</nutsCode>
+                          <euCode>DE</euCode>
+                          <isoCode>DE</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Germany</name>
+              <rcn>221940264</rcn>
+              <nutsCode>DE</nutsCode>
+              <euCode>DE</euCode>
+              <isoCode>DE</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme source="corda" uniqueProgrammePart="true" type="relatedLegalBasis">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>705727</rcn>
+        <id>HORIZON.1.1</id>
+        <code>HORIZON.1.1</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.1.1</pga>
+        <title>European Research Council (ERC)</title>
+        <parent>
+          <programme>
+            <rcn>705726</rcn>
+            <code>HORIZON.1</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode readOnly="true">/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme source="corda" type="relatedTopic">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>706525</rcn>
+        <id>HORIZON_ERC-2023-COG</id>
+        <code>ERC-2023-COG</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>ERC CONSOLIDATOR GRANTS</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode readOnly="true">/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode readOnly="true">/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/47/307</code>
+        <title>software</title>
+        <displayCode readOnly="true">/natural sciences/computer and information sciences/software</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/47/295/923</code>
+        <title>data protection</title>
+        <displayCode readOnly="true">/natural sciences/computer and information sciences/computer security/data protection</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/47/295/917</code>
+        <title>cryptography</title>
+        <displayCode readOnly="true">/natural sciences/computer and information sciences/computer security/cryptography</displayCode>
+      </category>
+      <category weight="100" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode readOnly="true">/Digital agenda</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode readOnly="true">/Clean air</displayCode>
+      </category>
+      <category weight="100" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode readOnly="true">/Artificial intelligence</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode readOnly="true">/Climate action</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode readOnly="true">/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <code>/HORIZON-ERC</code>
+        <title>HORIZON ERC Grants</title>
+        <description>HORIZON ERC Grants</description>
+        <displayCode readOnly="true">/HORIZON ERC Grants</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode readOnly="true">/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

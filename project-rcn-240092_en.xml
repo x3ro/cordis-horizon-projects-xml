@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages readOnly="true">en</availableLanguages>
+  <rcn>240092</rcn>
+  <id>101055025</id>
+  <acronym>HYDRANOS</acronym>
+  <teaser><![CDATA[Today's computing systems are facing an unprecedented security threat posed by recent attacks that use software to exploit hardware vulnerabilities, as shown by attacks like Spectre, Meltdown, Foreshadow, and follow-ups - affecting a wide range of computing platforms and...]]></teaser>
+  <objective><![CDATA[Today's computing systems are facing an unprecedented security threat posed by recent attacks that use software to exploit hardware vulnerabilities, as shown by attacks like Spectre, Meltdown, Foreshadow, and follow-ups - affecting a wide range of computing platforms and manufacturers, including Intel, AMD, and ARM. These cross-layer attacks reach far beyond exploiting microarchitectural vulnerabilities and allow unprivileged software to exploit a variety of hardware design and implementation flaws, as we demonstrated in the world's largest System-on-Chip (SoC) security competition that we have been conducting with Intel since 2018. This adversarial paradigm shift sidesteps decades of security research that assumed a layered architecture where hardware is flawless and trustworthy. Existing solutions, such as software patching or specific hardware changes are ad-hoc, expensive, or only mitigate specific known attacks. Particularly, patching hardware after fabrication is very limited or impossible.
+
+This proposal, HYDRANOS, envisions hardware-assisted adaptive security, a radically different approach to enable flexible security for future computing systems. We aim to design, prototype, and evaluate dedicated configurable hardware inside the SoC design to enable post-fabrication reconfiguration of key security-relevant hardware primitives to mitigate new attack vectors. Moreover, we provide an evaluation framework that includes novel hardware fuzzing techniques to significantly improve existing hardware-vulnerability detection methods at design time.
+
+HYDRANOS is a game changer for trustworthy computing, allows to fundamentally and flexibly tackle todays and future cross-layer attacks on security-critical systems, and provides novel research to pave the way towards future-proof security. We will showcase our results on open-source hardware widely supported by academia and industry and provide it to the research community, allowing open verification by third-parties.]]></objective>
+  <title>Hardware-assisted Adaptive Cross-Layer Security for Computing Systems</title>
+  <keywords>system security, open-source hardware, hardware-assisted security, security vulnerability, hardware, security analysis, system security analysis</keywords>
+  <totalCost>2485281</totalCost>
+  <ecMaxContribution>2485281</ecMaxContribution>
+  <startDate>2022-09-01</startDate>
+  <endDate>2027-08-31</endDate>
+  <ecSignatureDate>2022-06-30</ecSignatureDate>
+  <duration>60</duration>
+  <status>SIGNED</status>
+  <identifiers>
+    <grantDoi>10.3030/101055025</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>false</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2025-01-03 10:47:16</sourceUpdateDate>
+  <contentCreationDate readOnly="true">2022-08-25 20:16:23</contentCreationDate>
+  <contentUpdateDate>2022-08-25 20:16:11</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-09-19 14:48:55</lastUpdateDate>
+  <relations>
+    <associations>
+      <article source="editorial" type="relatedArticle">
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <rcn>437420</rcn>
+        <id>437420-sustainable-security-for-computing-systems</id>
+        <title>Sustainable security for computing systems</title>
+        <contentUpdateDate>2022-11-21 09:50:00</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/projectDescription</code>
+              <title>Project description</title>
+              <description>Article: description of linked project written by editorial team</description>
+              <displayCode readOnly="true">/Project description</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/editorial</code>
+              <title>CORDIS Editorial</title>
+              <description>Written by CORDIS</description>
+              <displayCode readOnly="true">/CORDIS Editorial</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </article>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>55319</rcn>
+        <title>ERC-2021-ADG</title>
+        <identifier>ERC-2021-ADG</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>55319</rcn>
+        <title>ERC-2021-ADG</title>
+        <identifier>ERC-2021-ADG</identifier>
+      </call>
+      <organization source="corda" order="1" ecContribution="2485281" terminated="false" sme="false" netEcContribution="2485281" totalCost="2485281" type="coordinator">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1905684</rcn>
+        <id>999986581</id>
+        <vatNumber>DE111608628</vatNumber>
+        <legalName>TECHNISCHE UNIVERSITAT DARMSTADT</legalName>
+        <address>
+          <street>KAROLINENPLATZ  5</street>
+          <city>DARMSTADT</city>
+          <postalCode>64289</postalCode>
+          <country>DE</country>
+          <url>http://www.tu-darmstadt.de</url>
+          <geolocation>49.8748897,8.6565534</geolocation>
+        </address>
+        <departmentName>Arbeitsbereich Sportbiomechanik (Lauflabor)</departmentName>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode readOnly="true">/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Darmstadt, Kreisfreie Stadt</name>
+              <rcn>221802561</rcn>
+              <nutsCode>DE711</nutsCode>
+              <parents>
+                <region>
+                  <name>Darmstadt</name>
+                  <rcn>221802600</rcn>
+                  <nutsCode>DE71</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Hessen</name>
+                      <rcn>1465446</rcn>
+                      <nutsCode>DE7</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Germany</name>
+                          <rcn>221940264</rcn>
+                          <nutsCode>DE</nutsCode>
+                          <euCode>DE</euCode>
+                          <isoCode>DE</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Germany</name>
+              <rcn>221940264</rcn>
+              <nutsCode>DE</nutsCode>
+              <euCode>DE</euCode>
+              <isoCode>DE</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme source="corda" uniqueProgrammePart="true" type="relatedLegalBasis">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>705727</rcn>
+        <id>HORIZON.1.1</id>
+        <code>HORIZON.1.1</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.1.1</pga>
+        <title>European Research Council (ERC)</title>
+        <parent>
+          <programme>
+            <rcn>705726</rcn>
+            <code>HORIZON.1</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode readOnly="true">/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme source="corda" type="relatedTopic">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>705892</rcn>
+        <id>HORIZON_ERC-2021-ADG</id>
+        <code>ERC-2021-ADG</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>ERC ADVANCED GRANTS</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode readOnly="true">/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1217093</rcn>
+        <id>101055025_69509_PUBLIHORIZON</id>
+        <title>Beyond Random Inputs: A Novel ML-Based Hardware Fuzzing</title>
+        <details>
+          <authors>Mohamadreza Rostami, Marco Chilese, Shaza Zeitouni, Rahul Kande, Jeyavijayan Rajendran, Ahmad-Reza Sadeghi</authors>
+          <journalNumber/>
+          <journalTitle>2024 Design, Automation &amp;amp;amp; Test in Europe Conference &amp;amp;amp; Exhibition (DATE)</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <doi>10.23919/DATE58400.2024.10546625</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-10-08 01:44:25</sourceUpdateDate>
+        <contentUpdateDate>2024-12-04 08:12:07</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1217088</rcn>
+        <id>101055025_69510_PUBLIHORIZON</id>
+        <title>WhisperFuzz: White-Box Fuzzing for Detecting and Locating Timing Vulnerabilities in Processors</title>
+        <details>
+          <authors>Borkar, Pallavi; Chen, Chen; Rostami, Mohamadreza; Singh, Nikhilesh; Kande, Rahul; Sadeghi, Ahmad-Reza; Rebeiro, Chester; Rajendran, Jeyavijayan</authors>
+          <journalNumber/>
+          <journalTitle>33rd USENIX Security Symposium (USENIX Security 24)</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>USENIX Association</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arxiv.2402.03704</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-10-08 01:44:25</sourceUpdateDate>
+        <contentUpdateDate>2024-12-04 08:12:07</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1175364</rcn>
+        <id>101055025_69511_PUBLIHORIZON</id>
+        <title>Fuzzerfly Effect: Hardware Fuzzing for Memory Safety</title>
+        <details>
+          <authors>Mohamadreza Rostami, Chen Chen, Rahul Kande, Huimin Li, Jeyavijayan Rajendran, Ahmad-Reza Sadeghi</authors>
+          <journalNumber>22</journalNumber>
+          <journalTitle>IEEE Security &amp;amp; Privacy</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>Institute of Electrical and Electronics Engineers (IEEE)</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1109/MSEC.2024.3365070</doi>
+          <issn>1540-7993</issn>
+        </identifiers>
+        <sourceUpdateDate>2024-10-08 01:44:25</sourceUpdateDate>
+        <contentUpdateDate>2024-10-29 13:27:36</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1341359</rcn>
+        <id>101055025_PSHORIZON</id>
+        <title>Periodic Reporting for period 1 - HYDRANOS (Hardware-assisted Adaptive Cross-Layer Security for Computing Systems)</title>
+        <teaser>The HYDRANOS project emerges in response to the evolving threats in modern computing systems. Traditionally, software vulnerabilities have been the primary focus of cybersecurity efforts. However, the new cross-layer attacks exploit software and hardware weaknesses. These...</teaser>
+        <description>periodic</description>
+        <sourceUpdateDate>2025-07-28 17:16:31</sourceUpdateDate>
+        <contentUpdateDate>2025-07-28 17:16:31</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/pubsum</code>
+              <title>Report Summary</title>
+              <description>Result: Publishable summary (FP7 SESAM) and Summary for publication (H2020 SyGMa)</description>
+              <displayCode readOnly="true">/Report Summary</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1217092</rcn>
+        <id>101055025_69506_PUBLIHORIZON</id>
+        <title>PSOFuzz: Fuzzing Processors with Particle Swarm Optimization</title>
+        <details>
+          <authors>Chen Chen, Vasudev Gohil, Rahul Kande, Ahmad-Reza Sadeghi, Jeyavijayan Rajendran</authors>
+          <journalNumber/>
+          <journalTitle>2023 IEEE/ACM International Conference on Computer Aided Design (ICCAD)</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1109/ICCAD57390.2023.10323913</doi>
+          <issn>1558-2434</issn>
+        </identifiers>
+        <sourceUpdateDate>2024-10-08 01:44:25</sourceUpdateDate>
+        <contentUpdateDate>2024-12-04 08:12:07</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1217099</rcn>
+        <id>101055025_69508_PUBLIHORIZON</id>
+        <title>HyPFuzz: Formal-Assisted Processor Fuzzing</title>
+        <details>
+          <authors>Chen, Chen; Kande, Rahul; Nguyen, Nathan; Andersen, Flemming; Tyagi, Aakash; Sadeghi, Ahmad-Reza; Rajendran, Jeyavijayan</authors>
+          <journalNumber/>
+          <journalTitle>32nd USENIX Security Symposium (USENIX Security 23)</journalTitle>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>USENIX Association</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arxiv.2304.02485</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-10-08 01:44:25</sourceUpdateDate>
+        <contentUpdateDate>2024-12-04 08:12:08</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1175363</rcn>
+        <id>101055025_69507_PUBLIHORIZON</id>
+        <title>MABFuzz: Multi-Armed Bandit Algorithms for Fuzzing Processors</title>
+        <details>
+          <authors>Vasudev Gohil, Rahul Kande, Chen Chen, Ahmad-Reza Sadeghi, Jeyavijayan Rajendran</authors>
+          <journalNumber>UCBIEECS-2016-17</journalNumber>
+          <journalTitle>2024 Design, Automation &amp;amp;amp; Test in Europe Conference &amp;amp;amp; Exhibition (DATE)</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <doi>10.23919/DATE58400.2024.10546726</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-10-08 01:44:25</sourceUpdateDate>
+        <contentUpdateDate>2024-10-29 13:27:36</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1228821</rcn>
+        <id>101055025_82781_PUBLIHORIZON</id>
+        <title>Lost and Found in Speculation: Hybrid Speculative Vulnerability Detection</title>
+        <details>
+          <authors>Mohamadreza Rostami, Shaza Zeitouni, Rahul Kande, Chen Chen, Pouya Mahmoody, Jeyavijayan (JV)Rajendran, Ahmad-Reza Sadeghi</authors>
+          <journalNumber/>
+          <journalTitle>DAC ’24, June 23–27, 2024, San Francisco, CA, USA</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>ACM</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arXiv.2410.22555</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-11-04 08:50:14</sourceUpdateDate>
+        <contentUpdateDate>2024-12-10 12:56:11</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode readOnly="true">/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/47/307/979/973</code>
+        <title>system software</title>
+        <displayCode readOnly="true">/natural sciences/computer and information sciences/software/software applications/system software</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode readOnly="true">/Digital agenda</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode readOnly="true">/Clean air</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode readOnly="true">/Artificial intelligence</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode readOnly="true">/Climate action</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode readOnly="true">/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <code>/HORIZON-ERC</code>
+        <title>HORIZON ERC Grants</title>
+        <description>HORIZON ERC Grants</description>
+        <displayCode readOnly="true">/HORIZON ERC Grants</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode readOnly="true">/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

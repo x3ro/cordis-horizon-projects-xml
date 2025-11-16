@@ -1,0 +1,805 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages readOnly="true">en</availableLanguages>
+  <rcn>244629</rcn>
+  <id>101085607</id>
+  <acronym>eLinoR</acronym>
+  <teaser>Low-rank matrix factorizations (LRMFs), such as principal component analysis, nonnegative matrix factorization and sparse component analysis, are linear dimensionality reduction techniques and are powerful unsupervised models to represent and analyze high-dimensional data...</teaser>
+  <objective>Low-rank matrix factorizations (LRMFs), such as principal component analysis, nonnegative matrix factorization and sparse component analysis, are linear dimensionality reduction techniques and are powerful unsupervised models to represent and analyze high-dimensional data sets. They are used in a wide variety of areas such as machine learning, signal processing, and data mining. Many LRMFs have been proposed in the literature, in particular in the last two decades, and used extensively in many applications, such as recommender systems, blind source separation, and text mining. Although LRMFs have known and still know tremendous success, they have several limitations. Two key limitations are that they are linear models, and that they only learn one layer of features. In this project, we go beyond LRMFs, considering generalized LRMFs (G-LRMFs) that overcome these limitations, considering non-linear and deep LRMFs. These generalizations have been introduced more recently, and they have hardly been explored compared to LRMFs. In particular, eLinoR will focus on three fundamental aspects: (1) Theory: understand G-LRMFs with a focus on computational complexity and identifiability (uniqueness of the decompositions), (2) Algorithms: solve G-LRMFs via provably correct and heuristic algorithms, and (3) Models: design new G-LRMFs for specific applications. This unified approach will enable us to understand these problems better, to develop and analyze algorithms, and to then use them for applications. The novelty and ground-breaking nature of this project also lies in the methodology, exploring G-LRMFs from different but complementary perspectives, bringing together ideas from different fields. The ultimate goal of eLinoR is to provide practitioners with theoretical and algorithmic tools for G-LRMFs, allowing them to decide which model and algorithm to use in which situation and what kind of outcome to expect, leading to a widespread and reliable use of G-LRMFs.</objective>
+  <title>Beyond Low-Rank Factorizations</title>
+  <keywords>linear dimensionality reduction, low-rank matrix factorization, nonnegative matrix factorization, deep matrix, factorization, nonlinear matrix factorization</keywords>
+  <totalCost>1982515</totalCost>
+  <ecMaxContribution>1982515</ecMaxContribution>
+  <startDate>2023-09-01</startDate>
+  <endDate>2028-08-31</endDate>
+  <ecSignatureDate>2023-02-13</ecSignatureDate>
+  <duration>60</duration>
+  <status>SIGNED</status>
+  <identifiers>
+    <grantDoi>10.3030/101085607</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>false</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2025-01-03 10:47:16</sourceUpdateDate>
+  <contentCreationDate readOnly="true">2023-02-18 14:07:33</contentCreationDate>
+  <contentUpdateDate>2023-02-18 14:07:13</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-10-20 14:48:42</lastUpdateDate>
+  <relations>
+    <associations>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>55605</rcn>
+        <title>ERC-2022-COG</title>
+        <identifier>ERC-2022-COG</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>55605</rcn>
+        <title>ERC-2022-COG</title>
+        <identifier>ERC-2022-COG</identifier>
+      </call>
+      <organization source="corda" order="1" ecContribution="1982515" terminated="false" sme="false" netEcContribution="1982515" totalCost="1982515" type="coordinator">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1914527</rcn>
+        <id>990884004</id>
+        <legalName>UNIVERSITE DE MONS</legalName>
+        <shortName>UMONS</shortName>
+        <address>
+          <street>PLACE DU PARC 20</street>
+          <city>Mons</city>
+          <postalCode>7000</postalCode>
+          <country>BE</country>
+          <postBox>000</postBox>
+          <url>http://www.umons.ac.be</url>
+          <geolocation>50.46177765,3.7939232079684513</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode readOnly="true">/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Arr. Mons</name>
+              <rcn>188231811</rcn>
+              <nutsCode>BE323</nutsCode>
+              <parents>
+                <region>
+                  <name>Prov. Hainaut</name>
+                  <rcn>188231848</rcn>
+                  <nutsCode>BE32</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Région wallonne</name>
+                      <rcn>188234280</rcn>
+                      <nutsCode>BE3</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Belgium</name>
+                          <rcn>188385832</rcn>
+                          <nutsCode>BE</nutsCode>
+                          <euCode>BE</euCode>
+                          <isoCode>BE</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Belgium</name>
+              <rcn>188385832</rcn>
+              <nutsCode>BE</nutsCode>
+              <euCode>BE</euCode>
+              <isoCode>BE</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme source="corda" uniqueProgrammePart="true" type="relatedLegalBasis">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>705727</rcn>
+        <id>HORIZON.1.1</id>
+        <code>HORIZON.1.1</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.1.1</pga>
+        <title>European Research Council (ERC)</title>
+        <parent>
+          <programme>
+            <rcn>705726</rcn>
+            <code>HORIZON.1</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode readOnly="true">/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme source="corda" type="relatedTopic">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>706731</rcn>
+        <id>HORIZON_ERC-2022-COG</id>
+        <code>ERC-2022-COG</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>ERC CONSOLIDATOR GRANTS</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode readOnly="true">/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1356153</rcn>
+        <id>101085607_221600_PUBLIHORIZON</id>
+        <title>Instance-wise distributionally robust nonnegative matrix factorization</title>
+        <details>
+          <authors>Wafa Barkhoda, Amjad Seyedi, Nicolas Gillis, Fardin Akhlaghian Tab</authors>
+          <journalNumber>169</journalNumber>
+          <journalTitle>Pattern Recognition</journalTitle>
+          <publishedPages/>
+          <publishedYear>2025</publishedYear>
+          <publisher>Elsevier BV</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1016/J.PATCOG.2025.111732</doi>
+          <issn>0031-3203</issn>
+        </identifiers>
+        <sourceUpdateDate>2025-09-06 01:23:00</sourceUpdateDate>
+        <contentUpdateDate>2025-09-08 12:22:59</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1015258</rcn>
+        <id>101085607_1_DELIVHORIZON</id>
+        <title>Data Management Plan</title>
+        <description>The Data Management plan is currently being drafted</description>
+        <sourceUpdateDate>2023-12-02 16:40:06</sourceUpdateDate>
+        <contentUpdateDate>2023-12-08 09:52:03</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/DMP</code>
+              <title>Data Management Plan</title>
+              <displayCode readOnly="true">/Data Management Plan</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" represents="project" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>22f468f6dede685b045ce9a36fa9dabd</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5041ab749&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1372987</rcn>
+        <id>101085607_241922_PUBLIHORIZON</id>
+        <title>Orthogonal nonnegative matrix factorization with the Kullback–Leibler divergence</title>
+        <details>
+          <authors>Jean Pacifique Nkurunziza, Fulgence Nahayo, Nicolas Gillis</authors>
+          <journalNumber>197</journalNumber>
+          <journalTitle>Pattern Recognition Letters</journalTitle>
+          <publishedPages/>
+          <publishedYear>2025</publishedYear>
+          <publisher>Elsevier BV</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1016/J.PATREC.2025.08.012</doi>
+          <issn>0167-8655</issn>
+        </identifiers>
+        <sourceUpdateDate>2025-10-13 09:04:16</sourceUpdateDate>
+        <contentUpdateDate>2025-10-20 14:48:41</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1356164</rcn>
+        <id>101085607_221613_PUBLIHORIZON</id>
+        <title>Minimum-norm solutions of the non-symmetric semidefinite Procrustes problem</title>
+        <details>
+          <authors>Nicolas Gillis, Stefano Sicilia</authors>
+          <journalNumber>724</journalNumber>
+          <journalTitle>Linear Algebra and its Applications</journalTitle>
+          <publishedPages/>
+          <publishedYear>2025</publishedYear>
+          <publisher>Elsevier BV</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1016/J.LAA.2025.06.005</doi>
+          <issn>0024-3795</issn>
+        </identifiers>
+        <sourceUpdateDate>2025-09-06 01:23:00</sourceUpdateDate>
+        <contentUpdateDate>2025-09-08 12:32:15</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1372973</rcn>
+        <id>101085607_241916_PUBLIHORIZON</id>
+        <title>On the Robustness of the Successive Projection Algorithm</title>
+        <details>
+          <authors>Giovanni Barbarino, Nicolas Gillis</authors>
+          <journalNumber>46</journalNumber>
+          <journalTitle>SIAM Journal on Matrix Analysis and Applications</journalTitle>
+          <publishedPages/>
+          <publishedYear>2025</publishedYear>
+          <publisher>Society for Industrial &amp; Applied Mathematics (SIAM)</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1137/24M171293X</doi>
+          <issn>0895-4798</issn>
+        </identifiers>
+        <sourceUpdateDate>2025-10-13 09:04:16</sourceUpdateDate>
+        <contentUpdateDate>2025-10-20 14:48:40</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1356152</rcn>
+        <id>101085607_221488_PUBLIHORIZON</id>
+        <title>Matrix-less spectral approximation for large structured matrices</title>
+        <details>
+          <authors>Giovanni Barbarino; Melker Claesson; Sven-Erik Ekström; Carlo Garoni; David Meadon; Hendrik Speleers</authors>
+          <journalNumber/>
+          <journalTitle>BIT Numerical Mathematics</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>Springer</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1007/S10543-024-01041-W</doi>
+          <issn>1572-9125</issn>
+        </identifiers>
+        <sourceUpdateDate>2025-09-06 01:23:00</sourceUpdateDate>
+        <contentUpdateDate>2025-09-08 12:22:58</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1356154</rcn>
+        <id>101085607_221599_PUBLIHORIZON</id>
+        <title>Complete decomposition of symmetric tensors in linear time and polylogarithmic precision</title>
+        <details>
+          <authors>Pascal Koiran, Subhayan Saha</authors>
+          <journalNumber>1037</journalNumber>
+          <journalTitle>Theoretical Computer Science</journalTitle>
+          <publishedPages/>
+          <publishedYear>2025</publishedYear>
+          <publisher>Elsevier BV</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1016/J.TCS.2025.115159</doi>
+          <issn>0304-3975</issn>
+        </identifiers>
+        <sourceUpdateDate>2025-09-06 01:23:00</sourceUpdateDate>
+        <contentUpdateDate>2025-09-08 12:22:59</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1198115</rcn>
+        <id>101085607_84979_PUBLIHORIZON</id>
+        <title>Subtractive Mixture Models via Squaring: Representation and Learning</title>
+        <details>
+          <authors>L. Loconte, A.M. Sladek, S. Mengel, M. Trapp, A. Solin, N. Gillis and A. Vergari</authors>
+          <journalNumber/>
+          <journalTitle>International Conference on Learning Representations</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>ICLR</publisher>
+        </details>
+        <sourceUpdateDate>2024-11-12 17:22:19</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 15:23:18</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1356156</rcn>
+        <id>101085607_221487_PUBLIHORIZON</id>
+        <title>Spectral properties of flipped Toeplitz matrices and computational applications</title>
+        <details>
+          <authors>Giovanni Barbarino, Sven-Erik Ekström, Carlo Garoni, David Meadon, Stefano Serra-Capizzano, Paris Vassalos</authors>
+          <journalNumber>499</journalNumber>
+          <journalTitle>Applied Mathematics and Computation</journalTitle>
+          <publishedPages/>
+          <publishedYear>2025</publishedYear>
+          <publisher>Elsevier BV</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1016/J.AMC.2025.129408</doi>
+          <issn>0096-3003</issn>
+        </identifiers>
+        <sourceUpdateDate>2025-09-06 01:23:00</sourceUpdateDate>
+        <contentUpdateDate>2025-09-08 12:22:59</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1356168</rcn>
+        <id>101085607_221614_PUBLIHORIZON</id>
+        <title>Block Majorization Minimization with Extrapolation and Application to \({\beta }\)-NMF</title>
+        <details>
+          <authors>Le Thi Khanh Hien, Valentin Leplat, Nicolas Gillis</authors>
+          <journalNumber>7</journalNumber>
+          <journalTitle>SIAM Journal on Mathematics of Data Science</journalTitle>
+          <publishedPages/>
+          <publishedYear>2025</publishedYear>
+          <publisher>Society for Industrial &amp; Applied Mathematics (SIAM)</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1137/24M1660188</doi>
+          <issn>2577-0187</issn>
+        </identifiers>
+        <sourceUpdateDate>2025-09-06 01:23:00</sourceUpdateDate>
+        <contentUpdateDate>2025-09-08 12:32:15</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1356165</rcn>
+        <id>101085607_221619_PUBLIHORIZON</id>
+        <title>Boolean Matrix Tri-Factorization</title>
+        <details>
+          <authors>Christos Kolomvakis, Arnaud Vandaele, Nicolas Gillis</authors>
+          <journalNumber/>
+          <journalTitle>ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)</journalTitle>
+          <publishedPages/>
+          <publishedYear>2025</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1109/ICASSP49660.2025.10889808</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-09-06 01:23:00</sourceUpdateDate>
+        <contentUpdateDate>2025-09-08 12:32:15</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1356171</rcn>
+        <id>101085607_221489_PUBLIHORIZON</id>
+        <title>GLT sequences and normal matrices</title>
+        <details>
+          <authors>Giovanni Barbarino, Carlo Garoni</authors>
+          <journalNumber>41</journalNumber>
+          <journalTitle>The Electronic Journal of Linear Algebra</journalTitle>
+          <publishedPages/>
+          <publishedYear>2025</publishedYear>
+          <publisher>University of Wyoming Libraries</publisher>
+        </details>
+        <identifiers>
+          <doi>10.13001/ELA.2025.8929</doi>
+          <issn>1081-3810</issn>
+        </identifiers>
+        <sourceUpdateDate>2025-09-06 01:23:00</sourceUpdateDate>
+        <contentUpdateDate>2025-09-08 12:32:15</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode readOnly="true">/Project</displayCode>
+      </category>
+      <category weight="100" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode readOnly="true">/Digital agenda</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode readOnly="true">/Clean air</displayCode>
+      </category>
+      <category weight="100" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode readOnly="true">/Artificial intelligence</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode readOnly="true">/Climate action</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode readOnly="true">/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <code>/HORIZON-ERC</code>
+        <title>HORIZON ERC Grants</title>
+        <description>HORIZON ERC Grants</description>
+        <displayCode readOnly="true">/HORIZON ERC Grants</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode readOnly="true">/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

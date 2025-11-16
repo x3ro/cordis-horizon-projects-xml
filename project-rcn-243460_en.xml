@@ -1,0 +1,2118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages readOnly="true">en</availableLanguages>
+  <rcn>243460</rcn>
+  <id>101093062</id>
+  <acronym>Vitamin-V</acronym>
+  <teaser>Vitamin-V aims to develop a complete RISC-V open-source software stack for cloud services with iso-performance to the cloud-dominant x86 counterpart and a powerful virtual execution environment for software development, validation, verification, and test that considers the...</teaser>
+  <objective>Vitamin-V aims to develop a complete RISC-V open-source software stack for cloud services with iso-performance to the cloud-dominant x86 counterpart and a powerful virtual execution environment for software development, validation, verification, and test that considers the relevant RISC-V ISA extensions for cloud deployment.
+Specifically, commercial cloud systems make use of hardware features that are currently unavailable in RISC-V virtual environments (not to mention the lack of specific RISC-V hardware). These features include the virtualization, cryptography and vectorization for which Vitamin-V will add support in three virtual environments: QEMU, gem5 and cloud-FPGA prototype platforms. Vitamin-V focuses and will provide support for EPI-based RISC-V designs for both the main CPUs and cloud-important accelerators (for memory compression). We will add the compiler (LLVM-based) and toolchain support for the ISA extensions. Moreover, novel approaches for the validation, verification, and test of software trustworthiness will be developed considering.
+Vitamin-V will port and evaluate several cutting-edge VMMs and container suites (i.e. VOSySmonitor, KVM, QEMU, Docker, RustVMM, Kata containers), cloud management software (i.e., OpenStack, and Kubernetes) together with their software and libraries dependencies (e.g. JVM, Python); and AI (i.e Tensorflow) and BigData applications (Apache Spark). These software suites are representative of the three cloud setups that will be demonstrated: classical (OpenStack), modern (Kubernetes), and serverless (RustVMM, Kata, Kubernetes). 
+The cloud setups will be benchmarked against relevant AI (i.e., Google Net, ResBet, VGG19), BigData (TPC-DS), and Serverless applications (FunctionBench, ServerlessBench). Vitamin-V aims to match the software performance of its x86 equivalent while contributing to RISC-V open-source virtual environments, software validation and cloud software suites.</objective>
+  <title>Virtual Environment and Tool-boxing for Trustworthy Development of RISC-V based Cloud Services</title>
+  <keywords>RISC-V, ISA extensions, cloud stack, virtualization, containers, cloud management, serverless, virtual machine monitors, software validation, anomaly detection, compiler, toolchain, AI, BigData</keywords>
+  <totalCost>4635818.75</totalCost>
+  <ecMaxContribution>4635818.75</ecMaxContribution>
+  <startDate>2023-01-01</startDate>
+  <endDate>2025-12-31</endDate>
+  <ecSignatureDate>2022-11-28</ecSignatureDate>
+  <duration>36</duration>
+  <status>SIGNED</status>
+  <identifiers>
+    <grantDoi>10.3030/101093062</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>false</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2025-01-03 10:47:16</sourceUpdateDate>
+  <contentCreationDate readOnly="true">2022-12-09 15:35:00</contentCreationDate>
+  <contentUpdateDate>2022-12-09 15:34:47</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-09-19 14:48:50</lastUpdateDate>
+  <relations>
+    <associations>
+      <article source="editorial" type="relatedArticle">
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <rcn>440106</rcn>
+        <id>440106-innovative-approaches-for-risc-v-based-cloud-services-trustworthiness</id>
+        <title>Innovative approaches for RISC-V-based cloud services trustworthiness</title>
+        <contentUpdateDate>2023-06-05 17:56:06</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/projectDescription</code>
+              <title>Project description</title>
+              <description>Article: description of linked project written by editorial team</description>
+              <displayCode readOnly="true">/Project description</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/editorial</code>
+              <title>CORDIS Editorial</title>
+              <description>Written by CORDIS</description>
+              <displayCode readOnly="true">/CORDIS Editorial</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </article>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>55530</rcn>
+        <title>HORIZON-CL4-2022-DIGITAL-EMERGING-01</title>
+        <identifier>HORIZON-CL4-2022-DIGITAL-EMERGING-01</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>55530</rcn>
+        <title>HORIZON-CL4-2022-DIGITAL-EMERGING-01</title>
+        <identifier>HORIZON-CL4-2022-DIGITAL-EMERGING-01</identifier>
+      </call>
+      <organization source="corda" order="3" ecContribution="595125" terminated="false" sme="false" netEcContribution="595125" totalCost="595125" type="participant">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1906280</rcn>
+        <id>999643007</id>
+        <vatNumber>EL090145420</vatNumber>
+        <legalName>ETHNIKO KAI KAPODISTRIAKO PANEPISTIMIO ATHINON</legalName>
+        <shortName>UOA</shortName>
+        <address>
+          <street>6 CHRISTOU LADA STR</street>
+          <city>ATHINA</city>
+          <postalCode>10 561</postalCode>
+          <country>EL</country>
+          <postBox>000</postBox>
+          <url>http://www.elke.uoa.gr</url>
+          <geolocation>37.9784332,23.7322131</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode readOnly="true">/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Κεντρικός Τομέας Αθηνών</name>
+              <rcn>1465456</rcn>
+              <nutsCode>EL303</nutsCode>
+              <parents>
+                <region>
+                  <name>Aττική</name>
+                  <rcn>1464908</rcn>
+                  <nutsCode>EL30</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Αττική </name>
+                      <rcn>1464907</rcn>
+                      <nutsCode>EL3</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Greece</name>
+                          <rcn>240552488</rcn>
+                          <nutsCode>EL</nutsCode>
+                          <euCode>EL</euCode>
+                          <isoCode>EL</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Greece</name>
+              <rcn>240552488</rcn>
+              <nutsCode>EL</nutsCode>
+              <euCode>EL</euCode>
+              <isoCode>EL</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization source="corda" order="7" ecContribution="502500" terminated="false" sme="true" netEcContribution="502500" totalCost="502500" type="participant">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>2981134</rcn>
+        <id>917368092</id>
+        <vatNumber>SE559010822001</vatNumber>
+        <legalName>ZEROPOINT TECHNOLOGIES AB</legalName>
+        <shortName>ZEROPOINT</shortName>
+        <address>
+          <street>FALKENBERGSGATAN 3</street>
+          <city>Goteborg</city>
+          <postalCode>412 85</postalCode>
+          <country>SE</country>
+          <geolocation>57.6805566,11.997135</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PRC</code>
+              <title>Private for-profit entities (excluding Higher or Secondary Education Establishments)</title>
+              <displayCode readOnly="true">/Private for-profit entities (excluding Higher or Secondary Education Establishments)</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Västra Götalands län</name>
+              <rcn>473440450</rcn>
+              <nutsCode>SE232</nutsCode>
+              <parents>
+                <region>
+                  <name>Västsverige</name>
+                  <rcn>473440488</rcn>
+                  <nutsCode>SE23</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Södra Sverige</name>
+                      <rcn>473442856</rcn>
+                      <nutsCode>SE2</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Sweden</name>
+                          <rcn>473598504</rcn>
+                          <nutsCode>SE</nutsCode>
+                          <euCode>SE</euCode>
+                          <isoCode>SE</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Sweden</name>
+              <rcn>473598504</rcn>
+              <nutsCode>SE</nutsCode>
+              <euCode>SE</euCode>
+              <isoCode>SE</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization source="corda" order="5" ecContribution="724443.75" terminated="false" sme="true" netEcContribution="724443.75" totalCost="724443.75" type="participant">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>3146317</rcn>
+        <id>914265062</id>
+        <vatNumber>ESB66824772</vatNumber>
+        <legalName>SEMIDYNAMICS TECHNOLOGY SERVICES SL</legalName>
+        <shortName>SEMIDYNAMICS</shortName>
+        <address>
+          <street>Avenida Josep Tarradellas 20, Planta 1</street>
+          <city>BARCELONA</city>
+          <postalCode>08029</postalCode>
+          <country>ES</country>
+          <geolocation>41.3881775,2.1902547625287534</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PRC</code>
+              <title>Private for-profit entities (excluding Higher or Secondary Education Establishments)</title>
+              <displayCode readOnly="true">/Private for-profit entities (excluding Higher or Secondary Education Establishments)</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Barcelona</name>
+              <rcn>242241601</rcn>
+              <nutsCode>ES511</nutsCode>
+              <parents>
+                <region>
+                  <name>Cataluña</name>
+                  <rcn>242241640</rcn>
+                  <nutsCode>ES51</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Este</name>
+                      <rcn>242244136</rcn>
+                      <nutsCode>ES5</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Spain</name>
+                          <rcn>242387496</rcn>
+                          <nutsCode>ES</nutsCode>
+                          <euCode>ES</euCode>
+                          <isoCode>ES</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Spain</name>
+              <rcn>242387496</rcn>
+              <nutsCode>ES</nutsCode>
+              <euCode>ES</euCode>
+              <isoCode>ES</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization source="corda" order="6" ecContribution="502500" terminated="false" sme="true" netEcContribution="502500" totalCost="502500" type="participant">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>2372492</rcn>
+        <id>968966466</id>
+        <vatNumber>FR09529212987</vatNumber>
+        <legalName>VIRTUAL OPEN SYSTEMS</legalName>
+        <shortName>VOSYS</shortName>
+        <address>
+          <street>17 RUE LAKANAL</street>
+          <city>GRENOBLE</city>
+          <postalCode>38000</postalCode>
+          <country>FR</country>
+          <geolocation>45.1857137,5.7227202</geolocation>
+        </address>
+        <departmentName>Virtual Open Systems</departmentName>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PRC</code>
+              <title>Private for-profit entities (excluding Higher or Secondary Education Establishments)</title>
+              <displayCode readOnly="true">/Private for-profit entities (excluding Higher or Secondary Education Establishments)</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Isère</name>
+              <rcn>1465375</rcn>
+              <nutsCode>FRK24</nutsCode>
+              <parents>
+                <region>
+                  <name>Rhône-Alpes</name>
+                  <rcn>1464966</rcn>
+                  <nutsCode>FRK2</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Auvergne-Rhône-Alpes</name>
+                      <rcn>1464964</rcn>
+                      <nutsCode>FRK</nutsCode>
+                      <parents>
+                        <region>
+                          <name>France</name>
+                          <rcn>258902568</rcn>
+                          <nutsCode>FR</nutsCode>
+                          <euCode>FR</euCode>
+                          <isoCode>FR</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>France</name>
+              <rcn>258902568</rcn>
+              <nutsCode>FR</nutsCode>
+              <euCode>FR</euCode>
+              <isoCode>FR</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization source="corda" order="1" ecContribution="687500" terminated="false" sme="false" totalCost="687500" netEcContribution="687500" type="coordinator">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1910033</rcn>
+        <id>999976202</id>
+        <vatNumber>ESQ0818003F</vatNumber>
+        <legalName>UNIVERSITAT POLITECNICA DE CATALUNYA</legalName>
+        <shortName>UPC</shortName>
+        <address>
+          <street>CALLE JORDI GIRONA 31</street>
+          <city>BARCELONA</city>
+          <postalCode>08034</postalCode>
+          <country>ES</country>
+          <postBox>000</postBox>
+          <url>http://www.upc.edu</url>
+          <geolocation>41.3825596,2.1771353</geolocation>
+        </address>
+        <departmentName>Technology Transfer Centre</departmentName>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode readOnly="true">/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Barcelona</name>
+              <rcn>242241601</rcn>
+              <nutsCode>ES511</nutsCode>
+              <parents>
+                <region>
+                  <name>Cataluña</name>
+                  <rcn>242241640</rcn>
+                  <nutsCode>ES51</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Este</name>
+                      <rcn>242244136</rcn>
+                      <nutsCode>ES5</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Spain</name>
+                          <rcn>242387496</rcn>
+                          <nutsCode>ES</nutsCode>
+                          <euCode>ES</euCode>
+                          <isoCode>ES</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Spain</name>
+              <rcn>242387496</rcn>
+              <nutsCode>ES</nutsCode>
+              <euCode>ES</euCode>
+              <isoCode>ES</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization source="corda" order="2" ecContribution="625000" terminated="false" sme="false" netEcContribution="350000" totalCost="625000" type="participant">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1905674</rcn>
+        <id>999977754</id>
+        <vatNumber>IT00518460019</vatNumber>
+        <legalName>POLITECNICO DI TORINO</legalName>
+        <shortName>POLITO</shortName>
+        <address>
+          <street>CORSO DUCA DEGLI ABRUZZI 24</street>
+          <city>Torino</city>
+          <postalCode>10129</postalCode>
+          <country>IT</country>
+          <postBox>000</postBox>
+          <url>https://www.polito.it</url>
+          <geolocation>45.0626528,7.6618159</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode readOnly="true">/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Torino</name>
+              <rcn>309641281</rcn>
+              <nutsCode>ITC11</nutsCode>
+              <parents>
+                <region>
+                  <name>Piemonte</name>
+                  <rcn>309641320</rcn>
+                  <nutsCode>ITC1</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Nord-Ovest</name>
+                      <rcn>309643816</rcn>
+                      <nutsCode>ITC</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Italy</name>
+                          <rcn>309758504</rcn>
+                          <nutsCode>IT</nutsCode>
+                          <euCode>IT</euCode>
+                          <isoCode>IT</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Italy</name>
+              <rcn>309758504</rcn>
+              <nutsCode>IT</nutsCode>
+              <euCode>IT</euCode>
+              <isoCode>IT</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization source="corda" order="9" ecContribution="223750" terminated="false" sme="true" netEcContribution="223750" totalCost="223750" type="participant">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1965097</rcn>
+        <id>897072006</id>
+        <vatNumber>EL801263518</vatNumber>
+        <legalName>EXASCALE PERFORMANCE SYSTEMS - EXAPSYS IKE</legalName>
+        <address>
+          <street>100 N. Plastira St, V Vouton</street>
+          <city>Agios Myronas,</city>
+          <postalCode>700 13</postalCode>
+          <country>EL</country>
+          <geolocation>40.7483148,22.6262955</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PRC</code>
+              <title>Private for-profit entities (excluding Higher or Secondary Education Establishments)</title>
+              <displayCode readOnly="true">/Private for-profit entities (excluding Higher or Secondary Education Establishments)</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Ηράκλειο</name>
+              <rcn>1465359</rcn>
+              <nutsCode>EL431</nutsCode>
+              <parents>
+                <region>
+                  <name>Κρήτη</name>
+                  <rcn>1464913</rcn>
+                  <nutsCode>EL43</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Νησιά Αιγαίου</name>
+                      <rcn>1464909</rcn>
+                      <nutsCode>EL4</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Greece</name>
+                          <rcn>240552488</rcn>
+                          <nutsCode>EL</nutsCode>
+                          <euCode>EL</euCode>
+                          <isoCode>EL</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Greece</name>
+              <rcn>240552488</rcn>
+              <nutsCode>EL</nutsCode>
+              <euCode>EL</euCode>
+              <isoCode>EL</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization source="corda" order="2" ecContribution="0" terminated="false" sme="false" netEcContribution="275000" totalCost="0" type="thirdParty">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1955927</rcn>
+        <id>916573856</id>
+        <vatNumber>IT11904960017</vatNumber>
+        <legalName><![CDATA[FONDAZIONE LINKS - LEADING INNOVATION & KNOWLEDGE FOR SOCIETY]]></legalName>
+        <shortName>FONDAZIONE LINKS</shortName>
+        <address>
+          <street>VIA PIER CARLO BOGGIO 61</street>
+          <city>Torino</city>
+          <postalCode>10138</postalCode>
+          <country>IT</country>
+          <geolocation>45.0633969,7.6555693</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/REC</code>
+              <title>Research Organisations</title>
+              <displayCode readOnly="true">/Research Organisations</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Torino</name>
+              <rcn>309641281</rcn>
+              <nutsCode>ITC11</nutsCode>
+              <parents>
+                <region>
+                  <name>Piemonte</name>
+                  <rcn>309641320</rcn>
+                  <nutsCode>ITC1</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Nord-Ovest</name>
+                      <rcn>309643816</rcn>
+                      <nutsCode>ITC</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Italy</name>
+                          <rcn>309758504</rcn>
+                          <nutsCode>IT</nutsCode>
+                          <euCode>IT</euCode>
+                          <isoCode>IT</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Italy</name>
+              <rcn>309758504</rcn>
+              <nutsCode>IT</nutsCode>
+              <euCode>IT</euCode>
+              <isoCode>IT</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization source="corda" order="8" ecContribution="281250" terminated="false" sme="false" netEcContribution="281250" totalCost="281250" type="participant">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1917133</rcn>
+        <id>999654356</id>
+        <vatNumber>EL090162593</vatNumber>
+        <legalName>EREVNITIKO PANEPISTIMIAKO INSTITOUTO SYSTIMATON EPIKOINONION KAI YPOLOGISTON</legalName>
+        <shortName>RESEARCH UNIVERSITY INSTITUTE OF COMMUNICATION AND COMPUTER SYSTEMS</shortName>
+        <address>
+          <street>PATISION 42</street>
+          <city>ATHINA</city>
+          <postalCode>106 82</postalCode>
+          <country>EL</country>
+          <url>http://www.iccs.gr</url>
+          <geolocation>39.591621450000005,21.2955477</geolocation>
+        </address>
+        <departmentName>ICCS</departmentName>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/REC</code>
+              <title>Research Organisations</title>
+              <displayCode readOnly="true">/Research Organisations</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Κεντρικός Τομέας Αθηνών</name>
+              <rcn>1465456</rcn>
+              <nutsCode>EL303</nutsCode>
+              <parents>
+                <region>
+                  <name>Aττική</name>
+                  <rcn>1464908</rcn>
+                  <nutsCode>EL30</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Αττική </name>
+                      <rcn>1464907</rcn>
+                      <nutsCode>EL3</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Greece</name>
+                          <rcn>240552488</rcn>
+                          <nutsCode>EL</nutsCode>
+                          <euCode>EL</euCode>
+                          <isoCode>EL</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Greece</name>
+              <rcn>240552488</rcn>
+              <nutsCode>EL</nutsCode>
+              <euCode>EL</euCode>
+              <isoCode>EL</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization source="corda" order="4" ecContribution="493750" terminated="false" sme="false" netEcContribution="493750" totalCost="493750" type="participant">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1912330</rcn>
+        <id>999655520</id>
+        <vatNumber>ESS0800099D</vatNumber>
+        <legalName>BARCELONA SUPERCOMPUTING CENTER CENTRO NACIONAL DE SUPERCOMPUTACION</legalName>
+        <shortName>BSC CNS</shortName>
+        <address>
+          <street>CALLE JORDI GIRONA 31</street>
+          <city>BARCELONA</city>
+          <postalCode>08034</postalCode>
+          <country>ES</country>
+          <url>http://www.bsc.es</url>
+          <geolocation>41.75786995,2.031182036159852</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/REC</code>
+              <title>Research Organisations</title>
+              <displayCode readOnly="true">/Research Organisations</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Barcelona</name>
+              <rcn>242241601</rcn>
+              <nutsCode>ES511</nutsCode>
+              <parents>
+                <region>
+                  <name>Cataluña</name>
+                  <rcn>242241640</rcn>
+                  <nutsCode>ES51</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Este</name>
+                      <rcn>242244136</rcn>
+                      <nutsCode>ES5</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Spain</name>
+                          <rcn>242387496</rcn>
+                          <nutsCode>ES</nutsCode>
+                          <euCode>ES</euCode>
+                          <isoCode>ES</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Spain</name>
+              <rcn>242387496</rcn>
+              <nutsCode>ES</nutsCode>
+              <euCode>ES</euCode>
+              <isoCode>ES</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme source="corda" uniqueProgrammePart="true" type="relatedLegalBasis">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>705756</rcn>
+        <id>HORIZON.2.4</id>
+        <code>HORIZON.2.4</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.2.4</pga>
+        <title>Digital, Industry and Space</title>
+        <parent>
+          <programme>
+            <rcn>705740</rcn>
+            <code>HORIZON.2</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode readOnly="true">/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme source="corda" type="relatedTopic">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>706709</rcn>
+        <id>HORIZON_HORIZON-CL4-2022-DIGITAL-EMERGING-01-26</id>
+        <code>HORIZON-CL4-2022-DIGITAL-EMERGING-01-26</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>Open source for cloud-based services (RIA)</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode readOnly="true">/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+            <category classification="topicKeyword" type="isAbout">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <code>/43455370</code>
+              <title>Open Source Software</title>
+              <displayCode readOnly="true">/Open Source Software</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme source="corda" type="relatedLegalBasis">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>705758</rcn>
+        <id>HORIZON.2.4.2</id>
+        <code>HORIZON.2.4.2</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.2.4.2</pga>
+        <title>Key Digital Technologies</title>
+        <parent>
+          <programme>
+            <rcn>705756</rcn>
+            <code>HORIZON.2.4</code>
+            <parent>
+              <programme>
+                <rcn>705740</rcn>
+                <code>HORIZON.2</code>
+                <parent>
+                  <programme>
+                    <rcn>705725</rcn>
+                    <code>HORIZON</code>
+                  </programme>
+                </parent>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode readOnly="true">/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>970197</rcn>
+        <id>101093062_4043_PUBLIHORIZON</id>
+        <title>VITAMIN-V: Virtual Environment and Tool-boxing for Trustworthy Development of RISC-V based Cloud Services</title>
+        <details>
+          <authors>J. Costa, D. Gizopoulos, V. Karakostas, F. Lubrano, K. Nikas, Y. Nikolakopoulos, B. Otero, G. Papadimitriou, I. Papaefstathiou, D. Pnevmatikatos, D. Raho, A. Rigo, E. Rodríguez, A. Savino, A. Scionti, N. Tampouratzis, A. Torregrosa</authors>
+          <journalNumber/>
+          <journalTitle>2023 RISC-V Summit Europe</journalTitle>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>RISC-V Summit Europe</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/ARXIV.2305.10982</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-04-15 01:27:45</sourceUpdateDate>
+        <contentUpdateDate>2025-07-31 11:14:14</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1205038</rcn>
+        <id>101093062_38935_PUBLIHORIZON</id>
+        <title>Hardware-based stack buffer overflow attack detection on RISC-V architectures</title>
+        <details>
+          <authors>Cristiano Pegoraro Chenet, Ziteng Zhang, Alessandro Savino, Stefano Di Carl</authors>
+          <journalNumber/>
+          <journalTitle>2024 RISC-V Summit Europe</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>RISC-V Summit Europe</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arXiv.2406.10282</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-07-05 04:36:45</sourceUpdateDate>
+        <contentUpdateDate>2024-11-19 08:49:31</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>970202</rcn>
+        <id>101093062_4046_PUBLIHORIZON</id>
+        <title>A Survey of Machine and Deep Learning Methods for Privacy Protection in the Internet of Things</title>
+        <details>
+          <authors>Rodríguez, Eva; Otero, Beatriz; Canal, Ramon</authors>
+          <journalNumber>23</journalNumber>
+          <journalTitle>SENSORS</journalTitle>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>MDPI</publisher>
+        </details>
+        <identifiers>
+          <doi>10.3390/S23031252</doi>
+          <issn>1424-8220</issn>
+        </identifiers>
+        <sourceUpdateDate>2025-04-15 01:27:45</sourceUpdateDate>
+        <contentUpdateDate>2025-07-31 11:14:16</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1029834</rcn>
+        <id>101093062_19_DELIVHORIZON</id>
+        <title>Data Management Plan</title>
+        <description>Data Management Plan</description>
+        <sourceUpdateDate>2024-01-11 19:04:33</sourceUpdateDate>
+        <contentUpdateDate>2024-01-12 11:51:48</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/DMP</code>
+              <title>Data Management Plan</title>
+              <displayCode readOnly="true">/Data Management Plan</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" represents="project" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>64bdec6b1f4205db63f0decc477dd923</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5fde0819a&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1205173</rcn>
+        <id>101093062_39841_PUBLIHORIZON</id>
+        <title>Vitamin-V: Expanding Open-Source RISC-V Cloud Environments</title>
+        <details>
+          <authors>Ramon Canal, Stefano Di Carlo, Dimitris Gizopoulos, Alberto Scionti, Francesco Lubrano, Josep-Lluís Berral, Aaron Call, Diego Marron, Konstantinos Nikas, Dionisios Pnevmatikatos, Daniel Raho, Alvise Rigo, Yannis Papaefstathiou, José María Arnau, Angelos A</authors>
+          <journalNumber/>
+          <journalTitle>2024 RISC-V Summit Europe</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>RISC-V Summit Europe</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/ARXIV.2407.00052</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-04-15 01:27:45</sourceUpdateDate>
+        <contentUpdateDate>2025-07-31 11:14:00</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1029849</rcn>
+        <id>101093062_1_DELIVHORIZON</id>
+        <title>Initial hardware interface requirements and virtual environment specifications document</title>
+        <description>Hardware interfaces requirements and virtual environment specifications</description>
+        <sourceUpdateDate>2024-01-11 19:04:33</sourceUpdateDate>
+        <contentUpdateDate>2024-01-12 11:51:50</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode readOnly="true">/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" represents="project" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>98556011fb16704e02ad9648e2154413</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5fdd3c49d&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1321786</rcn>
+        <id>101093062_8882_PUBLIHORIZON</id>
+        <title>Silent Data Errors: Sources, Detection, and Modeling</title>
+        <details>
+          <authors>Singh, Adit; Chakravarty, Sreejit; Papadimitriou, George; Gizopoulos, Dimitris</authors>
+          <journalNumber/>
+          <journalTitle>2023 IEEE 41st VLSI Test Symposium (VTS)</journalTitle>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1109/VTS56346.2023.10139970</doi>
+          <issn>2320-5373</issn>
+        </identifiers>
+        <sourceUpdateDate>2024-01-06 00:36:27</sourceUpdateDate>
+        <contentUpdateDate>2025-07-11 12:38:08</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1322305</rcn>
+        <id>101093062_38938_PUBLIHORIZON</id>
+        <title>Harpocrates: Breaking the Silence of CPU Faults through Hardware-in-the-Loop Program Generation</title>
+        <details>
+          <authors>Karystinos, Nikos; Chatzopoulos, Odysseas; Fragkoulis, George-Marios; Papadimitriou, George; Gizopoulos, Dimitris; Gurumurthi, Sudhanva</authors>
+          <journalNumber/>
+          <journalTitle>ACM/IEEE International Symposium on Computer Architecture</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>ACM/IEEE</publisher>
+        </details>
+        <identifiers>
+          <doi>10.5281/ZENODO.12553098</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-07-05 04:36:45</sourceUpdateDate>
+        <contentUpdateDate>2025-07-11 13:08:00</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1204930</rcn>
+        <id>101093062_38931_PUBLIHORIZON</id>
+        <title>Hypervisor Extension for a RISC-V Processor</title>
+        <details>
+          <authors>Jaume Gauchola, Juan José Costa, Enric Morancho, Ramon Canal, Xavier Carril, Max Doblas, Beatriz Otero, Alex Pajuelo, Eva Rodríguez, Javier Salamero, Javier Verdú</authors>
+          <journalNumber/>
+          <journalTitle>2023 RISC-V Summit Europe</journalTitle>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>RISC-V Summit Europe</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/ARXIV.2406.17796</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-04-15 01:27:45</sourceUpdateDate>
+        <contentUpdateDate>2025-07-31 11:14:00</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1183635</rcn>
+        <id>101093062_7_DELIVHORIZON</id>
+        <title>Initial RISC-V ported LLVM compiler, toolchain and system profiling infrastructure</title>
+        <description>Initial description of the LLVM, toolchain and systems profiling ports to RISC-V.</description>
+        <sourceUpdateDate>2024-10-27 22:11:02</sourceUpdateDate>
+        <contentUpdateDate>2024-10-29 20:06:39</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode readOnly="true">/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>1301e92440a8e599d228a2d0c42e8a27</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e512930ff9&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1322140</rcn>
+        <id>101093062_9081_PUBLIHORIZON</id>
+        <title>Silent Data Corruptions: The Stealthy Saboteurs of Digital Integrity</title>
+        <details>
+          <authors>Papadimitriou, George; Gizopoulos, Dimitris; Dixit, Harish; Sankar, Sriram</authors>
+          <journalNumber/>
+          <journalTitle>29th IEEE International Symposium on On-Line Testing and Robust System Design</journalTitle>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1109/IOLTS59296.2023.10224870</doi>
+          <issn>1942-9401</issn>
+        </identifiers>
+        <sourceUpdateDate>2024-07-01 19:57:06</sourceUpdateDate>
+        <contentUpdateDate>2025-07-11 12:44:25</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1029840</rcn>
+        <id>101093062_18_DELIVHORIZON</id>
+        <title>Dissemination Plan</title>
+        <description>Dissemination Plan</description>
+        <sourceUpdateDate>2024-01-11 19:04:33</sourceUpdateDate>
+        <contentUpdateDate>2024-01-12 11:51:49</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode readOnly="true">/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" represents="project" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>0f7630d031b86c9ce1561430f14d0409</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5fddfd295&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1325115</rcn>
+        <id>101093062_38922_PUBLIHORIZON</id>
+        <title>A Differential Privacy protection-based federated deep learning framework to fog-embedded architectures</title>
+        <details>
+          <authors>Gutiérrez, Norma; Otero, Beatriz; Rodríguez, Eva; Utrera, Gladys; Mus, Sergi; Canal, Ramon</authors>
+          <journalNumber>130</journalNumber>
+          <journalTitle>International Journal of Intelligent Real-Time Automation</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>ELSEIVER</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1016/J.ENGAPPAI.2023.107689</doi>
+          <issn>1873-6769</issn>
+        </identifiers>
+        <sourceUpdateDate>2025-04-15 01:27:45</sourceUpdateDate>
+        <contentUpdateDate>2025-07-11 19:48:29</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1168462</rcn>
+        <id>101093062_2_DELIVHORIZON</id>
+        <title>Hardware interface requirements and virtual environment specifications</title>
+        <description>Final hardware interface requirements and virtual environment specifications</description>
+        <sourceUpdateDate>2024-09-16 18:33:28</sourceUpdateDate>
+        <contentUpdateDate>2024-09-23 11:18:12</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode readOnly="true">/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>3731f427b2c9deaf0a824ee45ef95508</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e50e8c9b56&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1339291</rcn>
+        <id>101093062_38921_PUBLIHORIZON</id>
+        <title>A survey on hardware-based malware detection approaches</title>
+        <details>
+          <authors>Chenet, Cristiano Pegoraro; Savino, Alessandro; Di Carlo, Stefano</authors>
+          <journalNumber>12</journalNumber>
+          <journalTitle>IEEE ACCESS 2024</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>Institute of Electrical and Electronics Engineers Inc.</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1109/ACCESS.2024.3388716</doi>
+          <issn>2169-3536</issn>
+        </identifiers>
+        <sourceUpdateDate>2024-07-01 19:57:06</sourceUpdateDate>
+        <contentUpdateDate>2025-07-29 09:38:26</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1029847</rcn>
+        <id>101093062_17_DELIVHORIZON</id>
+        <title><![CDATA[Website & Dissemination materials]]></title>
+        <description>Website  Dissemination materials</description>
+        <sourceUpdateDate>2024-01-11 19:04:33</sourceUpdateDate>
+        <contentUpdateDate>2024-01-12 11:51:50</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/DEC</code>
+              <title>Websites, patent fillings, videos etc.</title>
+              <displayCode readOnly="true">/Websites, patent fillings, videos etc.</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" represents="project" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>a169be1b34f79e00e4448d2219e20d1d</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5f9e78c33&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1183641</rcn>
+        <id>101093062_14_DELIVHORIZON</id>
+        <title>Evaluation strategy</title>
+        <description>Description of the evaluation strategy for the different system setups.</description>
+        <sourceUpdateDate>2024-10-27 22:11:02</sourceUpdateDate>
+        <contentUpdateDate>2024-10-29 20:06:40</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode readOnly="true">/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>3376272b2e55d95530fa7244a30fa742</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e512934e72&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>970203</rcn>
+        <id>101093062_4042_PUBLIHORIZON</id>
+        <title>Validation, Verification, and Testing (VVT) of future RISC-V powered cloud infrastructures: the VITAMIN-V Horizon Europe Project perspective</title>
+        <details>
+          <authors>Marti Alonso, David Andreu, Ramon Canal, Stefano Di Carlo, Cristiano Chenet, Juanjo Costa, Andreu Girones, Dimitris Gizopoulos, Vasileios Karakostas, Beatriz Otero, George Papadimitriou, Eva Rodriguez, Alessandro Savino</authors>
+          <journalTitle>28th IEEE European Test Symposium 2023</journalTitle>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1109/ets56758.2023.10174216</doi>
+          <isbn>979-8-3503-3634-4</isbn>
+        </identifiers>
+        <sourceUpdateDate>2023-12-23 02:20:47</sourceUpdateDate>
+        <contentUpdateDate>2023-08-10 18:15:49</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>970204</rcn>
+        <id>101093062_4041_PUBLIHORIZON</id>
+        <title>Challenges and Opportunities for RISC-V Architectures towards Genomics-basedWorkloads</title>
+        <details>
+          <authors>G. Gomez, A. Call, X. Teruel, L. Alonso, I. Moran, M. A. Perez, D. Torrents, J. L.. Berral</authors>
+          <journalTitle>Lecture Notes in Computer Science</journalTitle>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>Springer</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1007/978-3-031-40843-4_34</doi>
+          <isbn>978-3-031-40843-4</isbn>
+        </identifiers>
+        <sourceUpdateDate>2024-07-01 19:57:06</sourceUpdateDate>
+        <contentUpdateDate>2023-08-10 18:15:49</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/BOOK_CHAPTER</code>
+              <title>Book chapters</title>
+              <displayCode readOnly="true">/Book chapters</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1183647</rcn>
+        <id>101093062_10_DELIVHORIZON</id>
+        <title>Software ports roadmap</title>
+        <description>Description of the software ports to be performed, current status of porting and roadmap.</description>
+        <sourceUpdateDate>2024-10-27 22:11:02</sourceUpdateDate>
+        <contentUpdateDate>2024-10-29 20:06:41</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode readOnly="true">/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>48597758295a31142d045c89e0332646</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e512930383&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1321783</rcn>
+        <id>101093062_8881_PUBLIHORIZON</id>
+        <title>Silent Data Corruptions: Microarchitectural Perspectives</title>
+        <details>
+          <authors>Papadimitriou, George; Gizopoulos, Dimitris</authors>
+          <journalNumber>72</journalNumber>
+          <journalTitle>IEEE Transactions on Computers</journalTitle>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>IEEE Transactions on Computers</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1109/TC.2023.3285094</doi>
+          <issn>1557-9956</issn>
+        </identifiers>
+        <sourceUpdateDate>2024-01-06 00:36:27</sourceUpdateDate>
+        <contentUpdateDate>2025-07-11 12:38:08</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1210003</rcn>
+        <id>101093062_PSHORIZON</id>
+        <title>Periodic Reporting for period 1 - Vitamin-V (Virtual Environment and Tool-boxing for Trustworthy Development of RISC-V based Cloud Services)</title>
+        <teaser>Vitamin-V aims to develop a complete RISC-V open-source software stack for cloud services with iso-performance to the cloud dominant x86 counterpart and a powerful virtual execution environment for software development, validation, verification, and test that considers the...</teaser>
+        <description>periodic</description>
+        <sourceUpdateDate>2024-11-20 16:33:43</sourceUpdateDate>
+        <contentUpdateDate>2024-11-25 10:25:10</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/pubsum</code>
+              <title>Report Summary</title>
+              <description>Result: Publishable summary (FP7 SESAM) and Summary for publication (H2020 SyGMa)</description>
+              <displayCode readOnly="true">/Report Summary</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webItem source="corda" type="relatedResultAttachment">
+              <language>en</language>
+              <availableLanguages readOnly="true">en,any</availableLanguages>
+              <uri>/docs/results/horizon/101093/101093062_PS/vitaminv.png</uri>
+              <alternativeText>Vitamin-V Logo</alternativeText>
+              <mimetype readOnly="true">image/png</mimetype>
+              <size readOnly="true">152576</size>
+            </webItem>
+            <webItem source="corda" type="relatedResultAttachment">
+              <language>en</language>
+              <availableLanguages readOnly="true">en,any</availableLanguages>
+              <uri>/docs/results/horizon/101093/101093062_PS/vitamin-v-kom-picture-small.png</uri>
+              <alternativeText>Vitamin-V Kick-Off Meeting participant picture</alternativeText>
+              <mimetype readOnly="true">image/png</mimetype>
+              <size readOnly="true">1144832</size>
+            </webItem>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>970196</rcn>
+        <id>101093062_4045_PUBLIHORIZON</id>
+        <title>Deep-Learning Based Detection for Cyber-Attacks in IoT Networks: A Distributed Attack Detection Framework</title>
+        <details>
+          <authors>Jullian Parra, Olivia; Otero Calviño, Beatriz; Rodríguez Luna, Eva; Gutiérrez Escobar, Norma; Antona Pizà, Héctor; Canal Corretger, Ramon</authors>
+          <journalNumber>31</journalNumber>
+          <journalTitle>Journal of Network and Systems Management</journalTitle>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>Springer Nature</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1007/S10922-023-09722-7</doi>
+          <issn>1573-7705</issn>
+        </identifiers>
+        <sourceUpdateDate>2025-04-15 01:27:45</sourceUpdateDate>
+        <contentUpdateDate>2025-07-31 11:14:13</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1029832</rcn>
+        <id>101093062_6_DELIVHORIZON</id>
+        <title>VVT Specifications</title>
+        <description>Software Validation Verification and Test specifications</description>
+        <sourceUpdateDate>2024-01-11 19:04:33</sourceUpdateDate>
+        <contentUpdateDate>2024-01-12 11:51:48</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode readOnly="true">/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" represents="project" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>db3a7f418c1a2e634f63525df537bdef</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5fdd2f1d6&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1322323</rcn>
+        <id>101093062_38939_PUBLIHORIZON</id>
+        <title>Fast, Accurate and Distributed Simulation of novel HPC systems incorporating ARM and RISC-V CPUs</title>
+        <details>
+          <authors>Nikolaos Tampouratzis and Ioannis Papaefstathiou</authors>
+          <journalNumber/>
+          <journalTitle>ACM International Symposium on High-Performance Parallel and Distributed Computing</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>ACM</publisher>
+        </details>
+        <identifiers>
+          <doi>10.5281/ZENODO.12594262</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-07-05 04:36:45</sourceUpdateDate>
+        <contentUpdateDate>2025-07-11 13:08:00</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1322308</rcn>
+        <id>101093062_38937_PUBLIHORIZON</id>
+        <title>Silent Data Corruptions in Computing Systems: Early Predictions and Large-Scale Measurements</title>
+        <details>
+          <authors>Gizopoulos, Dimitris; Papadimitriou, George; Chatzopoulos, Odysseas; Karystinos, Nikos; Dixit, Harish; Sankar, Sriram</authors>
+          <journalNumber/>
+          <journalTitle>29th IEEE European Test Symposium 2024</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <doi>10.5281/ZENODO.12552569</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-07-05 04:36:45</sourceUpdateDate>
+        <contentUpdateDate>2025-07-11 13:08:00</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode readOnly="true">/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/47/295/917</code>
+        <title>cryptography</title>
+        <displayCode readOnly="true">/natural sciences/computer and information sciences/computer security/cryptography</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/47/307/30031</code>
+        <title>software development</title>
+        <displayCode readOnly="true">/natural sciences/computer and information sciences/software/software development</displayCode>
+      </category>
+      <category weight="100" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode readOnly="true">/Digital agenda</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode readOnly="true">/Clean air</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode readOnly="true">/Artificial intelligence</displayCode>
+      </category>
+      <category weight="40" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode readOnly="true">/Climate action</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode readOnly="true">/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <code>/HORIZON-RIA</code>
+        <title>HORIZON  Research and Innovation Actions</title>
+        <description>HORIZON  Research and Innovation Actions</description>
+        <displayCode readOnly="true">/HORIZON  Research and Innovation Actions</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode readOnly="true">/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

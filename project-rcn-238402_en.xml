@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages readOnly="true">en</availableLanguages>
+  <rcn>238402</rcn>
+  <id>101043471</id>
+  <acronym>SpeckleCorr</acronym>
+  <teaser>When viewed under coherent imaging conditions (e.g. laser illumination), scattering materials such as biological tissues create noise-like images known as speckle. Despite their seemingly random nature, speckle patterns have strong statistical correlation properties that are...</teaser>
+  <objective>When viewed under coherent imaging conditions (e.g. laser illumination), scattering materials such as biological tissues create noise-like images known as speckle. Despite their seemingly random nature, speckle patterns have strong statistical correlation properties that are highly informative of the material producing them. These can be used to enable remarkable imaging capabilities, not possible with current state of the art, for example seeing through highly scattering layers.
+
+Unfortunately, realizing these  in practical  settings (tissue imaging, fluorescence microscopy) remains a challenge. Research efforts  are hindered by a lack of modeling tools, resulting in an incomplete understanding of speckle properties.
+This project aims to use computational techniques from computer vision and computer graphics to greatly enhance our understanding of speckle statistics, and significantly expand the scope of their applications.
+To this end, the project will explore algorithmic tools newly-developed by the PI that can accurately and efficiently simulate speckle patterns, to formulate better models of speckle formation.
+We will exploit our new understanding to develop new types of computational imaging systems that can directly measure speckle correlation, rather than the traditional pipeline where one captures speckle images and estimates their correlations algorithmically in post-processing.
+Finally, we will exploit these tools in multiple computational imaging applications, including: (i) Acquiring material parameters: estimating the type, size and density of particles composing a material of interest. (ii) Imaging fluorescent sources deep inside scattering tissue. (iii) Adaptive optics imaging.
+
+Potential impact is anticipated in numerous areas
+ where speckle-based imaging techniques hold promise, including medicine (increased depth penetration of tissue imaging techniques) and material fabrication and analysis (accurate characterization of scattering  materials).</objective>
+  <title>Computational imaging through scattering materials using speckle correlation</title>
+  <keywords>Computational Photography, Scattering, Memory Effect</keywords>
+  <totalCost>2125000</totalCost>
+  <ecMaxContribution>2125000</ecMaxContribution>
+  <startDate>2023-01-01</startDate>
+  <endDate>2027-12-31</endDate>
+  <ecSignatureDate>2022-05-02</ecSignatureDate>
+  <duration>60</duration>
+  <status>SIGNED</status>
+  <identifiers>
+    <grantDoi>10.3030/101043471</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>false</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2025-01-03 10:47:16</sourceUpdateDate>
+  <contentCreationDate readOnly="true">2022-07-26 19:56:54</contentCreationDate>
+  <contentUpdateDate>2025-09-01 23:00:01</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-10-16 09:19:42</lastUpdateDate>
+  <relations>
+    <associations>
+      <article source="editorial" type="relatedArticle">
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <rcn>434868</rcn>
+        <id>434868-new-computer-imaging-methods-enable-study-of-speckle-patterns-in-light-scattering-materials</id>
+        <title>New computer imaging methods enable study of speckle patterns in light-scattering materials</title>
+        <contentUpdateDate>2022-10-25 10:34:01</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/projectDescription</code>
+              <title>Project description</title>
+              <description>Article: description of linked project written by editorial team</description>
+              <displayCode readOnly="true">/Project description</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/editorial</code>
+              <title>CORDIS Editorial</title>
+              <description>Written by CORDIS</description>
+              <displayCode readOnly="true">/CORDIS Editorial</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </article>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>55314</rcn>
+        <title>ERC-2021-COG</title>
+        <identifier>ERC-2021-COG</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>55314</rcn>
+        <title>ERC-2021-COG</title>
+        <identifier>ERC-2021-COG</identifier>
+      </call>
+      <organization source="corda" order="1" ecContribution="2125000" terminated="false" sme="false" netEcContribution="2125000" totalCost="2125000" type="coordinator">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1906564</rcn>
+        <id>999907720</id>
+        <vatNumber>IL557585585</vatNumber>
+        <legalName>TECHNION - ISRAEL INSTITUTE OF TECHNOLOGY</legalName>
+        <address>
+          <street>SENATE BUILDING TECHNION CITY</street>
+          <city>Haifa</city>
+          <postalCode>32000</postalCode>
+          <country>IL</country>
+          <postBox>000</postBox>
+          <url>http://www.technion.ac.il</url>
+          <geolocation>32.8191218,34.9983856</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode readOnly="true">/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Israel</name>
+              <rcn>307661352</rcn>
+              <nutsCode>IL</nutsCode>
+              <euCode>IL</euCode>
+              <isoCode>IL</isoCode>
+            </region>
+            <region type="relatedRegion">
+              <name>Israel</name>
+              <rcn>307661352</rcn>
+              <nutsCode>IL</nutsCode>
+              <euCode>IL</euCode>
+              <isoCode>IL</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme source="corda" type="relatedTopic">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>705886</rcn>
+        <id>HORIZON_ERC-2021-COG</id>
+        <code>ERC-2021-COG</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>ERC CONSOLIDATOR GRANTS</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode readOnly="true">/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme source="corda" uniqueProgrammePart="true" type="relatedLegalBasis">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>705727</rcn>
+        <id>HORIZON.1.1</id>
+        <code>HORIZON.1.1</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.1.1</pga>
+        <title>European Research Council (ERC)</title>
+        <parent>
+          <programme>
+            <rcn>705726</rcn>
+            <code>HORIZON.1</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode readOnly="true">/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>975110</rcn>
+        <id>101043471_1_DELIVHORIZON</id>
+        <title>Data Management Plan</title>
+        <description>Drafting of Data Management Plan</description>
+        <sourceUpdateDate>2023-08-20 13:35:27</sourceUpdateDate>
+        <contentUpdateDate>2023-09-28 15:00:01</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/DMP</code>
+              <title>Data Management Plan</title>
+              <displayCode readOnly="true">/Data Management Plan</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" represents="project" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>ece68ac1b9dda3076e429571044e51bb</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e50023d928&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1260737</rcn>
+        <id>101043471_128444_PUBLIHORIZON</id>
+        <title>Nature Communications</title>
+        <details>
+          <authors>Dror Aizik; Anat Levin</authors>
+          <journalNumber/>
+          <journalTitle>Nature Communications</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>Nature Communications</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arxiv.2301.11421</doi>
+          <issn>2041-1723</issn>
+        </identifiers>
+        <sourceUpdateDate>2025-03-03 18:32:38</sourceUpdateDate>
+        <contentUpdateDate>2025-03-05 13:55:04</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1260748</rcn>
+        <id>101043471_128445_PUBLIHORIZON</id>
+        <title>Efficient Monte Carlo simulation of spatiotemporal speckles and their correlations</title>
+        <details>
+          <authors>Chen Bar; Ioannis Gkioulekas; Anat Levin</authors>
+          <journalNumber/>
+          <journalTitle>Optica</journalTitle>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>Optica</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1364/optica.489837</doi>
+          <issn>2155-3165</issn>
+        </identifiers>
+        <sourceUpdateDate>2025-03-03 18:32:38</sourceUpdateDate>
+        <contentUpdateDate>2025-03-05 13:55:04</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1371206</rcn>
+        <id>101043471_PSHORIZON</id>
+        <title>Periodic Reporting for period 1 - SpeckleCorr (Computational imaging through scattering materials using speckle correlation)</title>
+        <teaser>When viewed under coherent imaging conditions (e.g. laser illumination), scattering materials such as biological tissuescreate noise-like images known as speckle. Despite their seemingly random nature, speckle patterns have strong statisticalcorrelation properties that are...</teaser>
+        <description>periodic</description>
+        <sourceUpdateDate>2025-10-07 05:09:51</sourceUpdateDate>
+        <contentUpdateDate>2025-10-16 09:19:41</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/pubsum</code>
+              <title>Report Summary</title>
+              <description>Result: Publishable summary (FP7 SESAM) and Summary for publication (H2020 SyGMa)</description>
+              <displayCode readOnly="true">/Report Summary</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webItem source="corda" type="relatedResultAttachment">
+              <language>en</language>
+              <availableLanguages readOnly="true">en,any</availableLanguages>
+              <uri>/docs/results/horizon/101043/101043471_PS/studentproject.jpg</uri>
+              <mimetype readOnly="true">image/jpeg</mimetype>
+              <size readOnly="true">60416</size>
+            </webItem>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1261131</rcn>
+        <id>101043471_128436_PUBLIHORIZON</id>
+        <title>Coherence As Texture - Passive Textureless 3D Reconstruction by Self-interference</title>
+        <details>
+          <authors>Wei-Yu Chen, Aswin C. Sankaranarayanan, Anat Levin, Matthew O'Toole</authors>
+          <journalNumber/>
+          <journalTitle>CVPR</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>Computer Vision Foundation</publisher>
+        </details>
+        <sourceUpdateDate>2025-03-03 18:32:38</sourceUpdateDate>
+        <contentUpdateDate>2025-03-06 14:53:58</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1261191</rcn>
+        <id>101043471_128550_PUBLIHORIZON</id>
+        <title>Understanding multi-layered transmission matrices</title>
+        <details>
+          <authors>M. Alterman, A. Levin</authors>
+          <journalNumber/>
+          <journalTitle>accepted to CVPR 2025</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>ArXiv</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arXiv.2410.2386</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-03-03 18:32:38</sourceUpdateDate>
+        <contentUpdateDate>2025-03-06 15:03:49</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/OTHER</code>
+              <title>Other</title>
+              <displayCode readOnly="true">/Other</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1261268</rcn>
+        <id>101043471_128549_PUBLIHORIZON</id>
+        <title>Rapid wavefront shaping using an optical gradient acquisition</title>
+        <details>
+          <authors>Sagi Monin, Marina Alterman, Anat Levin</authors>
+          <journalNumber/>
+          <journalTitle/>
+          <publishedPages/>
+          <publishedYear>2025</publishedYear>
+          <publisher>ArXiv paper</publisher>
+        </details>
+        <sourceUpdateDate>2025-03-03 18:32:38</sourceUpdateDate>
+        <contentUpdateDate>2025-03-10 08:31:12</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/OTHER</code>
+              <title>Other</title>
+              <displayCode readOnly="true">/Other</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode readOnly="true">/Project</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode readOnly="true">/Digital agenda</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode readOnly="true">/Clean air</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode readOnly="true">/Artificial intelligence</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode readOnly="true">/Climate action</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode readOnly="true">/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <code>/HORIZON-ERC</code>
+        <title>HORIZON ERC Grants</title>
+        <description>HORIZON ERC Grants</description>
+        <displayCode readOnly="true">/HORIZON ERC Grants</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode readOnly="true">/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

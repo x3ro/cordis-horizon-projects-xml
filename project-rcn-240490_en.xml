@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages readOnly="true">en</availableLanguages>
+  <rcn>240490</rcn>
+  <id>101040179</id>
+  <acronym>Q-CIRC</acronym>
+  <teaser>Quantum computers use highly entangled qubits to achieve their exceptional computational power. However, the qubits also easily entangle with their environment, leading to errors. Future quantum computers can be protected against such errors by encoding each logical qubit...</teaser>
+  <objective>Quantum computers use highly entangled qubits to achieve their exceptional computational power. However, the qubits also easily entangle with their environment, leading to errors. Future quantum computers can be protected against such errors by encoding each logical qubit redundantly in thousands of physical qubits. This daunting overhead can be reduced exponentially by improving the quality of the physical qubits. We can also replace the two-level physical qubits with cavities, which are described by continuous variables. This built-in redundancy can further reduce the overhead for fault-tolerant quantum computation.
+
+In this proposal, I aim to develop a qubit based on superconducting cavities with a coherence time of 1 second - three orders of magnitude higher than the current state of the art. I will achieve this goal by tackling the problem of errors in quantum computers on three fronts. The first front is developing a qubit with suppressed intrinsic loss mechanisms by harnessing recent developments in cavities for particle accelerators. The second is using quantum control to mitigate the effect of dominant error mechanisms. In the final front, we will develop and implement bosonic rotation codes, a novel blueprint for quantum error correction tailored to the error structure of the cavity qubit. These codes are unique in that they treat photon loss errors and phase noise errors on equal footing. 
+
+My proposal requires a radical rethinking of the cavity design, its interaction with quantum circuits, and how quantum information is encoded and manipulated. It combines advances in quantum information science, superconductivity, and materials science. Beyond providing a novel approach to quantum computing, the proposal will impact a broad range of fields ranging from quantum-enhanced sensing to the simulation of photochemical reactions.</objective>
+  <title>Superconducting qubits with 1 second coherence time using rotation codes</title>
+  <keywords>bosonic qubits, rotation codes, Schrodinger cat code, quantum error correction, teleportation, superconducting circuits, decoherence, fault-tolerance, superconducting resonators, bosonic codes, quantum computation, transmons, phase estimation, superconducting cavities, quantum optics, circuit QED</keywords>
+  <totalCost>2275797.5</totalCost>
+  <ecMaxContribution>2275797.5</ecMaxContribution>
+  <startDate>2022-08-01</startDate>
+  <endDate>2027-07-31</endDate>
+  <ecSignatureDate>2022-07-18</ecSignatureDate>
+  <duration>60</duration>
+  <status>SIGNED</status>
+  <identifiers>
+    <grantDoi>10.3030/101040179</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>false</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2025-01-03 10:47:16</sourceUpdateDate>
+  <contentCreationDate readOnly="true">2022-09-02 15:59:54</contentCreationDate>
+  <contentUpdateDate>2022-09-02 15:59:47</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-09-19 14:49:09</lastUpdateDate>
+  <relations>
+    <associations>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>55317</rcn>
+        <title>ERC-2021-STG</title>
+        <identifier>ERC-2021-STG</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>55317</rcn>
+        <title>ERC-2021-STG</title>
+        <identifier>ERC-2021-STG</identifier>
+      </call>
+      <organization terminated="false" sme="false" netEcContribution="2275797.5" totalCost="2275797.5" source="corda" order="1" ecContribution="2275797.5" type="coordinator">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1906414</rcn>
+        <id>999979306</id>
+        <vatNumber>IL520016858</vatNumber>
+        <legalName>WEIZMANN INSTITUTE OF SCIENCE</legalName>
+        <shortName>WEIZMANN</shortName>
+        <address>
+          <street>HERZL STREET 234</street>
+          <city>Rehovot</city>
+          <postalCode>7610001</postalCode>
+          <country>IL</country>
+          <postBox>26</postBox>
+          <url>http://www.weizmann.ac.il</url>
+          <geolocation>31.8952532,34.8105616</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode readOnly="true">/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Israel</name>
+              <rcn>307661352</rcn>
+              <nutsCode>IL</nutsCode>
+              <euCode>IL</euCode>
+              <isoCode>IL</isoCode>
+            </region>
+            <region type="relatedRegion">
+              <name>Israel</name>
+              <rcn>307661352</rcn>
+              <nutsCode>IL</nutsCode>
+              <euCode>IL</euCode>
+              <isoCode>IL</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme source="corda" type="relatedTopic">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>705885</rcn>
+        <id>HORIZON_ERC-2021-STG</id>
+        <code>ERC-2021-STG</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>ERC STARTING GRANTS</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode readOnly="true">/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme source="corda" uniqueProgrammePart="true" type="relatedLegalBasis">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>705727</rcn>
+        <id>HORIZON.1.1</id>
+        <code>HORIZON.1.1</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.1.1</pga>
+        <title>European Research Council (ERC)</title>
+        <parent>
+          <programme>
+            <rcn>705726</rcn>
+            <code>HORIZON.1</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode readOnly="true">/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1156278</rcn>
+        <id>101040179_50026_PUBLIHORIZON</id>
+        <title>Quantum capacity and codes for the bosonic loss-dephasing channel</title>
+        <details>
+          <authors>Peter Leviant, Qian Xu, Liang Jiang, and Serge Rosenblum</authors>
+          <journalTitle>Quantum</journalTitle>
+          <publishedPages/>
+          <publishedYear>2022</publishedYear>
+          <publisher>Quantum</publisher>
+        </details>
+        <identifiers>
+          <doi>10.22331/q-2022-09-29-821</doi>
+          <issn>2521-327X</issn>
+        </identifiers>
+        <sourceUpdateDate>2024-08-19 22:49:48</sourceUpdateDate>
+        <contentUpdateDate>2024-09-11 13:23:13</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1281656</rcn>
+        <id>101040179_4189B9E77474E01DC92A7E92FB670242_IPRHORIZON</id>
+        <title>SUPERCONDUCTING QUANTUM COMPUTING APPARATUS</title>
+        <details>
+          <iprAwarded/>
+          <iprDate>2024-01-25</iprDate>
+          <iprNumber>24050687</iprNumber>
+          <iprPrefix>20</iprPrefix>
+        </details>
+        <sourceUpdateDate>2025-04-15 01:27:45</sourceUpdateDate>
+        <contentUpdateDate>2025-04-15 01:27:45</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/ipr</code>
+              <title>Intellectual Property Rights</title>
+              <description>Result: Intellectual property rights linked to the results of EU funded research (FP7 onwards)</description>
+              <displayCode readOnly="true">/Intellectual Property Rights</displayCode>
+            </category>
+            <category classification="iprType" type="isRegisteredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PATENT</code>
+              <title>Patent</title>
+              <displayCode readOnly="true">/Patent</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <organization source="corda" type="isRegisteredBy">
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <rcn>1906414</rcn>
+              <id>999979306</id>
+              <vatNumber>IL520016858</vatNumber>
+              <legalName>WEIZMANN INSTITUTE OF SCIENCE</legalName>
+              <shortName>WEIZMANN</shortName>
+              <address>
+                <street>HERZL STREET 234</street>
+                <city>Rehovot</city>
+                <postalCode>7610001</postalCode>
+                <country>IL</country>
+                <postBox>26</postBox>
+                <url>http://www.weizmann.ac.il</url>
+                <geolocation>31.8952532,34.8105616</geolocation>
+              </address>
+              <relations>
+                <categories>
+                  <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+                    <language>en</language>
+                    <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+                    <code>/HES</code>
+                    <title>Higher or Secondary Education Establishments</title>
+                    <displayCode readOnly="true">/Higher or Secondary Education Establishments</displayCode>
+                  </category>
+                </categories>
+                <regions>
+                  <region type="relatedNutsCode">
+                    <name>Israel</name>
+                    <rcn>307661352</rcn>
+                    <nutsCode>IL</nutsCode>
+                    <euCode>IL</euCode>
+                    <isoCode>IL</isoCode>
+                  </region>
+                  <region type="relatedRegion">
+                    <name>Israel</name>
+                    <rcn>307661352</rcn>
+                    <nutsCode>IL</nutsCode>
+                    <euCode>IL</euCode>
+                    <isoCode>IL</isoCode>
+                  </region>
+                </regions>
+              </relations>
+            </organization>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1156285</rcn>
+        <id>101040179_50028_PUBLIHORIZON</id>
+        <title>Recovering quantum coherence of a cavity qubit through environment monitoring and active feedback</title>
+        <details>
+          <authors>Uri Goldblatt, Nitzan Kahn, Sergey Hazanov, Ofir Milul, Barkay Guttel, Lalit M. Joshi, Daniel Chausovsky, Fabien Lafont, Serge Rosenblum</authors>
+          <journalTitle>arXiv</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>ArXiv</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arXiv.2403.02081</doi>
+          <issn>2331-8422</issn>
+        </identifiers>
+        <sourceUpdateDate>2024-08-19 22:49:48</sourceUpdateDate>
+        <contentUpdateDate>2024-09-11 13:24:07</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1156272</rcn>
+        <id>101040179_50027_PUBLIHORIZON</id>
+        <title>Superconducting Cavity Qubit with Tens of Milliseconds Single-Photon Coherence Time</title>
+        <details>
+          <authors>Ofir Milul, Barkay Guttel, Uri Goldblatt, Sergey Hazanov, Lalit M. Joshi, Daniel Chausovsky, Nitzan Kahn, Engin Çiftyürek, Fabien Lafont, and Serge Rosenblum</authors>
+          <journalNumber/>
+          <journalTitle>PRX Quantum</journalTitle>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>PRX Quantum</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arXiv.2302.06442</doi>
+          <issn>2691-3399</issn>
+        </identifiers>
+        <sourceUpdateDate>2024-08-19 22:49:48</sourceUpdateDate>
+        <contentUpdateDate>2025-05-05 14:48:48</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1306992</rcn>
+        <id>101040179_PSHORIZON</id>
+        <title>Periodic Reporting for period 1 - Q-CIRC (Superconducting qubits with 1 second coherence time using rotation codes)</title>
+        <teaser>In the pursuit of fault-tolerant quantum computing, the ability to store quantum information in qubits for extended durations is essential. Superconducting qubits have emerged as a leading technology due to their scalability and compatibility with existing fabrication...</teaser>
+        <description>periodic</description>
+        <sourceUpdateDate>2025-05-23 15:22:03</sourceUpdateDate>
+        <contentUpdateDate>2025-05-23 15:22:03</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/pubsum</code>
+              <title>Report Summary</title>
+              <description>Result: Publishable summary (FP7 SESAM) and Summary for publication (H2020 SyGMa)</description>
+              <displayCode readOnly="true">/Report Summary</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webItem source="corda" type="relatedResultAttachment">
+              <language>en</language>
+              <availableLanguages readOnly="true">en,any</availableLanguages>
+              <uri>/docs/results/horizon/101040/101040179_PS/thumbnail.png</uri>
+              <mimetype readOnly="true">image/png</mimetype>
+              <size readOnly="true">251904</size>
+            </webItem>
+          </associations>
+        </relations>
+      </result>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode readOnly="true">/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/25/73/453/449/1207</code>
+        <title>quantum computers</title>
+        <displayCode readOnly="true">/engineering and technology/electrical engineering, electronic engineering, information engineering/electronic engineering/computer hardware/quantum computers</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/43/259/1525</code>
+        <title>superconductivity</title>
+        <displayCode readOnly="true">/natural sciences/physical sciences/electromagnetism and electronics/superconductivity</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/43/261/791/1541</code>
+        <title>photons</title>
+        <displayCode readOnly="true">/natural sciences/physical sciences/theoretical physics/particle physics/photons</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode readOnly="true">/Digital agenda</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode readOnly="true">/Clean air</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode readOnly="true">/Artificial intelligence</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode readOnly="true">/Climate action</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode readOnly="true">/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <code>/HORIZON-ERC</code>
+        <title>HORIZON ERC Grants</title>
+        <description>HORIZON ERC Grants</description>
+        <displayCode readOnly="true">/HORIZON ERC Grants</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode readOnly="true">/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

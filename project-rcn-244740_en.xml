@@ -1,0 +1,851 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages readOnly="true">en</availableLanguages>
+  <rcn>244740</rcn>
+  <id>101088184</id>
+  <acronym>MAGHEAT</acronym>
+  <teaser>The mechanisms that heat the solar chromosphere and corona, and that drive the solar dynamo, arguably remain some of the foremost questions in solar and stellar physics. Here, we focus on the question of how energy is transported and released in the solar chromosphere. During...</teaser>
+  <objective>The mechanisms that heat the solar chromosphere and corona, and that drive the solar dynamo, arguably remain some of the foremost questions in solar and stellar physics. Here, we focus on the question of how energy is transported and released in the solar chromosphere. During the past 20 years, numerical simulations of the chromosphere have been used, with increasing degree of sophistication, to validate various proposed heating mechanisms. These studies have gradually come to recognise that the mechanisms that are likely dominant may be different in different parts of chromospheric fine structures. To make progress, we therefore need constraints from highly resolved observational data.
+
+Recently, I implemented an inversion code that allows estimates of the overall chromospheric heating from spatially and spectrally resolved observational maps. Our results have unveiled very finely structured heating distributions with much larger amplitudes than the hitherto assumed canonical values. But a limitation is that this implementation cannot directly discriminate between the different heating mechanisms that have been proposed.
+
+The goal of MAGHEAT is to identify what mechanisms are heating the chromosphere, characterize the energy flux that is being released into the chromosphere and separate the contribution from each mechanism in active regions and flares. This goal is achievable with the combination of the proposed development of novel non-LTE inversion methods, new hybrid rMHD/particle simulations, and the availability of datasets with unprecedented high spatial resolution, large field-of-view, and high S/N ratio from DKIST, the Sunrise III mission, NASA’s IRIS satellite and updated instrumentation at the Swedish 1-m Solar Telescope. We will use observational data from these facilities to reconstruct new 3D empirical models of the photosphere and chromosphere, which will allow us to identify the mechanisms that are responsible for the energy deposition.</objective>
+  <title>MAGHEAT: understanding energy deposition in the solar chromosphere</title>
+  <keywords>NLTE radiative transfer, chromospheres, NLTE inversion methods</keywords>
+  <totalCost>1994937.5</totalCost>
+  <ecMaxContribution>1994937.5</ecMaxContribution>
+  <startDate>2023-07-01</startDate>
+  <endDate>2028-06-30</endDate>
+  <ecSignatureDate>2023-02-25</ecSignatureDate>
+  <duration>60</duration>
+  <status>SIGNED</status>
+  <identifiers>
+    <grantDoi>10.3030/101088184</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>false</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2025-01-03 10:47:16</sourceUpdateDate>
+  <contentCreationDate readOnly="true">2023-03-03 13:17:43</contentCreationDate>
+  <contentUpdateDate>2023-05-04 20:18:41</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-09-19 14:48:39</lastUpdateDate>
+  <relations>
+    <associations>
+      <article source="editorial" type="relatedArticle">
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <rcn>440908</rcn>
+        <id>440908-shedding-new-light-on-the-multiple-mechanisms-heating-the-chromosphere</id>
+        <title>Shedding new light on the multiple mechanisms heating the chromosphere</title>
+        <contentUpdateDate>2023-07-31 15:58:01</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/projectDescription</code>
+              <title>Project description</title>
+              <description>Article: description of linked project written by editorial team</description>
+              <displayCode readOnly="true">/Project description</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/editorial</code>
+              <title>CORDIS Editorial</title>
+              <description>Written by CORDIS</description>
+              <displayCode readOnly="true">/CORDIS Editorial</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </article>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>55605</rcn>
+        <title>ERC-2022-COG</title>
+        <identifier>ERC-2022-COG</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>55605</rcn>
+        <title>ERC-2022-COG</title>
+        <identifier>ERC-2022-COG</identifier>
+      </call>
+      <organization source="corda" order="1" ecContribution="1994937.5" terminated="false" sme="false" netEcContribution="1994937.5" totalCost="1994937.5" type="coordinator">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1906506</rcn>
+        <id>999885022</id>
+        <vatNumber>SE202100306201</vatNumber>
+        <legalName>STOCKHOLMS UNIVERSITET</legalName>
+        <address>
+          <street>UNIVERSITETSVAGEN 10</street>
+          <city>Stockholm</city>
+          <postalCode>10691</postalCode>
+          <country>SE</country>
+          <postBox>N/A</postBox>
+          <url>http://www.su.se</url>
+          <geolocation>59.3251172,18.0710935</geolocation>
+        </address>
+        <departmentName>Department of Biochemistry and Biophysics</departmentName>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode readOnly="true">/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Stockholms län</name>
+              <rcn>473436224</rcn>
+              <nutsCode>SE110</nutsCode>
+              <parents>
+                <region>
+                  <name>Stockholm</name>
+                  <rcn>473436264</rcn>
+                  <nutsCode>SE11</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Östra Sverige</name>
+                      <rcn>473438760</rcn>
+                      <nutsCode>SE1</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Sweden</name>
+                          <rcn>473598504</rcn>
+                          <nutsCode>SE</nutsCode>
+                          <euCode>SE</euCode>
+                          <isoCode>SE</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Sweden</name>
+              <rcn>473598504</rcn>
+              <nutsCode>SE</nutsCode>
+              <euCode>SE</euCode>
+              <isoCode>SE</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme source="corda" uniqueProgrammePart="true" type="relatedLegalBasis">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>705727</rcn>
+        <id>HORIZON.1.1</id>
+        <code>HORIZON.1.1</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.1.1</pga>
+        <title>European Research Council (ERC)</title>
+        <parent>
+          <programme>
+            <rcn>705726</rcn>
+            <code>HORIZON.1</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode readOnly="true">/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme source="corda" type="relatedTopic">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>706731</rcn>
+        <id>HORIZON_ERC-2022-COG</id>
+        <code>ERC-2022-COG</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>ERC CONSOLIDATOR GRANTS</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode readOnly="true">/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1361452</rcn>
+        <id>101088184_210155_PUBLIHORIZON</id>
+        <title>Astronomy and Astrophysics</title>
+        <details>
+          <authors>D. Arramy; J. de la Cruz Rodríguez; J. Leenaarts</authors>
+          <journalNumber/>
+          <journalTitle>Astronomy &amp;amp; Astrophysics</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>EDP Sciences</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/ARXIV.2406.17234</doi>
+          <issn>0004-6361</issn>
+        </identifiers>
+        <sourceUpdateDate>2025-08-19 15:05:36</sourceUpdateDate>
+        <contentUpdateDate>2025-09-16 11:31:47</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1361444</rcn>
+        <id>101088184_210156_PUBLIHORIZON</id>
+        <title>The role of the Lorentz force in sunspot equilibrium</title>
+        <details>
+          <authors>J. M. Borrero, A. Pastor Yabar, M. Schmassmann, M. Rempel, M. van Noort, M. Collados</authors>
+          <journalNumber>699</journalNumber>
+          <journalTitle>Astronomy &amp;amp; Astrophysics</journalTitle>
+          <publishedPages/>
+          <publishedYear>2025</publishedYear>
+          <publisher>EDP Sciences</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/ARXIV.2505.23986</doi>
+          <issn>0004-6361</issn>
+        </identifiers>
+        <sourceUpdateDate>2025-08-19 15:05:36</sourceUpdateDate>
+        <contentUpdateDate>2025-09-16 11:31:44</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1361446</rcn>
+        <id>101088184_210148_PUBLIHORIZON</id>
+        <title>Astronomy and Astrophysics</title>
+        <details>
+          <authors>J. M. Borrero; A. Pastor Yabar; B. Ruiz Cobo</authors>
+          <journalNumber/>
+          <journalTitle>Astronomy &amp;amp; Astrophysics</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>EDP Sciences</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/ARXIV.2404.02045</doi>
+          <issn>0004-6361</issn>
+        </identifiers>
+        <sourceUpdateDate>2025-08-19 15:05:36</sourceUpdateDate>
+        <contentUpdateDate>2025-09-16 11:31:44</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1361439</rcn>
+        <id>101088184_210145_PUBLIHORIZON</id>
+        <title>Astronomy and Astrophysics</title>
+        <details>
+          <authors>C. J. Díaz Baso; A. Asensio Ramos; J. de la Cruz Rodríguez; J. M. da Silva Santos; L. Rouppe van der Voort</authors>
+          <journalNumber/>
+          <journalTitle>Astronomy &amp;amp; Astrophysics</journalTitle>
+          <publishedPages/>
+          <publishedYear>2025</publishedYear>
+          <publisher>Springer Verlag</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/ARXIV.2409.05156</doi>
+          <issn>0004-6361</issn>
+        </identifiers>
+        <sourceUpdateDate>2025-08-19 15:05:36</sourceUpdateDate>
+        <contentUpdateDate>2025-09-16 11:31:41</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1361460</rcn>
+        <id>101088184_210151_PUBLIHORIZON</id>
+        <title>Astronomy and Astrophysics</title>
+        <details>
+          <authors>J. Leenaarts; M. van Noort; J. de la Cruz Rodríguez; S. Danilovic; C. J. Díaz Baso; T. Hillberg; P. Sütterlin; D. Kiselman; G. Scharmer; S. K. Solanki</authors>
+          <journalNumber/>
+          <journalTitle>Astronomy &amp;amp; Astrophysics</journalTitle>
+          <publishedPages/>
+          <publishedYear>2025</publishedYear>
+          <publisher>EDP Sciences</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/ARXIV.2501.10246</doi>
+          <issn>0004-6361</issn>
+        </identifiers>
+        <sourceUpdateDate>2025-08-19 15:05:36</sourceUpdateDate>
+        <contentUpdateDate>2025-09-16 11:31:50</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1361455</rcn>
+        <id>101088184_210467_PUBLIHORIZON</id>
+        <title>Constraints on Acoustic Wave Energy Fluxes and Radiative Losses in the Solar Chromosphere from Non-LTE Inversions</title>
+        <details>
+          <authors>J. M. da Silva Santos, M. Molnar, I. Milić, M. Rempel, K. Reardon, J. de la Cruz Rodríguez</authors>
+          <journalNumber>976</journalNumber>
+          <journalTitle>The Astrophysical Journal</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>American Astronomical Society</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/ARXIV.2408.15908</doi>
+          <issn>0004-637X</issn>
+        </identifiers>
+        <sourceUpdateDate>2025-08-19 15:05:36</sourceUpdateDate>
+        <contentUpdateDate>2025-09-16 11:31:48</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1361443</rcn>
+        <id>101088184_210152_PUBLIHORIZON</id>
+        <title>Astronomy and Astrophysics</title>
+        <details>
+          <authors>J. M. Borrero; I. Milić; A. Pastor Yabar; A. J. Kaithakkal; J. de la Cruz Rodríguez</authors>
+          <journalNumber/>
+          <journalTitle>Astronomy &amp;amp; Astrophysics</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>EDP Sciences</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/ARXIV.2404.07067</doi>
+          <issn>0004-6361</issn>
+        </identifiers>
+        <sourceUpdateDate>2025-08-19 15:05:36</sourceUpdateDate>
+        <contentUpdateDate>2025-09-16 11:31:44</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1361462</rcn>
+        <id>101088184_210150_PUBLIHORIZON</id>
+        <title>Astronomy and Astrophysics</title>
+        <details>
+          <authors>H. C. Yu; J. Hong; M. D. Ding</authors>
+          <journalNumber/>
+          <journalTitle>Astronomy &amp;amp; Astrophysics</journalTitle>
+          <publishedPages/>
+          <publishedYear>2025</publishedYear>
+          <publisher>EDP Sciences</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/ARXIV.2502.00441</doi>
+          <issn>0004-6361</issn>
+        </identifiers>
+        <sourceUpdateDate>2025-08-19 15:05:36</sourceUpdateDate>
+        <contentUpdateDate>2025-09-16 11:31:51</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1361449</rcn>
+        <id>101088184_210147_PUBLIHORIZON</id>
+        <title>Astronomy and Astrophysics</title>
+        <details>
+          <authors>J. de la Cruz Rodríguez; J. Leenaarts</authors>
+          <journalNumber/>
+          <journalTitle>Astronomy &amp;amp; Astrophysics</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>EDP Sciences</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/ARXIV.2402.03440</doi>
+          <issn>0004-6361</issn>
+        </identifiers>
+        <sourceUpdateDate>2025-08-19 15:05:36</sourceUpdateDate>
+        <contentUpdateDate>2025-09-16 11:31:45</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1361426</rcn>
+        <id>101088184_210146_PUBLIHORIZON</id>
+        <title>Astronomy and Astrophysics</title>
+        <details>
+          <authors>Antonio Reche; Adur Pastor Yabar; Ana Belén Griñón-Marín</authors>
+          <journalNumber/>
+          <journalTitle>Astronomy &amp;amp; Astrophysics</journalTitle>
+          <publishedPages/>
+          <publishedYear>2025</publishedYear>
+          <publisher>Springer Verlag</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1051/0004-6361/202554578</doi>
+          <issn>0004-6361</issn>
+        </identifiers>
+        <sourceUpdateDate>2025-08-19 15:05:36</sourceUpdateDate>
+        <contentUpdateDate>2025-09-16 11:31:37</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1361447</rcn>
+        <id>101088184_210161_PUBLIHORIZON</id>
+        <title>Continuum Enhancement and Line Asymmetries of Solar Flares in Different Heating Models: Alfvén Waves, Nonthermal Electron Beams, and Their Joint Effect</title>
+        <details>
+          <authors>Jun Tian, Ying Li, Jie Hong, M. D. Ding</authors>
+          <journalNumber>987</journalNumber>
+          <journalTitle>The Astrophysical Journal</journalTitle>
+          <publishedPages/>
+          <publishedYear>2025</publishedYear>
+          <publisher>American Astronomical Society</publisher>
+        </details>
+        <identifiers>
+          <doi>10.3847/1538-4357/ADDD0E</doi>
+          <issn>0004-637X</issn>
+        </identifiers>
+        <sourceUpdateDate>2025-08-19 15:05:36</sourceUpdateDate>
+        <contentUpdateDate>2025-09-16 11:31:45</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1361448</rcn>
+        <id>101088184_210153_PUBLIHORIZON</id>
+        <title>Frozen-field Modeling of Coronal Condensations with MPI-AMRVAC. II. Optimization and Application in 3D Models</title>
+        <details>
+          <authors>Yuhao Zhou, Xiaohong Li, Jack M. Jenkins, Jie Hong, Rony Keppens</authors>
+          <journalNumber>978</journalNumber>
+          <journalTitle>The Astrophysical Journal</journalTitle>
+          <publishedPages/>
+          <publishedYear>2025</publishedYear>
+          <publisher>American Astronomical Society</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/ARXIV.2411.16415</doi>
+          <issn>0004-637X</issn>
+        </identifiers>
+        <sourceUpdateDate>2025-08-19 15:05:36</sourceUpdateDate>
+        <contentUpdateDate>2025-09-16 11:31:45</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode readOnly="true">/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/25/75/461/1239/1739</code>
+        <title>satellite technology</title>
+        <displayCode readOnly="true">/engineering and technology/mechanical engineering/vehicle engineering/aerospace engineering/satellite technology</displayCode>
+      </category>
+      <category weight="40" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode readOnly="true">/Digital agenda</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode readOnly="true">/Clean air</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode readOnly="true">/Artificial intelligence</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode readOnly="true">/Climate action</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode readOnly="true">/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <code>/HORIZON-ERC</code>
+        <title>HORIZON ERC Grants</title>
+        <description>HORIZON ERC Grants</description>
+        <displayCode readOnly="true">/HORIZON ERC Grants</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode readOnly="true">/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

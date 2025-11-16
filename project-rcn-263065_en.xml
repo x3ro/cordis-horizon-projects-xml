@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages readOnly="true">en</availableLanguages>
+  <rcn>263065</rcn>
+  <id>101153849</id>
+  <acronym>miRAQEL</acronym>
+  <teaser>MicroRNAs (miRNAs) are a class of highly conserved small non-coding RNAs that regulate the expression of most protein coding genes. MiRNAs have been extensively studied, not only to understand their molecular function but also due to their potential as therapeutic and...</teaser>
+  <objective>MicroRNAs (miRNAs) are a class of highly conserved small non-coding RNAs that regulate the expression of most protein coding genes. MiRNAs have been extensively studied, not only to understand their molecular function but also due to their potential as therapeutic and diagnostic tools. Most current studies rely on small RNA sequencing (sRNA-seq), recently extended to single cells, because it allows to measure all miRNAs present in a sample even at low input amounts. However, state-of-the-art statistical analysis of sRNA-seq data is still performed using standard mRNA-seq software. This is inappropriate because miRNA counts violate several assumptions of these methods. In extreme cases, upregulated miRNAs will falsely seem down-/upregulated because of technical effects. Technical bias is even more severe in low input applications, e.g., single-cell, so decreasing the RNA input lowers quantification accuracy. By developing statistical methods specifically tailored to model sRNA-seq complexities, miRAQEL aims to dramatically improve the accuracy of miRNA quantification through sRNA-seq, contributing to solve challenges in the field. Appropriate statistical methodology is urgently needed to fully elucidate the role miRNAs play in many diseases and improve their biomarker potential.
+
+The fellow will receive specialized training in standard single-cell RNA-seq and statistical analysis of miRNA data from a leading research team in the field. In turn, he will bring his pipeline development and miRNA genomics expertise to implement and evaluate sRNA-seq modelling software using ground truth data and simulations. A placement will ensure transfer of this knowledge to an European start-up. The emerging unique skill set will provide him with a privileged interdisciplinary view that he can leverage to kick-start an independent academic career in the analysis of small RNA molecules at the single cell level, getting ahead in a field that is expected to develop in the coming years.</objective>
+  <title>Statistical Methods for Accurate Quantification of MicroRNA Expression via Small RNA Sequencing</title>
+  <keywords>microRNA,  isomiRs,  statistical modelling,  small RNAs,  small RNA sequencing (sRNA-seq),  benchmarking,  data normalisation,  differential expression analysis,  single-cell small RNA-seq</keywords>
+  <totalCost>0</totalCost>
+  <ecMaxContribution>315332.8</ecMaxContribution>
+  <startDate>2025-01-01</startDate>
+  <endDate>2028-04-30</endDate>
+  <ecSignatureDate>2024-04-26</ecSignatureDate>
+  <duration>40</duration>
+  <status>SIGNED</status>
+  <identifiers>
+    <grantDoi>10.3030/101153849</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>false</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2024-12-31 09:30:22</sourceUpdateDate>
+  <contentCreationDate readOnly="true">2024-04-29 11:37:21</contentCreationDate>
+  <contentUpdateDate>2024-04-29 11:37:20</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-09-19 14:48:42</lastUpdateDate>
+  <relations>
+    <associations>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>56065</rcn>
+        <title>HORIZON-MSCA-2023-PF-01</title>
+        <identifier>HORIZON-MSCA-2023-PF-01</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>56065</rcn>
+        <title>HORIZON-MSCA-2023-PF-01</title>
+        <identifier>HORIZON-MSCA-2023-PF-01</identifier>
+      </call>
+      <organization source="corda" order="2" terminated="false" sme="false" netEcContribution="0" totalCost="0" type="associatedPartner">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>2063662</rcn>
+        <id>999867562</id>
+        <legalName>UNIVERSITY OF ROCHESTER</legalName>
+        <address>
+          <street>ELMWOOD AVENUE, BOX EHSC 601</street>
+          <city>Rochester Ny</city>
+          <postalCode>14642</postalCode>
+          <country>US</country>
+          <postBox>000</postBox>
+          <url>https://www.urmc.rochester.edu</url>
+          <geolocation>43.157285,-77.615214</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode readOnly="true">/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>United States</name>
+              <rcn>510822952</rcn>
+              <nutsCode>US</nutsCode>
+              <euCode>US</euCode>
+              <isoCode>US</isoCode>
+            </region>
+            <region type="relatedRegion">
+              <name>United States</name>
+              <rcn>510822952</rcn>
+              <nutsCode>US</nutsCode>
+              <euCode>US</euCode>
+              <isoCode>US</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization order="1" ecContribution="315332.8" source="corda" sme="false" netEcContribution="315332.8" terminated="false" totalCost="0" type="coordinator">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1907050</rcn>
+        <id>999882015</id>
+        <vatNumber>ESQ1818002F</vatNumber>
+        <legalName>UNIVERSIDAD DE GRANADA</legalName>
+        <shortName>UGR</shortName>
+        <address>
+          <street>CUESTA DEL HOSPICIO SN</street>
+          <city>GRANADA</city>
+          <postalCode>18071</postalCode>
+          <country>ES</country>
+          <postBox>N/A</postBox>
+          <url>http://www.ugr.es</url>
+          <geolocation>37.1830197,-3.6021919</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode readOnly="true">/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Granada</name>
+              <rcn>242245700</rcn>
+              <nutsCode>ES614</nutsCode>
+              <parents>
+                <region>
+                  <name>Andalucía</name>
+                  <rcn>242245736</rcn>
+                  <nutsCode>ES61</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Sur</name>
+                      <rcn>1465449</rcn>
+                      <nutsCode>ES6</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Spain</name>
+                          <rcn>242387496</rcn>
+                          <nutsCode>ES</nutsCode>
+                          <euCode>ES</euCode>
+                          <isoCode>ES</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Spain</name>
+              <rcn>242387496</rcn>
+              <nutsCode>ES</nutsCode>
+              <euCode>ES</euCode>
+              <isoCode>ES</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization totalCost="0" source="corda" order="4" terminated="false" sme="false" netEcContribution="0" type="associatedPartner">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1916283</rcn>
+        <id>998267741</id>
+        <legalName>JOHNS HOPKINS UNIVERSITY</legalName>
+        <address>
+          <street>NORTH CHARLES STREET  3400</street>
+          <city>Baltimore</city>
+          <postalCode>21218</postalCode>
+          <country>US</country>
+          <url>https://www.hopkinsmedicine.org</url>
+          <geolocation>39.3279338,-76.6184375</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode readOnly="true">/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>United States</name>
+              <rcn>510822952</rcn>
+              <nutsCode>US</nutsCode>
+              <euCode>US</euCode>
+              <isoCode>US</isoCode>
+            </region>
+            <region type="relatedRegion">
+              <name>United States</name>
+              <rcn>510822952</rcn>
+              <nutsCode>US</nutsCode>
+              <euCode>US</euCode>
+              <isoCode>US</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization source="corda" order="3" terminated="false" sme="true" netEcContribution="0" totalCost="0" type="associatedPartner">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>2380727</rcn>
+        <id>945104369</id>
+        <vatNumber>ESB18998765</vatNumber>
+        <legalName>DESTINA GENOMICA SLNE</legalName>
+        <shortName>DGSL</shortName>
+        <address>
+          <street>AVENIDA DE  LA INNOACI0N 1 EDIFICIO BIC</street>
+          <city>Granada</city>
+          <postalCode>18100</postalCode>
+          <country>ES</country>
+          <geolocation>37.183054,-3.6021928</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PRC</code>
+              <title>Private for-profit entities (excluding Higher or Secondary Education Establishments)</title>
+              <displayCode readOnly="true">/Private for-profit entities (excluding Higher or Secondary Education Establishments)</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Granada</name>
+              <rcn>242245700</rcn>
+              <nutsCode>ES614</nutsCode>
+              <parents>
+                <region>
+                  <name>Andalucía</name>
+                  <rcn>242245736</rcn>
+                  <nutsCode>ES61</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Sur</name>
+                      <rcn>1465449</rcn>
+                      <nutsCode>ES6</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Spain</name>
+                          <rcn>242387496</rcn>
+                          <nutsCode>ES</nutsCode>
+                          <euCode>ES</euCode>
+                          <isoCode>ES</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Spain</name>
+              <rcn>242387496</rcn>
+              <nutsCode>ES</nutsCode>
+              <euCode>ES</euCode>
+              <isoCode>ES</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme source="corda" type="relatedTopic">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>707918</rcn>
+        <id>HORIZON_HORIZON-MSCA-2023-PF-01-01</id>
+        <code>HORIZON-MSCA-2023-PF-01-01</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>MSCA Postdoctoral Fellowships 2023</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode readOnly="true">/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme source="corda" uniqueProgrammePart="true" type="relatedLegalBasis">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>705729</rcn>
+        <id>HORIZON.1.2</id>
+        <code>HORIZON.1.2</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.1.2</pga>
+        <title>Marie Skłodowska-Curie Actions (MSCA)</title>
+        <parent>
+          <programme>
+            <rcn>705726</rcn>
+            <code>HORIZON.1</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode readOnly="true">/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode readOnly="true">/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/47/307</code>
+        <title>software</title>
+        <displayCode readOnly="true">/natural sciences/computer and information sciences/software</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/49/315/997/1613</code>
+        <title>proteins</title>
+        <displayCode readOnly="true">/natural sciences/biological sciences/biochemistry/biomolecules/proteins</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/49/337/1021</code>
+        <title>RNA</title>
+        <displayCode readOnly="true">/natural sciences/biological sciences/genetics/RNA</displayCode>
+      </category>
+      <category weight="40" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode readOnly="true">/Digital agenda</displayCode>
+      </category>
+      <category weight="40" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode readOnly="true">/Clean air</displayCode>
+      </category>
+      <category weight="40" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode readOnly="true">/Artificial intelligence</displayCode>
+      </category>
+      <category weight="40" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode readOnly="true">/Climate action</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode readOnly="true">/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <code>/HORIZON-TMA-MSCA-PF-GF</code>
+        <title>HORIZON TMA MSCA Postdoctoral Fellowships - Global Fellowships</title>
+        <description>HORIZON TMA MSCA Postdoctoral Fellowships - Global Fellowships</description>
+        <displayCode readOnly="true">/HORIZON TMA MSCA Postdoctoral Fellowships - Global Fellowships</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode readOnly="true">/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

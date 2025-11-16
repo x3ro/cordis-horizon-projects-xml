@@ -1,0 +1,1594 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages readOnly="true">en</availableLanguages>
+  <rcn>242751</rcn>
+  <id>101059682</id>
+  <acronym>ASSAS</acronym>
+  <teaser>The ASSAS project aims at developing a proof-of-concept SA (severe accident) simulator based on ASTEC (Accident Source Term Evaluation Code).The prototype basic-principle simulator will model a simplified generic Western-type pressurized light water reactor (PWR). It will have...</teaser>
+  <objective><![CDATA[The ASSAS project aims at developing a proof-of-concept SA (severe accident) simulator based on ASTEC (Accident Source Term Evaluation Code).
+The prototype basic-principle simulator will model a simplified generic Western-type pressurized light water reactor (PWR). It will have a graphical user interface to control the simulation and visualize the results. It will run in real-time and even much faster for some phases of the accident. The prototype will be able to show the main phenomena occurring during a SA, including in-vessel and ex-vessel phases. It is meant to train students, nuclear energy professionals and non-specialists.
+In addition to its direct use, the prototype will demonstrate the feasibility of developing different types of fast-running SA simulators, while keeping the accuracy of the underlying physical models. Thus, different computational solutions will be explored in parallel. Code optimisation and parallelisation will be implemented. Beside these reliable techniques, different machine-learning methods will be tested to develop fast surrogate models. This alternate path is riskier, but it could drastically enhance the performances of the code. A comprehensive review of ASTEC's structure and available algorithms will be performed to define the most relevant modelling strategies, which may include the replacement of specific calculations steps, entire modules of ASTEC or more global surrogate models. Solutions will be explored to extend the models developed for the PWR simulator to other reactor types and SA codes. The training data-base of SA sequences used for machine-learning will be made openly available.
+Developing an enhanced version of ASTEC and interfacing it with a commercial simulation environment will make it possible for the industry to develop engineering and full-scale simulators in the future. These can be used to design SA management guidelines, to develop new safety systems and to train operators to use them.]]></objective>
+  <title>Artificial intelligence for the Simulation of Severe AccidentS</title>
+  <keywords>Artificial Intelligence, severe accident, simulator, knowledge transfer, surrogate models, human-machine interface, digital twin, accident mitigation systems</keywords>
+  <totalCost>3689569.42</totalCost>
+  <ecMaxContribution>3008131.6</ecMaxContribution>
+  <startDate>2022-11-01</startDate>
+  <endDate>2026-10-31</endDate>
+  <ecSignatureDate>2022-06-07</ecSignatureDate>
+  <duration>48</duration>
+  <status>SIGNED</status>
+  <validation>
+    <euroSciVoc>false</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2025-04-07 10:13:03</sourceUpdateDate>
+  <contentCreationDate readOnly="true">2022-10-28 09:24:40</contentCreationDate>
+  <contentUpdateDate>2025-04-07 10:13:03</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-09-19 14:48:51</lastUpdateDate>
+  <relations>
+    <associations>
+      <article source="editorial" type="relatedArticle">
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <rcn>438979</rcn>
+        <id>438979-extending-nuclear-simulators-to-severe-accidents</id>
+        <title>Extending nuclear simulators to severe accidents</title>
+        <contentUpdateDate>2023-04-17 17:10:03</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/projectDescription</code>
+              <title>Project description</title>
+              <description>Article: description of linked project written by editorial team</description>
+              <displayCode readOnly="true">/Project description</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/editorial</code>
+              <title>CORDIS Editorial</title>
+              <description>Written by CORDIS</description>
+              <displayCode readOnly="true">/CORDIS Editorial</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </article>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>55852</rcn>
+        <title>HORIZON-EURATOM-2021-NRT-01</title>
+        <identifier>HORIZON-EURATOM-2021-NRT-01</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>55852</rcn>
+        <title>HORIZON-EURATOM-2021-NRT-01</title>
+        <identifier>HORIZON-EURATOM-2021-NRT-01</identifier>
+      </call>
+      <organization source="corda" order="15" ecContribution="196611.79" terminated="true" sme="false" netEcContribution="196611.79" totalCost="357475.98" type="participant">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1906591</rcn>
+        <id>999480726</id>
+        <vatNumber>FR68440546018</vatNumber>
+        <legalName>INSTITUT DE RADIOPROTECTION ET DE SURETE NUCLEAIRE</legalName>
+        <shortName>IRSN</shortName>
+        <address>
+          <street>AV DE LA DIVISION LECLERC 31</street>
+          <city>Fontenay Aux Roses</city>
+          <postalCode>92260</postalCode>
+          <country>FR</country>
+          <url>http://www.irsn.org</url>
+          <geolocation>48.7943985,2.2729465</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/REC</code>
+              <title>Research Organisations</title>
+              <displayCode readOnly="true">/Research Organisations</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Hauts-de-Seine </name>
+              <rcn>258740229</rcn>
+              <nutsCode>FR105</nutsCode>
+              <parents>
+                <region>
+                  <name>Ile-de-France</name>
+                  <rcn>258740264</rcn>
+                  <nutsCode>FR10</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Ile-de-France</name>
+                      <rcn>258742824</rcn>
+                      <nutsCode>FR1</nutsCode>
+                      <parents>
+                        <region>
+                          <name>France</name>
+                          <rcn>258902568</rcn>
+                          <nutsCode>FR</nutsCode>
+                          <euCode>FR</euCode>
+                          <isoCode>FR</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>France</name>
+              <rcn>258902568</rcn>
+              <nutsCode>FR</nutsCode>
+              <euCode>FR</euCode>
+              <isoCode>FR</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization source="corda" order="5" ecContribution="463052.5" terminated="false" sme="false" netEcContribution="463052.5" totalCost="463052.5" type="participant">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1950788</rcn>
+        <id>999468213</id>
+        <vatNumber>ESA28074078</vatNumber>
+        <legalName>TECNATOM S.A.</legalName>
+        <address>
+          <street>Avenida Montes de Oca  1</street>
+          <city>San Sebastian De Los Reyes - Madrid</city>
+          <postalCode>28703</postalCode>
+          <country>ES</country>
+          <url>http://www.tecnatom.es</url>
+          <geolocation>40.5473698,-3.6260585</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PRC</code>
+              <title>Private for-profit entities (excluding Higher or Secondary Education Establishments)</title>
+              <displayCode readOnly="true">/Private for-profit entities (excluding Higher or Secondary Education Establishments)</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Madrid</name>
+              <rcn>242233344</rcn>
+              <nutsCode>ES300</nutsCode>
+              <parents>
+                <region>
+                  <name>Comunidad de Madrid</name>
+                  <rcn>242233384</rcn>
+                  <nutsCode>ES30</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Comunidad de Madrid</name>
+                      <rcn>242235944</rcn>
+                      <nutsCode>ES3</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Spain</name>
+                          <rcn>242387496</rcn>
+                          <nutsCode>ES</nutsCode>
+                          <euCode>ES</euCode>
+                          <isoCode>ES</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Spain</name>
+              <rcn>242387496</rcn>
+              <nutsCode>ES</nutsCode>
+              <euCode>ES</euCode>
+              <isoCode>ES</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization source="corda" order="12" ecContribution="96000" terminated="false" sme="false" netEcContribution="96000" totalCost="120000" type="participant">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1950639</rcn>
+        <id>967746400</id>
+        <vatNumber>BE0892419202</vatNumber>
+        <legalName>BEL V</legalName>
+        <address>
+          <street>RUE WALCOURT 148</street>
+          <city>Bruxelles / Brussel</city>
+          <postalCode>1070</postalCode>
+          <country>BE</country>
+          <url>http://www.belv.be</url>
+          <geolocation>50.822894,4.30382677344908</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/OTH</code>
+              <title>Other</title>
+              <displayCode readOnly="true">/Other</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Arr. de Bruxelles-Capitale/Arr. Brussel-Hoofdstad</name>
+              <rcn>188223488</rcn>
+              <nutsCode>BE100</nutsCode>
+              <parents>
+                <region>
+                  <name>Région de Bruxelles-Capitale/ Brussels Hoofdstedelijk Gewest</name>
+                  <rcn>188223528</rcn>
+                  <nutsCode>BE10</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Région de Bruxelles-Capitale/Brussels Hoofdstedelijk Gewest</name>
+                      <rcn>188226088</rcn>
+                      <nutsCode>BE1</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Belgium</name>
+                          <rcn>188385832</rcn>
+                          <nutsCode>BE</nutsCode>
+                          <euCode>BE</euCode>
+                          <isoCode>BE</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Belgium</name>
+              <rcn>188385832</rcn>
+              <nutsCode>BE</nutsCode>
+              <euCode>BE</euCode>
+              <isoCode>BE</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization source="corda" order="4" ecContribution="280010" terminated="false" sme="false" netEcContribution="280010" totalCost="280010" type="participant">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1906237</rcn>
+        <id>999990946</id>
+        <vatNumber>SE202100305401</vatNumber>
+        <legalName>KUNGLIGA TEKNISKA HOEGSKOLAN</legalName>
+        <shortName>KTH</shortName>
+        <address>
+          <street>BRINELLVAGEN 8</street>
+          <city>Stockholm</city>
+          <postalCode>100 44</postalCode>
+          <country>SE</country>
+          <postBox>N/A</postBox>
+          <url>http://www.kth.se</url>
+          <geolocation>59.3498183,18.0707826</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode readOnly="true">/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Stockholms län</name>
+              <rcn>473436224</rcn>
+              <nutsCode>SE110</nutsCode>
+              <parents>
+                <region>
+                  <name>Stockholm</name>
+                  <rcn>473436264</rcn>
+                  <nutsCode>SE11</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Östra Sverige</name>
+                      <rcn>473438760</rcn>
+                      <nutsCode>SE1</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Sweden</name>
+                          <rcn>473598504</rcn>
+                          <nutsCode>SE</nutsCode>
+                          <euCode>SE</euCode>
+                          <isoCode>SE</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Sweden</name>
+              <rcn>473598504</rcn>
+              <nutsCode>SE</nutsCode>
+              <euCode>SE</euCode>
+              <isoCode>SE</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization source="corda" order="2" ecContribution="280250" terminated="false" sme="false" netEcContribution="280250" totalCost="280250" type="participant">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1905812</rcn>
+        <id>999971837</id>
+        <vatNumber>SI55560822</vatNumber>
+        <legalName>INSTITUT JOZEF STEFAN</legalName>
+        <shortName>JSI</shortName>
+        <address>
+          <street>Jamova 39</street>
+          <city>Ljubljana</city>
+          <postalCode>1000</postalCode>
+          <country>SI</country>
+          <postBox>3000</postBox>
+          <url>http://www.ijs.si/</url>
+          <geolocation>46.04213075,14.4882416374036</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/REC</code>
+              <title>Research Organisations</title>
+              <displayCode readOnly="true">/Research Organisations</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Osrednjeslovenska</name>
+              <rcn>1464018</rcn>
+              <nutsCode>SI041</nutsCode>
+              <parents>
+                <region>
+                  <name>Zahodna Slovenija</name>
+                  <rcn>1465099</rcn>
+                  <nutsCode>SI04</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Slovenija</name>
+                      <rcn>474483240</rcn>
+                      <nutsCode>SI0</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Slovenia</name>
+                          <rcn>474647080</rcn>
+                          <nutsCode>SI</nutsCode>
+                          <euCode>SI</euCode>
+                          <isoCode>SI</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Slovenia</name>
+              <rcn>474647080</rcn>
+              <nutsCode>SI</nutsCode>
+              <euCode>SI</euCode>
+              <isoCode>SI</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization source="corda" order="1" ecContribution="247030.56" terminated="false" sme="false" netEcContribution="247030.56" totalCost="449147.39" type="coordinator">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1977238</rcn>
+        <id>967670449</id>
+        <legalName>AUTORITE DE SURETE NUCLEAIRE ET DE RADIOPROTECTION</legalName>
+        <shortName>ASNR</shortName>
+        <address>
+          <street>RUE LOUIS LEJEUNE 15</street>
+          <city>Montrouge Cedex</city>
+          <postalCode>92541</postalCode>
+          <country>FR</country>
+          <geolocation>48.8180448,2.3268663</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PUB</code>
+              <title>Public bodies (excluding Research Organisations and Secondary or Higher Education Establishments)</title>
+              <displayCode readOnly="true">/Public bodies (excluding Research Organisations and Secondary or Higher Education Establishments)</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Hauts-de-Seine </name>
+              <rcn>258740229</rcn>
+              <nutsCode>FR105</nutsCode>
+              <parents>
+                <region>
+                  <name>Ile-de-France</name>
+                  <rcn>258740264</rcn>
+                  <nutsCode>FR10</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Ile-de-France</name>
+                      <rcn>258742824</rcn>
+                      <nutsCode>FR1</nutsCode>
+                      <parents>
+                        <region>
+                          <name>France</name>
+                          <rcn>258902568</rcn>
+                          <nutsCode>FR</nutsCode>
+                          <euCode>FR</euCode>
+                          <isoCode>FR</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>France</name>
+              <rcn>258902568</rcn>
+              <nutsCode>FR</nutsCode>
+              <euCode>FR</euCode>
+              <isoCode>FR</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization source="corda" order="9" ecContribution="69995.6" terminated="false" sme="true" netEcContribution="69995.6" totalCost="69995.6" type="participant">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>2133805</rcn>
+        <id>998175106</id>
+        <vatNumber>SK2020162705</vatNumber>
+        <legalName>INZINIERSKA VYPOCTOVA SPOLOCNOST TRNAVA S.R.O.</legalName>
+        <shortName>IVS</shortName>
+        <address>
+          <street>JANA HOLLEHO 5</street>
+          <city>Trnava</city>
+          <postalCode>917 01</postalCode>
+          <country>SK</country>
+          <postBox>141</postBox>
+          <url>http://www.ivstt.sk</url>
+          <geolocation>48.3796831,17.5884161</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PRC</code>
+              <title>Private for-profit entities (excluding Higher or Secondary Education Establishments)</title>
+              <displayCode readOnly="true">/Private for-profit entities (excluding Higher or Secondary Education Establishments)</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Trnavský kraj</name>
+              <rcn>475005057</rcn>
+              <nutsCode>SK021</nutsCode>
+              <parents>
+                <region>
+                  <name>Západné Slovensko</name>
+                  <rcn>475005096</rcn>
+                  <nutsCode>SK02</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Slovensko</name>
+                      <rcn>475007528</rcn>
+                      <nutsCode>SK0</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Slovakia</name>
+                          <rcn>475171368</rcn>
+                          <nutsCode>SK</nutsCode>
+                          <euCode>SK</euCode>
+                          <isoCode>SK</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Slovakia</name>
+              <rcn>475171368</rcn>
+              <nutsCode>SK</nutsCode>
+              <euCode>SK</euCode>
+              <isoCode>SK</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization source="corda" order="10" ecContribution="141768" terminated="false" sme="false" netEcContribution="141768" totalCost="202525" type="participant">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1906221</rcn>
+        <id>999614877</id>
+        <vatNumber>ESQ2820002J</vatNumber>
+        <legalName>CENTRO DE INVESTIGACIONES ENERGETICAS MEDIOAMBIENTALES Y TECNOLOGICAS</legalName>
+        <shortName>CIEMAT</shortName>
+        <address>
+          <street>AVENIDA COMPLUTENSE 40</street>
+          <city>MADRID</city>
+          <postalCode>28040</postalCode>
+          <country>ES</country>
+          <url>http://www.ciemat.es</url>
+          <geolocation>40.454468500000004,-3.7299775308887075</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/REC</code>
+              <title>Research Organisations</title>
+              <displayCode readOnly="true">/Research Organisations</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Madrid</name>
+              <rcn>242233344</rcn>
+              <nutsCode>ES300</nutsCode>
+              <parents>
+                <region>
+                  <name>Comunidad de Madrid</name>
+                  <rcn>242233384</rcn>
+                  <nutsCode>ES30</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Comunidad de Madrid</name>
+                      <rcn>242235944</rcn>
+                      <nutsCode>ES3</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Spain</name>
+                          <rcn>242387496</rcn>
+                          <nutsCode>ES</nutsCode>
+                          <euCode>ES</euCode>
+                          <isoCode>ES</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Spain</name>
+              <rcn>242387496</rcn>
+              <nutsCode>ES</nutsCode>
+              <euCode>ES</euCode>
+              <isoCode>ES</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization source="corda" order="6" ecContribution="160875" terminated="false" sme="false" netEcContribution="160875" totalCost="247500" type="participant">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1905881</rcn>
+        <id>999988521</id>
+        <vatNumber>IT00985801000</vatNumber>
+        <legalName><![CDATA[AGENZIA NAZIONALE PER LE NUOVE TECNOLOGIE, L'ENERGIA E LO SVILUPPO ECONOMICO SOSTENIBILE]]></legalName>
+        <shortName>ENEA</shortName>
+        <address>
+          <street>LUNGOTEVERE GRANDE AMMIRAGLIO THAON DI REVEL 76</street>
+          <city>Roma</city>
+          <postalCode>00196</postalCode>
+          <country>IT</country>
+          <postBox>000</postBox>
+          <url>http://www.enea.it</url>
+          <geolocation>41.9336477,12.465471</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/REC</code>
+              <title>Research Organisations</title>
+              <displayCode readOnly="true">/Research Organisations</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Roma</name>
+              <rcn>1464004</rcn>
+              <nutsCode>ITI43</nutsCode>
+              <parents>
+                <region>
+                  <name>Lazio</name>
+                  <rcn>1465012</rcn>
+                  <nutsCode>ITI4</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Centro (IT)</name>
+                      <rcn>1465008</rcn>
+                      <nutsCode>ITI</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Italy</name>
+                          <rcn>309758504</rcn>
+                          <nutsCode>IT</nutsCode>
+                          <euCode>IT</euCode>
+                          <isoCode>IT</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Italy</name>
+              <rcn>309758504</rcn>
+              <nutsCode>IT</nutsCode>
+              <euCode>IT</euCode>
+              <isoCode>IT</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization source="corda" order="11" ecContribution="123150" terminated="false" sme="true" netEcContribution="123150" totalCost="123150" type="participant">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>3036038</rcn>
+        <id>936233622</id>
+        <vatNumber>UA192554926149</vatNumber>
+        <legalName>LIMITED LIABILITY COMPANY ENERGORISK</legalName>
+        <shortName>LLC ENERGORISK</shortName>
+        <address>
+          <street>7 TIMOFEYA STROKACHA STREET OFFICE 141</street>
+          <city>Kyiv</city>
+          <postalCode>03148</postalCode>
+          <country>UA</country>
+          <geolocation>50.4501071,30.5240501</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PRC</code>
+              <title>Private for-profit entities (excluding Higher or Secondary Education Establishments)</title>
+              <displayCode readOnly="true">/Private for-profit entities (excluding Higher or Secondary Education Establishments)</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Ukraine</name>
+              <rcn>506104360</rcn>
+              <nutsCode>UA</nutsCode>
+              <euCode>UA</euCode>
+              <isoCode>UA</isoCode>
+            </region>
+            <region type="relatedRegion">
+              <name>Ukraine</name>
+              <rcn>506104360</rcn>
+              <nutsCode>UA</nutsCode>
+              <euCode>UA</euCode>
+              <isoCode>UA</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization source="corda" order="8" ecContribution="113125" terminated="false" sme="true" netEcContribution="113125" totalCost="113125" type="participant">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1937364</rcn>
+        <id>997361761</id>
+        <vatNumber>FR30439210477</vatNumber>
+        <legalName>PHI-MECA ENGINEERING</legalName>
+        <shortName>PHIMECA</shortName>
+        <address>
+          <street><![CDATA[CENTRE D'AFFAIRE DU ZENIT L'ARCHE, RUE DE SARLIEVE 34]]></street>
+          <city><![CDATA[Cournon-D'Auvergne]]></city>
+          <postalCode>63800</postalCode>
+          <country>FR</country>
+          <url>http://www.phimeca.com</url>
+          <geolocation>45.739114,3.1961893</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PRC</code>
+              <title>Private for-profit entities (excluding Higher or Secondary Education Establishments)</title>
+              <displayCode readOnly="true">/Private for-profit entities (excluding Higher or Secondary Education Establishments)</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Puy-de-Dôme</name>
+              <rcn>1465387</rcn>
+              <nutsCode>FRK14</nutsCode>
+              <parents>
+                <region>
+                  <name>Auvergne</name>
+                  <rcn>1464965</rcn>
+                  <nutsCode>FRK1</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Auvergne-Rhône-Alpes</name>
+                      <rcn>1464964</rcn>
+                      <nutsCode>FRK</nutsCode>
+                      <parents>
+                        <region>
+                          <name>France</name>
+                          <rcn>258902568</rcn>
+                          <nutsCode>FR</nutsCode>
+                          <euCode>FR</euCode>
+                          <isoCode>FR</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>France</name>
+              <rcn>258902568</rcn>
+              <nutsCode>FR</nutsCode>
+              <euCode>FR</euCode>
+              <isoCode>FR</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization source="corda" order="3" ecContribution="362621.15" terminated="false" sme="false" netEcContribution="362621.15" totalCost="483494.2" type="participant">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1907044</rcn>
+        <id>990797674</id>
+        <vatNumber>DE266749428</vatNumber>
+        <legalName>KARLSRUHER INSTITUT FUER TECHNOLOGIE</legalName>
+        <shortName>KIT</shortName>
+        <address>
+          <street>KAISERSTRASSE 12</street>
+          <city>Karlsruhe</city>
+          <postalCode>76131</postalCode>
+          <country>DE</country>
+          <url>https://www.kit.edu</url>
+          <geolocation>49.15579545,8.48182500300111</geolocation>
+        </address>
+        <departmentName>Financial Management</departmentName>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode readOnly="true">/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Karlsruhe, Stadtkreis</name>
+              <rcn>221778050</rcn>
+              <nutsCode>DE122</nutsCode>
+              <parents>
+                <region>
+                  <name>Karlsruhe</name>
+                  <rcn>221778088</rcn>
+                  <nutsCode>DE12</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Baden-Württemberg</name>
+                      <rcn>221780520</rcn>
+                      <nutsCode>DE1</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Germany</name>
+                          <rcn>221940264</rcn>
+                          <nutsCode>DE</nutsCode>
+                          <euCode>DE</euCode>
+                          <isoCode>DE</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Germany</name>
+              <rcn>221940264</rcn>
+              <nutsCode>DE</nutsCode>
+              <euCode>DE</euCode>
+              <isoCode>DE</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization source="corda" order="13" ecContribution="248788" terminated="false" sme="false" netEcContribution="248788" totalCost="253865" type="participant">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>2121348</rcn>
+        <id>999938275</id>
+        <vatNumber>FR75393135298</vatNumber>
+        <legalName>CS GROUP - France</legalName>
+        <shortName>CS GROUP - FRANCE</shortName>
+        <address>
+          <street>22 AVENUE GALILEE</street>
+          <city>LE PLESSIS ROBINSON</city>
+          <postalCode>92350</postalCode>
+          <country>FR</country>
+          <url>http://www.c-s.fr</url>
+          <geolocation>48.773671199999995,2.2437054336750393</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PRC</code>
+              <title>Private for-profit entities (excluding Higher or Secondary Education Establishments)</title>
+              <displayCode readOnly="true">/Private for-profit entities (excluding Higher or Secondary Education Establishments)</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Hauts-de-Seine </name>
+              <rcn>258740229</rcn>
+              <nutsCode>FR105</nutsCode>
+              <parents>
+                <region>
+                  <name>Ile-de-France</name>
+                  <rcn>258740264</rcn>
+                  <nutsCode>FR10</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Ile-de-France</name>
+                      <rcn>258742824</rcn>
+                      <nutsCode>FR1</nutsCode>
+                      <parents>
+                        <region>
+                          <name>France</name>
+                          <rcn>258902568</rcn>
+                          <nutsCode>FR</nutsCode>
+                          <euCode>FR</euCode>
+                          <isoCode>FR</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>France</name>
+              <rcn>258902568</rcn>
+              <nutsCode>FR</nutsCode>
+              <euCode>FR</euCode>
+              <isoCode>FR</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization source="corda" order="14" terminated="false" sme="false" netEcContribution="0" totalCost="0" type="associatedPartner">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1909506</rcn>
+        <id>999994923</id>
+        <vatNumber>CHE116133392MWST</vatNumber>
+        <legalName>PAUL SCHERRER INSTITUT</legalName>
+        <shortName>PSI</shortName>
+        <address>
+          <street>FORSCHUNGSTRASSE 111</street>
+          <city>Villigen Psi</city>
+          <postalCode>5232</postalCode>
+          <country>CH</country>
+          <postBox>000</postBox>
+          <url>https://www.psi.ch</url>
+          <geolocation>47.5395858,8.2240048</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/REC</code>
+              <title>Research Organisations</title>
+              <displayCode readOnly="true">/Research Organisations</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Aargau</name>
+              <rcn>1465383</rcn>
+              <nutsCode>CH033</nutsCode>
+              <parents>
+                <region>
+                  <name>Nordwestschweiz</name>
+                  <rcn>1464887</rcn>
+                  <nutsCode>CH03</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Schweiz/Suisse/Svizzera</name>
+                      <rcn>1464884</rcn>
+                      <nutsCode>CH0</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Switzerland</name>
+                          <rcn>205949480</rcn>
+                          <nutsCode>CH</nutsCode>
+                          <euCode>CH</euCode>
+                          <isoCode>CH</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Switzerland</name>
+              <rcn>205949480</rcn>
+              <nutsCode>CH</nutsCode>
+              <euCode>CH</euCode>
+              <isoCode>CH</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization source="corda" order="7" ecContribution="224854" terminated="false" sme="false" netEcContribution="224854" totalCost="245978.75" type="participant">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1905872</rcn>
+        <id>999977366</id>
+        <vatNumber>NL001569569B01</vatNumber>
+        <legalName>TECHNISCHE UNIVERSITEIT DELFT</legalName>
+        <shortName>TU Delft</shortName>
+        <address>
+          <street>STEVINWEG 1</street>
+          <city>Delft</city>
+          <postalCode>2628 CN</postalCode>
+          <country>NL</country>
+          <postBox>5</postBox>
+          <url>http://www.tudelft.nl</url>
+          <geolocation>51.9986667,4.3757142</geolocation>
+        </address>
+        <departmentName>Contract Manager</departmentName>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode readOnly="true">/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <rcn>1471672</rcn>
+              <nutsCode>NL362</nutsCode>
+            </region>
+            <region type="relatedRegion">
+              <name>Netherlands</name>
+              <rcn>391547432</rcn>
+              <nutsCode>NL</nutsCode>
+              <euCode>NL</euCode>
+              <isoCode>NL</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme source="corda" type="relatedTopic">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>707245</rcn>
+        <id>HORIZON_HORIZON-EURATOM-2021-NRT-01-01</id>
+        <code>HORIZON-EURATOM-2021-NRT-01-01</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>Safety of operating nuclear power plants and research reactors</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode readOnly="true">/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme source="corda" uniqueProgrammePart="true" type="relatedLegalBasis">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>707205</rcn>
+        <id>EURATOM2027</id>
+        <code>EURATOM2027</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>EURATOM2027</pga>
+        <title>Euratom Research and Training Programme (EURATOM)</title>
+        <parent>
+          <programme>
+            <rcn>705725</rcn>
+            <code>HORIZON</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode readOnly="true">/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme source="corda" type="relatedLegalBasis">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>707209</rcn>
+        <id>EURATOM.1.1.1</id>
+        <code>EURATOM.1.1.1</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>EURATOM.1.1.1</pga>
+        <title>Nuclear safety</title>
+        <parent>
+          <programme>
+            <rcn>707208</rcn>
+            <code>EURATOM.1.1</code>
+            <parent>
+              <programme>
+                <rcn>707207</rcn>
+                <code>EURATOM.1</code>
+                <parent>
+                  <programme>
+                    <rcn>707206</rcn>
+                    <code>EURATOM-1</code>
+                    <parent>
+                      <programme>
+                        <rcn>707205</rcn>
+                        <code>EURATOM2027</code>
+                        <parent>
+                          <programme>
+                            <rcn>705725</rcn>
+                            <code>HORIZON</code>
+                          </programme>
+                        </parent>
+                      </programme>
+                    </parent>
+                  </programme>
+                </parent>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode readOnly="true">/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1135429</rcn>
+        <id>101059682_15_DELIVHORIZON</id>
+        <title>Communication and dissemination plan</title>
+        <description>Description of the adopted strategy about communication and dissemination activities.</description>
+        <sourceUpdateDate>2025-04-07 10:19:05</sourceUpdateDate>
+        <contentUpdateDate>2024-07-29 13:39:33</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode readOnly="true">/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>a685ec9a1cf0797baf80e5142b4efc22</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5fbc7dbca&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1161287</rcn>
+        <id>101059682_PSHORIZON</id>
+        <title>Periodic Reporting for period 1 - ASSAS (Artificial intelligence for the Simulation of Severe AccidentS)</title>
+        <teaser>The ASSAS (Artificial intelligence for the Simulation of Severe AccidentS) project aims to foster the development of accurate and computationally efficient nuclear power plant simulators with severe accident capabilities. Different types of simulators are used in the nuclear...</teaser>
+        <description>periodic</description>
+        <sourceUpdateDate>2024-08-22 01:43:58</sourceUpdateDate>
+        <contentUpdateDate>2024-09-02 14:18:43</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/pubsum</code>
+              <title>Report Summary</title>
+              <description>Result: Publishable summary (FP7 SESAM) and Summary for publication (H2020 SyGMa)</description>
+              <displayCode readOnly="true">/Report Summary</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webItem source="corda" type="relatedResultAttachment">
+              <language>en</language>
+              <availableLanguages readOnly="true">en,any</availableLanguages>
+              <uri>/docs/results/horizon/101059/101059682_PS/simulator-sa-screen.png</uri>
+              <alternativeText>Severe accident display screen of the simulator</alternativeText>
+              <mimetype readOnly="true">image/png</mimetype>
+              <size readOnly="true">215040</size>
+            </webItem>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1315688</rcn>
+        <id>101059682_170207_PUBLIHORIZON</id>
+        <title>Looking ahead to severe accident research</title>
+        <details>
+          <authors>Luis E. Herranz, Bastien Poubeau, Lionel Chailan and Fulvio Mascari</authors>
+          <journalNumber>11</journalNumber>
+          <journalTitle>EPJ Nuclear Science and Technologies</journalTitle>
+          <publishedPages/>
+          <publishedYear>2025</publishedYear>
+          <publisher>EDP Sciences</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1051/EPJN/2025025</doi>
+          <issn>2491-9292</issn>
+        </identifiers>
+        <sourceUpdateDate>2025-06-25 14:48:36</sourceUpdateDate>
+        <contentUpdateDate>2025-06-30 16:30:15</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1315678</rcn>
+        <id>101059682_170206_PUBLIHORIZON</id>
+        <title>ASSAS project, Artificial intelligence for Simulation of Severe AccidentS; Simulator development and Isotopic Source Term proposals</title>
+        <details>
+          <authors>Rafael J. Caro, Isabel Parrado</authors>
+          <journalNumber>11</journalNumber>
+          <journalTitle>EPJ Nuclear Sciences &amp;amp; Technologies</journalTitle>
+          <publishedPages/>
+          <publishedYear>2025</publishedYear>
+          <publisher>EDP Sciences</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1051/EPJN/2025014</doi>
+          <issn>2491-9292</issn>
+        </identifiers>
+        <sourceUpdateDate>2025-06-25 14:48:36</sourceUpdateDate>
+        <contentUpdateDate>2025-06-30 16:30:14</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1135431</rcn>
+        <id>101059682_13_DELIVHORIZON</id>
+        <title>User expectations</title>
+        <description><![CDATA[More detailed description of the users' expectations concerning the functional specifications of the prototype simulator.]]></description>
+        <sourceUpdateDate>2025-04-07 10:19:05</sourceUpdateDate>
+        <contentUpdateDate>2024-07-29 13:39:34</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode readOnly="true">/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>050276b6f265f5c478f77640a9a7f7bf</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e50932a2ce&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1135426</rcn>
+        <id>101059682_1_DELIVHORIZON</id>
+        <title>Minutes of the kick-off meeting</title>
+        <description>Summary of discussions held during the kick-off meeting.</description>
+        <sourceUpdateDate>2025-04-07 10:19:05</sourceUpdateDate>
+        <contentUpdateDate>2024-07-29 13:39:33</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode readOnly="true">/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>2a0b021b144653df48d358580e7c061d</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5f820cce2&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1211478</rcn>
+        <id>101059682_62208_PUBLIHORIZON</id>
+        <title>Preliminary strategies for training dataset generation and surrogate modelling of station blackout management measures in PWR</title>
+        <details>
+          <authors>Christophe D’Alessandro, Terttaliisa Lind, Raphaël Périllat, Gaëtan Blondet</authors>
+          <journalNumber/>
+          <journalTitle>Proceedings of the 11th European Review Meeting on Severe Accidents Research (ERMSAR2024)</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>Königlich Technische Hochschule Stockholm (KTH)</publisher>
+        </details>
+        <identifiers>
+          <doi>10.5445/IR/1000174165</doi>
+          <isbn>-1000174165</isbn>
+        </identifiers>
+        <sourceUpdateDate>2025-04-15 01:27:45</sourceUpdateDate>
+        <contentUpdateDate>2025-06-25 17:22:00</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1135433</rcn>
+        <id>101059682_2_DELIVHORIZON</id>
+        <title>Data management plan</title>
+        <description><![CDATA[First version of the project's data management plan]]></description>
+        <sourceUpdateDate>2025-04-07 10:19:05</sourceUpdateDate>
+        <contentUpdateDate>2024-07-29 13:39:34</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode readOnly="true">/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>307917ba9b86d1d6e36c6c5bdc78de15</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5051509e9&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1135428</rcn>
+        <id>101059682_6_DELIVHORIZON</id>
+        <title>Report on modelling strategy</title>
+        <description>The report will summarize the strategy adopted by the consortium to develop surrogate and enhanced models for severe accident codes.</description>
+        <sourceUpdateDate>2025-04-07 10:19:05</sourceUpdateDate>
+        <contentUpdateDate>2024-07-29 13:39:33</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode readOnly="true">/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>29b95b38564851ad45f4e99edd3d87d7</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e50cbc6e7a&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1211472</rcn>
+        <id>101059682_62209_PUBLIHORIZON</id>
+        <title>Horizon Euratom ASSAS project: can machine-learning make fast and accurate severe accident simulators a reality?</title>
+        <details>
+          <authors>Bastien Poubeau, Yann Richet, Lionel Chailan, Fulvio Mascari, Mattia Massone, Simone Gianfelici, Luis Enrique Herranz, Joan Fontanet, Terttaliisa Lind, Christophe D’alessandro, Jure Brence, Ivo Kljenak, Saso Dzeroski, Fabrizio Gabrielli</authors>
+          <journalNumber/>
+          <journalTitle>Proceedings of the 11th European Review Meeting on Severe Accidents Research (ERMSAR2024)</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>Königlich Technische Hochschule Stockholm (KTH)</publisher>
+        </details>
+        <identifiers>
+          <isbn>-1000174165</isbn>
+        </identifiers>
+        <sourceUpdateDate>2025-04-15 01:27:45</sourceUpdateDate>
+        <contentUpdateDate>2025-06-25 17:22:00</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode readOnly="true">/Project</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <code>/EURATOM-RIA</code>
+        <title>EURATOM Research and Innovation Actions</title>
+        <description>EURATOM Research and Innovation Actions</description>
+        <displayCode readOnly="true">/EURATOM Research and Innovation Actions</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode readOnly="true">/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

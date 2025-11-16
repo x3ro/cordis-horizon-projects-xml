@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages readOnly="true">en</availableLanguages>
+  <rcn>252156</rcn>
+  <id>101106046</id>
+  <acronym>ReGraDe-CS</acronym>
+  <teaser>The project tackles gray debugging of concurrent systems. Gray debugging means debugging systems where only part of the source code is accessible (e.g., the system invokes external services such as Google Maps). Debugging concurrent systems (from multiprocessors to Cloud) is...</teaser>
+  <objective>The project tackles gray debugging of concurrent systems. Gray debugging means debugging systems where only part of the source code is accessible (e.g., the system invokes external services such as Google Maps). Debugging concurrent systems (from multiprocessors to Cloud) is notoriously hard. Reversible Causal-Consistent Debugging and Replay (RCCDR) is an innovative approach to this problem, allowing one to log a faulty execution in production environment and replay it in the debugger. There it can be explored backwards and forwards following causality links from the visible misbehavior to the bug causing it. This approach has been implemented in CauDEr, a debugger for the Erlang language.
+
+Currently, RCCDR requires access to the whole source code of the target program.  To enable gray RCCDR we need to answer the following questions:
+
+How can we define RCCDR, and, more generally, reversibility in concurrent systems, in a compositional way, to be able to apply it to systems which are only partially accessible? Are we able to correctly explore backwards and forwards the accessible part? If not, which approximation in the exploration is caused by the missing information about the inaccessible part? 
+
+Till now RCCDR has only been explored in the concrete setting of Erlang, and gray RCCDR has never been studied.  We plan to study gray RCCDR at two levels:
+
+1) the abstract level of event structures. Abstraction ensures simpler proofs and generality of the results, making them applicable to many languages;
+
+2) the concrete level of Erlang semantics, ensuring applicability in a setting of interest, and allowing to implement it by extending CauDEr and integrating it in the Erlang Solutions environment. 
+
+As an outcome we will provide the theory to apply the powerful RCCDR approach to concurrent systems which are only partially accessible, as well as exploit it in practice, in the setting of Erlang. This will also enable interaction with IT SMEs and software developers.</objective>
+  <title>Reversible Gray Debugging of Concurrent Systems</title>
+  <keywords>Reversible computing, debugging, concurrency theory, Erlang</keywords>
+  <totalCost>0</totalCost>
+  <ecMaxContribution>172750.08</ecMaxContribution>
+  <startDate>2023-12-01</startDate>
+  <endDate>2025-11-30</endDate>
+  <ecSignatureDate>2023-04-24</ecSignatureDate>
+  <duration>24</duration>
+  <status>SIGNED</status>
+  <identifiers>
+    <grantDoi>10.3030/101106046</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>false</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2025-10-13 08:58:02</sourceUpdateDate>
+  <contentCreationDate readOnly="true">2023-06-29 16:16:13</contentCreationDate>
+  <contentUpdateDate>2025-10-21 10:04:13</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-10-21 10:04:25</lastUpdateDate>
+  <relations>
+    <associations>
+      <article source="editorial" type="relatedArticle">
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <rcn>447169</rcn>
+        <id>447169-causal-consistent-reversible-debugging-of-partially-observable-concurrent-systems</id>
+        <title>Causal-consistent reversible debugging of partially observable concurrent systems</title>
+        <contentUpdateDate>2024-02-22 10:28:08</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/projectDescription</code>
+              <title>Project description</title>
+              <description>Article: description of linked project written by editorial team</description>
+              <displayCode readOnly="true">/Project description</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/editorial</code>
+              <title>CORDIS Editorial</title>
+              <description>Written by CORDIS</description>
+              <displayCode readOnly="true">/CORDIS Editorial</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </article>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>55393</rcn>
+        <title>HORIZON-MSCA-2022-PF-01</title>
+        <identifier>HORIZON-MSCA-2022-PF-01</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>55393</rcn>
+        <title>HORIZON-MSCA-2022-PF-01</title>
+        <identifier>HORIZON-MSCA-2022-PF-01</identifier>
+      </call>
+      <organization source="corda" order="2" terminated="false" sme="false" netEcContribution="0" totalCost="0" type="associatedPartner">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1905558</rcn>
+        <id>999977172</id>
+        <vatNumber>GB823847609</vatNumber>
+        <legalName>THE CHANCELLOR MASTERS AND SCHOLARS OF THE UNIVERSITY OF CAMBRIDGE</legalName>
+        <address>
+          <street>TRINITY LANE THE OLD SCHOOLS</street>
+          <city>CAMBRIDGE</city>
+          <postalCode>CB2 1TN</postalCode>
+          <country>UK</country>
+          <postBox>N/A</postBox>
+          <url>http://www.cam.ac.uk</url>
+          <geolocation>52.20533055,0.1169200339484217</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode readOnly="true">/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Cambridgeshire CC</name>
+              <rcn>508629058</rcn>
+              <nutsCode>UKH12</nutsCode>
+              <parents>
+                <region>
+                  <name>East Anglia</name>
+                  <rcn>508629096</rcn>
+                  <nutsCode>UKH1</nutsCode>
+                  <parents>
+                    <region>
+                      <name>East of England</name>
+                      <rcn>508631592</rcn>
+                      <nutsCode>UKH</nutsCode>
+                      <parents>
+                        <region>
+                          <name>United Kingdom</name>
+                          <rcn>508725800</rcn>
+                          <nutsCode>UK</nutsCode>
+                          <euCode>UK</euCode>
+                          <isoCode>GB</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>United Kingdom</name>
+              <rcn>508725800</rcn>
+              <nutsCode>UK</nutsCode>
+              <euCode>UK</euCode>
+              <isoCode>GB</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization source="corda" terminated="false" order="4" sme="false" netEcContribution="0" totalCost="0" type="associatedPartner">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>2943452</rcn>
+        <id>999681322</id>
+        <vatNumber>GB752109157</vatNumber>
+        <legalName>ERLANG SOLUTIONS LIMITED</legalName>
+        <shortName>ESL</shortName>
+        <address>
+          <street>THE LOOM 14 GOWERS WALK LOOM HOUSE</street>
+          <city>London</city>
+          <postalCode>E1 8PY</postalCode>
+          <country>UK</country>
+          <geolocation>51.5073219,-0.1276474</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PRC</code>
+              <title>Private for-profit entities (excluding Higher or Secondary Education Establishments)</title>
+              <displayCode readOnly="true">/Private for-profit entities (excluding Higher or Secondary Education Establishments)</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>United Kingdom</name>
+              <rcn>508725800</rcn>
+              <nutsCode>UK</nutsCode>
+              <euCode>UK</euCode>
+              <isoCode>GB</isoCode>
+            </region>
+            <region type="relatedRegion">
+              <name>United Kingdom</name>
+              <rcn>508725800</rcn>
+              <nutsCode>UK</nutsCode>
+              <euCode>UK</euCode>
+              <isoCode>GB</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization source="corda" order="5" terminated="false" sme="false" netEcContribution="0" totalCost="0" type="associatedPartner">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1981806</rcn>
+        <id>909917522</id>
+        <vatNumber>GB102404087</vatNumber>
+        <legalName><![CDATA[HUAWEI TECHNOLOGIES RESEARCH & DEVELOPMENT (UK) LIMITED]]></legalName>
+        <address>
+          <street>302 CAMBRIDGE SCIENCE PARK MILTON ROAD</street>
+          <city>CAMBRIDGE</city>
+          <postalCode>CB4 0WG</postalCode>
+          <country>UK</country>
+          <geolocation>52.2335629,0.14373486444277617</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PRC</code>
+              <title>Private for-profit entities (excluding Higher or Secondary Education Establishments)</title>
+              <displayCode readOnly="true">/Private for-profit entities (excluding Higher or Secondary Education Establishments)</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Cambridgeshire CC</name>
+              <rcn>508629058</rcn>
+              <nutsCode>UKH12</nutsCode>
+              <parents>
+                <region>
+                  <name>East Anglia</name>
+                  <rcn>508629096</rcn>
+                  <nutsCode>UKH1</nutsCode>
+                  <parents>
+                    <region>
+                      <name>East of England</name>
+                      <rcn>508631592</rcn>
+                      <nutsCode>UKH</nutsCode>
+                      <parents>
+                        <region>
+                          <name>United Kingdom</name>
+                          <rcn>508725800</rcn>
+                          <nutsCode>UK</nutsCode>
+                          <euCode>UK</euCode>
+                          <isoCode>GB</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>United Kingdom</name>
+              <rcn>508725800</rcn>
+              <nutsCode>UK</nutsCode>
+              <euCode>UK</euCode>
+              <isoCode>GB</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization source="corda" order="1" ecContribution="172750.08" terminated="false" sme="false" netEcContribution="172750.08" totalCost="0" type="coordinator">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1905805</rcn>
+        <id>999993953</id>
+        <vatNumber>IT01131710376</vatNumber>
+        <legalName>ALMA MATER STUDIORUM - UNIVERSITA DI BOLOGNA</legalName>
+        <shortName>UNIBO</shortName>
+        <address>
+          <street>VIA ZAMBONI 33</street>
+          <city>Bologna</city>
+          <postalCode>40126</postalCode>
+          <country>IT</country>
+          <url>http://www.unibo.it</url>
+          <geolocation>44.4968718,11.3524529</geolocation>
+        </address>
+        <departmentName>ARCES Research Center</departmentName>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode readOnly="true">/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Bologna</name>
+              <rcn>1465366</rcn>
+              <nutsCode>ITH55</nutsCode>
+              <parents>
+                <region>
+                  <name>Emilia-Romagna</name>
+                  <rcn>1465007</rcn>
+                  <nutsCode>ITH5</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Nord-Est</name>
+                      <rcn>1465001</rcn>
+                      <nutsCode>ITH</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Italy</name>
+                          <rcn>309758504</rcn>
+                          <nutsCode>IT</nutsCode>
+                          <euCode>IT</euCode>
+                          <isoCode>IT</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Italy</name>
+              <rcn>309758504</rcn>
+              <nutsCode>IT</nutsCode>
+              <euCode>IT</euCode>
+              <isoCode>IT</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization source="corda" order="3" terminated="false" sme="false" netEcContribution="0" totalCost="0" type="associatedPartner">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1905898</rcn>
+        <id>999864846</id>
+        <vatNumber>ESQ4618002B</vatNumber>
+        <legalName>UNIVERSITAT POLITECNICA DE VALENCIA</legalName>
+        <shortName>UPV</shortName>
+        <address>
+          <street>CAMINO DE VERA SN EDIFICIO 3A</street>
+          <city>VALENCIA</city>
+          <postalCode>46022</postalCode>
+          <country>ES</country>
+          <postBox>000</postBox>
+          <url>http://www.upv.es</url>
+          <geolocation>39.48106345342516,-0.341087800922881</geolocation>
+        </address>
+        <departmentName>Technology Transfer Office</departmentName>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode readOnly="true">/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Valencia/València</name>
+              <rcn>242241667</rcn>
+              <nutsCode>ES523</nutsCode>
+              <parents>
+                <region>
+                  <name>Comunitat Valenciana </name>
+                  <rcn>242241704</rcn>
+                  <nutsCode>ES52</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Este</name>
+                      <rcn>242244136</rcn>
+                      <nutsCode>ES5</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Spain</name>
+                          <rcn>242387496</rcn>
+                          <nutsCode>ES</nutsCode>
+                          <euCode>ES</euCode>
+                          <isoCode>ES</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Spain</name>
+              <rcn>242387496</rcn>
+              <nutsCode>ES</nutsCode>
+              <euCode>ES</euCode>
+              <isoCode>ES</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme source="corda" uniqueProgrammePart="true" type="relatedLegalBasis">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>705729</rcn>
+        <id>HORIZON.1.2</id>
+        <code>HORIZON.1.2</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.1.2</pga>
+        <title>Marie Skłodowska-Curie Actions (MSCA)</title>
+        <parent>
+          <programme>
+            <rcn>705726</rcn>
+            <code>HORIZON.1</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode readOnly="true">/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme source="corda" type="relatedTopic">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>706018</rcn>
+        <id>HORIZON_HORIZON-MSCA-2022-PF-01-01</id>
+        <code>HORIZON-MSCA-2022-PF-01-01</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>MSCA Postdoctoral Fellowships 2022</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode readOnly="true">/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1102536</rcn>
+        <id>101106046_1_DELIVHORIZON</id>
+        <title>Data Management Plan</title>
+        <description>The Data Management Plan describes the data management life cycle for all data sets that will be collected, processed or generated by the action. It is a document describing what data will be collected, processed or generated and following what methodology and standards, whether and how this data will be shared and/or made open, and how it will becurated and preserved.</description>
+        <sourceUpdateDate>2024-06-08 11:34:04</sourceUpdateDate>
+        <contentUpdateDate>2024-06-10 10:03:52</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/DMP</code>
+              <title>Data Management Plan</title>
+              <displayCode readOnly="true">/Data Management Plan</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>bc298251038559d33e50122315296b64</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e50d1b71da&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1283036</rcn>
+        <id>101106046_144786_PUBLIHORIZON</id>
+        <title>The Duality of λ-Abstraction</title>
+        <details>
+          <authors>Vikraman Choudhury, Simon J. Gay</authors>
+          <journalNumber>9</journalNumber>
+          <journalTitle>Proceedings of the ACM on Programming Languages</journalTitle>
+          <publishedPages/>
+          <publishedYear>2025</publishedYear>
+          <publisher>Association for Computing Machinery (ACM)</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1145/3704848</doi>
+          <issn>2475-1421</issn>
+        </identifiers>
+        <sourceUpdateDate>2025-04-15 01:27:45</sourceUpdateDate>
+        <contentUpdateDate>2025-04-22 16:07:23</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1283039</rcn>
+        <id>101106046_144787_PUBLIHORIZON</id>
+        <title>revTPL: The Reversible Temporal Process Language</title>
+        <details>
+          <authors>Laura Bocchi, Ivan Lanese, Claudio Antares Mezzina, Shoji Yuen</authors>
+          <journalNumber>Volume 20, Issue 1</journalNumber>
+          <journalTitle>Logical Methods in Computer Science</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>Centre pour la Communication Scientifique Directe (CCSD)</publisher>
+        </details>
+        <identifiers>
+          <doi>10.46298/lmcs-20(1:11)2024</doi>
+          <issn>1860-5974</issn>
+        </identifiers>
+        <sourceUpdateDate>2025-04-15 01:27:45</sourceUpdateDate>
+        <contentUpdateDate>2025-04-22 16:07:23</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode readOnly="true">/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/47/307</code>
+        <title>software</title>
+        <displayCode readOnly="true">/natural sciences/computer and information sciences/software</displayCode>
+      </category>
+      <category weight="100" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode readOnly="true">/Digital agenda</displayCode>
+      </category>
+      <category weight="40" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode readOnly="true">/Clean air</displayCode>
+      </category>
+      <category weight="100" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode readOnly="true">/Artificial intelligence</displayCode>
+      </category>
+      <category weight="40" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode readOnly="true">/Climate action</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode readOnly="true">/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <code>/HORIZON-TMA-MSCA-PF-EF</code>
+        <title>HORIZON TMA MSCA Postdoctoral Fellowships - European Fellowships</title>
+        <description>HORIZON TMA MSCA Postdoctoral Fellowships - European Fellowships</description>
+        <displayCode readOnly="true">/HORIZON TMA MSCA Postdoctoral Fellowships - European Fellowships</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode readOnly="true">/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

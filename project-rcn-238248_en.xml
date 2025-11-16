@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages readOnly="true">en</availableLanguages>
+  <rcn>238248</rcn>
+  <id>101041669</id>
+  <acronym>DeepNeuronEmbeddings</acronym>
+  <teaser><![CDATA["Understanding the relationship between structure and function of cortical neurons and circuits is one of the key challenges in neuroscience. For inhibitory neurons, roughly 15 subtypes are well characterized and we know a fair bit about their function. However, the vast...]]></teaser>
+  <objective><![CDATA["Understanding the relationship between structure and function of cortical neurons and circuits is one of the key challenges in neuroscience. For inhibitory neurons, roughly 15 subtypes are well characterized and we know a fair bit about their function. However, the vast majority of neocortical neurons are excitatory. Yet we know little about how differences in the morphology of excitatory neurons relate to their computational properties in vivo. I hypothesize that there is a close correspondence between morphology and function of excitatory neurons: distinct subtypes can be identified not only by their morphological features, but also by how they respond to stimulation with natural stimuli. To test this hypothesis, I will build upon recent advances in machine learning and develop a data-driven approach to derive a ""bar code"" for each neuron: a low-dimensional representation of its morphological features and its response properties to natural stimuli. Using these techniques, I will tackle the structure-function question by harnessing a large-scale functional anatomy dataset: a combination of electron-microscopy reconstructions at sub-micrometer resolution with two-photon functional imaging of nearly all excitatory neurons in one cubic millimeter of the mouse visual cortex. If successful, my project could fundamentally change our view on the diversity of excitatory cell types and reveal how morphological features are linked to a neuron's computational output. It could pave the way towards a unified definition of cell types, one of the fundamental building blocks of the brain. The same approach could be used in other brain areas and even other cellular systems beyond the brain. More broadly, while machine learning is promising to transform the scientific discovery process as a whole, my project could serve as a prime example of this transformation process in neuroscience and show how machine learning can help to discover structure in nature."]]></objective>
+  <title>Deep Neuron Embeddings:  Data-driven multi-modal discovery of cell types in the neocortex</title>
+  <totalCost>1500000</totalCost>
+  <ecMaxContribution>1500000</ecMaxContribution>
+  <startDate>2022-06-01</startDate>
+  <endDate>2027-05-31</endDate>
+  <ecSignatureDate>2022-02-08</ecSignatureDate>
+  <duration>60</duration>
+  <status>SIGNED</status>
+  <identifiers>
+    <grantDoi>10.3030/101041669</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>false</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2025-01-03 10:47:16</sourceUpdateDate>
+  <contentCreationDate readOnly="true">2022-07-25 17:47:02</contentCreationDate>
+  <contentUpdateDate>2022-07-25 17:47:00</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-09-19 14:49:05</lastUpdateDate>
+  <relations>
+    <associations>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>55317</rcn>
+        <title>ERC-2021-STG</title>
+        <identifier>ERC-2021-STG</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>55317</rcn>
+        <title>ERC-2021-STG</title>
+        <identifier>ERC-2021-STG</identifier>
+      </call>
+      <organization source="corda" order="1" ecContribution="1500000" terminated="false" sme="false" netEcContribution="1500000" totalCost="1500000" type="coordinator">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1908293</rcn>
+        <id>999845640</id>
+        <vatNumber>DE286005408</vatNumber>
+        <legalName>GEORG-AUGUST-UNIVERSITAT GOTTINGEN STIFTUNG OFFENTLICHEN RECHTS</legalName>
+        <shortName>UGOE</shortName>
+        <address>
+          <street>WILHELMSPLATZ 1</street>
+          <city>Gottingen</city>
+          <postalCode>37073</postalCode>
+          <country>DE</country>
+          <postBox>000</postBox>
+          <url>http://www.uni-goettingen.de</url>
+          <geolocation>51.53410245,9.937839941393724</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode readOnly="true">/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Göttingen</name>
+              <rcn>1465407</rcn>
+              <nutsCode>DE91C</nutsCode>
+              <parents>
+                <region>
+                  <name>Braunschweig</name>
+                  <rcn>221810792</rcn>
+                  <nutsCode>DE91</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Niedersachsen</name>
+                      <rcn>221813288</rcn>
+                      <nutsCode>DE9</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Germany</name>
+                          <rcn>221940264</rcn>
+                          <nutsCode>DE</nutsCode>
+                          <euCode>DE</euCode>
+                          <isoCode>DE</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Germany</name>
+              <rcn>221940264</rcn>
+              <nutsCode>DE</nutsCode>
+              <euCode>DE</euCode>
+              <isoCode>DE</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme source="corda" type="relatedTopic">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>705885</rcn>
+        <id>HORIZON_ERC-2021-STG</id>
+        <code>ERC-2021-STG</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>ERC STARTING GRANTS</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode readOnly="true">/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme source="corda" uniqueProgrammePart="true" type="relatedLegalBasis">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>705727</rcn>
+        <id>HORIZON.1.1</id>
+        <code>HORIZON.1.1</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.1.1</pga>
+        <title>European Research Council (ERC)</title>
+        <parent>
+          <programme>
+            <rcn>705726</rcn>
+            <code>HORIZON.1</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode readOnly="true">/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1184338</rcn>
+        <id>101041669_54617_PUBLIHORIZON</id>
+        <title>Bipartite invariance in mouse primary visual cortex</title>
+        <details>
+          <authors>Zhiwei Ding; Dat T. Tran; Kayla Ponder; Erick Cobos; Zhuokun Ding; Paul G. Fahey; Eric Wang; Taliah Muhammad; Jiakun Fu; Santiago A. Cadena; Stelios Papadopoulos; Saumil Patel; Katrin Franke; Jacob Reimer; Fabian H. Sinz; Alexander S. Ecker; Xaq Pitkow; Andreas S. Tolias</authors>
+          <journalTitle>bioRxiv</journalTitle>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>bioRxiv</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1101/2023.03.15.532836</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-09-03 05:54:21</sourceUpdateDate>
+        <contentUpdateDate>2024-10-30 14:24:00</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/OTHER</code>
+              <title>Other</title>
+              <displayCode readOnly="true">/Other</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1184340</rcn>
+        <id>101041669_54618_PUBLIHORIZON</id>
+        <title>The Sensorium competition on predicting large-scale mouse primary visual cortex activity</title>
+        <details>
+          <authors>Willeke, Konstantin F.; Fahey, Paul G.; Bashiri, Mohammad; Pede, Laura; Burg, Max F.; Blessing, Christoph; Cadena, Santiago A.; Ding, Zhiwei; Lurz, Konstantin-Klemens; Ponder, Kayla; Muhammad, Taliah; Patel, Saumil S.; Ecker, Alexander S.; Tolias, Andreas S.; Sinz, Fabian H.</authors>
+          <journalTitle>Neural Information Processing Systems (NeurIPS)</journalTitle>
+          <publishedPages/>
+          <publishedYear>2022</publishedYear>
+          <publisher>Neural Information Processing Systems (NeurIPS)</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arxiv.2206.08666</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-09-03 05:54:21</sourceUpdateDate>
+        <contentUpdateDate>2024-10-30 14:25:06</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1184379</rcn>
+        <id>101041669_54624_PUBLIHORIZON</id>
+        <title>MorphOcc: An Implicit Generative Model of Neuronal Morphologies</title>
+        <details>
+          <authors>Laura Hansel, Timo Lüddecke, Marissa A. Weis, Alexander S Ecker</authors>
+          <journalNumber/>
+          <journalTitle>OpenReview</journalTitle>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>OpenReview</publisher>
+        </details>
+        <sourceUpdateDate>2025-03-31 14:59:57</sourceUpdateDate>
+        <contentUpdateDate>2024-10-31 11:02:00</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/OTHER</code>
+              <title>Other</title>
+              <displayCode readOnly="true">/Other</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1184386</rcn>
+        <id>101041669_54622_PUBLIHORIZON</id>
+        <title>An unsupervised map of excitatory neurons’ dendritic morphology in the mouse visual cortex</title>
+        <details>
+          <authors>Weis, MA ... Ecker, AS</authors>
+          <journalNumber/>
+          <journalTitle>bioRxiv</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>bioRxiv</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1101/2022.12.22.521541</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-03-31 14:59:57</sourceUpdateDate>
+        <contentUpdateDate>2024-10-31 11:18:23</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/OTHER</code>
+              <title>Other</title>
+              <displayCode readOnly="true">/Other</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1184374</rcn>
+        <id>101041669_54625_PUBLIHORIZON</id>
+        <title><![CDATA[Willeke, Restivo, Franke, Nix, Cadena, ... Ecker, Sinz & Tolias (2023): Deep learning-driven characterization of single cell tuning in primate visual area V4 unveils topological organization. bioRxiv.]]></title>
+        <details>
+          <authors>Willeke, K.F., Restivo, K., Franke, K., Nix, A.F., Cadena, S.A., Shinn, T., Nealley, C., Rodriguez, G., Patel, S.S., Ecker, A.S., Sinz, F.H., &amp; Tolias, A.S.</authors>
+          <journalTitle>bioRxiv</journalTitle>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>bioRxiv</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1101/2023.05.12.540591</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-09-03 05:54:21</sourceUpdateDate>
+        <contentUpdateDate>2024-10-31 10:59:11</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/OTHER</code>
+              <title>Other</title>
+              <displayCode readOnly="true">/Other</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1184373</rcn>
+        <id>101041669_54619_PUBLIHORIZON</id>
+        <title>Most discriminative stimuli for functional cell type identification</title>
+        <details>
+          <authors>Burg, Max F.; Zenkel, Thomas; Vystrčilová, Michaela; Oesterle, Jonathan; Höfling, Larissa; Willeke, Konstantin F.; Lause, Jan; Müller, Sarah; Fahey, Paul G.; Ding, Zhiwei; Restivo, Kelli; Sridhar, Shashwat; Gollisch, Tim; Berens, Philipp; Tolias, Andreas S.; Euler, Thomas; Bethge, Matthias; Ecker, Alexander S.</authors>
+          <journalNumber/>
+          <journalTitle>International Conference on Learning Representations</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>International Conference on Learning Representations</publisher>
+        </details>
+        <sourceUpdateDate>2025-03-31 14:59:57</sourceUpdateDate>
+        <contentUpdateDate>2024-10-31 10:58:47</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1184380</rcn>
+        <id>101041669_54620_PUBLIHORIZON</id>
+        <title>Towards a Foundation Model of the Mouse Visual Cortex</title>
+        <details>
+          <authors>Eric Y. Wang; Paul G. Fahey; Kayla Ponder; Zhuokun Ding; Andersen Chang; Taliah Muhammad; Saumil Patel; Zhiwei Ding; Dat Tran; Jiakun Fu; Stelios Papadopoulos; Katrin Franke; Alexander S. Ecker; Jacob Reimer; Xaq Pitkow; Fabian H. Sinz; Andreas S. Tolias</authors>
+          <journalTitle>bioRxiv</journalTitle>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>bioRxiv</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1101/2023.03.21.533548</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-09-03 05:54:21</sourceUpdateDate>
+        <contentUpdateDate>2024-10-31 11:18:00</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/OTHER</code>
+              <title>Other</title>
+              <displayCode readOnly="true">/Other</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1184378</rcn>
+        <id>101041669_54623_PUBLIHORIZON</id>
+        <title>The Dynamic Sensorium competition for predicting large-scale mouse visual cortex activity from videos</title>
+        <details>
+          <authors>Turishcheva, Polina; Fahey, Paul G.; Hansel, Laura; Froebe, Rachel; Ponder, Kayla; Vystrčilová, Michaela; Willeke, Konstantin F.; Bashiri, Mohammad; Wang, Eric; Ding, Zhiwei; Tolias, Andreas S.; Sinz, Fabian H.; Ecker, Alexander S.</authors>
+          <journalNumber/>
+          <journalTitle>arXiv</journalTitle>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>arXiv</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arxiv.2305.19654</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-03-31 14:59:57</sourceUpdateDate>
+        <contentUpdateDate>2024-10-31 11:02:00</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/OTHER</code>
+              <title>Other</title>
+              <displayCode readOnly="true">/Other</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1184372</rcn>
+        <id>101041669_54626_PUBLIHORIZON</id>
+        <title>Self-Supervised Graph Representation Learning for Neuronal Morphologies</title>
+        <details>
+          <authors>Weis, Marissa A.; Hansel, Laura; Lüddecke, Timo; Ecker, Alexander S.</authors>
+          <journalNumber/>
+          <journalTitle>Transactions on Machine Learning Research</journalTitle>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>TMLR</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/arXiv.2112.12482</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-04-15 01:27:45</sourceUpdateDate>
+        <contentUpdateDate>2025-05-16 11:07:34</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1184385</rcn>
+        <id>101041669_54621_PUBLIHORIZON</id>
+        <title>Pattern completion and disruption characterize contextual modulation in mouse visual cortex</title>
+        <details>
+          <authors>Jiakun Fu; Suhas Shrinivasan; Kayla Ponder; Taliah Muhammad; Zhuokun Ding; Eric Wang; Zhiwei Ding; Dat T. Tran; Paul G. Fahey; Stelios Papadopoulos; Saumil Patel; Jacob Reimer; Alexander S. Ecker; Xaq Pitkow; Ralf M. Haefner; Fabian H. Sinz; Katrin Franke; Andreas S. Tolias</authors>
+          <journalTitle>bioRxiv</journalTitle>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>bioRxiv</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1101/2023.03.13.532473</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-09-03 05:54:21</sourceUpdateDate>
+        <contentUpdateDate>2024-10-31 11:18:06</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/OTHER</code>
+              <title>Other</title>
+              <displayCode readOnly="true">/Other</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1184345</rcn>
+        <id>101041669_54616_PUBLIHORIZON</id>
+        <title>Reproducibility of predictive networks for mouse visual cortex</title>
+        <details>
+          <authors>Polina Turishcheva, Max Burg, Fabian H Sinz, Alexander Ecker</authors>
+          <journalTitle>arXiv</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>arXiv</publisher>
+        </details>
+        <sourceUpdateDate>2024-09-03 05:54:21</sourceUpdateDate>
+        <contentUpdateDate>2024-10-30 14:31:15</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/OTHER</code>
+              <title>Other</title>
+              <displayCode readOnly="true">/Other</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode readOnly="true">/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/49/327</code>
+        <title>neurobiology</title>
+        <displayCode readOnly="true">/natural sciences/biological sciences/neurobiology</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/21/35/151</code>
+        <title>anatomy and morphology</title>
+        <displayCode readOnly="true">/medical and health sciences/basic medicine/anatomy and morphology</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode readOnly="true">/Digital agenda</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode readOnly="true">/Clean air</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode readOnly="true">/Artificial intelligence</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode readOnly="true">/Climate action</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode readOnly="true">/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <code>/HORIZON-ERC</code>
+        <title>HORIZON ERC Grants</title>
+        <description>HORIZON ERC Grants</description>
+        <displayCode readOnly="true">/HORIZON ERC Grants</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode readOnly="true">/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

@@ -1,0 +1,1601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages readOnly="true">en</availableLanguages>
+  <rcn>251593</rcn>
+  <id>101071674</id>
+  <acronym>POCOCOP</acronym>
+  <teaser>The class P of polynomial-time computable computational problems is the most important and robust complexity class for the study of efficient computation. Answering what problems belong to P will lead to groundbreaking applications in science and society. Moreover, P is a...</teaser>
+  <objective>The class P of polynomial-time computable computational problems is the most important and robust complexity class for the study of efficient computation. Answering what problems belong to P will lead to groundbreaking applications in science and society. Moreover, P is a relatively recent  mathematical object and  radically  different  from  classical notions studied for centuries; thus, capturing it promises the discovery of new fundamental  theorems  in  mathematics.
+
+Our current understanding of P is limited; for instance, the P=NP millenium problem is wide open.  There neither exists a uniform reduction technique, nor a single algorithmic scheme capturing the power of P, nor a description of P in purely logical terms. We intend to provide these in a context which is so rich and vast that it requires the unification of some of the most important techniques, and will enhance our general understanding of P.
+
+Within the microcosm of finite-domain constraint satisfaction problems (CSPs), the recent resolution of the Feder-Vardi  conjecture by Bulatov and by Zhuk provides a satisfactory picture of P. Our goal is a vast and uniform  generalisation of this result in three directions: towards approximation via  Promise CSPs, towards optimisation via Valued CSPs, and towards  infinite domains via countably categorical CSPs and CSPs over numeric domains. In particular, our setting includes the linear programming problem as a numeric Valued CSP, the approximate graph coloring problem as a Promise CSP,  and many problems from qualitative reasoning as infinite-domain CSPs. Our methods range from  universal algebra, model theory, Ramsey theory, to complexity theory. Building on cross-connections between these extensions, we will provide a uniform description of P within this diverse and applicable universe, thus making a revolutionary leap in the resolution of the general problem.</objective>
+  <title>Polynomial-time Computation: Opening the Blackboxes in Constraint Problems</title>
+  <keywords>algorithms, computational complexity, finite model theory, universal algebra, model theory, Ramsey theory, approximation, optimisation, constraint satisfaction problem</keywords>
+  <totalCost>7932935</totalCost>
+  <ecMaxContribution>7932935</ecMaxContribution>
+  <startDate>2023-03-01</startDate>
+  <endDate>2029-02-28</endDate>
+  <ecSignatureDate>2023-01-19</ecSignatureDate>
+  <duration>72</duration>
+  <status>SIGNED</status>
+  <identifiers>
+    <grantDoi>10.3030/101071674</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>false</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2025-01-03 10:47:16</sourceUpdateDate>
+  <contentCreationDate readOnly="true">2023-06-29 13:56:54</contentCreationDate>
+  <contentUpdateDate>2023-06-29 13:56:41</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-09-19 14:48:57</lastUpdateDate>
+  <relations>
+    <associations>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>55318</rcn>
+        <title>ERC-2022-SYG</title>
+        <identifier>ERC-2022-SYG</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>55318</rcn>
+        <title>ERC-2022-SYG</title>
+        <identifier>ERC-2022-SYG</identifier>
+      </call>
+      <organization source="corda" order="2" ecContribution="2899310" terminated="false" sme="false" netEcContribution="2899310" totalCost="2899310" type="participant">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1908489</rcn>
+        <id>999979888</id>
+        <vatNumber>ATU37675002</vatNumber>
+        <legalName>TECHNISCHE UNIVERSITAET WIEN</legalName>
+        <shortName>TU WIEN</shortName>
+        <address>
+          <street>KARLSPLATZ 13</street>
+          <city>Wien</city>
+          <postalCode>1040</postalCode>
+          <country>AT</country>
+          <url>http://www.tuwien.ac.at</url>
+          <geolocation>48.1990183,16.369949</geolocation>
+        </address>
+        <departmentName>Institute of Electrodynamics, Microwave and Circuit Engineer</departmentName>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode readOnly="true">/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Wien</name>
+              <rcn>175378624</rcn>
+              <nutsCode>AT130</nutsCode>
+              <parents>
+                <region>
+                  <name>Wien</name>
+                  <rcn>175378664</rcn>
+                  <nutsCode>AT13</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Ostösterreich</name>
+                      <rcn>1465444</rcn>
+                      <nutsCode>AT1</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Austria</name>
+                          <rcn>175540776</rcn>
+                          <nutsCode>AT</nutsCode>
+                          <euCode>AT</euCode>
+                          <isoCode>AT</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Austria</name>
+              <rcn>175540776</rcn>
+              <nutsCode>AT</nutsCode>
+              <euCode>AT</euCode>
+              <isoCode>AT</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization source="corda" order="3" ecContribution="1648625" terminated="false" sme="false" netEcContribution="1648625" totalCost="1648625" type="participant">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1906248</rcn>
+        <id>999923434</id>
+        <vatNumber>CZ00216208</vatNumber>
+        <legalName>UNIVERZITA KARLOVA</legalName>
+        <shortName>CU</shortName>
+        <address>
+          <street>OVOCNY TRH 560/5</street>
+          <city>Praha 1</city>
+          <postalCode>116 36</postalCode>
+          <country>CZ</country>
+          <postBox>N/A</postBox>
+          <url>http://www.cuni.cz</url>
+          <geolocation>50.08647615,14.4246222336325</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode readOnly="true">/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Hlavní město Praha</name>
+              <rcn>1465479</rcn>
+              <nutsCode>CZ010</nutsCode>
+              <parents>
+                <region>
+                  <name>Praha</name>
+                  <rcn>210501736</rcn>
+                  <nutsCode>CZ01</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Česko</name>
+                      <rcn>1465445</rcn>
+                      <nutsCode>CZ0</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Czechia</name>
+                          <rcn>210668072</rcn>
+                          <nutsCode>CZ</nutsCode>
+                          <euCode>CZ</euCode>
+                          <isoCode>CZ</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Czechia</name>
+              <rcn>210668072</rcn>
+              <nutsCode>CZ</nutsCode>
+              <euCode>CZ</euCode>
+              <isoCode>CZ</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization source="corda" order="1" ecContribution="3385000" terminated="false" sme="false" netEcContribution="3385000" totalCost="3385000" type="coordinator">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1905682</rcn>
+        <id>999897729</id>
+        <vatNumber>DE188369991</vatNumber>
+        <legalName>TECHNISCHE UNIVERSITAET DRESDEN</legalName>
+        <shortName>TUD</shortName>
+        <address>
+          <street>HELMHOLTZSTRASSE 10</street>
+          <city>DRESDEN</city>
+          <postalCode>01069</postalCode>
+          <country>DE</country>
+          <postBox>N/A</postBox>
+          <url>http://tu-dresden.de</url>
+          <geolocation>51.0290859,13.7244364</geolocation>
+        </address>
+        <departmentName>European Project Center</departmentName>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode readOnly="true">/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Dresden, Kreisfreie Stadt</name>
+              <rcn>221827201</rcn>
+              <nutsCode>DED21</nutsCode>
+              <parents>
+                <region>
+                  <name>Dresden</name>
+                  <rcn>221827240</rcn>
+                  <nutsCode>DED2</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Sachsen</name>
+                      <rcn>221829672</rcn>
+                      <nutsCode>DED</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Germany</name>
+                          <rcn>221940264</rcn>
+                          <nutsCode>DE</nutsCode>
+                          <euCode>DE</euCode>
+                          <isoCode>DE</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Germany</name>
+              <rcn>221940264</rcn>
+              <nutsCode>DE</nutsCode>
+              <euCode>DE</euCode>
+              <isoCode>DE</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme source="corda" uniqueProgrammePart="true" type="relatedLegalBasis">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>705727</rcn>
+        <id>HORIZON.1.1</id>
+        <code>HORIZON.1.1</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.1.1</pga>
+        <title>European Research Council (ERC)</title>
+        <parent>
+          <programme>
+            <rcn>705726</rcn>
+            <code>HORIZON.1</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode readOnly="true">/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme source="corda" type="relatedTopic">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>705896</rcn>
+        <id>HORIZON_ERC-2022-SyG</id>
+        <code>ERC-2022-SyG</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>ERC Synergy Grants</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode readOnly="true">/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1293578</rcn>
+        <id>101071674_148502_PUBLIHORIZON</id>
+        <title>Forbidden Tournaments and the Orientation Completion Problem</title>
+        <details>
+          <authors>Manuel Bodirsky, Santiago Guzmán-Pro</authors>
+          <journalNumber>39</journalNumber>
+          <journalTitle>SIAM Journal on Discrete Mathematics</journalTitle>
+          <publishedPages/>
+          <publishedYear>2025</publishedYear>
+          <publisher>Society for Industrial &amp; Applied Mathematics (SIAM)</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1137/23M1604849</doi>
+          <issn>0895-4801</issn>
+        </identifiers>
+        <sourceUpdateDate>2025-05-08 08:14:26</sourceUpdateDate>
+        <contentUpdateDate>2025-05-12 13:16:56</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1217533</rcn>
+        <id>101071674_75612_PUBLIHORIZON</id>
+        <title>Big Ramsey degrees and infinite languages</title>
+        <details>
+          <authors>Samuel Braunfeld, David Chodounský, Noé de Rancourt, Jan Hubička, Jamal Kawach, Matěj Konečný</authors>
+          <journalNumber/>
+          <journalTitle>Advances in Combinatorics</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>Alliance of Diamond Open Access Journals</publisher>
+        </details>
+        <identifiers>
+          <doi>10.19086/aic.2024.4</doi>
+          <issn>2517-5599</issn>
+        </identifiers>
+        <sourceUpdateDate>2024-10-27 22:11:02</sourceUpdateDate>
+        <contentUpdateDate>2024-12-04 08:16:22</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1181856</rcn>
+        <id>101071674_75605_PUBLIHORIZON</id>
+        <title>The Complexity of Resilience Problems via Valued Constraint Satisfaction Problems</title>
+        <details>
+          <authors>Manuel Bodirsky, Žaneta Semanišinová, Carsten Lutz</authors>
+          <journalNumber>27</journalNumber>
+          <journalTitle>Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>ACM</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1145/3661814.3662071</doi>
+        </identifiers>
+        <sourceUpdateDate>2024-10-27 22:11:02</sourceUpdateDate>
+        <contentUpdateDate>2024-10-29 18:37:03</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1217538</rcn>
+        <id>101071674_75617_PUBLIHORIZON</id>
+        <title>Resolving Sets in Temporal Graphs</title>
+        <details>
+          <authors>Jan Bok, Antoine Dailly, Tuomo Lehtilä</authors>
+          <journalNumber/>
+          <journalTitle>Lecture Notes in Computer Science, Combinatorial Algorithms</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>Springer Nature Switzerland</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1007/978-3-031-63021-7_22</doi>
+          <isbn>978-3-031-63020-0</isbn>
+        </identifiers>
+        <sourceUpdateDate>2024-10-27 22:11:02</sourceUpdateDate>
+        <contentUpdateDate>2024-12-04 08:16:22</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/BOOK_CHAPTER</code>
+              <title>Book chapters</title>
+              <displayCode readOnly="true">/Book chapters</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1293573</rcn>
+        <id>101071674_148510_PUBLIHORIZON</id>
+        <title>An Order out of Nowhere: A New Algorithm for Infinite-Domain CSPs</title>
+        <details>
+          <authors>Antoine Mottet, Tomáš Nagy, Michael Pinsker</authors>
+          <journalNumber/>
+          <journalTitle>51st International Colloquium on Automata, Languages, and Programming (ICALP 2024)</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>"Schloss Dagstuhl -- Leibniz-Zentrum f{\""u}r Informatik"</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/ARXIV.2301.12977</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-05-08 08:14:26</sourceUpdateDate>
+        <contentUpdateDate>2025-05-12 13:16:55</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1293574</rcn>
+        <id>101071674_148482_PUBLIHORIZON</id>
+        <title>Algebra Universalis</title>
+        <details>
+          <authors>Barto, Libor; Kapytka, Maryia</authors>
+          <journalNumber>86</journalNumber>
+          <journalTitle>Algebra universalis</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>Birkhauser Verlag</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/ARXIV.2407.16513</doi>
+          <issn>0002-5240</issn>
+        </identifiers>
+        <sourceUpdateDate>2025-05-08 08:14:26</sourceUpdateDate>
+        <contentUpdateDate>2025-05-12 13:16:55</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1217534</rcn>
+        <id>101071674_75576_PUBLIHORIZON</id>
+        <title>Network Satisfaction Problems Solved by k-Consistency</title>
+        <details>
+          <authors>Manuel Bodirsky, Simon Knäuer</authors>
+          <journalNumber/>
+          <journalTitle>50th International Colloquium on Automata, Languages, and Programming (ICALP 2023)</journalTitle>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>"Schloss Dagstuhl -- Leibniz-Zentrum f{\""u}r Informatik"</publisher>
+        </details>
+        <identifiers>
+          <doi>10.4230/LIPIcs.ICALP.2023.116</doi>
+          <issn>1868-8969</issn>
+        </identifiers>
+        <sourceUpdateDate>2024-10-27 22:11:02</sourceUpdateDate>
+        <contentUpdateDate>2024-12-04 08:16:22</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1181855</rcn>
+        <id>101071674_75577_PUBLIHORIZON</id>
+        <title>Submaximal clones over a three-element set up to minor-equivalence</title>
+        <details>
+          <authors>Albert Vucaj, Dmitriy Zhuk</authors>
+          <journalNumber>85</journalNumber>
+          <journalTitle>Algebra universalis</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>Springer Science and Business Media LLC</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1007/s00012-024-00852-w</doi>
+          <issn>0002-5240</issn>
+        </identifiers>
+        <sourceUpdateDate>2024-10-27 22:11:02</sourceUpdateDate>
+        <contentUpdateDate>2024-10-29 18:37:03</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1181878</rcn>
+        <id>101071674_75608_PUBLIHORIZON</id>
+        <title>Generalisations of matrix partitions: Complexity and obstructions</title>
+        <details>
+          <authors>Alexey Barsukov, Mamadou Moustapha Kanté</authors>
+          <journalNumber>1007</journalNumber>
+          <journalTitle>Theoretical Computer Science</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>Elsevier BV</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1016/j.tcs.2024.114652</doi>
+          <issn>0304-3975</issn>
+        </identifiers>
+        <sourceUpdateDate>2024-10-27 22:11:02</sourceUpdateDate>
+        <contentUpdateDate>2024-10-29 18:37:07</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1293580</rcn>
+        <id>101071674_148513_PUBLIHORIZON</id>
+        <title>SIAM Journal on Computing</title>
+        <details>
+          <authors>Antoine Mottet; Tomáš Nagy; Michael Pinsker; Michał Wrona</authors>
+          <journalNumber>53/6</journalNumber>
+          <journalTitle>SIAM Journal on Computing</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>SIAM</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1137/22M1538934</doi>
+          <issn>0097-5397</issn>
+        </identifiers>
+        <sourceUpdateDate>2025-05-08 08:14:26</sourceUpdateDate>
+        <contentUpdateDate>2025-05-12 13:16:56</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1217214</rcn>
+        <id>101071674_75130_PUBLIHORIZON</id>
+        <title>Algebraic Approach to Approximation</title>
+        <details>
+          <authors>Libor Barto; Silvia Butti; Alexandr Kazda; Caterina Viola; Stanislav Živný</authors>
+          <journalNumber/>
+          <journalTitle>LICS '24: Proceedings of the 39th Annual ACM/IEEE Symposium on Logic in Computer Science</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>Association for Computing Machinery</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/ARXIV.2401.15186</doi>
+          <isbn>9798400706608</isbn>
+        </identifiers>
+        <sourceUpdateDate>2025-04-15 01:27:45</sourceUpdateDate>
+        <contentUpdateDate>2025-07-24 12:14:00</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1263090</rcn>
+        <id>101071674_76169_PUBLIHORIZON</id>
+        <title>An Order out of Nowhere: A New Algorithm for Infinite-Domain CSPs</title>
+        <details>
+          <authors>Antoine Mottet, Tom Nagy, Michael Pinsker</authors>
+          <journalNumber/>
+          <journalTitle>51st International Colloquium on Automata, Languages, and Programming (ICALP 2024)</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>Leibniz International Proceedings in Informatics (LIPIcs)</publisher>
+        </details>
+        <identifiers>
+          <doi>10.4230/LIPIcs.ICALP.2024.148</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-03-07 18:54:45</sourceUpdateDate>
+        <contentUpdateDate>2025-03-10 08:31:27</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1197862</rcn>
+        <id>101071674_89064_PUBLIHORIZON</id>
+        <title>A Complexity Dichotomy in Spatial Reasoning via Ramsey Theory</title>
+        <details>
+          <authors>Manuel Bodirsky, Bertalan Bodor</authors>
+          <journalNumber>16</journalNumber>
+          <journalTitle>ACM Transactions on Computation Theory</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>Association for Computing Machinery (ACM)</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1145/3649445</doi>
+          <issn>1942-3454</issn>
+        </identifiers>
+        <sourceUpdateDate>2024-11-17 19:36:32</sourceUpdateDate>
+        <contentUpdateDate>2024-11-18 15:22:39</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1217544</rcn>
+        <id>101071674_75606_PUBLIHORIZON</id>
+        <title>Circuit Equivalence in 2-Nilpotent Algebras</title>
+        <details>
+          <authors>Piotr Kawałek, Michael Kompatscher, Jacek Krzaczkowski</authors>
+          <journalNumber/>
+          <journalTitle>41st International Symposium on Theoretical Aspects of Computer Science (STACS 2024)</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>"Schloss Dagstuhl -- Leibniz-Zentrum f{\""u}r Informatik"</publisher>
+        </details>
+        <identifiers>
+          <doi>10.4230/LIPIcs.STACS.2024.45</doi>
+          <issn>1868-8969</issn>
+        </identifiers>
+        <sourceUpdateDate>2024-10-27 22:11:02</sourceUpdateDate>
+        <contentUpdateDate>2024-12-04 08:16:23</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1293584</rcn>
+        <id>101071674_148500_PUBLIHORIZON</id>
+        <title>$\prod_{2}^{P}$ vs PSpace Dichotomy for the Quantified Constraint Satisfaction Problem</title>
+        <details>
+          <authors>Dmitriy Zhuk</authors>
+          <journalNumber/>
+          <journalTitle>2024 IEEE 65th Annual Symposium on Foundations of Computer Science (FOCS)</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>IEEE</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1109/FOCS61266.2024.00043</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-05-08 08:14:26</sourceUpdateDate>
+        <contentUpdateDate>2025-05-12 13:16:56</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1252990</rcn>
+        <id>101071674_PSHORIZON</id>
+        <title>Periodic Reporting for period 1 - POCOCOP (Polynomial-time Computation: Opening the Blackboxes in Constraint Problems)</title>
+        <teaser>The overall goal of POCOCOP is the systematic understanding of polynomial-time computation: ways to solve computational problems so that the number of steps required in the worst case before obtaining a solution grows only polynomially with the size of instances of the problem...</teaser>
+        <description>periodic</description>
+        <sourceUpdateDate>2025-02-10 05:32:22</sourceUpdateDate>
+        <contentUpdateDate>2025-02-10 05:32:22</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/pubsum</code>
+              <title>Report Summary</title>
+              <description>Result: Publishable summary (FP7 SESAM) and Summary for publication (H2020 SyGMa)</description>
+              <displayCode readOnly="true">/Report Summary</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webItem source="corda" type="relatedResultAttachment">
+              <language>en</language>
+              <availableLanguages readOnly="true">en,any</availableLanguages>
+              <uri>/docs/results/horizon/101071/101071674_PS/pococop-group-photo-2024-dresden.jpg</uri>
+              <alternativeText>The 3rd POCOCOP meeting in Dresden</alternativeText>
+              <mimetype readOnly="true">image/jpeg</mimetype>
+              <size readOnly="true">1530880</size>
+            </webItem>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1217540</rcn>
+        <id>101071674_75610_PUBLIHORIZON</id>
+        <title>ON THE ZARISKI TOPOLOGY ON ENDOMORPHISM MONOIDS OF OMEGA-CATEGORICAL STRUCTURES</title>
+        <details>
+          <authors>MICHAEL PINSKER, CLEMENS SCHINDLER</authors>
+          <journalNumber/>
+          <journalTitle>The Journal of Symbolic Logic</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>Cambridge University Press (CUP)</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1017/jsl.2023.81</doi>
+          <issn>0022-4812</issn>
+        </identifiers>
+        <sourceUpdateDate>2024-10-27 22:11:02</sourceUpdateDate>
+        <contentUpdateDate>2024-12-04 08:16:23</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1293585</rcn>
+        <id>101071674_148501_PUBLIHORIZON</id>
+        <title>A topological proof of the Hell-Nešetřil dichotomy</title>
+        <details>
+          <authors>Sebastian Meyer, Jakub Opršal</authors>
+          <journalNumber/>
+          <journalTitle>Proceedings of the 2025 Annual ACM-SIAM Symposium on Discrete Algorithms (SODA)</journalTitle>
+          <publishedPages/>
+          <publishedYear>2025</publishedYear>
+          <publisher>Society for Industrial and Applied Mathematics</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1137/1.9781611978322.154</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-05-08 08:14:26</sourceUpdateDate>
+        <contentUpdateDate>2025-05-12 13:16:56</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/BOOK_CHAPTER</code>
+              <title>Book chapters</title>
+              <displayCode readOnly="true">/Book chapters</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1245687</rcn>
+        <id>101071674_115376_PUBLIHORIZON</id>
+        <title>Smooth approximations: An algebraic approach to CSPs over finitely bounded homogeneous structures</title>
+        <details>
+          <authors>Antoine Mottet, Michael Pinsker</authors>
+          <journalNumber>71</journalNumber>
+          <journalTitle>Journal of the ACM</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>Association for Computing Machinery (ACM)</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1145/3689207</doi>
+          <issn>0004-5411</issn>
+        </identifiers>
+        <sourceUpdateDate>2025-01-20 23:12:08</sourceUpdateDate>
+        <contentUpdateDate>2025-01-28 09:40:41</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1181887</rcn>
+        <id>101071674_75609_PUBLIHORIZON</id>
+        <title>Unifying the Three Algebraic Approaches to the CSP via Minimal Taylor Algebras</title>
+        <details>
+          <authors>Libor Barto, Zarathustra Brady, Andrei Bulatov, Marcin Kozik, Dmitriy Zhuk</authors>
+          <journalNumber>Volume 3</journalNumber>
+          <journalTitle>TheoretiCS</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>Centre pour la Communication Scientifique Directe (CCSD)</publisher>
+        </details>
+        <identifiers>
+          <doi>10.46298/theoretics.24.14</doi>
+          <issn>2751-4838</issn>
+        </identifiers>
+        <sourceUpdateDate>2024-10-27 22:11:02</sourceUpdateDate>
+        <contentUpdateDate>2024-10-29 18:37:07</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1181863</rcn>
+        <id>101071674_75578_PUBLIHORIZON</id>
+        <title>Polish topologies on endomorphism monoids of relational structures</title>
+        <details>
+          <authors>L. Elliott, J. Jonušas, J.D. Mitchell, Y. Péresse, M. Pinsker</authors>
+          <journalNumber>431</journalNumber>
+          <journalTitle>Advances in Mathematics</journalTitle>
+          <publishedPages/>
+          <publishedYear>2023</publishedYear>
+          <publisher>Elsevier BV</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1016/j.aim.2023.109214</doi>
+          <issn>0001-8708</issn>
+        </identifiers>
+        <sourceUpdateDate>2024-10-27 22:11:02</sourceUpdateDate>
+        <contentUpdateDate>2024-10-29 18:37:05</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1217536</rcn>
+        <id>101071674_75607_PUBLIHORIZON</id>
+        <title>Identifying Tractable Quantified Temporal Constraints Within Ord-Horn</title>
+        <details>
+          <authors>Jakub Rydval, Žaneta Semanišinová, Michał Wrona</authors>
+          <journalNumber/>
+          <journalTitle>51st International Colloquium on Automata, Languages, and Programming (ICALP 2024)</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>"Schloss Dagstuhl -- Leibniz-Zentrum f{\""u}r Informatik"</publisher>
+        </details>
+        <identifiers>
+          <doi>10.4230/LIPIcs.ICALP.2024.151</doi>
+          <issn>1868-8969</issn>
+        </identifiers>
+        <sourceUpdateDate>2024-10-27 22:11:02</sourceUpdateDate>
+        <contentUpdateDate>2024-12-04 08:16:22</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1293576</rcn>
+        <id>101071674_148481_PUBLIHORIZON</id>
+        <title>SIAM Journal on Discrete Mathematics</title>
+        <details>
+          <authors>Manuel Bodirsky; Santiago Guzmán-Pro</authors>
+          <journalNumber>39/1</journalNumber>
+          <journalTitle>SIAM Journal on Discrete Mathematics</journalTitle>
+          <publishedPages/>
+          <publishedYear>2025</publishedYear>
+          <publisher>Society for Industrial and Applied Mathematics</publisher>
+        </details>
+        <identifiers>
+          <doi>10.48550/ARXIV.2309.08327</doi>
+          <issn>0895-4801</issn>
+        </identifiers>
+        <sourceUpdateDate>2025-05-08 08:14:26</sourceUpdateDate>
+        <contentUpdateDate>2025-05-12 13:16:56</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1293575</rcn>
+        <id>101071674_148514_PUBLIHORIZON</id>
+        <title>Archive for Mathematical Logic</title>
+        <details>
+          <authors>Marimon, Paolo</authors>
+          <journalNumber/>
+          <journalTitle>Archive for Mathematical Logic</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>Springer</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1007/S00153-024-00943-4</doi>
+          <issn>0933-5846</issn>
+        </identifiers>
+        <sourceUpdateDate>2025-05-08 08:14:26</sourceUpdateDate>
+        <contentUpdateDate>2025-05-12 13:16:55</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1181930</rcn>
+        <id>101071674_75611_PUBLIHORIZON</id>
+        <title>Complexity Classification Transfer for CSPs via Algebraic Products</title>
+        <details>
+          <authors>Manuel Bodirsky, Peter Jonsson, Barnaby Martin, Antoine Mottet, Žaneta Semanišinová</authors>
+          <journalNumber>53</journalNumber>
+          <journalTitle>SIAM Journal on Computing</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>Society for Industrial &amp; Applied Mathematics (SIAM)</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1137/22M1534304</doi>
+          <issn>0097-5397</issn>
+        </identifiers>
+        <sourceUpdateDate>2024-10-27 22:11:02</sourceUpdateDate>
+        <contentUpdateDate>2024-10-29 18:37:20</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1293598</rcn>
+        <id>101071674_148480_PUBLIHORIZON</id>
+        <title>Finite algebras with Hom-sets of polynomial size</title>
+        <details>
+          <authors>Libor Barto, Antoine Mottet</authors>
+          <journalNumber/>
+          <journalTitle>Transactions of the American Mathematical Society</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>American Mathematical Society (AMS)</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1090/TRAN/9262</doi>
+          <issn>0002-9947</issn>
+        </identifiers>
+        <sourceUpdateDate>2025-05-08 08:14:26</sourceUpdateDate>
+        <contentUpdateDate>2025-05-12 13:17:01</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode readOnly="true">/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/51/359/1073</code>
+        <title>algebra</title>
+        <displayCode readOnly="true">/natural sciences/mathematics/pure mathematics/algebra</displayCode>
+      </category>
+      <category weight="40" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode readOnly="true">/Digital agenda</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode readOnly="true">/Clean air</displayCode>
+      </category>
+      <category weight="40" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode readOnly="true">/Artificial intelligence</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode readOnly="true">/Climate action</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode readOnly="true">/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <code>/HORIZON-ERC-SYG</code>
+        <title>HORIZON ERC Synergy Grants</title>
+        <description>HORIZON ERC Synergy Grants</description>
+        <displayCode readOnly="true">/HORIZON ERC Synergy Grants</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode readOnly="true">/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

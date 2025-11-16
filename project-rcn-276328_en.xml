@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages readOnly="true">en</availableLanguages>
+  <rcn>276328</rcn>
+  <id>101220854</id>
+  <acronym>4DLang</acronym>
+  <teaser>We have recently experienced a boost in AI as the performance of ChatGPT-like large language models has matured from a purely scientific endeavor to deployment in various businesses and real-world applications. Also in computer vision, we have seen tremendous gains that were...</teaser>
+  <objective>We have recently experienced a boost in AI as the performance of ChatGPT-like large language models has matured from a purely scientific endeavor to deployment in various businesses and real-world applications. Also in computer vision, we have seen tremendous gains that were enabled by scaling to large models trained on vast corpuses of data in an unsupervised fashion. 
+
+Language is symbolic and can inform about abstract properties and relationships, while vision without human labels does not model explicit semantics and brings distributed representations for spatial structures. Both are complementary, and the fundamental  unsolved challenge is to bring them together. The current state of the art is to follow the common paradigm of scale and to naively train models on large amounts of data to exploit the co-occurence of objects in single images and words in text captions to learn their correlation. However, looking at the outputs of these models reveals that they in fact perform extremely poorly in many cases. 
+
+The next step to approach human-level AI requires reasoning about scenes spatially and semantically at the same time and demands an abstraction of our real world that brings both of these modalities together, while being lightweight and highly efficient. 4DLang presents the solution and introduces a new approach by first creating a  primitive-based geometric symbolic abstraction of physical scenes that is then shaped into a spatio-temporal language. It will enable the fine-grained coupling of both modalities and go beyond the state of the art by augmenting large language models with real-world understanding that is only present in observations of moving scenes, as we humans perceive them. This design will fundamentally advance the generalization abilities of AI and have a large impact on downstream applications, such as content interpretation and generation, AI assistants, robotics, and autonomous driving.</objective>
+  <title>Establishing a Spatio-Temporal Language for Scene Representation</title>
+  <keywords>3D Computer Vision, 3D Reconstruction, Graphics Primitives, Large Language Models, Transformers, Detection, Tracking, Open-Vocabulary Segmentation, Text-to-Image Generative Models, Incremental Learning, Learning Behavior, Object Representation, Scene Representation, World Models</keywords>
+  <totalCost>1563730</totalCost>
+  <ecMaxContribution>1563730</ecMaxContribution>
+  <startDate>2026-05-01</startDate>
+  <endDate>2030-04-30</endDate>
+  <ecSignatureDate>2025-09-09</ecSignatureDate>
+  <duration>48</duration>
+  <status>SIGNED</status>
+  <identifiers>
+    <grantDoi>10.3030/101220854</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>false</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2025-09-15 15:49:12</sourceUpdateDate>
+  <contentCreationDate readOnly="true">2025-09-22 15:33:23</contentCreationDate>
+  <contentUpdateDate>2025-09-22 15:33:19</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-09-22 15:33:23</lastUpdateDate>
+  <relations>
+    <associations>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>57053</rcn>
+        <title>ERC-2025-STG</title>
+        <identifier>ERC-2025-STG</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>57053</rcn>
+        <title>ERC-2025-STG</title>
+        <identifier>ERC-2025-STG</identifier>
+      </call>
+      <organization source="corda" order="1" ecContribution="1563730" terminated="false" sme="false" netEcContribution="1563730" totalCost="1563730" type="coordinator">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1989944</rcn>
+        <id>884487808</id>
+        <vatNumber>DE343954398</vatNumber>
+        <legalName>TECHNISCHE UNIVERSITAT NURNBERG</legalName>
+        <shortName>UNIVERSITY OF TECHNOLOGY NUREMBERG</shortName>
+        <address>
+          <street>Dr.-Luise-Herzberg-Straße 4</street>
+          <city>NUREMBERG</city>
+          <postalCode>90461</postalCode>
+          <country>DE</country>
+          <geolocation>49.49826845,11.078106331160273</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode readOnly="true">/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Nürnberg, Kreisfreie Stadt</name>
+              <rcn>221782340</rcn>
+              <nutsCode>DE254</nutsCode>
+              <parents>
+                <region>
+                  <name>Mittelfranken</name>
+                  <rcn>221782376</rcn>
+                  <nutsCode>DE25</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Bayern</name>
+                      <rcn>221784616</rcn>
+                      <nutsCode>DE2</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Germany</name>
+                          <rcn>221940264</rcn>
+                          <nutsCode>DE</nutsCode>
+                          <euCode>DE</euCode>
+                          <isoCode>DE</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Germany</name>
+              <rcn>221940264</rcn>
+              <nutsCode>DE</nutsCode>
+              <euCode>DE</euCode>
+              <isoCode>DE</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme source="corda" uniqueProgrammePart="true" type="relatedLegalBasis">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>705727</rcn>
+        <id>HORIZON.1.1</id>
+        <code>HORIZON.1.1</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.1.1</pga>
+        <title>European Research Council (ERC)</title>
+        <parent>
+          <programme>
+            <rcn>705726</rcn>
+            <code>HORIZON.1</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode readOnly="true">/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme source="corda" type="relatedTopic">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>709265</rcn>
+        <id>HORIZON_ERC-2025-STG</id>
+        <code>ERC-2025-STG</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>ERC STARTING GRANTS</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode readOnly="true">/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode readOnly="true">/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/25/73/453/459</code>
+        <title>robotics</title>
+        <displayCode readOnly="true">/engineering and technology/electrical engineering, electronic engineering, information engineering/electronic engineering/robotics</displayCode>
+      </category>
+      <category weight="100" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode readOnly="true">/Digital agenda</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode readOnly="true">/Clean air</displayCode>
+      </category>
+      <category weight="100" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode readOnly="true">/Artificial intelligence</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode readOnly="true">/Climate action</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode readOnly="true">/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <code>/HORIZON-ERC</code>
+        <title>HORIZON ERC Grants</title>
+        <description>HORIZON ERC Grants</description>
+        <displayCode readOnly="true">/HORIZON ERC Grants</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode readOnly="true">/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>
