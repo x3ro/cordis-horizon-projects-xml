@@ -22,10 +22,10 @@
   <validation>
     <euroSciVoc>false</euroSciVoc>
   </validation>
-  <sourceUpdateDate>2025-07-23 15:37:47</sourceUpdateDate>
+  <sourceUpdateDate>2025-10-20 17:38:03</sourceUpdateDate>
   <contentCreationDate readOnly="true">2022-10-21 10:28:09</contentCreationDate>
-  <contentUpdateDate>2025-07-23 15:37:47</contentUpdateDate>
-  <lastUpdateDate readOnly="true">2025-09-19 14:48:53</lastUpdateDate>
+  <contentUpdateDate>2025-11-11 15:08:29</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-11-18 08:14:32</lastUpdateDate>
   <relations>
     <associations>
       <article source="editorial" type="relatedArticle">
@@ -73,7 +73,7 @@
         <legalName>KEEY AEROGEL</legalName>
         <address>
           <street>203 RUE DU GENERAL DE GAULLE</street>
-          <city>Habsheim</city>
+          <city>HABSHEIM</city>
           <postalCode>68440</postalCode>
           <country>FR</country>
           <geolocation>48.5905164,7.7834419</geolocation>
@@ -256,7 +256,7 @@
           </regions>
         </relations>
       </organization>
-      <organization source="corda" order="2" ecContribution="0" terminated="false" sme="false" netEcContribution="64023.75" totalCost="0" type="thirdParty">
+      <organization source="corda" ecContribution="0" terminated="false" order="2" sme="false" netEcContribution="64023.75" totalCost="0" type="thirdParty">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>2660465</rcn>
         <id>931927113</id>
@@ -513,7 +513,7 @@
           </regions>
         </relations>
       </organization>
-      <organization source="corda" order="8" ecContribution="28323.75" terminated="true" sme="false" netEcContribution="28323.75" totalCost="28323.75" type="participant">
+      <organization sme="false" netEcContribution="28323.75" source="corda" order="8" ecContribution="28323.75" terminated="true" totalCost="28323.75" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1918657</rcn>
         <id>963282363</id>
@@ -639,7 +639,7 @@
           </regions>
         </relations>
       </organization>
-      <organization source="corda" order="5" ecContribution="382756.56" terminated="false" sme="false" netEcContribution="382756.56" totalCost="382756.56" type="participant">
+      <organization netEcContribution="382756.56" totalCost="382756.56" source="corda" order="5" ecContribution="382756.56" terminated="false" sme="false" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1907214</rcn>
         <id>999908205</id>
@@ -703,7 +703,7 @@
           </regions>
         </relations>
       </organization>
-      <organization source="corda" order="4" ecContribution="111250" terminated="false" sme="false" netEcContribution="111250" totalCost="111250" type="participant">
+      <organization source="corda" order="4" ecContribution="111250" terminated="false" sme="false" totalCost="111250" netEcContribution="111250" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1922383</rcn>
         <id>957630367</id>
@@ -1095,6 +1095,51 @@
               <defaultLanguage>en</defaultLanguage>
               <id>8a1a86cef1e90faf1faa7c56f8804e58</id>
               <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e511995dac&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1390285</rcn>
+        <id>101082573_44_DELIVHORIZON</id>
+        <title>Workshop held</title>
+        <description>Organization of a workshop at ZAE Bayern for the community potentially interested in the solutions based on aerogels/xerogels for space as well as future industrial applications.</description>
+        <sourceUpdateDate>2025-11-10 13:03:02</sourceUpdateDate>
+        <contentUpdateDate>2025-11-18 08:14:31</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/DEC</code>
+              <title>Websites, patent fillings, videos etc.</title>
+              <displayCode readOnly="true">/Websites, patent fillings, videos etc.</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>f556fc16451bd79cfc29b93920ffe987</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e51cc107c2&appId=PPGMS]]></physUrl>
             </webLink>
           </associations>
         </relations>

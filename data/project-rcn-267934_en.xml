@@ -28,7 +28,7 @@ EIC funding will de-risk the KM2 system as it will allow us to complete the risk
   <sourceUpdateDate>2024-12-31 09:30:22</sourceUpdateDate>
   <contentCreationDate readOnly="true">2024-12-09 10:00:59</contentCreationDate>
   <contentUpdateDate>2024-12-09 10:00:58</contentUpdateDate>
-  <lastUpdateDate readOnly="true">2025-01-23 14:48:47</lastUpdateDate>
+  <lastUpdateDate readOnly="true">2025-11-24 12:58:34</lastUpdateDate>
   <relations>
     <associations>
       <call source="corda" type="relatedMasterCall">
@@ -179,6 +179,51 @@ EIC funding will de-risk the KM2 system as it will allow us to complete the risk
           </categories>
         </relations>
       </programme>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1393708</rcn>
+        <id>101189207_1_DELIVHORIZON</id>
+        <title>Data management plan (DMP)</title>
+        <description>Outlines the principles and policies for managing data collected during the project.</description>
+        <sourceUpdateDate>2025-11-18 15:19:37</sourceUpdateDate>
+        <contentUpdateDate>2025-11-24 12:58:33</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/DMP</code>
+              <title>Data Management Plan</title>
+              <displayCode readOnly="true">/Data Management Plan</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>bea48716b0d54c13bee7196b61982ace</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e524aa0988&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
     </associations>
     <categories>
       <category classification="collection" type="belongsTo">

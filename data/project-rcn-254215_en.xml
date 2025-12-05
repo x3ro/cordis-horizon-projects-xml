@@ -22,10 +22,10 @@
   <validation>
     <euroSciVoc>false</euroSciVoc>
   </validation>
-  <sourceUpdateDate>2025-02-04 05:51:55</sourceUpdateDate>
+  <sourceUpdateDate>2025-10-20 17:38:03</sourceUpdateDate>
   <contentCreationDate readOnly="true">2023-07-13 18:53:15</contentCreationDate>
-  <contentUpdateDate>2025-09-01 23:30:52</contentUpdateDate>
-  <lastUpdateDate readOnly="true">2025-10-16 08:53:43</lastUpdateDate>
+  <contentUpdateDate>2025-11-19 10:17:27</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-11-19 10:17:31</lastUpdateDate>
   <relations>
     <associations>
       <article source="editorial" type="relatedArticle">
@@ -192,7 +192,7 @@
           </regions>
         </relations>
       </organization>
-      <organization source="corda" order="6" ecContribution="796000" terminated="false" sme="true" netEcContribution="397250" totalCost="796000" type="participant">
+      <organization order="6" ecContribution="796000" terminated="false" sme="true" netEcContribution="397250" totalCost="796000" source="corda" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1961090</rcn>
         <id>901741877</id>
@@ -577,7 +577,7 @@
           </regions>
         </relations>
       </organization>
-      <organization source="corda" order="5" ecContribution="387362.5" terminated="false" sme="false" netEcContribution="313125" totalCost="387362.5" type="participant">
+      <organization totalCost="387362.5" source="corda" order="5" ecContribution="387362.5" terminated="false" sme="false" netEcContribution="313125" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1905804</rcn>
         <id>999613422</id>
@@ -642,7 +642,7 @@
           </regions>
         </relations>
       </organization>
-      <organization source="corda" order="2" ecContribution="411562.5" terminated="false" sme="false" netEcContribution="411562.5" totalCost="411562.5" type="participant">
+      <organization order="2" ecContribution="411562.5" terminated="false" sme="false" netEcContribution="411562.5" totalCost="411562.5" source="corda" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1944981</rcn>
         <id>910945140</id>
@@ -707,7 +707,7 @@
           </regions>
         </relations>
       </organization>
-      <organization source="corda" order="6" ecContribution="0" terminated="false" sme="false" netEcContribution="398750" totalCost="0" type="thirdParty">
+      <organization netEcContribution="398750" totalCost="0" source="corda" order="6" ecContribution="0" terminated="false" sme="false" type="thirdParty">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1981800</rcn>
         <id>886088308</id>
@@ -715,7 +715,7 @@
         <legalName>COMPANY FOR MANUFACTURING TRADE ANDSERVICES AVESTA BATERI AND ENERDZIINZINERING DOOEL IMPORT-EXPORT SKOPJE</legalName>
         <address>
           <street>DAME GRUEV STR 1-1/16</street>
-          <city>Skopje</city>
+          <city>SKOPJE</city>
           <postalCode>1000</postalCode>
           <country>MK</country>
           <geolocation>41.6171214,21.7168387</geolocation>
@@ -778,7 +778,7 @@
         <shortName>RISE FIRE RESEARCH</shortName>
         <address>
           <street>TILLERBRUVEGEN 202</street>
-          <city>Tiller</city>
+          <city>TILLER</city>
           <postalCode>7092</postalCode>
           <country>NO</country>
           <geolocation>63.3565783,10.4256979</geolocation>
@@ -840,7 +840,7 @@
         <legalName>LUMENCY</legalName>
         <address>
           <street>RUE DIEUDONNE LEFEVRE 17</street>
-          <city>Bruxelles / Brussel</city>
+          <city>BRUSSELS</city>
           <postalCode>1020</postalCode>
           <country>BE</country>
           <geolocation>50.87085785,4.350419355439293</geolocation>
@@ -1134,6 +1134,51 @@
       </result>
       <result source="corda" type="relatedResult">
         <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1383786</rcn>
+        <id>101104013_16_DELIVHORIZON</id>
+        <title>Performance optimised digital twins</title>
+        <description>Report on architecture recommendation for performance optimised digital twins</description>
+        <sourceUpdateDate>2025-10-20 17:42:54</sourceUpdateDate>
+        <contentUpdateDate>2025-11-04 09:47:35</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode readOnly="true">/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>609f08beed14b1ecef1ec0cd080914ed</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e523452151&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1111281</rcn>
         <id>101104013_20_DELIVHORIZON</id>
         <title>Requirements for BMS hardware, software and measurement data quality</title>
@@ -1403,8 +1448,8 @@
         <id>101104013_31_DELIVHORIZON</id>
         <title>Battery technology roadmap</title>
         <description>Battery technology roadmap with stress factors and their importance</description>
-        <sourceUpdateDate>2025-10-07 05:06:23</sourceUpdateDate>
-        <contentUpdateDate>2025-10-16 08:53:42</contentUpdateDate>
+        <sourceUpdateDate>2025-10-20 17:42:54</sourceUpdateDate>
+        <contentUpdateDate>2025-10-28 18:47:57</contentUpdateDate>
         <relations>
           <categories>
             <category classification="collection" type="belongsTo">
@@ -1610,6 +1655,13 @@
         <title>Project</title>
         <description>Project factsheets</description>
         <displayCode readOnly="true">/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/47/307</code>
+        <title>software</title>
+        <displayCode readOnly="true">/natural sciences/computer and information sciences/software</displayCode>
       </category>
       <category weight="40" classification="policyPriorities" type="marker">
         <language>en</language>

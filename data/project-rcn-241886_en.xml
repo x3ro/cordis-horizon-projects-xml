@@ -22,10 +22,10 @@
   <validation>
     <euroSciVoc>false</euroSciVoc>
   </validation>
-  <sourceUpdateDate>2025-03-24 21:55:42</sourceUpdateDate>
+  <sourceUpdateDate>2025-10-20 17:38:03</sourceUpdateDate>
   <contentCreationDate readOnly="true">2022-09-15 11:12:50</contentCreationDate>
-  <contentUpdateDate>2025-09-16 12:26:48</contentUpdateDate>
-  <lastUpdateDate readOnly="true">2025-09-19 14:48:48</lastUpdateDate>
+  <contentUpdateDate>2025-10-20 17:38:03</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-11-24 14:11:16</lastUpdateDate>
   <relations>
     <associations>
       <call source="corda" type="relatedMasterCall">
@@ -165,7 +165,7 @@
           </regions>
         </relations>
       </organization>
-      <organization source="corda" order="8" ecContribution="152222.5" terminated="false" sme="false" netEcContribution="152222.5" totalCost="152222.5" type="participant">
+      <organization terminated="false" source="corda" order="8" ecContribution="152222.5" sme="false" netEcContribution="152222.5" totalCost="152222.5" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>2046072</rcn>
         <id>973388405</id>
@@ -569,7 +569,7 @@
         <legalName>STAFFORDSHIRE UNIVERSITY</legalName>
         <address>
           <street>COLLEGE ROAD</street>
-          <city>Stoke On Trent</city>
+          <city>STOKE ON TRENT</city>
           <postalCode>ST4 2DE</postalCode>
           <country>UK</country>
           <postBox>000</postBox>
@@ -675,7 +675,7 @@
         <shortName>Sensing Clues</shortName>
         <address>
           <street>MOLENSTRAAT 14</street>
-          <city>Alphen</city>
+          <city>ALPHEN</city>
           <postalCode>6626 KC</postalCode>
           <country>NL</country>
           <geolocation>51.4834284,4.9523565</geolocation>
@@ -692,8 +692,32 @@
           </categories>
           <regions>
             <region type="relatedNutsCode">
-              <rcn>1471664</rcn>
-              <nutsCode>NL32B</nutsCode>
+              <name>Zuidwest-Gelderland</name>
+              <rcn>391389316</rcn>
+              <nutsCode>NL224</nutsCode>
+              <parents>
+                <region>
+                  <name>Gelderland</name>
+                  <rcn>391389352</rcn>
+                  <nutsCode>NL22</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Oost-Nederland</name>
+                      <rcn>391391784</rcn>
+                      <nutsCode>NL2</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Netherlands</name>
+                          <rcn>391547432</rcn>
+                          <nutsCode>NL</nutsCode>
+                          <euCode>NL</euCode>
+                          <isoCode>NL</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
             </region>
             <region type="relatedRegion">
               <name>Netherlands</name>
@@ -919,6 +943,51 @@
       </result>
       <result source="corda" type="relatedResult">
         <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1393047</rcn>
+        <id>101060954_12_DELIVHORIZON</id>
+        <title>Report with description of all included data sources and documentation of respective APIs</title>
+        <description>Report with description of all included data sources and documentation of respective APIs</description>
+        <sourceUpdateDate>2025-11-18 15:19:37</sourceUpdateDate>
+        <contentUpdateDate>2025-11-24 13:04:48</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode readOnly="true">/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>4f9057344641a0f854bc4e371a79a607</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e50cdbd2ff&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1102363</rcn>
         <id>101060954_10_DELIVHORIZON</id>
         <title>Matrix of tangible methods and data sources in-use</title>
@@ -1004,6 +1073,51 @@
       </result>
       <result source="corda" type="relatedResult">
         <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1393050</rcn>
+        <id>101060954_17_DELIVHORIZON</id>
+        <title>Policy brief</title>
+        <description>Policy brief</description>
+        <sourceUpdateDate>2025-11-18 15:19:37</sourceUpdateDate>
+        <contentUpdateDate>2025-11-24 13:04:48</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode readOnly="true">/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>6b3beb6e2d54001c2a2d51d6c1bbbada</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5216c5154&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1102367</rcn>
         <id>101060954_13_DELIVHORIZON</id>
         <title>Four ecosystem basemaps</title>
@@ -1043,6 +1157,51 @@
               <defaultLanguage>en</defaultLanguage>
               <id>378c5f0bf863b753eac8b2f854a59789</id>
               <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e505edc769&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1393054</rcn>
+        <id>101060954_16_DELIVHORIZON</id>
+        <title>Policy Lab outcomes and recommendations</title>
+        <description>Policy Lab outcomes and recommendations</description>
+        <sourceUpdateDate>2025-11-18 15:19:37</sourceUpdateDate>
+        <contentUpdateDate>2025-11-24 13:04:49</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/D</code>
+              <title>Demonstrators, pilots, prototypes</title>
+              <displayCode readOnly="true">/Demonstrators, pilots, prototypes</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>71688c4d5b5808090c6214a6f7a02174</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e51db3d2fe&appId=PPGMS]]></physUrl>
             </webLink>
           </associations>
         </relations>
@@ -1274,6 +1433,51 @@
       </result>
       <result source="corda" type="relatedResult">
         <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1393044</rcn>
+        <id>101060954_14_DELIVHORIZON</id>
+        <title>A near real-time Monitoring and Evaluation system published in a white paper</title>
+        <description>A (near) real-time Monitoring and Evaluation system, published in a white paper</description>
+        <sourceUpdateDate>2025-11-18 15:19:37</sourceUpdateDate>
+        <contentUpdateDate>2025-11-24 13:04:47</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode readOnly="true">/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>833ca8bd6afc85b8bb5a824ff7cad2e2</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5195d7339&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1102366</rcn>
         <id>101060954_7_DELIVHORIZON</id>
         <title>Training manuals for NF PoP</title>
@@ -1313,6 +1517,51 @@
               <defaultLanguage>en</defaultLanguage>
               <id>cc06639fc8d5503c68cec2102c05f330</id>
               <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5020a91c3&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1393053</rcn>
+        <id>101060954_15_DELIVHORIZON</id>
+        <title>Field Site outcomes and recommendations</title>
+        <description>Field Site outcomes and recommendations</description>
+        <sourceUpdateDate>2025-11-18 15:19:37</sourceUpdateDate>
+        <contentUpdateDate>2025-11-24 13:04:48</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/D</code>
+              <title>Demonstrators, pilots, prototypes</title>
+              <displayCode readOnly="true">/Demonstrators, pilots, prototypes</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>c8bf03d90b69b9803662d6f32cdc17b0</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e520bfcc16&appId=PPGMS]]></physUrl>
             </webLink>
           </associations>
         </relations>
@@ -1360,6 +1609,59 @@
           </categories>
         </relations>
       </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1393046</rcn>
+        <id>101060954_18_DELIVHORIZON</id>
+        <title>Joint activities with other projects</title>
+        <description>NATURE-FIRST will establish direct contacts with other project coordinators for collaboration, especially with the projects funded under HORIZON-CL6-2021-BIODIV-01. NATURE-FIRST will potentially organise workshops with the other projects to identify synergies, set-up common indicators and frameworks, create joint communication and dissemination activities</description>
+        <sourceUpdateDate>2025-11-18 15:19:37</sourceUpdateDate>
+        <contentUpdateDate>2025-11-24 13:04:48</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/O</code>
+              <title>Other</title>
+              <displayCode readOnly="true">/Other</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>2ab3d55177df85fccf971b15e9964cf0</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e521654a82&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <webLink source="rtd" represents="project" type="relatedStory">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,nl,pl</availableLanguages>
+        <defaultLanguage>en</defaultLanguage>
+        <title>Predict to protect: the new technology giving wildlife a fighting chance</title>
+        <id>08f4b8054fbfa08eb35773c5fdb458b1</id>
+        <physUrl>https://projects.research-and-innovation.ec.europa.eu/en/projects/success-stories/all/predict-protect-new-technology-giving-wildlife-fighting-chance</physUrl>
+      </webLink>
     </associations>
     <categories>
       <category classification="collection" type="belongsTo">
@@ -1369,6 +1671,34 @@
         <title>Project</title>
         <description>Project factsheets</description>
         <displayCode readOnly="true">/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/45/277/829</code>
+        <title>pollution</title>
+        <displayCode readOnly="true">/natural sciences/earth and related environmental sciences/environmental sciences/pollution</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/49/335/1009</code>
+        <title>ecosystems</title>
+        <displayCode readOnly="true">/natural sciences/biological sciences/ecology/ecosystems</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/27/81/30021</code>
+        <title>agriculture</title>
+        <displayCode readOnly="true">/agricultural sciences/agriculture, forestry, and fisheries/agriculture</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/27/81/495</code>
+        <title>forestry</title>
+        <displayCode readOnly="true">/agricultural sciences/agriculture, forestry, and fisheries/forestry</displayCode>
       </category>
       <category weight="0" classification="policyPriorities" type="marker">
         <language>en</language>

@@ -27,7 +27,7 @@ CASRI aims to identify and coordinate ES R&I needs, align national ES R&I progra
   <sourceUpdateDate>2025-07-09 12:28:30</sourceUpdateDate>
   <contentCreationDate readOnly="true">2023-11-03 12:02:36</contentCreationDate>
   <contentUpdateDate>2025-08-15 13:30:34</contentUpdateDate>
-  <lastUpdateDate readOnly="true">2025-10-06 14:18:04</lastUpdateDate>
+  <lastUpdateDate readOnly="true">2025-11-18 08:14:37</lastUpdateDate>
   <relations>
     <associations>
       <call source="corda" type="relatedMasterCall">
@@ -66,32 +66,11 @@ CASRI aims to identify and coordinate ES R&I needs, align national ES R&I progra
           </categories>
           <regions>
             <region type="relatedNutsCode">
-              <name>София (столица)</name>
-              <rcn>188760129</rcn>
-              <nutsCode>BG411</nutsCode>
-              <parents>
-                <region>
-                  <name>Югозападен</name>
-                  <rcn>188760168</rcn>
-                  <nutsCode>BG41</nutsCode>
-                  <parents>
-                    <region>
-                      <name>Югозападна и Южна централна България</name>
-                      <rcn>188762664</rcn>
-                      <nutsCode>BG4</nutsCode>
-                      <parents>
-                        <region>
-                          <name>Bulgaria</name>
-                          <rcn>188910120</rcn>
-                          <nutsCode>BG</nutsCode>
-                          <euCode>BG</euCode>
-                          <isoCode>BG</isoCode>
-                        </region>
-                      </parents>
-                    </region>
-                  </parents>
-                </region>
-              </parents>
+              <name>Bulgaria</name>
+              <rcn>188910120</rcn>
+              <nutsCode>BG</nutsCode>
+              <euCode>BG</euCode>
+              <isoCode>BG</isoCode>
             </region>
             <region type="relatedRegion">
               <name>Bulgaria</name>
@@ -112,7 +91,7 @@ CASRI aims to identify and coordinate ES R&I needs, align national ES R&I progra
         <shortName>FINNISH ENVIRONMENT INSTITUTE</shortName>
         <address>
           <street>LATOKARTANONKAARI 11</street>
-          <city>Helsinki</city>
+          <city>HELSINKI</city>
           <postalCode>00790</postalCode>
           <country>FI</country>
           <postBox>140</postBox>
@@ -406,7 +385,7 @@ CASRI aims to identify and coordinate ES R&I needs, align national ES R&I progra
         <shortName>ITALIAN INSTITUTE FOR ENVIRONMENTAL PROTECTION AND RESEARCH</shortName>
         <address>
           <street>VIA VITALIANO BRANCATI 48</street>
-          <city>Roma</city>
+          <city>ROMA</city>
           <postalCode>00144</postalCode>
           <country>IT</country>
           <url>http://www.isprambiente.it/site/it-IT/</url>
@@ -535,7 +514,7 @@ CASRI aims to identify and coordinate ES R&I needs, align national ES R&I progra
         <shortName>T6ECO</shortName>
         <address>
           <street>VIA AURELIANA 63</street>
-          <city>Roma</city>
+          <city>ROMA</city>
           <postalCode>00187</postalCode>
           <country>IT</country>
           <url>http://www.t-6.it</url>
@@ -895,7 +874,7 @@ CASRI aims to identify and coordinate ES R&I needs, align national ES R&I progra
         <shortName>VL O</shortName>
         <address>
           <street>AVENUE DU PORT 88</street>
-          <city>Bruxelles / Brussel</city>
+          <city>BRUSSEL</city>
           <postalCode>1000</postalCode>
           <country>BE</country>
           <geolocation>50.86621705,4.350107410729449</geolocation>
@@ -1230,12 +1209,57 @@ CASRI aims to identify and coordinate ES R&I needs, align national ES R&I progra
       </programme>
       <result source="corda" type="relatedResult">
         <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1390353</rcn>
+        <id>101131520_4_DELIVHORIZON</id>
+        <title>Report on transnational shared common themes</title>
+        <description>This report on transnational shared common themes will contribute in understanding transnational shared demands by summarizing an enriched, updated and prioritized overview of the transnational shared environmental and sustainability research and innovation priorities.</description>
+        <sourceUpdateDate>2025-11-10 13:03:02</sourceUpdateDate>
+        <contentUpdateDate>2025-11-18 08:14:36</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode readOnly="true">/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>3dd09a758d982f7d85e4eea6b169ee34</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e524031bc2&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1366165</rcn>
         <id>101131520_15_DELIVHORIZON</id>
         <title>Policy brief on first CASRI results</title>
         <description>Specific EC and DG RTD focused policy briefs following a template to be provided.</description>
-        <sourceUpdateDate>2025-09-29 12:39:41</sourceUpdateDate>
-        <contentUpdateDate>2025-10-06 14:18:01</contentUpdateDate>
+        <sourceUpdateDate>2025-10-20 17:42:54</sourceUpdateDate>
+        <contentUpdateDate>2025-10-28 18:58:25</contentUpdateDate>
         <relations>
           <categories>
             <category classification="collection" type="belongsTo">
@@ -1321,12 +1345,57 @@ CASRI aims to identify and coordinate ES R&I needs, align national ES R&I progra
       </result>
       <result source="corda" type="relatedResult">
         <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1390359</rcn>
+        <id>101131520_3_DELIVHORIZON</id>
+        <title><![CDATA[National comprehensive reviews on ES R&I needs, funding, SPPI]]></title>
+        <description><![CDATA[Document combining the 13 national reports delivered by the NCs, containing the results of the national information collation as performed by the NCs together with the selected National Key Stakeholders Each national report contains: * the comprehensively reviewed ES R&I needs for the 4 CASRI themes; * funding options as known or seen by the NKS; * relevant aspects on Science Policy Practice Interaction (SPPI); * any other relevant national activities; * an executive summary in native language.]]></description>
+        <sourceUpdateDate>2025-11-10 13:03:02</sourceUpdateDate>
+        <contentUpdateDate>2025-11-18 08:14:36</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode readOnly="true">/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>558a7ef1ff1509fa3b1e84d5415c6090</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e52403206c&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1366169</rcn>
         <id>101131520_2_DELIVHORIZON</id>
         <title>Ethics, gender, diversity plan</title>
         <description>The ethics, gender, diversity plan is a systematic and strategic instrument that establishes priorities and concrete objectives (based on a thorough status quo assessment), and the specific measures that will be implemented to ensure and where needed to improve sound ethics, gender equality and diversity within the CASRI project.</description>
-        <sourceUpdateDate>2025-09-29 12:39:41</sourceUpdateDate>
-        <contentUpdateDate>2025-10-06 14:18:03</contentUpdateDate>
+        <sourceUpdateDate>2025-10-20 17:42:54</sourceUpdateDate>
+        <contentUpdateDate>2025-10-28 18:58:28</contentUpdateDate>
         <relations>
           <categories>
             <category classification="collection" type="belongsTo">
@@ -1370,8 +1439,8 @@ CASRI aims to identify and coordinate ES R&I needs, align national ES R&I progra
         <id>101131520_13_DELIVHORIZON</id>
         <title><![CDATA[Communication, dissemination & exploitation plan]]></title>
         <description>Based on the plan presented in Section 2.2 the strategy defines different sets of communication / dissemination and dialogue tools for targets audiences.</description>
-        <sourceUpdateDate>2025-09-29 12:39:41</sourceUpdateDate>
-        <contentUpdateDate>2025-10-06 14:18:01</contentUpdateDate>
+        <sourceUpdateDate>2025-10-20 17:42:54</sourceUpdateDate>
+        <contentUpdateDate>2025-10-28 18:58:24</contentUpdateDate>
         <relations>
           <categories>
             <category classification="collection" type="belongsTo">
@@ -1415,8 +1484,8 @@ CASRI aims to identify and coordinate ES R&I needs, align national ES R&I progra
         <id>101131520_12_DELIVHORIZON</id>
         <title>Co-design methodology defining coherent engagement of stakeholders throughout WPs2-5</title>
         <description>Methodology for a consistent  stakeholder involvement, assembling planned methodologies for WPs 2-5 (collaboration among all WP leads) and steer the contacts to stakeholders through the partners being NCs.</description>
-        <sourceUpdateDate>2025-09-29 12:39:41</sourceUpdateDate>
-        <contentUpdateDate>2025-10-06 14:18:01</contentUpdateDate>
+        <sourceUpdateDate>2025-10-20 17:42:54</sourceUpdateDate>
+        <contentUpdateDate>2025-10-28 18:58:24</contentUpdateDate>
         <relations>
           <categories>
             <category classification="collection" type="belongsTo">

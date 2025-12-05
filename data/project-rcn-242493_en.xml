@@ -27,7 +27,7 @@ SMASH will guarantee a recruitment process based on openness, transparency, impa
   <sourceUpdateDate>2025-04-15 01:21:47</sourceUpdateDate>
   <contentCreationDate readOnly="true">2022-10-13 16:06:41</contentCreationDate>
   <contentUpdateDate>2025-04-28 13:36:24</contentUpdateDate>
-  <lastUpdateDate readOnly="true">2025-09-08 12:32:25</lastUpdateDate>
+  <lastUpdateDate readOnly="true">2025-11-24 13:05:25</lastUpdateDate>
   <relations>
     <associations>
       <article source="editorial" type="relatedArticle">
@@ -461,7 +461,7 @@ SMASH will guarantee a recruitment process based on openness, transparency, impa
         <shortName>SINERGISE LABORATORY FOR GEOGRAPHIC INFORMATION SYSTEMS LTD</shortName>
         <address>
           <street>CVETKOVA ULICA 29</street>
-          <city>Ljubljana</city>
+          <city>LJUBLJANA</city>
           <postalCode>1000</postalCode>
           <country>SI</country>
           <url>https://www.sinergise.com</url>
@@ -800,7 +800,7 @@ SMASH will guarantee a recruitment process based on openness, transparency, impa
         <shortName>TUV VARNA</shortName>
         <address>
           <street>UL STUDENTSKA 1</street>
-          <city>Varna</city>
+          <city>VARNA</city>
           <postalCode>9010</postalCode>
           <country>BG</country>
           <url>http://www.tu-varna.bg</url>
@@ -818,32 +818,11 @@ SMASH will guarantee a recruitment process based on openness, transparency, impa
           </categories>
           <regions>
             <region type="relatedNutsCode">
-              <name>Варна</name>
-              <rcn>188756161</rcn>
-              <nutsCode>BG331</nutsCode>
-              <parents>
-                <region>
-                  <name>Североизточен</name>
-                  <rcn>188756200</rcn>
-                  <nutsCode>BG33</nutsCode>
-                  <parents>
-                    <region>
-                      <name>Северна и Югоизточна България</name>
-                      <rcn>188758568</rcn>
-                      <nutsCode>BG3</nutsCode>
-                      <parents>
-                        <region>
-                          <name>Bulgaria</name>
-                          <rcn>188910120</rcn>
-                          <nutsCode>BG</nutsCode>
-                          <euCode>BG</euCode>
-                          <isoCode>BG</isoCode>
-                        </region>
-                      </parents>
-                    </region>
-                  </parents>
-                </region>
-              </parents>
+              <name>Bulgaria</name>
+              <rcn>188910120</rcn>
+              <nutsCode>BG</nutsCode>
+              <euCode>BG</euCode>
+              <isoCode>BG</isoCode>
             </region>
             <region type="relatedRegion">
               <name>Bulgaria</name>
@@ -2604,6 +2583,51 @@ SMASH will guarantee a recruitment process based on openness, transparency, impa
               <displayCode readOnly="true">/CORDA</displayCode>
             </category>
           </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1393226</rcn>
+        <id>101081355_17_DELIVHORIZON</id>
+        <title>D3.6 - Call 3 - Report on dissemination activities</title>
+        <description>It will contain at least the following information:- Dates/Interval of call publication and dissemination channels/means (including supporting documents as images, screen shots, photos from events).- Flyers, brochures or other information produced for dissemination of the call- Presentations held at conferences and/or meetings and/or other events- Main articles published in the press  - Any other means for advertising the programme</description>
+        <sourceUpdateDate>2025-11-18 15:19:37</sourceUpdateDate>
+        <contentUpdateDate>2025-11-24 13:05:23</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode readOnly="true">/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>c27df1c2fbe5844f34b9471a723ff12d</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5212d353f&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
         </relations>
       </result>
       <result source="corda" type="relatedResult">

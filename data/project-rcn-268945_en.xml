@@ -31,7 +31,7 @@
   <sourceUpdateDate>2025-02-17 19:59:56</sourceUpdateDate>
   <contentCreationDate readOnly="true">2025-02-21 10:29:07</contentCreationDate>
   <contentUpdateDate>2025-02-21 10:29:06</contentUpdateDate>
-  <lastUpdateDate readOnly="true">2025-08-19 12:29:31</lastUpdateDate>
+  <lastUpdateDate readOnly="true">2025-11-24 12:58:32</lastUpdateDate>
   <relations>
     <associations>
       <article source="editorial" type="relatedArticle">
@@ -355,6 +355,51 @@
       </result>
       <result source="corda" type="relatedResult">
         <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1393688</rcn>
+        <id>101217685_6_DELIVHORIZON</id>
+        <title>Final Conference Report</title>
+        <description>The final report featuring actionable outcomes</description>
+        <sourceUpdateDate>2025-11-18 15:19:37</sourceUpdateDate>
+        <contentUpdateDate>2025-11-24 12:58:30</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode readOnly="true">/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>4e9984f1bc4b1db1f741ac6ead1f0795</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e51ebac303&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1267781</rcn>
         <id>101217685_2_DELIVHORIZON</id>
         <title>Conference Website (One-Pager)</title>
@@ -396,6 +441,36 @@
               <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5193a7b7f&appId=PPGMS]]></physUrl>
             </webLink>
           </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1392766</rcn>
+        <id>101217685_PSHORIZON</id>
+        <title>Periodic Reporting for period 1 - LIFESCIENCE4EU (CONFERENCE ON RESEARCH AND INNOVATION IN LEVERAGING TECHNOLOGY TO STRENGTHEN THE EU COMPETITIVENESS IN LIFE SCIENCES)</title>
+        <teaser>The “LifeScience4EU” project takes shape as a flagship conference organised under the Polish Presidency of the Council of the European Union (15–16 May 2025, Kraków), set against a backdrop of growing healthcare challenges, rapid technological transformation, and the...</teaser>
+        <description>periodic</description>
+        <sourceUpdateDate>2025-11-18 15:19:37</sourceUpdateDate>
+        <contentUpdateDate>2025-11-18 15:19:37</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/pubsum</code>
+              <title>Report Summary</title>
+              <description>Result: Publishable summary (FP7 SESAM) and Summary for publication (H2020 SyGMa)</description>
+              <displayCode readOnly="true">/Report Summary</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
         </relations>
       </result>
     </associations>

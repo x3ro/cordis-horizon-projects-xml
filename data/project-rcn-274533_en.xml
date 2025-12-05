@@ -17,14 +17,48 @@
   <duration>48</duration>
   <status>SIGNED</status>
   <validation>
-    <euroSciVoc>false</euroSciVoc>
+    <euroSciVoc>true</euroSciVoc>
   </validation>
   <sourceUpdateDate>2025-07-09 12:28:30</sourceUpdateDate>
   <contentCreationDate readOnly="true">2025-07-14 10:31:05</contentCreationDate>
-  <contentUpdateDate>2025-07-14 10:30:58</contentUpdateDate>
-  <lastUpdateDate readOnly="true">2025-09-19 14:49:08</lastUpdateDate>
+  <contentUpdateDate>2025-07-09 12:28:30</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-11-26 14:42:34</lastUpdateDate>
   <relations>
     <associations>
+      <article source="editorial" type="relatedArticle">
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <rcn>460273</rcn>
+        <id>460273-training-for-personalised-micronutrient-deficiency-treatment</id>
+        <title>Training for personalised micronutrient deficiency treatment</title>
+        <contentUpdateDate>2025-11-26 14:42:30</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="applicationDomain" type="isApplicableIn">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/agri</code>
+              <title>Food and Natural Resources</title>
+              <displayCode readOnly="true">/Food and Natural Resources</displayCode>
+            </category>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/projectDescription</code>
+              <title>Project description</title>
+              <description>Article: description of linked project written by editorial team</description>
+              <displayCode readOnly="true">/Project description</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/editorial</code>
+              <title>CORDIS Editorial</title>
+              <description>Written by CORDIS</description>
+              <displayCode readOnly="true">/CORDIS Editorial</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </article>
       <call source="corda" type="relatedMasterCall">
         <rcn>56115</rcn>
         <title>HORIZON-MSCA-2024-DN-01</title>
@@ -74,7 +108,7 @@
           </regions>
         </relations>
       </organization>
-      <organization source="corda" order="3" ecContribution="290272.32" terminated="false" sme="false" netEcContribution="290272.32" totalCost="0" type="participant">
+      <organization ecContribution="290272.32" terminated="false" sme="false" netEcContribution="290272.32" totalCost="0" source="corda" order="3" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1906549</rcn>
         <id>997297353</id>
@@ -179,7 +213,7 @@
           </regions>
         </relations>
       </organization>
-      <organization ecContribution="305285.76" terminated="false" sme="false" netEcContribution="305285.76" totalCost="0" source="corda" order="5" type="participant">
+      <organization source="corda" order="5" ecContribution="305285.76" terminated="false" sme="false" netEcContribution="305285.76" totalCost="0" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1993371</rcn>
         <id>872148632</id>
@@ -218,7 +252,7 @@
           </regions>
         </relations>
       </organization>
-      <organization source="corda" order="14" terminated="false" sme="false" netEcContribution="0" totalCost="0" type="associatedPartner">
+      <organization sme="false" source="corda" order="14" terminated="false" totalCost="0" netEcContribution="0" type="associatedPartner">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1908936</rcn>
         <id>999854855</id>
@@ -875,16 +909,30 @@
       <category classification="euroSciVoc" type="isInFieldOfScience">
         <language>en</language>
         <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
-        <code>/29/101/553/1353</code>
-        <title>mortality</title>
-        <displayCode readOnly="true">/social sciences/sociology/demography/mortality</displayCode>
+        <code>/23/53/361</code>
+        <title>analytical chemistry</title>
+        <displayCode readOnly="true">/natural sciences/chemical sciences/analytical chemistry</displayCode>
       </category>
       <category classification="euroSciVoc" type="isInFieldOfScience">
         <language>en</language>
         <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
-        <code>/21/39/227</code>
-        <title>physiotherapy</title>
-        <displayCode readOnly="true">/medical and health sciences/clinical medicine/physiotherapy</displayCode>
+        <code>/21/39/181</code>
+        <title>critical care medicine</title>
+        <displayCode readOnly="true">/medical and health sciences/clinical medicine/critical care medicine</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/21/33/117</code>
+        <title>nutrition</title>
+        <displayCode readOnly="true">/medical and health sciences/health sciences/nutrition</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/21/33/5029300</code>
+        <title>personalized medicine</title>
+        <displayCode readOnly="true">/medical and health sciences/health sciences/personalized medicine</displayCode>
       </category>
       <category weight="40" classification="policyPriorities" type="marker">
         <language>en</language>

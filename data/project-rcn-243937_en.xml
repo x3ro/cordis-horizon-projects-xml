@@ -22,10 +22,10 @@
   <validation>
     <euroSciVoc>false</euroSciVoc>
   </validation>
-  <sourceUpdateDate>2025-08-11 11:28:36</sourceUpdateDate>
+  <sourceUpdateDate>2025-10-20 17:38:03</sourceUpdateDate>
   <contentCreationDate readOnly="true">2023-01-17 17:56:54</contentCreationDate>
-  <contentUpdateDate>2025-09-16 12:48:05</contentUpdateDate>
-  <lastUpdateDate readOnly="true">2025-09-19 14:49:03</lastUpdateDate>
+  <contentUpdateDate>2025-11-11 15:16:47</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-11-11 15:16:56</lastUpdateDate>
   <relations>
     <associations>
       <article source="editorial" type="relatedArticle">
@@ -117,7 +117,7 @@
         <title>HORIZON-EUROHPC-JU-2021-COE-01</title>
         <identifier>HORIZON-EUROHPC-JU-2021-COE-01</identifier>
       </call>
-      <organization order="7" ecContribution="371704" terminated="false" sme="false" netEcContribution="371704" totalCost="743408.75" source="corda" type="participant">
+      <organization ecContribution="371704" terminated="false" sme="false" netEcContribution="371704" totalCost="743408.75" source="corda" order="7" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1905568</rcn>
         <id>999994535</id>
@@ -160,7 +160,7 @@
           </regions>
         </relations>
       </organization>
-      <organization source="corda" order="1" ecContribution="790875" terminated="false" sme="false" netEcContribution="790875" totalCost="1581750" type="coordinator">
+      <organization netEcContribution="790875" totalCost="1581750" source="corda" order="1" ecContribution="790875" terminated="false" sme="false" type="coordinator">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1906237</rcn>
         <id>999990946</id>
@@ -299,7 +299,7 @@
         <address>
           <street>N PLASTIRA STR 100</street>
           <city>IRAKLEIO</city>
-          <postalCode>70 013</postalCode>
+          <postalCode>700 13</postalCode>
           <country>EL</country>
           <postBox>1385</postBox>
           <url>http://www.forth.gr</url>
@@ -416,7 +416,7 @@
           </regions>
         </relations>
       </organization>
-      <organization source="corda" order="3" ecContribution="134750" terminated="false" totalCost="269500" netEcContribution="134750" sme="false" type="participant">
+      <organization source="corda" order="3" ecContribution="134750" terminated="false" sme="false" netEcContribution="134750" totalCost="269500" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>2116690</rcn>
         <id>998809001</id>
@@ -544,7 +544,7 @@
           </regions>
         </relations>
       </organization>
-      <organization source="corda" ecContribution="472875" terminated="false" sme="false" netEcContribution="472875" totalCost="945750" order="9" type="participant">
+      <organization totalCost="945750" source="corda" order="9" ecContribution="472875" terminated="false" sme="false" netEcContribution="472875" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1909706</rcn>
         <id>999470541</id>
@@ -609,7 +609,7 @@
           </regions>
         </relations>
       </organization>
-      <organization totalCost="505500" source="corda" order="8" ecContribution="250250" terminated="false" sme="false" netEcContribution="250250" type="participant">
+      <organization source="corda" order="8" ecContribution="250250" terminated="false" sme="false" netEcContribution="250250" totalCost="505500" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1905736</rcn>
         <id>999923240</id>
@@ -738,7 +738,7 @@
           </regions>
         </relations>
       </organization>
-      <programme uniqueProgrammePart="true" source="corda" type="relatedLegalBasis">
+      <programme source="corda" uniqueProgrammePart="true" type="relatedLegalBasis">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>705756</rcn>
         <id>HORIZON.2.4</id>
@@ -961,6 +961,51 @@
               <displayCode readOnly="true">/CORDA</displayCode>
             </category>
           </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1387008</rcn>
+        <id>101093261_13_DELIVHORIZON</id>
+        <title>Updated assessment of developments and revision of scientific challenge - Predicting Near-Earth Space Dynamics with Vlasiator</title>
+        <description>Report on updated performance results and scientific challenges for the Vlasiator code.</description>
+        <sourceUpdateDate>2025-11-07 07:45:43</sourceUpdateDate>
+        <contentUpdateDate>2025-11-10 18:15:56</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode readOnly="true">/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>91adae76466e46ae1885c925eb2adf98</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e51e65ad4e&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
         </relations>
       </result>
       <result source="corda" type="relatedResult">
@@ -1191,6 +1236,51 @@
       </result>
       <result source="corda" type="relatedResult">
         <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1387015</rcn>
+        <id>101093261_9_DELIVHORIZON</id>
+        <title>First Release – Plasma Simulation Codes and Documentation</title>
+        <description>Code and documentation for the plasma simulation codes</description>
+        <sourceUpdateDate>2025-11-07 07:45:43</sourceUpdateDate>
+        <contentUpdateDate>2025-11-10 18:15:57</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/O</code>
+              <title>Other</title>
+              <displayCode readOnly="true">/Other</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>3bd9265d26c33bf4ac88a450914c1135</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e51691ab5b&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1356251</rcn>
         <id>101093261_218248_PUBLIHORIZON</id>
         <title>Physics-motivated cell-octree adaptive mesh refinement in the Vlasiator 5.3 global hybrid-Vlasov code</title>
@@ -1415,6 +1505,51 @@
               <displayCode readOnly="true">/CORDA</displayCode>
             </category>
           </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1387007</rcn>
+        <id>101093261_32_DELIVHORIZON</id>
+        <title>Report on algorithmic changes and memory optimisation for heterogeneous systems in Plasma-PEPSC codes</title>
+        <description>Report on porting and optimisation of Plasma-PEPSC codes to accelerated and heterogeneous systems</description>
+        <sourceUpdateDate>2025-11-07 07:45:43</sourceUpdateDate>
+        <contentUpdateDate>2025-11-10 18:15:56</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode readOnly="true">/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>40b8d3931c9aa317e9b3e0392ada5d52</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e51691c0b2&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
         </relations>
       </result>
       <result source="corda" type="relatedResult">
@@ -2059,6 +2194,51 @@
       </result>
       <result source="corda" type="relatedResult">
         <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1387016</rcn>
+        <id>101093261_29_DELIVHORIZON</id>
+        <title>Report on improving parallel I/O, and enabling in-situ and compression algorithms in Plasma-PEPSC codes</title>
+        <description>Report on adapting and optimising code for parallel I/O, load balance and resilience in the plasma codes</description>
+        <sourceUpdateDate>2025-11-07 07:45:43</sourceUpdateDate>
+        <contentUpdateDate>2025-11-10 18:15:58</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode readOnly="true">/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>fc540eba43673834de8c39fd8af35617</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e51691b922&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1356260</rcn>
         <id>101093261_218246_PUBLIHORIZON</id>
         <title>A Parallel and Highly-Portable HPC Poisson Solver: Preconditioned Bi-CGSTAB with alpaka</title>
@@ -2289,6 +2469,51 @@
       </result>
       <result source="corda" type="relatedResult">
         <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1387002</rcn>
+        <id>101093261_11_DELIVHORIZON</id>
+        <title>Updated assessment of developments and revision of scientific challenge - Optimising Magnetically Confined Plasmas with GENE</title>
+        <description>Report on updated performance results and scientific challenges for the GENE code.</description>
+        <sourceUpdateDate>2025-11-07 07:45:43</sourceUpdateDate>
+        <contentUpdateDate>2025-11-10 18:15:56</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode readOnly="true">/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>795decbf10a18cbcae453a4d721f5f17</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e51e70d102&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1356263</rcn>
         <id>101093261_218253_PUBLIHORIZON</id>
         <title>Beyond the Buzz: Strategic Paths for Enabling Useful NISQ Applications</title>
@@ -2469,6 +2694,51 @@
       </result>
       <result source="corda" type="relatedResult">
         <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1387003</rcn>
+        <id>101093261_12_DELIVHORIZON</id>
+        <title>Updated assessment of developments and revision of scientific challenge - Enabling Next-Generation Plasma Accelerators for Real World Applications with PIConGPU</title>
+        <description>Report on updated performance results and scientific challenges for the PIConGPU code.</description>
+        <sourceUpdateDate>2025-11-07 07:45:43</sourceUpdateDate>
+        <contentUpdateDate>2025-11-10 18:15:56</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode readOnly="true">/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>7c9abd6e4a4263c8ee78523655633a7d</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e51e62b10a&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1356233</rcn>
         <id>101093261_218256_PUBLIHORIZON</id>
         <title>Porting the grid-based 3D+3V hybrid-Vlasov kinetic plasma simulation Vlasiator to heterogeneous GPU architectures</title>
@@ -2603,6 +2873,51 @@
               <displayCode readOnly="true">/CORDA</displayCode>
             </category>
           </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1387012</rcn>
+        <id>101093261_36_DELIVHORIZON</id>
+        <title>Updated report on dissemination, community building, collaborations, training, and exploitation plans</title>
+        <description>Report on Plasma-PEPSC achievements in dissemination, community building, collaborations, training, and exploitation. This report also includes an updated collaboration plan.</description>
+        <sourceUpdateDate>2025-11-07 07:45:43</sourceUpdateDate>
+        <contentUpdateDate>2025-11-10 18:15:57</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode readOnly="true">/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>75ff6393a316ff59fa1a0e945ab718c9</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5169471d3&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
         </relations>
       </result>
       <result source="corda" type="relatedResult">
@@ -2746,6 +3061,51 @@
       </result>
       <result source="corda" type="relatedResult">
         <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1387011</rcn>
+        <id>101093261_10_DELIVHORIZON</id>
+        <title>Updated assessment of developments and revision of scientific challenge - Controlling Plasma-Material Interfaces with BIT</title>
+        <description>Report on updated performance results and scientific challenges for the BIT codes.</description>
+        <sourceUpdateDate>2025-11-07 07:45:43</sourceUpdateDate>
+        <contentUpdateDate>2025-11-10 18:15:57</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode readOnly="true">/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>49b73da68d58d0befaa6fa178b60956e</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e51e629a23&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1356259</rcn>
         <id>101093261_218186_PUBLIHORIZON</id>
         <title>Accelerating Particle-in-Cell Monte Carlo simulations with MPI, OpenMP/OpenACC and Asynchronous Multi-GPU Programming</title>
@@ -2832,6 +3192,96 @@
               <defaultLanguage>en</defaultLanguage>
               <id>157d328624fad34a4ec3537e366fec33</id>
               <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5fdd7ea6e&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1387013</rcn>
+        <id>101093261_40_DELIVHORIZON</id>
+        <title>Updated Data Management Plan</title>
+        <description>Updated data management plan</description>
+        <sourceUpdateDate>2025-11-07 07:45:43</sourceUpdateDate>
+        <contentUpdateDate>2025-11-10 18:15:57</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/DMP</code>
+              <title>Data Management Plan</title>
+              <displayCode readOnly="true">/Data Management Plan</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>199da968b08913b3936a483449736404</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e516946730&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1387010</rcn>
+        <id>101093261_26_DELIVHORIZON</id>
+        <title>Updated report on MPI, load balancing and resilience in plasma codes</title>
+        <description>Updated report on adapting and optimising code using MPI, load balance and resilience in the plasma codes</description>
+        <sourceUpdateDate>2025-11-07 07:45:43</sourceUpdateDate>
+        <contentUpdateDate>2025-11-10 18:15:57</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode readOnly="true">/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>83fabc3a46774083881d7c2fd9c6781b</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e516946317&appId=PPGMS]]></physUrl>
             </webLink>
           </associations>
         </relations>

@@ -26,10 +26,10 @@ Integrating these components will result in a workflow capable of generating a t
   <validation>
     <euroSciVoc>false</euroSciVoc>
   </validation>
-  <sourceUpdateDate>2025-07-08 11:41:50</sourceUpdateDate>
+  <sourceUpdateDate>2025-10-20 17:38:03</sourceUpdateDate>
   <contentCreationDate readOnly="true">2024-11-01 18:00:24</contentCreationDate>
-  <contentUpdateDate>2025-07-18 15:29:08</contentUpdateDate>
-  <lastUpdateDate readOnly="true">2025-09-19 14:49:01</lastUpdateDate>
+  <contentUpdateDate>2025-11-26 10:41:02</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-11-26 10:41:15</lastUpdateDate>
   <relations>
     <associations>
       <article source="editorial" type="relatedArticle">
@@ -123,7 +123,7 @@ Integrating these components will result in a workflow capable of generating a t
         <legalName>AEROVISION BV</legalName>
         <address>
           <street>STADSRING 47</street>
-          <city>Amersfoort</city>
+          <city>AMERSFOORT</city>
           <postalCode>3811 HN</postalCode>
           <country>NL</country>
           <geolocation>52.1554701,5.3832178</geolocation>
@@ -179,11 +179,32 @@ Integrating these components will result in a workflow capable of generating a t
           </categories>
           <regions>
             <region type="relatedNutsCode">
-              <name>Serbia</name>
-              <rcn>460491304</rcn>
-              <nutsCode>RS</nutsCode>
-              <euCode>RS</euCode>
-              <isoCode>RS</isoCode>
+              <name>Севернобанатска област</name>
+              <rcn>1465079</rcn>
+              <nutsCode>RS124</nutsCode>
+              <parents>
+                <region>
+                  <name>Регион Војводине</name>
+                  <rcn>1465077</rcn>
+                  <nutsCode>RS12</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Србија - север </name>
+                      <rcn>1465075</rcn>
+                      <nutsCode>RS1</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Serbia</name>
+                          <rcn>460491304</rcn>
+                          <nutsCode>RS</nutsCode>
+                          <euCode>RS</euCode>
+                          <isoCode>RS</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
             </region>
             <region type="relatedRegion">
               <name>Serbia</name>
@@ -302,7 +323,7 @@ Integrating these components will result in a workflow capable of generating a t
           </regions>
         </relations>
       </organization>
-      <organization source="corda" order="4" ecContribution="197422.25" terminated="false" sme="true" netEcContribution="197422.25" totalCost="0" type="participant">
+      <organization ecContribution="197422.25" terminated="false" sme="true" netEcContribution="197422.25" totalCost="0" source="corda" order="4" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>2148416</rcn>
         <id>996395738</id>
@@ -311,7 +332,7 @@ Integrating these components will result in a workflow capable of generating a t
         <shortName>IFEN GMBH</shortName>
         <address>
           <street>ALTE GRUBER STRASSE 6</street>
-          <city>Poing</city>
+          <city>POING</city>
           <postalCode>85586</postalCode>
           <country>DE</country>
           <url>https://www.ifen.com</url>
@@ -413,7 +434,7 @@ Integrating these components will result in a workflow capable of generating a t
           </categories>
         </relations>
       </programme>
-      <programme source="corda" uniqueProgrammePart="true" type="relatedLegalBasis">
+      <programme uniqueProgrammePart="true" source="corda" type="relatedLegalBasis">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>705756</rcn>
         <id>HORIZON.2.4</id>

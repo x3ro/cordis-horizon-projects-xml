@@ -23,10 +23,10 @@ The project will be driven by the needs of potential stakeholders such as resear
   <validation>
     <euroSciVoc>false</euroSciVoc>
   </validation>
-  <sourceUpdateDate>2024-12-31 09:30:22</sourceUpdateDate>
+  <sourceUpdateDate>2025-10-20 17:38:03</sourceUpdateDate>
   <contentCreationDate readOnly="true">2024-10-25 14:03:31</contentCreationDate>
-  <contentUpdateDate>2025-09-01 23:31:02</contentUpdateDate>
-  <lastUpdateDate readOnly="true">2025-09-19 14:49:03</lastUpdateDate>
+  <contentUpdateDate>2025-11-26 10:41:45</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-11-26 10:41:47</lastUpdateDate>
   <relations>
     <associations>
       <article source="editorial" type="relatedArticle">
@@ -73,13 +73,13 @@ The project will be driven by the needs of potential stakeholders such as resear
         <title>HORIZON-CL6-2024-BIODIV-01</title>
         <identifier>HORIZON-CL6-2024-BIODIV-01</identifier>
       </call>
-      <organization ecContribution="583375" terminated="false" sme="false" netEcContribution="583375" totalCost="583375" source="corda" order="5" type="participant">
+      <organization source="corda" order="5" ecContribution="583375" terminated="false" sme="false" netEcContribution="583375" totalCost="583375" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1990174</rcn>
         <id>893397258</id>
         <vatNumber>ATU75828357</vatNumber>
         <legalName>SYRION INSTITUT ZUR FORDERUNG SYSTEMISCHER FORSCHUNG UND INNOVATION</legalName>
-        <shortName>INSTITUTE FOR SYSTEMIC RESEARCH AND INNOVATION</shortName>
+        <shortName>SYRION</shortName>
         <address>
           <street>HERRENGASSE 3</street>
           <city>Graz</city>
@@ -208,7 +208,7 @@ The project will be driven by the needs of potential stakeholders such as resear
         <shortName>UNIVERSITY OF DURHAM</shortName>
         <address>
           <street>STOCKTON ROAD THE PALATINE CENTRE</street>
-          <city>Durham</city>
+          <city>DURHAM</city>
           <postalCode>DH1 3LE</postalCode>
           <country>UK</country>
           <postBox>000</postBox>
@@ -264,7 +264,7 @@ The project will be driven by the needs of potential stakeholders such as resear
           </regions>
         </relations>
       </organization>
-      <organization order="3" ecContribution="1720000" terminated="false" sme="false" netEcContribution="1720000" totalCost="1720000" source="corda" type="participant">
+      <organization source="corda" order="3" ecContribution="1720000" terminated="false" sme="false" netEcContribution="1720000" totalCost="1720000" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1905620</rcn>
         <id>999986290</id>
@@ -337,7 +337,7 @@ The project will be driven by the needs of potential stakeholders such as resear
         <shortName>SSSA</shortName>
         <address>
           <street>PIAZZA MARTIRI DELLA LIBERTA 33</street>
-          <city>Pisa</city>
+          <city>PISA</city>
           <postalCode>56127</postalCode>
           <country>IT</country>
           <postBox>000</postBox>
@@ -402,7 +402,7 @@ The project will be driven by the needs of potential stakeholders such as resear
         <shortName>UNI GRAZ</shortName>
         <address>
           <street>UNIVERSITATSPLATZ 3</street>
-          <city>Graz</city>
+          <city>GRAZ</city>
           <postalCode>8010</postalCode>
           <country>AT</country>
           <postBox>000</postBox>
@@ -458,7 +458,7 @@ The project will be driven by the needs of potential stakeholders such as resear
           </regions>
         </relations>
       </organization>
-      <organization source="corda" order="7" ecContribution="281662.5" terminated="false" sme="true" netEcContribution="281662.5" totalCost="402375" type="participant">
+      <organization totalCost="402375" sme="true" source="corda" order="7" ecContribution="281662.5" terminated="false" netEcContribution="281662.5" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1990175</rcn>
         <id>878692737</id>
@@ -467,7 +467,7 @@ The project will be driven by the needs of potential stakeholders such as resear
         <shortName>Carbon Kapture  Ltd</shortName>
         <address>
           <street>JOLLIFFE HOUSE 32 WEST STREET</street>
-          <city>POOLE</city>
+          <city>Poole</city>
           <postalCode>BH15 1LD</postalCode>
           <country>UK</country>
           <geolocation>50.714417600000004,-1.9896890581145295</geolocation>
@@ -484,11 +484,32 @@ The project will be driven by the needs of potential stakeholders such as resear
           </categories>
           <regions>
             <region type="relatedNutsCode">
-              <name>United Kingdom</name>
-              <rcn>508725800</rcn>
-              <nutsCode>UK</nutsCode>
-              <euCode>UK</euCode>
-              <isoCode>GB</isoCode>
+              <name>Bournemouth</name>
+              <rcn>1464795</rcn>
+              <nutsCode>UKK24</nutsCode>
+              <parents>
+                <region>
+                  <name>Dorset and Somerset</name>
+                  <rcn>508641448</rcn>
+                  <nutsCode>UKK2</nutsCode>
+                  <parents>
+                    <region>
+                      <name>South West (England)</name>
+                      <rcn>508643880</rcn>
+                      <nutsCode>UKK</nutsCode>
+                      <parents>
+                        <region>
+                          <name>United Kingdom</name>
+                          <rcn>508725800</rcn>
+                          <nutsCode>UK</nutsCode>
+                          <euCode>UK</euCode>
+                          <isoCode>GB</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
             </region>
             <region type="relatedRegion">
               <name>United Kingdom</name>
@@ -671,9 +692,16 @@ The project will be driven by the needs of potential stakeholders such as resear
       <category classification="euroSciVoc" type="isInFieldOfScience">
         <language>en</language>
         <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
-        <code>/23/49/335/1009</code>
-        <title>ecosystems</title>
-        <displayCode readOnly="true">/natural sciences/biological sciences/ecology/ecosystems</displayCode>
+        <code>/23/49/335</code>
+        <title>ecology</title>
+        <displayCode readOnly="true">/natural sciences/biological sciences/ecology</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/25/73/453/58525161</code>
+        <title>sensors</title>
+        <displayCode readOnly="true">/engineering and technology/electrical engineering, electronic engineering, information engineering/electronic engineering/sensors</displayCode>
       </category>
       <category weight="40" classification="policyPriorities" type="marker">
         <language>en</language>

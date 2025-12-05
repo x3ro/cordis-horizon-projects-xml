@@ -22,10 +22,10 @@
   <validation>
     <euroSciVoc>false</euroSciVoc>
   </validation>
-  <sourceUpdateDate>2025-08-11 11:28:36</sourceUpdateDate>
+  <sourceUpdateDate>2025-10-20 17:38:03</sourceUpdateDate>
   <contentCreationDate readOnly="true">2022-08-17 18:34:17</contentCreationDate>
-  <contentUpdateDate>2025-08-11 18:06:05</contentUpdateDate>
-  <lastUpdateDate readOnly="true">2025-09-19 14:48:57</lastUpdateDate>
+  <contentUpdateDate>2025-11-03 16:24:02</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-11-24 13:04:48</lastUpdateDate>
   <relations>
     <associations>
       <call source="corda" type="relatedMasterCall">
@@ -38,7 +38,7 @@
         <title>ERC-2021-STG</title>
         <identifier>ERC-2021-STG</identifier>
       </call>
-      <organization order="2" ecContribution="72500" terminated="false" sme="false" netEcContribution="72500" source="corda" totalCost="72500" type="participant">
+      <organization source="corda" order="2" ecContribution="72500" terminated="false" sme="false" netEcContribution="72500" totalCost="72500" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1908305</rcn>
         <id>998156579</id>
@@ -47,7 +47,7 @@
         <shortName>BCAM</shortName>
         <address>
           <street>AL MAZARREDO 14</street>
-          <city>Bilbao</city>
+          <city>BILBAO</city>
           <postalCode>48009</postalCode>
           <country>ES</country>
           <url>http://www.bcamath.org</url>
@@ -447,6 +447,51 @@
               <displayCode readOnly="true">/CORDA</displayCode>
             </category>
           </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1393035</rcn>
+        <id>101040991_1_DELIVHORIZON</id>
+        <title>Data Management Plan</title>
+        <description>The research of this project is purely mathematical, no data is collected or processed, and no simulations or numerical computations are involved either. All results consist of mathematical theorems and proofs, which will be directly published in journals as well as on arxiv. Thus no particular data management should be necessary.</description>
+        <sourceUpdateDate>2025-11-18 15:19:37</sourceUpdateDate>
+        <contentUpdateDate>2025-11-24 13:04:47</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/DMP</code>
+              <title>Data Management Plan</title>
+              <displayCode readOnly="true">/Data Management Plan</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>270abe224d0cf8ac97b5e4e1f02f6695</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e525015007&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
         </relations>
       </result>
       <result source="corda" type="relatedResult">

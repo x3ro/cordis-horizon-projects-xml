@@ -26,7 +26,7 @@ This project aims at providing the first complete census of the multiple ways th
   <sourceUpdateDate>2025-01-06 07:51:56</sourceUpdateDate>
   <contentCreationDate readOnly="true">2024-04-24 10:18:50</contentCreationDate>
   <contentUpdateDate>2024-09-06 18:23:43</contentUpdateDate>
-  <lastUpdateDate readOnly="true">2025-09-19 14:49:02</lastUpdateDate>
+  <lastUpdateDate readOnly="true">2025-11-24 12:57:07</lastUpdateDate>
   <relations>
     <associations>
       <article source="editorial" type="relatedArticle">
@@ -206,6 +206,51 @@ This project aims at providing the first complete census of the multiple ways th
           </categories>
         </relations>
       </programme>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1393390</rcn>
+        <id>101125877_1_DELIVHORIZON</id>
+        <title>Data Management Plan</title>
+        <description>Data Management Plan.</description>
+        <sourceUpdateDate>2025-11-18 15:19:37</sourceUpdateDate>
+        <contentUpdateDate>2025-11-24 12:57:06</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/DMP</code>
+              <title>Data Management Plan</title>
+              <displayCode readOnly="true">/Data Management Plan</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>930b88066df5ed0089b33c6d3ca32b1c</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e524b13d9c&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
     </associations>
     <categories>
       <category classification="collection" type="belongsTo">

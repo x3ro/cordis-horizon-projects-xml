@@ -25,10 +25,10 @@ The EXAELIA consortium consists of the major European research centres and acade
   <validation>
     <euroSciVoc>true</euroSciVoc>
   </validation>
-  <sourceUpdateDate>2025-10-13 08:58:02</sourceUpdateDate>
+  <sourceUpdateDate>2025-10-20 17:38:03</sourceUpdateDate>
   <contentCreationDate readOnly="true">2024-12-17 11:14:18</contentCreationDate>
-  <contentUpdateDate>2025-10-21 10:42:16</contentUpdateDate>
-  <lastUpdateDate readOnly="true">2025-10-21 10:42:55</lastUpdateDate>
+  <contentUpdateDate>2025-11-26 10:52:46</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-11-26 10:53:11</lastUpdateDate>
   <relations>
     <associations>
       <article source="editorial" type="relatedArticle">
@@ -314,11 +314,11 @@ The EXAELIA consortium consists of the major European research centres and acade
         <id>999892491</id>
         <vatNumber>FR96130004278</vatNumber>
         <legalName><![CDATA[INSTITUT SUPERIEUR DE L'AERONAUTIQUE ET DE L'ESPACE]]></legalName>
-        <shortName>ISAE-Supaero</shortName>
+        <shortName>ISAE-SUPAERO</shortName>
         <address>
-          <street>AVENUE EDOUARD BELIN  10</street>
-          <city>Toulouse</city>
-          <postalCode>31055</postalCode>
+          <street>10 AVENUE MARC PELEGRIN</street>
+          <city>TOULOUSE</city>
+          <postalCode>31400</postalCode>
           <country>FR</country>
           <postBox>54032</postBox>
           <url>http://www.isae.fr</url>
@@ -501,7 +501,7 @@ The EXAELIA consortium consists of the major European research centres and acade
           </regions>
         </relations>
       </organization>
-      <organization source="corda" order="2" ecContribution="1434747.25" terminated="false" sme="false" netEcContribution="1434747.25" totalCost="1434747.25" type="participant">
+      <organization source="corda" ecContribution="1434747.25" terminated="false" sme="false" order="2" netEcContribution="1434747.25" totalCost="1434747.25" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1905624</rcn>
         <id>999994438</id>
@@ -759,7 +759,7 @@ The EXAELIA consortium consists of the major European research centres and acade
           </regions>
         </relations>
       </organization>
-      <organization source="corda" order="5" ecContribution="1250725" terminated="false" sme="false" netEcContribution="1250725" totalCost="1250725" type="participant">
+      <organization source="corda" order="5" ecContribution="1250725" terminated="false" netEcContribution="1250725" totalCost="1250725" sme="false" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1968943</rcn>
         <id>892488077</id>
@@ -1078,7 +1078,7 @@ The EXAELIA consortium consists of the major European research centres and acade
           </regions>
         </relations>
       </organization>
-      <organization source="corda" order="6" ecContribution="316440" terminated="false" sme="false" netEcContribution="316440" totalCost="316440" type="participant">
+      <organization netEcContribution="316440" totalCost="316440" source="corda" order="6" ecContribution="316440" terminated="false" sme="false" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1909989</rcn>
         <id>999583546</id>
@@ -1726,6 +1726,51 @@ The EXAELIA consortium consists of the major European research centres and acade
           </categories>
         </relations>
       </programme>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1390447</rcn>
+        <id>101191922_2_DELIVHORIZON</id>
+        <title><![CDATA[Plan for communication &dissemination]]></title>
+        <description>Plan formed of a communication / dissemination strategy, incl. KPIs</description>
+        <sourceUpdateDate>2025-11-10 13:03:02</sourceUpdateDate>
+        <contentUpdateDate>2025-11-18 08:14:42</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode readOnly="true">/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>e541458614cc698583178d1d1de1e8c4</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e51ef771d4&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
     </associations>
     <categories>
       <category classification="collection" type="belongsTo">

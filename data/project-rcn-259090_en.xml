@@ -22,10 +22,10 @@
   <validation>
     <euroSciVoc>false</euroSciVoc>
   </validation>
-  <sourceUpdateDate>2025-04-09 02:16:47</sourceUpdateDate>
+  <sourceUpdateDate>2025-10-20 17:38:03</sourceUpdateDate>
   <contentCreationDate readOnly="true">2024-01-08 20:32:53</contentCreationDate>
-  <contentUpdateDate>2025-06-10 18:30:09</contentUpdateDate>
-  <lastUpdateDate readOnly="true">2025-09-19 14:48:40</lastUpdateDate>
+  <contentUpdateDate>2025-10-20 17:38:03</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-11-25 14:31:15</lastUpdateDate>
   <relations>
     <associations>
       <article source="editorial" type="relatedArticle">
@@ -417,14 +417,14 @@
           </regions>
         </relations>
       </organization>
-      <organization netEcContribution="231500" totalCost="0" source="corda" order="10" ecContribution="0" terminated="false" sme="true" type="thirdParty">
+      <organization source="corda" order="10" ecContribution="0" terminated="false" sme="true" netEcContribution="231500" totalCost="0" type="thirdParty">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1974887</rcn>
         <id>888102416</id>
         <legalName>PRESTE LIMITED LIABILITY COMPANY</legalName>
         <address>
           <street>KHOKHLOVYKH STREET BUILDING 8</street>
-          <city>Kyiv</city>
+          <city>KYIV</city>
           <postalCode>04119</postalCode>
           <country>UA</country>
           <geolocation>50.4500336,30.5241361</geolocation>
@@ -784,32 +784,11 @@
           </categories>
           <regions>
             <region type="relatedNutsCode">
-              <name>Dublin</name>
-              <rcn>1465443</rcn>
-              <nutsCode>IE061</nutsCode>
-              <parents>
-                <region>
-                  <name>Eastern and Midland</name>
-                  <rcn>1464994</rcn>
-                  <nutsCode>IE06</nutsCode>
-                  <parents>
-                    <region>
-                      <name>Ireland</name>
-                      <rcn>305662504</rcn>
-                      <nutsCode>IE0</nutsCode>
-                      <parents>
-                        <region>
-                          <name>Ireland</name>
-                          <rcn>305826344</rcn>
-                          <nutsCode>IE</nutsCode>
-                          <euCode>IE</euCode>
-                          <isoCode>IE</isoCode>
-                        </region>
-                      </parents>
-                    </region>
-                  </parents>
-                </region>
-              </parents>
+              <name>Ireland</name>
+              <rcn>305826344</rcn>
+              <nutsCode>IE</nutsCode>
+              <euCode>IE</euCode>
+              <isoCode>IE</isoCode>
             </region>
             <region type="relatedRegion">
               <name>Ireland</name>
@@ -821,7 +800,7 @@
           </regions>
         </relations>
       </organization>
-      <organization ecContribution="665000" terminated="false" source="corda" order="1" sme="false" netEcContribution="665000" totalCost="665000" type="coordinator">
+      <organization source="corda" order="1" ecContribution="665000" terminated="false" sme="false" netEcContribution="665000" totalCost="665000" type="coordinator">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>2874051</rcn>
         <id>916274126</id>
@@ -1204,7 +1183,7 @@
           </regions>
         </relations>
       </organization>
-      <organization source="corda" ecContribution="384000" terminated="false" sme="true" netEcContribution="152500" totalCost="384000" order="10" type="participant">
+      <organization source="corda" order="10" ecContribution="384000" terminated="false" sme="true" netEcContribution="152500" totalCost="384000" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1974886</rcn>
         <id>895106883</id>
@@ -1266,7 +1245,7 @@
           </regions>
         </relations>
       </organization>
-      <organization ecContribution="400812.5" terminated="false" sme="true" netEcContribution="400812.5" totalCost="400812.5" source="corda" order="5" type="participant">
+      <organization source="corda" order="5" ecContribution="400812.5" terminated="false" sme="true" netEcContribution="400812.5" totalCost="400812.5" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>3146428</rcn>
         <id>917139172</id>
@@ -1291,11 +1270,32 @@
           </categories>
           <regions>
             <region type="relatedNutsCode">
-              <name>Serbia</name>
-              <rcn>460491304</rcn>
-              <nutsCode>RS</nutsCode>
-              <euCode>RS</euCode>
-              <isoCode>RS</isoCode>
+              <name>Шумадијска област</name>
+              <rcn>1464189</rcn>
+              <nutsCode>RS218</nutsCode>
+              <parents>
+                <region>
+                  <name>Регион Шумадије и Западне Србије</name>
+                  <rcn>1465081</rcn>
+                  <nutsCode>RS21</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Србија - југ </name>
+                      <rcn>1465080</rcn>
+                      <nutsCode>RS2</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Serbia</name>
+                          <rcn>460491304</rcn>
+                          <nutsCode>RS</nutsCode>
+                          <euCode>RS</euCode>
+                          <isoCode>RS</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
             </region>
             <region type="relatedRegion">
               <name>Serbia</name>
@@ -1552,20 +1552,6 @@
         <title>Project</title>
         <description>Project factsheets</description>
         <displayCode readOnly="true">/Project</displayCode>
-      </category>
-      <category classification="euroSciVoc" type="isInFieldOfScience">
-        <language>en</language>
-        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
-        <code>/23/43/269/811/34823946</code>
-        <title>microfluidics</title>
-        <displayCode readOnly="true">/natural sciences/physical sciences/classical mechanics/fluid mechanics/microfluidics</displayCode>
-      </category>
-      <category classification="euroSciVoc" type="isInFieldOfScience">
-        <language>en</language>
-        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
-        <code>/23/47/303</code>
-        <title>databases</title>
-        <displayCode readOnly="true">/natural sciences/computer and information sciences/databases</displayCode>
       </category>
       <category classification="euroSciVoc" type="isInFieldOfScience">
         <language>en</language>

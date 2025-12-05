@@ -22,10 +22,10 @@
   <validation>
     <euroSciVoc>false</euroSciVoc>
   </validation>
-  <sourceUpdateDate>2025-07-30 14:50:22</sourceUpdateDate>
+  <sourceUpdateDate>2025-10-20 17:38:03</sourceUpdateDate>
   <contentCreationDate readOnly="true">2024-08-02 14:38:18</contentCreationDate>
-  <contentUpdateDate>2025-08-15 14:05:54</contentUpdateDate>
-  <lastUpdateDate readOnly="true">2025-10-28 10:17:59</lastUpdateDate>
+  <contentUpdateDate>2025-11-25 16:37:43</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-11-25 16:37:51</lastUpdateDate>
   <relations>
     <associations>
       <article source="editorial" type="relatedArticle">
@@ -80,7 +80,7 @@
         <legalName>SCORECHAIN SA</legalName>
         <address>
           <street>12 AVENUE DU ROCK N ROLL</street>
-          <city>Esch Sur Alzette</city>
+          <city>ESCH SUR ALZETTE</city>
           <postalCode>4361</postalCode>
           <country>LU</country>
           <geolocation>49.5004935,5.94784</geolocation>
@@ -197,7 +197,7 @@
           </regions>
         </relations>
       </organization>
-      <organization source="corda" order="7" ecContribution="350000" terminated="false" sme="true" netEcContribution="350000" totalCost="350000" type="participant">
+      <organization order="7" ecContribution="350000" terminated="false" sme="true" netEcContribution="350000" totalCost="350000" source="corda" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1963992</rcn>
         <id>898832847</id>
@@ -258,7 +258,7 @@
           </regions>
         </relations>
       </organization>
-      <organization source="corda" order="11" ecContribution="191250" terminated="false" sme="false" netEcContribution="191250" totalCost="191250" type="participant">
+      <organization totalCost="191250" source="corda" order="11" ecContribution="191250" terminated="false" sme="false" netEcContribution="191250" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1988896</rcn>
         <id>879950827</id>
@@ -282,16 +282,19 @@
             </category>
           </categories>
           <regions>
-            <region type="relatedRegion">
+            <region type="relatedNutsCode">
               <name>Portugal</name>
               <rcn>427199016</rcn>
               <nutsCode>PT</nutsCode>
               <euCode>PT</euCode>
               <isoCode>PT</isoCode>
             </region>
-            <region type="relatedNutsCode">
-              <rcn>1471670</rcn>
-              <nutsCode>PT1A0</nutsCode>
+            <region type="relatedRegion">
+              <name>Portugal</name>
+              <rcn>427199016</rcn>
+              <nutsCode>PT</nutsCode>
+              <euCode>PT</euCode>
+              <isoCode>PT</isoCode>
             </region>
           </regions>
         </relations>
@@ -472,7 +475,7 @@
         <shortName>REGIONAL POLICE HEADQUARTERS OF KIELCE</shortName>
         <address>
           <street>SEMINARYJSKA 12</street>
-          <city>KIELCE</city>
+          <city>Kielce</city>
           <postalCode>25-372</postalCode>
           <country>PL</country>
           <geolocation>50.865218999999996,20.63435686351106</geolocation>
@@ -697,7 +700,7 @@
           </regions>
         </relations>
       </organization>
-      <organization order="4" ecContribution="361875" terminated="false" sme="true" netEcContribution="361875" totalCost="361875" source="corda" type="participant">
+      <organization source="corda" order="4" ecContribution="361875" terminated="false" sme="true" netEcContribution="361875" totalCost="361875" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1906013</rcn>
         <id>999827307</id>
@@ -707,7 +710,7 @@
         <address>
           <street>P KANELLOPOULOU 4 ST</street>
           <city>ATHINA</city>
-          <postalCode>10 177</postalCode>
+          <postalCode>101 77</postalCode>
           <country>EL</country>
           <postBox>000</postBox>
           <url>http://www.kemea.gr</url>
@@ -1021,6 +1024,53 @@
               <code>/CONFERENCE_PROCEEDING</code>
               <title>Conference proceedings</title>
               <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1379485</rcn>
+        <id>101168562_245884_PUBLIHORIZON</id>
+        <title>Measuring the impact of post quantum cryptography in Industrial IoT scenarios</title>
+        <details>
+          <authors>Luis Cruz-Piris, Andrés Marín-López, Manuel Álvarez-Campana, Mario Sanz, José Ignacio Moreno, David Arroyo</authors>
+          <journalNumber/>
+          <journalTitle>Internet of Things</journalTitle>
+          <publishedPages/>
+          <publishedYear>2025</publishedYear>
+          <publisher>Elsevier BV</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1016/J.IOT.2025.101793</doi>
+          <issn>2542-6605</issn>
+        </identifiers>
+        <sourceUpdateDate>2025-10-28 03:20:27</sourceUpdateDate>
+        <contentUpdateDate>2025-10-30 11:26:55</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
             </category>
             <category classification="source" type="isProvidedBy">
               <language>en</language>
@@ -1514,6 +1564,53 @@
         </identifiers>
         <sourceUpdateDate>2025-01-13 11:08:17</sourceUpdateDate>
         <contentUpdateDate>2025-01-20 08:12:49</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1379483</rcn>
+        <id>101168562_245883_PUBLIHORIZON</id>
+        <title>A Digital Twin Threat Survey</title>
+        <details>
+          <authors>Manuel Suárez-Román, Mario Sanz-Rodrigo, Andrés Marín-López, David Arroyo</authors>
+          <journalNumber>9</journalNumber>
+          <journalTitle>Big Data and Cognitive Computing</journalTitle>
+          <publishedPages/>
+          <publishedYear>2025</publishedYear>
+          <publisher>MDPI AG</publisher>
+        </details>
+        <identifiers>
+          <doi>10.3390/BDCC9100252</doi>
+          <issn>2504-2289</issn>
+        </identifiers>
+        <sourceUpdateDate>2025-10-28 03:20:27</sourceUpdateDate>
+        <contentUpdateDate>2025-10-30 11:26:54</contentUpdateDate>
         <relations>
           <categories>
             <category classification="collection" type="belongsTo">

@@ -25,7 +25,7 @@
   <sourceUpdateDate>2025-07-30 14:50:22</sourceUpdateDate>
   <contentCreationDate readOnly="true">2022-09-15 10:46:23</contentCreationDate>
   <contentUpdateDate>2025-10-07 14:42:46</contentUpdateDate>
-  <lastUpdateDate readOnly="true">2025-10-16 08:51:26</lastUpdateDate>
+  <lastUpdateDate readOnly="true">2025-11-04 09:48:06</lastUpdateDate>
   <relations>
     <associations>
       <article source="editorial" type="relatedArticle">
@@ -92,6 +92,9 @@
               <nutsCode>ES</nutsCode>
               <euCode>ES</euCode>
               <isoCode>ES</isoCode>
+            </region>
+            <region type="relatedNutsCode">
+              <rcn>1473229</rcn>
             </region>
           </regions>
         </relations>
@@ -470,7 +473,7 @@
         <shortName>EAS</shortName>
         <address>
           <street>SLIJKENSESTEENWEG 4</street>
-          <city>Oostende</city>
+          <city>OOSTENDE</city>
           <postalCode>8400</postalCode>
           <country>BE</country>
           <url>http://www.easonline.org</url>
@@ -1362,7 +1365,7 @@
         <shortName>EUROFISH</shortName>
         <address>
           <street>HC ANDERSENS BOULEVARD 44-46</street>
-          <city>Copenhagen</city>
+          <city>COPENHAGEN</city>
           <postalCode>1553</postalCode>
           <country>DK</country>
           <url>http://www.eurofish.dk/</url>
@@ -1681,6 +1684,51 @@
       </programme>
       <result source="corda" type="relatedResult">
         <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1381706</rcn>
+        <id>101060712_15_DELIVHORIZON</id>
+        <title>Open Data Management Plan - PART 2</title>
+        <description>The DMP identifies open data in the project, how and where these are stored, and which standards are applied.</description>
+        <sourceUpdateDate>2025-10-28 03:20:27</sourceUpdateDate>
+        <contentUpdateDate>2025-10-31 11:13:06</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/DMP</code>
+              <title>Data Management Plan</title>
+              <displayCode readOnly="true">/Data Management Plan</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>ce6ec12e81ca4dae0675316ec09444e7</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e50d367e28&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1343286</rcn>
         <id>101060712_205278_PUBLIHORIZON</id>
         <title>Implementing an IoT System for Sea to Fork Transparency and Consumer Engagement</title>
@@ -1868,6 +1916,51 @@
       </result>
       <result source="corda" type="relatedResult">
         <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1381732</rcn>
+        <id>101060712_30_DELIVHORIZON</id>
+        <title>Microbiological traceability tools using target and non-target metagenomics and initial map of origin defining genetic markers</title>
+        <description>The traceability tools will be performed for selected species using target and non-target approaches and genetic markers. This deliverable covers the reports on:TO4.1: Definition of Standard Operating Procedures (SOPs) for sampling, DNA extraction and processing of samples for NGS based metagenomics (responsible: UNIFI)TO4.1.1: Microbiological traceability tools using target and non-target metagenomics (responsible: UNIFI)TO4.1.2: Initial map of origin defining genetic markers (responsible: UNIPD)It is also related to MS6, MS7 and MS8.</description>
+        <sourceUpdateDate>2025-10-28 03:20:27</sourceUpdateDate>
+        <contentUpdateDate>2025-10-31 11:13:14</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode readOnly="true">/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>33f897eeedf7515b56142e53a1e3485b</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5126ebe58&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1343274</rcn>
         <id>101060712_205282_PUBLIHORIZON</id>
         <title>Enhancing seafood traceability: tracking the origin of seabass and seabream from the tuscan coast area by the analysis of the gill bacterial communities</title>
@@ -1945,18 +2038,18 @@
             <webItem source="corda" type="relatedResultAttachment">
               <language>en</language>
               <availableLanguages readOnly="true">en,any</availableLanguages>
-              <uri>/docs/results/horizon/101060/101060712_PS/fisheutrust-logo-clr.png</uri>
-              <alternativeText>FishEUTrust-logo</alternativeText>
-              <mimetype readOnly="true">image/png</mimetype>
-              <size readOnly="true">88064</size>
-            </webItem>
-            <webItem source="corda" type="relatedResultAttachment">
-              <language>en</language>
-              <availableLanguages readOnly="true">en,any</availableLanguages>
               <uri>/docs/results/horizon/101060/101060712_PS/fisheutrust-infographic.jpg</uri>
               <alternativeText>FishEUTrust-infographic</alternativeText>
               <mimetype readOnly="true">image/jpeg</mimetype>
               <size readOnly="true">1797120</size>
+            </webItem>
+            <webItem source="corda" type="relatedResultAttachment">
+              <language>en</language>
+              <availableLanguages readOnly="true">en,any</availableLanguages>
+              <uri>/docs/results/horizon/101060/101060712_PS/fisheutrust-logo-clr.png</uri>
+              <alternativeText>FishEUTrust-logo</alternativeText>
+              <mimetype readOnly="true">image/png</mimetype>
+              <size readOnly="true">88064</size>
             </webItem>
           </associations>
         </relations>
@@ -2189,6 +2282,96 @@
       </result>
       <result source="corda" type="relatedResult">
         <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1383839</rcn>
+        <id>101060712_35_DELIVHORIZON</id>
+        <title>Data inventory to support the overall sustainability and impact assessment</title>
+        <description>Inventory data collection protocol and data gathering to support the integrated sustainability assessment will be established. It is related to MS12.</description>
+        <sourceUpdateDate>2025-10-28 03:20:27</sourceUpdateDate>
+        <contentUpdateDate>2025-11-04 09:48:00</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode readOnly="true">/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>9d9c6091743f30899a4ec0b72517d00a</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e50d2a3934&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1381711</rcn>
+        <id>101060712_11_DELIVHORIZON</id>
+        <title>Communication, dissemination and exploitation plan - PART 1</title>
+        <description>Comprehensive scientific, public, policymaker and industrial dissemination policy and outreach programme to communicate project results to a broad audience.This deliverable also includes the report on :TO8.3 Detailed list of publications in trade magazines and journal articles, conference proceedings, and summary of events, open days and media releases (responsible: WRG)TO8.4: Draft stakeholders and public outreach programme that will be updated every year (responsible: WRG)</description>
+        <sourceUpdateDate>2025-10-28 03:20:27</sourceUpdateDate>
+        <contentUpdateDate>2025-10-31 11:13:08</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode readOnly="true">/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>8700b9a80f1c8447033209bf40fe5ed3</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e50c073651&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1043151</rcn>
         <id>101060712_16859_PUBLIHORIZON</id>
         <title>3-Thienylboronic Acid as a Receptor for Diol-Containing Compounds: A Study by Isothermal Titration Calorimetry</title>
@@ -2232,6 +2415,51 @@
               <displayCode readOnly="true">/CORDA</displayCode>
             </category>
           </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1381702</rcn>
+        <id>101060712_25_DELIVHORIZON</id>
+        <title>Creating virtual and real consumer experiences to identify assessing consumer’s preferences and perception as the foundation to creating intervention strategies</title>
+        <description>This deliverable covers the reports on:TO2.3.1: Determinants mapping of the consumer and retailor decision-making processes to inform intervention strategy development (responsible: UNIBO)TO2.3.2: Mapping the hedonistic preferences of consumers, retailor and other food chain actors regarding food tastes and textures to inform intervention strategy development (responsible: UNIBO)The deliverable is also related to MS3.</description>
+        <sourceUpdateDate>2025-10-28 03:20:27</sourceUpdateDate>
+        <contentUpdateDate>2025-10-31 11:13:05</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode readOnly="true">/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>2e0170f829e24bf80220e78ceb8ef525</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e52030dd56&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
         </relations>
       </result>
       <result source="corda" type="relatedResult">
@@ -2330,6 +2558,51 @@
       </result>
       <result source="corda" type="relatedResult">
         <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1383829</rcn>
+        <id>101060712_43_DELIVHORIZON</id>
+        <title>Protocol for fish authenticity and origin based on stable isotope approach</title>
+        <description>The protocol involves the SOP for isotope and elemental composition determination in selected fish and shellfish species, structure of database formation and statistical evaluation of results. It is related to MS8.</description>
+        <sourceUpdateDate>2025-10-28 03:20:27</sourceUpdateDate>
+        <contentUpdateDate>2025-11-04 09:47:55</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode readOnly="true">/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>9160906ee928d2c1833414b5e84d44c4</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e50d2a31ee&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1343281</rcn>
         <id>101060712_205284_PUBLIHORIZON</id>
         <title>BMC Biology</title>
@@ -2373,6 +2646,51 @@
               <displayCode readOnly="true">/CORDA</displayCode>
             </category>
           </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1381737</rcn>
+        <id>101060712_5_DELIVHORIZON</id>
+        <title>A validated suite of tools for assessing fish origin, quality (freshness) and safety, including detection of antibiotics, toxins and pathogens</title>
+        <description>Advanced suite of tools for seafood quality, safety and traceability within the supply chain will integrate three different approaches: microbiome, genetic biomarkers and stable isotopes.</description>
+        <sourceUpdateDate>2025-10-28 03:20:27</sourceUpdateDate>
+        <contentUpdateDate>2025-10-31 11:13:16</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode readOnly="true">/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>39ffc779a3e2cd0a1c3761f0b751a8c7</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e51d4ff20d&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
         </relations>
       </result>
       <result source="corda" type="relatedResult">
@@ -2629,13 +2947,6 @@
         <code>/25/73/453/58525161</code>
         <title>sensors</title>
         <displayCode readOnly="true">/engineering and technology/electrical engineering, electronic engineering, information engineering/electronic engineering/sensors</displayCode>
-      </category>
-      <category classification="euroSciVoc" type="isInFieldOfScience">
-        <language>en</language>
-        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
-        <code>/29/91/521/1303</code>
-        <title>sustainable economy</title>
-        <displayCode readOnly="true">/social sciences/economics and business/economics/sustainable economy</displayCode>
       </category>
       <category weight="0" classification="policyPriorities" type="marker">
         <language>en</language>
