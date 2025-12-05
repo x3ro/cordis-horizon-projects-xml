@@ -21,10 +21,10 @@
   <validation>
     <euroSciVoc>false</euroSciVoc>
   </validation>
-  <sourceUpdateDate>2025-10-15 06:19:50</sourceUpdateDate>
+  <sourceUpdateDate>2025-10-20 17:38:03</sourceUpdateDate>
   <contentCreationDate readOnly="true">2024-01-08 20:38:49</contentCreationDate>
-  <contentUpdateDate>2025-10-21 10:15:30</contentUpdateDate>
-  <lastUpdateDate readOnly="true">2025-10-21 10:16:07</lastUpdateDate>
+  <contentUpdateDate>2025-10-20 17:38:03</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-10-28 12:37:31</lastUpdateDate>
   <relations>
     <associations>
       <article source="editorial" type="relatedArticle">
@@ -126,7 +126,7 @@
           </regions>
         </relations>
       </organization>
-      <organization source="corda" order="5" ecContribution="11446625" terminated="false" sme="true" netEcContribution="11446625" totalCost="11446625" type="participant">
+      <organization source="corda" ecContribution="11446625" terminated="false" sme="true" netEcContribution="11446625" order="5" totalCost="11446625" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1972465</rcn>
         <id>892417461</id>
@@ -295,7 +295,7 @@
           </regions>
         </relations>
       </organization>
-      <organization source="corda" order="18" ecContribution="1384500" terminated="false" sme="false" netEcContribution="1384500" totalCost="1384500" type="participant">
+      <organization netEcContribution="1384500" totalCost="1384500" source="corda" order="18" ecContribution="1384500" terminated="false" sme="false" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1906036</rcn>
         <id>999988909</id>
@@ -594,7 +594,7 @@
           </regions>
         </relations>
       </organization>
-      <organization source="corda" order="1" ecContribution="6938499.94" terminated="false" sme="false" netEcContribution="6938499.94" totalCost="6938499.94" type="coordinator">
+      <organization totalCost="6938499.94" netEcContribution="6938499.94" terminated="false" sme="false" source="corda" order="1" ecContribution="6938499.94" type="coordinator">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1991450</rcn>
         <id>878875582</id>
@@ -1064,7 +1064,7 @@
           </regions>
         </relations>
       </organization>
-      <organization source="corda" order="13" ecContribution="2142625" terminated="false" sme="false" netEcContribution="2142625" totalCost="2142625" type="participant">
+      <organization source="corda" ecContribution="2142625" terminated="false" order="13" sme="false" netEcContribution="2142625" totalCost="2142625" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>2429384</rcn>
         <id>998465718</id>
@@ -1515,6 +1515,46 @@
         <title>Project</title>
         <description>Project factsheets</description>
         <displayCode readOnly="true">/Project</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode readOnly="true">/Digital agenda</displayCode>
+      </category>
+      <category weight="40" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode readOnly="true">/Clean air</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode readOnly="true">/Artificial intelligence</displayCode>
+      </category>
+      <category weight="100" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode readOnly="true">/Climate action</displayCode>
+      </category>
+      <category weight="40" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode readOnly="true">/Biodiversity</displayCode>
       </category>
       <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
         <language>en</language>

@@ -8,7 +8,7 @@
   <teaser>Deep neural networks (DNNs) have achieved great breakthroughs in many fields. However, DNNs require massive multiply-accumulate (MAC) operations and their execution on digital hardware causes formidable energy consumption. State-of-the-art solutions are still focusing on...</teaser>
   <objective>Deep neural networks (DNNs) have achieved great breakthroughs in many fields. However, DNNs require massive multiply-accumulate (MAC) operations and their execution on digital hardware causes formidable energy consumption. State-of-the-art solutions are still focusing on simply accelerating MAC operations in DNNs instead of examining their actual logic functions after training. The blind execution of massive MAC operations in inference, however, poses critical risks to performance and energy sustainability of AI systems. It also misses the opportunity of examining internal decision-making processes of DNNs for their verification in reliability-critical systems. To address these challenges, LogiNet explores a new perspective to study the execution of DNNs on hardware with their logic representations and high-level expressions, thus opening a new door for design methodologies to realize high-performance and low-energy DNN computing for a wide range of scenarios from edge devices to data centers. The high-level expressions of DNNs can also be used to analyze the properties of DNNs and thus contribute to the understanding of their actual functions. Specifically, LogiNet extracts logic representations of DNNs by embedding pretrained weights into the circuits of MAC operations to reduce data movement and computational complexity. This also constructs a bridge between MAC operations and their high-level expressions, which can be compiled and executed by CPUs and thus enable a flexible scheduling of DNN operations in modern heterogeneous computing systems. Furthermore, LogiNet explores the analysis of DNN properties such as hardware reliability and fairness in decision-making using high-level expressions. In short, LogiNet not only develops new solutions for green AI to benefit economy and environment but also lays the foundation for new directions such as logic-based DNN validation in the era of large-scale models that have started to influence our society fundamentally.</objective>
   <title>Logic-Driven Efficient Computing and Analysis of Deep Neural Networks on Hardware</title>
-  <keywords>Design methodologies for digital hardware acceleration of neural network inference,  Efficient inference of neural networks on digital hardware,  Digital logic circuits of neural networks</keywords>
+  <keywords>Design methodologies for digital hardware acceleration of neural network inference; Efficient inference of neural networks on digital hardware; Digital logic circuits of neural networks</keywords>
   <totalCost>1500000</totalCost>
   <ecMaxContribution>1500000</ecMaxContribution>
   <startDate>2026-02-01</startDate>
@@ -20,12 +20,12 @@
     <grantDoi>10.3030/101219243</grantDoi>
   </identifiers>
   <validation>
-    <euroSciVoc>true</euroSciVoc>
+    <euroSciVoc>false</euroSciVoc>
   </validation>
-  <sourceUpdateDate>2025-09-03 17:41:48</sourceUpdateDate>
+  <sourceUpdateDate>2025-10-20 17:38:03</sourceUpdateDate>
   <contentCreationDate readOnly="true">2025-09-05 16:04:34</contentCreationDate>
-  <contentUpdateDate>2025-09-03 17:41:48</contentUpdateDate>
-  <lastUpdateDate readOnly="true">2025-10-06 17:12:04</lastUpdateDate>
+  <contentUpdateDate>2025-11-26 11:10:01</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-11-26 11:10:09</lastUpdateDate>
   <relations>
     <associations>
       <call source="corda" type="relatedMasterCall">
@@ -186,13 +186,6 @@
         <title>Project</title>
         <description>Project factsheets</description>
         <displayCode readOnly="true">/Project</displayCode>
-      </category>
-      <category classification="euroSciVoc" type="isInFieldOfScience">
-        <language>en</language>
-        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
-        <code>/23/47/297/933/1589</code>
-        <title>deep learning</title>
-        <displayCode readOnly="true">/natural sciences/computer and information sciences/artificial intelligence/machine learning/deep learning</displayCode>
       </category>
       <category weight="100" classification="policyPriorities" type="marker">
         <language>en</language>

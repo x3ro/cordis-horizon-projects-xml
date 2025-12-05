@@ -20,12 +20,12 @@
     <grantDoi>10.3030/101112754</grantDoi>
   </identifiers>
   <validation>
-    <euroSciVoc>true</euroSciVoc>
+    <euroSciVoc>false</euroSciVoc>
   </validation>
-  <sourceUpdateDate>2025-05-08 08:08:40</sourceUpdateDate>
+  <sourceUpdateDate>2025-10-20 17:38:03</sourceUpdateDate>
   <contentCreationDate readOnly="true">2023-06-28 15:23:24</contentCreationDate>
-  <contentUpdateDate>2025-05-27 11:02:10</contentUpdateDate>
-  <lastUpdateDate readOnly="true">2025-09-19 14:48:51</lastUpdateDate>
+  <contentUpdateDate>2025-11-05 11:04:27</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-11-05 11:05:07</lastUpdateDate>
   <relations>
     <associations>
       <article source="editorial" type="relatedArticle">
@@ -192,7 +192,7 @@
           </regions>
         </relations>
       </organization>
-      <organization sme="false" terminated="false" source="corda" order="17" ecContribution="494670" netEcContribution="494670" totalCost="494670" type="participant">
+      <organization source="corda" order="17" ecContribution="494670" terminated="false" sme="false" netEcContribution="494670" totalCost="494670" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1906424</rcn>
         <id>999754848</id>
@@ -490,7 +490,7 @@
           </regions>
         </relations>
       </organization>
-      <organization sme="true" netEcContribution="265918.75" source="corda" order="14" ecContribution="265918.75" terminated="false" totalCost="265918.75" type="participant">
+      <organization source="corda" order="14" ecContribution="265918.75" terminated="false" sme="true" netEcContribution="265918.75" totalCost="265918.75" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>2201568</rcn>
         <id>986895946</id>
@@ -921,7 +921,7 @@
           </regions>
         </relations>
       </organization>
-      <organization source="corda" order="15" ecContribution="312937.5" terminated="false" sme="true" netEcContribution="312937.5" totalCost="312937.5" type="participant">
+      <organization totalCost="312937.5" source="corda" order="15" ecContribution="312937.5" terminated="false" sme="true" netEcContribution="312937.5" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>2980913</rcn>
         <id>917884520</id>
@@ -984,7 +984,7 @@
           </regions>
         </relations>
       </organization>
-      <organization totalCost="546728.75" source="corda" order="10" ecContribution="546728.75" terminated="false" sme="false" netEcContribution="546728.75" type="participant">
+      <organization source="corda" order="10" ecContribution="546728.75" terminated="false" sme="false" netEcContribution="546728.75" totalCost="546728.75" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1905572</rcn>
         <id>999997930</id>
@@ -1288,7 +1288,7 @@
           </regions>
         </relations>
       </organization>
-      <organization source="corda" order="1" ecContribution="758311.25" terminated="false" sme="false" netEcContribution="758311.25" totalCost="758311.25" type="coordinator">
+      <organization netEcContribution="758311.25" totalCost="758311.25" source="corda" order="1" ecContribution="758311.25" terminated="false" sme="false" type="coordinator">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1905877</rcn>
         <id>999905004</id>
@@ -1633,13 +1633,6 @@
             <category classification="topicKeyword" type="isAbout">
               <language>en</language>
               <availableLanguages readOnly="true">en</availableLanguages>
-              <code>/43453435</code>
-              <title>Incremental innovation</title>
-              <displayCode readOnly="true">/Incremental innovation</displayCode>
-            </category>
-            <category classification="topicKeyword" type="isAbout">
-              <language>en</language>
-              <availableLanguages readOnly="true">en</availableLanguages>
               <code>/43455559</code>
               <title>Other social sciences</title>
               <displayCode readOnly="true">/Other social sciences</displayCode>
@@ -1657,6 +1650,13 @@
               <code>/43458031</code>
               <title>Sustainable innovation</title>
               <displayCode readOnly="true">/Sustainable innovation</displayCode>
+            </category>
+            <category classification="topicKeyword" type="isAbout">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <code>/43453435</code>
+              <title>Incremental innovation</title>
+              <displayCode readOnly="true">/Incremental innovation</displayCode>
             </category>
             <category classification="topicKeyword" type="isAbout">
               <language>en</language>
@@ -1710,13 +1710,6 @@
             <category classification="topicKeyword" type="isAbout">
               <language>en</language>
               <availableLanguages readOnly="true">en</availableLanguages>
-              <code>/43451193</code>
-              <title>Earth and related environmental sciences</title>
-              <displayCode readOnly="true">/Earth and related environmental sciences</displayCode>
-            </category>
-            <category classification="topicKeyword" type="isAbout">
-              <language>en</language>
-              <availableLanguages readOnly="true">en</availableLanguages>
               <code>/43451088</code>
               <title>Disruptive innovation</title>
               <displayCode readOnly="true">/Disruptive innovation</displayCode>
@@ -1734,6 +1727,13 @@
               <code>/43450038</code>
               <title>Business strategies</title>
               <displayCode readOnly="true">/Business strategies</displayCode>
+            </category>
+            <category classification="topicKeyword" type="isAbout">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <code>/43451193</code>
+              <title>Earth and related environmental sciences</title>
+              <displayCode readOnly="true">/Earth and related environmental sciences</displayCode>
             </category>
             <category classification="topicKeyword" type="isAbout">
               <language>en</language>
@@ -2686,37 +2686,9 @@
       <category classification="euroSciVoc" type="isInFieldOfScience">
         <language>en</language>
         <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
-        <code>/23/47/299</code>
-        <title>data science</title>
-        <displayCode readOnly="true">/natural sciences/computer and information sciences/data science</displayCode>
-      </category>
-      <category classification="euroSciVoc" type="isInFieldOfScience">
-        <language>en</language>
-        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
-        <code>/23/49/335/1013</code>
-        <title>landscape ecology</title>
-        <displayCode readOnly="true">/natural sciences/biological sciences/ecology/landscape ecology</displayCode>
-      </category>
-      <category classification="euroSciVoc" type="isInFieldOfScience">
-        <language>en</language>
-        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
-        <code>/27/81/30021/1279</code>
-        <title>sustainable agriculture</title>
-        <displayCode readOnly="true">/agricultural sciences/agriculture, forestry, and fisheries/agriculture/sustainable agriculture</displayCode>
-      </category>
-      <category classification="euroSciVoc" type="isInFieldOfScience">
-        <language>en</language>
-        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
-        <code>/23/47/307/30031</code>
-        <title>software development</title>
-        <displayCode readOnly="true">/natural sciences/computer and information sciences/software/software development</displayCode>
-      </category>
-      <category classification="euroSciVoc" type="isInFieldOfScience">
-        <language>en</language>
-        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
-        <code>/23/47/297/933</code>
-        <title>machine learning</title>
-        <displayCode readOnly="true">/natural sciences/computer and information sciences/artificial intelligence/machine learning</displayCode>
+        <code>/27/81/495</code>
+        <title>forestry</title>
+        <displayCode readOnly="true">/agricultural sciences/agriculture, forestry, and fisheries/forestry</displayCode>
       </category>
       <category weight="40" classification="policyPriorities" type="marker">
         <language>en</language>

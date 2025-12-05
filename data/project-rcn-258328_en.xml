@@ -25,7 +25,7 @@ The project will: 
   <endDate>2025-03-14</endDate>
   <ecSignatureDate>2023-11-14</ecSignatureDate>
   <duration>14</duration>
-  <status>SIGNED</status>
+  <status>CLOSED</status>
   <identifiers>
     <grantDoi>10.3030/101134907</grantDoi>
   </identifiers>
@@ -34,8 +34,8 @@ The project will: 
   </validation>
   <sourceUpdateDate>2025-01-22 15:28:30</sourceUpdateDate>
   <contentCreationDate readOnly="true">2023-11-21 10:11:13</contentCreationDate>
-  <contentUpdateDate>2023-11-21 10:11:11</contentUpdateDate>
-  <lastUpdateDate readOnly="true">2025-09-19 14:48:47</lastUpdateDate>
+  <contentUpdateDate>2025-01-22 15:28:30</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-11-26 10:18:25</lastUpdateDate>
   <relations>
     <associations>
       <article source="editorial" type="relatedArticle">
@@ -75,7 +75,7 @@ The project will: 
         <title>HORIZON-EIE-2023-CONNECT-01</title>
         <identifier>HORIZON-EIE-2023-CONNECT-01</identifier>
       </call>
-      <organization source="corda" order="1" ecContribution="152500" terminated="false" sme="false" netEcContribution="118125" totalCost="0" type="coordinator">
+      <organization totalCost="0" source="corda" order="1" ecContribution="152500" terminated="false" sme="false" netEcContribution="118125" type="coordinator">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>2113591</rcn>
         <id>999565601</id>
@@ -84,7 +84,7 @@ The project will: 
         <shortName>FSJD-CERCA</shortName>
         <address>
           <street>SANTA ROSA 39-4</street>
-          <city>Esplugues De Llobregat</city>
+          <city>ESPLUGUES DE LLOBREGAT</city>
           <postalCode>08950</postalCode>
           <country>ES</country>
           <url>https://www.fsjd.org</url>
@@ -148,7 +148,7 @@ The project will: 
         <shortName>EUROPEAN CHILDRENS HOSPITALS ORGANISATION ECHO</shortName>
         <address>
           <street>PASEO SANT JOAN DE DEU 2</street>
-          <city>ESPLUGUES DE LLOBREGAT</city>
+          <city>Esplugues De Llobregat</city>
           <postalCode>08950</postalCode>
           <country>ES</country>
           <geolocation>41.3842368,2.1017072</geolocation>
@@ -165,11 +165,32 @@ The project will: 
           </categories>
           <regions>
             <region type="relatedNutsCode">
-              <name>Spain</name>
-              <rcn>242387496</rcn>
-              <nutsCode>ES</nutsCode>
-              <euCode>ES</euCode>
-              <isoCode>ES</isoCode>
+              <name>Barcelona</name>
+              <rcn>242241601</rcn>
+              <nutsCode>ES511</nutsCode>
+              <parents>
+                <region>
+                  <name>Cataluña</name>
+                  <rcn>242241640</rcn>
+                  <nutsCode>ES51</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Este</name>
+                      <rcn>242244136</rcn>
+                      <nutsCode>ES5</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Spain</name>
+                          <rcn>242387496</rcn>
+                          <nutsCode>ES</nutsCode>
+                          <euCode>ES</euCode>
+                          <isoCode>ES</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
             </region>
             <region type="relatedRegion">
               <name>Spain</name>
@@ -254,7 +275,7 @@ The project will: 
         <shortName>INVENIAM</shortName>
         <address>
           <street>AV DIAGONAL 580 PLANTA 4 PTA 2</street>
-          <city>Barcelona</city>
+          <city>BARCELONA</city>
           <postalCode>08021</postalCode>
           <country>ES</country>
           <geolocation>41.370449300000004,2.1500219563810696</geolocation>
@@ -317,7 +338,7 @@ The project will: 
         <shortName>AQUAS</shortName>
         <address>
           <street>CALLE ROC BORONAT 81 95 2 PISO</street>
-          <city>Barcelona</city>
+          <city>BARCELONA</city>
           <postalCode>08005</postalCode>
           <country>ES</country>
           <postBox>000</postBox>
@@ -435,7 +456,7 @@ The project will: 
           </regions>
         </relations>
       </organization>
-      <organization source="corda" order="4" ecContribution="50000" terminated="false" sme="false" netEcContribution="50000" totalCost="0" type="participant">
+      <organization source="corda" order="4" terminated="false" sme="false" ecContribution="50000" netEcContribution="50000" totalCost="0" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1909054</rcn>
         <id>999516228</id>
@@ -507,7 +528,7 @@ The project will: 
         <shortName>Sciensano</shortName>
         <address>
           <street>JULIETTE WYTSMANSTRAAT 14</street>
-          <city>Elsene</city>
+          <city>ELSENE</city>
           <postalCode>1050</postalCode>
           <country>BE</country>
           <postBox>N/A</postBox>
@@ -771,6 +792,13 @@ The project will: 
             <category classification="topicKeyword" type="isAbout">
               <language>en</language>
               <availableLanguages readOnly="true">en</availableLanguages>
+              <code>/43453588</code>
+              <title>Innovation policy</title>
+              <displayCode readOnly="true">/Innovation policy</displayCode>
+            </category>
+            <category classification="topicKeyword" type="isAbout">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
               <code>/43457812</code>
               <title>Start-up companies</title>
               <displayCode readOnly="true">/Start-up companies</displayCode>
@@ -795,13 +823,6 @@ The project will: 
               <code>/43456600</code>
               <title>Related to industrial policy</title>
               <displayCode readOnly="true">/Related to industrial policy</displayCode>
-            </category>
-            <category classification="topicKeyword" type="isAbout">
-              <language>en</language>
-              <availableLanguages readOnly="true">en</availableLanguages>
-              <code>/43453588</code>
-              <title>Innovation policy</title>
-              <displayCode readOnly="true">/Innovation policy</displayCode>
             </category>
           </categories>
         </relations>

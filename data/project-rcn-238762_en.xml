@@ -25,7 +25,7 @@
   <sourceUpdateDate>2025-01-03 10:47:16</sourceUpdateDate>
   <contentCreationDate readOnly="true">2022-07-29 15:35:47</contentCreationDate>
   <contentUpdateDate>2023-03-10 21:01:05</contentUpdateDate>
-  <lastUpdateDate readOnly="true">2025-10-20 16:36:29</lastUpdateDate>
+  <lastUpdateDate readOnly="true">2025-11-21 13:54:36</lastUpdateDate>
   <relations>
     <associations>
       <article source="editorial" type="relatedArticle">
@@ -242,6 +242,38 @@
                     <code>/scientificAdvances</code>
                     <title>Scientific advances</title>
                     <displayCode readOnly="true">/Scientific advances</displayCode>
+                  </category>
+                  <category classification="source" type="isProvidedBy">
+                    <language>en</language>
+                    <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+                    <code>/editorial</code>
+                    <title>CORDIS Editorial</title>
+                    <description>Written by CORDIS</description>
+                    <displayCode readOnly="true">/CORDIS Editorial</displayCode>
+                  </category>
+                </categories>
+              </relations>
+            </article>
+            <article source="editorial" type="contains">
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <rcn>460091</rcn>
+              <title>Exploring new avenues for food and biomass value chains</title>
+              <relations>
+                <categories>
+                  <category classification="applicationDomain" type="isApplicableIn">
+                    <language>en</language>
+                    <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+                    <code>/agri</code>
+                    <title>Food and Natural Resources</title>
+                    <displayCode readOnly="true">/Food and Natural Resources</displayCode>
+                  </category>
+                  <category classification="collection" type="belongsTo">
+                    <language>en</language>
+                    <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+                    <code>/brief</code>
+                    <title>Result in Brief</title>
+                    <description>Article: Classic and enhanced</description>
+                    <displayCode readOnly="true">/Result in Brief</displayCode>
                   </category>
                   <category classification="source" type="isProvidedBy">
                     <language>en</language>
@@ -581,38 +613,6 @@
                 </categories>
               </relations>
             </article>
-            <article source="editorial" type="contains">
-              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
-              <rcn>460091</rcn>
-              <title>Exploring new avenues for food and biomass value chains</title>
-              <relations>
-                <categories>
-                  <category classification="applicationDomain" type="isApplicableIn">
-                    <language>en</language>
-                    <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
-                    <code>/agri</code>
-                    <title>Food and Natural Resources</title>
-                    <displayCode readOnly="true">/Food and Natural Resources</displayCode>
-                  </category>
-                  <category classification="collection" type="belongsTo">
-                    <language>en</language>
-                    <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
-                    <code>/brief</code>
-                    <title>Result in Brief</title>
-                    <description>Article: Classic and enhanced</description>
-                    <displayCode readOnly="true">/Result in Brief</displayCode>
-                  </category>
-                  <category classification="source" type="isProvidedBy">
-                    <language>en</language>
-                    <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
-                    <code>/editorial</code>
-                    <title>CORDIS Editorial</title>
-                    <description>Written by CORDIS</description>
-                    <displayCode readOnly="true">/CORDIS Editorial</displayCode>
-                  </category>
-                </categories>
-              </relations>
-            </article>
             <webItem source="editorial" represents="article" type="relatedImage">
               <language>en</language>
               <availableLanguages readOnly="true">de,en,es,fr,it,pl,any</availableLanguages>
@@ -806,7 +806,7 @@
         <title>HORIZON-CL6-2021-GOVERNANCE-01</title>
         <identifier>HORIZON-CL6-2021-GOVERNANCE-01</identifier>
       </call>
-      <organization source="corda" order="11" ecContribution="50645" terminated="false" sme="false" netEcContribution="50645" totalCost="50645" type="participant">
+      <organization terminated="false" sme="false" netEcContribution="50645" totalCost="50645" source="corda" order="11" ecContribution="50645" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1974870</rcn>
         <id>908557291</id>
@@ -1016,7 +1016,7 @@
           </regions>
         </relations>
       </organization>
-      <organization source="corda" order="8" ecContribution="194375" terminated="false" sme="true" netEcContribution="194375" totalCost="194375" type="participant">
+      <organization order="8" ecContribution="194375" terminated="false" source="corda" sme="true" netEcContribution="194375" totalCost="194375" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1920907</rcn>
         <id>969470478</id>
@@ -1498,7 +1498,7 @@
           </regions>
         </relations>
       </organization>
-      <organization source="corda" order="3" ecContribution="38750" terminated="false" sme="false" netEcContribution="38750" totalCost="38750" type="participant">
+      <organization totalCost="38750" source="corda" order="3" ecContribution="38750" terminated="false" sme="false" netEcContribution="38750" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1959034</rcn>
         <id>913776764</id>
@@ -1867,8 +1867,8 @@
           <publishedYear>2025</publishedYear>
           <publisher>University College Dublin</publisher>
         </details>
-        <sourceUpdateDate>2025-10-07 05:06:23</sourceUpdateDate>
-        <contentUpdateDate>2025-10-16 08:51:19</contentUpdateDate>
+        <sourceUpdateDate>2025-10-20 17:42:54</sourceUpdateDate>
+        <contentUpdateDate>2025-11-21 13:54:30</contentUpdateDate>
         <relations>
           <categories>
             <category classification="collection" type="belongsTo">
@@ -1955,8 +1955,8 @@
           <publishedYear>2025</publishedYear>
           <publisher>University College Dublin</publisher>
         </details>
-        <sourceUpdateDate>2025-10-07 05:06:23</sourceUpdateDate>
-        <contentUpdateDate>2025-10-16 08:51:18</contentUpdateDate>
+        <sourceUpdateDate>2025-10-20 17:42:54</sourceUpdateDate>
+        <contentUpdateDate>2025-11-21 13:54:30</contentUpdateDate>
         <relations>
           <categories>
             <category classification="collection" type="belongsTo">
@@ -1991,8 +1991,8 @@
         <id>101059900_4_DELIVHORIZON</id>
         <title>Final BioBeo Report</title>
         <description>Report summarising project activities, outcomes, sustainability and expected longer term impacts.</description>
-        <sourceUpdateDate>2025-10-13 09:04:16</sourceUpdateDate>
-        <contentUpdateDate>2025-10-20 14:52:21</contentUpdateDate>
+        <sourceUpdateDate>2025-10-20 17:42:54</sourceUpdateDate>
+        <contentUpdateDate>2025-10-28 19:00:34</contentUpdateDate>
         <relations>
           <categories>
             <category classification="collection" type="belongsTo">
@@ -2137,8 +2137,8 @@
           <doi>10.3390/SU17198590</doi>
           <issn>2071-1050</issn>
         </identifiers>
-        <sourceUpdateDate>2025-10-07 05:06:23</sourceUpdateDate>
-        <contentUpdateDate>2025-10-16 08:51:18</contentUpdateDate>
+        <sourceUpdateDate>2025-10-20 17:42:54</sourceUpdateDate>
+        <contentUpdateDate>2025-11-21 13:54:30</contentUpdateDate>
         <relations>
           <categories>
             <category classification="collection" type="belongsTo">
@@ -2173,8 +2173,8 @@
         <id>101059900_11_DELIVHORIZON</id>
         <title>Report of BioBeo Interconnectedness Programme</title>
         <description>Report on the Interconnectedness Programme including implementation and conclusions.</description>
-        <sourceUpdateDate>2025-10-13 09:04:16</sourceUpdateDate>
-        <contentUpdateDate>2025-10-20 16:36:28</contentUpdateDate>
+        <sourceUpdateDate>2025-10-20 17:42:54</sourceUpdateDate>
+        <contentUpdateDate>2025-10-28 18:27:18</contentUpdateDate>
         <relations>
           <categories>
             <category classification="collection" type="belongsTo">
@@ -2219,8 +2219,8 @@
         <title>Periodic Reporting for period 2 - BioBeo (Innovative Education for the BioEconomy)</title>
         <teaser>The overall aim of BioBeo was to develop and deploy an education programme to enhance understanding and engagement across society regarding circularity and bioeconomy. The objectives focused on new thinking and approaches to enhance the way that the governance of education in...</teaser>
         <description>periodic</description>
-        <sourceUpdateDate>2025-10-13 09:04:16</sourceUpdateDate>
-        <contentUpdateDate>2025-10-20 15:01:34</contentUpdateDate>
+        <sourceUpdateDate>2025-10-20 17:42:54</sourceUpdateDate>
+        <contentUpdateDate>2025-10-27 16:42:02</contentUpdateDate>
         <relations>
           <categories>
             <category classification="collection" type="belongsTo">
@@ -2625,8 +2625,8 @@
         <id>101059900_21_DELIVHORIZON</id>
         <title>Final Report on Dissemination and Communication Actions</title>
         <description><![CDATA[Final report of the D&C plan with updates and recommendations.]]></description>
-        <sourceUpdateDate>2025-10-13 09:04:16</sourceUpdateDate>
-        <contentUpdateDate>2025-10-20 16:36:28</contentUpdateDate>
+        <sourceUpdateDate>2025-10-20 17:42:54</sourceUpdateDate>
+        <contentUpdateDate>2025-10-28 18:27:19</contentUpdateDate>
         <relations>
           <categories>
             <category classification="collection" type="belongsTo">
@@ -2722,8 +2722,8 @@
           <publishedYear>2024</publishedYear>
           <publisher>University College Dublin</publisher>
         </details>
-        <sourceUpdateDate>2025-10-07 05:06:23</sourceUpdateDate>
-        <contentUpdateDate>2025-10-16 08:51:19</contentUpdateDate>
+        <sourceUpdateDate>2025-10-20 17:42:54</sourceUpdateDate>
+        <contentUpdateDate>2025-11-21 13:54:31</contentUpdateDate>
         <relations>
           <categories>
             <category classification="collection" type="belongsTo">
@@ -2814,8 +2814,8 @@
           <doi>10.3390/SU17146541</doi>
           <issn>2071-1050</issn>
         </identifiers>
-        <sourceUpdateDate>2025-10-07 05:06:23</sourceUpdateDate>
-        <contentUpdateDate>2025-10-16 08:51:20</contentUpdateDate>
+        <sourceUpdateDate>2025-10-20 17:42:54</sourceUpdateDate>
+        <contentUpdateDate>2025-11-21 13:54:34</contentUpdateDate>
         <relations>
           <categories>
             <category classification="collection" type="belongsTo">
@@ -2992,8 +2992,8 @@
           <publishedYear>2025</publishedYear>
           <publisher>University College Dublin</publisher>
         </details>
-        <sourceUpdateDate>2025-10-07 05:06:23</sourceUpdateDate>
-        <contentUpdateDate>2025-10-16 08:51:19</contentUpdateDate>
+        <sourceUpdateDate>2025-10-20 17:42:54</sourceUpdateDate>
+        <contentUpdateDate>2025-11-21 13:54:34</contentUpdateDate>
         <relations>
           <categories>
             <category classification="collection" type="belongsTo">
@@ -3028,8 +3028,8 @@
         <id>101059900_17_DELIVHORIZON</id>
         <title>STEM Career Development Report</title>
         <description>Report - covering all the activities in Task 3.6 including BioBeo Hub and Bioeconomy Beo online event.</description>
-        <sourceUpdateDate>2025-10-13 09:04:16</sourceUpdateDate>
-        <contentUpdateDate>2025-10-20 14:52:21</contentUpdateDate>
+        <sourceUpdateDate>2025-10-20 17:42:54</sourceUpdateDate>
+        <contentUpdateDate>2025-10-28 19:00:35</contentUpdateDate>
         <relations>
           <categories>
             <category classification="collection" type="belongsTo">
@@ -3118,8 +3118,8 @@
         <id>101059900_12_DELIVHORIZON</id>
         <title>BioBeo Festival and Ambassador Programme</title>
         <description>Pan-European Bioeconomy Festival for preschool, primary and secondary students held and BioBeo Ambassadors appointed.</description>
-        <sourceUpdateDate>2025-10-13 09:04:16</sourceUpdateDate>
-        <contentUpdateDate>2025-10-20 16:36:28</contentUpdateDate>
+        <sourceUpdateDate>2025-10-20 17:42:54</sourceUpdateDate>
+        <contentUpdateDate>2025-10-28 18:27:18</contentUpdateDate>
         <relations>
           <categories>
             <category classification="collection" type="belongsTo">
@@ -3170,8 +3170,8 @@
           <publishedYear>2022</publishedYear>
           <publisher>University College Dublin.</publisher>
         </details>
-        <sourceUpdateDate>2025-10-07 05:06:23</sourceUpdateDate>
-        <contentUpdateDate>2025-10-16 08:51:19</contentUpdateDate>
+        <sourceUpdateDate>2025-10-20 17:42:54</sourceUpdateDate>
+        <contentUpdateDate>2025-11-21 13:54:30</contentUpdateDate>
         <relations>
           <categories>
             <category classification="collection" type="belongsTo">

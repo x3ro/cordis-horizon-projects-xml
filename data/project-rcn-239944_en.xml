@@ -6,16 +6,16 @@
   <id>101067759</id>
   <acronym>GenClassifier4CL</acronym>
   <teaser><![CDATA["Learning continually from non-stationary streams of data is a key feature of natural intelligence, but an unsolved problem in deep learning. Particularly challenging for deep neural networks is the problem of ""class-incremental learning"", whereby a network must learn to...]]></teaser>
-  <objective><![CDATA["Learning continually from non-stationary streams of data is a key feature of natural intelligence, but an unsolved problem in deep learning. Particularly challenging for deep neural networks is the problem of ""class-incremental learning"", whereby a network must learn to distinguish classes that are not observed together. In deep learning, the default approach to classification is learning discriminative classifiers. This works great in the i.i.d. setting when all classes are available simultaneously, but when new classes must be learned incrementally, successful training of discriminative classifiers depends on workarounds such as storing data or generative replay. In a radical shift of gears, here I propose to instead address class-incremental learning with generative classification. Key advantage is that generative classifiers  unlike discriminative classifiers  do not compare classes during training, but only during inference (i.e., when making a classification decision). As a proof-of-concept, in preliminary work I showed that a nave implementation of a generative classifier, with a separate variational autoencoder model per class and likelihood estimation through importance sampling, outperforms comparable generative replay methods. To improve the efficiency, scalability, and performance of this generative classifier, I propose four further modifications: (1) move the generative modelling objective from the raw inputs to an intermediate network layer; (2) share the encoder network between classes, but not necessarily the decoder networks; (3) use fewer importance samples for unlikely classes; and (4) make classification decisions hierarchical. This way, during my MSCA fellowship hosted in the group of Prof Tinne Tuytelaars, I hope to develop generative classification into a practical, efficient, and scalable state-of-the-art deep learning method for class-incremental learning."]]></objective>
+  <objective><![CDATA["Learning continually from non-stationary streams of data is a key feature of natural intelligence, but an unsolved problem in deep learning. Particularly challenging for deep neural networks is the problem of ""class-incremental learning"", whereby a network must learn to distinguish classes that are not observed together. In deep learning, the default approach to classification is learning discriminative classifiers. This works great in the i.i.d. setting when all classes are available simultaneously, but when new classes must be learned incrementally, successful training of discriminative classifiers depends on workarounds such as storing data or generative replay. In a radical shift of gears, here I propose to instead address class-incremental learning with generative classification. Key advantage is that generative classifiers – unlike discriminative classifiers – do not compare classes during training, but only during inference (i.e., when making a classification decision). As a proof-of-concept, in preliminary work I showed that a naïve implementation of a generative classifier, with a separate variational autoencoder model per class and likelihood estimation through importance sampling, outperforms comparable generative replay methods. To improve the efficiency, scalability, and performance of this generative classifier, I propose four further modifications: (1) move the generative modelling objective from the raw inputs to an intermediate network layer; (2) share the encoder network between classes, but not necessarily the decoder networks; (3) use fewer importance samples for unlikely classes; and (4) make classification decisions hierarchical. This way, during my MSCA fellowship hosted in the group of Prof Tinne Tuytelaars, I hope to develop generative classification into a practical, efficient, and scalable state-of-the-art deep learning method for class-incremental learning."]]></objective>
   <title>Incrementally learning new classes with generative classification</title>
-  <keywords>Continual learning,  deep neural networks,  catastrophic forgetting,  generative classification,  class-incremental learning</keywords>
+  <keywords>Continual learning; deep neural networks; catastrophic forgetting; generative classification; class-incremental learning</keywords>
   <totalCost>0</totalCost>
   <ecMaxContribution>191760</ecMaxContribution>
   <startDate>2022-10-01</startDate>
   <endDate>2024-09-30</endDate>
   <ecSignatureDate>2022-06-23</ecSignatureDate>
   <duration>24</duration>
-  <status>SIGNED</status>
+  <status>CLOSED</status>
   <identifiers>
     <grantDoi>10.3030/101067759</grantDoi>
   </identifiers>
@@ -24,8 +24,8 @@
   </validation>
   <sourceUpdateDate>2025-01-03 10:47:16</sourceUpdateDate>
   <contentCreationDate readOnly="true">2022-08-17 19:52:15</contentCreationDate>
-  <contentUpdateDate>2022-08-17 19:52:12</contentUpdateDate>
-  <lastUpdateDate readOnly="true">2025-09-19 14:49:03</lastUpdateDate>
+  <contentUpdateDate>2025-01-03 10:47:16</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-11-26 10:34:31</lastUpdateDate>
   <relations>
     <associations>
       <call source="corda" type="relatedMasterCall">
@@ -137,7 +137,7 @@
           </categories>
         </relations>
       </programme>
-      <programme source="corda" uniqueProgrammePart="true" type="relatedLegalBasis">
+      <programme uniqueProgrammePart="true" source="corda" type="relatedLegalBasis">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>705729</rcn>
         <id>HORIZON.1.2</id>
@@ -627,6 +627,13 @@
         <title>Project</title>
         <description>Project factsheets</description>
         <displayCode readOnly="true">/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/47/297/933/1589</code>
+        <title>deep learning</title>
+        <displayCode readOnly="true">/natural sciences/computer and information sciences/artificial intelligence/machine learning/deep learning</displayCode>
       </category>
       <category weight="0" classification="policyPriorities" type="marker">
         <language>en</language>

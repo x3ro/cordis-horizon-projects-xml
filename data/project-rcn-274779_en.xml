@@ -22,12 +22,46 @@
   <validation>
     <euroSciVoc>false</euroSciVoc>
   </validation>
-  <sourceUpdateDate>2025-07-31 14:18:56</sourceUpdateDate>
+  <sourceUpdateDate>2025-10-20 17:38:03</sourceUpdateDate>
   <contentCreationDate readOnly="true">2025-08-01 10:30:37</contentCreationDate>
-  <contentUpdateDate>2025-08-01 10:30:10</contentUpdateDate>
-  <lastUpdateDate readOnly="true">2025-09-19 14:48:45</lastUpdateDate>
+  <contentUpdateDate>2025-11-26 11:08:23</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-11-26 11:08:27</lastUpdateDate>
   <relations>
     <associations>
+      <article source="editorial" type="relatedArticle">
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <rcn>460071</rcn>
+        <id>460071-decoding-faces-to-detect-parkinson-s</id>
+        <title>Decoding faces to detect Parkinson’s</title>
+        <contentUpdateDate>2025-11-06 17:36:36</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="applicationDomain" type="isApplicableIn">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/health</code>
+              <title>Health</title>
+              <displayCode readOnly="true">/Health</displayCode>
+            </category>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/projectDescription</code>
+              <title>Project description</title>
+              <description>Article: description of linked project written by editorial team</description>
+              <displayCode readOnly="true">/Project description</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/editorial</code>
+              <title>CORDIS Editorial</title>
+              <description>Written by CORDIS</description>
+              <displayCode readOnly="true">/CORDIS Editorial</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </article>
       <call source="corda" type="relatedMasterCall">
         <rcn>56114</rcn>
         <title>HORIZON-MSCA-2024-SE-01</title>
@@ -86,7 +120,7 @@
         <shortName>Webster University Vienna</shortName>
         <address>
           <street>PRATERSTRASSE 23</street>
-          <city>Wien</city>
+          <city>WIEN</city>
           <postalCode>1020</postalCode>
           <country>AT</country>
           <geolocation>48.2140642,16.3828789</geolocation>
@@ -252,7 +286,7 @@
         <legalName>TORONTO METROPOLITAN UNIVERSITY</legalName>
         <address>
           <street>VICTORIA STREET 350</street>
-          <city>TORONTO</city>
+          <city>Toronto</city>
           <postalCode>M5B 2K3</postalCode>
           <country>CA</country>
           <url>http://www.ryerson.ca</url>
@@ -286,7 +320,7 @@
           </regions>
         </relations>
       </organization>
-      <organization sme="false" netEcContribution="0" totalCost="0" source="corda" order="6" terminated="false" type="associatedPartner">
+      <organization source="corda" order="6" terminated="false" sme="false" netEcContribution="0" totalCost="0" type="associatedPartner">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1908445</rcn>
         <id>993392036</id>
@@ -542,11 +576,32 @@
           </categories>
           <regions>
             <region type="relatedNutsCode">
-              <name>Iceland</name>
-              <rcn>309496360</rcn>
-              <nutsCode>IS</nutsCode>
-              <euCode>IS</euCode>
-              <isoCode>IS</isoCode>
+              <name>Höfuðborgarsvæði</name>
+              <rcn>1465384</rcn>
+              <nutsCode>IS001</nutsCode>
+              <parents>
+                <region>
+                  <name>Ísland</name>
+                  <rcn>1464996</rcn>
+                  <nutsCode>IS00</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Ísland</name>
+                      <rcn>1464995</rcn>
+                      <nutsCode>IS0</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Iceland</name>
+                          <rcn>309496360</rcn>
+                          <nutsCode>IS</nutsCode>
+                          <euCode>IS</euCode>
+                          <isoCode>IS</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
             </region>
             <region type="relatedRegion">
               <name>Iceland</name>

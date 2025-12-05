@@ -22,10 +22,10 @@
   <validation>
     <euroSciVoc>false</euroSciVoc>
   </validation>
-  <sourceUpdateDate>2025-10-15 06:19:50</sourceUpdateDate>
+  <sourceUpdateDate>2025-10-20 17:38:03</sourceUpdateDate>
   <contentCreationDate readOnly="true">2023-07-11 16:16:28</contentCreationDate>
-  <contentUpdateDate>2025-10-21 10:04:08</contentUpdateDate>
-  <lastUpdateDate readOnly="true">2025-10-21 10:04:34</lastUpdateDate>
+  <contentUpdateDate>2025-10-20 17:38:03</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-11-10 18:16:07</lastUpdateDate>
   <relations>
     <associations>
       <article source="editorial" type="relatedArticle">
@@ -192,7 +192,7 @@
           </regions>
         </relations>
       </organization>
-      <organization ecContribution="202375" terminated="false" sme="true" netEcContribution="202375" totalCost="202375" order="10" source="corda" type="participant">
+      <organization source="corda" order="10" ecContribution="202375" terminated="false" sme="true" netEcContribution="202375" totalCost="202375" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1982242</rcn>
         <id>937373081</id>
@@ -378,7 +378,7 @@
           </regions>
         </relations>
       </organization>
-      <organization source="corda" order="9" ecContribution="428875" terminated="false" sme="false" netEcContribution="428875" totalCost="428875" type="participant">
+      <organization terminated="false" sme="false" source="corda" order="9" ecContribution="428875" netEcContribution="428875" totalCost="428875" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1977183</rcn>
         <id>894512370</id>
@@ -441,7 +441,7 @@
           </regions>
         </relations>
       </organization>
-      <organization source="corda" order="16" terminated="false" sme="true" netEcContribution="0" totalCost="0" type="associatedPartner">
+      <organization sme="true" netEcContribution="0" totalCost="0" source="corda" order="16" terminated="false" type="associatedPartner">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1991772</rcn>
         <id>877648435</id>
@@ -948,7 +948,7 @@
           </regions>
         </relations>
       </organization>
-      <organization netEcContribution="64625" totalCost="64625" source="corda" order="7" ecContribution="64625" terminated="false" sme="false" type="participant">
+      <organization source="corda" order="7" ecContribution="64625" terminated="false" sme="false" netEcContribution="64625" totalCost="64625" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1905672</rcn>
         <id>999974844</id>
@@ -1397,13 +1397,58 @@
       </result>
       <result source="corda" type="relatedResult">
         <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1387072</rcn>
+        <id>101103740_7_DELIVHORIZON</id>
+        <title>API standard</title>
+        <description>Information on the created Python library and API documentation website. The Python library aims to be a “coding kit” for organisations that want to implement the API standard in their products. As such the deliverable will develop the full documentation of the library as well.</description>
+        <sourceUpdateDate>2025-11-07 07:45:43</sourceUpdateDate>
+        <contentUpdateDate>2025-11-10 18:16:05</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/D</code>
+              <title>Demonstrators, pilots, prototypes</title>
+              <displayCode readOnly="true">/Demonstrators, pilots, prototypes</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>91d8c853c6b41e6390f832d7d9e5824c</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e51eb16b9d&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1363168</rcn>
         <id>101103740_PSHORIZON</id>
         <title>Periodic Reporting for period 1 - KEYSTONE (KNOWLEDGEABLE COMPREHENSIVE AND FULLY INTEGRATED SMART SOLUTION FOR RESILIENT, SUSTAINABLE AND OPTIMIZED TRANSPORT OPERATIONS)</title>
         <teaser>The KEYSTONE project aims to revolutionize goods transport by establishing a sustainable, efficient, and safe system through innovative digital solutions. By fostering collaboration between enforcement authorities and logistics operators, it seeks to create a harmonized...</teaser>
         <description>periodic</description>
-        <sourceUpdateDate>2025-09-16 13:35:51</sourceUpdateDate>
-        <contentUpdateDate>2025-09-23 10:00:59</contentUpdateDate>
+        <sourceUpdateDate>2025-10-20 17:42:54</sourceUpdateDate>
+        <contentUpdateDate>2025-10-27 16:43:10</contentUpdateDate>
         <relations>
           <categories>
             <category classification="collection" type="belongsTo">
@@ -1431,6 +1476,96 @@
               <mimetype readOnly="true">image/jpeg</mimetype>
               <size readOnly="true">478208</size>
             </webItem>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1387075</rcn>
+        <id>101103740_13_DELIVHORIZON</id>
+        <title>App launch and reporting</title>
+        <description>This deliverable includes the description of the web application for data exchange. Definition of technical requirements and timeline will be included as well.</description>
+        <sourceUpdateDate>2025-11-07 07:45:43</sourceUpdateDate>
+        <contentUpdateDate>2025-11-10 18:16:05</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/D</code>
+              <title>Demonstrators, pilots, prototypes</title>
+              <displayCode readOnly="true">/Demonstrators, pilots, prototypes</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>a9d680f4a8e6469e3275b50f67fd52ed</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e51f0718c1&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1387064</rcn>
+        <id>101103740_17_DELIVHORIZON</id>
+        <title>Evaluation Methodology and Plan</title>
+        <description>This deliverable will summarize all the steps that need to be followed to perform a proper evaluation of all the KEYSTONE’s activities. It will contain all the methodologies and the explanation of the analysis that will be performed, and it will help the different activities understanding how to follow a concrete e correct evaluation process.</description>
+        <sourceUpdateDate>2025-11-07 07:45:43</sourceUpdateDate>
+        <contentUpdateDate>2025-11-10 18:16:03</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode readOnly="true">/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>fd5d613910d3fccc9cf3aaf908c17a73</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e51bc7677d&appId=PPGMS]]></physUrl>
+            </webLink>
           </associations>
         </relations>
       </result>
@@ -1991,6 +2126,53 @@
         <code>/23/49/335/1009</code>
         <title>ecosystems</title>
         <displayCode readOnly="true">/natural sciences/biological sciences/ecology/ecosystems</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/47/299/945</code>
+        <title>data exchange</title>
+        <displayCode readOnly="true">/natural sciences/computer and information sciences/data science/data exchange</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode readOnly="true">/Digital agenda</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode readOnly="true">/Clean air</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode readOnly="true">/Artificial intelligence</displayCode>
+      </category>
+      <category weight="40" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode readOnly="true">/Climate action</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode readOnly="true">/Biodiversity</displayCode>
       </category>
       <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
         <language>en</language>

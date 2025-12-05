@@ -22,10 +22,10 @@
   <validation>
     <euroSciVoc>false</euroSciVoc>
   </validation>
-  <sourceUpdateDate>2025-08-19 15:00:10</sourceUpdateDate>
+  <sourceUpdateDate>2025-10-20 17:38:03</sourceUpdateDate>
   <contentCreationDate readOnly="true">2022-12-01 14:19:31</contentCreationDate>
-  <contentUpdateDate>2025-09-16 12:40:06</contentUpdateDate>
-  <lastUpdateDate readOnly="true">2025-09-19 14:49:07</lastUpdateDate>
+  <contentUpdateDate>2025-11-03 16:48:02</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-11-17 13:41:00</lastUpdateDate>
   <relations>
     <associations>
       <article source="editorial" type="relatedArticle">
@@ -151,7 +151,7 @@
           </regions>
         </relations>
       </organization>
-      <organization order="1" ecContribution="0" terminated="false" sme="false" netEcContribution="634375" totalCost="0" source="corda" type="thirdParty">
+      <organization source="corda" order="1" ecContribution="0" terminated="false" sme="false" netEcContribution="634375" totalCost="0" type="thirdParty">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1956119</rcn>
         <id>906924587</id>
@@ -159,7 +159,7 @@
         <legalName><![CDATA[CAPGEMINI ENGINEERING DEUTSCHLAND SAS & CO KG]]></legalName>
         <address>
           <street>FRANKFURTER RING 81</street>
-          <city>Munchen</city>
+          <city>MUNCHEN</city>
           <postalCode>80807</postalCode>
           <country>DE</country>
           <geolocation>48.1881956,11.5789798</geolocation>
@@ -405,45 +405,6 @@
           </regions>
         </relations>
       </organization>
-      <organization source="corda" order="2" ecContribution="1379875" terminated="false" sme="true" netEcContribution="1379875" totalCost="1379875" type="participant">
-        <availableLanguages readOnly="true">en</availableLanguages>
-        <rcn>1979543</rcn>
-        <id>888363928</id>
-        <vatNumber>NL860468719B01</vatNumber>
-        <legalName><![CDATA[QU & CO AI BV]]></legalName>
-        <shortName><![CDATA[Qu & Co AI BV]]></shortName>
-        <address>
-          <street>PALESTRINASTRAAT 12 H</street>
-          <city>Amsterdam</city>
-          <postalCode>1071 LE</postalCode>
-          <country>NL</country>
-          <geolocation>52.3564221,4.8765984</geolocation>
-        </address>
-        <relations>
-          <categories>
-            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
-              <language>en</language>
-              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
-              <code>/PRC</code>
-              <title>Private for-profit entities (excluding Higher or Secondary Education Establishments)</title>
-              <displayCode readOnly="true">/Private for-profit entities (excluding Higher or Secondary Education Establishments)</displayCode>
-            </category>
-          </categories>
-          <regions>
-            <region type="relatedNutsCode">
-              <rcn>1471664</rcn>
-              <nutsCode>NL32B</nutsCode>
-            </region>
-            <region type="relatedRegion">
-              <name>Netherlands</name>
-              <rcn>391547432</rcn>
-              <nutsCode>NL</nutsCode>
-              <euCode>NL</euCode>
-              <isoCode>NL</isoCode>
-            </region>
-          </regions>
-        </relations>
-      </organization>
       <organization source="corda" order="4" ecContribution="1064880" terminated="false" sme="false" netEcContribution="1064880" totalCost="1064880" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1905579</rcn>
@@ -634,7 +595,7 @@
           </regions>
         </relations>
       </organization>
-      <organization terminated="false" sme="false" netEcContribution="125000" totalCost="0" source="corda" order="3" ecContribution="0" type="thirdParty">
+      <organization source="corda" order="3" ecContribution="0" terminated="false" sme="false" netEcContribution="125000" totalCost="0" type="thirdParty">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1909402</rcn>
         <id>999809265</id>
@@ -673,6 +634,44 @@
               <nutsCode>FR</nutsCode>
               <euCode>FR</euCode>
               <isoCode>FR</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization source="corda" netEcContribution="1379875" totalCost="1379875" order="2" ecContribution="1379875" terminated="true" sme="true" type="participant">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1978952</rcn>
+        <id>907624442</id>
+        <vatNumber>NL858148158B01</vatNumber>
+        <legalName>Pasqal Netherlands BV</legalName>
+        <address>
+          <street>Fred. Roeskestraat 100</street>
+          <city>Amsterdam</city>
+          <postalCode>1076 ED</postalCode>
+          <country>NL</country>
+          <geolocation>52.3413517,4.8586787</geolocation>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PRC</code>
+              <title>Private for-profit entities (excluding Higher or Secondary Education Establishments)</title>
+              <displayCode readOnly="true">/Private for-profit entities (excluding Higher or Secondary Education Establishments)</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <rcn>1471664</rcn>
+              <nutsCode>NL32B</nutsCode>
+            </region>
+            <region type="relatedRegion">
+              <name>Netherlands</name>
+              <rcn>391547432</rcn>
+              <nutsCode>NL</nutsCode>
+              <euCode>NL</euCode>
+              <isoCode>NL</isoCode>
             </region>
           </regions>
         </relations>
@@ -1322,6 +1321,52 @@
       </result>
       <result source="corda" type="relatedResult">
         <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1391313</rcn>
+        <id>101080142_261106_PUBLIHORIZON</id>
+        <title>Efficient Thermalization and Universal Quantum Computing with Quantum Gibbs Samplers</title>
+        <details>
+          <authors>Cambyse Rouzé, Daniel Stilck França, Álvaro M. Alhambra</authors>
+          <journalNumber/>
+          <journalTitle>Proceedings of the 57th Annual ACM Symposium on Theory of Computing</journalTitle>
+          <publishedPages/>
+          <publishedYear>2025</publishedYear>
+          <publisher>ACM</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1145/3717823.3718268</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-11-10 13:03:02</sourceUpdateDate>
+        <contentUpdateDate>2025-11-17 13:40:58</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1099767</rcn>
         <id>101080142_29723_PUBLIHORIZON</id>
         <title>On the expressivity of embedding quantum kernels</title>
@@ -1506,6 +1551,52 @@
       </result>
       <result source="corda" type="relatedResult">
         <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1391321</rcn>
+        <id>101080142_261113_PUBLIHORIZON</id>
+        <title>Automated Reasoning in Quantum Circuit Compilation</title>
+        <details>
+          <authors>Dimitrios Thanos, Alejandro Villoria, Sebastiaan Brand, Arend-Jan Quist, Jingyi Mei, Tim Coopmans, Alfons Laarman</authors>
+          <journalNumber/>
+          <journalTitle>Lecture Notes in Computer Science, Model Checking Software</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>Springer Nature Switzerland</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1007/978-3-031-66149-5_6</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-11-10 13:03:02</sourceUpdateDate>
+        <contentUpdateDate>2025-11-17 13:40:58</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1131661</rcn>
         <id>101080142_21_DELIVHORIZON</id>
         <title>Market analysis, business model and upscaling</title>
@@ -1547,6 +1638,53 @@
               <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5fb2db84d&appId=PPGMS]]></physUrl>
             </webLink>
           </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1391315</rcn>
+        <id>101080142_261112_PUBLIHORIZON</id>
+        <title>Quantized Thouless pumps protected by interactions in dimerized Rydberg tweezer arrays</title>
+        <details>
+          <authors>Sergi Julià-Farré, Javier Argüello-Luengo, Loïc Henriet, Alexandre Dauphin</authors>
+          <journalNumber>110</journalNumber>
+          <journalTitle>Physical Review A</journalTitle>
+          <publishedPages/>
+          <publishedYear>2024</publishedYear>
+          <publisher>American Physical Society (APS)</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1103/PHYSREVA.110.023328</doi>
+          <issn>2469-9926</issn>
+        </identifiers>
+        <sourceUpdateDate>2025-11-10 13:03:02</sourceUpdateDate>
+        <contentUpdateDate>2025-11-17 13:40:58</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
         </relations>
       </result>
       <result source="corda" type="relatedResult">
@@ -1948,13 +2086,6 @@
         <code>/29/97/67681549/64785222</code>
         <title>revolutions</title>
         <displayCode readOnly="true">/social sciences/political sciences/political transitions/revolutions</displayCode>
-      </category>
-      <category classification="euroSciVoc" type="isInFieldOfScience">
-        <language>en</language>
-        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
-        <code>/23/49/335/1009</code>
-        <title>ecosystems</title>
-        <displayCode readOnly="true">/natural sciences/biological sciences/ecology/ecosystems</displayCode>
       </category>
       <category classification="euroSciVoc" type="isInFieldOfScience">
         <language>en</language>

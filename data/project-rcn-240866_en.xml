@@ -25,7 +25,7 @@
   <sourceUpdateDate>2025-07-04 19:21:33</sourceUpdateDate>
   <contentCreationDate readOnly="true">2022-09-04 12:47:23</contentCreationDate>
   <contentUpdateDate>2025-10-07 15:52:04</contentUpdateDate>
-  <lastUpdateDate readOnly="true">2025-10-07 15:52:17</lastUpdateDate>
+  <lastUpdateDate readOnly="true">2025-11-04 09:48:02</lastUpdateDate>
   <relations>
     <associations>
       <article source="editorial" type="relatedArticle">
@@ -389,7 +389,7 @@
         <shortName>EDP LABELEC</shortName>
         <address>
           <street>RUA CIDADE DE GOA 4 SACAVEM</street>
-          <city>Sacavem</city>
+          <city>LISBOA</city>
           <postalCode>2685 039</postalCode>
           <country>PT</country>
           <geolocation>38.7917968,-9.1040074</geolocation>
@@ -405,16 +405,19 @@
             </category>
           </categories>
           <regions>
-            <region type="relatedRegion">
+            <region type="relatedNutsCode">
               <name>Portugal</name>
               <rcn>427199016</rcn>
               <nutsCode>PT</nutsCode>
               <euCode>PT</euCode>
               <isoCode>PT</isoCode>
             </region>
-            <region type="relatedNutsCode">
-              <rcn>1471670</rcn>
-              <nutsCode>PT1A0</nutsCode>
+            <region type="relatedRegion">
+              <name>Portugal</name>
+              <rcn>427199016</rcn>
+              <nutsCode>PT</nutsCode>
+              <euCode>PT</euCode>
+              <isoCode>PT</isoCode>
             </region>
           </regions>
         </relations>
@@ -811,7 +814,7 @@
         <shortName>CORE INNOVATION</shortName>
         <address>
           <street>DELAGRAMMATIKA 5</street>
-          <city>Chalkis</city>
+          <city>CHALKIS</city>
           <postalCode>341 00</postalCode>
           <country>EL</country>
           <geolocation>40.702328,23.6960496</geolocation>
@@ -999,9 +1002,9 @@
         <legalName>CNET CENTRE FOR NEW ENERGY TECHNOLOGIES SA</legalName>
         <shortName>EDP CNET</shortName>
         <address>
-          <street>RUA CIDADE DE GOA 4</street>
-          <city>Sacavem E Prior Velho Lisboa</city>
-          <postalCode>2685 039</postalCode>
+          <street>RUA CIDADE DE GOA 2</street>
+          <city>LOURES</city>
+          <postalCode>2685-038</postalCode>
           <country>PT</country>
           <geolocation>38.7865898,-9.103713</geolocation>
         </address>
@@ -1101,7 +1104,7 @@
         <legalName>APS - ADMINISTRACAO DOS PORTOS DE SINES E DO ALGARVE, S.A.</legalName>
         <address>
           <street>SINES FREGUESIA</street>
-          <city>Sines</city>
+          <city>SINES</city>
           <postalCode>7521 953</postalCode>
           <country>PT</country>
           <geolocation>37.956549,-8.8689639</geolocation>
@@ -1118,8 +1121,11 @@
           </categories>
           <regions>
             <region type="relatedNutsCode">
-              <rcn>1471842</rcn>
-              <nutsCode>PT1C1</nutsCode>
+              <name>Portugal</name>
+              <rcn>427199016</rcn>
+              <nutsCode>PT</nutsCode>
+              <euCode>PT</euCode>
+              <isoCode>PT</isoCode>
             </region>
             <region type="relatedRegion">
               <name>Portugal</name>
@@ -1458,6 +1464,7 @@
           <city>Bergen</city>
           <postalCode>5014</postalCode>
           <country>NO</country>
+          <geolocation>60.3921075,5.3280035</geolocation>
         </address>
         <relations>
           <categories>
@@ -1646,6 +1653,51 @@
       </programme>
       <result source="corda" type="relatedResult">
         <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1383836</rcn>
+        <id>101075656_2_DELIVHORIZON</id>
+        <title>Pilots engineering, scenario description, KPIs and evaluation metrics</title>
+        <description>Deliverable 1.2 is the result of the work performed in T1.2 and T1.4. It will characterize, for each pilot, the identified use cases according to IEC-62559 standards and will include the technical specifications for all the identified equipments to be integrated in WP3. Furthermore, the deliverable will define representative metrics and indexes for characterizing each single component regarding their status before and after the demonstration. Two versions of this deliverable will be prepare, an initial one in M9, which will be updated until M23.</description>
+        <sourceUpdateDate>2025-10-28 03:20:27</sourceUpdateDate>
+        <contentUpdateDate>2025-11-04 09:47:58</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode readOnly="true">/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>72495fe2752bbd27ad2b6115b9049854</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5115fa615&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1278519</rcn>
         <id>101075656_137485_PUBLIHORIZON</id>
         <title>Adaptive flexibility function in smart energy systems: A linearized price-demand mapping approach</title>
@@ -1740,6 +1792,96 @@
       </result>
       <result source="corda" type="relatedResult">
         <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1381774</rcn>
+        <id>101075656_3_DELIVHORIZON</id>
+        <title><![CDATA[Requirements/functional specifications of EMS & SPT components]]></title>
+        <description>As a result of the activities in Task T1.3, this deliverable will formulate the description of the functional specifications and requirements of the Energy Management System (EMS) tool and the System Planning Toolbox (SPT).The deliverable will be the reference for the development of the tools in WP2 and their implementation in the pilots based mainly on the technical characteristics of the available resources and the user requirements (defined for the T1.2 use cases).</description>
+        <sourceUpdateDate>2025-10-28 03:20:27</sourceUpdateDate>
+        <contentUpdateDate>2025-10-31 11:13:29</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode readOnly="true">/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>912cc235eeb00b4d35e6f041d5d9551d</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e50abb3308&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1381760</rcn>
+        <id>101075656_15_DELIVHORIZON</id>
+        <title>Dissemination, Exploitation and Communication Plan</title>
+        <description><![CDATA[The deliverable presents the results of tasks T5.1 and T5.2 and includes all the components (dissemination, exploitation, communcation) of the DECP plan. Overall the latter sparks ELEXIA's impact and effects across different target groups by ensuring 1) dissimentation of ELEXIA's generated knowledge; 2) exploitation of project results by different stakeholders; 3) effective communication with targeted environments. Alongside with suitable social media channels, both responsible for communicating the project's progress to all the different target audiences]]></description>
+        <sourceUpdateDate>2025-10-28 03:20:27</sourceUpdateDate>
+        <contentUpdateDate>2025-10-31 11:13:24</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/DEC</code>
+              <title>Websites, patent fillings, videos etc.</title>
+              <displayCode readOnly="true">/Websites, patent fillings, videos etc.</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>ffd890de6a91e9ee299966ef460a64fc</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5f9f18269&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1304272</rcn>
         <id>101075656_156496_PUBLIHORIZON</id>
         <title>Frigg 2.0: Integrating price-based demand response into large-scale energy system analysis</title>
@@ -1783,6 +1925,51 @@
               <displayCode readOnly="true">/CORDA</displayCode>
             </category>
           </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1381761</rcn>
+        <id>101075656_23_DELIVHORIZON</id>
+        <title>Data management plan v.2</title>
+        <description>D 6.6. provides plan detailing what data within the project will be collected and generateed as well as whether and how the data and results will be shared or exploited. The deliverable is related to the task 6.4. and considers all aspects of project related data, information and IPR.</description>
+        <sourceUpdateDate>2025-10-28 03:20:27</sourceUpdateDate>
+        <contentUpdateDate>2025-10-31 11:13:24</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/DMP</code>
+              <title>Data Management Plan</title>
+              <displayCode readOnly="true">/Data Management Plan</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>880b7ac99c62bbf8dd0ae89b0193a740</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e50ad7cf30&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
         </relations>
       </result>
       <result source="corda" type="relatedResult">
@@ -2558,6 +2745,51 @@
               <displayCode readOnly="true">/CORDA</displayCode>
             </category>
           </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1381759</rcn>
+        <id>101075656_24_DELIVHORIZON</id>
+        <title>Data management plan v.3</title>
+        <description>D 6.7. provides plan detailing what data within the project will be collected and generateed as well as whether and how the data and results will be shared or exploited. The deliverable is related to the task 6.4. and considers all aspects of project related data, information and IPR.</description>
+        <sourceUpdateDate>2025-10-28 03:20:27</sourceUpdateDate>
+        <contentUpdateDate>2025-10-31 11:13:24</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/DMP</code>
+              <title>Data Management Plan</title>
+              <displayCode readOnly="true">/Data Management Plan</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>75b92bf51ded6f832258a2edcaa54e52</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e51a91ff29&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
         </relations>
       </result>
       <result source="corda" type="relatedResult">

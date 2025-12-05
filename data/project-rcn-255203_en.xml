@@ -26,7 +26,7 @@ In this project, we aim to (1) build an EU-wide data infrastructure, (2) develop
   <sourceUpdateDate>2025-01-03 10:47:16</sourceUpdateDate>
   <contentCreationDate readOnly="true">2023-07-27 16:44:39</contentCreationDate>
   <contentUpdateDate>2023-07-27 16:42:58</contentUpdateDate>
-  <lastUpdateDate readOnly="true">2025-09-17 15:03:23</lastUpdateDate>
+  <lastUpdateDate readOnly="true">2025-11-03 09:43:31</lastUpdateDate>
   <relations>
     <associations>
       <article source="editorial" type="relatedArticle">
@@ -546,11 +546,32 @@ In this project, we aim to (1) build an EU-wide data infrastructure, (2) develop
           </categories>
           <regions>
             <region type="relatedNutsCode">
-              <name>Serbia</name>
-              <rcn>460491304</rcn>
-              <nutsCode>RS</nutsCode>
-              <euCode>RS</euCode>
-              <isoCode>RS</isoCode>
+              <name>Београдска област</name>
+              <rcn>1464125</rcn>
+              <nutsCode>RS110</nutsCode>
+              <parents>
+                <region>
+                  <name>Београдски регион</name>
+                  <rcn>1465076</rcn>
+                  <nutsCode>RS11</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Србија - север </name>
+                      <rcn>1465075</rcn>
+                      <nutsCode>RS1</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Serbia</name>
+                          <rcn>460491304</rcn>
+                          <nutsCode>RS</nutsCode>
+                          <euCode>RS</euCode>
+                          <isoCode>RS</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
             </region>
             <region type="relatedRegion">
               <name>Serbia</name>
@@ -716,7 +737,7 @@ In this project, we aim to (1) build an EU-wide data infrastructure, (2) develop
         <shortName>U.PORTO</shortName>
         <address>
           <street>PRACA GOMES TEIXEIRA</street>
-          <city>Porto</city>
+          <city>PORTO</city>
           <postalCode>4099-002</postalCode>
           <country>PT</country>
           <postBox>000</postBox>

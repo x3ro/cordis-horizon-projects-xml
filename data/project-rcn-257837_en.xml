@@ -25,7 +25,7 @@
   <sourceUpdateDate>2025-05-19 07:26:02</sourceUpdateDate>
   <contentCreationDate readOnly="true">2023-11-03 12:01:47</contentCreationDate>
   <contentUpdateDate>2025-06-25 15:29:37</contentUpdateDate>
-  <lastUpdateDate readOnly="true">2025-09-19 14:48:53</lastUpdateDate>
+  <lastUpdateDate readOnly="true">2025-11-03 09:43:37</lastUpdateDate>
   <relations>
     <associations>
       <call source="corda" type="relatedMasterCall">
@@ -270,7 +270,7 @@
           </regions>
         </relations>
       </organization>
-      <organization sme="false" netEcContribution="46000" totalCost="0" ecContribution="46000" terminated="false" source="corda" order="6" type="participant">
+      <organization source="corda" order="6" ecContribution="46000" terminated="false" sme="false" netEcContribution="46000" totalCost="0" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1984661</rcn>
         <id>882952783</id>
@@ -376,7 +376,7 @@
           </regions>
         </relations>
       </organization>
-      <organization sme="false" netEcContribution="0" totalCost="0" source="corda" order="18" terminated="false" type="associatedPartner">
+      <organization source="corda" order="18" terminated="false" sme="false" netEcContribution="0" totalCost="0" type="associatedPartner">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1993053</rcn>
         <id>972446147</id>
@@ -461,7 +461,7 @@
           </regions>
         </relations>
       </organization>
-      <organization netEcContribution="0" totalCost="0" source="corda" order="10" terminated="false" sme="false" type="associatedPartner">
+      <organization source="corda" order="10" terminated="false" sme="false" netEcContribution="0" totalCost="0" type="associatedPartner">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1910330</rcn>
         <id>999890357</id>
@@ -542,7 +542,7 @@
           </regions>
         </relations>
       </organization>
-      <organization terminated="false" sme="false" netEcContribution="0" totalCost="0" source="corda" order="12" type="associatedPartner">
+      <organization source="corda" order="12" terminated="false" sme="false" netEcContribution="0" totalCost="0" type="associatedPartner">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>2117490</rcn>
         <id>998703271</id>
@@ -795,7 +795,7 @@
           </regions>
         </relations>
       </organization>
-      <organization order="16" terminated="false" sme="false" netEcContribution="0" totalCost="0" source="corda" type="associatedPartner">
+      <organization source="corda" order="16" terminated="false" sme="false" netEcContribution="0" totalCost="0" type="associatedPartner">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1984659</rcn>
         <id>882892255</id>
@@ -1119,6 +1119,51 @@
               <displayCode readOnly="true">/CORDA</displayCode>
             </category>
           </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1381796</rcn>
+        <id>101131146_1_DELIVHORIZON</id>
+        <title>A report for the typical LLI failure cases caused by geohazards</title>
+        <description>A report for the typical LLI failure cases caused by geohazards</description>
+        <sourceUpdateDate>2025-10-28 03:20:27</sourceUpdateDate>
+        <contentUpdateDate>2025-10-31 11:13:37</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode readOnly="true">/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>c8d10e2a60ff302581bc5e8ad0b17b58</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e51d491049&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
         </relations>
       </result>
       <result source="corda" type="relatedResult">

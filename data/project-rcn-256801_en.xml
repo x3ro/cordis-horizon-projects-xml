@@ -25,7 +25,7 @@
   <sourceUpdateDate>2025-01-03 10:47:16</sourceUpdateDate>
   <contentCreationDate readOnly="true">2023-09-11 10:01:44</contentCreationDate>
   <contentUpdateDate>2025-09-01 23:39:54</contentUpdateDate>
-  <lastUpdateDate readOnly="true">2025-09-19 14:49:05</lastUpdateDate>
+  <lastUpdateDate readOnly="true">2025-11-24 13:05:24</lastUpdateDate>
   <relations>
     <associations>
       <article source="editorial" type="relatedArticle">
@@ -212,6 +212,51 @@
           </categories>
         </relations>
       </programme>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1393222</rcn>
+        <id>101076685_1_DELIVHORIZON</id>
+        <title>Data Management Plan</title>
+        <description>Drafting of Data Management Plan</description>
+        <sourceUpdateDate>2025-11-18 15:19:37</sourceUpdateDate>
+        <contentUpdateDate>2025-11-24 13:05:23</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/DMP</code>
+              <title>Data Management Plan</title>
+              <displayCode readOnly="true">/Data Management Plan</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>284eca44cf46610e10f076802f5abed4</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e52482c9c5&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
     </associations>
     <categories>
       <category classification="collection" type="belongsTo">
@@ -239,9 +284,9 @@
       <category classification="euroSciVoc" type="isInFieldOfScience">
         <language>en</language>
         <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
-        <code>/23/49/337/44114657</code>
-        <title>epigenetics</title>
-        <displayCode readOnly="true">/natural sciences/biological sciences/genetics/epigenetics</displayCode>
+        <code>/23/49/337/44114657/92678204</code>
+        <title>epigenomes</title>
+        <displayCode readOnly="true">/natural sciences/biological sciences/genetics/epigenetics/epigenomes</displayCode>
       </category>
       <category weight="0" classification="policyPriorities" type="marker">
         <language>en</language>
