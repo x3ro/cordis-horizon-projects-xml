@@ -19,3 +19,5 @@ jobs:
 
       - name: Update dataset
         run: scripts/update.sh
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
