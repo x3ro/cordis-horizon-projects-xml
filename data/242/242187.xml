@@ -25,7 +25,7 @@
   <sourceUpdateDate>2025-01-03 10:47:16</sourceUpdateDate>
   <contentCreationDate>2022-09-28 12:23:16</contentCreationDate>
   <contentUpdateDate>2022-09-28 12:22:34</contentUpdateDate>
-  <lastUpdateDate>2025-10-06 12:10:19</lastUpdateDate>
+  <lastUpdateDate>2025-11-27 08:05:36</lastUpdateDate>
   <relations>
     <associations>
       <article source="editorial" type="relatedArticle">
@@ -263,7 +263,7 @@
         <shortName>UNIZA</shortName>
         <address>
           <street>UNIVERZITNA 8215/1</street>
-          <city>Zilina</city>
+          <city>ZILINA</city>
           <postalCode>010 26</postalCode>
           <country>SK</country>
           <postBox>000</postBox>
@@ -282,32 +282,11 @@
           </categories>
           <regions>
             <region type="relatedNutsCode">
-              <name>Žilinský kraj</name>
-              <rcn>475005121</rcn>
-              <nutsCode>SK031</nutsCode>
-              <parents>
-                <region>
-                  <name>Stredné Slovensko</name>
-                  <rcn>475005160</rcn>
-                  <nutsCode>SK03</nutsCode>
-                  <parents>
-                    <region>
-                      <name>Slovensko</name>
-                      <rcn>475007528</rcn>
-                      <nutsCode>SK0</nutsCode>
-                      <parents>
-                        <region>
-                          <name>Slovakia</name>
-                          <rcn>475171368</rcn>
-                          <nutsCode>SK</nutsCode>
-                          <euCode>SK</euCode>
-                          <isoCode>SK</isoCode>
-                        </region>
-                      </parents>
-                    </region>
-                  </parents>
-                </region>
-              </parents>
+              <name>Slovakia</name>
+              <rcn>475171368</rcn>
+              <nutsCode>SK</nutsCode>
+              <euCode>SK</euCode>
+              <isoCode>SK</isoCode>
             </region>
             <region type="relatedRegion">
               <name>Slovakia</name>
@@ -1321,6 +1300,51 @@
               <code>/CONFERENCE_PROCEEDING</code>
               <title>Conference proceedings</title>
               <displayCode>/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1399679</rcn>
+        <id>101086250_6_DELIVHORIZON</id>
+        <title>The guideline for enhancing LD warning and mitigation</title>
+        <description>Recommendations on enhancing LD warning and mitigation from national to local scale under socio-economic and climate changes. Developing a guideline for downscaling land degradation forecasts and ensuring early warning information suitable for application in defining implementable mitigation actions.</description>
+        <sourceUpdateDate>2025-11-24 01:51:37</sourceUpdateDate>
+        <contentUpdateDate>2025-11-27 08:05:35</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>fbcaa4f6f2351902a9414e819a381a29</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e524fbe058&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
             </category>
             <category classification="source" type="isProvidedBy">
               <language>en</language>

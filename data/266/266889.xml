@@ -23,10 +23,10 @@ The project will be driven by the needs of potential stakeholders such as resear
   <validation>
     <euroSciVoc>false</euroSciVoc>
   </validation>
-  <sourceUpdateDate>2024-12-31 09:30:22</sourceUpdateDate>
+  <sourceUpdateDate>2025-10-20 17:38:03</sourceUpdateDate>
   <contentCreationDate>2024-10-25 14:03:31</contentCreationDate>
-  <contentUpdateDate>2025-09-01 23:31:02</contentUpdateDate>
-  <lastUpdateDate>2025-09-19 14:49:03</lastUpdateDate>
+  <contentUpdateDate>2025-11-26 10:41:45</contentUpdateDate>
+  <lastUpdateDate>2025-11-26 10:41:47</lastUpdateDate>
   <relations>
     <associations>
       <article source="editorial" type="relatedArticle">
@@ -79,7 +79,7 @@ The project will be driven by the needs of potential stakeholders such as resear
         <id>893397258</id>
         <vatNumber>ATU75828357</vatNumber>
         <legalName>SYRION INSTITUT ZUR FORDERUNG SYSTEMISCHER FORSCHUNG UND INNOVATION</legalName>
-        <shortName>INSTITUTE FOR SYSTEMIC RESEARCH AND INNOVATION</shortName>
+        <shortName>SYRION</shortName>
         <address>
           <street>HERRENGASSE 3</street>
           <city>Graz</city>
@@ -208,7 +208,7 @@ The project will be driven by the needs of potential stakeholders such as resear
         <shortName>UNIVERSITY OF DURHAM</shortName>
         <address>
           <street>STOCKTON ROAD THE PALATINE CENTRE</street>
-          <city>Durham</city>
+          <city>DURHAM</city>
           <postalCode>DH1 3LE</postalCode>
           <country>UK</country>
           <postBox>000</postBox>
@@ -337,7 +337,7 @@ The project will be driven by the needs of potential stakeholders such as resear
         <shortName>SSSA</shortName>
         <address>
           <street>PIAZZA MARTIRI DELLA LIBERTA 33</street>
-          <city>Pisa</city>
+          <city>PISA</city>
           <postalCode>56127</postalCode>
           <country>IT</country>
           <postBox>000</postBox>
@@ -402,7 +402,7 @@ The project will be driven by the needs of potential stakeholders such as resear
         <shortName>UNI GRAZ</shortName>
         <address>
           <street>UNIVERSITATSPLATZ 3</street>
-          <city>Graz</city>
+          <city>GRAZ</city>
           <postalCode>8010</postalCode>
           <country>AT</country>
           <postBox>000</postBox>
@@ -467,7 +467,7 @@ The project will be driven by the needs of potential stakeholders such as resear
         <shortName>Carbon Kapture  Ltd</shortName>
         <address>
           <street>JOLLIFFE HOUSE 32 WEST STREET</street>
-          <city>POOLE</city>
+          <city>Poole</city>
           <postalCode>BH15 1LD</postalCode>
           <country>UK</country>
           <geolocation>50.714417600000004,-1.9896890581145295</geolocation>
@@ -484,11 +484,32 @@ The project will be driven by the needs of potential stakeholders such as resear
           </categories>
           <regions>
             <region type="relatedNutsCode">
-              <name>United Kingdom</name>
-              <rcn>508725800</rcn>
-              <nutsCode>UK</nutsCode>
-              <euCode>UK</euCode>
-              <isoCode>GB</isoCode>
+              <name>Bournemouth</name>
+              <rcn>1464795</rcn>
+              <nutsCode>UKK24</nutsCode>
+              <parents>
+                <region>
+                  <name>Dorset and Somerset</name>
+                  <rcn>508641448</rcn>
+                  <nutsCode>UKK2</nutsCode>
+                  <parents>
+                    <region>
+                      <name>South West (England)</name>
+                      <rcn>508643880</rcn>
+                      <nutsCode>UKK</nutsCode>
+                      <parents>
+                        <region>
+                          <name>United Kingdom</name>
+                          <rcn>508725800</rcn>
+                          <nutsCode>UK</nutsCode>
+                          <euCode>UK</euCode>
+                          <isoCode>GB</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
             </region>
             <region type="relatedRegion">
               <name>United Kingdom</name>
@@ -671,9 +692,16 @@ The project will be driven by the needs of potential stakeholders such as resear
       <category classification="euroSciVoc" type="isInFieldOfScience">
         <language>en</language>
         <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
-        <code>/23/49/335/1009</code>
-        <title>ecosystems</title>
-        <displayCode>/natural sciences/biological sciences/ecology/ecosystems</displayCode>
+        <code>/23/49/335</code>
+        <title>ecology</title>
+        <displayCode>/natural sciences/biological sciences/ecology</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/25/73/453/58525161</code>
+        <title>sensors</title>
+        <displayCode>/engineering and technology/electrical engineering, electronic engineering, information engineering/electronic engineering/sensors</displayCode>
       </category>
       <category classification="policyPriorities" type="marker" weight="40">
         <language>en</language>

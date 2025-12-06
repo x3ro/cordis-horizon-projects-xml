@@ -26,7 +26,7 @@ To dissect ER function in neurons I will first characterize the composition of n
   <sourceUpdateDate>2025-01-03 10:47:16</sourceUpdateDate>
   <contentCreationDate>2022-07-25 14:28:08</contentCreationDate>
   <contentUpdateDate>2022-07-25 14:28:05</contentUpdateDate>
-  <lastUpdateDate>2025-09-19 14:48:50</lastUpdateDate>
+  <lastUpdateDate>2025-11-27 08:03:32</lastUpdateDate>
   <relations>
     <associations>
       <call source="corda" type="relatedMasterCall">
@@ -227,6 +227,53 @@ To dissect ER function in neurons I will first characterize the composition of n
         </identifiers>
         <sourceUpdateDate>2023-12-23 02:20:47</sourceUpdateDate>
         <contentUpdateDate>2023-08-22 20:16:08</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1398293</rcn>
+        <id>101040703_269013_PUBLIHORIZON</id>
+        <title>Proceedings of the National Academy of Sciences of the United States of America</title>
+        <details>
+          <authors>Gaga Kochlamazashvili; Aarti Swaminathan; Alexander Stumpf; Amit Kumar; York Posor; Dietmar Schmitz; Volker Haucke; Marijn Kuijpers</authors>
+          <journalNumber></journalNumber>
+          <journalTitle>Proceedings of the National Academy of Sciences</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2025</publishedYear>
+          <publisher>United States National Academy of Sciences</publisher>
+        </details>
+        <identifiers>
+          <issn>0027-8424</issn>
+          <doi>10.1073/PNAS.2413651122</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-11-24 01:51:37</sourceUpdateDate>
+        <contentUpdateDate>2025-11-27 08:03:31</contentUpdateDate>
         <relations>
           <categories>
             <category classification="collection" type="belongsTo">

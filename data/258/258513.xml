@@ -33,7 +33,7 @@ MICROORC will support the transition to more sustainable and healthy food system
   <sourceUpdateDate>2025-07-31 14:18:56</sourceUpdateDate>
   <contentCreationDate>2023-12-06 16:17:19</contentCreationDate>
   <contentUpdateDate>2025-09-16 13:17:14</contentUpdateDate>
-  <lastUpdateDate>2025-10-06 14:20:13</lastUpdateDate>
+  <lastUpdateDate>2025-11-18 18:24:07</lastUpdateDate>
   <relations>
     <associations>
       <article source="editorial" type="relatedArticle">
@@ -603,7 +603,7 @@ MICROORC will support the transition to more sustainable and healthy food system
         <shortName>UCP</shortName>
         <address>
           <street>PALMA DE CIMA</street>
-          <city>Lisboa</city>
+          <city>LISBOA</city>
           <postalCode>1649 023</postalCode>
           <country>PT</country>
           <url>http://www.ucp.pt</url>
@@ -620,16 +620,19 @@ MICROORC will support the transition to more sustainable and healthy food system
             </category>
           </categories>
           <regions>
-            <region type="relatedRegion">
+            <region type="relatedNutsCode">
               <name>Portugal</name>
               <rcn>427199016</rcn>
               <nutsCode>PT</nutsCode>
               <euCode>PT</euCode>
               <isoCode>PT</isoCode>
             </region>
-            <region type="relatedNutsCode">
-              <rcn>1471670</rcn>
-              <nutsCode>PT1A0</nutsCode>
+            <region type="relatedRegion">
+              <name>Portugal</name>
+              <rcn>427199016</rcn>
+              <nutsCode>PT</nutsCode>
+              <euCode>PT</euCode>
+              <isoCode>PT</isoCode>
             </region>
           </regions>
         </relations>
@@ -1483,6 +1486,51 @@ MICROORC will support the transition to more sustainable and healthy food system
       </programme>
       <result type="relatedResult" source="corda">
         <availableLanguages>en</availableLanguages>
+        <rcn>1375540</rcn>
+        <id>101136248_24_DELIVHORIZON</id>
+        <title>Website and social media profiles</title>
+        <description>Website and social media profiles</description>
+        <sourceUpdateDate>2025-10-20 17:42:54</sourceUpdateDate>
+        <contentUpdateDate>2025-10-28 17:51:48</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>345fa4955f34ecc8d2b7fc1f56b42735</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e50bb37db8&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/DEC</code>
+              <title>Websites, patent fillings, videos etc.</title>
+              <displayCode>/Websites, patent fillings, videos etc.</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
         <rcn>1367356</rcn>
         <id>101136248_229070_PUBLIHORIZON</id>
         <title>Evaluating Biosolutions for Sustainable Food Systems: A Review of Safety, Quality, Regulatory, and Sustainability Considerations Within the European Union</title>
@@ -1575,6 +1623,36 @@ MICROORC will support the transition to more sustainable and healthy food system
           </categories>
         </relations>
       </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1392356</rcn>
+        <id>101136248_PSHORIZON</id>
+        <title>Periodic Reporting for period 1 - MICROORC (MICROORC: ORCHESTRATING FOOD SYSTEM MICROBIOMES TO MINIMIZE FOOD WASTE)</title>
+        <description>periodic</description>
+        <teaser>Reducing food waste and loss is an important part of the efforts to reduce emissions of climate gases and pollution as well as land use. Microbial growth in food is an important contributor to food waste, both directly (making food unsafe or spoiled during storage) and...</teaser>
+        <sourceUpdateDate>2025-11-10 13:03:02</sourceUpdateDate>
+        <contentUpdateDate>2025-11-18 18:24:06</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/pubsum</code>
+              <title>Report Summary</title>
+              <description>Result: Publishable summary (FP7 SESAM) and Summary for publication (H2020 SyGMa)</description>
+              <displayCode>/Report Summary</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
     </associations>
     <categories>
       <category classification="collection" type="belongsTo">
@@ -1584,13 +1662,6 @@ MICROORC will support the transition to more sustainable and healthy food system
         <title>Project</title>
         <description>Project factsheets</description>
         <displayCode>/Project</displayCode>
-      </category>
-      <category classification="euroSciVoc" type="isInFieldOfScience">
-        <language>en</language>
-        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
-        <code>/25/73/453/457</code>
-        <title>control systems</title>
-        <displayCode>/engineering and technology/electrical engineering, electronic engineering, information engineering/electronic engineering/control systems</displayCode>
       </category>
       <category classification="euroSciVoc" type="isInFieldOfScience">
         <language>en</language>

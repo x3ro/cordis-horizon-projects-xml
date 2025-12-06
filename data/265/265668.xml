@@ -25,7 +25,7 @@
   <sourceUpdateDate>2024-12-31 09:30:22</sourceUpdateDate>
   <contentCreationDate>2024-09-09 19:04:14</contentCreationDate>
   <contentUpdateDate>2024-09-09 19:03:16</contentUpdateDate>
-  <lastUpdateDate>2025-09-19 14:48:48</lastUpdateDate>
+  <lastUpdateDate>2025-11-03 09:43:29</lastUpdateDate>
   <relations>
     <associations>
       <article source="editorial" type="relatedArticle">
@@ -145,7 +145,7 @@
         <legalName>ADVANCED MINERAL PROCESSING SL</legalName>
         <address>
           <street>PUERTO DE NAVACERRADA 12 POLIGONO</street>
-          <city>Mostoles</city>
+          <city>MOSTOLES</city>
           <postalCode>28935</postalCode>
           <country>ES</country>
           <geolocation>40.35097855,-3.8732036159620327</geolocation>
@@ -203,11 +203,12 @@
         <availableLanguages>en</availableLanguages>
         <rcn>2381646</rcn>
         <id>926249509</id>
+        <vatNumber>RS100627146</vatNumber>
         <legalName>MINING AND METALLURGY INSTITUTE BOR LTD</legalName>
         <shortName>Bor Institute</shortName>
         <address>
-          <street>ZELENI BULEVAR 35</street>
-          <city>Bor</city>
+          <street>Alberta Ajnstajna br.1</street>
+          <city>BOR</city>
           <postalCode>19210</postalCode>
           <country>RS</country>
           <geolocation>44.0939314,22.050363062991572</geolocation>
@@ -217,18 +218,39 @@
             <category classification="organizationActivityType" type="relatedOrganizationActivityType">
               <language>en</language>
               <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
-              <code>/OTH</code>
-              <title>Other</title>
-              <displayCode>/Other</displayCode>
+              <code>/REC</code>
+              <title>Research Organisations</title>
+              <displayCode>/Research Organisations</displayCode>
             </category>
           </categories>
           <regions>
             <region type="relatedNutsCode">
-              <name>Serbia</name>
-              <rcn>460491304</rcn>
-              <nutsCode>RS</nutsCode>
-              <euCode>RS</euCode>
-              <isoCode>RS</isoCode>
+              <name>Борска област</name>
+              <rcn>1465087</rcn>
+              <nutsCode>RS221</nutsCode>
+              <parents>
+                <region>
+                  <name>Регион Јужне и Источне Србије</name>
+                  <rcn>1465086</rcn>
+                  <nutsCode>RS22</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Србија - југ</name>
+                      <rcn>1465080</rcn>
+                      <nutsCode>RS2</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Serbia</name>
+                          <rcn>460491304</rcn>
+                          <nutsCode>RS</nutsCode>
+                          <euCode>RS</euCode>
+                          <isoCode>RS</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
             </region>
             <region type="relatedRegion">
               <name>Serbia</name>
@@ -1544,13 +1566,6 @@
         <title>Project</title>
         <description>Project factsheets</description>
         <displayCode>/Project</displayCode>
-      </category>
-      <category classification="euroSciVoc" type="isInFieldOfScience">
-        <language>en</language>
-        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
-        <code>/23/53/365/30816592</code>
-        <title>post-transition metals</title>
-        <displayCode>/natural sciences/chemical sciences/inorganic chemistry/post-transition metals</displayCode>
       </category>
       <category classification="policyPriorities" type="marker" weight="0">
         <language>en</language>

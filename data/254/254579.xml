@@ -22,10 +22,10 @@
   <validation>
     <euroSciVoc>false</euroSciVoc>
   </validation>
-  <sourceUpdateDate>2025-07-14 14:54:39</sourceUpdateDate>
+  <sourceUpdateDate>2025-10-20 17:38:03</sourceUpdateDate>
   <contentCreationDate>2023-07-24 11:33:22</contentCreationDate>
-  <contentUpdateDate>2025-09-16 12:59:06</contentUpdateDate>
-  <lastUpdateDate>2025-09-19 14:48:54</lastUpdateDate>
+  <contentUpdateDate>2025-11-03 16:46:14</contentUpdateDate>
+  <lastUpdateDate>2025-11-27 08:05:34</lastUpdateDate>
   <relations>
     <associations>
       <article source="editorial" type="relatedArticle">
@@ -515,7 +515,7 @@
         <shortName>SEABILITY</shortName>
         <address>
           <street>40 ZAN MOREAS</street>
-          <city>Athina</city>
+          <city>ATHENA</city>
           <postalCode>117 45</postalCode>
           <country>EL</country>
           <geolocation>37.9839412,23.7283052</geolocation>
@@ -639,7 +639,7 @@
         <shortName>ALICE</shortName>
         <address>
           <street>AVENUE JACQUES BREL 38/0</street>
-          <city>Bruxelles / Brussel</city>
+          <city>BRUXELLES</city>
           <postalCode>1200</postalCode>
           <country>BE</country>
           <geolocation>50.8465565,4.351697</geolocation>
@@ -767,7 +767,7 @@
         <shortName>KOIKI</shortName>
         <address>
           <street>AVENIDA MAZARREDO 47</street>
-          <city>Bilbao</city>
+          <city>BILBAO</city>
           <postalCode>48009</postalCode>
           <country>ES</country>
           <geolocation>43.4210267,-3.8476357</geolocation>
@@ -1035,32 +1035,11 @@
           </categories>
           <regions>
             <region type="relatedNutsCode">
-              <name>South-West</name>
-              <rcn>1464176</rcn>
-              <nutsCode>IE053</nutsCode>
-              <parents>
-                <region>
-                  <name>Southern</name>
-                  <rcn>1464993</rcn>
-                  <nutsCode>IE05</nutsCode>
-                  <parents>
-                    <region>
-                      <name>Ireland</name>
-                      <rcn>305662504</rcn>
-                      <nutsCode>IE0</nutsCode>
-                      <parents>
-                        <region>
-                          <name>Ireland</name>
-                          <rcn>305826344</rcn>
-                          <nutsCode>IE</nutsCode>
-                          <euCode>IE</euCode>
-                          <isoCode>IE</isoCode>
-                        </region>
-                      </parents>
-                    </region>
-                  </parents>
-                </region>
-              </parents>
+              <name>Ireland</name>
+              <rcn>305826344</rcn>
+              <nutsCode>IE</nutsCode>
+              <euCode>IE</euCode>
+              <isoCode>IE</isoCode>
             </region>
             <region type="relatedRegion">
               <name>Ireland</name>
@@ -1477,6 +1456,51 @@
           </categories>
         </relations>
       </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1399655</rcn>
+        <id>101104263_25_DELIVHORIZON</id>
+        <title>Project website and social media presence</title>
+        <description>This deliverable is related to the creation, release and continuous update of the project’s website and social media accounts, providing information about DELPHI progress, activities and outcomes.</description>
+        <sourceUpdateDate>2025-11-24 01:51:37</sourceUpdateDate>
+        <contentUpdateDate>2025-11-27 08:05:33</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>a85e6a587a1a77c96bf6fa9d5f50e723</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e52528d240&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/O</code>
+              <title>Other</title>
+              <displayCode>/Other</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
     </associations>
     <categories>
       <category classification="collection" type="belongsTo">
@@ -1486,13 +1510,6 @@
         <title>Project</title>
         <description>Project factsheets</description>
         <displayCode>/Project</displayCode>
-      </category>
-      <category classification="euroSciVoc" type="isInFieldOfScience">
-        <language>en</language>
-        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
-        <code>/29/99/547/1349</code>
-        <title>freight transport</title>
-        <displayCode>/social sciences/social geography/transport/freight transport</displayCode>
       </category>
       <category classification="euroSciVoc" type="isInFieldOfScience">
         <language>en</language>
@@ -1507,13 +1524,6 @@
         <code>/29/91/523/1311/1759</code>
         <title>e-commerce</title>
         <displayCode>/social sciences/economics and business/business and management/commerce/e-commerce</displayCode>
-      </category>
-      <category classification="euroSciVoc" type="isInFieldOfScience">
-        <language>en</language>
-        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
-        <code>/23/49/335/1009</code>
-        <title>ecosystems</title>
-        <displayCode>/natural sciences/biological sciences/ecology/ecosystems</displayCode>
       </category>
       <category classification="policyPriorities" type="marker" weight="0">
         <language>en</language>

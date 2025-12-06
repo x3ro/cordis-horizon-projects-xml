@@ -25,7 +25,7 @@
   <sourceUpdateDate>2023-12-19 22:55:29</sourceUpdateDate>
   <contentCreationDate>2023-07-25 18:43:00</contentCreationDate>
   <contentUpdateDate>2023-07-25 18:40:59</contentUpdateDate>
-  <lastUpdateDate>2025-09-30 12:24:00</lastUpdateDate>
+  <lastUpdateDate>2025-10-31 11:12:40</lastUpdateDate>
   <relations>
     <associations>
       <article source="editorial" type="relatedArticle">
@@ -204,7 +204,7 @@
         <shortName>UOW</shortName>
         <address>
           <street>REGENT STREET 309</street>
-          <city>London</city>
+          <city>LONDON</city>
           <postalCode>W1B 2UW</postalCode>
           <country>UK</country>
           <postBox>000</postBox>
@@ -266,11 +266,32 @@
           </categories>
           <regions>
             <region type="relatedNutsCode">
-              <name>Serbia</name>
-              <rcn>460491304</rcn>
-              <nutsCode>RS</nutsCode>
-              <euCode>RS</euCode>
-              <isoCode>RS</isoCode>
+              <name>Београдска област</name>
+              <rcn>1464125</rcn>
+              <nutsCode>RS110</nutsCode>
+              <parents>
+                <region>
+                  <name>Београдски регион</name>
+                  <rcn>1465076</rcn>
+                  <nutsCode>RS11</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Србија - север</name>
+                      <rcn>1465075</rcn>
+                      <nutsCode>RS1</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Serbia</name>
+                          <rcn>460491304</rcn>
+                          <nutsCode>RS</nutsCode>
+                          <euCode>RS</euCode>
+                          <isoCode>RS</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
             </region>
             <region type="relatedRegion">
               <name>Serbia</name>
@@ -810,6 +831,96 @@
       </result>
       <result type="relatedResult" source="corda">
         <availableLanguages>en</availableLanguages>
+        <rcn>1381608</rcn>
+        <id>101114648_60_DELIVHORIZON</id>
+        <title>Engage 2 Open Science - interim report</title>
+        <description>Interim report on the implementation of Engage 2 open science pilot</description>
+        <sourceUpdateDate>2025-10-28 03:20:27</sourceUpdateDate>
+        <contentUpdateDate>2025-10-31 11:12:34</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>9a412105eaefb42449e00b9aae648cac</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e523510e42&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1381615</rcn>
+        <id>101114648_28_DELIVHORIZON</id>
+        <title>Updated Data Management Plan</title>
+        <description>Updated plan for data mamagement</description>
+        <sourceUpdateDate>2025-10-28 03:20:27</sourceUpdateDate>
+        <contentUpdateDate>2025-10-31 11:12:37</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>e946d17941819055bd1ee7237caf714f</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e523db4359&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/DMP</code>
+              <title>Data Management Plan</title>
+              <displayCode>/Data Management Plan</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
         <rcn>1336791</rcn>
         <id>101114648_19_DELIVHORIZON</id>
         <title>Thematic topics wave 2</title>
@@ -1175,8 +1286,8 @@
         <title>Periodic Reporting for period 2 - Engage 2 (The SESAR 3 Knowledge Transfer Network)</title>
         <description>periodic</description>
         <teaser>Engage 2, building upon the foundation laid by the previous Engage Knowledge Transfer Network (KTN), aims to address the evolving needs of the aviation sector by equipping the next generation of aviation professionals with the skills required for the digital era. The project...</teaser>
-        <sourceUpdateDate>2025-09-22 14:12:01</sourceUpdateDate>
-        <contentUpdateDate>2025-09-30 12:23:59</contentUpdateDate>
+        <sourceUpdateDate>2025-10-20 17:42:54</sourceUpdateDate>
+        <contentUpdateDate>2025-10-27 16:42:08</contentUpdateDate>
         <relations>
           <categories>
             <category classification="collection" type="belongsTo">
@@ -1186,6 +1297,51 @@
               <title>Report Summary</title>
               <description>Result: Publishable summary (FP7 SESAM) and Summary for publication (H2020 SyGMa)</description>
               <displayCode>/Report Summary</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1381609</rcn>
+        <id>101114648_17_DELIVHORIZON</id>
+        <title>ATM concept roadmap - initial</title>
+        <description>Initial concise reporting on ATM concepts roadmap</description>
+        <sourceUpdateDate>2025-10-28 03:20:27</sourceUpdateDate>
+        <contentUpdateDate>2025-10-31 11:12:34</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>3a108aef1a6aae862187ac9c348336bf</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e523510f48&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
             </category>
             <category classification="source" type="isProvidedBy">
               <language>en</language>
@@ -1213,6 +1369,51 @@
               <availableLanguages>en</availableLanguages>
               <id>cb3f745791458ed7e135a31d5de1ebab</id>
               <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e51f9cf35c&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1381616</rcn>
+        <id>101114648_59_DELIVHORIZON</id>
+        <title>Second updated dissemination and communication strategy + Report</title>
+        <description>Updated plan of dissemination and communication activities together with a report on activities performed in the previous period (Summer Schools, Open Days, Hackathons, workshops, rountable discussion, etc. organised in that period) and lessons learned</description>
+        <sourceUpdateDate>2025-10-28 03:20:27</sourceUpdateDate>
+        <contentUpdateDate>2025-10-31 11:12:37</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>10c7c4f84d557e962fd66d825cfa57b7</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e52235c010&amp;appId=PPGMS</physUrl>
               <defaultLanguage>en</defaultLanguage>
             </webLink>
           </associations>
