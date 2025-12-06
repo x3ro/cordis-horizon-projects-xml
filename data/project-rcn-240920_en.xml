@@ -23,10 +23,10 @@ The consortium will focus on the co-creation of an investigation protocol center
   <validation>
     <euroSciVoc>false</euroSciVoc>
   </validation>
-  <sourceUpdateDate>2025-07-30 14:50:22</sourceUpdateDate>
+  <sourceUpdateDate>2025-10-20 17:38:03</sourceUpdateDate>
   <contentCreationDate readOnly="true">2022-09-15 14:28:45</contentCreationDate>
-  <contentUpdateDate>2025-07-30 14:50:22</contentUpdateDate>
-  <lastUpdateDate readOnly="true">2025-10-16 08:50:19</lastUpdateDate>
+  <contentUpdateDate>2025-11-03 16:39:58</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-11-11 13:27:02</lastUpdateDate>
   <relations>
     <associations>
       <article source="editorial" type="relatedArticle">
@@ -318,7 +318,7 @@ The consortium will focus on the co-creation of an investigation protocol center
           </regions>
         </relations>
       </organization>
-      <organization source="corda" order="10" ecContribution="201250" terminated="false" sme="false" netEcContribution="201250" totalCost="201250" type="participant">
+      <organization source="corda" order="10" ecContribution="201250" terminated="false" netEcContribution="201250" totalCost="201250" sme="false" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1977580</rcn>
         <id>892840187</id>
@@ -381,7 +381,7 @@ The consortium will focus on the co-creation of an investigation protocol center
           </regions>
         </relations>
       </organization>
-      <organization source="corda" order="4" ecContribution="237500" terminated="false" sme="false" netEcContribution="237500" totalCost="237500" type="participant">
+      <organization netEcContribution="237500" source="corda" order="4" ecContribution="237500" terminated="false" sme="false" totalCost="237500" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1913519</rcn>
         <id>999513706</id>
@@ -600,7 +600,7 @@ The consortium will focus on the co-creation of an investigation protocol center
         <shortName>GEOVILLE</shortName>
         <address>
           <street>SPARKASSENPLATZ 2</street>
-          <city>Innsbruck</city>
+          <city>INNSBRUCK</city>
           <postalCode>6020</postalCode>
           <country>AT</country>
           <postBox>000</postBox>
@@ -656,7 +656,7 @@ The consortium will focus on the co-creation of an investigation protocol center
           </regions>
         </relations>
       </organization>
-      <organization source="corda" order="17" ecContribution="107500" terminated="false" sme="false" totalCost="107500" netEcContribution="107500" type="participant">
+      <organization terminated="false" source="corda" order="17" ecContribution="107500" sme="false" netEcContribution="107500" totalCost="107500" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1977586</rcn>
         <id>907332957</id>
@@ -856,7 +856,7 @@ The consortium will focus on the co-creation of an investigation protocol center
         <address>
           <street>P KANELLOPOULOU 4 ST</street>
           <city>ATHINA</city>
-          <postalCode>10 177</postalCode>
+          <postalCode>101 77</postalCode>
           <country>EL</country>
           <postBox>000</postBox>
           <url>http://www.kemea.gr</url>
@@ -954,7 +954,7 @@ The consortium will focus on the co-creation of an investigation protocol center
           </regions>
         </relations>
       </organization>
-      <organization source="corda" order="20" terminated="false" sme="true" netEcContribution="0" totalCost="0" type="associatedPartner">
+      <organization terminated="false" sme="true" netEcContribution="0" totalCost="0" source="corda" order="20" type="associatedPartner">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1977574</rcn>
         <id>919419836</id>
@@ -1143,11 +1143,32 @@ The consortium will focus on the co-creation of an investigation protocol center
           </categories>
           <regions>
             <region type="relatedNutsCode">
-              <name>Romania</name>
-              <rcn>459442728</rcn>
-              <nutsCode>RO</nutsCode>
-              <euCode>RO</euCode>
-              <isoCode>RO</isoCode>
+              <name>Bucureşti</name>
+              <rcn>459288705</rcn>
+              <nutsCode>RO321</nutsCode>
+              <parents>
+                <region>
+                  <name>Bucureşti-Ilfov</name>
+                  <rcn>459288744</rcn>
+                  <nutsCode>RO32</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Macroregiunea Trei</name>
+                      <rcn>459291176</rcn>
+                      <nutsCode>RO3</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Romania</name>
+                          <rcn>459442728</rcn>
+                          <nutsCode>RO</nutsCode>
+                          <euCode>RO</euCode>
+                          <isoCode>RO</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
             </region>
             <region type="relatedRegion">
               <name>Romania</name>
@@ -1346,7 +1367,7 @@ The consortium will focus on the co-creation of an investigation protocol center
           </regions>
         </relations>
       </organization>
-      <organization ecContribution="387275" terminated="false" source="corda" order="1" sme="false" netEcContribution="249025" totalCost="553250" type="coordinator">
+      <organization source="corda" order="1" ecContribution="387275" terminated="false" sme="false" netEcContribution="249025" totalCost="553250" type="coordinator">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1905877</rcn>
         <id>999905004</id>
@@ -1531,13 +1552,6 @@ The consortium will focus on the co-creation of an investigation protocol center
             <category classification="topicKeyword" type="isAbout">
               <language>en</language>
               <availableLanguages readOnly="true">en</availableLanguages>
-              <code>/43451803</code>
-              <title>Environmental sciences (social aspects)</title>
-              <displayCode readOnly="true">/Environmental sciences (social aspects)</displayCode>
-            </category>
-            <category classification="topicKeyword" type="isAbout">
-              <language>en</language>
-              <availableLanguages readOnly="true">en</availableLanguages>
               <code>/43452091</code>
               <title>Fight against trafficking</title>
               <displayCode readOnly="true">/Fight against trafficking</displayCode>
@@ -1552,16 +1566,23 @@ The consortium will focus on the co-creation of an investigation protocol center
             <category classification="topicKeyword" type="isAbout">
               <language>en</language>
               <availableLanguages readOnly="true">en</availableLanguages>
-              <code>/43616660</code>
-              <title>Electronic evidence</title>
-              <displayCode readOnly="true">/Electronic evidence</displayCode>
+              <code>/42849494</code>
+              <title>Fight against crime and terrorism</title>
+              <displayCode readOnly="true">/Fight against crime and terrorism</displayCode>
             </category>
             <category classification="topicKeyword" type="isAbout">
               <language>en</language>
               <availableLanguages readOnly="true">en</availableLanguages>
-              <code>/42849494</code>
-              <title>Fight against crime and terrorism</title>
-              <displayCode readOnly="true">/Fight against crime and terrorism</displayCode>
+              <code>/43451803</code>
+              <title>Environmental sciences (social aspects)</title>
+              <displayCode readOnly="true">/Environmental sciences (social aspects)</displayCode>
+            </category>
+            <category classification="topicKeyword" type="isAbout">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <code>/43616660</code>
+              <title>Electronic evidence</title>
+              <displayCode readOnly="true">/Electronic evidence</displayCode>
             </category>
             <category classification="topicKeyword" type="isAbout">
               <language>en</language>
@@ -1822,8 +1843,8 @@ The consortium will focus on the co-creation of an investigation protocol center
         <identifiers>
           <doi>10.3233/FAIA241047</doi>
         </identifiers>
-        <sourceUpdateDate>2025-10-07 05:06:23</sourceUpdateDate>
-        <contentUpdateDate>2025-10-16 08:50:18</contentUpdateDate>
+        <sourceUpdateDate>2025-10-20 17:42:54</sourceUpdateDate>
+        <contentUpdateDate>2025-11-11 13:26:59</contentUpdateDate>
         <relations>
           <categories>
             <category classification="collection" type="belongsTo">
@@ -1868,8 +1889,8 @@ The consortium will focus on the co-creation of an investigation protocol center
         <identifiers>
           <doi>10.5281/ZENODO.10665480</doi>
         </identifiers>
-        <sourceUpdateDate>2025-10-07 05:06:23</sourceUpdateDate>
-        <contentUpdateDate>2025-10-16 08:50:17</contentUpdateDate>
+        <sourceUpdateDate>2025-10-20 17:42:54</sourceUpdateDate>
+        <contentUpdateDate>2025-11-11 13:26:59</contentUpdateDate>
         <relations>
           <categories>
             <category classification="collection" type="belongsTo">
@@ -1959,8 +1980,8 @@ The consortium will focus on the co-creation of an investigation protocol center
         <identifiers>
           <doi>10.5281/ZENODO.16313044</doi>
         </identifiers>
-        <sourceUpdateDate>2025-10-07 05:06:23</sourceUpdateDate>
-        <contentUpdateDate>2025-10-16 08:50:18</contentUpdateDate>
+        <sourceUpdateDate>2025-10-20 17:42:54</sourceUpdateDate>
+        <contentUpdateDate>2025-11-11 13:26:59</contentUpdateDate>
         <relations>
           <categories>
             <category classification="collection" type="belongsTo">
@@ -2006,8 +2027,8 @@ The consortium will focus on the co-creation of an investigation protocol center
           <doi>10.5281/ZENODO.16418161</doi>
           <isbn>978-88-99719-52-4</isbn>
         </identifiers>
-        <sourceUpdateDate>2025-10-07 05:06:23</sourceUpdateDate>
-        <contentUpdateDate>2025-10-16 08:50:17</contentUpdateDate>
+        <sourceUpdateDate>2025-10-20 17:42:54</sourceUpdateDate>
+        <contentUpdateDate>2025-11-11 13:26:59</contentUpdateDate>
         <relations>
           <categories>
             <category classification="collection" type="belongsTo">
@@ -2098,8 +2119,8 @@ The consortium will focus on the co-creation of an investigation protocol center
         <identifiers>
           <doi>10.5281/ZENODO.13860504</doi>
         </identifiers>
-        <sourceUpdateDate>2025-10-07 05:06:23</sourceUpdateDate>
-        <contentUpdateDate>2025-10-16 08:50:18</contentUpdateDate>
+        <sourceUpdateDate>2025-10-20 17:42:54</sourceUpdateDate>
+        <contentUpdateDate>2025-11-11 13:27:00</contentUpdateDate>
         <relations>
           <categories>
             <category classification="collection" type="belongsTo">
@@ -2189,8 +2210,8 @@ The consortium will focus on the co-creation of an investigation protocol center
         <identifiers>
           <doi>10.5281/ZENODO.13860093</doi>
         </identifiers>
-        <sourceUpdateDate>2025-10-07 05:06:23</sourceUpdateDate>
-        <contentUpdateDate>2025-10-16 08:50:17</contentUpdateDate>
+        <sourceUpdateDate>2025-10-20 17:42:54</sourceUpdateDate>
+        <contentUpdateDate>2025-11-11 13:26:58</contentUpdateDate>
         <relations>
           <categories>
             <category classification="collection" type="belongsTo">
@@ -2236,8 +2257,8 @@ The consortium will focus on the co-creation of an investigation protocol center
           <doi>10.1007/978-3-031-58547-0_13</doi>
           <isbn>978-3-031-58547-0</isbn>
         </identifiers>
-        <sourceUpdateDate>2025-10-07 05:06:23</sourceUpdateDate>
-        <contentUpdateDate>2025-10-16 08:50:18</contentUpdateDate>
+        <sourceUpdateDate>2025-10-20 17:42:54</sourceUpdateDate>
+        <contentUpdateDate>2025-11-11 13:27:00</contentUpdateDate>
         <relations>
           <categories>
             <category classification="collection" type="belongsTo">

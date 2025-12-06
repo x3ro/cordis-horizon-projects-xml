@@ -22,10 +22,10 @@
   <validation>
     <euroSciVoc>false</euroSciVoc>
   </validation>
-  <sourceUpdateDate>2025-07-09 12:28:30</sourceUpdateDate>
+  <sourceUpdateDate>2025-10-28 03:12:43</sourceUpdateDate>
   <contentCreationDate readOnly="true">2022-08-26 02:23:13</contentCreationDate>
-  <contentUpdateDate>2025-07-25 10:12:03</contentUpdateDate>
-  <lastUpdateDate readOnly="true">2025-10-28 10:16:12</lastUpdateDate>
+  <contentUpdateDate>2025-11-03 16:02:56</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-11-17 13:40:39</lastUpdateDate>
   <relations>
     <associations>
       <article source="editorial" type="relatedArticle">
@@ -255,7 +255,7 @@
           </regions>
         </relations>
       </organization>
-      <organization source="corda" order="6" ecContribution="441750" terminated="false" sme="false" netEcContribution="441750" totalCost="441750" type="participant">
+      <organization order="6" ecContribution="441750" terminated="false" sme="false" source="corda" netEcContribution="441750" totalCost="441750" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1906036</rcn>
         <id>999988909</id>
@@ -297,7 +297,7 @@
           </regions>
         </relations>
       </organization>
-      <organization netEcContribution="1294723.75" totalCost="1294723.75" source="corda" order="1" ecContribution="1294723.75" terminated="false" sme="false" type="coordinator">
+      <organization source="corda" order="1" ecContribution="1294723.75" terminated="false" sme="false" netEcContribution="1294723.75" totalCost="1294723.75" type="coordinator">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1905804</rcn>
         <id>999613422</id>
@@ -621,7 +621,7 @@
           </regions>
         </relations>
       </organization>
-      <organization source="corda" order="9" ecContribution="328792.5" sme="true" netEcContribution="328792.5" totalCost="328792.5" terminated="false" type="participant">
+      <organization order="9" ecContribution="328792.5" terminated="false" sme="true" netEcContribution="328792.5" totalCost="328792.5" source="corda" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1965259</rcn>
         <id>912885237</id>
@@ -629,7 +629,7 @@
         <legalName>DANUBE PRIVATE UNIVERSITY GMBH</legalName>
         <address>
           <street>STEINER LANDSTRASSE 124</street>
-          <city>Krems-Stein</city>
+          <city>KREMS-STEIN</city>
           <postalCode>3500</postalCode>
           <country>AT</country>
           <geolocation>48.4003104,15.57585880094132</geolocation>
@@ -1099,6 +1099,49 @@
               <code>/PEER_REVIEWED_ARTICLE</code>
               <title>Peer reviewed articles</title>
               <displayCode readOnly="true">/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1391104</rcn>
+        <id>101070302_259135_PUBLIHORIZON</id>
+        <title>Reshaping the life-cycle of electronics with wood-based materials</title>
+        <details>
+          <authors>Václav Procházka</authors>
+          <journalNumber>5.10.2025</journalNumber>
+          <journalTitle>Pro Flextronics</journalTitle>
+          <publishedPages/>
+          <publishedYear>2025</publishedYear>
+          <publisher>M2N Media GmbH</publisher>
+        </details>
+        <sourceUpdateDate>2025-11-10 13:03:02</sourceUpdateDate>
+        <contentUpdateDate>2025-11-17 13:40:38</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/OTHER</code>
+              <title>Other</title>
+              <displayCode readOnly="true">/Other</displayCode>
             </category>
             <category classification="source" type="isProvidedBy">
               <language>en</language>

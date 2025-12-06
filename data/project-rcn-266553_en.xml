@@ -23,10 +23,10 @@
   <validation>
     <euroSciVoc>NA</euroSciVoc>
   </validation>
-  <sourceUpdateDate>2025-08-19 15:00:10</sourceUpdateDate>
+  <sourceUpdateDate>2025-10-20 17:38:03</sourceUpdateDate>
   <contentCreationDate readOnly="true">2024-10-09 16:54:25</contentCreationDate>
-  <contentUpdateDate>2025-09-24 11:44:01</contentUpdateDate>
-  <lastUpdateDate readOnly="true">2025-09-24 11:44:19</lastUpdateDate>
+  <contentUpdateDate>2025-10-28 17:28:26</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-11-10 18:17:12</lastUpdateDate>
   <relations>
     <associations>
       <call source="corda" type="relatedMasterCall">
@@ -39,7 +39,7 @@
         <title>HORIZON-MSCA-2023-COFUND-01</title>
         <identifier>HORIZON-MSCA-2023-COFUND-01</identifier>
       </call>
-      <organization order="5" terminated="false" sme="true" netEcContribution="0" totalCost="0" source="corda" type="associatedPartner">
+      <organization source="corda" order="5" terminated="false" sme="true" netEcContribution="0" totalCost="0" type="associatedPartner">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1989955</rcn>
         <id>904075988</id>
@@ -101,7 +101,7 @@
           </regions>
         </relations>
       </organization>
-      <organization source="corda" order="1" ecContribution="2016000" terminated="false" sme="false" netEcContribution="2016000" totalCost="0" type="coordinator">
+      <organization source="corda" order="1" ecContribution="2016000" sme="false" terminated="false" netEcContribution="2016000" totalCost="0" type="coordinator">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1908313</rcn>
         <id>949735440</id>
@@ -166,7 +166,7 @@
           </regions>
         </relations>
       </organization>
-      <organization terminated="false" sme="false" netEcContribution="0" totalCost="0" source="corda" order="4" type="associatedPartner">
+      <organization terminated="false" sme="false" order="4" netEcContribution="0" totalCost="0" source="corda" type="associatedPartner">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1906202</rcn>
         <id>999992692</id>
@@ -273,7 +273,7 @@
           </regions>
         </relations>
       </organization>
-      <organization source="corda" order="6" terminated="false" sme="false" netEcContribution="0" totalCost="0" type="associatedPartner">
+      <organization netEcContribution="0" totalCost="0" source="corda" order="6" terminated="false" sme="false" type="associatedPartner">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1907167</rcn>
         <id>999995796</id>
@@ -518,6 +518,51 @@
           </categories>
         </relations>
       </programme>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1387562</rcn>
+        <id>101179433_10_DELIVHORIZON</id>
+        <title>Call 1 - Report on dissemination activities</title>
+        <description>- Dates/Interval of call publication and dissemination channels/means (supporting documents are required as images, screen shots, photos from events).- Flyers, brochures, or other information produced for dissemination of the call- Presentations held at conferences and/or meetings and/or other events- Articles published in the press (please list and attach only main articles)- Any other means for advertising the programme</description>
+        <sourceUpdateDate>2025-11-07 07:45:43</sourceUpdateDate>
+        <contentUpdateDate>2025-11-10 18:17:11</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode readOnly="true">/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>ef39ba8c89d4aca69708a9dc2110c19a</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5244d4df9&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
       <result source="corda" type="relatedResult">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1256463</rcn>

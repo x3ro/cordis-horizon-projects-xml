@@ -21,10 +21,10 @@
   <validation>
     <euroSciVoc>false</euroSciVoc>
   </validation>
-  <sourceUpdateDate>2025-06-20 12:18:33</sourceUpdateDate>
+  <sourceUpdateDate>2025-10-28 03:12:43</sourceUpdateDate>
   <contentCreationDate readOnly="true">2023-11-21 16:53:17</contentCreationDate>
-  <contentUpdateDate>2025-06-20 12:18:33</contentUpdateDate>
-  <lastUpdateDate readOnly="true">2025-09-19 14:49:02</lastUpdateDate>
+  <contentUpdateDate>2025-11-03 16:18:22</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-11-03 16:18:46</lastUpdateDate>
   <relations>
     <associations>
       <article source="editorial" type="relatedArticle">
@@ -321,7 +321,7 @@
           </regions>
         </relations>
       </organization>
-      <organization order="5" ecContribution="684183.5" terminated="false" sme="false" netEcContribution="684183.5" totalCost="684183.5" source="corda" type="participant">
+      <organization totalCost="684183.5" source="corda" order="5" ecContribution="684183.5" terminated="false" sme="false" netEcContribution="684183.5" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>2104951</rcn>
         <id>932760440</id>
@@ -512,7 +512,7 @@
           </regions>
         </relations>
       </organization>
-      <organization source="corda" order="9" ecContribution="1142457.5" terminated="false" sme="false" netEcContribution="1142457.5" totalCost="1142457.5" type="participant">
+      <organization totalCost="1142457.5" source="corda" order="9" ecContribution="1142457.5" terminated="false" sme="false" netEcContribution="1142457.5" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1905579</rcn>
         <id>999981731</id>
@@ -641,7 +641,7 @@
           </regions>
         </relations>
       </organization>
-      <organization totalCost="434375" netEcContribution="283906.25" source="corda" order="6" ecContribution="434375" terminated="false" sme="false" type="participant">
+      <organization order="6" ecContribution="434375" terminated="false" sme="false" netEcContribution="283906.25" totalCost="434375" source="corda" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>3031745</rcn>
         <id>918451388</id>
@@ -833,7 +833,7 @@
           </regions>
         </relations>
       </organization>
-      <organization source="corda" order="11" ecContribution="352442.5" terminated="false" sme="false" netEcContribution="352442.5" totalCost="352442.5" type="participant">
+      <organization source="corda" order="11" ecContribution="352442.5" terminated="false" sme="true" netEcContribution="352442.5" totalCost="352442.5" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1983217</rcn>
         <id>885556166</id>
@@ -1319,6 +1319,51 @@
               <displayCode readOnly="true">/CORDA</displayCode>
             </category>
           </categories>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1375578</rcn>
+        <id>101136067_12_DELIVHORIZON</id>
+        <title>First prototype of task inversion and quality monitoring</title>
+        <description>Initial version of the s/w frameworks for flexible execution and planning of structured invertible tasks.</description>
+        <sourceUpdateDate>2025-10-20 17:42:54</sourceUpdateDate>
+        <contentUpdateDate>2025-10-28 17:52:12</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/O</code>
+              <title>Other</title>
+              <displayCode readOnly="true">/Other</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>f5ba35315c3bf0dea87e4fd9d7d55033</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e51eb9855b&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
         </relations>
       </result>
       <result source="corda" type="relatedResult">
@@ -2300,6 +2345,51 @@
       </result>
       <result source="corda" type="relatedResult">
         <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1375580</rcn>
+        <id>101136067_6_DELIVHORIZON</id>
+        <title>First prototype of scene and human understanding systems</title>
+        <description>Preliminary versions of the annotated dataset for visual perception, s/w for semantic scene labelling and online human motion segmentation.</description>
+        <sourceUpdateDate>2025-10-20 17:42:54</sourceUpdateDate>
+        <contentUpdateDate>2025-10-28 17:52:12</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/O</code>
+              <title>Other</title>
+              <displayCode readOnly="true">/Other</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>72ebbf0bcce8963f6a168adb7ac139d1</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e52174c260&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1337052</rcn>
         <id>101136067_9_DELIVHORIZON</id>
         <title>Knowledge base definition and organisation</title>
@@ -2483,6 +2573,36 @@
           </categories>
         </relations>
       </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1378134</rcn>
+        <id>101136067_PSHORIZON</id>
+        <title>Periodic Reporting for period 1 - INVERSE (INteractive robots that intuitiVely lEarn to inVErt tasks by ReaSoning about their Execution)</title>
+        <teaser>Project Context and ObjectivesThe INVERSE project addresses a key challenge in robotics: enabling robots to work effectively in real-world environments that are unpredictable and constantly changing. While Artificial Intelligence has made remarkable progress, most robots still...</teaser>
+        <description>periodic</description>
+        <sourceUpdateDate>2025-10-28 03:20:27</sourceUpdateDate>
+        <contentUpdateDate>2025-10-28 03:20:27</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/pubsum</code>
+              <title>Report Summary</title>
+              <description>Result: Publishable summary (FP7 SESAM) and Summary for publication (H2020 SyGMa)</description>
+              <displayCode readOnly="true">/Report Summary</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
     </associations>
     <categories>
       <category classification="collection" type="belongsTo">
@@ -2492,6 +2612,13 @@
         <title>Project</title>
         <description>Project factsheets</description>
         <displayCode readOnly="true">/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/25/73/453/459/1233</code>
+        <title>cognitive robots</title>
+        <displayCode readOnly="true">/engineering and technology/electrical engineering, electronic engineering, information engineering/electronic engineering/robotics/cognitive robots</displayCode>
       </category>
       <category weight="100" classification="policyPriorities" type="marker">
         <language>en</language>

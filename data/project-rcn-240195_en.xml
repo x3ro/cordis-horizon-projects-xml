@@ -22,10 +22,10 @@
   <validation>
     <euroSciVoc>false</euroSciVoc>
   </validation>
-  <sourceUpdateDate>2025-09-24 00:38:03</sourceUpdateDate>
+  <sourceUpdateDate>2025-10-20 17:38:03</sourceUpdateDate>
   <contentCreationDate readOnly="true">2022-08-26 15:30:23</contentCreationDate>
-  <contentUpdateDate>2025-10-22 11:51:21</contentUpdateDate>
-  <lastUpdateDate readOnly="true">2025-10-22 11:52:07</lastUpdateDate>
+  <contentUpdateDate>2025-11-11 10:21:28</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-11-11 10:21:47</lastUpdateDate>
   <relations>
     <associations>
       <article source="editorial" type="relatedArticle">
@@ -131,7 +131,7 @@
           </regions>
         </relations>
       </organization>
-      <organization totalCost="1138996.25" source="corda" order="1" ecContribution="1138996.25" terminated="false" sme="false" netEcContribution="1138996.25" type="coordinator">
+      <organization source="corda" order="1" ecContribution="1138996.25" terminated="false" sme="false" netEcContribution="1138996.25" totalCost="1138996.25" type="coordinator">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1905956</rcn>
         <id>999997736</id>
@@ -370,7 +370,7 @@
           </regions>
         </relations>
       </organization>
-      <organization source="corda" order="18" terminated="false" sme="false" netEcContribution="0" totalCost="0" type="associatedPartner">
+      <organization terminated="false" sme="false" netEcContribution="0" totalCost="0" source="corda" order="18" type="associatedPartner">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1905566</rcn>
         <id>999993468</id>
@@ -500,7 +500,7 @@
           </regions>
         </relations>
       </organization>
-      <organization sme="false" netEcContribution="350000" totalCost="350000" ecContribution="350000" terminated="false" source="corda" order="11" type="participant">
+      <organization source="corda" order="11" ecContribution="350000" terminated="false" sme="false" netEcContribution="350000" totalCost="350000" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>2001981</rcn>
         <id>997770131</id>
@@ -564,7 +564,7 @@
           </regions>
         </relations>
       </organization>
-      <organization source="corda" order="19" terminated="false" sme="false" netEcContribution="0" totalCost="0" type="associatedPartner">
+      <organization terminated="false" sme="false" netEcContribution="0" totalCost="0" source="corda" order="19" type="associatedPartner">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1905675</rcn>
         <id>999973971</id>
@@ -825,7 +825,7 @@
           </regions>
         </relations>
       </organization>
-      <organization source="corda" order="7" ecContribution="0" terminated="false" sme="false" netEcContribution="71502.5" totalCost="0" type="thirdParty">
+      <organization terminated="false" sme="false" netEcContribution="71502.5" totalCost="0" order="7" ecContribution="0" source="corda" type="thirdParty">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1907382</rcn>
         <id>999523115</id>
@@ -1252,7 +1252,7 @@
           </regions>
         </relations>
       </organization>
-      <organization source="corda" order="4" ecContribution="312500" terminated="false" sme="false" netEcContribution="312500" totalCost="312500" type="participant">
+      <organization totalCost="312500" source="corda" order="4" ecContribution="312500" terminated="false" sme="false" netEcContribution="312500" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1905910</rcn>
         <id>999991334</id>
@@ -1639,6 +1639,51 @@
       </result>
       <result source="corda" type="relatedResult">
         <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1381247</rcn>
+        <id>101057100_44_DELIVHORIZON</id>
+        <title>Updated Data Management Plan</title>
+        <description>Report on the status of the project’s experiments. Assessment and final update of the Data Management Plan of UNDINE.</description>
+        <sourceUpdateDate>2025-10-28 03:20:27</sourceUpdateDate>
+        <contentUpdateDate>2025-10-31 11:10:34</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode readOnly="true">/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>e99ed18055c9c73bef7af88d1dae0756</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e523c9e85a&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1036370</rcn>
         <id>101057100_14513_PUBLIHORIZON</id>
         <title>International Journal of Molecular Sciences</title>
@@ -2019,8 +2064,8 @@
         <id>101057100_52_DELIVHORIZON</id>
         <title>Dissemination activities for the project in relation to work package 3</title>
         <description><![CDATA["Presentation in local/national radio/television outlining the projects goals, activities, results and its implications for public health. To also consider hosting a ""Night of Science"" event."]]></description>
-        <sourceUpdateDate>2025-09-16 13:35:51</sourceUpdateDate>
-        <contentUpdateDate>2025-09-22 16:46:37</contentUpdateDate>
+        <sourceUpdateDate>2025-10-20 17:42:54</sourceUpdateDate>
+        <contentUpdateDate>2025-10-28 18:36:15</contentUpdateDate>
         <relations>
           <categories>
             <category classification="collection" type="belongsTo">
@@ -2910,8 +2955,8 @@
         <id>101057100_7_DELIVHORIZON</id>
         <title>Characterisation of ancestry, age, and sex effects on immune responses to SARS-CoV-2</title>
         <description>Quantification of the respective contribution of intrinsic factors, together with previous exposure, to the diversity of the immune response following SARS-CoV-2 infection.</description>
-        <sourceUpdateDate>2025-09-16 13:35:51</sourceUpdateDate>
-        <contentUpdateDate>2025-09-22 16:46:42</contentUpdateDate>
+        <sourceUpdateDate>2025-10-20 17:42:54</sourceUpdateDate>
+        <contentUpdateDate>2025-10-28 18:36:17</contentUpdateDate>
         <relations>
           <categories>
             <category classification="collection" type="belongsTo">
@@ -3235,8 +3280,8 @@
         <id>101057100_46_DELIVHORIZON</id>
         <title>Postdoc projects completed</title>
         <description>Status and verification of publication and communication output.</description>
-        <sourceUpdateDate>2025-09-16 13:35:51</sourceUpdateDate>
-        <contentUpdateDate>2025-09-22 16:46:37</contentUpdateDate>
+        <sourceUpdateDate>2025-10-20 17:42:54</sourceUpdateDate>
+        <contentUpdateDate>2025-10-28 18:36:15</contentUpdateDate>
         <relations>
           <categories>
             <category classification="collection" type="belongsTo">
@@ -3268,8 +3313,8 @@
               <language>en</language>
               <availableLanguages readOnly="true">en</availableLanguages>
               <defaultLanguage>en</defaultLanguage>
-              <id>309024c3d33efa694bdbb8ba531f23ac</id>
-              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e51ff11500&appId=PPGMS]]></physUrl>
+              <id>d13c26d654bd96171fb8c65c589e6b43</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e523634f8c&appId=PPGMS]]></physUrl>
             </webLink>
           </associations>
         </relations>
@@ -3842,8 +3887,8 @@
         <id>101057100_54_DELIVHORIZON</id>
         <title>Dissemination activities for the project in relation to work package 5</title>
         <description><![CDATA["Presentation in local/national radio/television outlining the projects goals, activities, results and its implications for public health. To also consider hosting a ""Night of Science"" event."]]></description>
-        <sourceUpdateDate>2025-09-16 13:35:51</sourceUpdateDate>
-        <contentUpdateDate>2025-09-22 16:46:41</contentUpdateDate>
+        <sourceUpdateDate>2025-10-20 17:42:54</sourceUpdateDate>
+        <contentUpdateDate>2025-10-28 18:36:17</contentUpdateDate>
         <relations>
           <categories>
             <category classification="collection" type="belongsTo">
@@ -3934,8 +3979,8 @@
         <id>101057100_4_DELIVHORIZON</id>
         <title>Provision of a database for a second set of prospectively included patients</title>
         <description>Precise listing of numbers of patients and clinical data prospectively included within different disease categories from all partner institutions.</description>
-        <sourceUpdateDate>2025-09-16 13:35:51</sourceUpdateDate>
-        <contentUpdateDate>2025-09-22 16:46:33</contentUpdateDate>
+        <sourceUpdateDate>2025-10-20 17:42:54</sourceUpdateDate>
+        <contentUpdateDate>2025-10-28 18:36:14</contentUpdateDate>
         <relations>
           <categories>
             <category classification="collection" type="belongsTo">
@@ -4026,8 +4071,8 @@
         <id>101057100_56_DELIVHORIZON</id>
         <title>Dissemination activities for the project in relation to work package 7</title>
         <description><![CDATA["Presentation in local/national radio/television outlining the projects goals, activities, results and its implications for public health. To also consider hosting a ""Night of Science"" event."]]></description>
-        <sourceUpdateDate>2025-09-16 13:35:51</sourceUpdateDate>
-        <contentUpdateDate>2025-09-22 16:46:40</contentUpdateDate>
+        <sourceUpdateDate>2025-10-20 17:42:54</sourceUpdateDate>
+        <contentUpdateDate>2025-10-28 18:36:16</contentUpdateDate>
         <relations>
           <categories>
             <category classification="collection" type="belongsTo">
@@ -4383,8 +4428,8 @@
         <id>101057100_53_DELIVHORIZON</id>
         <title>Dissemination activities for the project in relation to work package 4</title>
         <description><![CDATA["Presentation in local/national radio/television outlining the projects goals, activities, results and its implications for public health. To also consider hosting a ""Night of Science"" event."]]></description>
-        <sourceUpdateDate>2025-09-16 13:35:51</sourceUpdateDate>
-        <contentUpdateDate>2025-09-22 16:46:38</contentUpdateDate>
+        <sourceUpdateDate>2025-10-20 17:42:54</sourceUpdateDate>
+        <contentUpdateDate>2025-10-28 18:36:15</contentUpdateDate>
         <relations>
           <categories>
             <category classification="collection" type="belongsTo">
@@ -5270,6 +5315,51 @@
       </result>
       <result source="corda" type="relatedResult">
         <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1375886</rcn>
+        <id>101057100_6_DELIVHORIZON</id>
+        <title>List of genes differentially expressed in cell types upon SARS-CoV-2 challenge ex vivo</title>
+        <description>Generation of single-cell resolution data on variability in the response to SARS-CoV-2 with specific focus on ancestry-specific transcriptional signatures</description>
+        <sourceUpdateDate>2025-10-20 17:42:54</sourceUpdateDate>
+        <contentUpdateDate>2025-10-28 17:54:53</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/DATA</code>
+              <title>Data sets, microdata, etc</title>
+              <displayCode readOnly="true">/Data sets, microdata, etc</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>c1aeb6b6d6059c36f74706c640338155</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e52363496e&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1342781</rcn>
         <id>101057100_203544_PUBLIHORIZON</id>
         <title>Human determinants of age-dependent patterns of death from infection</title>
@@ -5462,8 +5552,8 @@
         <id>101057100_55_DELIVHORIZON</id>
         <title>Dissemination activities for the project in relation to work package 6</title>
         <description><![CDATA["Presentation in local/national radio/television outlining the projects goals, activities, results and its implications for public health. To also consider hosting a ""Night of Science"" event."]]></description>
-        <sourceUpdateDate>2025-09-16 13:35:51</sourceUpdateDate>
-        <contentUpdateDate>2025-09-22 16:46:41</contentUpdateDate>
+        <sourceUpdateDate>2025-10-20 17:42:54</sourceUpdateDate>
+        <contentUpdateDate>2025-10-28 18:36:16</contentUpdateDate>
         <relations>
           <categories>
             <category classification="collection" type="belongsTo">

@@ -29,7 +29,7 @@ This project proposes two solutions that correspond to the described activities,
   <sourceUpdateDate>2025-02-27 13:38:02</sourceUpdateDate>
   <contentCreationDate readOnly="true">2023-07-11 15:42:40</contentCreationDate>
   <contentUpdateDate>2025-04-29 09:53:07</contentUpdateDate>
-  <lastUpdateDate readOnly="true">2025-09-19 14:48:39</lastUpdateDate>
+  <lastUpdateDate readOnly="true">2025-11-10 18:16:10</lastUpdateDate>
   <relations>
     <associations>
       <call source="corda" type="relatedMasterCall">
@@ -308,11 +308,11 @@ This project proposes two solutions that correspond to the described activities,
         <shortName>Royal Netherlands Aerospace Centre</shortName>
         <address>
           <street>ANTHONY FOKKERWEG 2</street>
-          <city>Amsterdam</city>
+          <city>AMSTERDAM</city>
           <postalCode>1059 CM</postalCode>
           <country>NL</country>
           <postBox>90502</postBox>
-          <url>http://www.nlr.nl</url>
+          <url>https://www.nlr.nl</url>
           <geolocation>52.3451042,4.8438265</geolocation>
         </address>
         <relations>
@@ -349,7 +349,7 @@ This project proposes two solutions that correspond to the described activities,
         <shortName>DEEP BLUE</shortName>
         <address>
           <street>VIA DANIELE MANIN 53</street>
-          <city>Roma</city>
+          <city>ROMA</city>
           <postalCode>00185</postalCode>
           <country>IT</country>
           <postBox>000</postBox>
@@ -477,7 +477,7 @@ This project proposes two solutions that correspond to the described activities,
         <shortName>ENAIRE</shortName>
         <address>
           <street>AVENIDA DE ARAGON S/N BLOQUE 330, PORTAL 2 PARQUE EMPRESARIAL LAS MERCEDES</street>
-          <city>Madrid</city>
+          <city>MADRID</city>
           <postalCode>28022</postalCode>
           <country>ES</country>
           <url>http://www.aena.es</url>
@@ -541,10 +541,10 @@ This project proposes two solutions that correspond to the described activities,
         <shortName>DLR</shortName>
         <address>
           <street>LINDER HOHE</street>
-          <city>Koln</city>
+          <city>KOLN</city>
           <postalCode>51147</postalCode>
           <country>DE</country>
-          <url>http://www.dlr.de/en/desktopdefault.aspx</url>
+          <url>https://www.dlr.de</url>
           <geolocation>50.848867,7.111538417241022</geolocation>
         </address>
         <departmentName>Administration North</departmentName>
@@ -560,9 +560,9 @@ This project proposes two solutions that correspond to the described activities,
           </categories>
           <regions>
             <region type="relatedNutsCode">
-              <name>Bonn, Kreisfreie Stadt</name>
-              <rcn>221814914</rcn>
-              <nutsCode>DEA22</nutsCode>
+              <name>Köln, Kreisfreie Stadt</name>
+              <rcn>221814915</rcn>
+              <nutsCode>DEA23</nutsCode>
               <parents>
                 <region>
                   <name>Köln</name>
@@ -606,7 +606,7 @@ This project proposes two solutions that correspond to the described activities,
         <shortName>INDRA</shortName>
         <address>
           <street>AVENIDA DE BRUSELAS 35</street>
-          <city>Alcobendas Madrid</city>
+          <city>ALCOBENDAS MADRID</city>
           <postalCode>28108</postalCode>
           <country>ES</country>
           <url>http://www.indracompany.com</url>
@@ -797,7 +797,7 @@ This project proposes two solutions that correspond to the described activities,
         <shortName>UPM</shortName>
         <address>
           <street>CALLE RAMIRO DE MAEZTU 7 EDIFICIO RECTORADO</street>
-          <city>Madrid</city>
+          <city>MADRID</city>
           <postalCode>28040</postalCode>
           <country>ES</country>
           <postBox>000</postBox>
@@ -1135,6 +1135,51 @@ This project proposes two solutions that correspond to the described activities,
               <defaultLanguage>en</defaultLanguage>
               <id>49c596d7885789bec10433569fa66e08</id>
               <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5028e65a1&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1387099</rcn>
+        <id>101114683_48_DELIVHORIZON</id>
+        <title>Communication, Dissemination and Exploitation Plan (Interim)</title>
+        <description>The CDE plan describes a detailed communication, dissemination and exploitation strategy, setting the objectives, messaging, target audiences, communication channels, social media plan, planned budget and relevant indicators for monitoring and evaluation.</description>
+        <sourceUpdateDate>2025-11-07 07:45:43</sourceUpdateDate>
+        <contentUpdateDate>2025-11-10 18:16:08</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode readOnly="true">/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>4851f4ffede2c4098eff3b90af4afff1</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5243a3648&appId=PPGMS]]></physUrl>
             </webLink>
           </associations>
         </relations>

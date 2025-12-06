@@ -22,10 +22,10 @@
   <validation>
     <euroSciVoc>false</euroSciVoc>
   </validation>
-  <sourceUpdateDate>2025-08-06 21:27:32</sourceUpdateDate>
+  <sourceUpdateDate>2025-10-20 17:38:03</sourceUpdateDate>
   <contentCreationDate readOnly="true">2024-05-28 11:38:38</contentCreationDate>
-  <contentUpdateDate>2025-09-16 13:26:06</contentUpdateDate>
-  <lastUpdateDate readOnly="true">2025-09-19 14:48:35</lastUpdateDate>
+  <contentUpdateDate>2025-11-05 11:12:06</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-11-05 11:12:43</lastUpdateDate>
   <relations>
     <associations>
       <call source="corda" type="relatedMasterCall">
@@ -101,7 +101,7 @@
           </regions>
         </relations>
       </organization>
-      <organization source="corda" order="16" terminated="false" sme="false" netEcContribution="0" totalCost="0" type="associatedPartner">
+      <organization sme="false" netEcContribution="0" totalCost="0" source="corda" order="16" terminated="false" type="associatedPartner">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1906756</rcn>
         <id>998365711</id>
@@ -173,7 +173,7 @@
         <shortName>DLG e.V.</shortName>
         <address>
           <street>ESCHBORNER LANDSTRASSE 122</street>
-          <city>Frankfurt Am Main</city>
+          <city>FRANKFURT AM MAIN</city>
           <postalCode>60489</postalCode>
           <country>DE</country>
           <url>https://www.dlg.org</url>
@@ -367,10 +367,10 @@
         <shortName>DLR</shortName>
         <address>
           <street>LINDER HOHE</street>
-          <city>Koln</city>
+          <city>KOLN</city>
           <postalCode>51147</postalCode>
           <country>DE</country>
-          <url>http://www.dlr.de/en/desktopdefault.aspx</url>
+          <url>https://www.dlr.de</url>
           <geolocation>50.848867,7.111538417241022</geolocation>
         </address>
         <departmentName>Administration North</departmentName>
@@ -386,9 +386,9 @@
           </categories>
           <regions>
             <region type="relatedNutsCode">
-              <name>Bonn, Kreisfreie Stadt</name>
-              <rcn>221814914</rcn>
-              <nutsCode>DEA22</nutsCode>
+              <name>Köln, Kreisfreie Stadt</name>
+              <rcn>221814915</rcn>
+              <nutsCode>DEA23</nutsCode>
               <parents>
                 <region>
                   <name>Köln</name>
@@ -789,7 +789,7 @@
         <shortName>AG FUTURA TECHNOLOGIES DOOEL SKOPJE</shortName>
         <address>
           <street>FRANKLIN ROOSEVELT 6/2-33</street>
-          <city>Skopje-Centar</city>
+          <city>SKOPJE-CENTAR</city>
           <country>MK</country>
           <geolocation>41.9960924,21.4316495</geolocation>
         </address>
@@ -829,7 +829,7 @@
         <legalName>CROPT DOO NOVI SAD</legalName>
         <address>
           <street>FRUSKOGORSKA 19</street>
-          <city>NOVI SAD</city>
+          <city>Novi Sad</city>
           <postalCode>21000</postalCode>
           <country>RS</country>
           <geolocation>45.280215,19.7856158</geolocation>
@@ -846,32 +846,11 @@
           </categories>
           <regions>
             <region type="relatedNutsCode">
-              <name>Јужнобачка област</name>
-              <rcn>1465470</rcn>
-              <nutsCode>RS123</nutsCode>
-              <parents>
-                <region>
-                  <name>Регион Војводине</name>
-                  <rcn>1465077</rcn>
-                  <nutsCode>RS12</nutsCode>
-                  <parents>
-                    <region>
-                      <name>Србија - север </name>
-                      <rcn>1465075</rcn>
-                      <nutsCode>RS1</nutsCode>
-                      <parents>
-                        <region>
-                          <name>Serbia</name>
-                          <rcn>460491304</rcn>
-                          <nutsCode>RS</nutsCode>
-                          <euCode>RS</euCode>
-                          <isoCode>RS</isoCode>
-                        </region>
-                      </parents>
-                    </region>
-                  </parents>
-                </region>
-              </parents>
+              <name>Serbia</name>
+              <rcn>460491304</rcn>
+              <nutsCode>RS</nutsCode>
+              <euCode>RS</euCode>
+              <isoCode>RS</isoCode>
             </region>
             <region type="relatedRegion">
               <name>Serbia</name>
@@ -955,7 +934,7 @@
         <shortName>CZECH UNIVERSITY OF LIFE SCIENCES PRAGUE</shortName>
         <address>
           <street>KAMYCKA 129 SUCHDOL</street>
-          <city>Praha</city>
+          <city>PRAHA</city>
           <postalCode>165 00</postalCode>
           <country>CZ</country>
           <postBox>000</postBox>
@@ -1095,6 +1074,13 @@
         <title>Project</title>
         <description>Project factsheets</description>
         <displayCode readOnly="true">/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/47/299</code>
+        <title>data science</title>
+        <displayCode readOnly="true">/natural sciences/computer and information sciences/data science</displayCode>
       </category>
       <category classification="euroSciVoc" type="isInFieldOfScience">
         <language>en</language>

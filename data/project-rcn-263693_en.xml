@@ -22,10 +22,10 @@
   <validation>
     <euroSciVoc>false</euroSciVoc>
   </validation>
-  <sourceUpdateDate>2025-10-13 08:58:02</sourceUpdateDate>
+  <sourceUpdateDate>2025-11-18 15:12:49</sourceUpdateDate>
   <contentCreationDate readOnly="true">2024-05-24 09:24:34</contentCreationDate>
-  <contentUpdateDate>2025-10-21 10:23:50</contentUpdateDate>
-  <lastUpdateDate readOnly="true">2025-10-21 10:24:21</lastUpdateDate>
+  <contentUpdateDate>2025-11-18 15:12:49</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-11-25 16:28:23</lastUpdateDate>
   <relations>
     <associations>
       <article source="editorial" type="relatedArticle">
@@ -72,7 +72,7 @@
         <title>HORIZON-JU-CBE-2023</title>
         <identifier>HORIZON-JU-CBE-2023</identifier>
       </call>
-      <organization source="corda" order="8" ecContribution="165375" terminated="false" sme="false" netEcContribution="165375" totalCost="275625" type="participant">
+      <organization ecContribution="165375" terminated="false" sme="false" netEcContribution="165375" totalCost="275625" source="corda" order="8" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1953556</rcn>
         <id>909654167</id>
@@ -198,7 +198,7 @@
           </regions>
         </relations>
       </organization>
-      <organization source="corda" order="2" terminated="false" sme="false" netEcContribution="254875" totalCost="254875" ecContribution="254875" type="participant">
+      <organization source="corda" order="2" ecContribution="254875" terminated="false" sme="false" netEcContribution="254875" totalCost="254875" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1905908</rcn>
         <id>999992886</id>
@@ -370,7 +370,7 @@
           </regions>
         </relations>
       </organization>
-      <organization source="corda" order="24" ecContribution="200668.5" terminated="false" sme="false" netEcContribution="200668.5" totalCost="334447.5" type="participant">
+      <organization order="24" ecContribution="200668.5" terminated="false" sme="false" source="corda" netEcContribution="200668.5" totalCost="334447.5" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1905841</rcn>
         <id>998733050</id>
@@ -435,7 +435,7 @@
           </regions>
         </relations>
       </organization>
-      <organization order="19" ecContribution="124706.25" terminated="false" sme="true" netEcContribution="124706.25" totalCost="207843.75" source="corda" type="participant">
+      <organization source="corda" order="19" ecContribution="124706.25" terminated="false" sme="true" netEcContribution="124706.25" totalCost="207843.75" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1913423</rcn>
         <id>971995582</id>
@@ -632,7 +632,7 @@
           </regions>
         </relations>
       </organization>
-      <organization sme="false" netEcContribution="436500" ecContribution="436500" terminated="false" source="corda" order="1" totalCost="436500" type="coordinator">
+      <organization source="corda" order="1" ecContribution="436500" terminated="false" sme="false" netEcContribution="436500" totalCost="436500" type="coordinator">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1906526</rcn>
         <id>999995893</id>
@@ -642,7 +642,7 @@
         <address>
           <street>N PLASTIRA STR 100</street>
           <city>IRAKLEIO</city>
-          <postalCode>70 013</postalCode>
+          <postalCode>700 13</postalCode>
           <country>EL</country>
           <postBox>1385</postBox>
           <url>http://www.forth.gr</url>
@@ -693,6 +693,67 @@
               <nutsCode>EL</nutsCode>
               <euCode>EL</euCode>
               <isoCode>EL</isoCode>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <organization source="corda" order="15" ecContribution="0" terminated="false" sme="true" netEcContribution="126000" totalCost="0" type="thirdParty">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1994611</rcn>
+        <id>871684390</id>
+        <vatNumber>IT12758630011</vatNumber>
+        <legalName>BIO ON S.P.A.</legalName>
+        <address>
+          <street>Corso Duca degli Abruzzi 5</street>
+          <city>Torino</city>
+          <postalCode>10128</postalCode>
+          <country>IT</country>
+        </address>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/PRC</code>
+              <title>Private for-profit entities (excluding Higher or Secondary Education Establishments)</title>
+              <displayCode readOnly="true">/Private for-profit entities (excluding Higher or Secondary Education Establishments)</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedNutsCode">
+              <name>Torino</name>
+              <rcn>309641281</rcn>
+              <nutsCode>ITC11</nutsCode>
+              <parents>
+                <region>
+                  <name>Piemonte</name>
+                  <rcn>309641320</rcn>
+                  <nutsCode>ITC1</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Nord-Ovest</name>
+                      <rcn>309643816</rcn>
+                      <nutsCode>ITC</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Italy</name>
+                          <rcn>309758504</rcn>
+                          <nutsCode>IT</nutsCode>
+                          <euCode>IT</euCode>
+                          <isoCode>IT</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+            <region type="relatedRegion">
+              <name>Italy</name>
+              <rcn>309758504</rcn>
+              <nutsCode>IT</nutsCode>
+              <euCode>IT</euCode>
+              <isoCode>IT</isoCode>
             </region>
           </regions>
         </relations>
@@ -762,7 +823,7 @@
           </regions>
         </relations>
       </organization>
-      <organization source="corda" order="10" ecContribution="246081.25" terminated="false" sme="false" netEcContribution="246081.25" totalCost="246081.25" type="participant">
+      <organization source="corda" order="10" ecContribution="246081.25" sme="false" netEcContribution="246081.25" terminated="false" totalCost="246081.25" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>2087905</rcn>
         <id>999603819</id>
@@ -827,7 +888,7 @@
           </regions>
         </relations>
       </organization>
-      <organization ecContribution="341175" terminated="false" sme="false" netEcContribution="341175" totalCost="568625" source="corda" order="15" type="participant">
+      <organization source="corda" order="15" ecContribution="341175" terminated="false" sme="false" netEcContribution="215175" totalCost="568625" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1988016</rcn>
         <id>896207930</id>
@@ -889,7 +950,7 @@
           </regions>
         </relations>
       </organization>
-      <organization order="6" ecContribution="303637.5" terminated="false" sme="false" netEcContribution="303637.5" totalCost="303637.5" source="corda" type="participant">
+      <organization sme="false" netEcContribution="303637.5" totalCost="303637.5" source="corda" order="6" ecContribution="303637.5" terminated="false" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1905579</rcn>
         <id>999981731</id>
@@ -1275,7 +1336,7 @@
           </regions>
         </relations>
       </organization>
-      <organization source="corda" order="23" ecContribution="333952.5" terminated="false" sme="true" netEcContribution="333952.5" totalCost="556587.5" type="participant">
+      <organization netEcContribution="333952.5" totalCost="556587.5" source="corda" order="23" ecContribution="333952.5" terminated="false" sme="true" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1957490</rcn>
         <id>912485306</id>
@@ -1402,7 +1463,7 @@
           </regions>
         </relations>
       </organization>
-      <organization totalCost="316625" source="corda" order="16" ecContribution="189975" terminated="false" sme="false" netEcContribution="189975" type="participant">
+      <organization source="corda" order="16" ecContribution="189975" terminated="false" sme="false" netEcContribution="189975" totalCost="316625" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1988017</rcn>
         <id>883652444</id>
@@ -1528,7 +1589,7 @@
           </regions>
         </relations>
       </organization>
-      <organization source="corda" order="21" ecContribution="172550" sme="false" netEcContribution="172550" terminated="false" totalCost="172550" type="participant">
+      <organization source="corda" order="21" ecContribution="172550" terminated="false" sme="false" netEcContribution="172550" totalCost="172550" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1908365</rcn>
         <id>999899572</id>
@@ -1593,7 +1654,7 @@
           </regions>
         </relations>
       </organization>
-      <organization totalCost="308875" source="corda" order="7" ecContribution="308875" terminated="false" sme="false" netEcContribution="308875" type="participant">
+      <organization source="corda" order="7" ecContribution="308875" terminated="false" sme="false" netEcContribution="308875" totalCost="308875" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>2384367</rcn>
         <id>928273511</id>

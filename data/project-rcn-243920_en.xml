@@ -26,10 +26,10 @@ This “trifecta” approach (hence the name Triquetra) creates a framework of r
   <validation>
     <euroSciVoc>false</euroSciVoc>
   </validation>
-  <sourceUpdateDate>2025-06-09 13:08:25</sourceUpdateDate>
+  <sourceUpdateDate>2025-10-20 17:38:03</sourceUpdateDate>
   <contentCreationDate readOnly="true">2023-01-17 17:53:04</contentCreationDate>
-  <contentUpdateDate>2025-07-08 11:12:39</contentUpdateDate>
-  <lastUpdateDate readOnly="true">2025-09-19 14:48:53</lastUpdateDate>
+  <contentUpdateDate>2025-11-03 17:01:19</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-11-03 17:02:11</lastUpdateDate>
   <relations>
     <associations>
       <article source="editorial" type="relatedArticle">
@@ -69,7 +69,7 @@ This “trifecta” approach (hence the name Triquetra) creates a framework of r
         <title>HORIZON-CL2-2022-HERITAGE-01</title>
         <identifier>HORIZON-CL2-2022-HERITAGE-01</identifier>
       </call>
-      <organization source="corda" order="3" ecContribution="118250" terminated="false" sme="false" netEcContribution="118250" totalCost="118250" type="participant">
+      <organization sme="false" netEcContribution="118250" totalCost="118250" terminated="false" source="corda" order="3" ecContribution="118250" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>2548758</rcn>
         <id>949406028</id>
@@ -196,7 +196,7 @@ This “trifecta” approach (hence the name Triquetra) creates a framework of r
           </regions>
         </relations>
       </organization>
-      <organization source="corda" order="15" ecContribution="172918.75" terminated="false" sme="false" netEcContribution="172918.75" totalCost="172918.75" type="participant">
+      <organization totalCost="172918.75" source="corda" order="15" ecContribution="172918.75" terminated="false" sme="false" netEcContribution="172918.75" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1907016</rcn>
         <id>999886865</id>
@@ -260,7 +260,7 @@ This “trifecta” approach (hence the name Triquetra) creates a framework of r
           </regions>
         </relations>
       </organization>
-      <organization source="corda" order="14" ecContribution="390000" terminated="false" sme="false" netEcContribution="390000" totalCost="390000" type="participant">
+      <organization source="corda" order="14" ecContribution="390000" sme="false" netEcContribution="390000" terminated="false" totalCost="390000" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1905662</rcn>
         <id>999895692</id>
@@ -465,8 +465,8 @@ This “trifecta” approach (hence the name Triquetra) creates a framework of r
         <shortName>ENGINEERING MATERIALS FOR CONSTRUCTION PRIVATE CAPITAL COMPANY</shortName>
         <address>
           <street>EVDOKSOU 3</street>
-          <city>Peiraias</city>
-          <postalCode>18540</postalCode>
+          <city>PIRAEUS</city>
+          <postalCode>18 540</postalCode>
           <country>EL</country>
           <geolocation>40.68652885,22.813460503903272</geolocation>
         </address>
@@ -519,7 +519,7 @@ This “trifecta” approach (hence the name Triquetra) creates a framework of r
           </regions>
         </relations>
       </organization>
-      <organization source="corda" order="5" ecContribution="55930" terminated="false" sme="false" netEcContribution="55930" totalCost="55930" type="participant">
+      <organization source="corda" ecContribution="55930" terminated="false" sme="false" order="5" netEcContribution="55930" totalCost="55930" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1980626</rcn>
         <id>940803001</id>
@@ -708,7 +708,7 @@ This “trifecta” approach (hence the name Triquetra) creates a framework of r
           </regions>
         </relations>
       </organization>
-      <organization source="corda" order="8" ecContribution="249125" terminated="false" sme="false" netEcContribution="249125" totalCost="249125" type="participant">
+      <organization order="8" source="corda" ecContribution="249125" terminated="false" sme="false" netEcContribution="249125" totalCost="249125" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1905579</rcn>
         <id>999981731</id>
@@ -896,7 +896,7 @@ This “trifecta” approach (hence the name Triquetra) creates a framework of r
           </regions>
         </relations>
       </organization>
-      <organization source="corda" order="17" ecContribution="127025" terminated="false" sme="true" netEcContribution="127025" totalCost="127025" type="participant">
+      <organization terminated="false" sme="true" source="corda" order="17" ecContribution="127025" netEcContribution="127025" totalCost="127025" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>2113274</rcn>
         <id>998627514</id>
@@ -1023,7 +1023,7 @@ This “trifecta” approach (hence the name Triquetra) creates a framework of r
           </regions>
         </relations>
       </organization>
-      <organization source="corda" order="21" terminated="false" sme="true" netEcContribution="0" totalCost="0" type="associatedPartner">
+      <organization terminated="false" sme="true" netEcContribution="0" totalCost="0" source="corda" order="21" type="associatedPartner">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1920609</rcn>
         <id>995146087</id>
@@ -1946,6 +1946,13 @@ This “trifecta” approach (hence the name Triquetra) creates a framework of r
         <code>/23/47/303</code>
         <title>databases</title>
         <displayCode readOnly="true">/natural sciences/computer and information sciences/databases</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/45/293/913</code>
+        <title>natural disasters</title>
+        <displayCode readOnly="true">/natural sciences/earth and related environmental sciences/physical geography/natural disasters</displayCode>
       </category>
       <category weight="0" classification="policyPriorities" type="marker">
         <language>en</language>

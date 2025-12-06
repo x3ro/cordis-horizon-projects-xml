@@ -22,10 +22,10 @@
   <validation>
     <euroSciVoc>false</euroSciVoc>
   </validation>
-  <sourceUpdateDate>2025-10-15 06:19:50</sourceUpdateDate>
+  <sourceUpdateDate>2025-10-20 17:38:03</sourceUpdateDate>
   <contentCreationDate readOnly="true">2024-01-08 20:39:35</contentCreationDate>
-  <contentUpdateDate>2025-10-21 10:16:08</contentUpdateDate>
-  <lastUpdateDate readOnly="true">2025-10-21 10:16:44</lastUpdateDate>
+  <contentUpdateDate>2025-10-20 17:38:03</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-11-03 09:43:47</lastUpdateDate>
   <relations>
     <associations>
       <article source="editorial" type="relatedArticle">
@@ -393,7 +393,7 @@
           </regions>
         </relations>
       </organization>
-      <organization terminated="false" sme="false" netEcContribution="952625" totalCost="952625" ecContribution="952625" source="corda" order="3" type="participant">
+      <organization source="corda" order="3" ecContribution="952625" terminated="false" sme="false" netEcContribution="952625" totalCost="952625" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1905951</rcn>
         <id>999975911</id>
@@ -457,7 +457,7 @@
           </regions>
         </relations>
       </organization>
-      <organization sme="false" netEcContribution="82500" totalCost="0" source="corda" order="5" ecContribution="0" terminated="false" type="thirdParty">
+      <organization source="corda" order="5" ecContribution="0" terminated="false" sme="false" netEcContribution="82500" totalCost="0" type="thirdParty">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>2127579</rcn>
         <id>997929890</id>
@@ -666,7 +666,7 @@
           </regions>
         </relations>
       </organization>
-      <organization netEcContribution="0" totalCost="0" terminated="false" sme="true" source="corda" order="13" type="associatedPartner">
+      <organization source="corda" order="13" terminated="false" sme="true" netEcContribution="0" totalCost="0" type="associatedPartner">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1916007</rcn>
         <id>998454369</id>
@@ -730,7 +730,7 @@
           </regions>
         </relations>
       </organization>
-      <organization source="corda" ecContribution="753177.5" terminated="false" sme="false" netEcContribution="753177.5" totalCost="753177.5" order="8" type="participant">
+      <organization source="corda" order="8" ecContribution="753177.5" terminated="false" sme="false" netEcContribution="753177.5" totalCost="753177.5" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1917921</rcn>
         <id>999507110</id>
@@ -795,7 +795,7 @@
           </regions>
         </relations>
       </organization>
-      <organization source="corda" order="1" ecContribution="4269705" terminated="false" sme="false" totalCost="4269705" netEcContribution="4269705" type="coordinator">
+      <organization source="corda" order="1" ecContribution="4269705" terminated="false" sme="false" netEcContribution="4269705" totalCost="4269705" type="coordinator">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1905910</rcn>
         <id>999991334</id>
@@ -1235,6 +1235,51 @@
       </result>
       <result source="corda" type="relatedResult">
         <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1381875</rcn>
+        <id>101136670_67_DELIVHORIZON</id>
+        <title>GLIOMATCH project website</title>
+        <description>GLIOMATCH project website (Lead: accelCH)</description>
+        <sourceUpdateDate>2025-10-28 03:20:27</sourceUpdateDate>
+        <contentUpdateDate>2025-10-31 11:14:04</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/DEC</code>
+              <title>Websites, patent fillings, videos etc.</title>
+              <displayCode readOnly="true">/Websites, patent fillings, videos etc.</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>c7c6e753007e945eeafd9ea2472103a7</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e509542b6b&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1352742</rcn>
         <id>101136670_213249_PUBLIHORIZON</id>
         <title>Trial watch: anticancer vaccination with dendritic cells</title>
@@ -1444,6 +1489,46 @@
         <code>/21/35/155/643</code>
         <title>immunotherapy</title>
         <displayCode readOnly="true">/medical and health sciences/basic medicine/immunology/immunotherapy</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode readOnly="true">/Digital agenda</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode readOnly="true">/Clean air</displayCode>
+      </category>
+      <category weight="40" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode readOnly="true">/Artificial intelligence</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode readOnly="true">/Climate action</displayCode>
+      </category>
+      <category weight="0" classification="policyPriorities" type="marker">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode readOnly="true">/Biodiversity</displayCode>
       </category>
       <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
         <language>en</language>

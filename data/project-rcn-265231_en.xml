@@ -26,7 +26,7 @@ It is immediately applicable, doesn't require additional hardware and works with
   <sourceUpdateDate>2024-12-31 09:30:22</sourceUpdateDate>
   <contentCreationDate readOnly="true">2024-08-09 12:38:56</contentCreationDate>
   <contentUpdateDate>2024-08-09 12:38:55</contentUpdateDate>
-  <lastUpdateDate readOnly="true">2025-09-19 14:49:02</lastUpdateDate>
+  <lastUpdateDate readOnly="true">2025-11-11 10:29:50</lastUpdateDate>
   <relations>
     <associations>
       <article source="editorial" type="relatedArticle">
@@ -259,6 +259,51 @@ It is immediately applicable, doesn't require additional hardware and works with
       </result>
       <result source="corda" type="relatedResult">
         <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1381450</rcn>
+        <id>101165721_22_DELIVHORIZON</id>
+        <title>Webinar about the OMI AI ECG Model</title>
+        <description>A webinar is held to effectively communicate project results to a relevant audience, such as interventional cardiologists and emergency physicians.</description>
+        <sourceUpdateDate>2025-10-28 03:20:27</sourceUpdateDate>
+        <contentUpdateDate>2025-10-31 11:11:45</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/O</code>
+              <title>Other</title>
+              <displayCode readOnly="true">/Other</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>7dab8a4968cc8021cabe7f0c4cf4b5aa</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e522af9010&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1221415</rcn>
         <id>101165721_82816_PUBLIHORIZON</id>
         <title>Application of the Artificial Intelligence Model for Detection of Electrocardiographic Signs of Coronary Occlusion in Patients with Non ST-Elevation Acute Coronary Syndrome</title>
@@ -355,11 +400,11 @@ It is immediately applicable, doesn't require additional hardware and works with
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1236069</rcn>
         <id>101165721_PSHORIZON</id>
-        <title>Periodic Reporting for period 1 - OMI AI ECG Model (OMI AI ECG Model - application for more accurate heart attack diagnosis)</title>
+        <title>Periodic Reporting for period 2 - OMI AI ECG Model (OMI AI ECG Model - application for more accurate heart attack diagnosis)</title>
         <teaser>Globally, 50M patients with chest pain present to emergency departments each year. For these patients, a 12-lead electrocardiogram (ECG) serves as a swift and readily available diagnostic test for identifying acute obstructive heart attacks (OMI), a life-threatening condition...</teaser>
         <description>periodic</description>
-        <sourceUpdateDate>2024-12-31 11:18:55</sourceUpdateDate>
-        <contentUpdateDate>2024-12-31 11:18:55</contentUpdateDate>
+        <sourceUpdateDate>2025-10-30 21:55:47</sourceUpdateDate>
+        <contentUpdateDate>2025-11-11 10:29:47</contentUpdateDate>
         <relations>
           <categories>
             <category classification="collection" type="belongsTo">
@@ -403,14 +448,6 @@ It is immediately applicable, doesn't require additional hardware and works with
               <alternativeText>Impact of Implementing PMcardio for Organization at the Cardiovascular Centre Aalst</alternativeText>
               <mimetype readOnly="true">image/png</mimetype>
               <size readOnly="true">134144</size>
-            </webItem>
-            <webItem source="corda" type="relatedResultAttachment">
-              <language>en</language>
-              <availableLanguages readOnly="true">en,any</availableLanguages>
-              <uri>/docs/results/horizon/101165/101165721_PS/sensitivity.png</uri>
-              <alternativeText>Sensitivity of OMI criteria compared to STEMI criteria</alternativeText>
-              <mimetype readOnly="true">image/png</mimetype>
-              <size readOnly="true">54272</size>
             </webItem>
           </associations>
         </relations>

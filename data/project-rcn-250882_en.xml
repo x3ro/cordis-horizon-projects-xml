@@ -24,10 +24,10 @@ The CNS Data Service Provision project (hereinafter referred as “CNS DSP”) a
   <validation>
     <euroSciVoc>false</euroSciVoc>
   </validation>
-  <sourceUpdateDate>2025-09-06 01:17:07</sourceUpdateDate>
+  <sourceUpdateDate>2025-10-20 17:38:03</sourceUpdateDate>
   <contentCreationDate readOnly="true">2023-06-28 15:18:05</contentCreationDate>
-  <contentUpdateDate>2025-09-06 01:17:07</contentUpdateDate>
-  <lastUpdateDate readOnly="true">2025-09-19 14:48:35</lastUpdateDate>
+  <contentUpdateDate>2025-11-19 10:22:51</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-11-19 10:23:00</lastUpdateDate>
   <relations>
     <associations>
       <article source="editorial" type="relatedArticle">
@@ -193,7 +193,7 @@ The CNS Data Service Provision project (hereinafter referred as “CNS DSP”) a
           </regions>
         </relations>
       </organization>
-      <organization source="corda" order="9" terminated="false" sme="false" netEcContribution="0" totalCost="0" type="associatedPartner">
+      <organization terminated="false" sme="false" netEcContribution="0" totalCost="0" source="corda" order="9" type="associatedPartner">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>2517033</rcn>
         <id>958184334</id>
@@ -320,7 +320,7 @@ The CNS Data Service Provision project (hereinafter referred as “CNS DSP”) a
           </regions>
         </relations>
       </organization>
-      <organization source="corda" order="7" ecContribution="175515.38" terminated="false" sme="false" netEcContribution="175515.38" totalCost="250736.25" type="participant">
+      <organization netEcContribution="175515.38" totalCost="250736.25" source="corda" order="7" ecContribution="175515.38" terminated="false" sme="false" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1907221</rcn>
         <id>999939051</id>
@@ -328,7 +328,7 @@ The CNS Data Service Provision project (hereinafter referred as “CNS DSP”) a
         <legalName>TELESPAZIO SPA</legalName>
         <address>
           <street>VIA TIBURTINA 965</street>
-          <city>Roma</city>
+          <city>ROMA</city>
           <postalCode>00156</postalCode>
           <country>IT</country>
           <url>http://www.telespazio.it</url>
@@ -454,7 +454,7 @@ The CNS Data Service Provision project (hereinafter referred as “CNS DSP”) a
         <legalName>THALES LAS FRANCE SAS</legalName>
         <address>
           <street>AVENUE GAY LUSSAC 2</street>
-          <city>Elancourt</city>
+          <city>ELANCOURT</city>
           <postalCode>78990</postalCode>
           <country>FR</country>
           <postBox>20351</postBox>
@@ -573,7 +573,7 @@ The CNS Data Service Provision project (hereinafter referred as “CNS DSP”) a
           </regions>
         </relations>
       </organization>
-      <organization source="corda" order="2" ecContribution="219724.75" terminated="false" sme="false" netEcContribution="219724.75" totalCost="313892.5" type="participant">
+      <organization ecContribution="219724.75" terminated="false" sme="false" netEcContribution="219724.75" totalCost="313892.5" source="corda" order="2" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1920580</rcn>
         <id>971136162</id>
@@ -636,7 +636,7 @@ The CNS Data Service Provision project (hereinafter referred as “CNS DSP”) a
           </regions>
         </relations>
       </organization>
-      <programme source="corda" uniqueProgrammePart="true" type="relatedLegalBasis">
+      <programme uniqueProgrammePart="true" source="corda" type="relatedLegalBasis">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>705767</rcn>
         <id>HORIZON.2.5</id>
@@ -752,6 +752,51 @@ The CNS Data Service Provision project (hereinafter referred as “CNS DSP”) a
               <defaultLanguage>en</defaultLanguage>
               <id>4b7a778cc7893e329e92bc9860249fd6</id>
               <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5095af605&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1387102</rcn>
+        <id>101114706_30_DELIVHORIZON</id>
+        <title>Solution slides v2</title>
+        <description>Solution slides v2</description>
+        <sourceUpdateDate>2025-11-07 07:45:43</sourceUpdateDate>
+        <contentUpdateDate>2025-11-10 18:16:09</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/O</code>
+              <title>Other</title>
+              <displayCode readOnly="true">/Other</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>8150165e643c15f9bbb4d9c9e53febd3</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e524387137&appId=PPGMS]]></physUrl>
             </webLink>
           </associations>
         </relations>
@@ -890,6 +935,51 @@ The CNS Data Service Provision project (hereinafter referred as “CNS DSP”) a
               <defaultLanguage>en</defaultLanguage>
               <id>99b96ac2e16e648787dedff73f21d564</id>
               <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5095ae332&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1387117</rcn>
+        <id>101114706_2_DELIVHORIZON</id>
+        <title>PMP-v2</title>
+        <description>Final Project and Risk Management Plan (PMP)</description>
+        <sourceUpdateDate>2025-11-07 07:45:43</sourceUpdateDate>
+        <contentUpdateDate>2025-11-10 18:16:11</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode readOnly="true">/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>4268e05a17c935a5b64b5490a877d8fb</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5193a55c8&appId=PPGMS]]></physUrl>
             </webLink>
           </associations>
         </relations>
@@ -1166,6 +1256,51 @@ The CNS Data Service Provision project (hereinafter referred as “CNS DSP”) a
       </result>
       <result source="corda" type="relatedResult">
         <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1387112</rcn>
+        <id>101114706_10_DELIVHORIZON</id>
+        <title>SPR/INTEROP/OSED v2</title>
+        <description>Contribution to interim Datapack</description>
+        <sourceUpdateDate>2025-11-07 07:45:43</sourceUpdateDate>
+        <contentUpdateDate>2025-11-10 18:16:09</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode readOnly="true">/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>773ee5fc2e0a13bd076e1e0400cd21e1</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e524385271&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1115524</rcn>
         <id>101114706_8_DELIVHORIZON</id>
         <title>Project KoM Report</title>
@@ -1205,6 +1340,51 @@ The CNS Data Service Provision project (hereinafter referred as “CNS DSP”) a
               <defaultLanguage>en</defaultLanguage>
               <id>e691767c7e032cd5d97307ed36b669ab</id>
               <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e502fd9990&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1387118</rcn>
+        <id>101114706_19_DELIVHORIZON</id>
+        <title>TS/IRS (interim)</title>
+        <description>Contribution to interim Datapack</description>
+        <sourceUpdateDate>2025-11-07 07:45:43</sourceUpdateDate>
+        <contentUpdateDate>2025-11-10 18:16:12</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode readOnly="true">/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>a450936f3bc4756ce41689940e7d04af</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e524385276&appId=PPGMS]]></physUrl>
             </webLink>
           </associations>
         </relations>

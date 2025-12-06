@@ -27,7 +27,7 @@ To realize this, first, a flow-pattern extraction module will be developed to id
   <sourceUpdateDate>2024-07-01 19:51:23</sourceUpdateDate>
   <contentCreationDate readOnly="true">2024-08-09 12:57:39</contentCreationDate>
   <contentUpdateDate>2024-08-09 12:57:31</contentUpdateDate>
-  <lastUpdateDate readOnly="true">2025-10-16 08:54:06</lastUpdateDate>
+  <lastUpdateDate readOnly="true">2025-11-24 12:58:39</lastUpdateDate>
   <relations>
     <associations>
       <article source="editorial" type="relatedArticle">
@@ -510,12 +510,57 @@ To realize this, first, a flow-pattern extraction module will be developed to id
       </programme>
       <result source="corda" type="relatedResult">
         <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1393742</rcn>
+        <id>101166935_7_DELIVHORIZON</id>
+        <title>DeepFlow HMI proof of concept document</title>
+        <description>Synthesis report detailing the requirements and design principles of DeepFlow HMI.</description>
+        <sourceUpdateDate>2025-11-18 15:19:37</sourceUpdateDate>
+        <contentUpdateDate>2025-11-24 12:58:37</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode readOnly="true">/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode readOnly="true">/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages readOnly="true">en</availableLanguages>
+              <defaultLanguage>en</defaultLanguage>
+              <id>489021dcb1d9ef0d788ca1caa80f2412</id>
+              <physUrl><![CDATA[https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e524e478d7&appId=PPGMS]]></physUrl>
+            </webLink>
+          </associations>
+        </relations>
+      </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1370748</rcn>
         <id>101166935_13_DELIVHORIZON</id>
         <title>Intermediate Communication, Dissemination and Exploitation Plan</title>
         <description>This deliverable comprises the planning of the dissemination, exploitation and communication activities. Intermediate version.</description>
-        <sourceUpdateDate>2025-10-07 05:06:23</sourceUpdateDate>
-        <contentUpdateDate>2025-10-16 08:54:05</contentUpdateDate>
+        <sourceUpdateDate>2025-10-20 17:42:54</sourceUpdateDate>
+        <contentUpdateDate>2025-10-28 18:49:25</contentUpdateDate>
         <relations>
           <categories>
             <category classification="collection" type="belongsTo">
@@ -604,8 +649,8 @@ To realize this, first, a flow-pattern extraction module will be developed to id
         <id>101166935_10_DELIVHORIZON</id>
         <title>DeepFlow exploratory research plan</title>
         <description>This document develops a clear plan of the validation activities that will be conducted within the project, including the scope of the validation, approach and methodology, relevant criteria to be assessed and human-specific measures that need to be gathered for the defined scenarios.</description>
-        <sourceUpdateDate>2025-09-29 12:39:41</sourceUpdateDate>
-        <contentUpdateDate>2025-10-06 14:16:28</contentUpdateDate>
+        <sourceUpdateDate>2025-10-20 17:42:54</sourceUpdateDate>
+        <contentUpdateDate>2025-10-29 21:51:47</contentUpdateDate>
         <relations>
           <categories>
             <category classification="collection" type="belongsTo">
@@ -649,8 +694,8 @@ To realize this, first, a flow-pattern extraction module will be developed to id
         <id>101166935_4_DELIVHORIZON</id>
         <title>Initial Concept Outline</title>
         <description>Operational Concept Description and Functional Requirement Description.</description>
-        <sourceUpdateDate>2025-09-03 17:46:52</sourceUpdateDate>
-        <contentUpdateDate>2025-09-03 17:46:52</contentUpdateDate>
+        <sourceUpdateDate>2025-10-20 17:42:54</sourceUpdateDate>
+        <contentUpdateDate>2025-10-28 18:30:52</contentUpdateDate>
         <relations>
           <categories>
             <category classification="collection" type="belongsTo">
@@ -742,6 +787,13 @@ To realize this, first, a flow-pattern extraction module will be developed to id
         <title>Project</title>
         <description>Project factsheets</description>
         <displayCode readOnly="true">/Project</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/23/43/269/811/1549</code>
+        <title>fluid dynamics</title>
+        <displayCode readOnly="true">/natural sciences/physical sciences/classical mechanics/fluid mechanics/fluid dynamics</displayCode>
       </category>
       <category classification="euroSciVoc" type="isInFieldOfScience">
         <language>en</language>

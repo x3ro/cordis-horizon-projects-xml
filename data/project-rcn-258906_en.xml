@@ -25,10 +25,10 @@ SPATRA will use satellite with assisted in-situ data to develop two innovative a
   <validation>
     <euroSciVoc>false</euroSciVoc>
   </validation>
-  <sourceUpdateDate>2025-02-20 12:34:45</sourceUpdateDate>
+  <sourceUpdateDate>2025-10-20 17:38:03</sourceUpdateDate>
   <contentCreationDate readOnly="true">2024-01-08 20:27:13</contentCreationDate>
-  <contentUpdateDate>2024-01-08 20:27:08</contentUpdateDate>
-  <lastUpdateDate readOnly="true">2025-09-19 14:48:46</lastUpdateDate>
+  <contentUpdateDate>2025-11-03 17:06:33</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-11-03 17:06:43</lastUpdateDate>
   <relations>
     <associations>
       <article source="editorial" type="relatedArticle">
@@ -131,7 +131,7 @@ SPATRA will use satellite with assisted in-situ data to develop two innovative a
           </regions>
         </relations>
       </organization>
-      <organization terminated="false" sme="false" netEcContribution="116188" totalCost="116188" source="corda" order="2" ecContribution="116188" type="participant">
+      <organization source="corda" order="2" ecContribution="116188" terminated="false" sme="false" netEcContribution="116188" totalCost="116188" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>2128010</rcn>
         <id>998833736</id>
@@ -194,7 +194,7 @@ SPATRA will use satellite with assisted in-situ data to develop two innovative a
           </regions>
         </relations>
       </organization>
-      <organization order="3" ecContribution="328625" source="corda" terminated="false" sme="true" netEcContribution="191562.5" totalCost="328625" type="participant">
+      <organization ecContribution="328625" terminated="false" source="corda" order="3" sme="true" netEcContribution="191562.5" totalCost="328625" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1986057</rcn>
         <id>889320736</id>
@@ -320,13 +320,13 @@ SPATRA will use satellite with assisted in-situ data to develop two innovative a
           </regions>
         </relations>
       </organization>
-      <organization sme="true" netEcContribution="137062.5" totalCost="0" ecContribution="0" terminated="false" source="corda" order="3" type="thirdParty">
+      <organization netEcContribution="137062.5" totalCost="0" source="corda" order="3" ecContribution="0" terminated="false" sme="true" type="thirdParty">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1972734</rcn>
         <id>898982906</id>
         <vatNumber>RS111522748</vatNumber>
         <legalName>PRIVREDNO DRUSTVO ZENTRIX LAB DRUSTVO SA OGRANICENOM ODGOVORNOSCU PANCEVO</legalName>
-        <shortName>ZENTRIX LAB LLC</shortName>
+        <shortName>COMPANY ZENTRIX LAB LLC PANCEVO</shortName>
         <address>
           <street>MILOSA TREBINJCA 12</street>
           <city>PANCEVO</city>
@@ -383,7 +383,7 @@ SPATRA will use satellite with assisted in-situ data to develop two innovative a
           </regions>
         </relations>
       </organization>
-      <organization source="corda" order="5" ecContribution="44937" terminated="false" sme="true" netEcContribution="44937" totalCost="44937" type="participant">
+      <organization sme="true" netEcContribution="44937" totalCost="44937" source="corda" order="5" ecContribution="44937" terminated="false" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1986062</rcn>
         <id>884319610</id>
@@ -448,11 +448,32 @@ SPATRA will use satellite with assisted in-situ data to develop two innovative a
           </categories>
           <regions>
             <region type="relatedNutsCode">
-              <name>Serbia</name>
-              <rcn>460491304</rcn>
-              <nutsCode>RS</nutsCode>
-              <euCode>RS</euCode>
-              <isoCode>RS</isoCode>
+              <name>Београдска област</name>
+              <rcn>1464125</rcn>
+              <nutsCode>RS110</nutsCode>
+              <parents>
+                <region>
+                  <name>Београдски регион</name>
+                  <rcn>1465076</rcn>
+                  <nutsCode>RS11</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Србија - север </name>
+                      <rcn>1465075</rcn>
+                      <nutsCode>RS1</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Serbia</name>
+                          <rcn>460491304</rcn>
+                          <nutsCode>RS</nutsCode>
+                          <euCode>RS</euCode>
+                          <isoCode>RS</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
             </region>
             <region type="relatedRegion">
               <name>Serbia</name>

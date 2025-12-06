@@ -22,10 +22,10 @@
   <validation>
     <euroSciVoc>false</euroSciVoc>
   </validation>
-  <sourceUpdateDate>2025-07-08 11:41:50</sourceUpdateDate>
+  <sourceUpdateDate>2025-10-20 17:38:03</sourceUpdateDate>
   <contentCreationDate readOnly="true">2024-02-13 18:46:17</contentCreationDate>
-  <contentUpdateDate>2025-09-01 23:33:12</contentUpdateDate>
-  <lastUpdateDate readOnly="true">2025-10-20 14:49:11</lastUpdateDate>
+  <contentUpdateDate>2025-10-20 17:38:03</contentUpdateDate>
+  <lastUpdateDate readOnly="true">2025-11-25 14:31:45</lastUpdateDate>
   <relations>
     <associations>
       <article source="editorial" type="relatedArticle">
@@ -127,7 +127,7 @@
           </regions>
         </relations>
       </organization>
-      <organization source="corda" order="9" ecContribution="913146.5" terminated="false" sme="false" netEcContribution="913146.5" totalCost="1304495" type="participant">
+      <organization totalCost="1304495" source="corda" order="9" ecContribution="913146.5" terminated="false" sme="false" netEcContribution="913146.5" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1987148</rcn>
         <id>888593236</id>
@@ -325,7 +325,7 @@
         <shortName>PORT OF HIRTSHALS</shortName>
         <address>
           <street>NORGESKAJEN 11</street>
-          <city>HIRTSHALS</city>
+          <city>Hirtshals</city>
           <postalCode>9850</postalCode>
           <country>DK</country>
           <geolocation>57.594193,9.962856</geolocation>
@@ -503,7 +503,7 @@
           </regions>
         </relations>
       </organization>
-      <organization source="corda" order="7" ecContribution="170800" terminated="false" sme="true" netEcContribution="170800" totalCost="244000" type="participant">
+      <organization ecContribution="170800" terminated="false" sme="true" netEcContribution="170800" totalCost="244000" source="corda" order="7" type="participant">
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1987146</rcn>
         <id>882295123</id>
@@ -632,6 +632,7 @@
         <availableLanguages readOnly="true">en</availableLanguages>
         <rcn>1987142</rcn>
         <id>883233501</id>
+        <vatNumber>NO924544511MVA</vatNumber>
         <legalName>NORWEGIAN HYDROGEN AS</legalName>
         <address>
           <street>KORSEGATA 4B</street>
@@ -652,11 +653,32 @@
           </categories>
           <regions>
             <region type="relatedNutsCode">
-              <name>Norway</name>
-              <rcn>392333864</rcn>
-              <nutsCode>NO</nutsCode>
-              <euCode>NO</euCode>
-              <isoCode>NO</isoCode>
+              <name>Møre og Romsdal</name>
+              <rcn>1464796</rcn>
+              <nutsCode>NO0A3</nutsCode>
+              <parents>
+                <region>
+                  <name>Vestlandet</name>
+                  <rcn>1465045</rcn>
+                  <nutsCode>NO0A</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Norge</name>
+                      <rcn>1465039</rcn>
+                      <nutsCode>NO0</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Norway</name>
+                          <rcn>392333864</rcn>
+                          <nutsCode>NO</nutsCode>
+                          <euCode>NO</euCode>
+                          <isoCode>NO</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
             </region>
             <region type="relatedRegion">
               <name>Norway</name>
@@ -872,6 +894,53 @@
           </categories>
         </relations>
       </result>
+      <result source="corda" type="relatedResult">
+        <availableLanguages readOnly="true">en</availableLanguages>
+        <rcn>1387987</rcn>
+        <id>101137581_253651_PUBLIHORIZON</id>
+        <title>Cross-sectoral energy system model for hydrogen valley concept</title>
+        <details>
+          <authors>Kari Mäki, Tomi Thomasson, Ashish Saini, Heidi Tuiskula</authors>
+          <journalNumber>2025</journalNumber>
+          <journalTitle>IET Conference Proceedings</journalTitle>
+          <publishedPages/>
+          <publishedYear>2025</publishedYear>
+          <publisher>Institution of Engineering and Technology (IET)</publisher>
+        </details>
+        <identifiers>
+          <doi>10.1049/ICP.2025.1950</doi>
+          <issn>2732-4494</issn>
+        </identifiers>
+        <sourceUpdateDate>2025-11-07 07:45:43</sourceUpdateDate>
+        <contentUpdateDate>2025-11-10 15:59:27</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode readOnly="true">/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode readOnly="true">/Conference proceedings</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode readOnly="true">/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
     </associations>
     <categories>
       <category classification="collection" type="belongsTo">
@@ -885,6 +954,13 @@
       <category classification="euroSciVoc" type="isInFieldOfScience">
         <language>en</language>
         <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/27/81/489</code>
+        <title>fisheries</title>
+        <displayCode readOnly="true">/agricultural sciences/agriculture, forestry, and fisheries/fisheries</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
         <code>/23/53/373/1131</code>
         <title>electrolysis</title>
         <displayCode readOnly="true">/natural sciences/chemical sciences/electrochemistry/electrolysis</displayCode>
@@ -892,9 +968,16 @@
       <category classification="euroSciVoc" type="isInFieldOfScience">
         <language>en</language>
         <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
-        <code>/23/49/335/1009</code>
-        <title>ecosystems</title>
-        <displayCode readOnly="true">/natural sciences/biological sciences/ecology/ecosystems</displayCode>
+        <code>/21/33/117</code>
+        <title>nutrition</title>
+        <displayCode readOnly="true">/medical and health sciences/health sciences/nutrition</displayCode>
+      </category>
+      <category classification="euroSciVoc" type="isInFieldOfScience">
+        <language>en</language>
+        <availableLanguages readOnly="true">de,en,es,fr,it,pl</availableLanguages>
+        <code>/25/67/425</code>
+        <title>energy and fuels</title>
+        <displayCode readOnly="true">/engineering and technology/environmental engineering/energy and fuels</displayCode>
       </category>
       <category weight="0" classification="policyPriorities" type="marker">
         <language>en</language>
