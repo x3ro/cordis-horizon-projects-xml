@@ -4,7 +4,7 @@ use serde::{Deserialize, Serialize};
 static DATE_FORMAT: &'static str = "%Y-%m-%d";
 static DATETIME_FORMAT: &'static str = "%Y-%m-%d %H:%M:%S";
 
-#[derive(Debug, PartialEq)]
+#[derive(Debug, PartialEq, Clone)]
 pub struct CordisDate(NaiveDate);
 
 impl<'de> Deserialize<'de> for CordisDate {
@@ -29,7 +29,7 @@ impl Serialize for CordisDate {
     }
 }
 
-#[derive(Debug, PartialEq)]
+#[derive(Debug, PartialEq, Clone)]
 pub struct CordisDateTime(DateTime<Utc>);
 
 impl<'de> Deserialize<'de> for CordisDateTime {

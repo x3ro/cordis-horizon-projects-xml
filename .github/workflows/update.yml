@@ -13,9 +13,21 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+      - uses: actions-rust-lang/setup-rust-toolchain@v1
 
-      - name: Install xmllint
-        run: sudo apt install -y libxml2-utils
+      - run: cd models/rust && cargo build --release
+
+      - name: Cache Cordis Data
+        id: cache-cordis
+        uses: actions/cache@v4
+        with:
+          path: download
+          key: ${{ runner.os }}-cordis
+
+      - name: Download dataset
+        run: scripts/download.sh
 
       - name: Update dataset
         run: scripts/update.sh
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
