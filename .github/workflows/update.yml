@@ -17,12 +17,12 @@ jobs:
 
       - run: cd models/rust && cargo build --release
 
-      - name: Cache Cordis Data
-        id: cache-cordis
-        uses: actions/cache@v4
-        with:
-          path: download
-          key: ${{ runner.os }}-cordis
+      # - name: Cache Cordis Data
+      #   id: cache-cordis
+      #   uses: actions/cache@v4
+      #   with:
+      #     path: download
+      #     key: ${{ runner.os }}-cordis
 
       - name: Download dataset
         run: scripts/download.sh
