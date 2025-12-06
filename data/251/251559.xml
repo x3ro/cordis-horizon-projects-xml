@@ -39,7 +39,7 @@ By developing new modeling tools and generating process-level understanding acro
   <sourceUpdateDate>2025-01-03 10:47:16</sourceUpdateDate>
   <contentCreationDate>2023-06-29 13:55:24</contentCreationDate>
   <contentUpdateDate>2023-06-29 13:55:17</contentUpdateDate>
-  <lastUpdateDate>2025-09-19 14:49:04</lastUpdateDate>
+  <lastUpdateDate>2025-11-27 08:05:37</lastUpdateDate>
   <relations>
     <associations>
       <call source="corda" type="relatedMasterCall">
@@ -126,7 +126,7 @@ By developing new modeling tools and generating process-level understanding acro
         <shortName>AWI</shortName>
         <address>
           <street>AM HANDELSHAFEN 12</street>
-          <city>Bremerhaven</city>
+          <city>BREMERHAVEN</city>
           <postalCode>27570</postalCode>
           <country>DE</country>
           <postBox>000</postBox>
@@ -292,6 +292,51 @@ By developing new modeling tools and generating process-level understanding acro
               <code>/PEER_REVIEWED_ARTICLE</code>
               <title>Peer reviewed articles</title>
               <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1399686</rcn>
+        <id>101076793_1_DELIVHORIZON</id>
+        <title>Data Management Plan</title>
+        <description>Data Management Plan</description>
+        <sourceUpdateDate>2025-11-24 01:51:37</sourceUpdateDate>
+        <contentUpdateDate>2025-11-27 08:05:36</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>3b45fec9e44eb8b366037550ad3f1a82</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e51fa18ad7&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
             </category>
             <category classification="source" type="isProvidedBy">
               <language>en</language>

@@ -33,10 +33,10 @@ Best practice demonstrator for a competitive, complete and qualified large-scale
   <validation>
     <euroSciVoc>false</euroSciVoc>
   </validation>
-  <sourceUpdateDate>2025-02-04 05:51:55</sourceUpdateDate>
+  <sourceUpdateDate>2025-10-20 17:38:03</sourceUpdateDate>
   <contentCreationDate>2024-01-08 20:30:59</contentCreationDate>
-  <contentUpdateDate>2024-01-08 20:30:37</contentUpdateDate>
-  <lastUpdateDate>2025-09-19 14:49:08</lastUpdateDate>
+  <contentUpdateDate>2025-11-25 14:33:57</contentUpdateDate>
+  <lastUpdateDate>2025-11-27 08:06:13</lastUpdateDate>
   <relations>
     <associations>
       <article source="editorial" type="relatedArticle">
@@ -186,7 +186,7 @@ Best practice demonstrator for a competitive, complete and qualified large-scale
         <shortName>Montanuniversitaet Leoben</shortName>
         <address>
           <street>FRANZ JOSEF STRASSE 18</street>
-          <city>Leoben</city>
+          <city>LEOBEN</city>
           <postalCode>8700</postalCode>
           <country>AT</country>
           <postBox>000</postBox>
@@ -313,7 +313,7 @@ Best practice demonstrator for a competitive, complete and qualified large-scale
         <shortName>TNO</shortName>
         <address>
           <street>ANNA VAN BUERENPLEIN 1</street>
-          <city>Den Haag</city>
+          <city>DEN HAAG</city>
           <postalCode>2595 DA</postalCode>
           <country>NL</country>
           <postBox>6060</postBox>
@@ -371,11 +371,32 @@ Best practice demonstrator for a competitive, complete and qualified large-scale
           </categories>
           <regions>
             <region type="relatedNutsCode">
-              <name>Poland</name>
-              <rcn>425101864</rcn>
-              <nutsCode>PL</nutsCode>
-              <euCode>PL</euCode>
-              <isoCode>PL</isoCode>
+              <name>Białostocki</name>
+              <rcn>1464385</rcn>
+              <nutsCode>PL841</nutsCode>
+              <parents>
+                <region>
+                  <name>Podlaskie</name>
+                  <rcn>1465068</rcn>
+                  <nutsCode>PL84</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Makroregion wschodni</name>
+                      <rcn>1465062</rcn>
+                      <nutsCode>PL8</nutsCode>
+                      <parents>
+                        <region>
+                          <name>Poland</name>
+                          <rcn>425101864</rcn>
+                          <nutsCode>PL</nutsCode>
+                          <euCode>PL</euCode>
+                          <isoCode>PL</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
             </region>
             <region type="relatedRegion">
               <name>Poland</name>
@@ -523,7 +544,7 @@ Best practice demonstrator for a competitive, complete and qualified large-scale
         <legalName>RAG AUSTRIA AG</legalName>
         <address>
           <street>SCHWARZENBERGPLATZ 16</street>
-          <city>Wien</city>
+          <city>WIEN</city>
           <postalCode>1015</postalCode>
           <country>AT</country>
           <geolocation>48.2007538,16.3741849</geolocation>
@@ -540,32 +561,11 @@ Best practice demonstrator for a competitive, complete and qualified large-scale
           </categories>
           <regions>
             <region type="relatedNutsCode">
-              <name>Wien</name>
-              <rcn>175378624</rcn>
-              <nutsCode>AT130</nutsCode>
-              <parents>
-                <region>
-                  <name>Wien</name>
-                  <rcn>175378664</rcn>
-                  <nutsCode>AT13</nutsCode>
-                  <parents>
-                    <region>
-                      <name>Ostösterreich</name>
-                      <rcn>1465444</rcn>
-                      <nutsCode>AT1</nutsCode>
-                      <parents>
-                        <region>
-                          <name>Austria</name>
-                          <rcn>175540776</rcn>
-                          <nutsCode>AT</nutsCode>
-                          <euCode>AT</euCode>
-                          <isoCode>AT</isoCode>
-                        </region>
-                      </parents>
-                    </region>
-                  </parents>
-                </region>
-              </parents>
+              <name>Austria</name>
+              <rcn>175540776</rcn>
+              <nutsCode>AT</nutsCode>
+              <euCode>AT</euCode>
+              <isoCode>AT</isoCode>
             </region>
             <region type="relatedRegion">
               <name>Austria</name>
@@ -825,6 +825,276 @@ Best practice demonstrator for a competitive, complete and qualified large-scale
           </categories>
         </relations>
       </programme>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1399930</rcn>
+        <id>101137798_31_DELIVHORIZON</id>
+        <title>Status report on exploitation dialogue and dissemination activities</title>
+        <description>Report on the executed bilateral meetings, workshops and training modules for identified European structures and programs, and for identified development projects in Europe.Report will be updated in the months M42, 63 ( = D6.7)</description>
+        <sourceUpdateDate>2025-11-24 01:51:37</sourceUpdateDate>
+        <contentUpdateDate>2025-11-27 08:06:08</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>dfb1a816eb2827c25c03f52a009ec2bf</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e522cb46a9&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1399932</rcn>
+        <id>101137798_30_DELIVHORIZON</id>
+        <title>Report on hydrogen value chain programs &amp; structures, and on European development projects</title>
+        <description>Reported results of surveys to identify permanent national and European structures and programs focusing on the implementation of the hydrogen value chain and the integration of storage solutions, and to identify development projects in Europe towards the (demonstration of) feasibility of underground hydrogen storage in a porous reservoir. Report will be updated in the months M33, 54 ( = D6.6)</description>
+        <sourceUpdateDate>2025-11-24 01:51:37</sourceUpdateDate>
+        <contentUpdateDate>2025-11-27 08:06:08</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>a2cd24f287d825586bf053cb6b8b67cb</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5167c35d7&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1399949</rcn>
+        <id>101137798_4_DELIVHORIZON</id>
+        <title>MMV plan incl. hydrogen safety planning and management for UHS demonstration site in Austria</title>
+        <description>Building on the existing monitoring plan a risk assessment will be done that may identify the need for additional measurements. These will be implemented into the facility and an improved MMV plan will be generated. The preliminary hydrogen safety plan and management from the proposal will be developed in depth for the demonstration site.</description>
+        <sourceUpdateDate>2025-11-24 01:51:37</sourceUpdateDate>
+        <contentUpdateDate>2025-11-27 08:06:10</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>cbf5023e6924b0bc1e009989b3ccda3c</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e51691fdad&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1399927</rcn>
+        <id>101137798_28_DELIVHORIZON</id>
+        <title>Communication &amp; dissemination plan</title>
+        <description>Reporting of the planned and executed communication and dissemination activities via the organised channels and targeted audiences. This will periodicly updated in the months M18, M33, M52The Clean Hydrogen JU may require the submission of an updated Dissemination, Exploitation and Communication Plan on an annual basis</description>
+        <sourceUpdateDate>2025-11-24 01:51:37</sourceUpdateDate>
+        <contentUpdateDate>2025-11-27 08:06:08</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>b57459899eccbf2836ef3812798bd112</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e51eb147b0&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1399965</rcn>
+        <id>101137798_9_DELIVHORIZON</id>
+        <title>Demonstrator Operation program</title>
+        <description>Operation program based on USS2030 finished; monitoring plan (task 2.1) implemented and WP 5.</description>
+        <sourceUpdateDate>2025-11-24 01:51:37</sourceUpdateDate>
+        <contentUpdateDate>2025-11-27 08:06:12</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>2fdeec041fa320e2fa6e3b66f0ea765a</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e51a98878b&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/D</code>
+              <title>Demonstrators, pilots, prototypes</title>
+              <displayCode>/Demonstrators, pilots, prototypes</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1399935</rcn>
+        <id>101137798_29_DELIVHORIZON</id>
+        <title>Report on stakeholder survey &amp; mapping, and on status of dialogue and stake-holder engagement, meetings, trainings &amp; workshops</title>
+        <description>Report on gathered stakeholder information and needs, grouping and interrelations, and on the stakeholder dialogue and engagement activities taken place over a certain project period.Updates in the months M24, 36 ( = D6.5), 48, 60 ( = D6.8)</description>
+        <sourceUpdateDate>2025-11-24 01:51:37</sourceUpdateDate>
+        <contentUpdateDate>2025-11-27 08:06:08</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>14b770c693ce15f685b33e4e0cb01035</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e516a9ae72&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
     </associations>
     <categories>
       <category classification="collection" type="belongsTo">

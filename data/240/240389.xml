@@ -22,10 +22,10 @@
   <validation>
     <euroSciVoc>false</euroSciVoc>
   </validation>
-  <sourceUpdateDate>2025-07-14 14:54:39</sourceUpdateDate>
+  <sourceUpdateDate>2025-10-20 17:38:03</sourceUpdateDate>
   <contentCreationDate>2022-08-26 15:49:54</contentCreationDate>
-  <contentUpdateDate>2025-07-25 10:07:22</contentUpdateDate>
-  <lastUpdateDate>2025-09-19 14:48:56</lastUpdateDate>
+  <contentUpdateDate>2025-11-11 10:22:12</contentUpdateDate>
+  <lastUpdateDate>2025-11-24 13:35:12</lastUpdateDate>
   <relations>
     <associations>
       <article source="editorial" type="relatedArticle">
@@ -136,7 +136,7 @@
         <legalName>FONDATION NATIONALE DES SCIENCES POLITIQUES</legalName>
         <address>
           <street>RUE SAINT GUILLAUME 27</street>
-          <city>Paris</city>
+          <city>PARIS CEDEX 07</city>
           <postalCode>75341</postalCode>
           <country>FR</country>
           <postBox>000</postBox>
@@ -155,32 +155,11 @@
           </categories>
           <regions>
             <region type="relatedNutsCode">
-              <name>Paris</name>
-              <rcn>258740225</rcn>
-              <nutsCode>FR101</nutsCode>
-              <parents>
-                <region>
-                  <name>Ile-de-France</name>
-                  <rcn>258740264</rcn>
-                  <nutsCode>FR10</nutsCode>
-                  <parents>
-                    <region>
-                      <name>Ile-de-France</name>
-                      <rcn>258742824</rcn>
-                      <nutsCode>FR1</nutsCode>
-                      <parents>
-                        <region>
-                          <name>France</name>
-                          <rcn>258902568</rcn>
-                          <nutsCode>FR</nutsCode>
-                          <euCode>FR</euCode>
-                          <isoCode>FR</isoCode>
-                        </region>
-                      </parents>
-                    </region>
-                  </parents>
-                </region>
-              </parents>
+              <name>France</name>
+              <rcn>258902568</rcn>
+              <nutsCode>FR</nutsCode>
+              <euCode>FR</euCode>
+              <isoCode>FR</isoCode>
             </region>
             <region type="relatedRegion">
               <name>France</name>
@@ -329,7 +308,7 @@
         <shortName>CBS</shortName>
         <address>
           <street>SOLBJERG PLADS 3</street>
-          <city>Frederiksberg</city>
+          <city>FREDERIKSBERG</city>
           <postalCode>2000</postalCode>
           <country>DK</country>
           <postBox>000</postBox>
@@ -455,9 +434,10 @@
         <rcn>1976373</rcn>
         <id>923673189</id>
         <vatNumber>DE292405561</vatNumber>
-        <legalName>MERCATOR INSTITUTE FOR CHINA STUDIES (MERICS) GMBH</legalName>
+        <legalName>Mercator Institute for China Studies (MERICS) gGmbH</legalName>
+        <shortName>Mercator Institute for China Studies</shortName>
         <address>
-          <street>KLOSTERSTRASSE 64</street>
+          <street>Alte Jakobstraße 85-86</street>
           <city>Berlin</city>
           <postalCode>10179</postalCode>
           <country>DE</country>
@@ -521,7 +501,7 @@
         <shortName>UAM</shortName>
         <address>
           <street>CALLE EINSTEIN 3 CIUDAD UNIV CANTOBLANCO RECTORADO</street>
-          <city>Madrid</city>
+          <city>MADRID</city>
           <postalCode>28049</postalCode>
           <country>ES</country>
           <postBox>000</postBox>
@@ -586,7 +566,7 @@
         <shortName>SWPS UNIVERSITY</shortName>
         <address>
           <street>UL. CHODAKOWSKA 19/31</street>
-          <city>WARSZAWA</city>
+          <city>Warszawa</city>
           <postalCode>03-815</postalCode>
           <country>PL</country>
           <url>http://www.swps.edu.pl</url>
@@ -1237,6 +1217,53 @@
               <code>/DATA</code>
               <title>Data sets, microdata, etc</title>
               <displayCode>/Data sets, microdata, etc</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1382191</rcn>
+        <id>101061700_251932_PUBLIHORIZON</id>
+        <title>Fragilité et résilience des liens entre le milieu insulaire et ses populations. Le cas de Peng Chau à Hong-Kong</title>
+        <details>
+          <authors>Myriem Alnet, Camille Salgues</authors>
+          <journalNumber>2024/2-3</journalNumber>
+          <journalTitle>Espace populations sociétés</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>OpenEdition</publisher>
+        </details>
+        <identifiers>
+          <issn>0755-7809</issn>
+          <doi>10.4000/13EL4</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-10-30 21:52:38</sourceUpdateDate>
+        <contentUpdateDate>2025-11-03 12:17:02</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
             </category>
             <category classification="source" type="isProvidedBy">
               <language>en</language>
@@ -2290,6 +2317,52 @@
       </result>
       <result type="relatedResult" source="corda">
         <availableLanguages>en</availableLanguages>
+        <rcn>1394909</rcn>
+        <id>101061700_258261_PUBLIHORIZON</id>
+        <title>25 interviews with people of Chinese nationality in Spain.</title>
+        <details>
+          <authors>Mario Santander</authors>
+          <journalNumber></journalNumber>
+          <journalTitle></journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>DWARC</publisher>
+        </details>
+        <identifiers>
+          <doi>10.21950/DMV7U4</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-11-18 15:19:37</sourceUpdateDate>
+        <contentUpdateDate>2025-11-24 13:35:11</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/OTHER</code>
+              <title>Other</title>
+              <displayCode>/Other</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
         <rcn>1067578</rcn>
         <id>101061700_34_DELIVHORIZON</id>
         <title>DWARC website-based repository created and accessible</title>
@@ -3190,6 +3263,49 @@
               <code>/R</code>
               <title>Documents, reports</title>
               <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1394895</rcn>
+        <id>101061700_258136_PUBLIHORIZON</id>
+        <title>China as an Intercultural Partner: Obstacles to EU Effective Communication</title>
+        <details>
+          <authors>Taciana Fisac</authors>
+          <journalNumber></journalNumber>
+          <journalTitle></journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2025</publishedYear>
+          <publisher>DWARC</publisher>
+        </details>
+        <sourceUpdateDate>2025-11-18 15:19:37</sourceUpdateDate>
+        <contentUpdateDate>2025-11-24 13:35:10</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/OTHER</code>
+              <title>Other</title>
+              <displayCode>/Other</displayCode>
             </category>
             <category classification="source" type="isProvidedBy">
               <language>en</language>

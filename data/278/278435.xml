@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <language>en</language>
+  <availableLanguages>en</availableLanguages>
+  <rcn>278435</rcn>
+  <id>101212401</id>
+  <acronym>FoundLatt</acronym>
+  <teaser>"Despite describing fundamental physics with spectacular accuracy, the Standard Model of particle physics is known to be incomplete. As experimental programmes probe its boundaries at higher energies and with better precision, it is critical that measurements are faced with...</teaser>
+  <objective>"Despite describing fundamental physics with spectacular accuracy, the Standard Model of particle physics is known to be incomplete. As experimental programmes probe its boundaries at higher energies and with better precision, it is critical that measurements are faced with fully controlled theory predictions. Lattice simulations of Quantum Chromodynamics (QCD) form a major pillar of this effort. However, even with increasing computing capacity, many lattice QCD calculations will not be possible without new techniques.
+
+FoundLatt aims to solve this challenge by developing the first machine learning (ML) foundation model for lattice QCD. As exemplified by the highly successful ChatGPT, these large, general-purpose models have recently shown great promise in other contexts. Combining methods from these contexts with specialised ML methods that already accelerate specific lattice QCD tasks, I will create a lattice QCD foundation model that performs multiple challenging tasks over a range of physical parameters. The main innovation of this programme is a ""train once, use forever"" methodology, which will involve a centralised investment of effort that supersedes impractical training of non-reusable models.
+
+This objective will be achieved via three complementary work packages (WPs). My team and I will develop and train a foundation model capable of two critical tasks, importance sampling and precise estimation of observables, first for a reduced model of QCD (WP1) and then the full theory of QCD (WP2). We will also develop a method to learn a ""quantum perfect"" action for QCD, then fine-tune the foundation model to accomplish this (WP3). Such an action has zero lattice discretisation artefacts, thereby removing one of the largest sources of systematic uncertainty. The main output of FoundLatt will be an ML model that is shared openly with the lattice QCD community, unlocking state-of-the-art theory predictions for the next generation of new physics searches.
+"</objective>
+  <title>A Foundation Model for Lattice QCD: Learning to Understand the Standard Model and Beyond</title>
+  <totalCost>1491488</totalCost>
+  <ecMaxContribution>1491488</ecMaxContribution>
+  <startDate>2026-09-01</startDate>
+  <endDate>2031-08-31</endDate>
+  <ecSignatureDate>2025-10-17</ecSignatureDate>
+  <duration>60</duration>
+  <status>SIGNED</status>
+  <keywords>Machine learning, Generative models, Lattice QCD</keywords>
+  <identifiers>
+    <grantDoi>10.3030/101212401</grantDoi>
+  </identifiers>
+  <validation>
+    <euroSciVoc>false</euroSciVoc>
+  </validation>
+  <sourceUpdateDate>2025-10-28 03:12:43</sourceUpdateDate>
+  <contentCreationDate>2025-11-07 15:47:26</contentCreationDate>
+  <contentUpdateDate>2025-11-07 15:47:25</contentUpdateDate>
+  <lastUpdateDate>2025-11-07 15:47:26</lastUpdateDate>
+  <relations>
+    <associations>
+      <call source="corda" type="relatedMasterCall">
+        <rcn>57053</rcn>
+        <title>ERC-2025-STG</title>
+        <identifier>ERC-2025-STG</identifier>
+      </call>
+      <call source="corda" type="relatedSubCall">
+        <rcn>57053</rcn>
+        <title>ERC-2025-STG</title>
+        <identifier>ERC-2025-STG</identifier>
+      </call>
+      <organization netEcContribution="1491488" totalCost="1491488" source="corda" order="1" ecContribution="1491488" terminated="false" sme="false" type="coordinator">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1905557</rcn>
+        <id>999974941</id>
+        <vatNumber>GB592950700</vatNumber>
+        <legalName>THE UNIVERSITY OF EDINBURGH</legalName>
+        <shortName>UEDIN</shortName>
+        <address>
+          <street>OLD COLLEGE, SOUTH BRIDGE</street>
+          <city>Edinburgh</city>
+          <postalCode>EH8 9YL</postalCode>
+          <country>UK</country>
+          <postBox>N/A</postBox>
+          <url>http://www.ed.ac.uk/home</url>
+          <geolocation>55.94743165,-3.18651734851981</geolocation>
+        </address>
+        <departmentName>Edinburgh Research and Innovation Ltd</departmentName>
+        <relations>
+          <categories>
+            <category classification="organizationActivityType" type="relatedOrganizationActivityType">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/HES</code>
+              <title>Higher or Secondary Education Establishments</title>
+              <displayCode>/Higher or Secondary Education Establishments</displayCode>
+            </category>
+          </categories>
+          <regions>
+            <region type="relatedRegion">
+              <name>United Kingdom</name>
+              <rcn>508725800</rcn>
+              <nutsCode>UK</nutsCode>
+              <euCode>UK</euCode>
+              <isoCode>GB</isoCode>
+            </region>
+            <region type="relatedNutsCode">
+              <name>Edinburgh</name>
+              <rcn>1465408</rcn>
+              <nutsCode>UKM75</nutsCode>
+              <parents>
+                <region>
+                  <name>Eastern Scotland</name>
+                  <rcn>1465197</rcn>
+                  <nutsCode>UKM7</nutsCode>
+                  <parents>
+                    <region>
+                      <name>Scotland</name>
+                      <rcn>1465578</rcn>
+                      <nutsCode>UKM</nutsCode>
+                      <parents>
+                        <region>
+                          <name>United Kingdom</name>
+                          <rcn>508725800</rcn>
+                          <nutsCode>UK</nutsCode>
+                          <euCode>UK</euCode>
+                          <isoCode>GB</isoCode>
+                        </region>
+                      </parents>
+                    </region>
+                  </parents>
+                </region>
+              </parents>
+            </region>
+          </regions>
+        </relations>
+      </organization>
+      <programme type="relatedLegalBasis" source="corda" uniqueProgrammePart="true">
+        <availableLanguages>en</availableLanguages>
+        <rcn>705727</rcn>
+        <id>HORIZON.1.1</id>
+        <code>HORIZON.1.1</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <pga>HORIZON.1.1</pga>
+        <title>European Research Council (ERC)</title>
+        <parent>
+          <programme>
+            <rcn>705726</rcn>
+            <code>HORIZON.1</code>
+            <parent>
+              <programme>
+                <rcn>705725</rcn>
+                <code>HORIZON</code>
+              </programme>
+            </parent>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/legalbasis</code>
+              <title>Legal Basis</title>
+              <description>Programme: Legal basis for research funding</description>
+              <displayCode>/Legal Basis</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+      <programme type="relatedTopic" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>709265</rcn>
+        <id>HORIZON_ERC-2025-STG</id>
+        <code>ERC-2025-STG</code>
+        <frameworkProgramme>HORIZON</frameworkProgramme>
+        <title>ERC STARTING GRANTS</title>
+        <parent>
+          <programme>
+            <rcn>20300</rcn>
+            <code>HORIZON-Topics</code>
+          </programme>
+        </parent>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/topic</code>
+              <title>Topic</title>
+              <description>Programme: Part of the Commission work programme implementing legal basis</description>
+              <displayCode>/Topic</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </programme>
+    </associations>
+    <categories>
+      <category classification="collection" type="belongsTo">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/project</code>
+        <title>Project</title>
+        <description>Project factsheets</description>
+        <displayCode>/Project</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="40">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/digitalAgenda</code>
+        <title>Digital agenda</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development of digital technologies and the digitisation of the economy and society (known as ‘Digital transition’).</description>
+        <displayCode>/Digital agenda</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/cleanAir</code>
+        <title>Clean air</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to the clean air policy (National Emission Ceiling Directive) aiming to improve ambient air quality and tackle air pollution, to protect the environment and human health.</description>
+        <displayCode>/Clean air</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/ai</code>
+        <title>Artificial intelligence</title>
+        <description>This tracker monitors Horizon Europe’s financial contribution to the development and deployment of AI-based technologies and solutions. Projects that develop AI-tools as part of their research method are included</description>
+        <displayCode>/Artificial intelligence</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/climate</code>
+        <title>Climate action</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to both mitigating climate change (e.g., contributions to the reduction of greenhouse gas emissions) and adapting to climate change by building resilience (e.g., regarding floods, droughts, spatial planning and better governance, adaptation to changing climate in value chains, etc.).</description>
+        <displayCode>/Climate action</displayCode>
+      </category>
+      <category classification="policyPriorities" type="marker" weight="0">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/biodiversity</code>
+        <title>Biodiversity</title>
+        <description>This tracker monitors the Horizon Europe’s financial contribution to Europe’s biodiversity’s path to recovery including species protection, ecosystem conservation, and habitat rehabilitation, all essential for resilience in climate adaptation and addressing ecosystem services but also environmental crime and the health-environment connection.</description>
+        <displayCode>/Biodiversity</displayCode>
+      </category>
+      <category classification="projectFundingSchemeCategory" type="relatedProjectFundingSchemeCategory">
+        <language>en</language>
+        <availableLanguages>en</availableLanguages>
+        <code>/HORIZON-ERC</code>
+        <title>HORIZON ERC Grants</title>
+        <description>HORIZON ERC Grants</description>
+        <displayCode>/HORIZON ERC Grants</displayCode>
+      </category>
+      <category classification="source" type="isProvidedBy">
+        <language>en</language>
+        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+        <code>/corda</code>
+        <title>CORDA</title>
+        <description>RTD research data warehouse</description>
+        <displayCode>/CORDA</displayCode>
+      </category>
+    </categories>
+  </relations>
+</project>

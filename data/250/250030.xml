@@ -22,10 +22,10 @@
   <validation>
     <euroSciVoc>false</euroSciVoc>
   </validation>
-  <sourceUpdateDate>2025-04-15 01:21:47</sourceUpdateDate>
+  <sourceUpdateDate>2025-10-20 17:38:03</sourceUpdateDate>
   <contentCreationDate>2023-06-05 16:12:47</contentCreationDate>
-  <contentUpdateDate>2024-09-06 17:34:18</contentUpdateDate>
-  <lastUpdateDate>2025-09-19 14:48:46</lastUpdateDate>
+  <contentUpdateDate>2025-11-03 16:44:20</contentUpdateDate>
+  <lastUpdateDate>2025-11-18 08:14:33</lastUpdateDate>
   <relations>
     <associations>
       <call source="corda" type="relatedMasterCall">
@@ -38,7 +38,7 @@
         <title>HORIZON-CL5-2022-D2-01</title>
         <identifier>HORIZON-CL5-2022-D2-01</identifier>
       </call>
-      <organization netEcContribution="34335.95" totalCost="34335.95" source="corda" order="10" ecContribution="34335.95" terminated="false" sme="false" type="participant">
+      <organization netEcContribution="34335.95" totalCost="34335.95" source="corda" order="10" ecContribution="34335.95" terminated="true" sme="false" type="participant">
         <availableLanguages>en</availableLanguages>
         <rcn>1960778</rcn>
         <id>902054993</id>
@@ -162,7 +162,7 @@
           </regions>
         </relations>
       </organization>
-      <organization netEcContribution="1595.85" totalCost="1595.85" source="corda" order="9" ecContribution="1595.85" terminated="false" sme="false" type="participant">
+      <organization netEcContribution="1595.85" totalCost="1595.85" source="corda" order="9" ecContribution="1595.85" terminated="true" sme="false" type="participant">
         <availableLanguages>en</availableLanguages>
         <rcn>1906654</rcn>
         <id>999425533</id>
@@ -171,7 +171,7 @@
         <shortName>RENAULT SAS</shortName>
         <address>
           <street>122-122B AVENUE DU GENERAL LECLERC</street>
-          <city>Boulogne Billancourt</city>
+          <city>BOULOGNE BILLANCOURT</city>
           <postalCode>92100</postalCode>
           <country>FR</country>
           <postBox>000</postBox>
@@ -237,7 +237,7 @@
         <shortName>CEA</shortName>
         <address>
           <street>RUE LEBLANC  25</street>
-          <city>PARIS 15</city>
+          <city>Paris</city>
           <postalCode>75015</postalCode>
           <country>FR</country>
           <postBox>N/A</postBox>
@@ -489,7 +489,7 @@
         <legalName>SIEC BADAWCZA LUKASIEWICZ - POZNANSKI INSTYTUT TECHNOLOGICZNY</legalName>
         <address>
           <street>UL EWARYSTA ESTKOWSKIEGO 6</street>
-          <city>Poznan</city>
+          <city>POZNAN</city>
           <postalCode>61-755</postalCode>
           <country>PL</country>
           <geolocation>52.34864345,16.77593215258902</geolocation>
@@ -667,7 +667,7 @@
           </regions>
         </relations>
       </organization>
-      <organization netEcContribution="62351.25" totalCost="62351.25" source="corda" order="5" ecContribution="62351.25" terminated="false" sme="true" type="participant">
+      <organization netEcContribution="62351.25" totalCost="62351.25" source="corda" order="5" ecContribution="62351.25" terminated="true" sme="true" type="participant">
         <availableLanguages>en</availableLanguages>
         <rcn>1967320</rcn>
         <id>897707744</id>
@@ -865,7 +865,7 @@
         <shortName>Bax &amp; Company</shortName>
         <address>
           <street>CALLE CASP 116-118, 5</street>
-          <city>Barcelona</city>
+          <city>BARCELONA</city>
           <postalCode>08013</postalCode>
           <country>ES</country>
           <url>http://www.bwcv.es</url>
@@ -1418,6 +1418,51 @@
           </categories>
         </relations>
       </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1390312</rcn>
+        <id>101103706_6_DELIVHORIZON</id>
+        <title>Initial assessment of risks of the selected process steps</title>
+        <description>Report of the initial assessment of risks for the most critical process steps in order to identify measures to improve the process safety.</description>
+        <sourceUpdateDate>2025-11-10 13:03:02</sourceUpdateDate>
+        <contentUpdateDate>2025-11-18 08:14:32</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>e5934afdf62a34f1e384709c7b80563a</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e522feed63&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
     </associations>
     <categories>
       <category classification="collection" type="belongsTo">
@@ -1427,13 +1472,6 @@
         <title>Project</title>
         <description>Project factsheets</description>
         <displayCode>/Project</displayCode>
-      </category>
-      <category classification="euroSciVoc" type="isInFieldOfScience">
-        <language>en</language>
-        <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
-        <code>/23/53/373/1129</code>
-        <title>electric batteries</title>
-        <displayCode>/natural sciences/chemical sciences/electrochemistry/electric batteries</displayCode>
       </category>
       <category classification="policyPriorities" type="marker" weight="0">
         <language>en</language>

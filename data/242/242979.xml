@@ -25,7 +25,7 @@
   <sourceUpdateDate>2025-01-03 10:47:16</sourceUpdateDate>
   <contentCreationDate>2022-11-17 17:29:22</contentCreationDate>
   <contentUpdateDate>2022-11-17 17:29:08</contentUpdateDate>
-  <lastUpdateDate>2025-09-19 14:48:48</lastUpdateDate>
+  <lastUpdateDate>2025-11-27 08:04:15</lastUpdateDate>
   <relations>
     <associations>
       <article source="editorial" type="relatedArticle">
@@ -514,7 +514,7 @@
         <shortName>BIOVENDOR</shortName>
         <address>
           <street>KARASEK 1767/1</street>
-          <city>Brno</city>
+          <city>BRNO</city>
           <postalCode>621 00</postalCode>
           <country>CZ</country>
           <url>http://www.biovendor.com/</url>
@@ -765,7 +765,7 @@
         <shortName>BIOMEDICAL RESEARCH CENTER OF THE SLOVAK ACADEMY OF SCIENCES</shortName>
         <address>
           <street>DUBRAVSKA CESTA 9</street>
-          <city>Bratislava</city>
+          <city>BRATISLAVA</city>
           <postalCode>845 05</postalCode>
           <country>SK</country>
           <geolocation>48.167471,17.0715649</geolocation>
@@ -782,32 +782,11 @@
           </categories>
           <regions>
             <region type="relatedNutsCode">
-              <name>Bratislavský kraj</name>
-              <rcn>475004992</rcn>
-              <nutsCode>SK010</nutsCode>
-              <parents>
-                <region>
-                  <name>Bratislavský kraj</name>
-                  <rcn>475005032</rcn>
-                  <nutsCode>SK01</nutsCode>
-                  <parents>
-                    <region>
-                      <name>Slovensko</name>
-                      <rcn>475007528</rcn>
-                      <nutsCode>SK0</nutsCode>
-                      <parents>
-                        <region>
-                          <name>Slovakia</name>
-                          <rcn>475171368</rcn>
-                          <nutsCode>SK</nutsCode>
-                          <euCode>SK</euCode>
-                          <isoCode>SK</isoCode>
-                        </region>
-                      </parents>
-                    </region>
-                  </parents>
-                </region>
-              </parents>
+              <name>Slovakia</name>
+              <rcn>475171368</rcn>
+              <nutsCode>SK</nutsCode>
+              <euCode>SK</euCode>
+              <isoCode>SK</isoCode>
             </region>
             <region type="relatedRegion">
               <name>Slovakia</name>
@@ -1178,6 +1157,98 @@
         </identifiers>
         <sourceUpdateDate>2025-06-09 13:13:44</sourceUpdateDate>
         <contentUpdateDate>2025-07-29 09:38:40</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1386984</rcn>
+        <id>101087124_20_DELIVHORIZON</id>
+        <title>Interim Training and CDE Report and Plan</title>
+        <description>Report on the training and CDE activities of the previous period. Evaluation of the strategies and Plan for the upcoming period.</description>
+        <sourceUpdateDate>2025-11-07 07:45:43</sourceUpdateDate>
+        <contentUpdateDate>2025-11-10 18:15:53</contentUpdateDate>
+        <relations>
+          <associations>
+            <webLink source="corda" type="projectDeliverable">
+              <language>en</language>
+              <availableLanguages>en</availableLanguages>
+              <id>5a0487fee2e0ccc0d6e965b90348befb</id>
+              <physUrl>https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e516795c8e&amp;appId=PPGMS</physUrl>
+              <defaultLanguage>en</defaultLanguage>
+            </webLink>
+          </associations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/deliverable</code>
+              <title>Project deliverable</title>
+              <description>Result: Project deliverables</description>
+              <displayCode>/Project deliverable</displayCode>
+            </category>
+            <category classification="deliverableType" type="isDeliveredAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/R</code>
+              <title>Documents, reports</title>
+              <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1398892</rcn>
+        <id>101087124_271106_PUBLIHORIZON</id>
+        <title>Supervised aerobic-strength exercise reduces postural sway and improves dual-task gait in Parkinson’s disease</title>
+        <details>
+          <authors>Pavol Martiš, Diana Bzdúšková, Zuzana Košutzká, Lucia Slobodová, Igor Straka, Karin Marček Malenovská, Oksana Mytiai, Veronika Tirpáková, Patrik Konrády, Viera Litváková, Martin Turi Nagy, Zuzana Urbančík, Peter Valkovič, Jozef Ukropec, Barbara Ukropcová, Jana Kimijanová</authors>
+          <journalNumber>15</journalNumber>
+          <journalTitle>Scientific Reports</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2025</publishedYear>
+          <publisher>Springer Science and Business Media LLC</publisher>
+        </details>
+        <identifiers>
+          <issn>2045-2322</issn>
+          <doi>10.1038/S41598-025-07009-2</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-11-24 01:51:37</sourceUpdateDate>
+        <contentUpdateDate>2025-11-27 08:04:14</contentUpdateDate>
         <relations>
           <categories>
             <category classification="collection" type="belongsTo">
@@ -1687,6 +1758,53 @@
         </identifiers>
         <sourceUpdateDate>2025-04-15 01:27:45</sourceUpdateDate>
         <contentUpdateDate>2025-07-30 14:47:48</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/PEER_REVIEWED_ARTICLE</code>
+              <title>Peer reviewed articles</title>
+              <displayCode>/Peer reviewed articles</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1398890</rcn>
+        <id>101087124_271094_PUBLIHORIZON</id>
+        <title>14-3-3ζ protein prevents formation of GSK3β-phosphorylated Tau protein fibrils</title>
+        <details>
+          <authors>Gytis Kučinskas, Aneta Kozeleková, Kateřina Králová, Viliam Volko, Ondrej Šedo, Jozef Hritz</authors>
+          <journalNumber>330</journalNumber>
+          <journalTitle>International Journal of Biological Macromolecules</journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2025</publishedYear>
+          <publisher>Elsevier BV</publisher>
+        </details>
+        <identifiers>
+          <issn>0141-8130</issn>
+          <doi>10.1016/J.IJBIOMAC.2025.148222</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-11-24 01:51:37</sourceUpdateDate>
+        <contentUpdateDate>2025-11-27 08:04:14</contentUpdateDate>
         <relations>
           <categories>
             <category classification="collection" type="belongsTo">

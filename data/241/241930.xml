@@ -22,10 +22,10 @@
   <validation>
     <euroSciVoc>false</euroSciVoc>
   </validation>
-  <sourceUpdateDate>2025-08-04 12:52:04</sourceUpdateDate>
+  <sourceUpdateDate>2025-10-20 17:38:03</sourceUpdateDate>
   <contentCreationDate>2022-09-15 13:36:56</contentCreationDate>
-  <contentUpdateDate>2025-08-11 10:00:08</contentUpdateDate>
-  <lastUpdateDate>2025-09-19 14:48:40</lastUpdateDate>
+  <contentUpdateDate>2025-11-03 16:40:03</contentUpdateDate>
+  <lastUpdateDate>2025-11-25 08:46:05</lastUpdateDate>
   <relations>
     <associations>
       <article source="editorial" type="relatedArticle">
@@ -202,7 +202,7 @@
         <address>
           <street>DIONYSSOU 177</street>
           <city>MAROUSI ATHINA</city>
-          <postalCode>15 124</postalCode>
+          <postalCode>151 24</postalCode>
           <country>EL</country>
           <geolocation>38.0546653,23.8081533</geolocation>
         </address>
@@ -392,7 +392,7 @@
         <shortName>NIKOLA VAPTSAROV NAVAL ACADEMY</shortName>
         <address>
           <street>73 VASIL DRUMEV STREET</street>
-          <city>Varna</city>
+          <city>VARNA</city>
           <postalCode>9026</postalCode>
           <country>BG</country>
           <geolocation>43.2069025,27.9150855</geolocation>
@@ -409,32 +409,11 @@
           </categories>
           <regions>
             <region type="relatedNutsCode">
-              <name>Варна</name>
-              <rcn>188756161</rcn>
-              <nutsCode>BG331</nutsCode>
-              <parents>
-                <region>
-                  <name>Североизточен</name>
-                  <rcn>188756200</rcn>
-                  <nutsCode>BG33</nutsCode>
-                  <parents>
-                    <region>
-                      <name>Северна и Югоизточна България</name>
-                      <rcn>188758568</rcn>
-                      <nutsCode>BG3</nutsCode>
-                      <parents>
-                        <region>
-                          <name>Bulgaria</name>
-                          <rcn>188910120</rcn>
-                          <nutsCode>BG</nutsCode>
-                          <euCode>BG</euCode>
-                          <isoCode>BG</isoCode>
-                        </region>
-                      </parents>
-                    </region>
-                  </parents>
-                </region>
-              </parents>
+              <name>Bulgaria</name>
+              <rcn>188910120</rcn>
+              <nutsCode>BG</nutsCode>
+              <euCode>BG</euCode>
+              <isoCode>BG</isoCode>
             </region>
             <region type="relatedRegion">
               <name>Bulgaria</name>
@@ -750,7 +729,7 @@
         <shortName>ADDITESS</shortName>
         <address>
           <street>VYZANTIOU 40 3RD FLOOR FLAT OFFICE 303/304</street>
-          <city>Lefkosia</city>
+          <city>LEFKOSIA</city>
           <postalCode>2064</postalCode>
           <country>CY</country>
           <postBox>000</postBox>
@@ -1236,7 +1215,7 @@
         <legalName>SKYLD SECURITY AND DEFENCE LIMITED</legalName>
         <address>
           <street>ALKAIOU 23 -3RD FLOOR, EGKOMI</street>
-          <city>Nicosia</city>
+          <city>NICOSIA</city>
           <postalCode>2404</postalCode>
           <country>CY</country>
           <geolocation>35.118877749999996,33.25481342175094</geolocation>
@@ -1298,7 +1277,7 @@
         <legalName>COMMUNICATION AND INFORMATION SYSTEMS DIRECTORATE</legalName>
         <address>
           <street>SHESTI SEPTEMVRI N 29</street>
-          <city>Sofia</city>
+          <city>SOFIA</city>
           <postalCode>1000</postalCode>
           <country>BG</country>
           <geolocation>42.6978634,23.3221789</geolocation>
@@ -1645,6 +1624,52 @@
               <code>/R</code>
               <title>Documents, reports</title>
               <displayCode>/Documents, reports</displayCode>
+            </category>
+            <category classification="source" type="isProvidedBy">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/corda</code>
+              <title>CORDA</title>
+              <description>RTD research data warehouse</description>
+              <displayCode>/CORDA</displayCode>
+            </category>
+          </categories>
+        </relations>
+      </result>
+      <result type="relatedResult" source="corda">
+        <availableLanguages>en</availableLanguages>
+        <rcn>1354710</rcn>
+        <id>101073985_32062_PUBLIHORIZON</id>
+        <title>Requirements Reuse in Complex European Security Research Projects – a Border Management Perspective</title>
+        <details>
+          <authors>Laura Salmela, Jari Laarni, Antti Väätänen, Sirra Toivonen</authors>
+          <journalNumber></journalNumber>
+          <journalTitle></journalTitle>
+          <publishedPages></publishedPages>
+          <publishedYear>2024</publishedYear>
+          <publisher>Intelligent Human Systems Integration</publisher>
+        </details>
+        <identifiers>
+          <doi>10.54941/AHFE1004521</doi>
+        </identifiers>
+        <sourceUpdateDate>2025-04-15 01:27:45</sourceUpdateDate>
+        <contentUpdateDate>2025-11-25 08:46:03</contentUpdateDate>
+        <relations>
+          <categories>
+            <category classification="collection" type="belongsTo">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/publication</code>
+              <title>Project publication</title>
+              <description>Result: Project publications</description>
+              <displayCode>/Project publication</displayCode>
+            </category>
+            <category classification="projectPublication" type="isPublishedAs">
+              <language>en</language>
+              <availableLanguages>de,en,es,fr,it,pl</availableLanguages>
+              <code>/CONFERENCE_PROCEEDING</code>
+              <title>Conference proceedings</title>
+              <displayCode>/Conference proceedings</displayCode>
             </category>
             <category classification="source" type="isProvidedBy">
               <language>en</language>
